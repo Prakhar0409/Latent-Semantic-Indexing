@@ -1,0 +1,43 @@
+Ownership equity
+Accountant
+Bookkeeping
+Trial balance
+General ledger
+Debits and credits
+Cost of goods sold
+Double-entry system
+Standard practices
+Cash and accrual basis
+GAAP / IFRS
+Balance sheet
+Income statement
+Cash flow statement
+Ownership equity
+Retained earnings
+Financial audit
+GAAS
+Internal audit
+Sarbanes-Oxley Act
+Big Four auditors
+Cost • Financial • Forensic
+Fund • Management • Tax
+In accounting terms, after all liabilities are paid, ownership equity is the remaining interest in assets. If valuations placed on assets do not exceed liabilities, negative equity exists.
+Shareholders' equity (or stockholders' equity, shareholders' funds, shareholders' capital employed) is this interest in remaining assets, spread among individual shareholders of common or preferred stock.
+At the start of a business, owners put some funding into the business to finance assets. Businesses can be considered to be, for accounting purposes, sums of liabilities and assets; this is the accounting equation. After liabilities have been accounted for, the positive remainder is deemed the owner's interest in the business.
+This definition is helpful when a business is not paying its bills and gets liquidated, wound up, put into receivership or bankruptcy. Then, a series of creditors, ranked in priority sequence, have the first claim on the proceeds (e.g. asset sales), and ownership equity is the last or residual claim against assets, paid only after all other creditors are paid. In such a case, creditors may not get enough money to pay their bills, and nothing is left over to reimburse owners' equity. Thus owners' equity is reduced to zero. Ownership equity is also known as risk capital, liable capital and equity.
+
+In financial accounting, it is the owners' interest in the assets of the enterprise after deducting all its liabilities.[1] It appears on the balance sheet, one of four financial statements.
+Ownership equity includes both tangible and intangible items (such as brand names and reputation). In contrast, book value includes only the tangible assets.
+Accounts listed under ownership equity include (example):
+
+The book value of equity will change in the case of the following events:
+
+When the owners are shareholders, the interest can be called shareholders' equity;[2] the accounting remains the same, and it is ownership equity spread out among shareholders. If all shareholders are in one and the same class, they share equally in ownership equity from all perspectives. However, shareholders may allow different priority ranking among themselves by the use of share classes, and options. This complicates both analysis for stock valuation, and accounting.
+The individual investor is interested not only in the total changes to equity, but also in the increase / decrease in the value of his own personal share of the equity. This reconciliation of equity should be done both in total and on a per share basis.
+
+In the stock market, market price per share does not correspond to the equity per share calculated in the accounting statements. Stock valuations, often much higher, are based on other considerations related to the business' operating cashflow, profits and future prospects; some factors are derived from the accounting statements. Thus, there is little or no correlation between the equity seen in financial statements and the stock valuation of the business.
+
+Individuals can also use market valuations to calculate equity in real estate. An owner refers to his or her equity in a property as the difference between the market price of a property and the liability attached to the property (mortgage or home equity loan).
+
+
+

@@ -1,0 +1,25 @@
+Anatomical Therapeutic Chemical Classification System
+The Anatomical Therapeutic Chemical (ATC) Classification System is used for the classification of drugs. It is controlled by the WHO Collaborating Centre for Drug Statistics Methodology, and was first published in 1976.[1]
+The classification system divides drugs into different groups according to the organ or system on which they act and/or their therapeutic and chemical characteristics.
+
+In this system, drugs are classified into groups at 5 different levels:[1]
+
+The first level of the code indicates the anatomical main group and consists of one letter. There are 14 main groups:[2]
+
+The second level of the code indicates the therapeutic main group and consists of two digits.
+Example: C03 Diuretics
+
+The third level of the code indicates the therapeutic/pharmacological subgroup and consists of one letter.
+Example: C03C High-ceiling diuretics
+
+The fourth level of the code indicates the chemical/therapeutic/pharmacological subgroup and consists of one letter.
+Example: C03CA Sulfonamides
+
+The fifth level of the code indicates the chemical substance and consists of two digits.
+Example: C03CA01 Furosemide
+
+The ATCvet system is used to classify veterinary drugs. ATCvet codes can be created by placing the letter Q in front of the ATC code of a human medication. For example, furosemide for veterinary use has the code QC03CA01.
+Some codes are used exclusively for veterinary drugs, like QI Immunologicals or QJ51 Antibacterials for intramammary use.[3]
+
+
+Antihypertensives â€¢ Diuretics â€¢ Vasodilators â€¢ Beta blockers â€¢ Calcium channel blockers â€¢ renin-angiotensin system (ACE inhibitors, Angiotensin II receptor antagonists, Renin inhibitors)

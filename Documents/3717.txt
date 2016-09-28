@@ -1,0 +1,12 @@
+Enterprise portal
+An enterprise portal, also known as an enterprise information portal (EIP) or corporate portal, is a framework for integrating information, people and processes across organizational boundaries. It provides a secure unified access point,[1] often in the form of a web-based user interface, and is designed to aggregate and personalize information through application-specific portlets. One hallmark of enterprise portals is the de-centralized content contribution and content management, which keeps the information always updated.
+
+The mid-1990s saw the advent of public Web portals like AltaVista, AOL, Excite, and Yahoo!. These sites provided a key set of features (e.g., news, e-mail, weather, stock quotes, and search) that were often presented in self-contained boxes or portlets. Before long, enterprises of all sizes began to see a need for a similar starting place for their variety of internal repositories and applications, many of which were migrating to Web-based technologies.[2]
+By the late 1990s, software vendors began to produce prepackaged enterprise portals. These software packages would be toolkits for enterprises to quickly develop and deploy their own customized enterprise portal. The first commercial portal software vendor began to appear in 1998. Pioneers in this marketing included "pure play" vendors like Epicentric, Plumtree Software and Viador. The space, however, quickly became crowded by 2002 as both application server vendors (such as BEA, IBM, Passageways, Oracle Corporation and Sun Microsystems) who saw portals as a opportunity to stave off the commoditization of application server technology as well as Business Intelligence vendors began to enter the market with competing product offerings.
+Enterprises may choose to develop multiple enterprise portals based on business structure and strategic focus while reusing architectural frameworks, component libraries, or standardized project methodologies (e.g. B2E, B2C, B2B, B2G, etc.).
+In 2003, vendors of Java-based enterprise portals produced a standard known as JSR-168. It was to specify an API for interoperability between enterprise portals and portlets. Software vendors began producing JSR-168 compliant portlets that can be deployed onto any JSR-168 compliant enterprise portal. The second iteration of the standard, JSR-286, is final-released on 12 Jun, 2008.
+
+
+
+
+

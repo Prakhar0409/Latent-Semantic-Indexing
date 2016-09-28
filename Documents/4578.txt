@@ -1,0 +1,71 @@
+Exponential function
+The exponential function is a function in mathematics. The application of this function to a value x is written as exp(x). Equivalently, this can be written in the form ex, where e is the mathematical constant that is the base of the natural logarithm (approximately 2.718281828) and that is also known as Euler's number.
+As a function of the real variable x, the graph of y = ex is always positive (above the x axis) and increasing (viewed left-to-right). It never touches the x axis, although it gets arbitrarily close to it (thus, the x axis is a horizontal asymptote to the graph). Its inverse function, the natural logarithm, ln(x), is defined for all positive x. In older sources it is often referred as an anti-logarithm which is the inverse function of a logarithm.
+Sometimes, especially in the sciences, the term exponential function is more generally used for functions of the form cbx, where b, called the base, is any positive real number, not necessarily e. See exponential growth for this usage.
+In general, the variable x can be any real or complex number, or even an entirely different kind of mathematical object; see the formal definition below.
+
+The exponential function is written as an exponentiation of the mathematical constant e because it is equal to e when applied to 1 and obeys the basic exponentiation identity, that is:
+It is the unique continuous function satisfying these identities for real number exponents. Because of this it can be used to define exponentiation to a non rational exponent.
+The exponential function has an analytic continuation which is an entire function, that is it has no singularity over the whole complex plane. The occurrence of the exponential function in Euler's formula gives it a central place when working with complex numbers. The definition has been usefully extended to some non-numeric exponents, for instance as the matrix exponential or the exponential map.
+There are a number of other characterizations of the exponential function. The one which mainly leads to its pervasive use in mathematics is as the function for which the rate of change is equal to its value, and which is 1 at 0. In the general case where the rate of change is directly proportional (rather than equal) to the value the resulting function can be expressed using the exponential function as follows:
+gives
+If b�=�ek then this has the form cbx. Exponentiation with a general base b as in bx (called the exponential function with base b) is defined using the exponential function and its inverse the natural logarithm as follows:
+Its use in science is described in exponential growth and exponential decay.
+
+The exponential function ex can be defined, in a variety of equivalent ways, as an infinite series. In particular it may be defined by a power series:
+Note that this definition has the form of a Taylor series. Using an alternate definition for the exponential function should lead to the same result when expanded as a Taylor series.
+Less commonly, ex is defined as the solution y to the equation
+It is also the following limit:
+The error term of this limit-expression is described by
+where, the polynomial's degree (in x) in the nominator with denominator nk is 2k.
+
+The importance of exponential functions in mathematics and the sciences stems mainly from properties of their derivatives. In particular,
+That is, ex is its own derivative and hence is a simple example of a pfaffian function. Functions of the form Kex for constant K are the only functions with that property. (This follows from the Picard-Lindelöf theorem, with y(t) = et, y(0)=K and f(t,y(t)) = y(t).) Other ways of saying the same thing include:
+In fact, many differential equations give rise to exponential functions, including the Schrödinger equation and Laplace's equation as well as the equations for simple harmonic motion.
+For exponential functions with other bases:
+A proof being,
+Thus, any exponential function is a constant multiple of its own derivative.
+If a variable's growth or decay rate is proportional to its size — as is the case in unlimited population growth (see Malthusian catastrophe), continuously compounded interest, or radioactive decay — then the variable can be written as a constant times an exponential function of time.
+Furthermore for any differentiable function f(x), we find, by the chain rule:
+
+Via Euler's identity:
+More advanced techniques are necessary to construct the following:
+Setting m = x and n = 2 yields
+
+As in the real case, the exponential function can be defined on the complex plane in several equivalent forms. Some of these definitions mirror the formulas for the real-valued exponential function. Specifically, one can still use the power series definition, where the real value is replaced by a complex one:
+Using this definition, it is easy to show why  holds in the complex plane.
+Another definition extends the real exponential function. First, we state the desired property ex + iy = exeiy. For ex we use the real exponential function. We then proceed by defining only: eiy = cos(y) + isin(y). Thus we use the real definition rather than ignore it.[1]
+When considered as a function defined on the complex plane, the exponential function retains the important properties
+for all z and w.
+It is a holomorphic function which is periodic with imaginary period  and can be written as
+where a and b are real values. This formula connects the exponential function with the trigonometric functions and to the hyperbolic functions. Thus we see that all elementary functions except for the polynomials spring from the exponential function in one way or another.
+See also Euler's formula.
+Extending the natural logarithm to complex arguments yields a multi-valued function, ln(z). We can then define a more general exponentiation:
+for all complex numbers z and w. This is also a multi-valued function. The above stated exponential laws remain true if interpreted properly as statements about multi-valued functions. Because it is multi-valued the rule about multiplying exponents for positive real numbers doesn't work in general:
+See failure of power and logarithm identities for more about problems with combining powers.
+The exponential function maps any line in the complex plane to a logarithmic spiral in the complex plane with the center at the origin. Two special cases might be noted: when the original line is parallel to the real axis, the resulting spiral never closes in on itself; when the original line is parallel to the imaginary axis, the resulting spiral is a circle of some radius.
+z = Re(ex+iy)
+z = Im(ex+iy)
+z = |ex+iy|
+
+This is fairly straightforward given the formula
+Note that the argument y to the trigonometric functions is real.
+
+Complex exponentiation ab can be defined by converting a to polar coordinates and using the identity (eln(a))b = ab:
+However, when b is not an integer, this function is multivalued, because θ is not unique (see failure of power and logarithm identities).
+
+The definition of the exponential function given above can be used verbatim for every Banach algebra, and in particular for square matrices (in which case the function is called the matrix exponential). In this case we have
+In the context of non-commutative Banach algebras, such as algebras of matrices or operators on Banach or Hilbert spaces, the exponential function is often considered as a function of a real argument:
+where A is a fixed element of the algebra and t is any real number. This function has the important properties
+
+The exponential map sending a Lie algebra to the Lie group that gave rise to it shares the above properties, which explains the terminology. In fact, since R is the Lie algebra of the Lie group of all positive real numbers with multiplication, the ordinary exponential function for real arguments is a special case of the Lie algebra situation. Similarly, since the Lie algebra M (n, R) of all square real matrices belongs to the Lie group of all invertible square matrices, the exponential function for square matrices is a special case of the Lie algebra exponential map. In general, when the argument of the exponential function is noncommutative, the formula is given explicitly by the Baker-Campbell-Hausdorff formula.
+
+The term double exponential function can have two meanings:
+Factorials grow faster than exponential functions, but slower than double-exponential functions. Fermat numbers, generated by  and double Mersenne numbers generated by  are examples of double exponential functions.
+
+The function ez is not in C(z) (ie. not the quotient of two polynomials with complex coefficients).
+For n distinct complex numbers {a1,..., an}, {ea1z,..., eanz} is linearly independent over C(z).
+The function ez is transcendental over C(z).
+
+
+

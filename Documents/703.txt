@@ -1,0 +1,10 @@
+Sysprep
+Sysprep is the name of Microsoft's System Preparation Utility for Microsoft Windows operating system deployment.
+
+Sysprep was originally introduced for use with Windows NT 4.0. Later versions introduced for Windows 2000 and Windows XP are available for download from Microsoft and included in the Windows CD. Windows Vista marks the first version of Microsoft's NT operating system to include a hardware abstraction layer (HAL) independent version of Sysprep in the "out of box" installation.
+
+Desktop deployment is typically performed via disk cloning applications. Sysprep can be used to prepare an operating system for disk cloning and restoration via a disk image.
+Windows operating system installations include many unique elements per installation that need to be "generalized" before capturing and deploying a disk image to multiple computers. Some of these elements include:
+Sysprep seeks to solve these issues by allowing for the generation of new computer names, unique SIDs, and custom driver cache databases during the Sysprep process.
+Administrators can use tools such as SetupMgr.exe (Windows XP) or System Image Manager (Windows Vista) to generate answer files that Sysprep will process on new computer deployments.
+

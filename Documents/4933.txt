@@ -1,0 +1,17 @@
+Sampling rate
+The sampling rate, sample rate, or sampling frequency defines the number of samples per second (or per other unit) taken from a continuous signal to make a discrete signal. For time-domain signals, it can be measured in hertz (Hz). The inverse of the sampling frequency is the sampling period or sampling interval, which is the time between samples.[1]
+The concept of sampling frequency can only be applied to samplers in which samples are taken periodically. Some samplers may sample at a non-periodic rate.
+The common notation for sampling frequency is fs which stands for frequency (subscript) sampled.
+
+The Nyquist–Shannon sampling theorem states that perfect reconstruction of a signal is possible when the sampling frequency is greater than twice the maximum frequency of the signal being sampled,[2] or equivalently, when the Nyquist frequency (half the sample rate) exceeds the highest frequency of the signal being sampled. If lower sampling rates are used, the original signal's information may not be completely recoverable from the sampled signal.
+For example, if a signal has an upper band limit of 100 Hz, a sampling frequency greater than 200 Hz will avoid aliasing and allow theoretically perfect reconstruction.
+
+In some cases, it is desirable to have a sampling frequency more than twice the desired system bandwidth so that a digital filter can be used in exchange for a weaker analog anti-aliasing filter. This process is known as oversampling.[3]
+
+In digital video, the temporal sampling rate is defined the frame/field rate, rather than the notional pixel clock. The image sampling frequency is the repetition rate of the sensor integration period. Since the integration period may be significantly shorter than the time between repetitions, the sampling frequency can be different from the inverse of the sample time.
+When analog video is converted to digital video, a different sampling process occurs, this time at the pixel frequency, corresponding to a spatial sampling rate along scan lines. Some common pixel sampling rates are:
+Spatial sampling in the other direction is determined by the spacing of scan lines in the raster. The sampling rates and resolutions in both spatial directions can be measured in units of lines per picture height.
+Spatial aliasing of high-frequency luma or chroma video components shows up as a moiré pattern.
+
+
+

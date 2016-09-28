@@ -1,0 +1,8 @@
+Comparison of file managers
+The following tables compare general and technical information for a number of file managers.
+
+Basic general information about the managers: creator/company etc.
+KDE 4.1
+
+
+The operating systems the file managers can run on without emulation.

@@ -1,0 +1,44 @@
+42 (number)
+‚Üê 40 41 42 43 44 45 46 47 48 49 ‚Üí
+List of numbers ‚Äî Integers
+0 10 20 30 40 50 60 70 80 90 ‚Üí
+42 (forty-two) is the natural number following 41 and preceding 43.
+
+
+Forty-two is an abundant number; its factorization 2†¬∑†3†¬∑†7 makes it the second sphenic number and also the second of the form {†2 ¬∑†3†¬∑†r†}. As with all sphenic numbers of this form, the aliquot sum is abundant by 12. 42 is also the second sphenic number to be bracketed by twin primes; 30 also rests between two primes. 42 has a 14 member aliquot sequence 42, 54, 66, 78, 90, 144, 259, 45, 33, 15, 9, 4, 3, 1, 0 and is itself part of the aliquot sequence commencing with the first sphenic number 30. Further, 42 is the 10th member of the 3-aliquot tree.
+
+
+42 is the product of the first three terms of Sylvester's sequence; like the first four such numbers it is also a primary pseudoperfect number.
+It is the sum of the totient function for the first eleven integers.
+It is a Catalan number. Consequently, 42 is the number of noncrossing partitions of a set of five elements, the number of triangulations of a heptagon, the number of rooted ordered binary trees with six leaves, the number of ways in which five pairs of nested parentheses can be arranged, etc.
+It is the reciprocal of a Bernoulli number.
+It is conjectured to be the scaling factor in the leading order term of the "sixth moment of the Riemann zeta function". In particular, Conrey & Ghosh have conjectured
+where the infinite product is over all prime numbers, p.[1][2]
+It is a pronic number, and the third 15-gonal number. It is a meandric number and an open meandric number.
+Since the greatest prime factor of 422 + 1 = 1765 is 353 and thus more than 42 twice, 42 is a St√∏rmer number.
+42 is a perfect score on the USA Math Olympiad (USAMO)[3] and International Mathematical Olympiad (IMO).[4]
+In base 10, this number is a Harshad number and a self number, while it is a repdigit in base 4 (as 222).
+The eight digits of pi beginning from 242,422 places after the decimal point are 42424242.
+Given 27 same-size cubes whose nominal values progress from 1 to 27, a 3√ó3√ó3 "magic cube" can be constructed such that every row, column, and corridor, and every diagonal passing through the center, comprises 3 cubes whose sum of values is 42.
+
+
+
+The number 42 appears in various contexts in Christianity. There are 42 generations (names) in the Gospel of Matthew's version of the Genealogy of Jesus; it is prophesied that for 42 months the Beast will hold dominion over the Earth (Revelation 13:5); 42 men of Beth-azmaveth were counted in the census of men of Israel upon return from exile (Ezra 2:24); God sent bears to maul 42 of the youths who mock Elisha for his baldness (2 Kings 2:23), etc.
+42 also occurs in other religions. There are 42 principles of Ma'at, the Ancient Egyptian personification of physical and moral law, order, and truth. In the judgement scene described in the Egyptian and the Book of the Coming/Going Forth by Day (the Book of the Dead (which evolved from the Coffin Texts and the Pyramid Texts)), there are 42 Gods and Goddesses of Egypt, personifying the principles of Ma'at, who ask questions of the departed, while Thoth records the answers, and the deceased's heart is weighed against the feather of Truth (Ma'at). These 42 correspond to the 42 Nomes (Governmental Units) of Egypt. If the departed successfully answers all 42, s/he becomes an Osiris.
+In Judaism, the number (in the Babylonian Talmud, compiled 375 AD to 499 AD) of the "Forty-Two Lettered Name" ascribed to God. Rab (or Rabhs), a 3rd century source in the Talmud stated "The Forty-Two Lettered Name is entrusted only to him who is pious, meek, middle-aged, free from bad temper, sober, and not insistent on his rights". [Source: Talmud Kidduschin 71a, Translated by Rabbi Dr. I. Epstein]. Maimonides felt that the original Talmudic Forty-Two Lettered Name was perhaps composed of several combined divine names [Maimonides "Moreh"]. The apparently unpronouncable Tetragrammaton provides the backdrop from the Twelve-Lettered Name and the Forty-Two Lettered Name of the Talmud.
+42 is the number with which God creates the Universe in Kabalistic tradition. In Kabbalah, the most significant name is that of the En Sof (also known as "Ein Sof", "Infinite" or "Endless"), who is above the Sefirot (sometimes spelled "Sephirot").[7] The Forty-Two-Lettered Name contains four combined names which are spelled in Hebrew letters (spelled in letters = 42 letters), which is the name of Azilut (or "Atziluth" "Animation"). While there are obvious links between the Forty-Two Lettered Name of the Babylonian Talmud (see further up this page) and the Kabbalah's Forty-Two Lettered Name, they are probably not identical due to the Kabbalah's emphasis on numbers. The Kabbalah also contains a Forty-Five Lettered Name and a Seventy-Two Lettered Name.
+
+
+Many occurrences of the number 42 in pop culture can be attributed as an homage to Douglas Adams' book The Hitchhiker's Guide to the Galaxy, in which the number 42 is The Answer to the Ultimate Question of Life, the Universe, and Everything. According to the fifth Hitchhiker volume, Mostly Harmless, 42 is the location of Stavromula Beta. Thus, 42 may be the world's longest written riddle, since the riddle of the question to the answer was raised in the first volume, and not answered until the final page of the fifth, and then passes unnoticed by the story's ever-bumbling characters. Douglas later (1994) created the 42 Puzzle, a game based on the number 42.
+
+Since Adams' book, people have looked for and found 42 in older literature, such as Shakespeare's plays and Carroll's Alice, which has 42 illustrations. In Chapter XII, the king explains "the oldest rule in the book": "Rule Forty-two. All persons more than a mile high [are] to leave the court". Carroll also uses the number in a line in The Hunting of the Snark†: "He had forty-two boxes, all carefully packed..."
+The first book to be printed with movable type, the Gutenberg Bible, is also known as the '42-line Bible', after the number of lines of print on each page.
+In The Property of a Lady from Octopussy (the earlier editions of the three-part short story book included this story), James Bond (a character created by Ian Fleming) attended an auction to identify a top KGB spy. This spy was to raise the value of a Faberg√© egg so that his female double agent working in MI5 (The British Secret Service) would get more money (as a way to monetarily pay her back for many years of service) from the sale of her (previously sent from Russia) Faberg√© egg. The lot number of the Faberg√© egg was 42.
+In Rudyard Kipling's "The Travels of Captain Ryalls", 42 is the age at which Michael Ryalls first enters the jungle from his comfortable home in London. He travels with a 42 inch tall bull named Regis.
+
+
+
+
+
+42 is a common magic number used by programmers:
+

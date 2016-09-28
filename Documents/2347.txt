@@ -1,0 +1,19 @@
+Earley parser
+The Earley parser is a type of chart parser mainly used for parsing in computational linguistics, named after its inventor, Jay Earley. The algorithm uses dynamic programming.
+Earley parsers are appealing because they can parse all context-free languages. The Earley parser executes in cubic time (O(n3), where n is the length of the parsed string) in the general case, quadratic time (O(n2)) for unambiguous grammars, and linear time for almost all LR(k) grammars. It performs particularly well when the rules are written left-recursively.
+
+In the following descriptions, α, β, and γ represent any string of terminals/nonterminals (including the empty string), X and Y represent single nonterminals, and a represents a terminal symbol.
+Earley's algorithm is a top-down dynamic programming algorithm. In the following, we use Earley's dot notation: given a production X → αβ, the notation X → α • β represents a condition in which α has already been parsed and β is expected.
+For every input position (which represents a position between tokens), the parser generates an ordered state set. Each state is a tuple (X → α • β, i), consisting of
+(Earley's original algorithm included a look-ahead in the state; later research showed this to have little practical effect on the parsing efficiency, and it has subsequently been dropped from most implementations.)
+The state set at input position k is called S(k). The parser is seeded with S(0) consisting of only the top-level rule. The parser then iteratively operates in three stages: prediction, scanning, and completion.
+These steps are repeated until no more states can be added to the set. The set is generally implemented as a queue of states to process (though a given state must appear in one place only), and performing the corresponding operation depending on what kind of state it is.
+
+Consider the following simple grammar for arithmetic expressions:
+With the input:
+This is the sequence of state sets:
+The state (P → S •, 0) represents a completed parse. This state also appears in S(3) and S(1), which are complete sentences.
+
+
+
+

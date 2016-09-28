@@ -1,0 +1,48 @@
+Pun
+A pun, or paronomasia, is a form of word play that deliberately exploits ambiguity between similar-sounding words for humorous or rhetorical effect.[1] Such ambiguity may arise from the intentional misuse of homophonical, homographical, homonymic, polysemic, metonymic, or metaphorical language.
+By definition, puns must be deliberate; an involuntary substitution of similar words is called a malapropism.
+Samuel Johnson disparagingly referred to punning as "the lowest form of humour".[2] Punning has been used by writers such as Alexander Pope,[2] James Joyce,[2] Vladimir Nabokov,[2] William Shakespeare (who is estimated to have used over 3,000 puns in his plays),[citation needed] John Donne, and Lewis Carroll.
+
+According to Walter Redfern, "To pun is to treat homonyms as synonyms".[3] Henri Bergson defined a pun as a sentence or utterance in which "two different sets of ideas are expressed, and we are confronted with only one series of words".[4] Richard J. Alexander outlined the three forms which puns may take as graphological puns; such as Concrete poetry; phonological; such as homophonic puns; and morphological puns, such as a Portmanteau.[5]
+
+The word pun has been used in English at least since 1550.[2] It is thought to be originally a contraction of the (now archaic) pundigrion. This term is thought to have originated from punctilious, which itself derived from the Italian puntiglio, diminutive of punto, "point", from the Latin punctus, past participle of pungere, "to prick". These etymological sources are reported in the Oxford English Dictionary, which labels them "conjecture".
+
+Puns can be classified in various ways. A homophonic pun exploits word pairs that sound exactly alike (perfect homophones), but are not synonymous.[citation needed] For example, the statement "Atheism is a non-prophet institution" substitutes the word "prophet" for its homophone "profit" in the common phrase "non-profit institution". Similarly, the joke "Question: Why do we still have troops in Germany? Answer: To keep the Slovaks in Czech" relies on the disparity of meaning between the non-synonymous but similar sounding words "check" and "Czech".
+A homographic pun exploits different words (or word meanings) which are spelled the same way, but possess different meanings.[citation needed] For example, the statement "Being in politics is just like playing golf: you are trapped in one bad lie after another" puns on the two meanings of the word lie as "a deliberate untruth" and as "the position in which something rests". An example which uses both homophonic and homographic punning would be Douglas Adams's line "You can tune a guitar, but you can't tuna fish. Unless of course, you play bass." The phrase exploits the homophonic qualities of "tune a" and "tuna", as well as the homographic pun on "bass", in which ambiguity is reached through the identical spelling of /beɪs/ (low frequency), and /bæs/ (a kind of fish). Homographic puns using words with the same spelling but different pronunciations, like "bass" above, are said to be heteronymic. Homographic puns are sometimes compared to the stylistic device antanaclasis, and homophonic puns to polyptoton; but these concepts are not identical.
+A compound pun is a sentence that contains two or more puns,[citation needed] such as�:"A man bought a cattle ranch for his sons and named it the 'Focus Ranch' because it was where the sons raise meat",[6] punning on the phonological similarity to "where the sun's rays meet". Other examples might include: "Sign in a golf-cart shop: "When drinking, don't drive. Don't even putt."" (Puns on "driving" and "putting" a golf ball, vs. "driving" a car or "putting" around in a golf cart); Punch line of a knock knock joke: Q: "Eskimo Christians who?" A: "Eskimo Christians Italian no lies." (Pun on the stock phrase "Ask me no questions, I'll tell you no lies".)
+A recursive pun is a sentence that contains a pun that refers to the similar sounding word:[citation needed], for example the statement "π is only half a pie." (Half a circle is 180 degrees or π radians, and a pie is circular).
+An extended pun or pun sequence is a long utterance that contains multiple puns with a common theme[citation needed].
+
+There are numerous pun formats:
+
+
+Puns are a common source of humor in jokes and comedy shows. They are often used in the punchline of a joke, where they typically give a humorous meaning to a rather perplexing story. These are also known as feghoots. The following example comes from the movie Master and Commander: The Far Side of the World (though the punchline is at least five decades[citation needed] older):
+The last line uses a pun on the stock phrase "the lesser of two evils".
+Gag names based on puns (such as calling a character who is always almost late Justin Thyme) can be found in many works, such as Shakespeare's Hamlet, Piers Anthony's Xanth novels, Uderzo and Goscinny's Asterix albums, The Eyre Affair, the Carmen Sandiego computer games, the Phoenix Wright visual novels, and many works of Spider Robinson, including the Callahan's Crosstime Saloon series.
+
+Examples of puns are found in the Bible (in both the Old and the New Testaments). A well-known example is found in the Matthew 16.18:
+Puns on the names of pharaohs of Egypt, found in Biblical literature, have been used to date historical events[citation needed].
+Non-humorous puns were and are a standard rhetorical or poetic device in English literature. Puns and other forms of word play have been used by many famous writers, such as Alexander Pope, James Joyce, Vladimir Nabokov, and Robert Bloch. Here is an example from Shakespeare's Richard III:
+Shakespeare was also noted for his frequent play with less serious puns, the "quibbles" of the sort that made Samuel Johnson complain, "A quibble is to Shakespeare what luminous vapours are to the traveller! he follows it to all adventures; it is sure to lead him out of his way, sure to engulf him in the mire. It has some malignant power over his mind, and its fascinations are irresistible."[7]
+In the poem A Hymn to God the Father, John Donne, married to Anne More, puns repeatedly on his own name (which is pronounced "Dun"). The verses
+can be interpreted as "God, when you have forgiven me this much, you are not finished/you do not have John Donne (safe yet), for I have more sins to confess." In the third stanza, having received assurance, counteracting his fears,
+(another Son/sun pun), he ends the poem
+Here are some additional examples:
+On the other hand, puns are despised by some authors and critics as being too "vulgar" or "childish". For example, Samuel Johnson once gave the definition "Pun (n.): the lowest form of humour".
+
+Puns are often used in advertisement as an attention-getting device:
+
+
+
+Visual puns, where one of the confounding words is replaced by a picture, are the basis of many logos, emblems, insignia, and other graphic symbols:
+In European heraldry, this technique is called canting arms. Visual puns are also common in Dutch gable stones as well as in certain cartoons such as Lost Consonants or The Far Side.
+
+The term punning is sometimes used in science to describe either unintentional muddled thinking or intentional deception where the same word is used with two subtly different meanings. In statistical contexts, for example, the word significant is usually assumed to mean "statistically significant", which has a precisely defined technical meaning. Using significant with the meaning "of practical significance" in such contexts would be a case of "punning" in this sense.
+In computer science, the term type punning refers to a programming technique that subverts or circumvents the type system of a programming language, by allowing a value of a certain type to be manipulated as a value of a different type.
+
+Puns and punning have often been the subject of puns:
+
+Here are some notable quotes about puns:
+
+
+

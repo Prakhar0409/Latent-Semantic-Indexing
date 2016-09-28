@@ -1,0 +1,17 @@
+Discount rate
+The discount rate is an interest rate a central bank charges depository institutions that borrow reserves from it.
+The term discount rate has two meanings:
+
+
+The annual effective discount rate is the annual interest divided by the capital including that interest, which is the interest rate divided by 100% plus the interest rate. It is the annual discount factor to be applied to the future cash flow, to find the discount, subtracted from a future value to find the value one year earlier.
+For example, suppose there is a government bond that sells for $95 and pays $100 in a year's time. The discount rate according the given definition is
+The interest rate is calculated using 95 as its base:
+For every annual effective interest rate, there is a corresponding annual effective discount rate, given by the following formula:
+or inversely,
+where the approximations apply for small i and d; in fact i - d = id.
+See also notation of interest rates.
+
+Businesses need to consider the discount rate when deciding whether to spend some of their profits on buying a new piece of equipment, or whether to give the profit back to their shareholders. In an ideal world, they would only buy a piece of equipment if the shareholders would get a bigger profit later. The amount of extra profit that a shareholder requires in the future in order to prefer that the company buy the equipment rather than giving them the profit now is based on the shareholder's discount rate. There is a widely used way of estimating shareholder's discount rates using share price data. It is known as the capital asset pricing model. Businesses normally apply this discount rate to their decisions about purchasing equipment by calculating the net present value of the decision.
+
+
+

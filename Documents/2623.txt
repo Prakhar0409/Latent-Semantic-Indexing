@@ -1,0 +1,16 @@
+Oracle Corporation
+Database Products
+
+Middleware Products
+
+Application Products
+Oracle Corporation (NASDAQ: ORCL) specializes in developing and marketing enterprise software products â€” particularly database management systems. Through organic growth and a number of high-profile acquisitions, Oracle enlarged its share of the software market. By 2007 Oracle ranked third on the list of largest software companies in the world, after Microsoft and IBM.[2] Subsequently it became larger than IBM after its acquisition of Hyperion and BEA.
+The corporation has arguably become best-known due to association with its flagship Oracle database. The company also builds tools for database development, middle-tier software, enterprise resource planning software (ERP), customer relationship management software (CRM) and supply chain management (SCM) software.
+The founder and CEO of Oracle Corporation, Larry Ellison, has served as Oracle's CEO throughout the company's history. Ellison also served as the Chairman of the Board until his replacement by Jeffrey O. Henley in 2004. Ellison retains his role as CEO.
+Ellison took inspiration[citation needed] from the 1970 paper written by Edgar F. Codd on relational database systems named "A Relational Model of Data for Large Shared Data Banks".[3] He had heard about the IBM System R database from an article in the IBM Research Journal provided by Ed Oates (a future co-founder of Oracle Corporation). System R also derived from Codd's theories, and Ellison wanted to make his Oracle product compatible with System R, but IBM stopped this by keeping the error codes for their DBMS secret. Ellison co-founded Oracle Corporation in 1977 under the name Software Development Laboratories (SDL). In 1979 SDL changed its name to Relational Software, Inc. (RSI). In 1982, RSI renamed itself as Oracle Systems[4] to align itself more closely with its flagship product Oracle Database. At this stage Robert Miner served as the company's senior programmer.
+
+
+
+
+As became apparent with the acquisition of PeopleSoft in January 2005, Oracle has made acquisitions an important component of its growth strategy.
+

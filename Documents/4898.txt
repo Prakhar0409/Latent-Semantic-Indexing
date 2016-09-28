@@ -1,0 +1,22 @@
+Fibonacci
+Leonardo of Pisa (c. 1170 â€“ c. 1250), also known as Leonardo Pisano, Leonardo Bonacci, Leonardo Fibonacci, or, most commonly, simply Fibonacci, was an Italian mathematician, considered by some "the most talented mathematician of the Middle Ages".[1]
+Fibonacci is best known to the modern world for:[2]
+
+Leonardo was born in Pisa, Italy in about 1170. His father Guglielmo was nicknamed Bonaccio ("good natured" or "simple"). Leonardo's mother, Alessandra, died when he was nine years old. Leonardo was posthumously given the nickname Fibonacci (derived from filius Bonacci, meaning son of Bonaccio).[4]
+Guglielmo directed a trading post (by some accounts he was the consultant for Pisa) in Bugia, a port east of Algiers in the Almohad dynasty's sultanate in North Africa (now Bejaia, Algeria). As a young boy, Leonardo traveled there to help him. This is where he learned about the Hindu-Arabic numeral system.
+Recognizing that arithmetic with Hindu-Arabic numerals is simpler and more efficient than with Roman numerals, Fibonacci traveled throughout the Mediterranean world to study under the leading Arab mathematicians of the time. Leonardo returned from his travels around 1200. In 1202, at age 32, he published what he had learned in Liber Abaci (Book of Abacus or Book of Calculation), and thereby introduced Hindu-Arabic numerals to Europe.
+Leonardo became an amicable guest of the Emperor Frederick II, who enjoyed mathematics and science. In 1240 the Republic of Pisa honoured Leonardo, referred to as Leonardo Bigollo,[5] by granting him a salary.
+In the 19th century, a statue of Fibonacci was constructed and erected in Pisa. Today it is located in the western gallery of the Camposanto, historical cemetery on the Piazza dei Miracoli.[6]
+
+In the Liber Abaci (1202), Fibonacci introduces the so-called modus Indorum (method of the Indians), today known as Arabic numerals (Sigler 2003; Grimm 1973). The book advocated numeration with the digits 0â€“9 and place value. The book showed the practical importance of the new numeral system, using lattice multiplication and Egyptian fractions, by applying it to commercial bookkeeping, conversion of weights and measures, the calculation of interest, money-changing, and other applications. The book was well received throughout educated Europe and had a profound impact on European thought.
+Liber Abaci also posed, and solved, a problem involving the growth of a hypothetical population of rabbits based on idealized assumptions. The solution, generation by generation, was a sequence of numbers later known as Fibonacci numbers. The number sequence was known to Indian mathematicians as early as the 6th century, but it was Fibonacci's Liber Abaci that introduced it to the West.
+
+In the Fibonacci sequence of numbers, each number is the sum of the previous two numbers, starting with 0 and 1. Thus the sequence begins 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610 etc.
+The higher up in the sequence, the closer two consecutive "Fibonacci numbers" of the sequence divided by each other will approach the golden ratio (approximately 1 : 1.618 or 0.618 : 1).
+The golden ratio was used widely in the Renaissance in paintings.
+
+
+
+
+
+

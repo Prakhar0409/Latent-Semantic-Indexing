@@ -1,0 +1,23 @@
+Planogram
+A planogram is a diagram of fixtures and products that illustrates how and where retail products should be displayed, usually on a store shelf in order to increase customer purchases[1][2]. They may also be referred to as plano-grams, plan-o-grams, schematics (archaic) or POGs.
+
+A planogram is often received before a product reaches a store, and is useful when a retailer wants multiple store displays to have the same look and feel. Often a consumer packaged goods manufacturer will release a new suggested planogram with their new product, to show how it relates to existing products in said category. Today, planograms are used in a variety of retail areas. A planogram defines which product is placed in which area of a shelving unit and with which quantity. The rules and theories for the creation of a planogram are set under the term of merchandising.
+Planograms differ significantly by retail sector. Fast-moving consumer goods organizations and supermarkets largely use text and box based planograms that optimise shelf space, inventory turns, and profit margins. Apparel brands and retailers are more focused on presentation and use pictorial planograms that illustrate "the look" and also identify each product.
+
+Primary targets which should be achieved with planograms:
+In short, the primary targets can be summarised with a turnover and profit increase.
+The visual product placement is supported from different theories:
+Next to the visual placement the commercial placement is the other important pillar of a planogram. Here the question has to be answered which products should be placed. Two factors for the decision-making process can be differentiated.
+Market share placement means the placement of turnover bringers. Different market research institutes like Nielsen, IMS are collecting turnover data of all kind of products and calculate from this data the market share of a certain product in its market segment. With the help of this data products can be selected which should appear in a shelving unit in a “A” location. A simple calculation of turnover data from a single store is better than nothing for this purpose however it would be better to use data from a group of stores.
+The margin placement is influenced from the margin a product brings. The higher the margin is of a product the better the location should be where it is placed.
+
+Derivative targets:
+
+Planograms are created with the help of a planograming software. Worldwide only few producers of this kind of software exist (see the link below) which may also be responsible for the hefty price tag of this kind of software during past. Most planograming software were produced during last 15 years. Due to hard- and software limitations at this time this kind of software is based on manual painting of shelving units. This results usually in a high need of human resource to create planograms for stores.
+During the last years some software packages got some enhancements to transfer some parts of shelving elements to single store measurements which according to the producers should increase the efficiency (Apollo/Galleria/Spaceman/JDA). Small software packages on a lower price level can be used for a creation / drawing of shelving units with some basic features of planograming (Shelf Logic /Planographics /Smartdraw). Other software producers are concentrating on the visualisation process which heavily increased the nice look of planograms (3D) (ACTISKU 3D / JDA / Intactix). There are also some new developments which primarily have the task to optimise the creation of planograms and the visualisation possibilities of how the product is placed (blocks/magnetic lines) (Quant/ADW:D Apollo Designer Workstation: Desktop).
+Leading retailers are beginning to automate the creation of store specific planograms, through use of corporate level business rules and constraints describing best practice product placements. Such planogramming solutions allow these companies to respond with location and language-specific messaging, pricing, and product placements based on business rules derived from location, campaign, and fixture attributes. (RBM Technologies/ADW:E Apollo Designer Workstation: Enterprise)
+The future of planograms is to link them to the physical store layouts so that visual representations and reporting of inventory performance can be produced leading to better informed business decisions (RGIS StorPlanner / RBM Technologies).
+
+
+
+

@@ -1,0 +1,40 @@
+Multivibrator
+A multivibrator is an electronic circuit used to implement a variety of simple two-state systems such as oscillators, timers and flip-flops. It is characterized by two amplifying devices (transistors, electron tubes or other devices) cross-coupled by resistors and capacitors. The most common form is the astable or oscillating type, which generates a square wave—the high level of harmonics in its output is what gives the multivibrator its common name. The multivibrator originated as a vacuum tube (valve) circuit described by William Eccles and F.W. Jordan in 1919.
+There are three types of multivibrator circuit:
+In its simplest form the multivibrator circuit consists of two cross-coupled transistors. Using resistor-capacitor networks within the circuit to define the time periods of the unstable states, the various types may be implemented. Multivibrators find applications in a variety of systems where square waves or timed intervals are required. Simple circuits tend to be inaccurate since many factors affect their timing, so they are rarely used where very high precision is required.
+Before the advent of low-cost integrated circuits, chains of multivibrators found use as frequency dividers. A free-running multivibrator with a frequency of one-half to one-tenth of the reference frequency would accurately lock to the reference frequency. This technique was used in early electronic organs, to keep notes of different octaves accurately in tune. Other applications included early television systems, where the various line and frame frequencies were kept synchronized by pulses included in the video signal.
+
+This circuit shows a typical simple astable circuit, with an output from the collector of Q1, and an inverted output from the collector of Q2.
+Suggested values which will yield a frequency of about 0.24Hz:
+wk=1/(R*C) and w=2*pi*f, so f=(1/RC)/(2*pi)
+
+The circuit keeps one transistor switched on and the other switched off. Suppose that initially, Q1 is switched on and Q2 is switched off.
+State 1:
+When the base of Q2 reaches 0.6V, Q2 turns on, and the following positive feedback loop occurs:
+This now takes us to State 2, the mirror image of the initial state, where Q1 is switched off and Q2 is switched on. Then R1 rapidly pulls C1's left side toward +V, while R3 more slowly pulls C2's left side toward +0.6V. When C2's left side reaches 0.6V, the cycle repeats.
+
+The period of each half of the multivibrator is given by t = ln(2)RC. The total period of oscillation is given by:
+
+T = t1 + t2 = ln(2)R2 C1 + ln(2)R3 C2
+
+
+where...
+For the special case where
+
+
+
+When the circuit is first powered up, neither transistor will be switched on. However, this means that at this stage they will both have high base voltages and therefore a tendency to switch on, and inevitable slight asymmetries will mean that one of the transistors is first to switch on. This will quickly put the circuit into one of the above states, and oscillation will ensue. In practice, oscillation always occurs for practical values of R and C.
+However, if the circuit is temporarily held with both bases high, for longer than it takes for both capacitors to charge fully, then the circuit will remain in this stable state, with both bases at 0.6V, both collectors at 0V, and both capacitors charged backwards to -0.6V. This can occur at startup without external intervention, if R and C are both very small. For example, a 10 MHz oscillator of this type will often be unreliable. (Different oscillator designs, such as relaxation oscillators, are required at high frequencies.)
+
+Very roughly, the duration of state 1 (low output) will be related to the time constant R2*C1 as it depends on the charging of C1, and the duration of state 2 (high output) will be related to the time constant R3*C2 as it depends on the charging of C2. Because they do not need to be the same, an asymmetric duty cycle is easily achieved.
+However, the duration of each state also depends on the initial state of charge of the capacitor in question, and this in turn will depend on the amount of discharge during the previous state, which will also depend on the resistors used during discharge (R1 and R4) and also on the duration of the previous state, etc. The result is that when first powered up, the period will be quite long as the capacitors are initially fully discharged, but the period will quickly shorten and stabilise.
+The period will also depend on any current drawn from the output and on the supply voltage.
+
+While not fundamental to circuit operation, diodes connected in series with the base or emitter of the transistors are required to prevent the base-emitter junction being driven into breakdown when the supply voltage is in excess of the Veb breakdown voltage, typically around 7 volts for most silicon transistors. In the monostable configuration, only one of the transistors requires protection.
+
+When triggered by an input pulse, a monostable multivibrator will switch to its unstable position for a period of time, and then return to its stable state. The time period monostable multivibrator remains in unstable state is given by t = ln(2)*R2*C1. If repeated application of the input pulse maintains the circuit in the unstable state, it is called a retriggerable monostable. If further trigger pulses do not affect the period, the circuit is a non-retriggerable multivibrator.
+
+Suggested values:
+This circuit is similar to an astable multivibrator, except that there is no charge or discharge time, due to the absence of capacitors. Hence, when the circuit is switched on, if Q1 is on, its collector is at 0 V. As a result, Q2 gets switched off. This results in nearly +V volts being applied to base of Q1, thus keeping it on. Thus, the circuit remains stable in a single state continuously. Similarly, Q2 remains on continuously, if it happens to get switched on first.
+Switching of state can be done via Set and Reset terminals connected to the bases. For example, if Q2 is on and Set is grounded momentarily, this switches Q2 off, and makes Q1 on. Thus, Set is used to "set" Q1 on, and Reset is used to "reset" it to off state.
+

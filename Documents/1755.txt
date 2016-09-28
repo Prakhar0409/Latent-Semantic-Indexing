@@ -1,0 +1,83 @@
+Kalman filter
+The Kalman filter is an efficient recursive filter that estimates the state of a linear dynamic system from a series of noisy measurements. It is used in a wide range of engineering applications from radar to computer vision, and is an important topic in control theory and control systems engineering. Together with the linear-quadratic regulator (LQR), the Kalman filter solves the linear-quadratic-Gaussian control problem (LQG). The Kalman filter, the linear-quadratic regulator and the linear-quadratic-Gaussian controller are solutions to what probably are the most fundamental problems in control theory.
+
+An example application would be providing accurate, continuously updated information about the position and velocity of an object given only a sequence of observations about its position, each of which includes some error.
+For a similar, more concrete example, in a radar application, where one is interested in tracking a target, information about the location, speed, and acceleration of the target is measured at each time instant, with a great deal of corruption by noise. The Kalman filter exploits the dynamics of the target, which govern its time evolution, to remove the effects of the noise and get a good estimate of the location of the target at the present time (filtering), at a future time (prediction), or at a time in the past (interpolation or smoothing).
+
+The filter is named after Rudolf E. Kalman, though Thorvald Nicolai Thiele[1] and Peter Swerling developed a similar algorithm earlier. Stanley F. Schmidt is generally credited with developing the first implementation of a Kalman filter. It was during a visit of Kalman to the NASA Ames Research Center that he saw the applicability of his ideas to the problem of trajectory estimation for the Apollo program, leading to its incorporation in the Apollo navigation computer. The filter was developed in papers by Swerling (1958), Kalman (1960), and Kalman and Bucy (1961).
+The filter is sometimes called Stratonovich-Kalman-Bucy filter because it is a special case of a more general, non-linear filter developed earlier by Ruslan L. Stratonovich.[2][3] In fact, equations of the special case, linear filter appeared in these papers by Stratonovich that were published before summer 1960, when Kalman met with Stratonovich during a conference in Moscow.
+In control theory, the Kalman filter is most commonly referred to as linear quadratic estimation (LQE).
+A wide variety of Kalman filters have now been developed, from Kalman's original formulation, now called the simple Kalman filter, to Schmidt's extended filter, the information filter and a variety of square-root filters developed by Bierman, Thornton and many others. Perhaps the most commonly used type of Kalman filter is the phase-locked loop now ubiquitous in radios, computers, and nearly any other type of video or communications equipment.
+
+Kalman filters are based on linear dynamical systems discretised in the time domain. They are modelled on a Markov chain built on linear operators perturbed by Gaussian noise. The state of the system is represented as a vector of real numbers. At each discrete time increment, a linear operator is applied to the state to generate the new state, with some noise mixed in, and optionally some information from the controls on the system if they are known. Then, another linear operator mixed with more noise generates the visible outputs from the hidden state. The Kalman filter may be regarded as analogous to the hidden Markov model, with the key difference that the hidden state variables take values in a continuous space (as opposed to a discrete state space as in the hidden Markov model). Additionally, the hidden Markov model can represent an arbitrary distribution for the next value of the state variables, in contrast to the Gaussian noise model that is used for the Kalman filter. There is a strong duality between the equations of the Kalman Filter and those of the hidden Markov model. A review of this and other models is given in Roweis and Ghahramani (1999).[4]
+In order to use the Kalman filter to estimate the internal state of a process given only a sequence of noisy observations, one must model the process in accordance with the framework of the Kalman filter. This means specifying the matrices Fk, Hk, Qk, Rk, and sometimes Bk for each time-step k as described below.
+The Kalman filter model assumes the true state at time k is evolved from the state at (k âˆ’ 1) according to
+where
+At time k an observation (or measurement) zk of the true state xk is made according to
+where Hk is the observation model which maps the true state space into the observed space and vk is the observation noise which is assumed to be zero mean Gaussian white noise with covariance Rk.
+The initial state, and the noise vectors at each step {x0, w1, ..., wk, v1 ... vk} are all assumed to be mutually independent.
+Many real dynamical systems do not exactly fit this model; however, because the Kalman filter is designed to operate in the presence of noise, an approximate fit is often good enough for the filter to be very useful. Variations on the Kalman filter described below allow richer and more sophisticated models.
+
+The Kalman filter is a recursive estimator. This means that only the estimated state from the previous time step and the current measurement are needed to compute the estimate for the current state. In contrast to batch estimation techniques, no history of observations and/or estimates is required. It is unusual in being purely a time domain filter; most filters (for example, a low-pass filter) are formulated in the frequency domain and then transformed back to the time domain for implementation. In what follows, the notation  represents the estimate of  at time n given observations up to, and including time m.
+The state of the filter is represented by two variables:
+The Kalman filter has two distinct phases: Predict and Update. The predict phase uses the state estimate from the previous timestep to produce an estimate of the state at the current timestep. In the update phase, measurement information at the current timestep is used to refine this prediction to arrive at a new, (hopefully) more accurate state estimate, again for the current timestep.
+
+
+Predicted estimate covariance
+
+
+
+The formula for the updated estimate covariance above is only valid for the optimal Kalman gain. Usage of other gain values require a more complex formula found in the derivations section.
+
+If the model is accurate, and the values for  and  accurately reflect the distribution of the initial state values, then the following invariants are preserved: all estimates have mean error zero
+where E[Î¾] is the expected value of Î¾, and covariance matrices accurately reflect the covariance of estimates
+
+Consider a truck on perfectly frictionless, infinitely long straight rails. Initially the truck is stationary at position 0, but it is buffeted this way and that by random acceleration. We measure the position of the truck every Î”t seconds, but these measurements are imprecise; we want to maintain a model of where the truck is and what its velocity is. We show here how we derive the model from which we create our Kalman filter.
+There are no controls on the truck, so we ignore Bk and uk. Since F, H, R and Q are constant, their time indices are dropped.
+The position and velocity of the truck is described by the linear state space
+where  is the velocity, that is, the derivative of position with respect to time.
+We assume that between the (k âˆ’ 1)th and kth timestep the truck undergoes a constant acceleration of ak that is normally distributed, with mean 0 and standard deviation Ïƒa. From Newton's laws of motion we conclude that
+where
+and
+We find that
+At each time step, a noisy measurement of the true position of the truck is made. Let us suppose the noise is also normally distributed, with mean 0 and standard deviation Ïƒz.
+where
+and
+We know the initial starting state of the truck with perfect precision, so we initialize
+and to tell the filter that we know the exact position, we give it a zero covariance matrix:
+If the initial position and velocity are not known perfectly the covariance matrix should be initialized with a suitably large number, say B, on its diagonal.
+The filter will then prefer the information from the first measurements over the information already in the model.
+
+
+Starting with our invariant on the error covariance Pk|k as above
+substitute in the definition of 
+and substitute 
+and 
+and by collecting the error vectors we get
+Since the measurement error vk is uncorrelated with the other terms, this becomes
+by the properties of vector covariance this becomes
+which, using our invariant on Pk|k-1 and the definition of Rk becomes
+This formula (sometimes known as the "Joseph form" of the covariance update equation) is valid no matter what the value of Kk. It turns out that if Kk is the optimal Kalman gain, this can be simplified further as shown below.
+
+The Kalman filter is a minimum mean-square error estimator. The error in the posterior state estimation is
+We seek to minimize the expected value of the square of the magnitude of this vector, . This is equivalent to minimizing the trace of the posterior estimate covariance matrix . By expanding out the terms in the equation above and collecting, we get:
+The trace is minimized when the matrix derivative is zero:
+Solving this for Kk yields the Kalman gain:
+This gain, which is known as the optimal Kalman gain, is the one that yields MMSE estimates when used.
+
+The formula used to calculate the posterior error covariance can be simplified when the Kalman gain equals the optimal value derived above. Multiplying both sides of our Kalman gain formula on the right by SkKkT, it follows that
+Referring back to our expanded formula for the posterior error covariance,
+we find the last two terms cancel out, giving
+This formula is computationally cheaper and thus nearly always used in practice, but is only correct for the optimal gain. If arithmetic precision is unusually low causing problems with numerical stability, or if a non-optimal Kalman gain is deliberately used, this simplification cannot be applied; the posterior error covariance formula as derived above must be used.
+
+The Kalman filter can be regarded as an adaptive low-pass infinite impulse response digital filter, with cut-off frequency depending on the ratio between the process- and measurement (or observation) noise, as well as the estimate covariance. Frequency response is, however, rarely of interest when designing state estimators such as the Kalman Filter, whereas for digital filters such as IIR and FIR filters, frequency response is usually of primary concern. For the Kalman Filter, the important goal is how accurate the filter is, and this is most often decided based on empirical Monte Carlo simulations, where "truth" (the true state) is known.
+
+The true state is assumed to be an unobserved Markov process, and the measurements are the observed states of a hidden Markov model.
+Because of the Markov assumption, the true state is conditionally independent of all earlier states given the immediately previous state.
+Similarly the measurement at the k-th timestep is dependent only upon the current state and is conditionally independent of all other states given the current state.
+Using these assumptions the probability distribution over all states of the hidden Markov model can be written simply as:
+However, when the Kalman filter is used to estimate the state x, the probability distribution of interest is that associated with the current states conditioned on the measurements up to the current timestep. (This is achieved by marginalizing out the previous states and dividing by the probability of the measurement set.)
+This leads to the predict and update steps of the Kalman filter written probabilistically. The probability distribution associated with the predicted state is the sum (integral) of the products of the probability distribution associated with the transition from the (k - 1)-th timestep to the k-th and the probability distribution associated with the previous state, over all possible .
+The measurement set up to time t is
+The probability distribution of the update is proportional to the product of the measurement likelihood and the predicted state.
+The denominator

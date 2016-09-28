@@ -1,0 +1,23 @@
+inetd
+inetd is a super-server daemon on many Unix systems that manages Internet services. First appearing in 4.3BSD [1], it is generally located at /usr/sbin/inetd.
+
+Often called a super-server, inetd listens on designated ports used by internet services such as FTP, POP3, and telnet. When a TCP packet or UDP packet arrives with a particular destination port number, inetd launches the appropriate server program to handle the connection. For services that are not expected to run with high loads, this method uses memory more efficiently, since the specific servers run only when needed. Furthermore, no network code is required in the application-specific daemons, as inetd hooks the sockets directly to stdin, stdout and stderr of the spawned process. For protocols that have frequent traffic, such as HTTP and POP3, a dedicated server that intercepts the traffic directly may be preferable.
+
+The file /etc/services is used to map port numbers and protocols to service names, and the file /etc/inetd.conf is used to map service names to server names. For example, if a TCP request comes in on port 23, /etc/services shows
+The corresponding line in the /etc/inetd.conf file (in this case, taken from a machine running AIX version 5.1) is
+This tells inetd to launch the program /usr/sbin/telnetd with the command line arguments telnetd -a. inetd automatically hooks the socket to stdin, stdout, and stderr of the server program.
+Generally TCP sockets are handled by spawning a separate server to handle each connection concurrently. UDP sockets are generally handled by a single server instance that handles all packets on that port.
+Some simple services, such as echo, are handled directly by inetd, without spawning an external server.
+
+This is a simple inetd service, written in C. It accepts an optional command line argument containing a filename for a log file, and then it logs all strings sent through the socket to the log file. This program is based on a logging service for a distributed processing program that may be accepting messages from multiple processes running on different machines. By using an inetd service for receiving the logging messages, all machines can send the messages to a common machine to be stored in a single log file.
+In this case, we want all messages logged to a single file, so we only want one instance of the service running to service all requests. This means UDP would be the correct protocol to use. First, an unused port number must be picked. In this sample, 9999 will be used, as it was free on the machine on which the code was developed. The /etc/services entry will look like this:
+And the entry in /etc/inetd.conf will look like this:
+This tells inetd to run the /usr/local/bin/errlogd program, passing in the argument list errlogd /tmp/logfile.txt (refer to the inetd.conf man page for information on the other arguments). The first argument is always the executable name, and the second argument (argument 1 in the zero based arrays used in C) contains the filename to be used for the log file, /tmp/logfile.txt. inetd will run the service when needed, and attach port 9999 to the input and output streams, and all strings sent to that port will be logged to the file. By specifying wait, it tells inetd to only use one instance of the server to handle all requests, unlike the telnet example above, where a new server is spawned to handle each incoming request.
+Note: the functionality of the above example is usually implemented by using syslog and a process like syslogd. syslogd would normally be started in parallel with inetd, not as an inetd service.
+
+In recent years, because of the security limitations in the original design of inetd, it has been replaced by xinetd, rlinetd, ucspi-tcp, and others in many systems. Distributions of Linux especially have many options and Mac OS X (beginning with Mac OS X v10.2) uses xinetd. As of version Mac OS X v10.4, Apple has merged the functionality of inetd into launchd.
+The services provided by inetd can be omitted entirely. This is becoming more common where machines are dedicated to a single function. For example, an HTTP server could be configured to just run httpd and have no other ports open. A dedicated firewall could have no services started.
+
+While the inetd concept as a service dispatcher is not inherently insecure, the long list of services that inetd traditionally provided gave computer security experts pause. The possibility of a service having an exploitable flaw, or the service just being abused, had to be considered. Unnecessary services were disabled and off by default became the mantra. It is not uncommon to find an /etc/inetd.conf with almost all the services commented out in a modern Unix distribution.
+
+

@@ -1,0 +1,42 @@
+Radeon
+ATI Radeon is a brand of graphics processing units (GPU) that since 2000 has been manufactured by ATI Technologies and subsequently AMD and is the successor to their Rage line. There are four different groups, which can be differentiated by the DirectX generation they support. More specific distinctions can also be followed, such as the HyperZ version, the number of pixel pipelines, and of course, the memory and processor clock speeds.
+
+
+AMD does not actually sell Radeon cards at the retail level. Instead, it sells the hardware to 3rd party manufacturers who in turn sell their cards to the public. Examples of Radeon brands include Diamond Multimedia, Sapphire Technology, AsusTek, HIS - Hightech Information System, MSI - Micro-Star International, PowerColor, Gigabyte, VisionTek, & recently, XFX.
+
+Since ATI's first DirectX 9-class GPU, the company has followed a naming scheme that relates each product to a market segment.
+Note: Suffix indicate different layers of performance. See ATI Video Card Suffixes.
+Since the release of the Radeon HD 3000 series products, previous PRO, XT, GT, and XTX suffixes were eliminated, products will be differentiated by changing the last two digits of the product model number (for instance, HD 3850 and HD 3870, giving the impression that the HD 3870 model having higher performance than HD 3850).[1] Similar changes to the IGP naming were spotted as well, for the previously launched AMD M690T chipset with side-port memory, the IGP is named "Radeon X1270", while for the AMD 690G chipset, the IGP is named "Radeon X1250", as for AMD 690V chipset, the IGP is clocked lower and having fewer functions and thus named "Radeon X1200". The new numbering scheme of video products are shown below:
+
+
+The ATI Radeon graphics driver package for Windows operating system is called ATI Catalyst.
+The ATI Catalyst official drivers refuse to work with the mobile versions of Radeon series due to an agreement with OEM vendors.[3] An alternative is an application called Mobility Modder, a third-party utility which modifies recent desktop Radeon drivers to work with Mobility Radeon graphics cards.
+There are also unofficial modifications available such as Omega drivers or DNA drivers. These drivers typically consist of mixtures of various driver file versions with some registry variables altered and are advertised as offering superior performance or image quality. They are, of course, unsupported, and as such, are not guaranteed to function correctly. Some of them also provide modified system files for hardware enthusiasts to run specific graphics cards outside of their specifications.
+
+ATI has yet to produce mobile 64 bit drivers for the Windows XP Professional x64 Edition operating system. This may be due to a number of factors. One factor is that most people use the 32-bit version of Windows XP, due not only to video card driver issues, but other driver compatibility issues as well. Nonetheless, it is possible to obtain a proper driver for this type of setup. In order to do so, one requires the use of an unsupported application like Modtool.
+
+ATI used to only offer driver updates for their retail Mac video cards, but now also offer drivers for all ATI Mac products, including the GPUs in Apple's portable lines. Apple also includes ATI driver updates whenever they release a new OS update. ATI provides a preference panel for use in Mac OS X called ATI Displays which can be used both with retail and OEM versions of their cards. Though it gives more control over advanced features of the graphics chipset, ATI Displays has limited functionality compared to their Catalyst for Windows product.
+
+Initially, ATI did not produce Radeon drivers for Linux, instead giving hardware specifications and documentation to Direct Rendering Infrastructure (DRI) developers under various non-disclosure agreements.
+In mid 2004, however, ATI started to support Linux (XFree86, X.Org), hiring a new Linux driver team to produce fglrx. Their new proprietary Linux drivers, instead of being a port of the Windows Catalyst drivers, were based on the Linux drivers for the FireGL (the FireGL drivers worked with Radeons before, but didn't officially support them), a card geared towards graphics producers, not gamers; though the display drivers part is now based on the same sources as the ones from Windows Catalyst since version 4.x in late 2004. The proprietary Linux drivers neither support R100 (Radeon 7000-7500) nor R200 (Radeon 8500-9200, 9250) chips[4].
+The frequency of driver updates increased in late 2004, releasing Linux drivers every two months, half as often as their Windows counterparts. Then since late 2005 this has been increased to monthly releases, inline with the Windows Catalyst releases.
+For information on alternative Open Source drivers, see below.
+
+FreeBSD systems have the same open-source support for Radeon hardware as Linux, including 2D and 3D acceleration for Radeon R100, R200, and R300-series chipsets. The R300 support, as with Linux, remains experimental due to being reverse-engineered from ATI's proprietary drivers.
+ATI does not support its proprietary fglrx driver on FreeBSD, it has been partly ported by a third party as of January 2007. This is in contrast to its main rival, NVIDIA, which has periodically released its proprietary driver for FreeBSD since November 2002 (though 64-bit BSD systems are still not supported as of 2009). In the meantime the release is similar to Linux.
+
+MidnightBSD supports 2D and 3D acceleration for Radeon R100, R200, and R300 chipsets. This support is similar to FreeBSD and Linux.
+
+Since AmigaOS 4 introduction AmigaOS users officially gained support for R100/R200 Radeon cards with the R300 chips being planned, although this depends on the available hardware documentations from ATI or the open source drivers from the Linux community.
+Hans de Ruiter is developing on R5xx and R6xx drivers from AMD documentation. At the present time (07/MAR/2009) there is a basic P96 2D driver, which works with the PCI Radeon X1300, X1550 and HD2400 that Hans is using for development and testing.
+
+Although ATI does not provide its own drivers for BeOS, it provides hardware and technical documentation to the Haiku Project who provide drivers with full 2D and video in/out support. They are the sole graphics manufacturer in any way still supporting BeOS.
+
+MorphOS supports 2D and 3D acceleration for Radeon R100 and R200 chipsets.[5]
+
+On September 12, 2007, AMD released documentation for the RV630 (Radeon HD 2600 PRO and Radeon HD 2600 XT) and M56 (Radeon Mobility X1600) chips for open source driver development, for its strategic open source driver development initiative.[6] This initial "documentation drop" released sufficient programming information for a skeleton display detection and modesetting driver to be released. This was version 1.0.0 of the "radeonhd" driver. Further documentation releases and a baseline open source drivers are likely to follow in the near future. [7] The register reference guides for M76 (Mobility Radeon HD 2600/2700/3600/3800 series) and RS690 (AMD 690 chipset series) were also released on January 4, 2008, and is available from ATI website [8].
+All specs are available without an NDA. AMD is collaborating with Novell to build a new, free driver called RadeonHD based on these specifications. At present it is reasonably stable, and supports DRI for r500 series cards. Its development can be tracked using the git repository at the Freedesktop.org website. [9]
+Also available is a driver known as "ati", "xf86-video-ati", "video-ati" and "radeon". The main difference between video-ati and radeonhd used to be that video-ati uses AtomBIOS and radeonhd does not. AtomBIOS is an abstraction layer filled in by AMD to quickly add a new type of card or card series. AtomBIOS speeds up development of video-ati, but some have argued that it makes the open-source driver more legacy and untouchable.[10] In July 2008 development has started to enable radeonhd to use AtomBIOS too, which should tremendously decrease the timeframe in which initial support for new hardware is developed. This development was started in a branch named atombios_support, and as of September 2008 is not yet merged with the master branch.[11][12]
+
+
+

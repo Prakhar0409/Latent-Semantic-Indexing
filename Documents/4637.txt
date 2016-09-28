@@ -1,0 +1,16 @@
+Solresol
+Solresol is an artificial language devised by François Sudre, beginning in 1827. He published his major book on it, Langue musicale universelle, in 1866, though he had already been publicizing it for some years. Solresol enjoyed a brief spell of popularity, reaching its pinnacle with Boleslas Gajewski's 1902 posthumous publication of Grammaire du Solresol.
+
+Solresol words are made up of only seven different syllables. These syllables can be represented in a number of different ways — as musical notes of different pitch, as spoken syllables (based on solfege, a way of identifying musical notes), with colours, symbols, hand gestures etc. Thus, theoretically Solresol communication can be done through speaking, singing, flags of different color — even painting.
+As in Ro, the longer words are divided into categories of meaning, based on their first syllable, or note. Words beginning with 'sol' have meanings related to arts and sciences, or, if they begin with 'solsol', sickness and medicine (e.g., solresol, "language"; solsolredo, "migraine"). (Like other constructed languages with a priori vocabulary, Solresol faces considerable problems in categorizing the real world around it sensibly. For example, it's difficult to discriminate in an a priori manner between "apple" and "pear", or between "Monday" and "Tuesday.")
+A unique feature of Solresol is that meanings are negated by reversing the syllables in words. For instance fala means good or tasty, and lafa means bad. It is unclear how this interacts with the way words are categorized by their first note.
+The following table shows the words of up to two syllables:
+* Feminine versions are formed by stressing the last syllable.
+
+Additional features of Solresol include:
+The teaching of sign languages to the deaf mute was forbidden between 1880 and 1991 in France, contributing to Solresol's descent into obscurity. In any case, Solresol does not perform well as a sign language,[citation needed] since the signed form is more similar to spelling words by hand (sign languages naturally develop to take advantage of the greater range of 'phonemes' available, there being thousands of possible simultaneous combinations of hand form, location, orientation and movement).
+After a few years of popularity, it faded into obscurity in the face of more successful languages such as Volapük and Esperanto. Despite this, there is still a small community of Solresol enthusiasts scattered across the world, better able to communicate with one another through the electronic medium of the Internet than they might have in days past.
+A more recent constructed language based on musical tones is Eaiea, created by Bruce Koestner, which uses the entire 12-step western chromatic scale.
+
+
+

@@ -1,0 +1,40 @@
+Quality control
+
+In engineering and manufacturing, quality control and quality engineering are used in developing systems to ensure products or services are designed and produced to meet or exceed customer requirements. These systems are often developed in conjunction with other business and engineering disciplines using a cross-functional approach.
+Quality control is that branch of engineering and manufacturing,which deals with the assurance and failure testing in design and production of products or services,to meet or exceed customer requirements.
+
+When the first specialized craftsmen arose manufacturing tools for others, the principle of quality control was simple: "let the buyer beware" (caveat emptor).
+Early civil engineering projects, however, needed to be built to specifications. For instance, the four sides of the base of the Great Pyramid of Giza are perpendicular to within 3.5 arcseconds.
+During the Middle Ages, guilds took the responsibility of quality control upon themselves.
+Royal governments purchasing material were interested in quality control as customers. For instance, King John of England appointed a certain William Wrotham to supervise the construction and repair of ships. Some centuries later, but also in England, Samuel Pepys, Secretary to the Admiralty, appointed multiple such overseers.
+The Industrial Revolution led to a system in which large groups of people performing a similar type of work were grouped together under the supervision of a foreman who also took on the responsibility to control the quality of work manufactured.
+Quality assurance has developed a good deal during the last 80–90 years (in about 20 year intervals) from its inception to the current state of the art.
+
+After World War II, the United States continued to apply the concepts of inspection and sampling to remove defective product from production lines. However, there were many individuals trying to lead U.S. industries towards a more collaborative approach to quality. Excluding the U.S., many countries' manufacturing capabilities were destroyed during the war. This placed American business in a position where advances in the collaborative approaches to quality were essentially ignored.
+After World War II, the U.S. sent General Douglas MacArthur to oversee the re-building of Japan. During this time, General MacArthur invited two key individuals in the development of modern quality concepts: W. Edwards Deming and Joseph Juran. Both individuals promoted the collaborative concepts of quality to Japanese business and technical groups, and these groups utilized these concepts in the redevelopment of the Japanese economy.
+
+
+Quality assurance covers all activities from design, development, production, installation, servicing and documentation. Statistics shows, less than 5% of the world’s food is safe to consume. This introduced the rules: "fit for purpose" and "do it right the first time". It includes the regulation of the quality of raw materials, assemblies, products and components; services related to production; and management, production, and inspection processes.
+One of the most widely used paradigms for QA management is the PDCA (Plan-Do-Check-Act) approach, also known as the Shewhart cycle.
+
+A valuable process to perform on a whole consumer product is failure testing (also known as stress testing), the operation of a product until it fails, often under stresses such as increasing vibration, temperature and humidity. This exposes many unanticipated weaknesses in a product, and the data is used to drive engineering and manufacturing process improvements. Often quite simple changes can dramatically improve product service, such as changing to mold-resistant paint or adding lock washer placement to the training for new assembly personnel. Failure testing or destructive testing is a valuable tool of earthquake engineering.
+
+Many organizations use statistical process control to bring the organization to Six Sigma levels of quality, in other words, so that the likelihood of an unexpected failure is confined to six standard deviations on the normal distribution. This probability is less than four one-millionths. Items controlled often include clerical tasks such as order-entry as well as conventional manufacturing tasks.
+Traditional statistical process controls in manufacturing operations usually proceed by randomly sampling and testing a fraction of the output. Variances of critical tolerances are continuously tracked, and manufacturing processes are corrected before bad parts can be produced.
+
+During the 1980s, the concept of “company quality” with the focus on management and people came to the fore. It was realized that, if all departments approached quality with an open mind, success was possible if the management led the quality improvement process.
+The company-wide quality approach places an emphasis on three aspects�:-
+The quality of the outputs is at risk if any of these three aspects is deficient in any way.
+The approach to quality management given here is therefore not limited to the manufacturing theatre only but can be applied to any business activity:
+It comprises a quality improvement process, which is generic in the sense it can be applied to any of these activities and it establishes a behaviour pattern, which supports the achievement of quality.
+This in turn is supported by quality management practices which can include a number of business systems and which are usually specific to the activities of the business unit concerned.
+In manufacturing and construction activities, these business practices can be equated to the models for quality assurance defined by the International Standards contained in the ISO 9000 series and the specified Specifications for quality systems.
+Still, in the system of Company Quality, the work being carried out was shop floor inspection which did not control the major quality problems. This led to quality assurance or total quality control, which has come into being recently.
+
+Total Quality Control is the most necessary inspection control of all in cases where, despite statistical quality control techniques or quality improvements implemented, sales decrease.
+The major problem which leads to a decrease in sales was that the specifications did not include the most important factor, “What the customer required”.
+The major characteristics, ignored during the search to improve manufacture and overall business performance were:
+As the most important factor had been ignored, a few refinements had to be introduced:
+If the original specification does not reflect the correct quality requirements, quality cannot be inspected or manufactured into the product.
+For instance, all parameters for a pressure vessel should include not only the material and dimensions but operating, environmental, safety, reliability and maintainability requirements.
+To conclude, the above forms the basis from which the philosophy of quality assurance has evolved, and the achievement of quality or the “fitness-for-purpose” is “Quality Awareness” throughout the company.

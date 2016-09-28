@@ -1,0 +1,11 @@
+BORSCHT
+BORSCHT is an acronym for:
+Battery feed
+Overvoltage protection
+Ringing
+Supervision
+Codec
+Hybrid
+Testing
+The electronic functions collectively known as BORSCHT are used in Plain Old Telephone Service (POTS) telephony signaling, line supervision and telephone terminal operation. BORSCHT circuitry is typically located on a telecommunications network line card and is increasingly integrated into a chipset by several semiconductor companies for low-cost implementation of a standard POTS telephone interface for non-traditional telephony networks such as cable television networks, fiber optic, VoIP and wireless local loop.
+Some first generation digital Class 5 telephone switches or end office switches reduced the termination costs by using analog switching (concentrators) to a common Codec.

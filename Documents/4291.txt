@@ -1,0 +1,20 @@
+Lazy initialization
+In computer programming, lazy initialization is the tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.
+This is typically accomplished by maintaining a flag indicating whether the process has taken place. Each time the desired object is summoned, the flag is tested. If it is ready, it is returned. If not, it is initialized on the spot.
+
+In a software design pattern view, lazy initialization is often used together with a factory method pattern. This combines three ideas:
+
+
+Here is a dummy example (in Java). The Fruit class itself doesn't do anything here, this is just an example to show the architecture. The class variable types is a map used to store Fruit instances by type.
+
+Here is the fruit example in C# (based on a C++ example)
+
+Here is how you could do the fruit example in C++
+
+The following is an example (in Smalltalk) of a typical accessor method to return the value of a variable using lazy initialization.
+The 'non-lazy' alternative is to use an initialization method that is run when the object is created and then use a simpler accessor method to fetch the value.
+Note that lazy initialization can also be used in non-object-oriented languages.
+
+The following is an example (in Ruby) of lazily initializing an authentication token from a remote service like Google. The way that @auth_token is cached is also an example of memoization.
+
+

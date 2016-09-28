@@ -1,0 +1,62 @@
+Linear Tape-Open
+Linear Tape-Open (or LTO) is a magnetic tape data storage technology originally developed in the late 1990s as an open standards alternative to the proprietary magnetic tape formats that were available at the time. Seagate, Hewlett-Packard, and IBM initiated the LTO Consortium, which directs development and manages licensing and certification of media and mechanism manufacturers. The standard form-factor of LTO technology goes by the name "Ultrium", the original version of which was released in 2000 and could hold 100 GB of data in a single cartridge. The most recent version was released in 2007 and can hold 800 GB in the same size cartridge. Since 2002, LTO has been the best selling "super tape" format and is widely used with small and large computer systems, especially for backup. Its popularity can be attributed to both the innovative technology developed as well as the attractive pricing.
+
+Half-inch (1/2") magnetic tape has been used for data storage for more than 50 years. In the mid 1980s, IBM and DEC put this kind of tape into a single reel, enclosed cartridge. IBM called their cartridge 3480 and DEC originally called theirs CompacTape, but later it was renamed DLT and sold to Quantum. In the late 1990s, Quantum's DLT and Sony's Advanced Intelligent Tape (AIT) were the leading options for high-capacity, high speed tape storage for PC servers and UNIX systems. Those technologies were and still are tightly controlled by their owners. Consequently, their availability was fairly limited and prices were relatively high.
+IBM, HP and Seagate sought to counter this by introducing a more open format.[1] Much of the technology is an extension of the work done by IBM at its Tucson lab during the previous 20 years.[2]
+Around the time of the release of LTO-1, Seagate's magnetic tape division was spun off as Seagate Removable Storage Solutions, later renamed Certance which, soon after, was acquired by Quantum Corp.
+
+LTO technology was designed to come in two form factors, Ultrium and Accelis.[3] As of 2008, LTO Ultrium is very popular and there are no commercially available LTO Accelis drives or media.[4] In common usage, LTO generally refers only to the Ultrium form factor.
+
+Accelis was developed in 1997 for fast access to data by using a two-reel cartridge that loads at the midpoint of the 8 mm wide tape to minimize access time. IBM's (short-lived) 3570 Magstar MP product pioneered this concept. The real-world performance never exceeded that of the Ultrium tape format, so there was never a demand for Accelis and no drives or media were commercially produced.
+
+LTO Ultrium was developed as a (more or less) drop-in replacement for DLT and has a similar design of 1/2" wide tape in a (slightly smaller) single reel cartridge. This made it easy for robotic tape library vendors to convert their DLT libraries into LTO libraries.
+An Ultrium cartridge's dimensions are 102.0 x 105.4 x 21.5 (mm).
+
+
+
+
+At the full native data rate (80 MB/s), LTO-3 drives can write data faster than most hard disk drives can read. Even the minimum streaming data rate (~30â€“40 MB/s) is faster than many hard disk drives.
+
+
+
+Maximum rewind time is 98 seconds.[citation needed] Note that due to the back and forth writing, rewinding rarely takes this long. If a tape is written to full capacity, there is no rewind time, since the last pass is a reverse pass leaving the head at the beginning of the tape. Although this depends on the block size used when writing to the tape as the end of the tape could also be at the tape head when the writing is complete.
+Average tape seek/filemark search time is 75 seconds.[citation needed] Although these times vary with the type of LTO drive that you have and the overall drive performance.
+
+The following durability figures are quoted from Imation corporation's 2008 tape specifications:[13]
+There is a large amount of lifespan variability in actual use:
+
+
+The LTO-4 specification added a feature to allow LTO-4 drives to encrypt data before it is written to tape.[14] All LTO-4 drives must be aware of encrypted tapes, but are not required to actually support the encryption process. The algorithm used by LTO-4 is AES-GCM, which is a symmetric block cipher. The same key is used to encrypt and decrypt data.
+
+The tapes contain a strong error correction algorithm that makes data recovery possible when lost data is within one track.[15] When data is written to the tape it is verified by reading it back using the read heads that are positioned just 'behind' the write heads. This allows the drive to write a second copy of any data that fails the verify without the help of the host system.
+
+The tape inside an LTO cartridge is wound around a single reel. The end of the tape is attached to a perpendicular leader pin that is used by an LTO drive to reliably grasp the end of the tape and mount it in a take-up reel inside the drive. When a cartridge is not in a drive, the pin is held in place at the opening of the cartridge with a small spring.
+A common reason for a cartridge failing to load into a drive is the misplacement of the leader pin as a result of the cartridge having been dropped. The plastic slot where the pin is normally held is deformed by the drop and the leader pin is no longer in the position that the drive expects it to be.
+Older tape technologies used different means to load tape onto a take-up reel. Some 9 track tape drives used a burst of air against the spinning reel to automatically separate and grasp the loose end of the tape. This worked without a leader pin. DLT tapes have a hole punched in the end of the tape that a drive can use to grasp the end of the tape.
+
+Every LTO cartridge has a Cartridge Memory chip inside it. It is made up of 128 blocks of memory, where each block is 32 Bytes for a total of 4096 Bytes. This memory can be read and/or written, 1 block at a time, via a non contacting passive RF interface. This memory is used to identify tapes and to help drives discriminate between the different generations of the technology.
+Every LTO drive has a CM Reader in it. External readers are available, both built into tape libraries and handheld. The non-contact interface has a range of 20 mm.[16]
+
+The LTO specification describes a Data Compression method LTO-DC, also called Streaming Lossless Data Compression (SLDC)[17]. It is very similar to the algorithm ALDC[18] which is a variation of LZS (a patent-encumbered algorithm controlled by Hi/Fn[19]).
+The primary difference between ALDC and SLDC is that SLDC does not apply the compression algorithm to uncompressible data (i.e. data that is already compressed or sufficiently random to defeat the compression algorithm). Every block of data written to tape has a header bit indicating whether the block is compressed or raw. For each block of data that the algorithm works on, it saves a copy of the raw data. After applying the compression function to the data, the algorithm compares the "compressed" data block to the raw data block in memory and writes the smaller of the two to tape. Every data compression algorithm will end up increasing the size of some inputs. The extra bit used by SLDC to differentiate between raw and compressed blocks effectively places an upper bound on this data expansion.
+LTO-DC achieves an approximately 2:1 compression ratio when applied to the Calgary Corpus. This is inferior to slower algorithms such as gzip, but similar to lzop and the high speed algorithms built into other tape drives. It should be noted that plain text, raw images, and database files (TXT, ASCII, BMP, DBF, etc.) typically compress much better than other types of data stored on computer systems. In contrast, encrypted data and pre-compressed data (PGP, ZIP, JPEG, MPEG, MP3, etc.) would normally increase in size, if data compression was applied. In some cases this data expansion could be as much as 15%. With the SLDC algorithm, this significant expansion is avoided.
+
+LTO Ultrium tape is laid out with 4 wide data bands sandwiched between 5 narrow servo bands. The data bands are numbered 3,1,0,2 across the tape and are filled individually, in numeric order. The head unit straddles the 2 servo bands that border the data band that is being written or read. The servo bands are used to keep the head precisely aligned within the data band.
+Data tracks are written in forward and reverse passes, also called wraps. It takes several wraps to completely fill a data band. All of the write elements in the head write simultaneously as the head passes over the data band from the physical start of the tape to the physical end. This makes one forward wrap. At the end, the head shifts to line up the write elements with a new set of tracks within the same data band. It is now ready to make a reverse wrap. All tracks written by the same write element in the same direction are grouped together. This leads to a set of serpentine patterns in each data band. To determine the number of passes required to fill up a tape, divide the total number of tracks by the number of write elements. For example, an LTO-2 tape requires 64 passes.
+The block structure of the tape is logical so inter block gaps, file marks, tape marks and so forth take only a few bytes each. In LTO-1 this logical structure has CRC codes and compression added to create blocks of 403884 bytes. Another chunk of 468 bytes of information (including statistics and information about the drive that wrote the data and when it was written) is then added to create a 'dataset'. Finally error correction bytes are added to bring the total size of the dataset to 491520 bytes before it is written in a specific format across the eight heads. The formats for LTO-2 and LTO-3 are similar.
+
+New for LTO-3 is Write Once Read Many (WORM) capability. This is normally only useful for legal record keeping. An LTO-3 drive will not erase or overwrite data on a WORM cartridge, but will read it. An LTO-3 WORM Cartridge is identical to a normal LTO-3 tape cartridge except its LTO-CM chip identifies it to the drive as WORM and the servo track is slightly different.[20] WORM capable drives immediately recognize WORM catridges and include a unique WORM ID with every dataset written to the tape. There is nothing different about the tape medium in a WORM cartridge. Typically the WORM cartridges have a different color packaging.
+
+Compliance-Verified licensed manufacturers of LTO technology media are Maxell, TDK, Imation, EMTEC, Fujifilm, and Sony.[21] All other brands of media are manufactured by these companies under contract. Since its bankruptcy in 2003, EMTEC no longer manufactures LTO media products. Verbatim[22] and Quantegy[23] both licensed LTO technology, but never manufactured their own compliance-verified media.
+
+The colors of LTO Ultrium cartridge shells are somewhat standardized. HP is the notable exception.
+
+The LTO cartridge label uses the bar code symbology of USS-39. A description and definition is available from the Automatic Identification Manufacturers (AIM) specification Uniform Symbol Specification (USS-39) and the ANSI MH10.8M-1993 ANSI Barcode specification.
+
+The magnetic servo tracks on the tape are factory encoded. Using a bulk eraser (or otherwise exposing the cartridge to a strong magnetic field) will erase the servo tracks along with the data tracks and make the cartridge unusable.
+
+Current Compliance-Verified licensed manufacturers of LTO technology mechanisms are IBM, Hewlett-Packard, Quantum, and Tandberg Storage.[21]
+
+Although keeping a tape drive clean is important, normal cleaning cartridges are abrasive and frequent use will shorten the drive's lifespan. HP LTO Gen.1 drives have a cleaning strategy[24] that will prevent the drive from actually using the cleaning tape if it is not needed. There is an internal mechanism that also handles cleaning tasks based on error rate criteria and time. The internal tape head cleaner is also activated when the cleaning cartridge is loaded. HP LTO Gen 2,3,4 using a Universal Cleaning Cartridge will always clean when a cleaning cartridge is inserted, irrespective of whether the drive requires cleaning or not[25].
+
+The presence of 5 certified media manufacturers and 4 certified mechanism manufacturers has produced a competitive market. This has led to attractive prices for customers and subsequently, high sales volumes for manufacturers. In 2002, LTO out-shipped SDLT by nearly 2 to 1. Sales since then have dominated other "super" formats (SDLT, SAIT).

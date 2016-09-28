@@ -1,0 +1,31 @@
+Network Time Protocol
+The Network Time Protocol (NTP) is a protocol for synchronizing the clocks of computer systems over packet-switched, variable-latency data networks. NTP uses UDP on port 123 as its transport layer. It is designed particularly to resist the effects of variable latency by using a jitter buffer. NTP also refers to a reference software implementation that is distributed by the NTP Public Services Project.
+NTP is one of the oldest Internet protocols still in use (since before 1985). NTP was originally designed by Dave Mills of the University of Delaware, who still maintains it, along with a team of volunteers.
+NTP is not related to the simpler DAYTIME (RFC 867) and TIME (RFC 868) protocols.
+
+NTP uses Marzullo's algorithm, and includes support for features such as leap seconds. NTPv4 can usually maintain time to within 10 milliseconds (1/100 s) over the public Internet, and can achieve accuracies of 200 microseconds (1/5000 s) or better in local area networks under ideal conditions.
+In the Internet, NTP synchronizes computer system clocks to UTC; in isolated LANs, NTP is also commonly used to synchronize to UTC, but in principle it could be used to distribute a different time scale, for example local zone time.
+The operational details of NTP are illustrated in RFC 778, RFC 891, RFC 956, RFC 958 (obsolete by 1305), and RFC 1305. The current reference implementation is version 4 (NTPv4); however, as of 2005, only versions up to 3 (1992) have been documented in RFCs. The IETF NTP Working Group has formed to standardize the work of the NTP community since RFC 1305 et al.
+A less complex form of NTP that does not require storing information about previous communications is known as the Simple Network Time Protocol or SNTP. It is used in some embedded devices and in applications where high accuracy timing is not required. See RFC 1361, RFC 1769, RFC 2030, and RFC 4330.
+Note that NTP provides just the UTC time, and no information about time zones or daylight saving time. This information is outside its scope and must be obtained separately (most systems allow it to be set manually).
+
+
+For modern Unix systems, the NTP client is implemented as a daemon process that runs continuously in user space. Because of sensitivity to timing, however, it is important to have the standard NTP clock phase-locked loop implemented in kernel space. All recent versions of Linux, BSD, and Solaris are implemented in this manner.
+
+All Microsoft Windows versions since 2000 include the Windows Time Service,[1] which has the ability to sync the computer clock to an NTP server. However, the version in Windows 2000 only implements Simple NTP, and violates several aspects of the NTP version 3 standard.[2] Beginning with Windows Server 2003, the Microsoft documentation states that Windows Time Service implements the full NTPv3 protocol[3] as specified in RFC 1305.
+However, the Windows Time Service cannot maintain the system time more accurately than about a 1-2 second range. Microsoft "[does] not guarantee and [does] not support the accuracy of the W32Time service between nodes on a network. The W32Time service is not a full-featured NTP solution that meets time-sensitive application needs."[4]
+The reference implementation of NTP can be used on Microsoft Windows systems. It is available free of charge from a commercial manufacturer of GPS and radio reference clocks in a form that can be installed using the Microsoft Installer.
+
+NTP uses a hierarchical, layered system of levels of clock sources, each level of this hierarchy is termed a stratum and assigned a layer number starting with 0 (zero) at the top. The stratum level defines its distance from the reference clock and exists to prevent cyclical dependencies in the hierarchy. It is important to note that the stratum is not an indication of quality or reliability, it is quite common to find "stratum 3" time sources that are higher quality than other "stratum 2" time sources. This definition of "stratum" is also different from the notion of clock strata used in telecommunication systems.
+It is hoped that in NTP 5, a protocol still in development, only 8 strata will be permitted. As most NTP clients call on Stratum 2 servers, it is expected that no users will be disadvantaged by the loss of granularity.[citation needed]
+
+The 64-bit timestamps used by NTP consist of a 32-bit seconds part and a 32-bit fractional second part, giving NTP a time scale of 232 seconds (136 years) and a theoretical resolution of 2âˆ’32 seconds (0.233 nanoseconds).
+The NTP timescale wraps around every 232 seconds (136 years). NTP uses an epoch of January 1, 1900, so the first wrap will occur in 2036, well before the familiar UNIX Year 2038 problem. This wraparound defect is specific to the 32 bit NTP timestamp in NTP3 that is held over into NTP4. NTP4 has a clean 64 bit mode that does not have this problem â€” as well as a 128 bit mode that is in prototyping for NTP5.
+Implementations should disambiguate NTP time using a knowledge of the approximate time from other sources. Since this only requires time accurate to a few decades, this is unlikely to ever be a problem in general use.[clarification needed]
+Even so, future versions of NTP will extend the time representation to 128 bits: 64 bits for the second and 64 bits for the fractional-second.
+According to Mills, "The 64 bit value for the fraction is enough to resolve the amount of time it takes a photon to pass an electron at the speed of light. The 64 bit second value is enough to provide unambiguous time representation until the universe goes dim."[5] Indeed, 2âˆ’64 seconds is about 54 zeptoseconds, and 264 seconds is about 585 billion years.
+
+Other time synchronization protocols:
+
+
+

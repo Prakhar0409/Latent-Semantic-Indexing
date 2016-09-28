@@ -1,0 +1,14 @@
+NUnit
+NUnit is an open source unit testing framework for Microsoft .NET. It serves the same purpose as JUnit does in the Java world, and is one of many in the xUnit family.
+
+
+
+Example of an NUnit test fixture:
+The NUnit framework discovers the method ExampleTestOfNUnit.TestMultiplication() automatically by reflection.
+
+NUnit.Forms is an expansion to the core NUnit framework and is also open source. It specifically looks at expanding NUnit to be able to handle testing user interface elements in Windows Forms. As of February 2008, Nunit.Forms is in Alpha release, and no versions have been released since May 2006.
+NUnit.ASP is a discontinued[2] expansion to the core NUnit framework and is also open source. It specifically looks at expanding NUnit to be able to handle testing user interface elements in ASP.NET.
+
+
+
+

@@ -1,0 +1,25 @@
+Data flow diagram
+A data-flow diagram (DFD) is a graphical representation of the "flow" of data through an information system. It differs from the flowchart as it shows the data flow instead of the control flow of the program.
+A data-flow diagram can also be used for the visualization of data processing (structured design).
+
+It is common practice to draw a context-level data flow diagram first which shows the interaction between the system and outside entities. The DFD is designed to show how a system is divided into smaller portions and to highlight the flow of data between those parts. This context-level data-flow diagram is then "exploded" to show more detail of the system being modeled.
+Data-flow diagrams were invented by Larry Constantine, the original developer of structured design,[2] based on Martin and Estrin's "data-flow graph" model of computation.
+Data-flow diagrams (DFDs) are one of the three essential perspectives of the structured-systems analysis and design method SSADM. The sponsor of a project and the end users will need to be briefed and consulted throughout all stages of a system's evolution. With a data-flow diagram, users are able to visualize how the system will operate, what the system will accomplish, and how the system will be implemented. The old system's dataflow diagrams can be drawn up and compared with the new system's data-flow diagrams to draw comparisons to implement a more efficient system. Data-flow diagrams can be used to provide the end user with a physical idea of where the data they input ultimately has an effect upon the structure of the whole system from order to dispatch to report. How any system is developed can be determined through a data-flow diagram.
+Developing a data-flow diagram helps in identifying the transaction data in the data model.
+There are different notations to draw data-flow diagrams, defining different visual representations for processes, data stores, data flow, and external entities.[3]
+
+
+DFD is also a virtually designable diagram that technically or diagrammatically describes the inflow and outflow of data or information that is provided by the external entity.
+
+Event partitioning was described by Edward Yourdon in Just Enough Structured Analysis.[4]
+
+
+This level shows the overall context of the system and its operating environment and shows the whole system as just one process. It does not usually show data stores, unless they are "owned" by external systems, e.g. are accessed by but not maintained by this system, however, these are often shown as external entities.[5]
+
+This level (level 1) shows all processes at the first level of numbering, data stores, external entities and the data flows between them. The purpose of this level is to show the major high-level processes of the system and their interrelation. A process model will have one, and only one, level-1 diagram. A level-1 diagram must be balanced with its parent context level diagram, i.e. there must be the same external entities and the same data flows, these can be broken down to more detail in the level 1, e.g. the "enquiry" data flow could be spilt into "enquiry request" and "enquiry results" and still be valid.[5]
+
+This level is a decomposition of a process shown in a level-1 diagram, as such there should be a level-2 diagram for each and every process shown in a level-1 diagram. In this example processes 1.1, 1.2 & 1.3 are all children of process 1, together they wholly and completely describe process 1, and combined must perform the full capacity of this parent process. As before, a level-2 diagram must be balanced with its parent level-1 diagram. [5]
+
+
+
+

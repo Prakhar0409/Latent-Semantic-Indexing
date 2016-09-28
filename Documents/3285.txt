@@ -1,0 +1,14 @@
+CruiseControl
+In software development, CruiseControl is a Java-based framework for a continuous build process. It includes, but is not limited to, plugins for email notification, Ant, and various source control tools. A web interface is provided to view the details of the current and previous builds. It allows one to perform a continuous integration of any software development process.
+CruiseControl is free, open-source software, distributed under a BSD-style license. It was originally created by employees of ThoughtWorks to allow for continuous integration on a project they were working on. It was later extracted into a stand-alone application.
+There is a version of CruiseControl for .Net called CruiseControl.Net (aka CCNet) and a version for Ruby called CruiseControl.rb (see links below). On May 15, 2007, ThoughtWorks Studios announced the provision of CruiseControl services and support, under the banner CruiseControl Enterprise. Since then they have changed the project and instead released a commercial offering called Cruise (see links below).
+
+The build loop is designed to run as a daemon process, which periodically checks the revision control system for changes to the codebase, builds if necessary, and publishes a notice regarding the status of the software build.
+
+CruiseControl provides two ways of reporting build status. The first (classic) reporting is the reporting JSP and the second is the dashboard.
+
+The build reporting is designed to present the results of the CruiseControl build loop. It's based on a HTML report managed by a JSP page. The left side of the page tells us about whether CruiseControl is currently building your project, and provides links to the details of previous builds. The right side of the page presents the results of the build -- including compilation errors, test results and details about what files have changed since the last build.
+
+The dashboard was introduced in the 2.7 release. The dashboard is a powerful tool to help visualising the project build statuses. Previous project build result is colour-coded so that one can get an instant snapshot of how the projects are doing at the moment. Users can hover their mouse over the various icons to see the name and some information about the project. The 'Builds' tab of the dashboard shows all projects (colour-coded) sorted by name providing some more information.
+
+

@@ -1,0 +1,32 @@
+Project management software
+Project management software is a term covering many types of software, including scheduling, cost control and budget management, resource allocation, collaboration software, communication, quality management and documentation or administration systems, which are used to deal with the complexity of large projects.
+
+
+One of the most common tasks is to schedule a series of events, and the complexity of this task can vary considerably depending on how the tool is used. Some common challenges include:
+
+In many complex schedules, there will be a critical path, or series of events that depend on each other, and whose durations directly determine the length of the whole project (see also critical chain). Some software applications (for example, Dependency Structure Matrix solutions) can highlight these tasks, which are often a good candidate for any optimization effort.
+
+Project planning software needs to provide a lot of information to various people, to justify the time spent using it. Typical requirements might include:
+
+
+Project management software can be implemented as a program that runs on the desktop of each user. This typically gives the most responsive and graphically-intense style of interface.
+Desktop applications typically store their data in a file, although some have the ability to collaborate with other users (see below), or to store their data in a central database. Even a file-based project plan can be shared between users if it's on a networked drive and only one user accesses it at a time.
+Desktop applications can be written to run in a heterogeneous environment of multiple operating systems, although it's unusual.
+
+Project management software can be implemented as a Web application, accessed through an intranet or extranet using a web browser.
+This has all the usual advantages and disadvantages of web applications:
+
+A personal project management application is one used at home, typically to manage lifestyle or home projects. There is considerable overlap with single user systems, although personal project management software typically involves simpler interfaces. See also non-specialised tools below.
+
+A single-user system is programmed with the assumption that only one person will ever need to edit the project plan at once. This may be used in small companies, or ones where only a few people are involved in top-down project planning. Desktop applications generally fall into this category.
+
+A collaborative system is designed to support multiple users modifying different sections of the plan at once, for example, updating the areas they personally are responsible for such that those estimates get integrated into the overall plan. Web-based tools, including extranets, generally fall into this category, but have the limitation that they can only be used when the user has live Internet access. To address this limitation, client-server-based software tools exist that provide a Rich Client that runs on users' desktop computer and replicate project and task information to other project team members through a central server when users connect periodically to the network and other tasks. Some tools allow team members to check out their schedules (and others' as read only) to work on them while not on the network. When reconnecting to the database, any changes are synchronized with the other schedules.
+
+An integrated system combines project management or project planning, with many other aspects of company life. For example, projects can have bug tracking issues assigned to each project, the list of project customers becomes a customer relationship management module, and each person on the project plan has their own task lists, calendars, and messaging functionality associated with their projects.
+Similarly, specialised tools like SourceForge integrate project management software with source control (CVS) software and bug-tracking software, so that each piece of information can be integrated into the same system.
+
+
+The following may apply in general, or only to specific products.
+
+
+

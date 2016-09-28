@@ -1,0 +1,10 @@
+Sociogram
+A sociogram is a graphic representation of social links that a person has. It is a sociometric chart that plots the structure of interpersonal relations in a group situation.[1]
+
+Sociograms were developed by Jacob L. Moreno to analyze choices or preferences within a group.[2] They can diagram the structure and patterns of group interactions. A sociogram can be drawn on the basis of many different criteria: Social relations, channels of influence, lines of communication etc.
+Those points on a sociogram who have many choices are called Stars. Those with few or no choices are called isolates. Individuals who choose each other are known to have made a Mutual Choice. One-Way Choice refers to individuals who choose someone but the choice is not reciprocated. Cliques are groups of three or more people within a larger group who all choose each other (Mutual Choice).
+Sociograms are the charts or tools used to find the Sociometry of a social space.
+Under the Social Discipline Model, sociograms are sometimes used to reduce misbehavior in a classroom environment[3]. A sociogram is constructed after students answer a series of questions probing for affiliations with other classmates. The diagram can then be used to identify pathways for social acceptance for misbehaving students. In this context, the resulting sociograms are known as a friendship chart. Often, the most important person/thing is in a bigger bubble to everyone else. The size of the bubble represents the importance, with the biggest bubble meaning most important and the smallest representing the least important.
+
+
+

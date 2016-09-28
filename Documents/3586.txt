@@ -1,0 +1,39 @@
+List of portable software
+Portable software is a class of software that is suitable for use on portable drives such as a USB (thumb) drive or iPod or Palm PDA with "drive mode", although any external hard drive could theoretically be used. [1] [2] The concept of carrying one's favored applications, utilities, and files on a portable drive for use on any computer is one which has evolved considerably in recent years.
+Programs in this category (also known as portable applications) are typically 'lite' versions of their parent software, but there are many exceptions.
+To be considered portable, for purpose of this list, a software program must:
+Generally, smaller utility/toolkit software is inherently fairly portable; though larger applications are sometimes changed in order to allow a portable versions to be released (e.g., Opera@USB).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+See List of portable computer games
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+Comparison of e-mail clients
+The following tables compare general and technical information between a number of e-mail client programs. Please see the individual products articles for further information. This article is not all-inclusive or necessarily up-to-date.
+
+Basic general information about the clients: creator/company, license/price etc. Clients in purple are no longer in development.
+
+A brief overview of the release history.

@@ -1,0 +1,36 @@
+Autocorrelation
+Autocorrelation is a mathematical tool for finding repeating patterns, such as the presence of a periodic signal which has been buried under noise, or identifying the missing fundamental frequency in a signal implied by its harmonic frequencies. It is used frequently in signal processing for analyzing functions or series of values, such as time domain signals. Informally, it is the similarity between observations as a function of the time separation between them. More precisely, it is the cross-correlation of a signal with itself.
+
+Different definitions of autocorrelation are in use depending on the field of study which is being considered and not all of them are equivalent. In some fields, the term is used interchangeably with autocovariance.
+
+In statistics, the autocorrelation of a random process describes the correlation between values of the process at different points in time, as a function of the two times or of the time difference. Let Xt be the value of the process at time t (where t may be an integer for a discrete-time process or a real number for a continuous-time process). If Xt has mean Î¼t and variance Ïƒt2 then the definition of the autocorrelation is
+where "E" is the expected value operator. Note that this expression is not well-defined for all time series or processes, since the variance Ïƒt2 may be zero (for a constant process) or infinite. If the function R is well-defined, its value must lie in the range [âˆ’1, 1], with 1 indicating perfect correlation and âˆ’1 indicating perfect anti-correlation.
+If Xt is second-order stationary then this means firstly that the mean Î¼ and the variance Ïƒ2 are time-independent and secondly that the autocorrelation depends only on the difference between t and s: the correlation depends only on the time-distance between the pair of values but not on their position in time. This further implies that the autocorrelation can be expressed as a function of the time-lag, and that this would be an even function of the lag Ï„ = t âˆ’ s. This gives the more familiar form
+and the fact that this is an even function can be stated as
+It is common practice in some disciplines, other than statistics and time series analysis, to drop the normalization by Ïƒ2 and use the term "autocorrelation" interchangeably with "autocovariance". However, the normalisation is important both because the interpretation of the autocorrelation as a correlation provide a scale-free measure of the strength of statistical dependence, and because the normalisation has an effect on the statistical properties of the estimated autocorrelations.
+For a discrete process of length n {X1, X2, â€¦ Xn} with known mean and variance, an estimate of the autocorrelation may be obtained as
+for any positive integer k < n. When the true mean Î¼ and variance Ïƒ are known, this estimate is unbiased. If the true mean and variance of the process are not known there are a several possibilities:
+The advantage of estimates of the last type is that the set of estimated autocorrelations, as a function of k, then form a function which is a valid autocorrelation in the sense that it is possible to define a theoretical process having exactly that autocorrelation. Other estimates can suffer from the problem that, if they are used to calculate the variance of a linear combination of the X's, the variance calculated may turn out to be negative.
+
+In signal processing, the above definition is often used without the normalization, that is, without subtracting the mean and dividing by the variance. When the autocorrelation function is normalized by mean and variance, it is sometimes referred to as the autocorrelation coefficient.[3]
+Given a signal f(t), the continuous autocorrelation Rff(Ï„) is most often defined as the continuous cross-correlation integral of f(t) with itself, at lag Ï„.
+where  represents the complex conjugate and * represents convolution. For a real function, .
+The discrete autocorrelation R at lag j for a discrete signal xn is
+The above definitions work for signals that are square integrable, or square summable, that is, of finite energy. Signals that "last forever" are treated instead as random processes, in which case different definitions are needed, based on expected values. For wide-sense-stationary random processes, the autocorrelations are defined as
+For processes that are not stationary, these will also be functions of t, or n.
+For processes that are also ergodic, the expectation can be replaced by the limit of a time average. The autocorrelation of an ergodic process is sometimes defined as or equated to[3]
+These definitions have the advantage that they give sensible well-defined single-parameter results for periodic functions, even when those functions are not the output of stationary ergodic processes.
+Alternatively, signals that last forever can be treated by a short-time autocorrelation function analysis, using finite time integrals. (See short-time Fourier transform for a related process.)
+Multi-dimensional autocorrelation is defined similarly. For example, in three dimensions the autocorrelation of a square-summable discrete signal would be
+When mean values are subtracted from signals before computing an autocorrelation function, the resulting function is usually called an auto-covariance function.
+
+In the following, we will describe properties of one-dimensional autocorrelations only, since most properties are easily transferred from the one-dimensional case to the multi-dimensional cases.
+
+In regression analysis using time series data, autocorrelation of the residuals ("error terms", in econometrics) is a problem.
+Autocorrelation violates the ordinary least squares (OLS) assumption that the error terms are uncorrelated. While it does not bias the OLS coefficient estimates, the standard errors tend to be underestimated (and the t-scores overestimated) when the autocorrelations of the errors at low lags are positive.
+The traditional test for the presence of first-order autocorrelation is the Durbinâ€“Watson statistic or, if the explanatory variables include a lagged dependent variable, Durbin's h statistic. A more flexible test, covering autocorrelation of higher orders and applicable whether or not the regressors include lags of the dependent variable, is the Breuschâ€“Godfrey test. This involves an auxiliary regression, wherein the residuals obtained from estimating the model of interest are regressed on (a) the original regressors and (b) k lags of the residuals, where k is the order of the test. The simplest version of the test statistic from this auxiliary regression is TR2, where T is the sample size and R2 is the coefficient of determination. Under the null hypothesis of no autocorrelation, this statistic is asymptotically distributed as Ï‡2 with k degrees of freedom.
+Responses to nonzero autocorrelation include generalized least squares and the Neweyâ€“West HAC estimator (Heteroskedasticity and Autocorrelation Consistent).[4]
+
+
+
+

@@ -1,0 +1,14 @@
+IOMMU
+In computing, an input/output memory management unit (IOMMU) is a memory management unit (MMU) that connects a DMA-capable I/O bus to the main memory. Like a traditional MMU, which translates CPU-visible virtual addresses to physical addresses, the IOMMU takes care of mapping device-visible virtual addresses (also called device addresses or I/O addresses in this context) to physical addresses. Some units also provide memory protection from misbehaving devices.
+An example IOMMU is the Graphics Address Remapping Table (GART) used by AGP and PCI Express graphics cards.
+AMD has published a specification for IOMMU technology in the HyperTransport architecture[1]. Intel has published a specification for IOMMU technology as Virtualization Technology for Directed I/O, abbreviated VT-d.[2] Information about the Sun IOMMU has been published in the Device Virtual Memory Access (DVMA) section of the Solaris Developer Connection.[3] The IBM Translation Control Entry (TCE) has been described in a document entitled Logical Partition Security in the IBM eServer pSeries 690.[4] The PCI-SIG has relevant work under the terms I/O Virtualization (IOV)[5] and Address Translation Services (ATS).
+
+The advantages of having an IOMMU, compared to direct physical addressing of the memory, include:
+For system architectures in which port I/O is a distinct address space from the memory address space, an IOMMU is not used when the CPU communicates with devices via I/O ports. In system architectures in which port I/O and memory are mapped into a suitable address space, an IOMMU can translate port I/O accesses.
+
+The disadvantages of having an IOMMU, compared to direct physical addressing of the memory, include:[7]
+
+When an operating system is running inside a virtual machine, including systems that use paravirtualization, such as Xen, it does not usually know the physical addresses of memory that it accesses. This makes providing direct access to the computer hardware difficult, because if the OS tried to instruct the hardware to perform a direct memory access (DMA), it would likely corrupt the memory, as the hardware does not know about the mapping between the virtual and real addresses used by the virtualized guest system. The corruption is avoided because the hypervisor or OS intervenes in the I/O operation to apply the translations; unfortunately, this delays the I/O operation.
+An IOMMU can solve this problem by re-mapping the addresses accessed by the hardware according to the same (or a compatible) translation table used by the virtual machine guest.[8]
+
+

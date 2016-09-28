@@ -1,0 +1,53 @@
+Balance sheet
+
+Cash conversion cycle
+Return on capital
+Economic value added
+Just In Time
+Economic order quantity
+Discounts and allowances
+Factoring (finance)
+Capital investment decisions
+The investment decision
+The financing decision
+Managerial finance
+Financial accounting
+Management accounting
+Mergers and acquisitions
+Balance sheet analysis
+Business plan
+Corporate action
+Financial market
+Financial market participants
+Corporate finance
+Personal finance
+Public finance
+Banks and Banking
+Financial regulation
+In financial accounting, a balance sheet or statement of financial position is a summary of a person's or organization's balances. Assets, liabilities and ownership equity are listed as of a specific date, such as the end of its financial year. A balance sheet is often described as a snapshot of a company's financial condition.[1] Of the four basic financial statements, the balance sheet is the only statement which applies to a single point in time.
+A company balance sheet has three parts: assets, liabilities and ownership equity. The main categories of assets are usually listed first and are followed by the liabilities. The difference between the assets and the liabilities is known as equity or the net assets or the net worth of the company and according to the accounting equation, net worth must equal assets minus liabilities.[2]
+Another way to look at the same equation is that assets equals liabilities plus owner's equity. Looking at the equation in this way shows how assets were financed: either by borrowing money (liability) or by using the owner's money (owner's equity). Balance sheets are usually presented with assets in one section and liabilities and net worth in the other section with the two sections "balancing."
+Records of the values of each account or line in the balance sheet are usually maintained using a system of accounting known as the double-entry bookkeeping system.
+A business operating entirely in cash can measure its profits by withdrawing the entire bank balance at the end of the period, plus any cash in hand. However, many businesses are not paid immediately; they build up inventories of goods and they acquire buildings and equipment. In other words: businesses have assets and so they can not, even if they want to, immediately turn these into cash at the end of each period. Often, these businesses owe money to suppliers and to tax authorities, and the proprietors do not withdraw all their original capital and profits at the end of each period. In other words businesses also have liabilities.
+
+
+A balance sheet summarizes an organization or individual's assets, equity and liabilities at a specific point in time. Individuals and small businesses tend to have simple balance sheets.[3][dead link] Larger businesses tend to have more complex balance sheets, and these are presented in the organization's annual report.[4] Large businesses also may prepare balance sheets for segments of their businesses.[5] A balance sheet is often presented alongside one for a different point in time (typically the previous year) for comparison.[6][7][dead link]
+
+A personal balance sheet lists current assets such as cash in checking accounts and savings accounts, long-term assets such as common stock and real estate, current liabilities such as loan debt and mortgage debt due, or overdue, long-term liabilities such as mortgage and other loan debt. Securities and real estate values are listed at market value rather than at historical cost or cost basis. Personal net worth is the difference between an individual's total assets and total liabilities.[8][dead link]
+
+A small business balance sheet lists current assets such as cash, accounts receivable, and inventory, fixed assets such as land, buildings, and equipment, intangible assets such as patents, and liabilities such as accounts payable, accrued expenses, and long-term debt. Contingent liabilities such as warranties are noted in the footnotes to the balance sheet. The small business's equity is the difference between total assets and total liabilities.[10]
+
+Guidelines for balance sheets of public business entities are given by the International Accounting Standards Committee and numerous country-specific organizations.
+Balance sheet account names and usage depend on the organization's country and the type of organization. Government organizations do not generally follow standards established for individuals or businesses.[11][dead link][12][13][dead link][14][15]
+If applicable to the business, summary values for the following items should be included on the balance sheet:[16]
+
+Current assets
+Long-term assets
+
+
+The net assets shown by the balance sheet equals the third part of the balance sheet, which is known as the shareholders' equity. Formally, shareholders' equity is part of the company's liabilities: they are funds "owing" to shareholders (after payment of all other liabilities); usually, however, "liabilities" is used in the more restrictive sense of liabilities excluding shareholders' equity. The balance of assets and liabilities (including shareholders' equity) is not a coincidence. Records of the values of each account in the balance sheet are maintained using a system of accounting known as double-entry bookkeeping. In this sense, shareholders' equity by construction must equal assets minus liabilities, and are a residual.
+
+The following balance sheet structure is just an example. It does not show all possible kinds of assets, equity and liabilities, but it shows the most usual ones. Because it shows goodwill, it could be a consolidated balance sheet. Monetary values are not shown, summary (total) rows are missing as well.
+
+
+

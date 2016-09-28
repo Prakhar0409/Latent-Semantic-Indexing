@@ -1,0 +1,11 @@
+Font family (HTML)
+In HTML and XHTML, a font face or font family is the typeface that is applied to some text.
+The font family and other presentational attributes of fonts are applied in HTML code using Cascading Style Sheets (CSS) or the deprecated HTML font element.
+It is common for publishers to define a list of font families to use when rendering text. These are listed in preferential order, separated by commas (as can be seen above). In this situation, the term font-family (or, in the case of HTML, face) is often misunderstood to mean the collection of possible fonts to use when rendering the text (be it on screen, on a printer or otherwise). In fact the list is that of several different font families, each family being of similar fonts. Thus the Times family includes different styles (like roman and italic), and weight (like regular and bold). The last family specified is usually one of the five generic families defined in HTML and CSS, to allow the text to be rendered appropriately even if the specified fonts are not available on that system.
+
+The generic font families defined in HTML and CSS are:[1]
+Under Windows API, these families are identified as Roman, Swiss, Script, Decorative, and Modern, respectively.
+
+The font-family can use a specific named font (like Heisei Mincho W9) but the result depends on the installed fonts in the user machine. Font names must be quoted if containing whitespaces. The actual appearance will depend on your browser and the fonts installed on your system.[1] A default installation of Microsoft's Internet Explorer, for instance, always displays serif and Times as Times New Roman, and sans-serif and Helvetica as Arial.
+
+

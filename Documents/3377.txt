@@ -1,0 +1,10 @@
+Boids
+Boids, developed by Craig Reynolds in 1986, is an artificial life program, simulating the flocking behaviour of birds. His paper on this topic was published in 1987 in the proceedings of the ACM SIGGRAPH conference.
+As with most artificial life simulations, Boids is an example of emergent behavior; that is, the complexity of Boids arises from the interaction of individual agents (the boids, in this case) adhering to a set of simple rules. The rules applied in the simplest Boids world are as follows:
+More complex rules can be added, such as obstacle avoidance and goal seeking.
+The movement of Boids can be characterized as either chaotic (splitting groups and wild behaviour) or orderly. Unexpected behaviours, such as splitting flocks and reuniting after avoiding obstacles, can be considered emergent.
+The boids framework is often used in computer graphics, providing realistic-looking representations of flocks of birds and other creatures, such as schools of fish or herds of animals.
+Boids work in a manner similar to cellular automata, since each boid "acts" autonomously and references a neighbourhood, as do cellular automata.
+
+
+

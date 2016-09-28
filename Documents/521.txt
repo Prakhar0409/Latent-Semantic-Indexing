@@ -1,0 +1,12 @@
+POSIX Threads
+POSIX Threads, or Pthreads, is a POSIX standard for threads. The standard defines an API for creating and manipulating threads. Pthreads are most commonly used on Unix-like POSIX systems such as Linux, Mac OS X and Solaris, but Microsoft Windows implementations also exist. For example, the pthreads-w32 is available and supports a subset of the Pthread API for the Windows 32-bit platform.[1]
+
+Pthreads defines a set of C programming language types, functions and constants. It is implemented with a pthread.h header and a thread library. Programmers can use Pthreads to create, manipulate and manage threads, as well as synchronize between threads using mutexes and signals.
+
+An example of using Pthreads in C:
+An example of using Pthreads in C++:
+This program creates a new thread that prints lines containing 'b', while the main thread prints lines containing 'a'. The output is interleaved between 'a' and 'b' as a result of execution switching between the two threads, or simultaneous execution on a multicore system. In any case, the pattern of 'a's and 'b's does not strictly alternate between each letter, and can vary even between different runs on the same machine.
+
+
+
+

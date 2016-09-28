@@ -1,0 +1,10 @@
+JACK Audio Connection Kit
+The JACK Audio Connection Kit or JACK is a sound server daemon that provides low latency connections between so-called jackified applications, for both audio and MIDI data. It is created by Paul Davis and others. The server is licensed under the GNU GPL, while the library is licensed under the GNU LGPL.
+JACK can use ALSA, PortAudio, CoreAudio, FreeBoB, FFADO and (still experimental) OSS as its back-end. As of 2008 it runs on Linux, FreeBSD and Mac OS X. Another implementation of jack, called JACKDMP, supports Windows as well. JACKDMP was recently renamed JACK 1.9, and will eventually become JACK 2.
+
+Some software that works with JACK:
+As of 2007, there are many applications with JACK support; every well known video player supports JACK as audio output, and nearly every audio playing application for Linux supports JACK output.
+
+
+
+

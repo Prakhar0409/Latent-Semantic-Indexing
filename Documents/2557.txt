@@ -1,0 +1,12 @@
+MetaPost
+MetaPost refers to both a programming language and the only known interpreter of the MetaPost programming language. Both are derived from Donald Knuth's Metafont language and interpreter. MetaPost excels at producing diagrams in the PostScript programming language from a geometric/algebraic description. The language shares Metafont's elegant declarative syntax for manipulating lines, curves, points and geometric transformations. However,
+Many of the limitations of MetaPost derive from features of Metafont. For instance, numbers have a low-precision fixed-point representation, sufficient for representing the coordinates of points in a glyph, and this can be restrictive when working with figures in a larger coordinate space. Moreover, MetaPost does not support all features of PostScript. Most notably, paths can have only one segment (so that regions are simply connected), and regions only be filled with uniform colours. PostScript level 1 supports tiled patterns and PostScript 3 supports Gouraud shading. To this end, the Asymptote graphics language has been developed to address these shortcomings.
+
+MetaPost is distributed with many current distributions of the TeX and Metafont framework. In particular, it is included in the teTeX and the TeX Live distribution, common on Linux and Unix (including Mac OS X) platforms.
+The encapsulated postscript produced by Metapost is easily included in TeX, ConTeXt, and LaTeX documents via standard eps-inclusion commands. Particularly useful is the ability to include this output in the PDFTeX dialect of TeX, thus giving Portable Document Format output from TeX in a single step. This ability is implemented in ConTeXt and in the LaTeX graphics package, and can be used from plain TeX via the supp-pdf.tex macro file. ConTeXt even supports the creation of MetaPost files from within the TeX file.
+
+This is a single file example.mp which when processed by the MetaPost interpreter (via the command mpost on Linux) produces three eps files example.1, example.2, example.3. These are pictured on the right.
+The resulting three eps files can be used in TeX via LaTeX's \includegraphics command, ConTeXt's \externalfigure, Plain TeX's \epsfbox command, or (in Plain pdftex) the \convertMPtoPDF command from supp-pdf.tex. To view or print the third diagram, this inclusion is necessary, as the TeX font (Metafont) is not included in the eps files produced by MetaPost.
+
+
+

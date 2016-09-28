@@ -1,0 +1,50 @@
+Scrum (development)
+Scrum is an iterative incremental process of software development commonly used with agile software development. Despite the fact that "Scrum" is not an acronym, some companies implementing the process have been known to adhere to an all capital letter expression of the word, i.e. SCRUM. This may be due to one of Ken Schwaber's early papers capitalizing SCRUM in the title.[1]
+Although Scrum was intended for management of software development projects, it can be used to run software maintenance teams, or as a general project/program management approach.
+
+In 1986, Hirotaka Takeuchi and Ikujiro Nonaka described a new holistic approach that increases speed and flexibility in commercial new product development.[2] They compare this new holistic approach, in which the phases strongly overlap and the whole process is performed by one cross-functional team across the different phases, to rugby, where the whole team "tries to go to the distance as a unit, passing the ball back and forth". The case studies come from the automotive, photo machine, computer and printer industries.
+In 1991, DeGrace and Stahl, in Wicked Problems, Righteous Solutions,[3] referred to this approach as Scrum, a rugby term mentioned in the article by Takeuchi and Nonaka. In the early 1990s, Ken Schwaber used an approach that led to Scrum at his company, Advanced Development Methods. At the same time, Jeff Sutherland, John Scumniotales, and Jeff McKenna developed a similar approach at Easel Corporation and was the first to call it Scrum.[4] In 1995 Sutherland and Schwaber jointly presented a paper describing Scrum at OOPSLA '95 in Austin, its first public appearance. Schwaber and Sutherland collaborated during the following years to merge the above writings, their experiences, and industry best practices into what is now known as Scrum. In 2001, Schwaber teamed up with Mike Beedle to write up the method in the book Agile Software Development with Scrum.
+
+Scrum is a "process skeleton," which contains sets of practices and predefined roles. The main roles in Scrum are: (1) the "ScrumMaster," who maintains the processes and works similarly to a project manager; (2) the "Product Owner," who represents the stakeholders; and (3) the "Team", which consists of developers.
+During each "sprint", typically a two–four week period (with the length being decided by the team), the team creates an increment of usable software. The set of features that go into a sprint come from the product "backlog", which is a prioritized set of high level requirements of work to be done. Which backlog items go into the sprint is determined during the sprint planning meeting. During this meeting, the Product Owner informs the team of the items in the product backlog that he wants completed. The team then determines how much of this they can commit to complete during the next sprint.[1] During a sprint, no one is allowed to change the sprint backlog, which means that the requirements are frozen for that sprint. After a sprint is completed, the team demonstrates the use of the software.
+Scrum enables the creation of self-organizing teams by encouraging co-location of all team members, and verbal communication across all team members and disciplines that are involved in the project.
+A key principle of Scrum is its recognition that during a project the customers can change their minds about what they want and need (often called requirements churn), and that unpredicted challenges cannot be easily addressed in a traditional predictive or planned manner. As such, Scrum adopts an empirical approach—accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team's ability to deliver quickly and respond to emerging requirements.
+There are several implementations of systems for managing the Scrum process, which range from yellow stickers and whiteboards, to software packages. One of Scrum's biggest advantages is that it is very easy to learn and requires little effort to start using.
+
+Several roles are defined in Scrum; these are divided into two groups; pigs and chickens, based on a joke about a pig and a chicken.[5]
+A pig and a chicken are walking down a road. The chicken looks at the pig and says, "Hey, why don't we open a restaurant?" The pig looks back at the chicken and says, "Good idea, what do you want to call it?" The chicken thinks about it and says, "Why don't we call it 'Ham and Eggs'?" "I don't think so," says the pig, "I'd be committed, but you'd only be involved."
+So the "pigs" are committed to building software regularly and frequently, while everyone else is a "chicken" - interested in the project but really indifferent because if it fails they're not the pigs - that is, they weren't the ones that committed to doing it. The needs, desires, ideas and influences of the chicken roles are taken into account, but are not in any way allowed to affect, distort or get in the way of the actual Scrum project.
+
+The Pigs are the ones committed to the project in the Scrum process - they are the ones with "their bacon on the line."
+
+Chicken roles are not part of the actual Scrum process, but must be taken into account. An important aspect of an Agile approach is the practice of involving users, internal business groups and stakeholders into portions of the process. It is important for these people to be engaged in the outcome of the project by providing feedback into the development, its review and planning for each sprint.
+
+
+
+The product backlog is a high-level document for the entire project. It contains backlog items: broad descriptions of all required features, wish-list items, etc. prioritised by business value. It is the "What" that will be built. It is open and editable by anyone and contains rough estimates of both business value and development effort. Those estimates help the Product Owner to gauge the timeline and, to a limited extent, priority. For example, if the "add spellcheck" and "add table support" features have the same business value, the one with the smallest development effort will probably have higher priority, because the ROI is higher.
+The product backlog is property of the Product Owner. Business value is set by the Product Owner. Development effort is set by the Team.
+
+The sprint backlog is a greatly detailed document containing information about how the team is going to implement the features for the upcoming sprint. Features are broken down into tasks; as a best practice tasks are normally estimated between four and 16 hours of work. With this level of detail the whole team understands exactly what to do, and anyone can potentially pick a task from the list. Tasks on the sprint backlog are never assigned; rather, tasks are signed up for by the team members as needed, according to the set priority and the team member skills.
+The sprint backlog is property of the Team. Estimations are set by the Team. Often an according Task Board is used to see and change the state of the tasks of the current sprint, like "to do", "in progress" and "done".
+
+The burn down chart is a publicly displayed chart showing remaining work in the sprint backlog. Updated every day, it gives a simple view of the sprint progress. It also provides quick visualizations for reference.
+It should not be confused with an earned value chart.
+
+The following are some general practices of Scrum:
+
+CAUTION: Nothing in this article has addressed the testing methodology of this development style, especially since this method is "adaptive" and done in sprints. Test cases designed during the beginning of the project may need to be totally redesigned and then must be run again each time something is new is created or added to the existing code --- creating the very possible cost-overrun potenial as well as added time-delay in product completion. (Testing must also be completed when any "fix" or "patch" is created.) Note: This development process will also require regression test development and testing (in addition to use-case scenario / requirements testing) to ensure that the new/additional code added to the product does not affect the integrity of previously tested code in its entirety.
+
+The following terminology is used in Scrum:[11]
+
+
+
+
+Though Scrum was originally applied to software development only, it can also be successfully used in other industries. Now Scrum is often viewed as an iterative, incremental process for developing any product or managing any work.
+
+Scrum as applied to product development was first referred to in "The New New Product Development Game" (Harvard Business Review 86116:137–146, 1986) and later elaborated in "The Knowledge Creating Company" both by Ikujiro Nonaka and Hirotaka Takeuchi (Oxford University Press, 1995). Today there are records of Scrum used to produce financial products, Internet products, and medical products by ADM.
+
+As marketing is often executed in a project-based manner, a lot of generic project management principles apply to marketing. Marketing can also be optimized similar to project management techniques. Scrum approach to marketing is believed to be helpful for overcoming problems experienced by marketing executives. Short and regular meetings are important for small marketing teams, as every member of a team has to know what the others are working on and what direction the whole team is moving in. Scrum in marketing makes it possible to:
+There is also a tendency to execute Scrum in marketing with the help of Enterprise 2.0 technologies and Project management 2.0 tools.
+
+
+

@@ -1,0 +1,55 @@
+37signals
+37signals is a privately held web application company based in Chicago, Illinois, United States. The firm was co-founded in 1999 by CEO Jason Fried, Carlos Segura, and Ernest Kim as a web design company with a self-described focus on usability, simplicity, and clarity in design and writing. 37signals also produces a blog, Signal vs. Noise. Segura left in 2000 and Kim left in 2003, leaving Fried as the only remaining founder.
+Since 2003, 37signals has been primarily a developer and provider of business and personal productivity web applications. Its first application was Basecamp. This was followed by Ta-Da List, Backpack, Writeboard, Campfire and Highrise. 37signals was responsible for launching the open source web application framework software Ruby on Rails, which it uses in its own applications. The products have gained popularity using what has come to be known as a freemium business model.
+The company is named for the 37 radio telescope signals identified by astronomer Paul Horowitz as potential messages from extraterrestrial intelligence.[1]
+
+37signals designed Meetup.com and redesigned sites for customers such as Panera Bread and Shopping.com. In 2000, they created the eNormicom website, a satire of the dot-com era. In 2003, 37signals launched a web design service called 37express, where for a set fee ($2500) they would redesign one page on a website in one week.
+Also in 2003, 37signals began work on a web application for project management named Basecamp, originally intended for internal use, which took the company in a new direction. Basecamp has since been followed by five other web applications. See the products section below for more details.
+By 2005, the company had moved away from consulting work to focus exclusively on its web applications. Each application had a free limited-feature version, and most had monthly subscription levels with more features. By April 2009, they had stopped offering free versions of most applications.
+The Ruby on Rails web application framework was extracted from the work on Basecamp and released as open source (see Ruby on Rails section below).
+On July 20, 2006, the company announced that Jeff Bezos had acquired a minority stake through his personal investment company, Bezos Expeditions.[2]
+
+37signals promotes an internally-developed Agile software development methodology and philosophy called "Getting Real". Getting Real eschews formal programming methodology and focuses on creating useful alpha software with small teams, then iterating to a simple useful application based, in part, on real-world customer feedback. The company initially expanded without venture capital and advocated the "self-funded startup" approach, although it has since taken investment from Jeff Bezos.[2]
+37signals has held seminars about their methods in Chicago and other U.S. cities.[3] The philosophy recommends online advertising (particularly via blogs) rather than standard methods. The company uses Apple computers exclusively and has said it would "never hire someone who doesn't use a Mac".[4]
+
+
+Ruby on Rails is a free web application framework created by David Heinemeier Hansson, one of the 37signals programmers. It was originally used to make 37signals' first product, Basecamp, and was since extracted and released as open source in 2004, as well as being the framework that 37signals use to make their web applications. Often shortened to "Rails" or "RoR", it is programmed in the Ruby programming language.
+The official Ruby on Rails website states (in the footer of the page) that it is "sponsored by 37signals". The development of Ruby on Rails is now managed by the Rails Core Team, with Hansson still contributing.
+
+Queen Bee is 37signals' custom internal statistics, billing, and administration application, based around centralization.
+
+
+
+The company's blog, Signal vs. Noise, was launched in 1999[5] and is self-described as featuring "entrepreneurship, design, experience, simplicity, constraints, pop culture, our products, products we like, and more." It is regularly updated by the company's employees and allows commenting by readers. The company often uses the blog to communicate with users regarding new products, features, and their design philosophy "Getting Real". Content since February 2005 is archived, and the blog is powered by a custom-built blogging tool, although it formerly used Movable Type.[6] The blog is written in a casual style, and sometimes contains profanity. Revenue from the blog is gained through three methods of advertising: small image ads via The Deck, a small advertising network, and a 37signals "Job Board." (See below: Advertising)
+
+The company also maintains another blog, the 37signals Product Blog. It launched on May 15, 2007,[7] and is self-described as "News, talk, opinions, tips and tricks about our entire product line".[8] It replaced the individual blogs for Basecamp and Backpack.[7]
+
+The company's website also has a section called "Developerland", self-described as "APIs, examples, wrappers, forums, and everything else you need to integrate with 37signals products".
+
+
+As of March 2007[update], 37signals has created four commercial web applications and two free web applications. All of the 37signals web applications use a page-based design (i.e., the application has a multi-page navigation and acts like a normal web site would), as opposed to the window-based interface of web desktops such as YouOS.
+All of the 37signals applications have feature-limited free versions and 30-day free trials of the full versions, after which the user must either pay to continue or stop using the application.
+
+Basecamp is 37signals' first product, a web-based project management tool that launched in 2004.[9] The Ruby on Rails framework was extracted from the Basecamp project.
+The primary features of Basecamp include to-do lists, milestone management, forum-like messaging, file sharing, and time tracking.
+37signals have since created an API for Basecamp, allowing interaction with other web applications as well as desktop applications. One example of the API in use is a Mac OS X Dashboard widget.
+
+Ta-Da List, 37signals' first free web application, is a free to-do list application launched in January 2005.[10] To use the application, users must create an account which will manage all of their "to-do lists". It is possible to track changes via an RSS feed. Ta-Da List allows lists to be shared either publicly (anyone can view the list by visiting a unique URI), or with specific people by sending an automated email containing a private URI. Ta-Da List is based on the lists in both Basecamp and Backpack.
+
+Backpack is a web-based personal information manager and intranet for small business. The application has two main functions: user-created pages (which can include text, images, and files), and an iCalendar format calendar.
+Features of the user-created pages include to-do lists, inline photo galleries, notes and file attachments, and page sharing. Features of the calendar include support for iCalendar, email/SMS reminders, color-coding of calendars, and iCalendar sharing.
+
+Writeboard is a free, collaborative (but not real time) text editor, which allows creation of an unlimited number of web-based text documents. Each Writeboard has a separate user name and password, and changes can be monitored via an RSS feed.
+Writeboard supports Diff, allowing users to compare changes made to the document, and Textile, for easy to use and simple formatting. Writeboard has since been integrated with both Basecamp and Backpack.
+
+Campfire is a web-based, business-oriented online chat service. It was released on February 16, 2006.[11] The application uses Ajax technology for real time communication, and supports optional 128-bit SSL encryption. To use the application, users must either create a new chat room or be invited to one. Unless a chat room is specifically chosen to be "off the record", browsable transcripts of chats and uploaded files are stored for future reference. One of the main features of the application, referred to by 37signals as "live image previews", is that image uploads in GIF, PNG, or JPEG formats are represented as thumbnails and automatically shown in the chat.
+
+Highrise (originally publicized as "Sunrise"[12]) is a web-based application focusing mainly on "shared contact management" and basic CRM tasks.[13] The application was released on March 20, 2007.[14]
+Features of Highrise include "person pages" and "company pages", which can contain images, notes, company info, contact details, etc., to-do lists much like those seen in Basecamp or Backpack, and "Cases", which are pages/categories within which related notes, images, and people can be kept. The other main features of Highrise are its support for interaction via e-mail (e.g. related email messages can be sent to unique Highrise "dropboxes" via (Blind) carbon copy or email forwarding), and support for importing data from vCards, Microsoft Outlook, ACT!, or data from Basecamp accounts.
+
+Since June 25, 2007,[15] 37signals' Basecamp application has offered a single sign-on authentication option to users using the OpenID authentication service. Since then, both Highrise and Backpack have had OpenID/Open Bar support added. Open Bar, effectively an OpenID implementation, is set up by the user logging into their Basecamp/Backpack/Highrise account and entering their unique OpenID identification URI in their account settings. If a user with multiple accounts were to do this, when logged in to any of the accounts configured with OpenID a black "Open Bar" would appear at the top of the page, and by hovering over the product name a drop-down list of all the user's accounts on that product would appear. Also, if the user has OpenID configured on both their Basecamp, Highrise, and/or Backpack accounts, both product names will appear in the Open Bar and allow switching between applications without having to be logged in to each one individually. Open Bar support was added to Backpack on July 27, 2007.
+
+Whilst not primarily an online advertising company, 37signals is the creator and maintainer of an advertising system, the 37signals "Job Board." In October 2006 the company introduced a separate "Gig Board" for one-off jobs, but it often displayed few postings (despite its posting fee being a third of that for the successful main "Job Board") and quietly disappeared in February 2009. The company is a founding member of "The Deck", a small online advertising network with 19 members (as of August 2007[update]).
+37signals often advertises its products on The Deck, and occasional job positions on the Job Board.
+
+

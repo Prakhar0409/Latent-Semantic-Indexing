@@ -1,0 +1,82 @@
+Marketing plan
+Product / Pricing / Promotion
+Distribution / Service / Retail
+Brand management
+Account-based marketing
+Marketing effectiveness
+Market research
+Marketing strategy
+Marketing management
+Market dominance
+Advertising / Branding
+Direct marketing / Personal Sales
+Product placement / Public relations
+Publicity / Sales promotion
+Sex in advertising / Underwriting
+Printing / Publication / Broadcasting
+Out-of-home / Internet marketing
+Point of sale / Novelty items
+Digital marketing / In-game
+Word of mouth
+A marketing plan is a written document that details the necessary actions to achieve one or more marketing objectives. It can be for a product or service, a brand, or a product line. Marketing plans cover between one and five years.
+A marketing plan may be part of an overall business plan. Solid marketing strategy is the foundation of a well-written marketing plan. While a marketing plan contains a list of actions, a marketing plan without a sound strategic foundation is of little use.
+
+
+In most organizations, "strategic planning" is an annual process, typically covering just the year ahead. Occasionally, a few organizations may look at a practical plan which stretches three or more years ahead.
+To be most effective, the plan has to be formalized, usually in written form, as a formal "marketing plan." The essence of the process is that it moves from the general to the specific; from the overall objectives of the organization down to the individual action plan for a part of one marketing program. It is also an interactive process, so that the draft output of each stage is checked to see what impact it has on the earlier stages - and is amended.
+
+Behind the corporate objectives, which in themselves offer the main context for the marketing plan, will lay the "corporate mission"; which in turn provides the context for these corporate objectives.
+
+This "corporate mission" can be thought of as a definition of what the organization is; of what it does: "Our business is â€¦".  This definition should not be too narrow, or it will constrict the development of the organization; a too rigorous concentration on the view that "We are in the business of making meat-scales," as IBM was during the early 1900s, might have limited its subsequent development into other areas. On the other hand, it should not be too wide or it will become meaningless; "We want to make a profit" is not too helpful in developing specific plans. 
+Abell suggested that the definition should cover three dimensions: "customer groups" to be served, "customer needs" to be served, and "technologies" to be utilized [1]. Thus, the definition of IBM's "corporate mission" in the 1940s might well have been: "We are in the business of handling accounting information [customer need] for the larger US organizations [customer group] by means of punched cards [technology]." 
+Perhaps the most important factor in successful marketing is the "corporate vision." Surprisingly, it is largely neglected by marketing textbooks; although not by the popular exponents of corporate strategy - indeed, it was perhaps the main theme of the book by Peters and Waterman, in the form of their "Superordinate Goals." "In Search of Excellence" said: "Nothing drives progress like the imagination. The idea precedes the deed." [2] If the organization in general, and its chief executive in particular, has a strong vision of where its future lies, then there is a good chance that the organization will achieve a strong position in its markets (and attain that future). This will be not least because its strategies will be consistent; and will be supported by its staff at all levels. In this context, all of IBM's marketing activities were underpinned by its philosophy of "customer service"; a vision originally promoted by the charismatic Watson dynasty. The emphasis at this stage is on obtaining a complete and accurate picture.
+In a single organization, however, it is likely that only a few aspects will be sufficiently important to have any significant impact on the marketing plan; but all may need to be reviewed to determine just which "are" the few.  
+
+A "traditional" - albeit product-based - format for a "brand reference book" (or, indeed, a "marketing facts book") was suggested by Godley more than three decades ago: 
+
+It is apparent that a marketing audit can be a complex process, but the aim is simple: "it is only to identify those existing (external and internal) factors which will have a significant impact on the future plans of the company."  It is clear that the basic material to be input to the marketing audit should be comprehensive.
+Accordingly, the best approach is to accumulate this material continuously, as and when it becomes available; since this avoids the otherwise heavy workload involved in collecting it as part of the regular, typically annual, planning process itself - when time is usually at a premium.
+Even so, the first task of this annual process should be to check that the material held in the current facts book or facts files actually is comprehensive and accurate, and can form a sound basis for the marketing audit itself. 
+The structure of the facts book will be designed to match the specific needs of the organization, but one simple format - suggested by Malcolm McDonald - may be applicable in many cases. This splits the material into three groups: 
+
+
+It is only at this stage (of deciding the marketing objectives) that the active part of the marketing planning process begins'.  This next stage in marketing planning is indeed the key to the whole marketing process.
+The "marketing objectives" state just where the company intends to be; at some specific time in the future.
+James Quinn succinctly defined objectives in general as: Goals (or objectives) state what is to be achieved and when results are to be accomplished, but they do not state 'how' the results are to be achieved.[3]  They typically relate to what products (or services) will be where in what markets (and must be realistically based on customer behavior in those markets). They are essentially about the match between those "products" and "markets." Objectives for pricing, distribution, advertising and so on are at a lower level, and should not be confused with marketing objectives. They are part of the marketing strategy needed to achieve marketing objectives.  To be most effective, objectives should be capable of measurement and therefore "quantifiable." This measurement may be in terms of sales volume, money value, market share, percentage penetration of distribution outlets and so on. An example of such a measurable marketing objective might be "to enter the market with product Y and capture 10 per cent of the market by value within one year." As it is quantified it can, within limits, be unequivocally monitored; and corrective action taken as necessary.
+The marketing objectives must usually be based, above all, on the organization's financial objectives; converting these financial measurements into the related marketing measurements.He went on to explain his view of the role of "policies," with which strategy is most often confused: "Policies are rules or guidelines that express the 'limits' within which action should occur."Simplifying somewhat, marketing strategies can be seen as the means, or "game plan," by which marketing objectives will be achieved and, in the framework that we have chosen to use, are generally concerned with the 7 P's. Examples are: 
+
+In principle, these strategies describe how the objectives will be achieved. The 7 P's are a useful framework for deciding how the company's resources will be manipulated (strategically) to achieve the objectives. It should be noted, however, that they are not the only framework, and may divert attention from the real issues. The focus of the strategies must be the objectives to be achieved - not the process of planning itself. Only if it fits the needs of these objectives should you choose, as we have done, to use the framework of the 7 P's.
+The strategy statement can take the form of a purely verbal description of the strategic options which have been chosen. Alternatively, and perhaps more positively, it might include a structured list of the major options chosen.
+
+One aspect of strategy which is often overlooked is that of "timing." Exactly when it is the best time for each element of the strategy to be implemented is often critical. Taking the right action at the wrong time can sometimes be almost as bad as taking the wrong action at the right time. Timing is, therefore, an essential part of any plan; and should normally appear as a schedule of planned activities.Having completed this crucial stage of the planning process, you will need to re-check the feasibility of your objectives and strategies in terms of the market share, sales, costs, profits and so on which these demand in practice. As in the rest of the marketing discipline, you will need to employ judgment, experience, market research or anything else which helps you to look at your conclusions from all possible angles.
+
+===Detailed plans and programs===
+At this stage, you will need to develop your overall marketing strategies into detailed plans and program. Although these detailed plans may cover each of the 7 P's, the focus will vary, depending upon your organization's specific strategies. A product-oriented company will focus its plans for the 7 P's around each of its products. A market or geographically oriented company will concentrate on each market or geographical area. Each will base its plans upon the detailed needs of its customers, and on the strategies chosen to satisfy these needs. 
+Again, the most important element is, indeed, that of the detailed plans; which spell out exactly what programs and individual activities will take place over the period of the plan (usually over the next year). Without these specified - and preferably quantified - activities the plan cannot be monitored, even in terms of success in meeting its objectives.It is these programs and activities which will then constitute the "marketing" of the organization over the period. As a result, these detailed marketing programs are the most important, practical outcome of the whole planning process. These plans should therefore be:
+
+A marketing plan for a small business typically includes Small Business Administration Description of competitors, including the level of demand for the product or service and the strengths and weaknesses of competitors
+
+The main contents of a marketing plan are:[citation needed]
+In detail, a complete marketing plan typically includes:[citation needed]
+
+The final stage of any marketing planning process is to establish targets (or standards) so that progress can be monitored. Accordingly, it is important to put both quantities and timescales into the marketing objectives (for example, to capture 20 per cent by value of the market within two years) and into the corresponding strategies.
+Changes in the environment mean that the forecasts often have to be changed. Along with these, the related plans may well also need to be changed. Continuous monitoring of performance, against predetermined targets, represents a most important aspect of this. However, perhaps even more important is the enforced discipline of a regular formal review. Again, as with forecasts, in many cases the best (most realistic) planning cycle will revolve around a quarterly review. Best of all, at least in terms of the quantifiable aspects of the plans, if not the wealth of backing detail, is probably a quarterly rolling review - planning one full year ahead each new quarter. Of course, this does absorb more planning resource; but it also ensures that the plans embody the latest information, and - with attention focused on them so regularly - forces both the plans and their implementation to be realistic.
+Plans only have validity if they are actually used to control the progress of a company: their success lies in their implementation, not in the writing'.
+
+The most important elements of marketing performance, which are normally tracked, are:
+
+Most organizations track their sales results; or, in non-profit organizations for example, the number of clients. The more sophisticated track them in terms of 'sales variance' - the deviation from the target figures - which allows a more immediate picture of deviations to become evident.. `Micro- analysis', which is a nicely pseudo-scientific term for the normal management process of investigating detailed problems, then investigates the individual elements (individual products, sales territories, customers and so on) which are failing to meet targets.
+
+Few organizations track market share though it is often an important metric. Though absolute sales might grow in an expanding market, a firm's share of the market can decrease which bodes ill for future sales when the market starts to drop. Where such market share is tracked, there may be a number of aspects which will be followed:
+
+The key ratio to watch in this area is usually the `marketing expense to sales ratio'; although this may be broken down into other elements (advertising to sales, sales administration to sales, and so on).
+
+The `bottom line' of marketing activities should at least in theory, be the net profit (for all except non-profit organizations, where the comparable emphasis may be on remaining within budgeted costs). There are a number of separate performance figures and key ratios which need to be tracked:
+There can be considerable benefit in comparing these figures with those achieved by other organizations (especially those in the same industry); using, for instance, the figures which can be obtained (in the UK) from `The Centre for Interfirm Comparison'. The most sophisticated use of this approach, however, is typically by those making use of PIMS (Profit Impact of Management Strategies), initiated by the General Electric Company and then developed by Harvard Business School, but now run by the Strategic Planning Institute.
+The above performance analyses concentrate on the quantitative measures which are directly related to short-term performance. But there are a number of indirect measures, essentially tracking customer attitudes, which can also indicate the organization's performance in terms of its longer-term marketing strengths and may accordingly be even more important indicators. Some useful measures are:
+
+A formal, written marketing plan is essential; in that it provides an unambiguous reference point for activities throughout the planning period. However, perhaps the most important benefit of these plans is the planning process itself. This typically offers a unique opportunity, a forum, for information-rich and productively focused discussions between the various managers involved. The plan, together with the associated discussions, then provides an agreed context for their subsequent management activities, even for those not described in the plan itself.
+
+The classic quantification of a marketing plan appears in the form of budgets. Because these are so rigorously quantified, they are particularly important. They should, thus, represent an unequivocal projection of actions and expected results. What is more, they should be capable of being monitored accurately; and, indeed, performance against budget is the main (regular) management review process.
+The purpose of a marketing budget is, thus, to pull together all the revenues and costs involved in marketing into one comprehensive document. It is a managerial tool that balances what is needed to be spent against what can be afforded, and helps make choices about priorities. It is then used in monitoring performance in practice.
+The marketing budget is usually the most powerful tool by which you think through the relationship between desired results and available means. Its starting point should be the marketing strategies and plans, which have already been formulated in the marketing plan itself; although, in practice, the two will run in parallel and will interact. At the very least, the rigorous, highly quantified, bud

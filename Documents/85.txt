@@ -1,0 +1,33 @@
+Johnston (typeface)
+Johnston (or Johnston Sans) is a humanist sans-serif typeface designed by and named after Edward Johnston. The capitals of the typeface are based on Roman square capitals, and the lower-case on the humanistic minuscule, the handwriting in use in Italy in the fifteenth century. In this, it marked a break with the kinds of sans serif previously used, sometimes known as grotesque, which tended to have squarer shapes.
+
+The typeface was commissioned in 1913 by Frank Pick, Commercial Manager of the London Electric Railway Company (also known as 'The Underground Group'), as part of his plan to strengthen the company's corporate identity. In 1933, The Underground Group become a major part of London Transport and the typeface was adopted for the complete network.
+The font family was originally called Underground, it became known as Johnston's Railway Type, and later simply Johnston. It comes with two weights, heavy and ordinary. Heavy contains only capital letters.
+A further change occurred in 2008 when Transport for London removed the serif from the numeral '1' and also altered the '4', in both cases reverting these to their original appearance.
+
+The Johnston typeface was redesigned in 1979 by Eiichi Kono at Banks & Miles to produce New Johnston, the variant of the original font currently used by London Underground. The new font is slightly heavier or bolder than the original. The new family comes with Bold, Medium, Light weights. The new font replaced the old font.
+
+The original font was developed in the 1920s by Percy Delf Smith (another former pupil of Edward Johnston). It was commissioned by Frank Pick of London Underground as a 'petit-serif' variation of the organisation's standard sans-serif Johnston font. The font was originally used for the headquarters building at 55 Broadway, SW1.
+It can still be seen on some signs at Sudbury Town and Arnos Grove on the Piccadilly line.
+In early 2007, an electronic version of the typeface was developed under the name Johnston Delf Smith, specifically for use on historic signs.
+
+International Typeface Corporation released a variant in 1999 called ITC Johnston, produced by British type designers Richard Dawson and Dave Farey. It originally included 3 font weights like New Johnston. However, it does not include the hooked 1 and uses side-pointed 4.
+In November 2002, the font was rereleased in OpenType format, which also expanded the font family to include italic fonts in all weights. Character set was expanded to support ISO Adobe 2 character set. OpenType features include alternates, case forms, small caps (romans only), old style figure. Separate small caps (romans only) and old style figure fonts were also released for each weight in TrueType and PostScript formats, for a total of 15 fonts.
+
+Released in March 2009, this version includes support of Adobe CE character set.
+
+
+In 1997, London Transport Museum licensed the original Johnston fonts exclusively to P22 Type Foundry, available commercially as Johnston Underground. Johnston Underground included Regular, Bold, and Extras fonts, with the Extra containing only ornamental symbols.
+
+London Transport Museum licensed Edward Johnston's design to P22 Type Foundry, which was released as Underground Pro (or P22 Underground Pro) family. The full Underground Pro Set contains 19 Pro OpenType fonts and 58 Basic OpenType fonts, covering extended Latin, Greek, Cyrillic character sets. Font weights are expanded to 6: Thin, Light, Book, Medium, Demi, Heavy. However, there are no italic fonts in P22's designs. Underground, Underground CY, Underground GR support extended Latin, Cyrillic, Greek characters respectively. The Latin sub-family contains medium weight Titling fonts, which feature underscored and/or overscored Latin small letters. Pro fonts include extensive OpenType features, including 11 stylistic sets: Petite Capitals, Dryad Cap Alternates, Humanistic Alternates 1, Humanistic Alternates 2, Geometric Alternates, Round Points, Diamond Points, Alternate Tilde, All Under commas, All cedillas, Alternate Eng.
+
+Johnston's former student Eric Gill also worked on the development of the typeface,[1] and the design was later to influence his Gill Sans typeface, produced 1928-1932.
+
+Its use has included the Tube map, name plates and general station signing, as well as much of the printed material issued by the Underground Group and its successors; plus by the nationalised British Road Services in the immediate post-war era. Features of the font are the perfect circle of the letter O and the use of a diamond-shaped dot above minuscule letters i and j and for the full stop. Commas, apostrophes and other punctuation marks are also based on the diamond-shaped dot.
+
+
+
+
+
+
+

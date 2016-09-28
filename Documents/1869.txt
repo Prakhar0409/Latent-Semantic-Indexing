@@ -1,0 +1,23 @@
+Perfect Dark (P2P)
+Perfect Dark is a Japanese peer-to-peer file-sharing (P2P) application designed for use with Microsoft Windows (not to be confused with the video game franchise Perfect Dark). Its author is known by the pseudonym Kaichō (会長 ?, lit. "The Chairman"). Perfect Dark was developed with the intention for it to be the successor to both Winny and Share.[2] As of the most recent version (v1.02 "STAND ALONE COMPLEX") there is support for the program to run in the English language, an option that can be selected when the program is installed.
+
+Presently, since Perfect Dark is still being actively developed, the author does not ask that the program's users at this point become dedicated "users" of the software. Instead the author asks them to participate in the test phase. Through this test phase, the author hopes for bug reports and discussion that will help shape Perfect Dark into the most useful application possible.
+In comparison to its predecessors Winny and Share, the bandwidth and hard drive space requirements have increased. The minimum upload speed required by perfect dark is 100KB/sec, and it also requires a minimum of 40GB of hard drive space for its unity (cache) folder.
+
+Like other softwares for share, Perfect Dark has its own P2P network of data which are transformed and called unity.
+One of the biggest characteristics of Perfect Dark is the strong ability of searching. With the help of dkt (distributed hash table) which can keep its performance on searching regardless of the expansion of the network, it comes unnecessary to rely on the construction of the node clusters. So it frees users from inputting or switching the cluster's keywords, but also enables users to search files of different genres at one time. With respect to Winny and Share, they have problems that the cluster's keywords that fits for targeted files must be configured beforehand, as well as the inevitable waiting before the switched keywords takes effect.
+The concept of tree search brings its strong searching ability. Also, the flexible use of AND, OR and NOT like operators helps filtering out the results conveniently.
+Perfect Dark requires more bandwidth and HDD space than Winny and Share, stressing fairer loads for users. When one lacks his unity, Perfect Dark will limit his download speed and give first rank to upload to other nodes. This way of working is for the purpose of increasing the amount of files on Perfect Dark's network in future.
+The author implements an architecture called dkt+dht+du in the design of the network. Other features besides file sharing are also given considerations. For instance, a simple bulletin system is implemented.
+
+Respectively, they stand for Distributed Keyword Table, Distributed Hash Table and Distributed Unity, which compose the whole network according to the author.
+dkt is mainly for providing effective file searching, while dht+du is for effective file sharing and anonymity enhancement.
+
+The overall structure of the Perfect Dark network broadly resembles recent versions of Freenet, only with more heavy use of distributed hash tables.
+The anonymity relies on a mixnet where traffic is forwarded according to a certain probability, as well as the deniability of the distributed datastore ("unity"), which is stored and transferred in encrypted blocks, with the keys distributed separately.
+Perfect Dark uses RSA (1024-bit) and AES (128-bit) to encrypt data transmitted between peers. Exchanged keys are cached for efficiency.
+Published files and boards (including automatic updates from the author, where enabled) are usually signed with 160-bit ECDSA signatures. Automatic updates are additionally protected with a 2048-bit RSA signature.
+The author believes that initially, a layer of obscurity due to the closed-source nature of the program will frustrate attempted attacks on the anonymity, as well as network degradation due to "free riders" and junk files; however, the author has stated that it may become open-source in the future should an acceptable solution to these problems be found.
+
+
+

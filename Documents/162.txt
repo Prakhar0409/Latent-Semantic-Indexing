@@ -1,0 +1,31 @@
+Monome
+Monome is a small Catskills-based hardware company that makes controllers for electronic music performance and new media art. Their first product, the 40h, is an eight-by-eight grid of backlit buttons which connects to a computer using a USB cable and the OpenSound Control (OSC) protocol. Originally developed as an open ended performance interface for electronic music, its developers have said "The wonderful thing about this device is that it doesn't do anything really,"[1]. As a result, developers have begun to use the monome as an interface for other types of software, from text displays to games.
+The word "monome" is also often used as a name for the various devices that monome produces.
+
+Monome as a company is committed to a minimalist philosophy both with regards to design on the one hand, and economic and ecological production principles on the other[2].
+Monome's minimalist design philosophy manifests in its production of interface devices that avoid complexity in order to promote greater possible versatility (see Functionality, below). Monome places emphasis on greater accessibility through minimal design, in order to increase the adaptability of the device in terms of software implementation[3]. The name "monome" itself derives from the mathematical term monomial, a gesture to the concept of many variables made possible through something that is nevertheless singular or simple in nature.
+Monome's production approach emphasizes local and sustainable economies. For example, the materials and services involved in the production of their devices are domestic and often found regionally, enabling relationships with those involved in the production[4]. In terms of sustainability, for example, all packaging is recyclable. Furthermore, monome's open source policy uses distributed development for the software used by its devices[5].
+
+Musician Brian Crabtree created the first "monome" device in 2005[6] after his discovery of Max/MSP[7]. Crabtree conceived a device that would use an open grid of buttons in order to allow for greater diversity of functionality over differing musical software applications. Many fellow musicians requested such devices from Crabtree after becoming familiar with the initial device. Crabtree, together with his business partner, Kelli Cain, created an initial run of multiple devices a year later (2006)[8] as a convenient way to meet the requests of these musicians. The company arose organically, over time, after demand for the device increased.
+
+Monome devices consist of translucent silicone buttons backlit by LEDs placed in various kinds of boxes or cases depending upon series (or user, if purchased as a kit).
+
+Every device produced by monome may be described as a "decoupled grid"[9]. The device itself only handles simple actions for turning LEDs on/off individually or per column/row, and transmits button push/release signals. The grid of LEDs is therefore "decoupled" from the grid of button push/release signals. This allows for higher level functionalities to be implemented individually in separate, monome-aware applications; e.g. LEDs may display a pattern performed by the software application independently of the button signal which initiated the pattern.
+
+Although all Monome-aware applications either use OSC or MIDI to use the device, the low level communication between the computer and the device itself is a simple open, binary, serial protocol. There is a slight difference between v1 (model 40h) and v2 (models: 64, 128, 256).
+A small helper application is necessary to translate this serial data to other protocols:
+Although platform independent, because written in Python, serial-pyio was written to use monome devices with GNU/Linux operating systems.
+
+The original 40h was released on May 1, 2006. 400 units were produced. The new series (sixtyfour, onetwentyeight, and twofiftysix) were introduced starting in September of 2007. These featured redesigned keypads and black walnut enclosures. Kits became available in 2007 which allowed users to assemble their own 40h-compatible devices[10].
+Releases
+
+An active user community maintains monome documentation and implementation of the devices through open source software applications.
+
+According to its minimalist and distributed development philosophy, monome maintains documentation[11] for the use of its devices on the world wide web in the form of a wiki, edited by interested owners and users of monome devices.
+
+The monome user community creates applications specifically for the monome. Common programming environments for monome-specific applications include Max/MSP, PureData, ChucK, and Processing. Developers have begun to use the device for such non-musical purposes as text display and interaction, video-editing and games. Currently, the majority of monome-specific applications are intended for music-related tasks.
+
+One of the goals of monome is the development of a user community as itself a creative catalyst for its members[12]. The creation and maintenance of a community of users is thereby concomitant with monome's philosophy of distributed development and sustainability. Through internet user forums the monome community provides "distributed" technical support, both with regards to the devices themselves and their software implementation.[13]
+
+
+

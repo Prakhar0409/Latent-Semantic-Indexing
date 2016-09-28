@@ -1,0 +1,11 @@
+Mobile Network Code
+A Mobile Network Code (MNC) is used in combination with a Mobile Country Code (MCC) (also known as a "MCC / MNC tuple") to uniquely identify a mobile phone operator/carrier using the GSM, CDMA, iDEN, TETRA and UMTS public land mobile networks and some satellite mobile networks. The ITU-T Recommendation E.212 defines mobile country codes.
+The following tables contain the complete list of mobile phone operators. Country information is provided for completeness, though this information is best obtained from the Mobile Country Code page.
+
+
+
+
+
+
+
+

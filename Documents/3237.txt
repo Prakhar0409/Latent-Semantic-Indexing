@@ -1,0 +1,25 @@
+Model View Presenter
+Model View Presenter is a software pattern considered a derivative of the Model-view-controller.
+
+The View is defined as an interface that the Presenter will use for getting and setting data to and from the Model. The View implementation will instantiate the Presenter object and provide a reference to itself (the formal constructor parameter is the View interface while the actual parameter is a concrete View class). When the event methods of the View are triggered, they will do nothing but invoke a method of the Presenter which has no parameters and no return value. The Presenter will then get data from the View, through the View interface variable that the Presenter stored when the constructor was called. The Presenter then invokes methods of the Model, and sets data from the Model into the View through the View interface.
+From a layering point of view, the Presenter class might be considered as belonging to the application layer in a multilayered architectured object-oriented system with common layers but it can also be seen as a Presenter layer of its own between the Application layer and the User Interface layer.
+
+The Model View Presenter ("MVP") software pattern originated in the early 1990s at Taligent, a joint venture of Apple, IBM, and HP, and was the underlying programming model for application development in Taligent's C++-based CommonPoint environment. The pattern was later migrated by Taligent to Java and popularized in a paper by Taligent CTO Mike Potel[1]. After the demise of Taligent in 1997, the MVP pattern was adapted by Andy Bower and Blair McGlashan of Dolphin Smalltalk to form the basis for their Smalltalk user interface framework[2]. In 2006, Microsoft began incorporating MVP into their documentation and examples for user interface programming in the .NET framework[3]. The evolution and multiple variants of the MVP pattern, including the relationship of MVP to other design patterns such as MVC, were analyzed in detail in articles by Martin Fowler[4] and Derek Greer[5].
+It is often claimed that this pattern has "Retired" (11 Jul 06) since Martin Fowler said so[6]. He split the pattern into Supervising Controller [7] and Passive View [8]. Nevertheless, the pattern name still lives on the internet, and a Google search for the pattern still generates 34000+ hits, including a link to an article that has been published in MSDN Magazine [9].
+
+In a .NET environment the same Presenter class can be used for ASP.NET application and a Windows Forms application. The presenter gets and sets information from/to the View through an interface that in .NET can be implemented by both Windows Forms class and an ASPX page (the code-behind class can implement the View interface).
+Instead of manually implementing the pattern, one of the Model-View-Presenter frameworks may be used. Below are listed some of such frameworks under the .NET platform.
+
+
+In a Java (AWT/Swing/SWT) application, the MVP pattern can be used by letting the UI class implement a view interface.
+The same approach can be used for Java thin (web based) applications since modern Java Component Based Web Frameworks allow development of client side logic using the same component approach as thick clients. To implement MVP in Google Web Toolkit one just needs to let any Component implement the view interface. The same approach is possible using the Echo2 web framework since the web framework uses Swing classes in its core.
+
+AWT
+Swing
+SWT
+
+Google Web Toolkit
+Echo2
+
+
+

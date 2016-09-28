@@ -1,0 +1,23 @@
+Linear congruential generator
+A linear congruential generator (LCG) represents one of the oldest and best-known pseudorandom number generator algorithms.[1] The theory behind them is easy to understand, and they are easily implemented and fast.
+The generator is defined by the recurrence relation:
+where Xn is the sequence of pseudorandom values, and
+are integer constants that specify the generator.
+The period of a general LCG is at most m, and for some choices of a much less than that. The LCG will have a full period if and only if:
+While LCGs are capable of producing decent pseudorandom numbers, this is extremely sensitive to the choice of the coefficients c, m, and a.
+Historically, poor choices had led to ineffective implementations of LCGs. A particularly illustrative example of this is RANDU which was widely used in the early 1970s and resulted in many results that are currently in doubt because of the use of this poor LCG [3].
+If a linear congruential generator is seeded with a character and then iterated once, the result is a simple classical cipher called an affine cipher; this cipher is easily broken by standard frequency analysis.
+
+The most efficient LCGs have an m equal to a power of 2, most often m = 232 or m = 264, because this allows the modulus operation to be computed by merely truncating all but the rightmost 32 or 64 bits. The following table lists the parameters of LCGs in common use, including built-in rand() functions in various compilers.
+[citation needed] 
+LCGs should not be used for applications where high-quality randomness is critical.
+For example, it is not suitable for a Monte Carlo simulation because of the serial correlation (among other things). They should also not be used for cryptographic applications; see cryptographically secure pseudo-random number generator for more suitable generators.
+LCGs tend to exhibit some severe defects. For instance, if an LCG is used to choose points in an n-dimensional space, the points will lie on, at most, m1/n hyperplanes (Marsaglia's Theorem, developed by George Marsaglia). This is due to serial correlation between successive values of the sequence Xn. The spectral test, which is a simple test of an LCG's quality, is based on this fact.
+A further problem of LCGs is that the lower-order bits of the generated sequence have a far shorter period than the sequence as a whole if m is set to a power of 2. In general, the nth least significant digit in the base b representation of the output sequence, where bk = m for some integer k, repeats with at most period bn.
+Nevertheless, LCGs may be a good option. For instance, in an embedded system, the amount of memory available is often very severely limited. Similarly, in an environment such as a video game console taking a small number of high-order bits of an LCG may well suffice. The low-order bits of LCGs when m is a power of 2 should never be relied on for any degree of randomness whatsoever. Indeed, simply substituting 2^n for the modulus term reveals that the low order bits go through very short cycles. In particular, any full-cycle LCG when m is a power of 2 will produce alternately odd and even results!
+
+If higher quality random numbers are needed, and sufficient memory is available (~ 2 kilobytes), then the Mersenne twister algorithm is a preferred choice. The Mersenne twister generates higher-quality deviates than almost any LCG. A common Mersenne twister implementation, interestingly enough, uses an LCG to generate seed data.
+
+
+
+

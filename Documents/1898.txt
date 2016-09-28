@@ -1,0 +1,59 @@
+Circle
+A circle is a simple shape of Euclidean geometry consisting of those points in a plane which are the same distance from a given point called the centre. The common distance of the points of a circle from its center is called its radius. A diameter is a line segment whose endpoints lie on the circle and which passes through the centre of the circle. The length of a diameter is twice the length of the radius. A circle is never a polygon because it has no sides or vertices
+Circles are simple closed curves which divide the plane into two regions, an interior and an exterior. In everyday use the term "circle" may be used interchangeably to refer to either the boundary of the figure (known as the perimeter) or to the whole figure including its interior, but in strict technical usage "circle" refers to the perimeter while the interior of the circle is called a disk. The circumference of a circle is the perimeter of the circle (especially when referring to its length).
+A circle is a special ellipse in which the two foci are coincident. Circles are conic sections attained when a right circular cone is intersected with a plane perpendicular to the axis of the cone.
+
+
+A chord of a circle is a line segment whose two endpoints lie on the circle. The diameter, passing through the circle's centre, is the largest chord in a circle. A tangent to a circle is a straight line that touches the circle at a single point. A secant is an extended chord: a straight line cutting the circle at two points.
+An arc of a circle is any connected part of the circle's circumference. A sector is a region bounded by two radii and an arc lying between the radii, and a segment is a region bounded by a chord and an arc lying between the chord's endpoints.
+
+The circle has been known since before the beginning of recorded history. It is the basis for the wheel, which, with related inventions such as gears, makes much of modern civilization possible. In mathematics, the study of the circle has helped inspire the development of geometry and calculus.
+Early science, particularly geometry and Astrology and astronomy, was connected to the divine for most medieval scholars, and many believed that there was something intrinsically "divine" or "perfect" that could be found in circles.
+Some highlights in the history of the circle are:
+
+
+The ratio of a circle's circumference to its diameter is œÄ (pi), a constant that takes the same value (approximately 3.1416) for all circles. Thus the length of the circumference (c) is related to the radius (r) by
+or equivalently to the diameter (d) by
+
+The area enclosed by a circle is œÄ multiplied by the radius squared:
+Equivalently, denoting diameter by d,
+that is, approximately 79% of the circumscribing square (whose side is of length d).
+The circle is the plane curve enclosing the maximum area for a given arc length. This relates the circle to a problem in the calculus of variations, namely the isoperimetric inequality.
+
+In an x-y Cartesian coordinate system, the circle with center (a, b) and radius r is the set of all points (x, y) such that
+This equation of the circle follows from the Pythagorean theorem applied to any point on the circle: as shown in the diagram to the right, the radius is the hypotenuse of a right-angled triangle whose other sides are of length x†‚àí†a and y†‚àí†b. If the circle is centered at the origin (0, 0), then the equation simplifies to
+The equation can be written in parametric form using the trigonometric functions sine and cosine as
+where t is a parametric variable, interpreted geometrically as the angle that the ray from the origin to (x,†y) makes with the x-axis. Alternatively, in stereographic coordinates, the circle has a parametrization
+In homogeneous coordinates each conic section with equation of a circle is of the form
+It can be proven that a conic section is a circle if and only if the point I(1: i: 0) and J(1: ‚àíi: 0) lie on the conic section. These points are called the circular points at infinity.
+In polar coordinates the equation of a circle is
+where a is the radius of the circle, r0 is the distance from the origin to the centre of the circle, and œÜ is the anticlockwise angle from the positive x-axis to the line connecting the origin to the centre of the circle. For a circle centred at the origin, this reduces to simply r = a.
+In the complex plane, a circle with a center at c and radius (r) has the equation . Since , the slightly generalized equation  for real p, q and complex g is sometimes called a generalised circle. Not all generalised circles are actually circles: a generalized circle is either a (true) circle or a line.
+
+The tangent line through a point P on a circle is perpendicular to the diameter passing through P. The equation of the tangent line to a circle of radius r centered at the origin at the point (x1, y1) is
+Hence, the slope of a circle at (x1,†y1) is given by:
+More generally, the slope at a point (x,†y) on the circle (x ‚àí a)2 + (y ‚àí b)2 = r2, i.e., the circle centered at (a,†b) with radius r units, is given by
+provided that .
+
+
+
+Another proof of this result which relies only on two chord properties given above is as follows. Given a chord of length y and with sagitta of length x, since the sagitta intersects the midpoint of the chord, we know it is part of a diameter of the circle. Since the diameter is twice the radius, the ‚Äúmissing‚Äù part of the diameter is (2r†‚àí†x) in length. Using the fact that one part of one chord times the other part is equal to the same product taken along a chord intersecting the first chord, we find that (2r†‚àí†x)x†=†(y/2)¬≤. Solving for r, we find the required result.
+
+
+
+An inscribed angle (examples are the blue and green angles in the figure) is exactly half the corresponding central angle (red). Hence, all inscribed angles that subtend the same arc (pink) are equal. Angles inscribed on the arc (brown) are supplementary. In particular, every inscribed angle that subtends a diameter is a right angle (since the central angle is 180 degrees).
+
+
+Apollonius of Perga showed that a circle may also be defined as the set of points in plane having a constant ratio of distances to two fixed foci, A and B. That circle is sometimes said to be drawn about two points[3].
+The proof is as follows. A line segment PC bisects the interior angle APB, since the segments are similar:
+Analogously, a line segment PD bisects the corresponding exterior angle. Since the interior and exterior angles sum to , the angle CPD is exactly , i.e., a right angle. The set of points P that form a right angle with a given line segment CD form a circle, of which CD is the diameter.
+
+A closely related property of circles involves the geometry of the cross-ratio of points in the complex plane. If A, B, and C are as above, then the Apollonius circle for these three points is the collection of points P for which the absolute value of the cross-ratio is equal to one:
+Stated another way, P is a point on the Apollonius circle if and only if the cross-ratio [A,B;C,P] is on the unit circle in the complex plane.
+
+If C is the midpoint of the segment AB, then the collection of points P satisfying the Apollonius condition
+is not a circle, but rather a line.
+Thus, if A, B, and C are given distinct points in the plane, then the locus of points P satisfying (1) is called a generalized circle. It may either be a true circle or a line. In this sense a line is generalized circle of infinite radius.
+
+
+

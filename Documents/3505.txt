@@ -1,0 +1,36 @@
+Quantity theory of money
+In economics, the quantity theory of money is a theory emphasizing the positive relationship of overall prices or the nominal value of expenditures to the quantity of money.
+It is the mainstream economic theory of the price level. Alternative theories include the real bills doctrine and the more recent fiscal theory of the price level.
+
+The quantity theory descends from Copernicus,[1] Jean Bodin,[2] and various others who noted the increase in prices following the import of gold and silver, used in the coinage of money, from the New World. The “equation of exchange” relating the supply of money to the value of money transactions was stated by John Stuart Mill[3] who expanded on the ideas of David Hume.[4] The quantity theory was developed by Simon Newcomb,[5] Alfred de Foville,[6] Irving Fisher[7], and Ludwig von Mises[8] in the latter 19th and early 20th century. It was influentially restated by Milton Friedman in the post-Keynesian era.[9]
+Academic discussion remains over the degree to which different figures developed the theory.[10] For instance, Bieda argues that Copernicus's observation
+Money can lose its value through excessive abundance, if so much silver is coined as to heighten people's demand for silver bullion. For in this way, the coinage's estimation vanishes when it cannot buy as much silver as the money itself contains […]. The solution is to mint no more coinage until it recovers its par value.[10]
+amounts to a statement of the theory,[11] while other economic historians date the discovery later, to figures such as Jean Bodin, David Hume, and John Stuart Mill.[12][10]
+Historically, the main rival of the quantity theory was the real bills doctrine, which says that the issue of money does not raise prices, as long as the new money is issued in exchange for assets of sufficient value.[13]
+
+In its modern form, the quantity theory builds upon the following definitional relationship.
+where
+Mainstream economics accepts a simplification, the equation of exchange:
+where
+The previous equation presents the difficulty that the associated data are not available for all transactions. With the development of national income and product accounts, emphasis shifted to national-income or final-product transactions, rather than gross transactions. Economists may therefore work with the form
+where
+As an example, M might represent currency plus deposits in checking and savings accounts held by the public, Q real output with P the corresponding price level, and  the nominal (money) value of output. In one empirical formulation, velocity was taken to be “the ratio of net national product in current prices to the money stock”.[14]
+Thus far, the theory is not particularly controversial. But there are questions of the extent to which each of these variables is dependent upon the others. Without further restrictions, it does require that change in the money supply would change the value of any or all of P, Q, or . For example, a 10% increase in M could be accompanied by a 10% decrease in V, leaving PQ unchanged.
+
+The equation of exchange can be used to form a rudimentary theory of inflation.
+If V and Q were constant, then:
+and thus
+where
+That is to say that, if V and Q were constant, then the inflation rate would exactly equal the growth rate of the money supply.
+
+As restated by Milton Friedman, the quantity theory emphasizes the following relationship of the nominal value of expenditures PQ and the price level P to the quantity of money M:
+The plus signs indicate that a change in the money supply is hypothesized to change nominal expenditures and the price level in the same direction (for other variables held constant).
+Friedman described the empirical regularity of substantial changes in the quantity of money and in the level of prices as perhaps the most-evidenced economic phenomenon on record.[15] Empirical studies have found relations consistent with the models above and with causation running from money to prices. The short-run relation of a change in the money supply in the past has been relatively more associated with a change in real output Q than the price level P in (1) but with much variation in the precision, timing, and size of the relation. For the long-run, there has been stronger support for (1) and (2) and no systematic association of Q and M.[16]
+
+The theory above is based on the following hypotheses:
+
+An application of the quantity-theory approach aimed at removing monetary policy as a source of macroeconomic instability was to target a constant, low growth rate of the money supply.[17] Still, practical identification of the relevant money supply, including measurement, was always somewhat controversial and difficult. As financial intermediation grew in complexity and sophistication in the 1980s and 1990s, it became more so. As a result, some central banks, including the U.S. Federal Reserve, which had targeted the money supply, reverted to targeting interest rates. But monetary aggregates remain a leading economic indicator.[18] with "some evidence that the linkages between money and economic activity are robust even at relatively short-run frequencies."[19]
+
+
+
+

@@ -1,0 +1,7 @@
+Internet backbone
+The Internet backbone refers to the main "trunk" connections of the Internet. It is made up of a large collection of interconnected commercial, government, academic and other high-capacity data routes and core routers that carry data across the countries, continents and oceans of the world.
+The resilience of the Internet is due to its core architectural feature of storing as little as possible network state in the network elements and rather relying on the endpoints of communication to handle most of the processing to ensure data integrity, reliability, and authentication. In addition, the high level of redundancy of today's network links and sophisticated real-time routing protocols provide alternate paths of communications for load balancing and congestion avoidance.
+
+The Internet backbone consists of many different networks. Usually, the term is used to describe large networks that interconnect with each other and may have individual ISPs as clients. For example, a local ISP may provide service to individual homes or business using bandwidth that it purchases from another company with a backbone network. Backbone networks are usually commercial, educational, or government owned, such as military networks.
+
+

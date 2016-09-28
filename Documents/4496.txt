@@ -1,0 +1,20 @@
+Spamdexing
+Spamdexing (also known as search spam or search engine spam)[1] involves a number of methods, such as repeating unrelated phrases, to manipulate the relevancy or prominence of resources indexed by a search engine, in a manner inconsistent with the purpose of the indexing system.[2][3] Some consider it to be a part of search engine optimization, though there are many search engine optimization methods that improve the quality and appearance of the content of web sites and serve content useful to many users.[4] Search engines use a variety of algorithms to determine relevancy ranking. Some of these include determining whether the search term appears in the META keywords tag, others whether the search term appears in the body text or URL of a web page. Many search engines check for instances of spamdexing and will remove suspect pages from their indexes. Also, people working for a search-engine organization can quickly block the results-listing from entire websites that use spamdexing, perhaps alerted by user complaints of false matches. The rise of spamdexing in the mid-1990s made the leading search engines of the time less useful.
+The success of Google at both producing better search results and combating keyword spamming, through its reputation-based PageRank link analysis system, helped it become the dominant search site late in the 1990s. Although it has not been rendered useless by spamdexing, Google has not been immune to more sophisticated methods. Google bombing is another form of search engine result manipulation, which involves placing hyperlinks that directly affect the rank of other sites.[5] Google first algorithmically combated Google bombing on January 25, 2007.[6]
+The earliest known reference[2] to the term spamdexing is by Eric Convey in his article "Porn sneaks way back on Web," The Boston Herald, May 22, 1996, where he said:
+The problem arises when site operators load their Web pages with hundreds of extraneous terms so search engines will list them among legitimate addresses. The process is called "spamdexing," a combination of spamming — the Internet term for sending users unsolicited information — and "indexing." [2]
+Common spamdexing techniques can be classified into two broad classes: content spam[4] (or term spam) and link spam.[3]
+
+These techniques involve altering the logical view that a search engine has over the page's contents. They all aim at variants of the vector space model for information retrieval on text collections.
+
+Davison defines link spam (which he calls "nepotistic links") as "... links between pages that are present for reasons other than merit." [8] Link spam takes advantage of link-based ranking algorithms, such as Google's PageRank algorithm, which gives a higher ranking to a website the more other highly ranked websites link to it. These techniques also aim at influencing other link-based ranking techniques such as the HITS algorithm.
+Some of these techniques may be applied for creating a Google bomb, this is, to cooperate with other users to boost the ranking of a particular page for a particular query.
+
+Web sites that can be edited by users, such as Wikis, blogs that allow comments to be posted, etc. can be used to insert links to spam sites if the appropriate anti-spam measures are not taken.
+
+
+
+
+
+
+

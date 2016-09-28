@@ -1,0 +1,24 @@
+OpenLaszlo
+OpenLaszlo is an open source platform for the development and delivery of rich Internet applications. It is released under the Open Source Initiative-certified Common Public License.
+The OpenLaszlo platform consists of the LZX programming language and the OpenLaszlo Server:
+
+Laszlo applications can be deployed as traditional Java servlets, which are compiled and returned to the browser dynamically. This method requires that the web server be running the OpenLaszlo server. Alternatively, Laszlo applications can be compiled from LZX into DHTML or a binary SWF file, and loaded statically into an existing web page. This method is known as SOLO deployment. Applications deployed in this manner lack some functionality of servlet-contained files, such as the ability to consume SOAP web services and Java RPC remote procedure calls.
+
+OpenLaszlo is released under the Common Public License by Laszlo Systems.
+
+Laszlo-powered Rich Internet Applications (RIAs) have been deployed by Earthlink , Verizon, WalMart, IBM WebSphere, [1], Yahoo!, Behr, Pandora, La Quinta Hotels and DeanForAmerica.com.
+Laszlo Systems, makers of OpenLaszlo, are developing their own software based on the Laszlo Presentation Server. One is a mail client (Laszlo Mail) which offers the responsiveness and feel of a traditional email client such as Microsoft Outlook or Mozilla Thunderbird, but which operates within the web browser. Another, called Webtop, is an integrated application environment for enterprise use.
+
+OpenLaszlo 3.x Supports Flash Player, versions 6, 7 and 8.
+OpenLaszlo 4.x Supports Flash Player, versions 7, 8, and 9 as well as DHTML.
+
+Laszlo was founded by David Temkin.[1]
+OpenLaszlo was originally called the Laszlo Presentation Server (LPS). Development of the LPS began in the fall of 2001. Preview versions were released to select partners over the course of 2002; several of these were used to deploy the Behr paint application. The first general release of LPS was in early 2002.
+In October 2004, Laszlo Systems released the entire sources to the Laszlo Presentation Server under the GPL open source license, and initiated the OpenLaszlo project. In 2005, coincident with the release of version 3.0, the name of the Laszlo Presentation Server was changed to OpenLaszlo.
+Timeline:
+
+The name Laszlo is of Hungarian origin. The project was named after the cat of Peter Andrea, a graphic designer and co-founder of Laszlo Systems. The cat in turn was named in honor of the Hungarian constructivist painter and photographer László Moholy-Nagy.[2]
+
+
+
+

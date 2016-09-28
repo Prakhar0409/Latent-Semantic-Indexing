@@ -1,0 +1,336 @@
+Tagalog grammar
+This article describes the grammar of Tagalog (the language of the Tagalog region of the Philippines) and Filipino (the national language of the Philippines).
+
+While Tagalog nouns are not inflected, they are usually preceded by case markers. There are three types of case markers: absolutive (nominative), ergative (genitive), and oblique.
+Unlike English or Spanish which are nominative-accusative languages, Tagalog is an ergative-absolutive language. This may have led to a misconception about Tagalog as being often spoken in a passive voice.
+Absolutive or nominative markers mark the actor of an intransitive verb and the object of a transitive verb. Ergative or genitive markers mark the object (usually indefinite) of an intransitive verb and the actor of a transitive one. They also mark possession. Oblique markers are similar to prepositions in English. They mark things such as location and direction. Furthermore, noun markers are divided into two classes: one for names of people (personal) and the second for everything else (common).
+Below is a chart of case markers. Mga (pronounced [maˈŋa]) marks the plural.
+Examples:
+Dumating ang lalaki.
+has-arrived the man
+"The man arrived."
+Nakita ni Juan si Maria.
+did-see John Mary
+"John saw Mary."
+Pupuntá sina Elena at Roberto sa bahay ni Miguél.
+Will-go Helen and Robert to-the house of Michael
+"Helen and Robert will go to Michael's house."
+Nasaán ang mga aklát?
+At-where the those book(s)
+"Where are the books?"
+Na kay Tatay ang susì.
+At with Father the keys
+"Father has the keys."
+Malusog 'yung baby.
+Healthy the baby
+"The baby is healthy."
+
+Like nouns, personal pronouns are categorized by case.
+Examples:
+Sumulat akó.
+"I wrote."
+Sinulatan akó.
+"He/She wrote me a letter."
+Ibibigáy ko sa kaniyá.
+"I will give it to him/her."
+Genitive pronouns follow the word they modify. Oblique pronouns can take the place of the genitive pronoun but they precede the word they modify.
+Ang bahay ko.
+Ang aking bahay.
+"My house."
+The 1st-2nd person dual pronoun katá/kitá has largely disappeared though it may be used in other Tagalog dialects, particularly those spoken in the rural areas. However kitá is used to replace the pronoun sequence [verb] ko ikáw, (I [verb] you).
+Mahál kitá.
+"I love you."
+Bibigyán kitá ng pera.
+"I will give you money."
+Nakita kitá sa tindahan kahapon.
+"I saw you at the store yesterday."
+Kaibigan kitá.
+"You are my friend."
+The inclusive pronoun táyo refers to the first and second persons. It may also refer to a third person(s).
+The exclusive pronoun kamí refers to the first and third persons but excludes the second.
+Walâ táyong bigás.
+"We (you and I) don't have rice."
+Walâ kamíng bigás.
+"We (someone else and I, but not you) don't have rice."
+The second person singular has two forms. Ikáw is the non-enclitic form while ka is the enclitic which never begins a sentence. The plural form kayó is also used politely in the singular, similar to French vous.
+The nouns are gender neutral, hence siyá means either he or she.
+
+Tagalog's demonstrative pronouns are as follows.
+*For the most part, iré/aré has disappeared from the vocabulary of most Tagalog speakers. In its place, itó is used. Examples:
+Anó itó?
+"What's this?"
+Sino ang lalaking iyon?
+"Who is that man?"
+Galing kay Pedro ang liham na itó.
+"This letter is from Pedro."
+Nandito akó.
+"I am here."
+Kakain silá roón.
+"They will eat there."
+Saán ka man naróroon.
+"Wherever you are."
+Kumain niyán ang batà.
+"The child ate some of that."
+Ayón palá ang salamín mo!
+"So that's where your glasses are!"
+Heto isang regalo para sa iyó.
+"Here's a gift for you."
+
+Tagalog verbs are morphologically complex and take on a variety of affixes reflecting focus, aspect, mode, and others.
+
+Below is a chart of the main verbal affixes, which consist of a variety of prefixes, suffixes, infixes, and circumfixes.
+In the chart, CV stands for the reduplicated first syllable of a rootword, which is usually the first consonant and the first vowel of the word. N stands for a nasal consonant which assimilates to ng, n, or m depending on the consonant following it.
+The dashes indicate the type of affix a particular morpheme is. For example -um- is an infix that is placed between the first consonant and the first vowel of a rootword. The word sumulat (actor focus and completed aspect or infinitive) is composed of the rootword sulat and the infix -um-. Its other conjugations are sumusulat and susulat.
+With object-focus verbs in the completed and progressive aspects, the infix -in- frequently becomes the infix -ni- or the prefix ni- if the rootword begins with /l/, /r/, /w/, or /y/; e.g., linalapitan or nilalapitan and inilagay or ilinagay.
+
+An interesting feature of verbs in Tagalog and in other Philippine languages is its focus system. This means that the role or relationship of the noun in focus (marked by the absolutive marker) is reflected in the verb.
+There are eight main types of focus: actor, object, location, beneficiary, instrument, reason, direction and reciprocal. All of the focuses, with the exception of the actor focus, are naturally transitive.
+
+The actor focus affixes are -um-, mag-, man-, and ma-. The difference between mag- and -um- is a source of confusion among learners of the language. Generally speaking there are two main distinctions among many; mag- refers to externally-directed actions and -um- for internally-directed actions. For example bumilí means to buy while magbilí means to sell. However this isn't writ law for these affixes; there are exceptions for example, mag-ahit means to shave oneself while umahit means to shave someone. It should be noted that magbili and umahit are rarely used,in southern dialects of tagalog na- is used instead of -um-.
+ma- is used with only a few roots. Of those roots, they cannot take an object by their meaning. One of them is matulog (to sleep). ma- is not to be confused with ma-, the potentive prefix for object-focused verb forms.
+Bumilí ng saging ang lalaki sa tindahan para sa unggóy.
+"The man bought bananas at the store for the monkey."
+
+There are three main object focus affixes.
+-in is used for objects that are moved towards the actor; kainin (to eat something), bilhín (to buy something). Objects that are permanently changed; basagin (to crack something), patayín (to kill something). And things that are thought of; isipin (to think of something), alalahanin (to remember something).
+i- is used for objects which undergo a change of state such as being moved away from an actor; ibigáy (to give something), ilagáy (to put something), itaním (to plant something).
+-an is used for items undergoing a surface change (e.g., cleaning); hugasan (to rinse something), walisán (to sweep something off).
+Binilí ng lalaki ang saging sa tindahan para sa unggóy.
+"The man bought the banana at the store for the monkey."
+Affixes can be also used in nouns or adjectives: baligtaran (from baligtád, to reverse) (reversible), katamaran (from tamád, lazy) (laziness), kasabihán (from sabi, to say) (proverb), kasagutan (from sagót, answer), bayarín (from bayad, to pay) (payment), bukirín (from bukid, farm), lupaín (from lupa, land), pagkakaroón (from doón/roón, there) (having/appearance), and pagdárasál (from dasál, prayer). Verbs with affixes (mostly suffixes) are also used as nouns, which are differentiated by stress position. Examples are panoorin (to watch or view) and panoorín (materials to be watched or viewed), hangarín (to wish) and hangarin (goal/objective), aralin (to study) and aralín (studies), and bayaran (to pay) and bayarán (someone or something for hire).
+
+The location focus refers to the location or direction of an action or the area affected by the action.
+Pinagbilhán ng lalaki ng saging ang tindahan.
+"The man bought bananas at the store."
+
+The benefactive focus refers to the person or thing that benefits from the action; i.e., the beneficiary of an action.
+Ibinilí ng lalaki ng saging ang unggóy.
+"The man bought bananas for the monkey."
+
+The instrument focus refers to the means by which an action is performed.
+Ipinambilí ng lalaki ng saging ang pera ng asawa niyá.
+"The man bought bananas with his wife's money."
+
+The reason focus refers to the cause or reason why an action is performed.
+Ikinagulat ng lalaki ang pagdatíng ng unggóy.
+"The man got surprised because of the monkey's arrival."
+
+The directional focus refers to the direction the action will go to.
+Pinuntahan ng lalaki ang tindahan
+
+The reciprocal focus refers to the action being done by the subject at the same time. The subject, in this focus, is usually compound, plural or collective.
+Naghalikan ang magkasintahan
+"The couple kissed (each other)."
+
+Tagalog verbs conjugate for aspect rather than for tense. There are four types of aspect: infinitive (including imperative), completed (perfective), progressive (imperfective), and contemplated (usually future).
+Infinitive
+Gustó kong matulog.
+"I want to sleep."
+Matulog ka na!
+"Go to sleep now!"
+An imperative form can also be the verb root without any affix nor pronoun: Tulog na! "Sleep!"
+Completed
+Sinulatan ka ni Maria.
+"Maria wrote you."
+Progressive
+Sumasayáw siyá ngayón.
+"He is dancing now."
+Sumasayáw siyá kanina.
+"He was dancing earlier."
+Noóng batà pa akó, umiinóm akó ng kapé.
+When I was a child, I used to drink coffee.
+Contemplated
+Hahanapin ba natin ang susì ko?
+"Will we look for my keys?"
+
+Tagalog verbs also have affixes expressing mode; some examples are indicative, causative, potential, social, and distributed.
+Indicative
+Nagdalá siyá ng liham.
+"He brought a letter."
+Bumilí kamí ng bigás sa palengke.
+"We bought rice at the market."
+Kumain akó.
+"I ate."
+Hindî siyá nagsasalitâ ng Tagalog.
+"He does not speak Tagalog."
+Causative
+Nagpadalá siya ng liham sa kaniyáng iná.
+"He sent (literally: caused to be brought) a letter to his mother."
+Distributive
+Namili kamí sa palengke.
+"We went shopping at the market."
+Social
+Nakikain akó sa mga kaibigan ko.
+"I ate with my friends."
+Potential
+Hindî siyá nakakapagsalitâ ng Tagalog.
+"He is not able to speak Tagalog."
+
+In Tagalog, a word can take the role of both an adverb and an adjective.
+Adjectives modify nouns by the linker na. However if na follows a word ending in a vowel or glottal stop or the letter N, then it becomes suffixed to that word as -ng. The adjective can either come before or come after the word it modifies.
+Adverbs modify verbs by following the verb and being marked by nang or preceding the verb with the linkers na or -ng, which is optional.
+The word mabilís (fast) is used as an example below:
+Mabilís ang kabayo.
+"The horse is fast."
+Ang mabilís na kabayo.
+Ang kabayong mabilís.
+"The fast horse."
+Mabilís na tumatakbó ang kabayo.
+Tumatakbó ang kabayo nang mabilís.
+"The horse runs fast."
+Mabilís na tumakbó ang kabayo.
+Tumakbó ang kabayo nang mabilís.
+"The horse ran fast."
+But note also: Mabilís tumakbó ang kabayo. "Horse runs fast."
+Modifiers can be a stand-alone rootword or the rootword can be affixed: basâ (wet), buháy (alive), patáy (dead), hinóg (ripe), pangit (ugly), pulá (red) putî (white), and itím (black). The most common modifier prefix is ma-: matandâ (old), mataás (high), maliít (little), malakí (big), mabahò (smelly), masaráp (delicious), malakás (strong), and mapulá (reddish).
+Other affixes denote different meanings. For example pinaká- is the superlative; pinakamalakás (strongest). Another is nakasalamín (bespectacled, wearing glasses).
+
+Tagalog has enclitic particles that have important information conveying difference nuances in meaning.
+Below is a list of Tagalog's enclitic particles.
+The order listed above is the order in which the particles follow if they are used in conjunction with each other. Generally, the last five particles listed can take any order however they are listed in the recommended order. The particles na and pa cannot be used in conjunction with each other as well as pô and hô.
+Dumatíng na raw palá ang lola mo./Dumatíng na daw palá ang lola mo.
+"Oh yeah, your grandmother supposedly arrived."
+Palitán mo na rin./Palitán mo na din
+"You change it also."
+Walâ pa yatang asawa ang kapatíd niyá.
+"Perhaps his brother still doesn't have a wife."
+Itó lang kayâ ang ibibigáy nilá sa amin?
+"I wonder if this is the only thing that they're going to give us."
+Nag-aral ka na ba ng wikang Kastilà?
+"Have you already studied Spanish?"
+Batà pa kasí.
+"It's because he's still young."
+Pakisulat mo ngâ muna ang iyóng pangalan dito.
+"Write your name here first, please."
+The words daw and raw, which mean “he said”/“she said”/“they said”, are sometimes joined to the real translations of “he said”/”she said”, which is sabi niyá, and “they said”, which is sabi nilá. They are also joined to the Tagalog of “you said”, which is sabi mo. But this time, both daw and raw mean “supposedly/reportedly”.
+Sabi raw niyá./Sabi daw niyá.
+“He/she supposedly said.”
+Sabi raw nilá./Sabi daw nilá.
+“They supposedly said.”
+Sabi mo raw./Sabi mo daw.
+“You supposedly said.”
+Although the word kasí is native Tagalog for “because” and NOT slang, it is still not used in literary writing. The Tagalog word for this is sapagká’t. Thus, the literary form of Batà pa kasí is Sapagká’t batà pa. This is sometimes shortened to pagká’t, so Sapagká’t batà pa is also written as Pagká’t batà pa. In both writing (whether literary or ordinary) and speech, dahil sa (the oblique form of kasí; thus, its exact translation is “because of”) is also synonymous to sapagká’t, so the substitute of Sapagká’t batà pa for Batà pa kasí is Dahil sa batà pa. Most of the time in speech and sometimes in writing, dahil sa as the Tagalog of “because” has been reduced to dahil, so Dahil sa batà pa is spoken simply as Dahil batà pa.
+
+Tagalog word order Verb-Subject-Object (VSO) or more specifically, predicate initial (referred to in Tagalog grammar as Tuwirang Anyo).
+Kumantá ang batà.
+"The child sang."
+Iinumín nilá ang serbesa.
+"They will drink the beer."
+Magandá ang mga dalaga.
+"The young women are beautiful."
+Malakás ang ulán.
+"The rain is strong."
+Word order may be inverted (referred to in Tagalog grammar as Kabalikang Anyo) by way of the inversion marker ay ( 'y after vowels). Contrary to popular belief, this is not the copula to be. A slight, but optional, pause in speech or a comma in writing may replace the inversion marker. This construction is often viewed by native speakers as formal or literary.
+Below are the sentences from above but in inverted form.
+Ang batà ay kumantá.
+Ang batà, kumantá.
+Ang serbesa'y iinumín nilá.
+Ang serbesa, iinumín nilá.
+Ang mga dalaga'y magagandá.
+Ang mga dalaga, magagandá.
+Ang ulán ay malakás.
+Ang ulán, malakás.
+
+To express existence (there is/are) and possession (to have), the words may and mayroón are used. These words are usually not used interchangeably and have different constructions.
+May pera ako.
+Mayroón akóng pera.(unusual construction)
+"I have money."
+May libró sa loób ng bahay niyá.
+Mayroóng libró sa loób ng bahay niyá.(unusual construction)
+"There is a book inside his house.
+There are two "existentials" that are conjugated: "Magkaroón" (to have): magkaroón, nagkaroón, nagkákaroón, magkákaroón. Magkákaroón na raw ng kuryente bukas./Magkákaroón na daw ng kuryente bukas. (It is said that there will already be electricity {power} tomorrow.) In some Tagalog dialects, a redundant form combines "mayroón" with the prefix "magka-" (infinitive "magkamayroón" or magkaméron"). The words magkaroón, nagkaroón, nagkákaroón, magkákaroón, and mayroón are derived from roón, the variation of doón, meaning "there."
+"Magíng" (to become): magíng, nagíng, nagíging, magíging. Note that the stress is shifted from the ultimate to the penultimate in both the progressive and contemplative. Nagíng gabí ang araw nang pumutók ang Pinatubò dahil sa dami ng abó sa himpapawíd! (Day became night when Mt. Pinatubo erupted because of the quantity of ash in the air!)
+
+There are three negation words: hindî, walâ, and huwág.
+Hindî negates verbs and equations. It is sometimes shortened to dî.
+Hindî akó magtatrabaho bukas.
+"I will not work tomorrow."
+Hindî mayaman ang babae.
+"The woman is not rich."
+Walâ is the opposite of may and mayroón.
+Walâ akóng pera.
+Waláng pera akó.
+"I do not have money."
+Waláng aklat sa loób ng bahay niyá.
+"There are no books in his house."
+Huwág is used in expressing negative commands. It can be used for the infinitive and the future aspect.
+Huwág kang umiyák.
+"Don't cry."
+Huwág kayóng tatakbó rito.
+"Don't run here."
+There are two (or more) special negative forms for common verbs:
+Gustó/Ibig/Nais ko nang kumain. "I like to eat already." (Positive) Ayaw ko pang kumain. "I don't like to eat yet." (Negative)
+Alám ko! "I know." Aywán/Ewan ko! "I don't know!
+
+
+
+
+Tagalog's interrogative words are: alín, anó, bákit, gaáno, ilán, kailán, kaníno, kumustá, magkáno, nasaán, níno, paáno, saán, and síno.
+With the exceptions of bakit, kamustá, and nasaán, all of the interrogative words have optional plural forms which are formed by reduplication. They are used when the person who is asking the question anticipates a plural answer.
+Alín means which.
+Alín ang punong-lungsód ng Estados Unidos - Washington, D.C. o New York?
+"Which is the capital of the United States - Washington, D.C. or New York?"
+Alíng palda ang gustó mo?
+"Which skirt do you like?"
+Alín sa mga iyán ang bibilhín ni Canuto?
+"Which of those will Canuto buy?"
+Anó means what.
+Anó ang ginagawâ nilá?
+"What are they doing?"
+Anó ang kumagát sa kaniyá?
+"What bit him?"
+Anóng oras daratíng si Luisa?
+"What time will Luisa arrive?"
+Anú-anóng klaseng inumín ang pipiliin ninyó?
+"What kind of drink will you guys choose?"
+Bakit means why.
+Bakit nasa Barcelona silá?
+"Why are they in Barcelona?"
+Bakit ka umiiyák?
+"Why are you crying?"
+Gaano means how but is used in inquiring about the quality of an adjective or an adverb. The rootword of the modifier is prefixed with ka- in this construction.
+Gaanong kalayo ang bahay ni Nicomedes?
+"How far is Nicomedes' house?"
+Gaano kang katagal sa Montréal?
+"How long will you be in Montréal?"
+Gaano kayáng kahahabà ang mga ahas na iyón?
+"I wonder how long those snakes are?"
+Gaanong kabilís na tumatakbó ang kabayo?
+"How fast is the horse running?"
+Ilán means how many.
+Ilán ang anák nina Arsenio at Edilberta?
+"How many children do Arsenio and Edilberta have?"
+Iláng taón ka na?
+"How old are you?"
+Kailán means when.
+Kailán uuwî si Victor?
+"When will Victor come home?
+Mulâ kailán ka nag-aaral ng Tagalog?
+"Since when have you been learning Tagalog?
+Kanino means whom or whose. It is the oblique form of sino (who).
+Kanino itó?
+"Whose is this?"
+Para kanino ang pagkaing iyán?
+"Whose food is that?"
+Ibibigáy ko ang pera kanino?
+"I will give the money to whom?"
+Kaninong sapatos iyón?
+"Whose shoes are those?"
+Kamustá is used to inquire how something is (are). It is frequently used as a greeting meaning How are you? It is derived from the Spanish ¿cómo está?.
+Kamustá ang iná ninyó?
+"How is your mother?"
+Kamustá ang trabaho mo?
+"How is your work?"
+Kamustá ka?
+"How are you?"
+Magkano means how much and is usually used in inquiring the price of something.
+Magkano ang kotseng iyón?
+"How much is that car?"
+Magkakano ang saging?
+"How much are the bananas?"
+Nasaán means where but is used to inquire about the location of an object and not used with verbs. In speech it is reduced to asan.
+Nasaán si Antonia?
+"Where is Antonia?"
+Nasaán ang susì ko.
+"Where are my keys?"
+Nino means: who, whose, 

@@ -1,0 +1,16 @@
+Media center
+The term media center refers either to a dedicated computer appliance or to a specialized personal computer software, both of which are adapted for playing various kinds of media (music, movies, photos etc.), and it usually has a a 10-foot user interface design to be used in living-room TV with a remote control. A media center may also allow watching DVD movies and watching and recording television broadcasts.
+The media itself may be stored, received by terrestrial, satellite or cable broadcasting or streamed from the internet. Stored media is kept either on a local hard drive or on a (wireless) network attached storage. Some software is capable of doing other tasks, such as finding news (RSS) from the Internet. Media centers are often operated with a remote control, connected to a television set for video output, and can sometimes function as a normal personal computer.
+A media center can be purpose-built, modified or created by individuals by adding media center software to a PC or some other computer, for example an Xbox. Lately, some video game consoles (Playstation 3 and Xbox 360) with their network services can act as a media center devices by default.
+
+Typically, complete media centers offer the following functions to the user:
+Though media centers are often built using similar components to personal computers, they are often smaller; media centers sometimes have hardware that is not usually seen in personal computers, such as receivers for remote controls, or television tuner cards. Media centers have not seen widespread popularity but are starting to take hold in the UK and the United States.
+
+There are several common applications for which media centers are beginning to gain popularity. Simply put, any application requiring the playback of digital media based files, but not requiring the full features and flexibility of a personal computer stands to benefit from the reduced size, reduced complexity and reduced cost of media centers when compared to similarly equipped PCs.
+Common applications include :
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+OpenWrt
+OpenWrt is a Linux-based firmware program for embedded devices such as residential gateways. Support was originally limited to the Linksys WRT54G series, but has since been expanded to include other chipsets and manufacturers, including Netgear, D-Link, Asus and many others. The most popular routers seem to be the Linksys WRT54G series and the Asus WL-500g. OpenWrt primarily uses a command-line interface, but also features an optional web-based GUI interface. Technical support is provided through the forums and IRC channel.
+The development of OpenWrt was initially aided by the ease of modification afforded by manufacturers' use of software licensed under the GNU General Public License (GPL), which requires manufacturers to release all changes made to code originally licensed under the GPL. Initially using this as a base and later as a reference, developers created a distribution that offers many features not previously found in consumer-level routers. Some features used to require proprietary software. Before the introduction of OpenWRT 8.09, using Linux 2.6.25, and the b43 kernel module, WLAN for many Broadcom-based routers was only available through the proprietary wl.o module that was also only provided for Linux 2.4.[1]
+
+The primary feature of OpenWrt is a fully writable JFFS2 file system, which allows for package management via the ipkg package system. This makes OpenWrt very versatile and adaptable to different requirements.
+
+OpenWrt, prior to release 8.09, had a minimal web interface. In release 8.09 of OpenWrt a new, more capable web interface is preinstalled.[2]. This interface is based on LuCi, an MVC framework written in Lua.[3]
+The X-Wrt project provides an alternate web interface, webif², for current and previous version of OpenWRT. It has more than 40 control and status pages.
+
+
+On 2006-03-11, the OpenWrt developers publicly announced that Sveasoft had violated its GPL license terms, and that Sveasoft's continuing distribution of OpenWrt was prohibited.[4] In return, Sveasoft claimed that OpenWrt was illegally redistributing software copyrighted by Sveasoft and Broadcom and placing them under the GPL without being authorized to do so by the copyright holders.[5] Each group denies the other's allegations.
+
+
+

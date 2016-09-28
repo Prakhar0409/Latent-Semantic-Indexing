@@ -1,0 +1,17 @@
+Adobe Flash Media Server
+Flash Media Server (FMS) is a proprietary data and media server from Adobe Systems (originally a Macromedia product). This server works with the Flash Player runtime to create media driven, multiuser RIAs (Rich Internet Applications). The server uses ActionScript 1, an ECMAScript based scripting language, for server-side logic. Prior to version 2, it was known as Flash Communication Server.
+
+On March 15, 2002, Macromedia released Flash Player 6. This version included all the functionality for a yet to be released server called Flash Communication Server MX.
+Version 1.0 was released on 9 July 2002[1] and included all the basic features that make up the product, including the NetConnection, SharedObject and NetStream objects.
+Version 1.5 was released on 27 March 2003[2] giving the server HTTP Tunneling, Linux support and a free developer edition.
+Version 2.0 was released on November 15, 2005[3]. The server was renamed to Flash Media Server for this build to better illustrate what the server does; however, the version numbers were not reset. Version 2.0 brought support to stream the new video codec in Flash Player 8, On2’s VP6. However the Flash 8 client can still only encode to the Spark codec of version 6. Version 2.0 also introduced edge-origin servers, an optional enterprise architecture that simplifies load balancing. The server side Actionscript runtime also received updates with support for XML, XMLSocket, SOAP and File operations.
+Version 3.0 was released on December 4, 2007[4].
+Version 3.5 was released on January 13, 2009.
+
+
+Flash Media Server is a hub, Flash based applications connect to the hub using Real Time Messaging Protocol (RTMP). The server can send and receive data to and from the connected users. Connected clients can make Remote procedure calls (RPC) on the server-side and the server can call methods on specific clients. A SharedObject can be used to synchronize complicated data structures and call remote methods on multiple clients in one go by having clients subscribe to a shared object. Standard ActionScript objects are transported across the NetConnection using the Action Message Format (AMF) which is handled transparently by the server and flash client.
+The server also allows users to receive and publish net streams. When viewing a net stream the user can either create their own to view a remotely stored Flash Video (FLV) or the server can instantiate a net stream and play a video on it, the latter method means that every user will be at the same point in the video when they subscribe to it as they are all viewing the same stream.
+
+
+
+Pages about the old Flash Communication Server:

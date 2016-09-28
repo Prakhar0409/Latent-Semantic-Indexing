@@ -1,0 +1,9 @@
+nUbuntu
+nUbuntu or Network Ubuntu is a project to take the existing Ubuntu operating system LiveCD and Full Installer and remaster it with tools needed for penetration testing servers and networks. The main idea is to keep Ubuntu's ease of use and mix it with popular penetration testing tools. Besides usage for network and server testing, nUbuntu will be made to be a desktop distribution for advanced Linux users.[citation needed]
+
+nUbuntu uses the light window manager Fluxbox.
+It includes some of the most used security programs for Linux, such as Wireshark, nmap, dSniff, and Ettercap.
+
+
+Below is a list of previous and current releases.
+

@@ -1,0 +1,24 @@
+HTTP pipelining
+HTTP pipelining is a technique in which multiple HTTP requests are written out to a single socket without waiting for the corresponding responses. Pipelining is only supported in HTTP/1.1, not in 1.0.
+The pipelining of requests results in a dramatic improvement in page loading times, especially over high latency connections such as satellite Internet connections.
+Since it is usually possible to fit several HTTP requests in the same TCP packet, HTTP pipelining allows fewer TCP packets to be sent over the network, reducing network load.
+Non-idempotent methods like POST should not be pipelined. Sequence of GET and HEAD requests can be always pipelined. A sequence of other idempotent requests like GET, HEAD, PUT and DELETE can be pipelined or not depending on whether requests in the sequence depend on the effect of others. [1]
+HTTP pipelining requires both the client and the server to support it. HTTP/1.1 conforming servers are required to support pipelining. This does not mean that servers are required to pipeline responses, but that they are required not to fail if a client chooses to pipeline requests.
+
+
+Implementing pipelining in web servers is a relatively simple matter of making sure that network buffers are not discarded between requests. For that reason, most modern web servers handle pipelining without any problem.
+Exceptions include IIS 4 and reportedly 5.[citation needed]
+
+Internet Explorer supports pipelining.[2]
+Mozilla Firefox 3 supports pipelining, but it's disabled by default. It uses some heuristics, especially to turn pipelining off for IIS servers. Camino does the same thing as Firefox.
+Konqueror 2.0 supports pipelining, but it's disabled by default. Instructions for enabling it can be found at Konqueror: Tips & Tricks.
+Opera has pipelining enabled by default. It uses heuristics to control the level of pipelining employed depending on the connected server. [1]
+Google Chrome is not believed to support pipelining, although it may be implemented in the near future. [3]
+
+Most HTTP proxies do not pipeline outgoing requests.[4]
+Some versions of the Squid web proxy will pipeline up to two outgoing requests. This functionality has been disabled in the latest versions. Squid supports multiple requests from clients.
+The Polipo proxy pipelines outgoing requests.
+
+Some other applications currently exploiting pipelining are phttpget from FreeBSD (a minimalist pipelined HTTP client), portsnap (a FreeBSD ports tree distribution system), lftp (a sophisticated file transfer program) and LWPng (libwww-perl New Generation) library.
+
+

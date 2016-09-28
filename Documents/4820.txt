@@ -1,0 +1,20 @@
+Microsoft Groove
+Microsoft Office Groove is a desktop application designed for document collaboration in teams with members who are regularly off-line or who do not share the same network security clearance.
+Groove's uses have included coordination between emergency relief agencies[1] where different organizations do not share a common security infrastructure and where offline access is important, and amongst teams of knowledge workers, such as consultants who need to work securely on client sites. It is also used as a staging system for documents in development, where content can be worked up then transferred to a portal when complete.
+Groove was initially developed by Lotus Notes creator Ray Ozzie, and developed by Groove Networks of Beverly, Massachusetts until Microsoft's acquisition of Groove Networks in March 2005.[2]
+
+Groove's core concept is the shared workspace [3], which consists of a set of files to be shared, plus some aids for group collaboration. Groove users can create workspaces, add documents, and invite other Groove members to a workspace. A user that responds to an invitation is made an active member of that workspace. Each member has privately editable copy of the workspace. Users interact and collaborate in the common workspace which is a private virtual location. All changes are tracked by Groove, sent to all members and all copies of the workspace are synchronized via the network in a peer-to-peer manner.
+When participating users are off-line, changes for their workspaces copies are queued, either on a Office Groove Server that mediates the workspace or via other participants (peer-to-peer), to be sent to users when they come on-line. [3] When multiple users edit one document at the same time, changes may conflict and multiple versions will be shown until an editor decides which changes will become final. [3]
+Data is encrypted on disk with 192-bit AES encryption as well as over the network, with each workspace having a unique set of cryptographic keys.[3]
+
+Groove's basic set of services (including always-on security, persistent chat, store-and-forward messaging delivery, firewall/NAT transparency, ad-hoc group formation, and change notification) may be customized with tools.
+Tools are mini-applications that rely on Groove's underlying functionality to disseminate and synchronize their contents with other members' copies of the workspace. Groove provides various tools that can be added to (and removed from) a workspace to customize the functionality of each space (for example a calendar, discussion, file sharing, an outliner, pictures, notepad, sketchpad, web browser, etc.). Tools that members use in a workspace often drive the nature of the person-to-person collaboration that ensues. In Groove 2007, the SharePoint Files tools can be used to take Sharepoint 2007 document libraries offline.
+Groove 2007 includes a presence subsystem, which keeps track of which users in the contact store are online, and presents the information in the launchbar. If Groove server is used, a user is considered online when they log on to the server. In absence of a server the Device Presence Protocol (which comes in different variants for LANs and WANs) is used. Groove also allows sending instant messages to peers. All session and user information is stored by the Groove client at the client side.[3]
+Groove 2007 file sharing workspaces are only available for 32 bit versions of Windows. Microsoft is currently not planning on releasing a version for 64 bit operating systems until the next release of Office.
+
+Groove Virtual Office 3.1 was the last version before Microsoft's acquisition of Groove Networks. The following version has been released since:
+Groove 2007 is also available as a separate product and as an annual subscription-based service called Office Live Groove 2007.
+
+
+
+

@@ -1,0 +1,71 @@
+Differences between Spanish and Portuguese
+Portuguese and Spanish are among the most widely spoken languages in the world today. Although they are closely related, to the point of having a noticeable degree of mutual intelligibility, there are also important differences between them, which can pose difficulties for people acquainted with one of the languages who attempt to learn the other. Both are part of a broader group known as West Iberian, which contains also several minor languages or dialects with fewer speakers, all of which are mutually intelligible among themselves to some degree.
+There are also some significant differences between Brazilian and European Portuguese. This article notes these differences below only where:
+
+
+Portuguese and Spanish share a fairly great number of words that are either spelled identically (although they may be pronounced slightly differently), almost identically (though they may be pronounced more or less the same) or predictably similar. Consider for example the following paragraph, taken from the Gramática Esencial del Español, by Manuel Seco, and compare it to the Portuguese rendition below, noting the extensive lexical similarity and the only slight changes in word order:
+Pero, a pesar de esta variedad de posibilidades que la voz posee, sería un muy pobre instrumento de comunicación si no contara más que con ella. La capacidad de expresión del hombre no dispondría de más medios que la de los animales. La voz, sola, es para el hombre apenas una materia informe, que para convertirse en un instrumento perfecto de comunicación debe ser sometida a un cierto tratamiento. Esa manipulación que recibe la voz son las "articulaciones".
+Porém, apesar desta variedade de possibilidades que a voz possui, seria um instrumento de comunicação muito pobre se não contasse com mais que isso. A capacidade de expressão do homem não disporia de mais meios que a dos animais. A voz, sozinha, é para o homem apenas uma matéria informe, que para se converter num instrumento perfeito de comunicação deve ser submetida a um certo tratamento. Essa manipulação que a voz recebe são as "articulações".
+Some common words are however quite different in the two languages, for instance:
+The Spanish idiom de hinojos 'kneeled' has the same etymology as the Portuguese joelho.
+
+
+Vocabulary differences between the two languages arose from various factors:
+
+Unlike the other Romance languages (including Galician), and to a lesser extent, English, modern Portuguese does not use the Roman planetary system for the days Monday through Friday. Instead, it is numerical, and derived from Ecclesiastical Latin. The word feira refers to a "fair" or "market." All days in both languages are masculine, except the "feira" days in Portuguese, which are feminine.
+segunda-feira
+terça-feira
+Tuesday
+quarta-feira
+Wednesday
+quinta-feira
+Thursday
+sexta-feira
+Friday
+sábado
+Saturday
+domingo
+In actual usage, the word feira is often dropped when not necessary to avoid confusion:
+Vou visitar você na segunda. I'll visit you on Monday.
+
+Apart from a considerable number of false friends, there are also some cognate words whose meaning is broader in one language than in the other. Some examples:
+
+The Spanish indefinite pronoun todo can mean "all/every", or "everything". Portuguese distinguishes between todo "all/every" and tudo "everything" (used when the referent is an indefinite object or abstraction).
+
+Spanish distinguishes the adjectives muchos ("many") and mucho ("much") from the adverb muy ("very/quite"). Portuguese uses muitos for "many" and muito for both "much" and "very/quite". (The word mui, cognate to Spanish muy, once existed in Portuguese, but is not used anymore.)
+As an adjective, muito is inflected according to the gender and number of the noun it qualifies, like mucho. As an adverb, it is invariable like muy. Thus, it would be incorrect to say *muitas maduras in the second example.
+
+The cardinal numbers are very similar in Spanish and Portuguese, but there is a difference in numbers one and two. Spanish has different words for un ("a", "an"; masculine singular indefinite article) and uno ("one"; numeral or pronoun); e.g. página uno "page one". In Portuguese, both words are the same: um. Spanish uno can also be used like the English generic "one", to represent an indeterminate subject. This is not possible with Portuguese um; the reflexive pronoun se is used instead. "Se" may be used in Spanish to form passive and impersonal constructions, as well.[1]
+This still applies in cases where a relatively indeterminate subject is genderized, such as the Spanish todos a una [voz] ("all at once," literally "all at one [voice]"). It should be rewritten in Portuguese without any cardinal number. For example, todos juntos "all together".
+On the other hand, in Portuguese, cardinal number "two" inflects with gender (dois if masculine, duas if feminine), while in Spanish dos is used for both.
+
+Spanish uses "y" (meaning "and") before all words, except those beginning with "i" and "hi," in which case it uses "e." Portuguese uses "e" regardless of the pronunciation of the following word.
+Similarly, Spanish uses "o" (meaning "or") before all words, except those beginning with "o" and "ho," in which case it uses "u." Portuguese uses "ou" regardless of the pronunciation of the following word.
+
+In Portuguese, the word se can be a reflexive pronoun or a conjunction meaning "if". This may give the false impression that a Portuguese verb is pronominal when it is not. For example, Se ficou em Paris... means "If (he) remained in Paris..." When the conjunction se precedes a pronominal verb, it is common to have a double se in the sentence. Se se esqueceu da sua senha... "If you forgot your password..."
+
+
+
+The preposition a is identical to the feminine definite article in Portuguese. Thus, while a Ana would mean "to Ann" in Spanish, in Portuguese the same phrase would likely be interpreted as just "Ann". To include the preposition, the grave accent must be used (a + a = à). Thus, "I gave a gift to Ann" is Dei um presente à Ana. In European Portuguese, a is pronounced [ɐ], while à is pronounced [a]. This qualitative distinction is generally not made in Brazilian Portuguese.
+Other Portuguese prepositions contract with articles or with personal pronouns, in some cases producing false friends: dos and no mean "two" and "no" in Spanish, but "of the" (de + os) and "in the" (em + o) in Portuguese. While Spanish also has the prepositional contractions al (a + el) and del (de + el), Portuguese has many more[3] with prepositions a, de, em, por, and com.
+There are also non-obligatory contractions joining em and de with the indefinite article (num, dum, etc.) and de with aqui (daqui). Obligatory conmigo (Sp.)/comigo (Pt.), contigo, and consigo exist in both languages. Portuguese adds con(n)osco for nós, and convosco for vós. (In Spanish, these forms are archaic.) All Portuguese contractions involving either the definite article or the demonstrative pronouns include both the feminine and plural forms:
+Obligatory "masculine singular" contractions in Portuguese:
+Three additional forms of each exist for feminine and plural.
+Obligatory "non-genderized" contractions in Portuguese:
+
+Spanish employs a preposition, the so-called "personal a," before the direct object of a transitive verb (except tener) when it denotes a specific person(s), or domestic pet. It is not used for anonymous persons known only by their occupation or status (police, doctors, soldiers, etc.). In Portuguese, the personal a is most unusual. It is occasionally found in formal texts, like the Biblical commandment Amar a Deus sobre todas as coisas, "To love God above everything else", but it sounds archaic. Since direct objects are typically not preceded by a preposition, it is easy to tell them apart from indirect objects, which are always preceded by a preposition, and the analogue of leísmo is less of an issue than in Spanish. Laísmo and loísmo never occur in Portuguese.
+As mentioned above, the preposition a is identical to the feminine definite article in Portuguese, which can create some confusion. For example, in the Spanish sentence He invitado a Juana para cenar en nuestra casa ("I have invited Joan for dinner at our house)", a is a preposition (the personal "a"), but in the Portuguese version Convidei a Joana para jantar em nossa casa, it is a definite article. (The reason for the preterite tense in Portuguese is explained in the Present perfect section.)
+
+Quite common in both languages are the prepositions a (which often translates as "to"), and para (which often translates as "for"). However, European Portuguese distinguishes between going somewhere for a short while versus a longer stay, especially if it is an intended destination, in the latter case using para instead of a. While there is no specified duration of stay before an European Portuguese speaker must switch prepositions, a implies one will return sooner, rather than later, relative to the context. This distinction is not made in English, Spanish and Brazilian Portuguese, and the Spanish para cannot be used for this purpose.
+Note, though, in the first example, para could be used in Portuguese if in contrast to a very brief period of time.
+In informal, non-standard Brazilian Portuguese, "em" (in its original form or combined with a given article in a contraction, yielding "no", "na", "numa", etc.), often replaces the preposition "a" from standard Portuguese.
+Such a construction is not used in Spanish or in European Portuguese.
+
+Spanish has the two different prepositions: para ("for") and hacia ("toward", originally a contraction of hace a, lit. "face to"). Of them, only para exists in Portuguese, covering both meanings.
+Portuguese para, in the latter sense, can alternatively be replaced by rumo a (lit. "direction to", "rhumb to").
+Although Portuguese face a is etymologically related to Spanish hacia, face a means "with respect to". Examples of usage:
+
+Both languages have a construction similar to the English "going-to" future. Spanish includes the preposition a between the conjugated form of ir "to go" and the infinitive: Vamos a cantar "We're going to sing" (present tense of ir + a + infinitive). Usually, in Portuguese, there is no preposition between the helping verb and the main verb: Vamos cantar (present tense of ir + infinitive). This also applies when the verb is in other tenses:
+There are a couple of exceptions in which the preposition a is included in Portuguese. One could say Vamos a cantar "Let's sing" as a colloquial form of a motivational suggestion, equivalent to Vamos cantando.
+The other is when you are referring to the specific moment where an imminent action not yet begun was cancelled. In this case, the use of a is equivalent to rumo a. (The imperfect tense of estar plus a gerund would have been used had the action already started.) For example:
+

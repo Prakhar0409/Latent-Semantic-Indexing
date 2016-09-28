@@ -1,0 +1,9 @@
+Heliostat
+A Heliostat (from helios, the Greek word for sun, and stat, as in stationary) is a device that tracks the movement of the sun. It is typically used to orient a mirror, throughout the day, to redirect sunlight along a fixed axis towards a stationary target or receiver.
+Heliostats are used in solar telescopes, and solar power generation. Heliostats have been used in surveying in the form of a heliotrope to constantly reflect sunlight in a single fixed direction, allowing the accurate observation of a known point from a distance.
+The simplest heliostat devices use an equatorial mount and a clockwork mechanism to turn the mirror in synchronisation with the rotation of the Earth. More advanced heliostats track the sun directly by sensing its position throughout the day. Others are controlled by computers.
+A siderostat is a similar device which is designed to track a fainter star, rather than the Sun.
+
+Many heliostats can be combined together to concentrate the sun's energy. Energy can be collected for electrical generation with photovoltaic cells or can be used to heat a medium such as water or molten salt, as in the The Solar Project. The high temperatures can also be used as an incinerator for waste disposal.
+
+

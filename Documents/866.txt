@@ -1,0 +1,38 @@
+Cognitivism (psychology)
+Abnormal
+Biological
+Cognitive
+Developmental
+Experimental
+Evolutionary
+Mathematical
+Neuropsychology
+Personality
+Positive
+Psychophysics
+Social
+Transpersonal
+Clinical
+Educational
+Forensic
+Health
+Industrial
+Organizational
+School
+Sport
+Publications
+Topics
+Therapies
+In psychology, cognitivism is a theoretical approach in understanding the mind using quantitative, positivist and scientific methods, that describes mental functions as information processing models.[citation needed]
+
+Cognitivism has two major components, one methodological, the other theoretical. Methodologically, cognitivism adopts a positivist approach and the belief that psychology can be (in principle) fully explained by the use of experiment, measurement and the scientific method.[citation needed] This is also largely a reductionist goal, with the belief that individual components of mental function (the 'cognitive architecture') can be identified and meaningfully understood.[citation needed] The second is the belief that cognition consists of discrete, internal mental states (representations or symbols) whose manipulation can be described in terms of rules or algorithms.[citation needed]
+Cognitivism became the dominant force in psychology in the late-20th century, replacing behaviorism as the most popular paradigm for understanding mental function. Cognitive psychology is not a wholesale refutation of behaviorism, but rather an expansion that accepts that mental states exist. This was due to the increasing criticism towards the end of the 1950s of behaviorist models. One of the most notable criticisms was Chomsky's argument that language could not be acquired purely through conditioning, and must be at least partly explained by the existence of internal mental states.
+The main issues that interest cognitive psychologists are the inner mechanisms of human thought and the processes of knowing. Cognitive psychologists have attempted to throw light on the alleged mental structures that stand in a causal relationship to our physical actions.
+
+Cognitivism has been criticised in a number of ways.
+Phenomenologists and hermeneutic philosophers have criticised the positivist approach of cognitivism for reducing individual meaning to what they perceive as measurements stripped of all significance. They argue that by representing experiences and mental functions as measurements, cognitivism is ignoring the context (cf contextualism) and, therefore, the meaning of these measurements. They believe that it is this personal meaning of experience gained from the phenomenon as it is experienced by a person (what Heidegger called being in the world) which is the fundamental aspect of our psychology that needs to be understood: therefore they argue that a context-free psychology is a contradiction in terms. They also argue in favour of holism: that positivist methods cannot be meaningfully used on something which is inherently irreducible to component parts. Hubert Dreyfus has been the most notable critic of cognitivism from this point of view. Humanistic psychology draws heavily on this philosophy, and practitioners have been among the most critical of cognitivism.
+In the 1990s, various new theories emerged and challenged cognitivism and the idea that thought was best described as computation. Some of these new approaches, often influenced by phenomenological and post-modernist philosophy, include situated cognition, distributed cognition, dynamicism, embodied cognition. Some thinkers working in the field of artificial life (for example Rodney Brooks) have also produced non-cognitivist models of cognition.
+The idea that mental functions can be described as information processing models has been criticised by philosopher John Searle and mathematician Roger Penrose who both argue that computation has some inherent shortcomings which cannot capture the fundamentals of mental processes.
+Another argument against cognitivism is the problems of Ryle's Regress or the homunculus fallacy. Cognitivists have offered a number of arguments to refute these attacks.
+
+

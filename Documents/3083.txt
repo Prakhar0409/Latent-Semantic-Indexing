@@ -1,0 +1,40 @@
+ISO week date
+The ISO week date system is a leap week calendar system that is part of the ISO 8601 date and time standard. The system is used (mainly) in government and business for fiscal years, as well as in timekeeping.
+The system uses the same cycle of 7 weekdays as the Gregorian calendar. Weeks start with Monday. ISO week-numbering years have a year numbering which is approximately the same as the Gregorian years, but not exactly (see below). An ISO week-numbering year has 52 or 53 full weeks (364 or 371 days). The extra week is here called a leap week (ISO 8601 does not use the term).
+A date is specified by the ISO week-numbering year in the format YYYY, a week number in the format ww prefixed by the letter W, and the weekday number, a digit d from 1 through 7, beginning with Monday and ending with Sunday. For example, 2006-W52-7 (or in compact form 2006W527) is the Sunday of the 52nd week of 2006. In the Gregorian system this day is called 31 December 2006.
+The system has a 400-year cycle of 146,097 days (20,871 weeks), with an average year length of exactly 365.2425 days, just like the Gregorian calendar. In every 400 years there are 71 years with 53 weeks.
+The first week of a year is the week that contains the first Thursday of a year.
+
+The ISO week-numbering year number deviates from the number of the Gregorian year on, if applicable, a Friday, Saturday, and Sunday, or a Saturday and Sunday, or just a Sunday, at the start of the Gregorian year (which are at the end of the previous ISO year) and a Monday, Tuesday and Wednesday, or a Monday and Tuesday, or just a Monday, at the end of the Gregorian year (which are in week 01 of the next ISO year). In the period 4 Januaryâ€“28 December and on all Thursdays the ISO week-numbering year number is always equal to the Gregorian year number.
+Mutually equivalent definitions for week 01 are:
+Note that while most definitions are symmetric with respect to time reversal, one definition in terms of working days happens to be equivalent.
+The last week of the ISO week-numbering year is the week before week 01; in accordance with the symmetry of the definition, equivalent definitions are:
+The 53-week ISO week-numbering year years can be described by any of the following equivalent definitions:
+All other week-numbering years have 52 weeks.
+
+
+
+The system does not need the concept of month and is not well connected with the Gregorian system of months: some months January and December are divided over two ISO years.
+
+Overview of dates with a fixed week number in any year other than a leap year starting on Thursday:
+The day of the week for these days are related to Doomsday because for any year, the Doomsday is the day of the week that the last day of February falls on. These dates are one day after the Doomsdays, except that in January and February of leap years the dates themselves are Doomsdays. In leap years the week number is the rank number of its Doomsday.
+
+
+Each equinox and solstice varies over a range of at least seven days. This is because each equinox and solstice may occur any day of the week and hence on at least seven different ISO week dates. For example, there are spring equinoxes on 2004-W12-7 and 2010-W11-7.
+It does not replace the Gregorian calendar, which it uses to define the new year day (Week 1 Day 1). However, it could be defined without reference to Gregorian. One needs at most a defined start and a table of year-lengths over the 400-year cycle.
+Not all parts of the world have a work week that begins with Monday. For example, in some Muslim countries, the work week may begin on Saturday while in other Muslim countries it may begin on Sunday.
+
+There are 13 28-year subcycles with 5 leap years (53-week years) each, and 6 remaining leap years in the remaining 36 years (the absence of leap days in the Gregorian calendar in 2100, 2200, and 2300 interrupts the subcycles). The leap years are 27 times 5 years apart, 43 times 6 years, and once 7 years. (A slightly more even distribution would be possible: 26 times 5 years apart, and 45 times 6 years.)
+The Gregorian years corresponding to the 71 ISO leap years can be subdivided as follows:
+Thus 27 ISO years are 5 days longer than the corresponding Gregorian year, and 44 are 6 days longer. Of the other 329 Gregorian years (neither starting nor ending with Thursday), 70 are Gregorian leap years, and 259 are non-leap years, so 70 ISO years are 2 days shorter, and 259 are 1 day shorter.
+
+For an overview of week numbering systems see week number. The US system has weeks from Sunday through Saturday, and partial weeks at the beginning and the end of the year. An advantage is that no separate year numbering like the ISO year is needed, while correspondence of lexicographical order and chronological order is preserved.
+
+
+Terrestrial Time Â· Geocentric Coordinate Time Â· Barycentric Coordinate Time
+Civil time Â· Minute Â· Hour Â· 12-hour clock Â· 24-hour clock Â· ISO 8601
+Theory of relativity Â· Time dilation Â· Gravitational time dilation Â· Coordinate time Â· Proper time
+Astronomical Â· Julian Â· Gregorian Â· Islamic Â· Lunisolar Â· Solar Â· Lunar Â· Epact Â· Intercalation Â· Leap year
+Egyptian Â· Sothic cycle Â· Hindu units of measurement Â· Hindu Yugas
+Gregorian Â· Proleptic Gregorian Â· Old Style and New Style
+Lunisolar Â· Solar Â· Lunar Â· Islamic Â· Chinese sexagenary cycle

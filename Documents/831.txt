@@ -1,0 +1,12 @@
+lighttpd
+lighttpd (pronounced "lighty") is a web server designed to be secure, fast, standards-compliant, and flexible while being optimized for speed-critical environments. It was originally written by the German programmer Jan Kneschke (who also works for MySQL) as a proof-of-concept of the c10k problem (how to handle 10000 connections in parallel on one server),[1] but now has substantial worldwide popularity.[2]
+
+Its low memory footprint (compared to other web servers), light CPU load and its speed goals make lighttpd suitable for servers that are suffering load problems, or for serving static media separately from dynamic content. lighttpd is free software/open source, and is distributed under the BSD license. lighttpd runs on Linux and other Unix-like operating systems and Microsoft Windows (under Cygwin). On Windows it can be controlled with the program Lighty Tray which integrates into the system tray.[3]
+
+
+lighttpd supports the FastCGI, SCGI and CGI interfaces to external programs, permitting web applications written in any programming language to be used with this server. As a particularly popular language, PHP performance has received special attention. Lighttpd's FastCGI can be configured to support PHP with opcode caches (like APC) properly and efficiently. Additionally, it has received attention from its popularity within the Python, Perl, Ruby and Lua communities. It is a popular web server for the Catalyst and Ruby on Rails web frameworks. Lighttpd does not support ISAPI.
+
+Lighttpd is used by some of the biggest websites, including sites such as meebo. Wikimedia can run on Lighttpd Web Server [4][5][6][7] as does SourceForge.[7][8] Three of the most famous torrent listing websites, The Pirate Bay, Mininova and isoHunt, which have more than 1,000 hits per second, also use Lighttpd.[9] Lighttpd currently holds fifth place on the Netcraft "Web Server Survey" (November 2008).[10]
+
+
+

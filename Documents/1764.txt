@@ -1,0 +1,73 @@
+Matrix multiplication
+In mathematics, matrix multiplication is the operation of multiplying a matrix with either a scalar or another matrix. This article gives an overview of the various ways to perform matrix multiplication.
+
+This is the most often used and most important way to multiply matrices. It is defined between two matrices only if the number of columns of the first matrix is the same as the number of rows of the second matrix.
+Formally, for
+then
+where the elements of A.B are given by
+for each pair i and j with 1 ≤ i ≤ m and 1 ≤ j ≤ p. The algebraic system of "matrix units" summarises the abstract properties of this kind of multiplication.
+
+The picture to the left shows how to calculate the (1,2) element and the (3,3) element of AB if A is a 3×2 matrix, and B is a 2×3 matrix. Elements from each matrix are paired off in the direction of the arrows; each pair is multiplied and the products are added. The location of the resulting number in AB corresponds to the row and column that were considered.
+
+For example BA:
+
+This matrix multiplication can also be considered from a slightly different viewpoint: it adds vectors together after being multiplied by different coefficients. If A and B are matrices given by:
+then
+The example revisited:
+The rows in the matrix on the left can be thought of as the list of coefficients and the matrix on the right as the list of vectors. In the example, the first row is [1�0�2], and thus we take 1 times the first vector, 0 times the second vector, and 2 times the third vector.
+The equation can be simplified further by using outer products:
+The terms of this sum are matrices of the same shape, each describing the effect of one column of A and one row of B on the result. The columns of A can be seen as a coordinate system of the transform, i.e. given a vector x we have  where xi are coordinates along the Ai "axes". The terms AiBi are like Aixi, except that Bi contains the ith coordinate for each column vector of B, each of which is transformed independently in parallel.
+The example revisited:
+The vectors  and  have been transformed to  and  in parallel. One could also transform them one by one with the same steps:
+
+The ordinary matrix product can be thought of as a dot product of a column-list of vectors and a row-list of vectors. If A and B are matrices given by:
+where
+then
+
+In other words,  is the dot product of the Xth row vector of A and the Yth column vector of B.
+
+
+The complexity of matrix multiplication, if carried out naively, is O(n3), but more efficient algorithms do exist. Strassen's algorithm, devised by Volker Strassen in 1969 and often referred to as "fast matrix multiplication", is based on a clever way of multiplying two 2�×�2 matrices which requires only 7 multiplications (instead of the usual 8), at the expense of several additional addition and subtraction operations. Applying this trick recursively gives an algorithm with a multiplicative cost of . Strassen's algorithm is awkward to implement, compared to the naive algorithm, and it lacks numerical stability. Nevertheless, it is beginning to appear in libraries such as BLAS, where it is computationally interesting for matrices with dimensions n > 100 (Press 2007, p.�108), and is very useful for large matrices over exact domains such as finite fields, where numerical stability is not an issue.
+The algorithm with the lowest known exponent, which was presented by Don Coppersmith and Shmuel Winograd in 1990, has an asymptotic complexity of O(n2.376). It is similar to Strassen's algorithm: a clever way is devised for multiplying two k�×�k matrices with fewer than k3 multiplications, and this technique is applied recursively. It improves on the constant factor in Strassen's algorithm, reducing it to 4.537. However, the constant term implied in the O(n2.376) result is so large that the Coppersmith–Winograd algorithm is only worthwhile for matrices that are too big to handle on present-day computers (Knuth, 1998).
+Since any algorithm for multiplying two n�×�n matrices has to process all 2�×�n² entries, there is an asymptotic lower bound of ω(n2) operations. Raz (2002) proves a lower bound of Ω(m2logm) for bounded coefficient arithmetic circuits over the real or complex numbers.
+Cohn et al. (2003, 2005) put methods, such as the Strassen and Coppersmith–Winograd algorithms, in an entirely different group-theoretic context. They show that if families of wreath products of Abelian with symmetric groups satisfying certain conditions exists, matrix multiplication algorithms with essential quadratic complexity exist. Most researchers believe that this is indeed the case (Robinson, 2005).
+Because of the nature of Matrix operations and the layout of Matrices in memory, it is typically possible to gain substantial performance gains through use of parallelisation and vectorisation. It should therefore be noted that some lower time-complexity algorithms on paper may have indirect time complexity costs on real machines.
+
+Matrices offer a concise way of representing linear transformations between vector spaces, and (ordinary) matrix multiplication corresponds to the composition of linear transformations. This will be illustrated here by means of an example using three vector spaces of specific dimensions, but the correspondence applies equally to any other choice of dimensions.
+Let X, Y, and Z be three vector spaces, with dimensions 4, 2, and 3, respectively, all over the same field, for example the real numbers. The coordinates of a point in X will be denoted as xi, for i = 1 to 4, and analogously for the other two spaces.
+Two linear transformations are given: one from Y to X, which can be expressed by the system of linear equations
+and one from Z to Y, expressed by the system
+These two transformations can be composed to obtain a transformation from Z to X. By substituting, in the first system, the right-hand sides of the equations of the second system for their corresponding left-hand sides, the xi can be expressed in terms of the zk:
+These three systems can be written equivalently in matrix–vector notation – thereby reducing each system to a single equation – as follows:
+Representing these three equations symbolically and more concisely as
+inspection of the entries of matrix C reveals that C = AB.
+This can be used to formulate a more abstract definition of matrix multiplication, given the special case of matrix–vector multiplication: the product AB of matrices A and B is the matrix C such that for all vectors z of the appropriate shape Cz = A(Bz).
+
+The scalar multiplication of a matrix A = (aij) and a scalar r gives a product r�A of the same size as A. The entries of r�A are given by
+For example, if
+then
+If we are concerned with matrices over a more general ring, then the above multiplication is the left multiplication of the matrix A with scalar p while the right multiplication is defined to be
+When the underlying ring is commutative, for example, the real or complex number field, the two multiplications are the same. However, if the ring is not commutative, such as the quaternions, they may be different. For example
+
+For two matrices of the same dimensions, we have the Hadamard product (named after French mathematician Jaques Hadamard), also known as the entrywise product and the Schur product.[2]
+
+Formally, for
+then
+where the elements of  are given by
+Note that the Hadamard product is a submatrix of the Kronecker product.
+The Hadamard product is commutative.
+The Hadamard product appears in lossy compression algorithms such as JPEG.
+
+For any two arbitrary matrices A and B, we have the direct product or Kronecker product A ⊗ B defined as
+If A is an m-by-n matrix and B is a p-by-q matrix, then their Kronecker product A ⊗ B is an mp-by-nq matrix.
+The Kronecker product is not commutative.
+For example
+If A and B represent linear transformations V1 → W1 and V2 → W2, respectively, then A ⊗ B represents the tensor product of the two maps, V1 ⊗ V2 → W1 ⊗ W2.
+
+If A, B and C are matrices with appropriate dimensions defined over a commutative Field (e.g.  where c is a scalar in that field, then for all three types of multiplication:
+
+The Frobenius inner product, sometimes denoted A:B is the component-wise inner product of two matrices as though they are vectors. In other words, it is the sum of the entries of the Hadamard product, that is,
+This inner product induces the Frobenius norm.
+
+Square matrices can be multiplied by themselves repeatedly in the same way that ordinary numbers can. This repeated multiplication can be described as a power of the matrix. Using the ordinary notion of matrix multiplication, the following identities hold for an n-by-n matrix A, a positive integer k, and a scalar c:
+The naive computation of matrix powers is to multiply k times the matrix A to the resu

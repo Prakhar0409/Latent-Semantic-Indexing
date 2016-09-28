@@ -1,0 +1,20 @@
+Candlestick chart
+A candlestick chart is a style of bar-chart used primarily to describe price movements of an equity over time.
+It is a combination of a line-chart and a bar-chart, in that each bar represents the range of price movement over a given time interval. It is most often used in technical analysis of equity and currency price patterns. They appear superficially similar to error bars, but are unrelated.
+
+Candlestick charts are said to have been developed in the 18th century by legendary Japanese rice trader Homma Munehisa. The charts gave Homma and others an overview of open, high, low, and close market prices over a certain period. This style of charting is very popular due to the level of ease in reading and understanding the graphs. Since the 17th century, there has been a lot of effort to relate chart patterns to the ldata points instead of one. The Japanese rice traders also found that the resulting charts would provide a fairly reliable tool to predict future demand.
+The method was picked up by Charles Dow around 1900 and remains in common use by today's traders of financial instruments.
+
+
+Candlesticks are usually composed of the body (black or white), an upper and a lower shadow (wick). The wick illustrates the highest and lowest traded prices of a stock during the time interval represented. The body illustrates the opening and closing trades. If the stock closed higher than it opened, the body is white, with the opening price at the bottom of the body and the closing price at the top. If the stock closed lower than it opened, the body is black, with the opening price at the top and the closing price at the bottom. A candlestick need not have either a body or a wick.
+
+There are multiple forms of candlestick chart patterns, with the simplest depicted at right. Here is a quick overview of their names:
+
+Despite those rather simple patterns depicted in the section above, there are more complex and difficult patterns, which have been identified since the charting method's inception.
+Candlestick charts also convey more information than other forms of charts, such as bar charts. Just as with bar charts, they display the absolute values of the open, high, low, and closing price for a given period. But, they also show how those prices are relative to the prior periods' prices, so one can tell by looking at one bar if the price action is higher or lower than the prior one. That and they are visually easier to look at, and can be colorized for even better definition.
+
+Candlestick charts are a visual aid for decision making in stock, forex, commodity, and options trading. For example, when the bar is white and high relative to other time periods, it means buyers are very bullish. The opposite is true for a black bar.
+
+
+
+

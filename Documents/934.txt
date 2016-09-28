@@ -1,0 +1,31 @@
+EEPROM
+EEPROM (also written E2PROM and pronounced "e-e-prom," "double-e prom" or simply "e-squared") stands for Electrically Erasable Programmable Read-Only Memory and is a type of non-volatile memory used in computers and other electronic devices to store small amounts of data that must be saved when power is removed, e.g., calibration tables or device configuration.
+When larger amounts of static data are to be stored (such as in USB flash drives) a specific type of EEPROM such as flash memory is more economical than traditional EEPROM devices.
+EEPROMs are realized as arrays of floating-gate transistors.
+
+In 1983, George Perlegos at Intel developed the Intel 2816, which was built on earlier EPROM technology, but used a thin gate oxide layer so that the chip could erase its own bits without requiring a UV source. Perlegos and others later left Intel to form Seeq Technology, which used on-device charge pumps to supply the high voltages necessary for programming EEPROMs.[1]
+
+There are different types of electrical interfaces to EEPROM devices. Main categories of these interface types are:
+How the device is operated depends on the electrical interface.
+
+Most common serial interface types are SPI, I²C, Microwire, UNI/O, and 1-Wire. These interfaces require between 1 and 4 control signals for operation, resulting in a memory device in an 8 pin (or less) package.
+The serial EEPROM typically operates in three phases: OP-Code Phase, Address Phase and Data Phase. The OP-Code is usually the first 8-bits input to the serial input pin of the EEPROM device (or with most I²C devices, is implicit); followed by 8 to 24 bits of addressing depending on the depth of the device, then data to be read or written.
+Each EEPROM device typically has its own set of OP-Code instructions to map to different functions. Some of the common operations on SPI EEPROM devices are:
+Other operations supported by some EEPROM devices are:
+
+Parallel EEPROM devices typically have an 8-bit data bus and an address bus wide enough to cover the complete memory. Most devices have chip select and write protect pins. Some microcontrollers also have integrated parallel EEPROM.
+Operation of a parallel EEPROM is simple and fast when compared to serial EEPROM, but these devices are larger due to the higher pin count (28 pins or more) and have been decreasing in popularity in favor of serial EEPROM or Flash.
+
+There are two limitations of stored information; endurance, and data retention.
+During rewrites, the gate oxide in the floating-gate transistors gradually accumulates trapped electrons. The electric field of the trapped electrons adds to the electrons in the floating gate, lowering the window between threshold voltages for zeros vs ones. After sufficient number of rewrite cycles, the difference becomes too small to be recognizable, the cell is stuck in programmed state, and endurance failure occurs. The manufacturers usually specify minimal number of rewrites being 106 or more.
+During storage, the electrons injected into the floating gate may drift through the insulator, especially at increased temperature, and cause charge loss, reverting the cell into erased state. The manufacturers usually guarantee data retention of 10 years or more.[2]
+
+Flash memory is a later form of EEPROM. In the industry, there is a convention to reserve the term EEPROM to byte-wise erasable memories compared to block-wise erasable flash memories. EEPROM takes more die area than flash memory for the same capacity because each cell usually needs both a read, write and erase transistor, while in flash memory the erase circuits are shared by large blocks of cells (often 512×8).
+Newer non-volatile memory technologies such as FeRAM and MRAM are slowly replacing EEPROMs in some applications, but are expected to remain a small fraction of the EEPROM market for the foreseeable future.
+
+The difference between EPROM and EEPROM lies in the way that the memory programs and erases. EEPROM can be programmed and erased electrically using field electron emission (more commonly known in the industry as "Fowler–Nordheim tunneling").
+EPROMs can't be erased electrically, and are programmed via hot carrier injection onto the floating gate. Erase is via an ultraviolet light source, although in practice many EPROMs are encapsulated in plastic that is opaque to UV light, and are "one-time programmable".
+Most NOR Flash memory is a hybrid style—programming is through hot carrier injection and erase is through Fowler–Nordheim tunneling.
+
+
+

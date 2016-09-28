@@ -1,0 +1,29 @@
+Calculus of constructions
+The calculus of constructions (CoC) is a higher-order typed lambda calculus, initially developed by Thierry Coquand, where types are first-class values. It is thus possible, within the CoC, to define functions from, say, integers to types, types to types as well as functions from integers to integers.
+The CoC is strongly normalizing, though, by Gödel's incompleteness theorem, it is impossible to prove this property within the CoC since it implies consistency.
+The CoC was the basis of the early versions of the Coq theorem prover; later versions were built upon the Calculus of inductive constructions, an extension of CoC with native support for inductive datatypes. In the original CoC, inductive datatypes had to be emulated as their polymorphic destructor function.
+
+The Calculus of Constructions can be considered an extension of the Curry-Howard isomorphism. The Curry-Howard isomorphism associates a term in the simply typed lambda calculus with each natural-deduction proof in intuitionistic propositional logic. The Calculus of Constructions extends this isomorphism to proofs in the full intuitionistic predicate calculus, which includes proofs of quantified statements (which we will also call "propositions").
+
+A term in the calculus of constructions is constructed using the following rules:
+The calculus of constructions has four object types:
+
+In the calculus of constructions, a judgement is a typing inference:
+Which can be read as the implication
+The valid judgements for the calculus of constructions are derivable from a set of inference rules. In the following, we use Γ to mean a sequence of type assignments , and we use K to mean either P or T. We will write A:B:C to mean "A has type B, and B has type C". We will write B(x: = N) to mean the result of substituting the term N for the variable x in the term B.
+An inference rule is written in the form
+which means
+
+1. 
+2. 
+3. 
+4. 
+5. 
+
+The calculus of constructions has very few basic operators: the only logical operator for forming propositions is . However, this one operator is sufficient to define all the other logical operators:
+
+The basic data types used in computer science can be defined within the Calculus of Constructions:
+
+
+
+

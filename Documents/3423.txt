@@ -1,0 +1,9 @@
+CDisplay
+CDisplay is a free sequential image viewer utility for Microsoft Windows used to view images one at a time in the style of a comic book. CDisplay was written to easily view JPEG, PNG and static GIF format images sequentially. The program's inspiration and implementation was partly because the existing programs currently available were too general purpose and thus were awkward to use when simply viewing images sequentially.
+
+
+CDisplay uses Comic Book Archive files, which have the extension .cbr or .cbz and are simply renamed RAR or ZIP files, respectively. The files are archives of individual page images with a new extension for convenience. The standard icon for cbr and cbz extension is a comic balloon. The format was made popular by CDisplay but is now used by many other programs designed for reading comics.
+CDisplay supports the display of JPEG, PNG, GIF, BMP and TXT and also SFV files to confirm that the file is not corrupt, either "loose" or contained within RAR or ZIP files, as above.
+
+The program was compiled using Borland C++ Builder 5.0 and runs on various Windows platforms including Windows 98, NT, XP and Vista. CDisplay has no write capabilities, and therefore files are left untouched. A small amount of configuration data is written to the Windows registry.
+CDisplay is no longer actively maintained by the original author. CDisplayEx, an open source clone, is also no longer actively maintained.

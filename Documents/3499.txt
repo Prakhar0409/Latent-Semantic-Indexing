@@ -1,0 +1,33 @@
+Lists of mathematics topics
+This article itemizes the various lists of mathematics topics. Some of these lists link to hundreds of articles; some link only to a few. The extremely long list of mathematics articles contains all mathematical articles in alphabetical order. This article brings together the same content organised in a manner better suited to browsing.
+The purpose of this list is not similar to that of the Mathematics Subject Classification formulated by the American Mathematical Society. Many mathematics journals ask authors of research papers and expository articles to list subject codes from the Mathematics Subject Classification in their papers. The subject codes so listed are used by the two major reviewing databases, Mathematical Reviews and Zentralblatt MATH. This list has some items that would not fit in such a classification, such as list of exponential topics and list of factorial and binomial topics, which may surprise the reader with the diversity of their coverage.
+
+These lists include topics typically taught in secondary education or in the first year of university.
+
+See also Areas of mathematics.
+As a rough guide this list is divided into pure and applied sections although in reality these branches are overlapping and intertwined.
+
+
+Algebra includes the study of algebraic structures, which are sets and operations defined on these sets satisfying certain axioms. The field of algebra is further divided according to which structure is studied; for instance, group theory concerns an algebraic structure called group.
+
+Calculus studies the computation of limits, derivatives, and integrals of functions of real numbers, and in particular studies instantaneous rates of change. Analysis studies the same subjects, but on a more rigorous level, and also topics that evolved from calculus.
+
+Geometry is initially the study of spatial figures like circles and cubes, though it has been generalized considerably. Topology developed from geometry; it looks at those properties that do not change even when the figures are deformed by stretching and bending, like dimension.
+
+Combinatorics concerns the study of discrete (and usually finite) objects. Aspects include "counting" the objects satisfying certain criteria (enumerative combinatorics), deciding when the criteria can be met, and constructing and analyzing objects meeting the criteria (as in combinatorial designs and matroid theory), finding "largest", "smallest", or "optimal" objects (extremal combinatorics and combinatorial optimization), and finding algebraic structures these objects may have (algebraic combinatorics).
+
+Logic is the foundation which underlies mathematical logic and the rest of mathematics. It tries to formalize valid reasoning. In particular, it attempts to define what constitutes a proof.
+
+Number theory studies the natural, or whole, numbers. One of the central concepts in number theory is that of the prime number, and there are many questions about primes that appear simple but whose resolution continues to elude mathematicians.
+
+
+A differential equation is an equation involving an unknown function and its derivatives.
+In a dynamical system, a fixed rule describes the time dependence of a point in a geometrical space. The mathematical models used to describe the swinging of a clock pendulum, the flow of water in a pipe, or the number of fish each spring in a lake are examples of dynamical systems.
+
+
+Mathematical physics is concerned with "the application of mathematics to problems in physics and the development of mathematical methods suitable for such applications and for the formulation of physical theories"1.
+
+The fields of mathematics and computing intersect both in computer science, the study of algorithms and data structures, and in scientific computing, the study of algorithmic methods for solving problems in mathematics, science and engineering.
+
+Information theory is a branch of applied mathematics and electrical engineering involving the quantification of information. Historically, information theory was developed to find fundamental limits on compressing and reliably communicating data.
+Signal processing is the analysis, interpretation, and manipulation of signals. Signals of interest include sound, images, biological signals such as ECG, radar signals, and many others. Processing of such signals includes filtering, storage and reconstruction, separation of information from noise, compression, and f

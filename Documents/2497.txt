@@ -1,0 +1,20 @@
+DD-WRT
+DD-WRT is free Linux-based firmware for several wireless routers, most notably the Linksys WRT54G (including the WRT54GL and WRT54GS). It is licensed under the GNU General Public License version 2. Like other similar projects, DD-WRT is considered a third-party firmware solution designed to replace the firmware that ships pre-installed on many commercial routers. This is done for a variety of reasons; including but not limited to the addition of features which are not typically included in a manufacturer's router firmware.
+DD-WRT includes such features as support for the Kai network, daemon-based services, IPv6, Wireless Distribution System, RADIUS, advanced quality of service, radio output power control, overclocking capability, and software support for a Secure Digital Card hardware modification.
+DD-WRT versions up to v22 were based on the Alchemy firmware from Sveasoft, which in turn is based on the original Linksys firmware. DD-WRT versions from v23 onwards, however, are almost completely rewritten. The Linux kernel part is based on the OpenWrt kernel, which started as a Linksys-based firmware but later changed to its own build framework. All of the firmwares are based on Linux, as are OpenWrt and Alchemy.
+Through a partnership with Buffalo Technology, Buffalo will begin shipping routers pre-installed with a customized version of DD-WRT.[1][2]
+
+The major releases to date include:
+DD-WRT v23 Service Pack 1 (SP1) was released on May 16, 2006. Much of the code was overhauled and rewritten during the development of this release, and many new features were added.
+DD-WRT v23 Service Pack 2 (SP2) was released on September 14, 2006. The interface was overhauled, and some new features were added. Some additional router models are supported, with more planned.
+DD-WRT v24 was released on May 18, 2008. It allows up to 16 virtual interfaces with different SSIDs and encryption protocols. There is support for some PowerPC, IXP425-based router boards, Atheros WiSOC and X86 based systems. There is also limited support for routers with low flash memory (ex. WRT54Gv8 or WRT54GSv7).
+DD-WRT v24 Service Pack 1 (SP1) was released on July 26, 2008. Urgent DNS security issue fixed for DNSMasq, Site Survey security fixes, longer passwords, and flexible OpenVPN configurations. New hardware supported, including WRT300 v1.1, WRT310N, WRT600N, Tonze AP42X Pronghorn SBC, Ubiquiti LSX and Netgear, Belkin and USR devices.
+
+List of features in all versions [3]
+
+DD-WRT describes itself as a third party developed firmware released under the terms of the GPL,[6] and distributes the source code via Subversion.[7] However, DD-WRTs release of firmware does not follow the terms of the GPL for several reasons:
+In July 2006, the DD-WRT Shop started offering a commercial version of the router firmware built with additional, non-open source code.[16] It includes increased functionality such as per-user bandwidth control. Because the GPL license has a provision against binary-only public distribution of derivative works, this would appear to be a license violation, as pointed out by one contributor to the project.[17] Also around that time, the license text was changed to specify that some software components were not licensed under the GPL. The web interface, one of the non-GPL components, was encrypted to prevent its reverse engineering and rebranding.
+The person who released the proprietary version wrote a response to these allegations in his blog and stated that the source code was in fact available.[18] The license text was reverted back to the unmodified GPL license.
+
+See Supported Devices.
+

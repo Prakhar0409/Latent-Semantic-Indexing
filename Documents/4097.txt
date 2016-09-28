@@ -1,0 +1,19 @@
+Toolkits for User Innovation
+Toolkits for user innovation (the process) is an innovation process in which the user itself does part of the innovation within a set environment. The process was formalized by Eric von Hippel in the article PERSPECTIVE: User toolkits for innovation and it is based on his belief in innovation made by lead users. The process is based on the idea that manufacturers possess the knowledge of the solution possibilities, while the users possess the knowledge about needs. This information is sticky and can therefore not be transferred easily between the user and the manufacturer.
+The process can be used in a variety of settings, and has been shown to be applicable in systems ranging from production of electronic circuitry to Apache security software.
+
+The process as described by von Hippel has five criteria:
+
+
+It is important that the user is able to go through complete trial-and-error cycles when designing the product. This allows the users to see the consequences of the design choices they make, and thereby decide more precisely what they really want. Trial-and-error has been shown by research to be the way that most problem solving is done.
+
+A solution space is defined by the flexibility in which the producer can produce the desired result. Any production process has a set of limiting factors, and these factors define the solution space. If the solution space is small, the chance of user innovations are small.
+
+The process must be available to the users so that they can use the skills and languages they already know. This frees the users from learning the different design-specific skills and languages associated with manufacturing.
+
+Custom designs are seldom made up of unique parts, but instead share a set of standard modules. Therefore a library of standard modules should be available to the user. This allows the user to focus on the unique parts that are truly important.
+
+The result from the process must be easily converted into the language needed for the production system, and be without error. If the result of the process must be manually translated much of the effect of the toolkit may be lost.
+
+
+

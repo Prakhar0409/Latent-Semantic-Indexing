@@ -1,0 +1,33 @@
+Microsoft Windows SDK
+The Microsoft Windows SDK (Software Development Kit) is a software development kit from Microsoft that contains header files, libraries, samples, documentation and tools utilizing the APIs required to develop applications for Microsoft Windows and the .NET Framework 3.0/.NET Framework 3.5. The Windows SDK can be used to write applications that target Windows XP and Windows Server 2003 as well as Windows Vista and Windows Server 2008 while the older Platform SDK can be used to develop applications for Windows 2000, Windows XP and Windows Server 2003. The Windows SDK replaces the Platform SDK, the WinFX SDK and the .NET Framework 2.0 SDK. The package contains over 100 million words of documentation and nearly 1000 samples. Although the SDK itself is available free of cost, obtaining the SDK requires that the copy of Windows be validated.
+
+Windows SDKs are available free on the Microsoft Download Center, in ISO and Web-download formats. Users can install the entire SDK or choose to install only some SDK components, such as code samples demonstrating only native development or only the tools for managed development. Some Windows SDK components are also included in Microsoft Visual Studio. DVDs are also available for purchase here.
+The latest Windows SDK is the Microsoft Windows SDK for Windows Server 2008 and .NET Framework 3.5, released February, 2008. This SDK release supports Windows Server 2008, .NET Framework 3.5, and Windows Vista SP1 and is compatible with Visual Studio 2008 and Visual Studio 2005 SP1; including Visual Studio Express Editions.
+
+Starting with Windows Vista, the Platform SDK has been replaced by the Windows SDK. The change of name is to better reflect the content included, and to offer the documentation, samples, build environment and tools needed to develop Windows applications all in one place. Also, the SDK for .NET Framework 3.0 (previously known as WinFX) /.NET Framework 3.5 and .NET Framework 2.0 (which is also now a part of .NET Framework 3.0) is included in the Windows SDK. The Tablet PC SDK and the Windows Media SDK (Windows Media Player 11 SDK, Windows Media Format 11 SDK and the Windows Media Device Manager 11 SDK) are also included. Thus, all the APIs which ship with Windows Vista / Windows Server 2008 and the latest compilers are now integrated into the Windows SDK. However, the .NET Framework 1.1 SDK is not included since the .NET Framework 1.1 does not ship with Windows Vista. Also, the Windows Media Center SDK for Windows Vista ships separately.
+The Windows SDK allows the user to specify where the SDK will be installed and what components will be installed where. This new SDK integrates better with Visual Studio, so multiple copies of tools are not installed. Information shown can be filtered by content, such as showing only new Windows Vista content, Win32 development content, .NET Framework development content; or by language or a specific technology.
+
+A developer might want to use an older SDK for a particular reason. For example, the Windows Server 2003 Platform SDK released in February 2003 was the last SDK to provide full support of Visual Studio 6.0. Some older PSDK versions, including the February 2003 SDK can still be downloaded from the Microsoft Download center [1]; others can be ordered on CD/DVD.
+
+The most recently released Windows SDK for Windows Server 2008 and .NET Framework 3.5 contains the updated x86, x64 and Itanium (IA-64) Visual Studio 2008 compilers.
+The earlier Windows SDK Update for Windows Vista contains the x86 and x64 Visual Studio 2005 SP1 VC++ compilers.
+The Platform SDK also contains the resources (tools, documentation, samples, etc.) and compilers needed for 64-bit development on x86, x64 and Itanium (IA-64) platform architectures.
+
+The Windows SDK documentation contains over 304,000 pages, including the following:
+
+The Windows SDK contains the following:
+
+The SDK contains samples in the following topic areas:
+
+.NET Framework (managed code) samples
+Microsoft .NET Framework samples are installed with the SDK documents, providing a mechanism to view and browse samples in context of the rest of the documents. These samples fall into three main categories:
+Sample document topics contain options for viewing and copying sample source files and for downloading sample projects as ZIP files to a user’s computer. Each sample topic contains at least one source code selection box that lists all the sample files. There is one box for each programming language provided by the sample. If a user is viewing this documentation on the Web instead of in local Help, a link to download the sample is provided.
+The .NET Framework samples are also available outside the documents, in .ZIP format installed to Program Files\Microsoft SDKs\Windows\[version number]\samples. This content can be deselected during SDK setup. The .ZIP files provide a mechanism to extract large subsets of samples at once.
+Win32 (unmanaged code) samples
+The Windows samples demonstrate Windows operating system features primarily using native code. These unmanaged Win32 samples are not included in the documentation. They are installed as loose files to subdirectories of \Program Files\Microsoft SDKs\Windows\[version number]\samples. This content can be deselected during SDK setup. A few samples with some managed code (PowerShell, Tablet PC) install with the Win32 samples. The Win32 samples directory layout for the Windows SDK is:
+
+Building samples under Windows Vista or later operating systems should be done in a directory outside of Program Files to which there is write access to avoid issues with file and registry virtualization. This makes it possible to maintain an unmodified copy of the SDK samples. To build from the command line:
+It is important to specify the build platform when using MSBuild, otherwise the first platform listed in the solution or project file will be built.
+
+
+

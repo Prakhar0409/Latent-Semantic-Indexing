@@ -1,0 +1,25 @@
+Constructal theory
+The constructal theory is the mental viewing that the generation of design (configuration, pattern, geometry) in nature is a physics phenomenon that unites all animate and inanimate systems, and that this phenomenon is covered by the Constructal Law stated by Adrian Bejan in 1996: "For a finite-size (flow) system to persist in time (to live), its configuration must evolve such that it provides easier access to the imposed currents that flow through it."
+
+The constructal theory was developed by Adrian Bejan in the late 1990s.
+Professor Bejan taught at MIT until 1976 and is now J.A. Jones Distinguished Professor of Mechanical Engineering at Duke University.
+Bejan's research areas cover: entropy generation minimization, exergy analysis, condensation, convection in porous media, transition to turbulence, etc.
+"Constructal" is a word coined by Bejan, coming from the Latin verb construere, to construct, in order to designate, in the constructal theory's point of view, the naturally optimized forms such as rivers, trees and branches, lungs and also the engineered forms coming from a constructal evolutionary process of maximization of flow access in time.
+
+For example, in point-area and point-volume flows, constructal theory predicts tree architectures, such flows displaying at least two regimes: one highly resistive and a less resisitive one. Constructal theory can be applied at any scale: from macroscopic to microscopic systems.
+The main principle of the constructal theory is that every system is destined to remain imperfect.
+According to this, the best that can be done is to optimally distribute the imperfections of the system, and this optimal distribution of imperfection will generate the geometry or shape of the studied system.
+The constructal way of distributing the system's imperfection is to put the more resistive regime at the smallest scale of the system. The constructal law is the principle that generates the perfect form, which is the least imperfect form possible.
+
+The constructal principle was stated by Bejan in 1996 as follows: "For a finite-size system to persist in time (to live), it must evolve in such a way that it provides easier access to the imposed currents that flow through it."
+
+
+The constructal theory is predictive and thus can be tested experimentally. So far, it has succeeded in predicting a wide variety of phenomena.
+The constructal principle of optimized tree-flow architecture allowed to predict many allometric laws, e.g.:
+Bejan's constructal law also explains why we have a bronchial tree with 23 levels of bifurcation. The constructal theory of the flow architecture of the lung predicts and offers an explanation for:
+
+
+
+Théorie constructale
+BN 39967557 05-38009
+

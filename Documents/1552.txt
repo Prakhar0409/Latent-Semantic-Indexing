@@ -1,0 +1,40 @@
+Dirichlet distribution
+In probability and statistics, the Dirichlet distribution (after Johann Peter Gustav Lejeune Dirichlet), often denoted Dir(α), is a family of continuous multivariate probability distributions parametrized by the vector α of positive reals. It is the multivariate generalization of the beta distribution, and conjugate prior of the categorical distribution and multinomial distribution in Bayesian statistics. That is, its probability density function returns the belief that the probabilities of K rival events are xi given that each event has been observed αi − 1 times.
+
+The Dirichlet distribution of order K�≥�2 with parameters α1, ..., αK >�0 has a probability density function with respect to Lebesgue measure on the Euclidean space RK–1 given by
+for all x1, ..., xK–1 >�0 satisfying x1 + ... + xK–1 <�1, where xK is an abbreviation for 1 – x1 – ... – xK–1. The density is zero outside this open (K�−�1)-dimensional simplex.
+The normalizing constant is the multinomial beta function, which can be expressed in terms of the gamma function:
+
+Let , meaning that the first K�–�1 components have the above density and
+Define . Then
+in fact, the marginals are Beta distributions:
+Furthermore,
+The mode of the distribution is the vector (x1, ..., xK) with
+The Dirichlet distribution is conjugate to the multinomial distribution in the following sense: if
+where βi is the number of occurrences of i in a sample of n points from the discrete distribution on {1, ..., K} defined by X, then
+This relationship is used in Bayesian statistics to estimate the hidden parameters, X, of a discrete probability distribution given a collection of n samples. Intuitively, if the prior is represented as Dir(α), then Dir(α + β) is the posterior following a sequence of observations with histogram β.
+
+If X is a Dir(α) random variable, then we can use the exponential family differential identities to get an analytic expression for the expectation of logXi:
+where ψ is the digamma function. This yields the following formula for the information entropy of X:
+
+If , then . This aggregation property may be used to derive the marginal distribution of Xi mentioned above.
+
+(main article: neutral vector).
+If , then the vector~X is said to be neutral[1] in the sense that X1 is independent of  and similarly for .
+Observe that any permutation of X is also neutral (a property not possessed by samples drawn from a generalized Dirichlet distribution).
+
+
+
+A fast method to sample a random vector  from the K-dimensional Dirichlet distribution with parameters  follows immediately from this connection. First, draw K independent random samples  from gamma distributions each with density
+and then set
+
+A less efficient algorithm[2] relies on the univariate marginal and conditional distributions being beta and proceeds as follows. Simulate x1 from a  distribution. Then simulate  in order, as follows. For , simulate φj from a  distribution, and let . Finally, set .
+
+
+One example use of the Dirichlet distribution is if one wanted to cut strings (each of initial length 1.0) into K pieces with different lengths, where each piece had, on average, a designated average length, but allowing some variation in the relative sizes of the pieces. The α/α0 values specify the mean lengths of the cut pieces of string resulting from the distribution. The variance around this mean varies inversely with α0.
+
+Consider an urn containing balls of K different colors. Initially, the urn contains α1 balls of color 1, α2 balls of color 2, and so on. Now perform N draws from the urn, where after each draw, the ball is placed back into the urn with another ball of the same color. In the limit as N approaches infinity, the proportions of different colored balls in the urn will be distributed as .[3]
+Note that each draw from the urn modifies the probability of drawing a ball of any one color from the urn in the future. This modification diminishes with the number of draws, since the relative effect of adding a new ball to the urn diminishes as the urn accumulates increasing numbers of balls. This "diminishing returns" effect can also help explain how large α values yield Dirichlet distributions with most of the probability mass concentrated around a single point on the simplex.
+
+
+

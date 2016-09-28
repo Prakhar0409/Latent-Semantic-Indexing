@@ -1,0 +1,69 @@
+AVCHD
+AVCHD is a format for the recording and playback of high definition video. Video is compressed in MPEG-4 AVC/H.264 format, and audio is recorded in Dolby Digital.[1] AVCHD and the AVCHD logo are trademarks of Panasonic corporation and Sony corporation.[2]
+
+Improvements in digital video encoding and development of tapeless video recording systems are the two key technologies that made AVCHD possible. In 1998 the Video Coding Experts Group started accepting proposals for a project called H.26L, with the target to double compression efficiency in comparison to existing video coding standards for a broad variety of applications. This eventually led to the development of the H.264/MPEG-4 AVC format.[3] In 2003, Sony introduced XDCAM, one of the first tapeless video recording formats, which employed Professional Disc recording media instead of magnetic tape. In 2004 Panasonic introduced their P2 professional solid-state video recording technology, which used flash memory cards packaged into a PC card enclosure.
+In 2005 Sony and Panasonic joined their efforts in creating a high definition format for consumer tapeless camcorders, seeing the trend towards optical disc media.[4] The joint Sony/Panasonic initiative resulted in the announcement of the AVCHD recording format on May 11, 2006. The format was based on the Blu-ray Disc specification and allowed recording AVC-encoded video onto 8cm DVD discs. Two months later the format was amended to include other types of random-access media like SD/SDHC memory cards, "Memory Stick" cards and hard disk drives. [5]
+The first AVCHD camcorder, Sony Handycam HDR-UX1, went on sale in September, 2006 and recorded on 8 cm DVD media. The first AVCHD camcorder to record onto a built-in HDD was the Sony Handycam HDR-SR1, it went on sale on October, 2006. The first AVCHD camcorder to record to a solid state memory card, Panasonic HDC-SD1, was released in November, 2006 and later was rebranded as the AG-HSC1U, becoming the first handheld AVCHD camcorder with professional features. The first shoulder-mount AVCHD camcorder, Panasonic AG-HMC70, went on sale in spring of 2008. The first medium-sized professional AVCHD camcorder, Panasonic AG-HMC150, was released in October 2008.[6] The first Canon AVCHD models included the HG10 with built-in hard disk drive storage, and the HR10 based on DVD recording. JVC, which had been promoting its proprietary TOD video-format, introduced AVCHD-capable camcorders (in their Everio product line) in April 2008.
+
+AVCHD (AVC-HD, AVC HD) video is recorded using the MPEG-4 AVC/H.264 video compression codec. Audio is stored in compressed form (Dolby AC-3). Uncompressed linear PCM audio is not supported in any consumer devices. Aside from recorded audio and video, AVCHD includes features to improve media presentation: menu navigation, slide shows and subtitles. The menu navigation system is similar to DVD-video, allowing access to individual videos from a common intro screen. Slide shows are prepared from a sequence of AVC still frames, and can be accompanied by a background audio track. Subtitles are used in some camcorders to timestamp the recordings.
+Audio, video, subtitle, and ancillary streams are multiplexed together into an MPEG-2 Transport stream. The MPEG-2 transport stream is stored on random-access media as binary files. (In general, the FAT32 filesystem is used for memory cards and HDDs, ISO9660 is used on optical-disc.)
+At the file system level, the structure of AVCHD is derived from the Blu-ray Disc specification, but is not identical to it. In particular, known Canon and Panasonic implementations use legacy "8.3" file naming convention, while Blu-ray discs utilize long filenames. Another difference is location of the BDMV folder, which contains media files. On a DVD-based camcorder the BDMV folder is placed at the root level, just like on a Blu-ray disc. On the HDD-based Canon HG10 camcorder the BDMV folder is located in the AVCHD folder, which is placed at the root level.[7] Solid-state Panasonic and Canon camcorders nest the AVCHD folder inside the PRIVATE folder.[8] Following a standard agreed upon by many still camera manufacturers, solid-state camcorders have a root-level DCIM folder for still images.[9]
+AVCHD recordings can be transferred to a computer by connecting the camcorder via the USB connection. Many camcorders can record to removable media like SDHC and Memory Stick cards or DVD discs, which can be directly read on a computer. Copying files from an AVCHD camcorder can be performed much faster than from a tape-based camcorder, because it does not have to be done in realtime.
+Just as HDV-editing once demanded an expensive high-end PC, the system requirements for AVCHD editing software currently limits it to powerful machines. Compared to HDV, AVCHD video compression requires 2-4x the processing power, placing a greater burden on the computer memory and CPU. Older computers, even those that are capable of handling HDV, are often unacceptably slow for editing AVCHD, and can even struggle with smooth playback of AVCHD recordings. Improvements in multi-core computing and graphics processor acceleration is bringing AVCHD playback to mainstream desktops and laptops.
+
+AVCHD specification allows using several kinds of recording media, in particular recordable DVD discs, memory cards, non-removable solid-state memory and hard disk drives.
+
+DVD discs are the original media specified in the AVCHD standard. To reduce camcorder size, only smaller 8 cm discs, sometimes called miniDVDs, are allowed. Recording capacity ranges from 1.4 GB for a single-sided single layer disc to 5.2 GB for a double-sided double layer disc.
+Pros:
+Cons:
+DVD discs are quickly falling out of favor as capacity of memory cards grows while their price drops. In 2008 all new AVCHD camcorders used either built-in HDDs or memory cards as recording media.
+
+HDD was added as a possible media to AVCHD specification shortly after the new video standard had been announced. Capacity ranges from 30 GB to 240 GB.
+Pros:
+Cons:
+
+Many tapeless camcorders record to memory cards, such as SD/SDHC cards or "Memory Stick" cards. Utilizing solid-state flash technology, memory cards offer rewritable storage in a compact form-factor with no moving parts.
+Many inexpensive memory cards are slower than HDDs, but are still fast enough to justify switching from tape-based to tapeless workflow. With transfer speeds ranging from 10 MByte/s to 20 Mbyte/s, it takes about 1 minute to transfer 1 GB of video.[11] Conversely, with HDV it takes one hour to capture one hour of video (approximately 13 GB).
+Historically, flash memory capacity and pricing have improved steadily since introduction to the consumer market.
+Pros:
+Cons:
+
+Some AVCHD camcorders come with built-in solid-state memory either as a sole media, or in addition to other media.
+Pros:
+Cons:
+
+AVCHD specification allows for both high definition and standard definition recording. For high definition, all major variations are supported, including 720p, 1080i and 1080p.
+
+AVCHD specification allows for standard definition recording, but no camcorder released to date can record in this mode.
+
+In September 2008 the Panasonic AG-HMC150 became the first AVCHD camcorder to support 720p progressive recording, in addition to 1080i and 1080p recording modes.
+
+Most AVCHD camcorders released to date record 1080i interlaced video. This creates issues when such video is watched on a computer or when it is rescaled. Computer monitors as well as plasma and LCD televisions are inherently progressive. Watching interlaced video on a progressive display device may produce horizontal ripples known as combing artifacts.
+Deinterlacing allows getting rid of combing artifacts, but may reduce vertical resolution. Interlaced video can be deinterlaced in post-production and delivered as progressive, or it can be deinterlaced on playback. All modern flat-panel televisions have a built-in deinterlacing engine, so deinterlacing is not required if video is distributed on DVD or Blu-ray Disc. Watching interlaced video on a computer can be more complicated, but some codecs provide different deinterlacing schemes that can be manually chosen by a viewer.[12]
+Some 1080i AVCHD camcorders offer capturing of progressive video and recording it within interlaced stream, borrowing techniques from television industry. In particular, Progressive segmented frame (PsF) is utilized in some Panasonic (25p Cinema Mode) and Canon (PF25, PF30) camcorders. 2-3 pulldown is used by Canon camcorders in PF24 mode for recording 24 frame/s progressive video. Some editing systems and most standalone optical disc players are capable of recognizing the pulldown pattern and recovering the original frames using the process known as inverse telecine.
+Progressive video recorded within an interlaced stream is recognized as interlaced by most editing tools.
+
+Select Panasonic camcorders are able to record native 1080p video. The most notable model is the AG-HMC150, which is capable of recording in all three high definition formats: 1080i, 1080p and 720p. Of the consumer models, 60 Hz versions of the HDC-SD9[13], HDC-HS100/HDC-SD100[14] and HDC-HS300/HDC-TM300[15] models are capable of recording native 1080p24 video.
+
+AVCHD Lite is a subset of AVCHD format, that is used to identify devices that are capable of 720p recording only.[16]
+The name was used first in relation to the DMC-ZS3/DMC-TZ7 camera, presented in January 2009. It is the first digital still camera to record AVCHD video.
+
+AVCCAM is the name of Panasonic's professional video lineup employing the AVCHD codec. It employs SD/SDHC memory cards as recording media.[17]
+There are no differences in video stream encoding or in the file structure between AVCCAM and AVCHD. Professional features of AVCCAM, outlined by Panasonic it its marketing materials,[18] such as 1/4-inch progressive CCD sensors or XLR microphone inputs or solid-state media are not unique to AVCCAM. Many of these professional features are not unique to AVCHD either.
+In similar fashion, JVC uses ProHD name for its professional HDV lineup.
+
+Recorded AVCHD video can be played back in variety of ways:
+
+The implementation of H.264/AVC codec varies from manufacturer to manufacturer. Canon and Panasonic camcorders use High-Profile@Level-4.1, up to the AVCHD format's maximum bitrate of 24 Mbit/s. To date, Sony camcorders have only used Main-Profile@Level-4.0, at a maximum bitrate of 17 Mbit/s. The High-Profile mode of H264 is more difficult to create and playback than main-profile. Consequently, recordings made by one vendor's camcorder or editing software may be unplayable on another vendor's equipment, leading to a frustrating user experience.
+
+Before the AVCHD standard has been finalized, end users could master high definition content in Blu-ray format (BDMV) on either BD-R/BD-RE discs or regular DVD discs. At one point, the Blu-ray Disc Association was considering separating studio content and home-made content using different folders, namely BDMV for studios and HDMV or BDAV for home use. This idea did not seem to get a lot of traction.[19] Instead, AVCHD is being offered as the means of distributing amateur high definition video. Compared to Blu-ray format, AVCHD discs use DVD media, simpler menus, AVC encoding only and data rate capped at 18 Mbit/s.
+Being creators of AVCHD, Sony and Panasonic are keen to support AVCHD discs in their Blu-ray players. In particular, Sony BDP-S1, Sony BDP-S300, Panasonic DMP-BD10, Panasonic DMP-BD30, Panasonic DMP-BD35 and the PLAYSTATION 3 can play AVCHD discs. Other manufacturers do not always provide reliable AVCHD support in their products. For example, Samsung BD-P1200 Blu-ray disc player has lost AVCHD capability in the firmware update 2.3.[20] Samsung BD-P1400 player is able to play back AVCHD content, at least as of firmware release 1.6.[21]
+
+
+
+
+
+
+
+
+The following video-editing software features support for the AVCHD format:

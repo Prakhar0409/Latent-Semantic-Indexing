@@ -1,0 +1,17 @@
+Vitamin E
+Vitamin E is the collective name for a set of 8 related α-, β-, γ-, and δ-tocopherols and the corresponding four tocotrienols, which are fat-soluble vitamins with antioxidant properties.[1][2] Of these, α-tocopherol (also written as alpha-tocopherol) has been most studied as it has the highest bioavailability.[3]
+It has been claimed that α-tocopherol is the most important lipid-soluble antioxidant, and that it protects cell membranes from oxidation by reacting with lipid radicals produced in the lipid peroxidation chain reaction.[1][4] This would remove the free radical intermediates and prevent the oxidation reaction from continuing. The oxidised α-tocopheroxyl radicals produced in this process may be recycled back to the active reduced form through reduction by other antioxidants, such as ascorbate, retinol or ubiquinol.[5] However, the importance of the antioxidant properties of this molecule at the concentrations present in the body is not clear and it is possible that the reason why vitamin E is required in the diet is unrelated to its ability to act as an antioxidant.[6]. Other forms of vitamin E have their own unique properties. For example, γ-tocopherol (also written as gamma-tocopherol) is a nucleophile that may react with electrophilic mutagens[3]; and the tocotrienols having specialized roles in protecting neurons from damage[7], cancer prevention[8] and cholesterol reduction[9]by inhibiting the activity of HMG-CoA reductase[16-1];δ-tocotrienol blocks processing of sterol regulatory element‐binding proteins (SREBPs)[16-1].However, the roles and importance of all of the various forms of vitamin E are presently unclear,[10][11] and it has even been suggested that the most important function of vitamin E is as a signaling molecule, and that it has no significant role in antioxidant metabolism.[12][13]
+Most studies about vitamin E have supplemented using only the synthetic alpha-tocopherol, but doing so leads to reduced serum gamma- and delta-tocopherol concentrations. Moreover, a 2007 clinical study involving synthetic alpha-tocopherol concluded that supplementation did not reduce the risk of major cardiovascular events in middle aged and older men[14]. For more info, read article tocopherol.
+
+Particularly high levels of vitamin E can be found in the following foods:[15]
+
+There have been some theories that Vitamin E, especially when coupled with selenium, may reduce the risk of prostate cancer[16] by 30 percent.[17] However, the Selenium and Vitamin E Cancer Prevention Trial, ("SELECT"), run from 2004 to 2008, found that vitamin E, whether taken alone or in combination with selenium, did not prevent prostate cancer.[18] The SELECT study was discontinued after independent reviewers determined that there was no benefit to the 35,000 men who were the subject of the study. [16]
+
+Vitamin E has been linked to congenital heart defects.[19] It thus might be wise to discourage its use in pregnant women.
+
+
+
+
+D3: 7-Dehydrocholesterol → Previtamin D3 → Cholecalciferol (D3) → 25-hydroxycholecalciferol → Calcitriol (1,25-dihydroxycholecalciferol, active form) → Calcitroic acid
+D4: Dihydroergocalciferol
+D5: Vitamin D5

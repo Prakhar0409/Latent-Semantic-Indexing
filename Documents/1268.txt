@@ -1,0 +1,30 @@
+ISO 216
+ISO 216 specifies international standard (ISO) paper sizes used in most countries in the world today. It is the standard which defines the commonly available A4 paper size. The underlying principle is that when rectangles with width/length ratio  are cut or folded in half the rectangles thus formed retain the original width/length ratio.
+
+The international ISO standard is based on the German DIN standard 476 (DIN 476) from 1922.
+Some of the formats contained therein were independently invented in France during its revolution, but were later forgotten.[1]
+The aspect ratio used by this standard was mentioned in a letter by the German Georg Christoph Lichtenberg, written on 25 October 1786.[2]
+
+Paper in the A series format has a  aspect ratio, although this is rounded to the nearest millimetre. A0 is defined so that it has an area of 1 mÂ², prior to the above mentioned rounding. Successive paper sizes in the series (A1, A2, A3, etc.) are defined by halving the preceding paper size, cutting parallel to its shorter side (so that the long side of A(n+1) is the same length as the short side of An, again prior to rounding).
+The most frequently used of this series is the size A4 (210 Ã— 297 mm). A4 paper is 6 mm narrower and 18 mm longer than the "Letter" paper size, 8Â½ Ã— 11 inches (216 Ã— 279 mm), commonly used in North America.
+The geometric rationale behind the square root of 2 is to maintain the aspect ratio of each subsequent rectangle after cutting the sheet in half, perpendicular to the larger side. Given a rectangle with a longer side, x, and a shorter side, y, the following equation shows how the aspect ratio of a rectangle compares to that of a half rectangle:  which reduces to  or an aspect ratio of 
+The formula that gives the larger border of the paper size An in metres and without rounding off is the geometric sequence: an = 21 / 4 âˆ’ n / 2. The paper size An thus has the dimension an Ã— an + 1.
+The exact millimetre measurement of the long side of An is given by .
+
+The B series formats are geometric means between the A series format with a particular number and the A series format with one lower number. For example, B1 is the geometric mean between A1 and A0. The sides of B0 are 1 m to  m.
+There is also an incompatible Japanese B series defined by the JIS. The lengths of JIS B series paper are approximately 1.22 times those of A-series paper.
+The exact millimetre measurement of the long side of Bn is given by .
+
+The C series formats are geometric means between the B series format with a particular number and the A series format with the same number, (e.g., C2 is the geometric mean between B2 and A2). The C series formats are used mainly for envelopes. An A4 page will fit into a C4 envelope. C series envelopes follow the same ratio principle as the A series pages. For example, if an A4 page is folded in half so that it is A5 in size, it will fit into a C5 envelope (which will be the same size as a C4 envelope folded in half).
+A, B, and C paper fit together as part of a geometric progression, with ratio of successive side lengths of 21/8, though there is no size half-way between Bn and An+1: A4, C4, B4, D4, A5, ...; there is such a D-series in the Swedish extensions to the system.
+The exact millimetre measurement of the long side of Cn is given by .
+
+The tolerances specified in the standard are:
+
+
+Before the adoption of ISO 216, many different paper formats were used internationally. These formats did not fit into a coherent system and were defined in terms of non-metric units.
+The ISO 216 formats are organized around the ratio ; two sheets next to each other together have the same ratio, sideways. In scaled photocopying, for example, two A4 sheets in reduced size fit exactly onto one A4 sheet, an A4 sheet in magnified size onto an A3 sheet, and an A5 sheet scaled up onto a A4 sheet, in each case there is neither waste nor want. The principal countries not generally using the ISO paper sizes are the United States and Canada, which use the Letter, Legal and Executive system. (Canada uses a P-series of sizes, which are the US paper sizes rounded to metric dimensions.)
+Rectangular sheets of paper with the ratio  are popular in paper folding, where they are sometimes called "A4 rectangles" or "silver rectangles".[3] (Confusingly, "silver rectangle" can also refer to a rectangle in the proportion ), known as the silver ratio.)
+
+
+

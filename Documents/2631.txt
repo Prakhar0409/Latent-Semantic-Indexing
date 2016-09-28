@@ -1,0 +1,15 @@
+djbdns
+The djbdns software package is a DNS implementation created by Daniel J. Bernstein due to his frustrations with repeated BIND security holes. A $1000 prize[1] for the first person to find a privilege escalation security hole in djbdns was awarded[2] in March of 2009 to Matthew Dempsky.
+As of 2004[update], djbdns's tinydns component was the second most popular DNS server.[3]
+djbdns has never been vulnerable to the cache poisoning vulnerability reported in July 2008 [4][5], but it has been discovered that it is vulnerable to a related attack [6].
+
+The djbdns software consists of server, client, and some miscellaneous configuration tools.
+
+
+
+In djbdns, different features and services, such as AXFR zone transfers, are split off into separate programs. Zone file parsing, DNS caching, and recursive resolving are also implemented as separate programs. The result of these design decisions is a dramatic reduction in code size and complexity of the daemon program that answers lookup requests. Daniel J. Bernstein (and many others) feel that this is true to the spirit of the Unix operating system, and makes security verification much simpler.
+
+On December 28, 2007, Bernstein released djbdns into the public domain.[7] Formerly, the package was distributed as license-free software, which created challenges for inclusion in some Linux distributions.
+
+
+

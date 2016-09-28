@@ -1,0 +1,20 @@
+David Parnas
+David Lorge Parnas (born February 10, 1941) is a Canadian early pioneer of software engineering, who developed the concept of information hiding in modular programming, which is an important element of object-oriented programming today. He is also noted for his advocacy of precise documentation.
+
+David earned his Ph.D. at Carnegie Mellon University in electrical engineering. Parnas also earned a professional engineering license in Canada and was one of the first to apply traditional engineering principles to software design.
+He worked there as a professor for many years. He also taught at the University of North Carolina at Chapel Hill (U.S.), the Technische Hochschule Darmstadt (Germany), the University of Victoria (British Columbia, Canada), and Queen's University (Ontario, Canada).
+In 1991, he then went to McMaster University in Hamilton, Ontario. Between 2002 and 2008, David Parnas worked at the University of Limerick in Limerick, Ireland.
+David Parnas received several awards and honors
+
+
+In modular design, his double dictum[citation needed] of high cohesion within modules and loose coupling between modules is fundamental to modular design in software. However, in Parnas's seminal 1972 paper On the Criteria to Be Used in Decomposing Systems into Modules, this dictum is expressed in terms of information hiding, and the terms cohesion and coupling are not used.[1]
+
+Dr. Parnas took a public stand against the US Strategic Defense Initiative (also known as "Star Wars") in the mid 1980s, arguing that it would be impossible to write an application of sufficient quality that it could be trusted to prevent a nuclear attack. He has also been in the forefront of those urging the professionalization of "software engineering" (a term that he characterizes as "an unconsummated marriage"). Dr. Parnas is also a heavy promoter of ethics in the field of software engineering.
+
+Dr. Parnas has joined the group of scientists which openly criticize the number-of-publications-based approach towards ranking academic production. On his November 2007 paper Stop the Numbers Game, he elaborates on several reasons on why the current number-based academic evaluation system used in many fields by universities all over the world (be it either oriented to the amount of publications or the amount of quotations each of those get) is flawed and, instead of generating more advance of the sciences, it leads to knowledge stagnation.
+
+
+
+
+
+

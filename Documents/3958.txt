@@ -1,0 +1,32 @@
+Template processor
+A template processor (also known as a template engine or a template parser) is software or a software component that is designed to combine one or more templates with a data model to produce one or more result documents. [1] [2] [3] A template processor is used in Template Oriented Programming. For purposes of this article, a result document is any kind of formatted output, including documents, web pages, or source code, either in whole or in fragments.
+
+All template processing systems consist of at least these primary elements:
+
+This may be a relational database, a source file such as XML, an alternate format of flat file database, a spreadsheet or any of other various sources of preformatted data. Some template processing systems are limited in the types of data that can be used. Others are designed for maximum flexibility and allow many different types of data..
+
+Source templates are traditionally specified:
+
+The template engine is responsible for:
+Additionally some template engines allow additional configuration options.
+
+These may consist of an entire document or a document fragment.
+
+Template processing is used in various contexts for different purposes. The specific purpose is ordinarily contingent upon the software application or template engine in use. However, the flexibility of template processing systems often enables unconventional uses for purposes not originally intended by the original designers.
+
+A template engine is a specific kind of template processing module that exhibits all of the major features of a modern programming language. The term template engine evolved as a generalized description of programming languages whose primary or exclusive purpose was to process templates and data to output text. The use of this term is most notably applied to web development using a web template system, and it is also applied to other contexts as well.[4]
+
+Document generation frameworks typically use template processing as the central model for generating documents.
+
+Source code generation tools support generation of source code (as the result documents) from abstract data models (e.g., UML, relational data, domain-specific enterprise data stores) for particular application domains, particular organizations, or in simplifying the production process for computer programmers.
+
+A web template engine processes web templates and source data (typically from a relational database) to produce one or more output web pages or page fragments. It is ordinarily included as a part of a web template system or application framework. Currently, template processing software is most frequently used in the context of development for the web.
+
+XSLT is a template processing model designed by W3C. It is designed primarily for transformations on XML data (into web documents or other output).
+Programming languages such as Perl, Python, PHP, Ruby, C, and Java support template processing either natively, or through add-on libraries and modules. JavaServer Pages,[5] and Active Server Pages[6] are examples of template engines designed specifically for web application development.
+Moreover, template processing is sometimes included as a sub-feature of software packages like text editors, IDEs and relational database management systems.
+
+
+
+
+

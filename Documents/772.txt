@@ -1,0 +1,27 @@
+BackTrack
+BackTrack is a Linux distribution distributed as a Live CD which resulted from the merger of WHAX and the Auditor Security Collection, which is used for Penetration testing.[2] It takes advantage of SLAX's modular design and structure to enable the user to include customizable scripts, additional tools and configurable kernels in personalized distributions. The BackTrack project was created by Mati Aharoni and Max Moser and is a collaborative effort involving the community.
+BackTrack 2 was released on March 6, 2007 and includes over 300 security tools.[3] A beta version of BackTrack 3 was released on December 14, 2007, but it was announced that its main focus was to support more and newer hardware as well as provide more flexibility and modularity.
+BackTrack 3 was released on June 19, 2008. New additions include SAINT and Maltego. Nessus was not included in this release, and the developers decided not to upgrade from kernel version 2.6.21.5.[4]
+BackTrack 4 Beta was released on February 11, 2009, with the biggest change being the move to a Debian-based distribution.[5]
+
+The BackTrack distribution originated from numerous Linux counterparts. WHAX, a name derived from White hat and SLAX, was a distribution designed for security tasks. WHAX emerged from Whoppix, a Knoppix-based security distro. When Whoppix reached version 3.0 it was renamed as WHAX, to reflect the change of parent distribution from Knoppix to SLAX. Customized by Mati Aharoni, an Israeli security consultant, WHAX made its central focus on penetration testing. WHAX made it possible to test and verify the security of a network from many computers located in various places.
+
+Max Moser's Auditor Security Collection - "The Swiss Army Knife for security assessments" - was focused as well on Linux-based penetration tests.[6] The overlap with Auditor and WHAX in purpose and tools collection partly led to the merger. Auditor featured well-laid-out menus for its collection of over 300 tools for troubleshooting, network and systems-fortifying. Its user-friendliness resulted in enhanced usability for penetration testing which led to the formulation of the BackTrack security testing distribution.
+The Auditor Security Collection was a Live CD based on Knoppix.
+
+After coming into a stable development procedure during the last releases and consolidating feedbacks and addition, BackTrack producers restructured the development focal point from stability to functionality by restructuring the build and maintenance processes. With the current versions of BackTrack, the majority of applications are constructed as individual modules which improve the update performance with releases and fixes.
+On July 15, 2007, BackTrack 3 was announced to be in the development process[7] and released on June 19, 2008.
+
+BackTrack focuses its central idea on the needs of Penetration testers. The inclusion of Live CD and Live USB functionality enables any user to just insert their respective data medium and boot up BackTrack. Direct hard disk installations (2.7 GB uncompressed) can also be completed within the Live CD (700 MB compressed) environment through the basic graphical installation wizard with no restart subsequent to installation. BackTrack further continues its compatibility with the computer forensics demographic with accessibility and internationalization by including support for Japanese input in reading and writing in Hiragana, Katakana and Kanji.
+The key additions to the BackTrack suite are notably -
+BackTrack's functionality further increases with the arrangement of each tool in 16 categories. The tool categories are as follows -
+In relation to basic software packages, BackTrack includes some ordinary desktop programs such as Mozilla Firefox, Pidgin, K3b, and XMMS.
+
+As soon as newer versions of the BackTrack distro are released, older versions lose their support and service from the BackTrack development team.
+
+The BackTrack 2 release garnered some criticism. The security suite did not include the popular security scanner Nessus, due to various licensing problems.[3] Newer releases also created problems with PostgreSQL in Fluxbox which created an error, as well as the inclusion of programs such as the aforementioned Nessus and VMware which did not work.
+
+The Backtrack security distro has spawned a spin-off training course called Offensive Security, as well as the Offensive Security Certified Professional certification. This training course teaches basic penetration testing using the Backtrack Live CD.
+
+
+

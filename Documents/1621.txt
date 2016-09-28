@@ -1,0 +1,14 @@
+Service Data Objects
+Service Data Objects is a technology that allows heterogeneous data to be accessed in a uniform way. The SDO specification was originally developed in 2004 as a joint collaboration between BEA and IBM and approved by the Java Community Process. Version 2.0 of the specification was introduced in November 2005 as key part of the Service Component Architecture.
+
+Originally, the technology was known as Web Data Objects, or WDO and was shipped in IBM WebSphere Application Server 5.1 and IBM WebSphere Studio Application Developer 5.1.2.[1] Other similar technologies are JDO, EMF, JAXB and ADO.NET.
+
+Service Data Objects denote the use of language-agnostic data structures that facilitate communication between structural tiers and various service-providing entities. They require the use of a tree structure with a root node and provide traversal mechanisms (breadth/depth-first) that allow client programs to navigate the elements. Objects can be static (fixed number of fields) or dynamic with a map-like structure allowing for unlimited fields. The specification defines meta-data for all fields and each object graph can also be provided with change summaries that can allow receiving programs to act more efficiently on them.
+
+The specification is now being developed by BEA, IBM, Rogue Wave, Oracle, SAP, Siebel, Sybase, Xcalia, Software AG, Sun Microsystems within the OASIS Member Section Open CSA[2] since April 2007. Collaborative work and materials remain on the collaboration platform of Open SOA,[3] an informal group of actors of the industry.
+
+The following SDO products are available:
+There are open source implementations of SDO from:
+
+
+Specification versions and history can be found on

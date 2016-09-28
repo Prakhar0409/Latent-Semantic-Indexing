@@ -1,0 +1,10 @@
+Radius
+In classical geometry, a radius () of a circle or sphere its any line segment from its center to its perimeter. By extension, the radius of a circle or sphere is the length of any such segment, which is half the diameter.
+More generally — in geometry, science, engineering, and many other contexts — the radius of something (e.g., a cylinder, a polygon, a mechanical part, or a galaxy) usually refers to the distance from its center or axis of symmetry to its outermost points. If the object does not have an obvious center, the term may refer to its circumradius, the radius of its circumscribed circle or circumscribed sphere. In either case, the radius may be more than half the diameter (which is usually defined as the maximum distance between any two points of the figure).
+The radius of a regular polygon (or polyhedron) is the distance from its center to any of its vertices; which is also its circumradius.
+In graph theory, the radius of a graph is the minimum over all vertices u of the maximum distance from u to any other vertex of the graph.
+
+To compute the radius of a circle going through three points P1, P2, P3, the following formula can be used:
+where θ is the angle 
+The circumference of a circle is 2π times its radius.
+

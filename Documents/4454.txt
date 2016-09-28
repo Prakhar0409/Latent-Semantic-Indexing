@@ -1,0 +1,19 @@
+Tiny Encryption Algorithm
+In cryptography, the Tiny Encryption Algorithm (TEA) is a block cipher notable for its simplicity of description and implementation (typically a few lines of code). It was designed by David Wheeler and Roger Needham of the Cambridge Computer Laboratory; it was first presented at the Fast Software Encryption workshop in Leuven in 1994, and first published in the proceedings of that workshop.[2]
+The cipher is not subject to any patents.
+
+TEA operates on 64-bit blocks and uses a 128-bit key. It has a Feistel structure with a suggested 64 rounds, typically implemented in pairs termed cycles. It has an extremely simple key schedule, mixing all of the key material in exactly the same way for each cycle. Different multiples of a magic constant are used to prevent simple attacks based on the symmetry of the rounds. The magic constant, 2654435769 or 9E3779B916 is chosen to be  where  is the golden ratio.
+TEA has a few weaknesses. Most notably, it suffers from equivalent keys â€” each key is equivalent to three others, which means that the effective key size is only 126 bits.[3] As a result, TEA is especially bad as a cryptographic hash function. This weakness led to a method for hacking Microsoft's Xbox game console, where the cipher was used as a hash function.[4] TEA is also susceptible to a related-key attack which requires 223 chosen plaintexts under a related-key pair, with 232 time complexity.[1] Because of these weaknesses, a number of revisions of TEA have been designed.
+The unusually small size of the TEA algorithm would make it a viable option in situations where there are extreme constraints, e.g., legacy hardware systems (perhaps embedded) where the amount of available RAM is minimal.
+
+The first published version of TEA was supplemented by a second version that incorporated extensions to make it more secure. Block TEA (sometimes referred to as XTEA) operates on arbitrary-size blocks in place of the 64-bit blocks of the original.
+A third version (XXTEA), published in 1998, described further improvements for enhancing the security of the Block TEA algorithm.
+
+Following is an adaptation of the reference encryption and decryption routines in C, released into the public domain by David Wheeler and Roger Needham:
+Note that the reference implementation is bound to specific microprocessor architecture meaning that byte order considerations are important when cyphertext is shared and processed on different systems. The original paper does not specify any details about microprocessor architecture and so anyone implementing a system using TEA would need to make those specifications for themselves.
+
+
+
+
+Common algorithms: AES | Blowfish | DES | Triple DES | Serpent | Twofish
+Other algorithms: 3-Way | ABC | Akelarre | Anubis | ARIA | BaseKing | BassOmatic | BATON | BEAR and LION | C2 | Camellia | CAST-128 | CAST-256 | CIKS-1 | CIPHERUNICORN-A | CIPHERUNICORN-E | CLEFIA | CMEA | Cobra | COCONUT98 | Crab | CRYPTON | CS-Cipher | DEAL | DES-X | DFC | E2 | FEAL | FEA-M | FROG | G-DES | GOST | Grand Cru | Hasty Pudding cipher | Hierocrypt | ICE | IDEA | IDEA NXT | Intel Cascade Cipher | Iraqi | KASUMI | KeeLoq | KHAZAD | Khufu and Khafre | KN-Cipher | Ladder-DES | Libelle

@@ -1,0 +1,9 @@
+List of TCP and UDP port numbers
+List of ports redirects here, for a list of sea ports for ships see List of Seaports.
+In computer networking, the protocols of the Transport Layer of the Internet Protocol Suite, most notably the Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP), but also other protocols, use a numerical identifier for the data structures of the endpoints for host-to-host communications. Such an endpoint is known as a port and the identifier is the port number. The Internet Assigned Numbers Authority (IANA) is responsible for maintaining the official assignments of port numbers for specific uses.[1]
+
+The port numbers are divided into three ranges:
+IANA does not enforce adherence in use of port numbers to these assignments; it is simply a set of recommended uses. Sometimes applications use port numbers for different purposes than the official assignments suggest. This misuse may be, for example, by malicious software (e.g. Trojan horse) to intercept unsecured traffic or simply because no unique port exists for the application.
+
+Color coding of table entries
+

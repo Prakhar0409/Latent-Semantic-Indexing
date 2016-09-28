@@ -1,0 +1,36 @@
+Text mining
+Text mining, sometimes alternately referred to as text data mining, roughly equivalent to text analytics, refers generally to the process of deriving high-quality information from text. High-quality information is typically derived through the dividing of patterns and trends through means such as statistical pattern learning. Text mining usually involves the process of structuring the input text (usually parsing, along with the addition of some derived linguistic features and the removal of others, and subsequent insertion into a database), deriving patterns within the structured data, and finally evaluation and interpretation of the output. 'High quality' in text mining usually refers to some combination of relevance, novelty, and interestingness. Typical text mining tasks include text categorization, text clustering, concept/entity extraction, production of granular taxonomies, sentiment analysis, document summarization, and entity relation modeling (i.e., learning relations between named entities).
+
+Labour-intensive manual text-mining approaches first surfaced in the mid-1980s, but technological advances have enabled the field to advance swiftly during the past decade. Text mining is an interdisciplinary field which draws on information retrieval, data mining, machine learning, statistics, and computational linguistics. As most information (over 80%[citation needed]) is currently stored as text, text mining is believed to have a high commercial potential value. Increasing interest is being paid to multilingual data mining: the ability to gain information across languages and cluster similar items from different linguistic sources according to their meaning.
+
+Sentiment analysis may, for example, involve analysis of movie reviews for estimating how favorable a review is for a movie.[1] Such an analysis may require a labeled data set or labeling of the affectivity of words. A resource for affectivity of words has been made for WordNet.[2]
+
+Recently, text mining has received attention in many areas.
+
+One of the largest text mining applications that exists is probably the classified ECHELON surveillance system. Additionally, many text mining software packages such as AeroText, Attensity, SPSS and Expert System are marketed towards security applications, particularly analysis of plain text sources such as Internet news.
+In 2007, Europol's Serious Crime division developed an analysis system in order to track transnational organized crime. This Overall Analysis System for Intelligence Support (OASIS) integrates among the most advanced text analytics and text mining technologies available on today's market. This system led Europol to make the most significant progress to support law enforcement objectives at the international level. [3]
+
+A range of text mining applications in the biomedical literature has been described.[4] One example is PubGene that combines biomedical text mining with network visualization as an Internet service.[5] Another example, which uses ontologies with textmining is GoPubMed.org.[6]
+
+Research and development departments of major companies, including IBM and Microsoft, are researching text mining techniques and developing programs to further automate the mining and analysis processes. Text mining software is also being researched by different companies working in the area of search and indexing in general as a way to improve their results.
+
+Text mining is being used by large media companies to disambiguate information and to provide readers with greater search experiences, which in turn increases site "stickiness" and revenue. Additionally, on the back end, editors are benefiting by being able to share, associate and package news across properties, significantly increasing opportunities to monetize content.
+
+Text mining is starting to be used in marketing as well, more specifically in analytical Customer relationship management. Coussement and Van den Poel (2008) apply it to improve predictive analytics models for customer churn (Customer attrition).[7]
+
+The issue of text mining is of importance to publishers who hold large databases of information requiring indexing for retrieval. This is particularly true in scientific disciplines, in which highly specific information is often contained within written text. Therefore, initiatives have been taken such as Nature's proposal for an Open Text Mining Interface (OTMI) and NIH's common Journal Publishing Document Type Definition (DTD) that would provide semantic cues to machines to answer specific queries contained within text without removing publisher barriers to public access.
+Academic institutions have also become involved in the text mining initiative:
+The National Centre for Text Mining, a collaborative effort between the Universities of Manchester and Liverpool, provides customised tools, research facilities and offers advice to the academic community. They are funded by the Joint Information Systems Committee (JISC) and two of the UK Research Councils. With an initial focus on text mining in the biological and biomedical sciences, research has since expanded into the areas of Social Science.
+In the United States, the School of Information at University of California, Berkeley is developing a program called BioText to assist bioscience researchers in text mining and analysis.
+
+Research and development departments of major companies, including IBM and Microsoft, are researching text mining techniques and developing programs to further automate the mining and analysis processes. Text mining software is also being researched by different companies working in the area of search and indexing in general as a way to improve their results. There is a large number of companies that provide commercial computer programs:
+
+
+
+Until recently websites most often used text-based lexical searches; in other words, users could find documents only by the words that happened to occur in the documents. Text mining may allow searches to be directly answered by the semantic web; users may be able to search for content based on its meaning and context, rather than just by a specific word.
+Additionally, text mining software can be used to build large dossiers of information about specific people and events. For example, by using software that extracts specifics facts about businesses and individuals from news reports, large datasets can be built to facilitate social networks analysis or counter-intelligence. In effect, the text mining software may act in a capacity similar to an intelligence analyst or research librarian, albeit with a more limited scope of analysis.
+Text mining is also used in some email spam filters as a way of determining the characteristics of messages that are likely to be advertisements or other unwanted material.
+
+
+
+

@@ -1,0 +1,41 @@
+Near Field Communication
+Near Field Communication or NFC, is a short-range high frequency wireless communication technology which enables the exchange of data between devices over about a 10 centimetre (around 4 inches) distance.[1] The technology is a simple extension of the ISO/IEC 14443 proximity-card standard (contactless card, RFID) that combines the interface of a smartcard and a reader into a single device. An NFC device can communicate with both existing ISO/IEC 14443 smartcards and readers, as well as with other NFC devices, and is thereby compatible with existing contactless infrastructure already in use for public transportation and payment. NFC is primarily aimed at usage in mobile phones.
+
+
+NFC technology is currently mainly aimed at being used with mobile phones. There are three main use cases for NFC:
+Plenty of applications are possible, such as:
+Other applications in the future could include:
+A patent licensing program for NFC is currently under development by Via Licensing Corporation, an independent subsidiary of Dolby Laboratories.
+A Public platform independent Near Field Communication (NFC) library is released under the free GNU General Public License by the name libnfc.
+
+NFC and Bluetooth are both short-range communication technologies which have recently been integrated into mobile phones. The significant advantage of NFC over Bluetooth is the shorter set-up time. Instead of performing manual configurations to identify Bluetooth devices, the connection between two NFC devices is established at once (under a tenth of a second). To avoid the complicated configuration process, NFC can be used for the set-up of wireless technologies, such as Bluetooth. The maximum data transfer rate of NFC (424 kbit/s) is slower than Bluetooth (2.1 Mbit/s). With less than 20 cm, NFC has a shorter range, which provides a degree of security and makes NFC suitable for crowded areas where correlating a signal with its transmitting physical device (and by extension, its user) might otherwise prove impossible. In contrast to Bluetooth, NFC is compatible with existing RFID structures. NFC can also work when one of the devices is not powered by a battery (e.g. on a phone that may be turned off, a contactless smart credit card, a smart poster, etc.).
+
+
+NFC was approved as an ISO/IEC standard on December 8, 2003 and later as an ECMA standard.
+NFC is an open platform technology standardized in ECMA-340 and ISO/IEC 18092. These standards specify the modulation schemes, coding, transfer speeds and frame format of the RF interface of NFC devices, as well as initialization schemes and conditions required for data collision-control during initialization-for both passive and active NFC modes. Furthermore, they also define the transport protocol, including protocol activation and data-exchange methods. Air interface for NFC is standardized in: ISO/IEC 18092 / ECMA-340�: Near Field Communication Interface and Protocol-1 (NFCIP-1) [2] ISO/IEC 21481 / ECMA-352�: Near Field Communication Interface and Protocol-2 (NFCIP-2)[3]
+NFC incorporates a variety of pre-existing standards including ISO/IEC 14443 both Type A (normal) and Type B (banking/short range), ISO 15693, and FeliCa. NFC enabled phones thus show basic interoperability with the preexisting reader infrastructure. Especially in "card emulation mode" a NFC device should at least transmit a unique ID number to a pre-existing reader.
+In addition, NFC Forum has defined a common data format called NDEF, which can be used to store and transport different kinds of items, ranging from any MIME-typed object to ultra-short RTD-documents, such as URLs.
+NDEF is conceptually very similar to MIME. It is a dense binary format of so-called "records", in which each record can hold a different type of object. By convention, the type of the first record defines the context of the entire message.
+
+The Forum is a non-profit industry association announced on March 18, 2004 by NXP Semiconductors, Sony and Nokia to advance the use of NFC short-range wireless interaction in consumer electronics, mobile devices and PCs. The NFC Forum promotes implementation and standardization of NFC technology to ensure interoperability between devices and services. In September 2008, there were over 150 members of the NFC Forum.
+
+The GSM Association (GSMA) is the global trade association representing 700 mobile phone operators across 218 countries of the world.
+They have launched two initiatives:
+On 13 February 2007, they published a white paper on NFC to give the point of view of mobile operators on the NFC ecosystem.[5]
+
+StoLPaN (‘Store Logistics and Payment with NFC’) is a pan-European consortium supported by the European Commission’s Information Society Technologies program. StoLPaN will examine the as yet untapped potential for bringing together the new kind of local wireless interface, NFC and mobile communication.
+
+Other standardization bodies that are involved in NFC include:
+
+Although the communication range of NFC is limited to a few centimeters, NFC alone does not ensure secure communications. In 2006, Ernst Haselsteiner and Klemens Breitfuß described different possible types of attacks.[8]
+NFC offers no protection against eavesdropping and is also vulnerable to data modifications. Applications have to use higher-layer cryptographic protocols (e.g., SSL) to establish a secure channel.
+
+The RF signal for the wireless data transfer can be picked up with antennas. The distance from which an attacker is able to eavesdrop the RF signal depends on numerous parameters, but is typically a small number of meters.[9] Also, eavesdropping is extremely affected by the communication mode. A passive device, which does not generate its own RF field is much harder to eavesdrop on than an active device. An Open source device which is able to eavesdrop passive and active NFC communications is the Proxmark instrument.
+
+Data destruction is relatively easy to realize. One possibility to perturb the signal is the usage of an RFID jammer. There is no way to prevent such an attack, but if the NFC devices check the RF field while they are sending, it is possible to detect it.
+Unauthorized modification of data, which results in valid messages, is much more complicated and demands a thorough understanding. In order to modify the transmitted data an intruder has to deal with the single bits of the RF signal. The feasibility of this attack, i.e., if it is possible to change the value of a bit from 0 to 1 or the other way around, is amongst others subject to the strength of the amplitude modulation. If data is transferred with the modified Miller coding and a modulation of 100%, only certain bits can be modified. A modulation ratio of 100% makes it possible to eliminate a pause of the RF signal, but not to generate a pause where no pause has been. Thus, only a 1 which is followed by another 1 might be changed. Transmitting Manchester encoded data with a modulation ratio of 10% permits a modification attack on all bits.
+
+Because NFC devices are usually also implementing ISO/IEC 14443 functionality, the relay attack described are also feasible on NFC.[10][11] For this attack the adversary has to forward the request of the reader to the victim and relay back its answer to the reader in real time, in order to carry out a task pretending to be the owner of the victim’s smart card.
+
+
+

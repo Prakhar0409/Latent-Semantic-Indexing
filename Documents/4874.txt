@@ -1,0 +1,11 @@
+Financial modeling
+Financial modeling is the task of building an abstract representation (a model) of a financial decision making situation. This is a mathematical model, such as a computer simulation, designed to represent (a simplified version of) the performance of a financial asset or a portfolio, of a business, a project, or any other form of financial investment.
+Financial modeling is a general term that means different things to different users. For some, it means the development of a mathematical model to predict a fair equilibrium price for an asset. For others, it means the development of a mathematical model and the associated computer implementation to simulate scenarios of financial events, such as asset prices, market movements, portfolio returns and the like. Or it might mean the development of optimization models for managing and controlling the risk of a financial investment.
+While there has been some debate in the industry as to the nature of financial modeling {http://www.amazon.co.uk/Practical-Financial-Optimization-Decision-Engineers/dp/1405132019/ref=sr_1_2?ie=UTF8&qid=1228944085&sr=1-2}: whether it is a tradecraft, such as welding, or a science, such as metallurgy, the task of financial modeling has been gaining acceptance and rigor over the years. Several scholarly books have been written on the topic, in addition to numerous scientific articles, and the definitive series Handbooks in Finance by Elsevier contains several volumes dealing with financial modeling issues.
+There are non-spreadsheet software platforms available on which to build financial models. However, the vast proportion of the market is spreadsheet-based, and within this market Microsoft Excel now has by far the dominant position, having overtaken Lotus 1-2-3 in the 1990s. From this it is easy to see how the uninformed can equate Financial modeling competency with 'learning Excel'. However, the fallacy in this contention is the one area on which professionals and experts in the financial modeling industry agree.
+
+
+
+
+
+

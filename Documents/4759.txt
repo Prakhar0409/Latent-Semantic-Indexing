@@ -1,0 +1,31 @@
+Application Services Library
+ASL is a methodology used in the IT industry.
+The Application Services Library (ASL) is a public domain standard, which describes a standard for processes within Application Management (the discipline of producing and maintaining information systems and applications). The term "library" is used because the ASL standard is based on the descriptions of best practices from the industry.
+This standard was developed in the Netherlands, and is closely related to ITIL, BiSL and CMM. It is described in several books and articles (most of them only available in Dutch), as well as on the official website of the ASL Foundation.
+The standard was developed because of the inability to structure the way of working within the Application Management departments by only using the ITIL framework, an older library embraced by the IT infrastructure departments for structuring their way of working. ITIL is very useful on the level of infrastructure management, but lacks support for application design and development.
+ASL was defined in order to fill this gap for application management. A similar development has led to the definition of the BiSL-standard for Functional Management.
+
+The ASL is intended to support application management by providing tools. Two main categories of aids are defined:
+The goal of ASL is to assist in the professionalisation of application management.
+
+ASL contains six clusters of processes, three on the operational level, one on the tactical level and two on the strategic level.
+
+Service organisation
+There are five processes within the cluster Service Organisation. The processes in the Service Organisation cluster support the daily use of the information systems. The processes in this cluster are:
+These processes have as well been defined in the ITIL framework. The processes are similar, but are viewed from another point of view, therefore the activities in each of these processes may differ from the activities in an ITIL-environment.
+Development and Maintenance
+Within this cluster the majority of the work of application development is done. A major part of the work of application management deals with designing, programming and testing applications and information systems. Processes are
+These processes are not described at all in the ITIL framework, but do have their counterparts in BiSL, the model for functional management.
+Connecting processes
+The connecting processes aim at the synchronisation of the activities between Service Organisation/operations (using the applications) and development and maintenance (changing the applications). The two processes included are:
+
+Management processes
+The processes in this cluster are used in the management of the activities within the clusters on the operational level. The processes are located on the tactical level, are used for steering the operational processes. The processes included are:
+
+Application Cycle management
+Applications exist much longer than expected. Systems, functionality, concepts and structure of information systems remains stable over many years. This knowledge is rarely used. It is important that, while maintaining and enhancing systems, there is a clear view needed what the demands are in the future, and based on that, what and how the future of these applications should look like. This view, the application management strategies, is created within the cluster application cycle management. The processes in this cluster are:
+Organisation Cycle Management
+Also the future of the application management organisation, with aspects as skills and capabilities, markets and customers, is very important. Creating the organisation management strategies for this is the aim of Organization Cycle Management. Processes in this cluster include:
+
+For more information, many articles, best practises and information is available at the website of the ASLFoundation.
+

@@ -1,0 +1,20 @@
+Smartdust
+Smartdust is the term used to describe a network of tiny wireless microelectromechanical systems (MEMS) sensors, robots, or devices, installed with wireless communications, that can detect (for example) light, temperature, or vibration.
+
+The devices, or motes, will eventually be the size of a grain of sand, or even a dust particle. Each mote having self-contained sensing, computation, communication and power.
+When clustered together, these motes automatically create highly flexible, low-power networks with applications ranging from climate control systems to entertainment devices that interact with information appliances.
+The smartdust concept was introduced by Kristofer S. J. Pister (University of California) in 2001 [1], though the same ideas existed in science fiction before then (The Invincible, 1964). A recent review [2] discusses various techniques to take smartdust in sensor networks beyond millimeter dimensions to the micrometre level.
+Some attribute the concepts behind smart dust to a project at PARC called Smart Matter[3]
+Smartdust devices will be based on sub-voltage and deep-sub-voltage nanoelectronics and include the micro power sources with all solid state impulse supercapacitors (nanoionic supercapacitors).
+The recent development of nanoradios may be employed in the implementation of smartdust as a usable technology.[4]
+
+A typical application scenario is scattering a hundred of these sensors around a building or around a hospital to monitor temperature or humidity, track patient movements, or inform of disasters, such as earthquakes. In the military, they can perform as a remote sensor chip to track enemy movements, detect poisonous gas or radioactivity. The ease and low cost of such applications have raised privacy concerns, primarily in science fiction stories, such as Prey by Michael Crichton.
+Beyond such demonstrations lies an emerging world of very large networks that combine motes and portable gear with larger technologies to improve the depth, duration and range of monitoring. The $200 million EarthScope project of the science foundation is erecting 3,000 stations that are to track faint tremors, measure crustal deformation and make three-dimensional maps of the earth's interior from crust to core. Some 2,000 more instruments are to be mobile — wireless and sun- or wind-powered — and 400 devices are to move east in a wave from California across the nation over the course of a decade. The goal is to uncover the secrets of how the continent formed and evolved, revolutionizing the study of volcanoes, fault systems, mineral deposits and earthquakes. Begun in 2003, EarthScope is to be completed by 2008 and run until 2023.
+– William J. Broad, A Web of Sensors, Taking Earth's Pulse (New York Times)
+
+For ubiquitous computing and the generation of tiny objects that communicate with each other, new power supply technologies are currently being tested. These are power supplies generated from the world of living organisms, microcombustion engines, nuclear batteries and other devices that are very different from traditional batteries. Scientists are currently carrying out experiments on solutions capable of supplying micro- and, in the future, nano-objects with energy that stems from living organisms, such as energy taken from spinach, sugar, slugs or flies. These new sources of energy use ATP molecules (Adenosine TriPhosphate) which store phosphates of high energy in order to store energy just like in the muscles of living organisms[5].
+Other ways are also explored like nuclear-powered microbatteries for use in MEMS devices. Current research involves the incorporation of radioactive isotopes into such devices and production of electricity using thermoelectric phenomena.
+
+
+
+

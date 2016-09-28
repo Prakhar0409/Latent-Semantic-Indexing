@@ -1,0 +1,20 @@
+BIND
+BIND (pronounced /bʌɪnd/), for Berkeley Internet Name Domain, or named (pronounced /ˈneɪmˌdiː/), is the most commonly used DNS server on the Internet, especially on Unix-like systems, where it is a de facto standard. Supported by Internet Systems Consortium, BIND was originally created by four graduate students with CSRG at the University of California, Berkeley and first released with 4.3BSD. Paul Vixie started maintaining it in 1988 while working for DEC.
+A new version of BIND (BIND 9) was written from scratch in part to address the architectural difficulties with auditing the earlier BIND code bases, and also to support DNSSEC (DNS Security Extensions). Other important features of BIND 9 include: TSIG, DNS notify, nsupdate, IPv6, rndc flush (remote name daemon control), views, multiprocessor support, and an improved portability architecture. rndc uses a shared secret to provide encryption for local and remote terminals during each session.
+
+BIND was originally written in the early 1980s under a DARPA grant. In the mid-1980s, DEC employees took over BIND development. One of these employees was Paul Vixie, who continued to work on BIND after leaving DEC. He eventually helped start the ISC, which became the entity responsible for maintaining BIND.
+The development of BIND 9 was done with a combination of commercial and military contracts. Most of the features of BIND 9 were funded by UNIX vendors who wanted to ensure that BIND stayed competitive with Microsoft's DNS offerings; the DNSSEC features were funded by the US military who felt that DNS security was important.
+The acronym BIND was derived from its first domain use, Berkeley Internet Name Domain, and the server software being the "Berkeley Internet Name Domain (BIND) Server". It was not, as is sometimes assumed, Berkeley Internet Name Daemon. The original acronym is clear from the title of and usage in the original BIND paper, The Berkeley Internet Name Domain Server.[1]
+
+
+Earlier versions of BIND offered no stock mechanism to store and retrieve zone data in anything other than flat text files. Since BIND 9.4 [2] DLZ has been available as a compile time option allowing for zone storage in a variety of database formats including LDAP, Berkeley DB, PostgreSQL, MySQL, and ODBC.
+
+Like Sendmail, WU-FTPD and other systems dating back to the earlier days of the Internet (when security was not such an issue as it has since become) BIND 4 and BIND 8 have had a large number of serious security vulnerabilities over the years and as such their use is now strongly discouraged.[3] While BIND 9 was a complete rewrite, it has still experienced numerous vulnerabilities.[4]
+
+The configuration files are not checked automatically for errors at runtime, but a configuration syntax verification tool is included in the distribution.
+
+
+
+
+
+

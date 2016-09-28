@@ -1,0 +1,16 @@
+Volapuk encoding
+Volapuk encoding (Russian: кодировка "волапюк", kodirovka "volapyuk") is a slang term for rendering the letters of the Cyrillic alphabet with Latin ones. Unlike Translit (in which characters are replaced to sound the same), in volapuk characters can be replaced to look or sound the same.
+
+The name Volapuk encoding comes from the Volapük constructed language, for two reasons. Cyrillic text written in this way looks strange and often funny, just as a Volapük-language text may appear. At the same time, the word "Volapük" ("Волапюк/Воляпюк" Volapyuk/Volyapyuk in Russian) itself sounds funny to Russian ears, so the name stuck.
+
+Volapuk and Translit have been in use since the early days of the Internet to write e-mail messages and other texts in Russian where the support of Cyrillic fonts was limited: either the sender did not have a keyboard with Cyrillic letters or the receiver did not necessarily have Cyrillic screen fonts. In the early days, the situation was aggravated by a number of mutually incompatible computer encodings for the Cyrillic alphabet, so that the sender and receiver were not guaranteed to have the same one. Also, the 7-bit character encoding of the early days was an additional hindrance.
+Some Russian e-mail providers even included Volapuk encoding in the list of available options for the e-mails routed abroad, e.g.,
+By the late 90s, the encoding problem had been almost completely resolved, due to increasing support from software manufacturers and Internet service providers.[1]
+
+Volapuk often replaces Cyrillic letters with Latin ones in order to look the same as typed or handwritten Cyrillic letters.
+As some numeric digits are used to represent Cyrillic letters, the result may resemble leetspeak.
+Encoding depends on the language as well. For example, Ukrainian users [2] have their own traditions, distinct from the Russian ones.
+
+
+
+Arabic chat alphabet�· Denglisch�· Fingilish (Persian chat alphabet)�· Greeklish�· Internet slang�· Leet ("1337")�· Lolspeak�/ LOLspeak�/ Kitteh�· Volapuk

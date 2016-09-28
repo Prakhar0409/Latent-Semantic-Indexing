@@ -1,0 +1,37 @@
+Propranolol
+US FDA:link
+C(AU) C(US)
+Prescription Only (S4)(AU) POM(UK) ℞-only(US)
+Propranolol (INN) is a non-selective beta blocker mainly used in the treatment of hypertension. It was the first successful beta blocker developed. It is the only drug proven effective for the prophylaxis of migraines in children. Propranolol is available in generic form as propranolol hydrochloride, as well as an AstraZeneca and Wyeth product under the trade names Inderal, Inderal LA, Avlocardyl (also available in prolonged absorption form named "Avlocardyl Retard"), Deralin, Dociton, Inderalici, InnoPran XL, Sumial (depending on marketplace and release rate).
+
+Scottish scientist and St. Andrews graduate James W. Black successfully developed propranolol in the late 1950s. He was awarded the Nobel Prize in Medicine for this discovery in 1988. Propranolol was derived from the early β-adrenergic antagonists dichloroisoprenaline and pronethalol. The key structural modification, which was carried through to essentially all subsequent beta blockers, was the insertion of an oxymethylene bridge into the arylethanolamine structure of pronethalol thus greatly increasing the potency of the compound. This also apparently eliminated the carcinogenicity found with pronethalol in animal models.
+Newer, more selective beta-blockers (such as nebivolol) are now used in the treatment of hypertension.
+
+Propranolol is a non-selective beta blocker, that is, it blocks the action of epinephrine on both β1- and β2-adrenergic receptors. It has little intrinsic sympathomimetic activity (ISA) but has strong membrane stabilizing activity (only at high blood concentrations, eg overdosage). Only L-propranolol is a powerful adrenoceptor antagonist, whereas D-propranolol is not. However, both have local anesthetic (termed topical) effect.
+
+Propranolol is rapidly and completely absorbed, with peak plasma levels achieved approximately 1–3 hours after ingestion. Co-administration with food appears to enhance bioavailability. Despite complete absorption, propranolol has a variable bioavailability due to extensive first-pass metabolism. Hepatic impairment will therefore increase its bioavailability. The main metabolite 4-hydroxypropranolol, with a longer half-life (5.2–7.5 hours) than the parent compound (3–4 hours), is also pharmacologically active.
+Propranolol is a highly lipophilic drug achieving high concentrations in the brain. The duration of action of a single oral dose is longer than the half-life and may be up to 12 hours, if the single dose is high enough (e.g., 80�mg). Effective plasma concentrations are between 10–100�ng/mL.
+Toxic levels are associated with plasma concentrations above 2000�ng/ml.
+
+
+Propranolol is indicated for the management of various conditions including:[1]
+While once first-line treatment for hypertension, the role for beta-blockers was downgraded in June 2006 in the United Kingdom to fourth-line as they perform less well than other drugs, particularly in the elderly, and evidence is increasing that the most frequently used beta-blockers at usual doses carry an unacceptable risk of provoking type 2 diabetes. [7]
+Propranolol is also used to lower portal vein pressure in portal hypertension and prevent oesophageal variceal bleeding.
+Propranolol is often used by musicians and other performers to prevent stage fright.
+Propranolol is currently being investigated as a potential treatment for post-traumatic stress disorder. [8][9][10]
+
+Propranolol should be used with caution in patients with:[1]
+Propranolol is contraindicated in patients with:[1]
+
+Adverse drug reactions (ADRs) associated with propranolol therapy are similar to other lipophilic beta blockers (see beta blocker).
+
+Propranolol, like other beta blockers, is classified as Pregnancy category C in the United States and ADEC Category C in Australia. Beta-blocking agents in general reduce perfusion of the placenta which may lead to adverse outcomes for the neonate, including pulmonary or cardiac complications, or premature birth. The newborn may experience additional adverse effects such as hypoglycemia and bradycardia.
+Most beta-blocking agents appear in the milk of lactating women. This is especially the case for a lipophilic drug like propranolol. Breastfeeding is not recommended in patients receiving propranolol therapy.
+
+Beta blockers, including propranolol, have an additive effect with other drugs which decrease blood pressure, or which decrease cardiac contractility or conductivity. Clinically-significant interactions particularly occur with:[1]
+
+The usual maintenance dose ranges for oral propranolol therapy vary by indication:
+Intravenous (IV) propranolol may be used in acute arrhythmia or thyrotoxic crisis.[13]
+
+Propranolol along with a number of other membrane-acting drugs have been investigated for possible effects on P. falciparum and so the treatment of malaria. In vitro positive effects until recently had not been matched by useful in vivo anti-parasite activity against P. vinckei,[14] or P. yoelii nigeriensis.[15] However a single study from 2006 has suggested that propranolol may reduce the dosages required for existing drugs to be effective against P. falciparum by 5- to 10-fold, suggesting a role for combination therapies.[16]
+

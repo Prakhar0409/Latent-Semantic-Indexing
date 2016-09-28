@@ -1,0 +1,74 @@
+Bluetooth profile
+A Bluetooth profile is a wireless interface specification for Bluetooth-based communication between devices. In order to use Bluetooth technology, a device must be compatible with the subset of Bluetooth profiles necessary to use the desired services. A Bluetooth profile resides on top of the Bluetooth Core Specification and (optionally) additional protocols. While the profile may use certain features of the core specification, specific versions of profiles are rarely tied to specific versions of the core specification. For example, there are HFP 1.5 implementations using both Bluetooth 2.0 and Bluetooth 1.2 core specifications.
+The way a device uses Bluetooth technology depends on its profile capabilities. The profiles provide standards which manufacturers follow to allow devices to use Bluetooth in the intended manner.
+At a minimum, each profile specification contains information on the following topics:
+This article summarizes the current definitions and possible applications of each profile.
+
+The following profiles are defined and adopted by the Bluetooth SIG:
+
+This profile defines how high quality audio (stereo or mono) can be streamed from one device to another over a Bluetooth connection.[1] For example, music streamed from a mobile phone to a wireless headset or car audio.
+A2DP was initially used in conjunction with an intermediate Bluetooth transceiver that connects to a standard audio output jack, encodes the incoming audio to a Bluetooth-friendly format, and sends the signal wirelessly to Bluetooth headphones that decode and play the audio. Bluetooth headphones, especially the more advanced models, often come with a microphone and support for the Headset (HSP), Hands-Free (HFP) and Audio/Video Remote Control (AVRCP) profiles.
+A2DP is designed to transfer a uni-directional 2-channel stereo audio stream, like music from an MP3 player, to a headset or car radio.[2] This profile relies on AVDTP and GAVDP. It includes mandatory support for the low complexity SBC codec (not to be confused with Bluetooth's voice-signal codecs such as CVSDM), and supports optionally: MPEG-1 , MPEG-2, MPEG-4, AAC, and ATRAC, and is extensible to support manufacturer-defined codecs. Most bluetooth stacks implement the SCMS-T digital rights management (DRM) scheme. In these cases it is possible to connect the A2DP headphones for high quality audio.
+
+
+This profile is designed to provide a standard interface to control TVs, Hi-fi equipment, etc. to allow a single remote control (or other device) to control all of the A/V equipment to which a user has access. It may be used in concert with A2DP or VDP.
+It has the possibility for vendor-dependent extensions. Additionally, with the version 1.3 release of the specification, there is now capability to transmit information on the status of the music source (playing, stopped, etc), including information on the track itself (artist, track name, etc).
+
+This profile is designed for sending images between devices and includes the ability to resize, and convert images to make them suitable for the receiving device. It may be broken down into smaller pieces:
+
+This allows devices to send text, e-mails, vCards, or other items to printers based on print jobs. It differs from HCRP in that it needs no printer-specific drivers. This makes it more suitable for embedded devices such as mobile phones and digital cameras which cannot easily be updated with drivers dependent upon printer vendors.
+
+This provides unrestricted access to the services, data and signalling that ISDN offers.
+
+This is designed for cordless phones to work using Bluetooth. It is hoped that mobile phones could use a Bluetooth CTP gateway connected to a landline when within the home, and the mobile phone network when out of range. It is central to the Bluetooth SIG's '3-in-1 phone' use case.
+
+This profile allows a device to be identified above and beyond the limitations of the Device Class already available in Bluetooth. It enables identification of the manufacturer, product id, product version, and the version of the Device ID specification being met. It is useful in allowing a PC to identify a connecting device and download appropriate drivers. It enables similar applications to those the Plug-and-play specification allows.
+
+This profile provides a standard to access the Internet and other dial-up services over Bluetooth. The most common scenario is accessing the Internet from a laptop by dialing up on a mobile phone, wirelessly. It is based on Serial Port Profile (SPP), and provides for relatively easy conversion of existing products, through the many features that it has in common with the existing wired serial protocols for the same task. These include the AT command set specified in European Telecommunications Standards Institute (ETSI) 07.07, and Point-to-Point Protocol (PPP).
+
+This profile is intended to provide a well defined interface between a mobile phone or fixed-line phone and a PC with Fax software installed. Support must be provided for ITU T.31 and / or ITU T.32 AT command sets as defined by ITU-T. Data and voice calls are not covered by this profile.
+
+Provides the capability to browse, manipulate and transfer objects (files and folders) in an object store (file system) of another system. Uses GOEP as a basis.
+
+Provides the basis for A2DP, and VDP.
+
+Provides the basis for all other profiles.
+
+This provides a simple wireless alternative to a cable connection between a device and a printer. Unfortunately it does not set a standard regarding the actual communications to the printer, so drivers are required specific to the printer model or range. This makes this profile less useful for embedded devices such as digital cameras and palmtops, as updating drivers can be problematic.
+
+This is commonly used to allow car hands-free kits to communicate with mobile phones in the car. It uses SCO (see Synchronous Connection Oriented link) to carry a mono, continuously variable slope delta modulation or pulse-code modulation with logarithmic a-law or μ-law quantization audio channel. Currently in version 1.5. In 2002 Audi, with the Audi A8, was the first motor vehicle manufacturer to install Bluetooth technology in a car, enabling the passenger to use a wireless in-car phone. The following year DaimlerChrysler and Acura introduced Bluetooth technology integration with the audio system as a standard feature in the third generation Acura TL in a system dubbed HandsFree Link (HFL). Later, BMW added it as an option on its 1 Series, 3 Series, 5 Series, 7 Series and X5 vehicles. Since then, other manufacturers have followed suit, with many vehicles, including the Toyota Prius (Since 2004), 2007 Toyota Camry, 2007 Infiniti G35, and the Lexus LS 430 (Since 2004). The Bluetooth car kits allow users with Bluetooth-equipped cell phones to make use of some of the phone's features, such as making calls, while the phone itself can be left in the user's pocket or hand bag. Companies like Nokia, Johnson Controls, RAYTEL, Parrot and Motorola manufacture Bluetooth hands-free car kits for well-known brand car manufacturers.
+Most bluetooth headsets implement both Hands-Free Profile and Headset Profile, because of the extra features in HFP for use with a mobile phone. For example: last number redial, call waiting, voice dialing.
+
+Provides support for devices such as mice, joysticks, keyboards, as well as sometimes providing support for simple buttons and indicators on other types of devices. It is designed to provide a low latency link, with low power requirements.
+Bluetooth HID is a lightweight wrapper of the Human Interface Device protocol defined for USB. The use of the HID protocol simplifies host implementation (ex: support by Operating Systems) by enabling the re-use of some of the existing support for USB HID to also support Bluetooth HID.
+Popular devices that feature support for this profile include: Logitech diNovo Media Desktop 2.0, Microsoft Optical Desktop Elite for Bluetooth. PlayStation 3 controllers and Wii Remotes also use BT HID.
+
+This is the most commonly used profile, providing support for the popular Bluetooth Headsets to be used with mobile phones. It relies on SCO for audio encoded in 64 kbit/s CVSD or PCM and a subset of AT commands from GSM 07.07 for minimal controls including the ability to ring, answer a call, hang up and adjust the volume.
+
+This is often referred to as the walkie-talkie profile. It is another TCS (Telephone Control protocol Specification)[9] based profile, relying on SCO to carry the audio. It is proposed to allow voice calls between two Bluetooth capable handsets, over Bluetooth.
+
+LAN Access profile makes it possible for a Bluetooth device to access LAN, WAN or Internet via another device that has a physical connection to the network. It uses PPP over RFCOMM to establish connections. LAP also allows the device to join an ad-hoc Bluetooth network.
+The LAN Access Profile has been replaced by the PAN profile in the Bluetooth specification.
+
+A basic profile for sending "objects" such as pictures, virtual business cards, or appointment details. It is called push because the transfers are always instigated by the sender (client), not the receiver (server).
+OPP uses the APIs of OBEX profile and the OBEX operations which are used in OPP are connect, disconnect, put, get and abort. By using these APIs the OPP layer will reside over OBEX and hence follow the specifications of the Bluetooth stack.
+
+This profile is intended to allow the use of Bluetooth Network Encapsulation Protocol on Layer 3 protocols for transport over a Bluetooth link.
+
+This profile allows exchange of Phone Book Objects between devices. It is likely to be used between a car kit and a mobile phone to allow the car kit to display the name of the incoming caller.
+
+This profile is based on the ETSI TS 07.10 specification and uses the RFCOMM protocol. It emulates a serial cable to provide a simply implemented wireless replacement for existing RS-232 based serial communications applications, including familiar control signals. It provides the basis for DUN, FAX, HSP and AVRCP profiles.
+
+SDAP describes how an application should use SDP to discover services on a remote device. SDAP requires that any application be able to find out what services are available on any Bluetooth enabled device it connects to.
+
+This allows devices such as car phones with built in GSM transceivers to connect to a SIM card in a phone with Bluetooth, so the car phone itself doesn't require a separate SIM card.
+
+This profile allows synchronisation of Personal Information Manager (PIM) items. As this profile originated as part of the infrared specifications but has been adopted by the Bluetooth SIG to form part of the main Bluetooth specification, it is also commonly referred to as IrMC Synchronization.
+
+This profile allows the transport of a video stream. It could be used for streaming a recorded video from a PC media center to a portable player, or a live video from a digital video camera to a TV. Support for the H.263 baseline is mandatory. The MPEG-4 Visual Simple Profile, and H.263 profiles 3 and 8 are optionally supported, and covered in the specification.
+
+This is a profile for carrying Wireless Application Protocol (WAP) over Point-to-Point Protocol over Bluetooth.
+
+These profiles are still not finalised, but are currently proposed within the Bluetooth SIG:
+Compatibility of products with profiles can be verified on the Bluetooth Qualification Program website.
+

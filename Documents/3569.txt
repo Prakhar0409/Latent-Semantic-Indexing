@@ -1,0 +1,18 @@
+Peer Name Resolution Protocol
+Peer Name Resolution Protocol (PNRP) is a patented peer-to-peer protocol designed by Microsoft. PNRP enables dynamic name publication and resolution, and requires IPv6.
+PNRP was first mentioned during a presentation at a P2P conference in November 2001. It appeared in July 2003 in the Advanced Networking Pack for Windows XP, and was later included in the Service Pack 2 for Windows XP. PNRP 2.0 was introduced with Windows Vista and is available for download for Windows XP Service Pack 2 users. [1] PNRP 2.1 is included in Windows Vista SP1, Windows Server 2008 and Windows XP SP3.
+The design of PNRP is covered by US Patent #7,065,587, issued on June 20, 2006.
+
+PNRP is a distributed name resolution protocol allowing Internet hosts to publish "peer names" and corresponding IPv6 addresses and optionally other information. Other hosts can then resolve the peer name, retrieve the corresponding addresses and other information, and establish peer-to-peer connections.
+With PNRP, peer names are composed of an "authority" and a "qualifier". The authority is identified by a secure hash of an associated public key, or by a simple place-holder (the number zero) if the peer name is "unsecured". The qualifier is a simple string, allowing an authority to have different peer names for different services.[2]
+If a peer name is secure, the PNRP name records are signed by the publishing authority, and can be verified using its public key. Unsecured peer names can be published by anybody, without possible verification.
+Multiple entities can publish the same peer name. For example, if a peer name is associated with a group, any group member can publish addresses for the peer name.
+Peer names are published and resolved within a specified scope. The scope can be a local link, a site (e.g. a campus), or the whole Internet.
+
+Internally, PNRP uses an architecture similar to distributed hash table systems such as Chord or Pastry. The peer name is hashed to produce a 128-bit peer identifier, and a DHT-like algorithm is used to retrieve the location of the host publishing that identifier. There are however some significant differences.
+DHT systems like Chord or Pastry store the indices of objects (hashes) at the node whose identifier is closest to the hash, and the routing algorithm is designed to find that node. In contrast, PNRP always store the hash on the node that publishes the identifier. A node will thus have as many entries in the routing system as the number of identifiers that it publishes. The PNRP design arguably trades increased security and robustness for higher routing cost.
+Most DHT systems assume that only one node publishes a specific index. In contrast, PNRP allows multiple hosts to publish the same name. The internal index is in fact composed of the 128-bit hash of the peer name and a 128-bit location identifier, derived from an IPv6 address of the node.
+PNRP does not use a routing table, but rather a cache of PNRP entries. New cache entries are acquired as a side effect of ongoing traffic. The cache maintenance algorithm ensures that each node maintains adequate knowledge of the "cloud". It is designed to ensure that the time to resolve a request varies as the logarithm of the size of the cloud.
+
+
+

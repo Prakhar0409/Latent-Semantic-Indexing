@@ -1,0 +1,74 @@
+HTML element
+In computing, an HTML element indicates structure in an HTML document and a way of hierarchically arranging content. More specifically, an HTML element is an SGML element that meets the requirements of one or more of the HTML Document Type Definitions (DTDs). These elements have properties: both attributes and content, as specified (both allowable and required) according to the appropriate HTML DTD (for example, the HTML 4.01 strict DTD). Elements may represent headings, paragraphs, hypertext links, lists, embedded media, and a variety of other structures.
+
+
+HTML elements may be either containers or empty.
+Container Elements are constructed with:
+Empty Elements consist of only a single tag, with any attributes. (The tag may have a slash appended: <tag /> – in XHTML this is required.)[1]
+Attributes define desired behavior or indicate additional element properties.
+Informally, HTML elements are sometimes referred to as “tags” (an example of synecdoche), though many prefer the term tag strictly in reference to the markup delimiting the start and end of an element.
+Element (and attribute) names may be written in either upper or lower case in HTML, but must be in lower case in XHTML.[2]� Upper-case is the older usage, and is used in HTML standards, but lower-case is more common.
+
+HTML elements are defined in a series of freely-available open standards issued since 1995, initially by the IETF and subsequently by the W3C.
+Since the early 1990s, manufacturers of user agents (e.g. web browsers) have often developed their own elements, some of which have been adopted in later standards. Other user agents may not recognise non-standard elements, and they may be ignored or displayed improperly.
+In 1998, XML introduced mechanisms to allow anyone to develop their own elements and incorporate them in XHTML documents, for use with XML-aware user agents.[3]
+Following the development of XML (a simplified form of SGML), HTML 4.01 was rewritten in an XML-compatible form, XHTML 1.0 (eXtensible HTML). The elements in each are identical, and in most cases valid XHTML 1.0 documents will be valid or nearly-valid HTML 4.01 documents. This article focuses on SGML-based HTML, unless noted otherwise; however, it remains applicable to XHTML. (See HTML for a discussion of the minor differences between the two).
+
+Since the first version of HTML, several elements have become outmoded, and are deprecated in later standards, or do not appear at all, in which case they are invalid (and will be found invalid, and perhaps not displayed, by validating user agents).
+Presently, the status of elements is complicated by the existence of three types of HTML�4.01 / XHTML�1.0 DTD:
+The first Standard (HTML 2.0) contained four deprecated elements, one of which was invalid in HTML 3.2.� All four are invalid in HTML 4.01 Transitional, which also deprecated a further ten elements.� All of these, plus two others, are invalid in HTML 4.01 Strict.� While the frame elements are still current in the sense of being present in the Transitional and Frameset DTDs, there are no plans to preserve them in future standards, as their function has been largely replaced, and they are highly problematic for user accessibility.
+(Strictly speaking, the most recent XHTML standard, XHTML 1.1 (2001), does not include frames at all; it is approximately equivalent to XHTML 1.0 Strict, but also includes the Ruby module.)[4]
+A common source of confusion is the loose use of deprecated to refer to both deprecated and invalid status, and to elements which are expected to be formally deprecated in future.
+
+In keeping with the principle of Separation of Concerns, the function of HTML is primarily to add structural and semantic information to the raw text of a document. Presentation and Behaviour are separate functions, which can be added as desired, ideally through links to external documents such as stylesheets, graphics files, and scripts.
+This allows the document to be presented by different user agents according to their purposes and abilities; for example, a user agent can select an appropriate stylesheet to present a document by displaying on a monitor, printing on paper, or to determine speech characteristics in an aural user agent. The structural and semantic functions of the markup remain identical in each case.
+(Historically, user agents did not always support these features. In the 1990s, as a stop-gap, presentational elements were added to HTML, at the cost of creating problems for interoperability and user accessibility. This is now regarded as outmoded and has been superseded by stylesheet-based design; most presentational elements are now deprecated.)[5]
+External image files are incorporated with the img or object elements. (With XHTML, the SVG language can also be used to write graphics within the document, though linking to external SVG files is generally simpler.)[6] Where an image is not purely decorative, HTML allows replacement content with similar semantic value to be provided for non-visual user agents.
+An HTML document can also be extended through the use of scripts to provide additional behaviours beyond the abilities of HTML hyperlinks and forms.
+The elements style and script, with related attributes, provide reference points in HTML markup for links to stylesheets and scripts. They can also contain instructions directly.
+
+<html>...</html>
+
+<head>...</head>
+
+<body>...</body>
+
+
+<base>
+
+<basefont> (deprecated)
+
+<isindex> (deprecated)
+
+<link>
+
+<meta>
+
+<object>…</object>
+
+<script>…</script>
+
+<style>…</style>
+
+<title>…</title>
+
+
+In visual browsers, displayable elements can be rendered as either block or inline.� While all elements are part of the document sequence, block elements appear within their parent elements:
+Conversely, inline elements are treated as part of the flow of document text; they cannot have margins, width or height set, and do break across lines.
+
+
+<p>…</p>
+
+<h1>…</h1> <h2>…</h2> <h3>…</h3> <h4>…</h4> <h5>…</h5> <h6>…</h6>
+
+<dl>…</dl>
+
+<dt>…</dt>
+
+<dd>…</dd>
+
+<ol>…</ol>
+
+<ul>…</ul>
+
+<li>…</li>

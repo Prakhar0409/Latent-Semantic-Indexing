@@ -1,0 +1,25 @@
+Manchester code
+In telecommunication, Manchester code (also known as Phase Encoding, or PE) is a line code in which the encoding of each data bit has at least one transition and occupies the same time. It is, therefore, self-clocking, which means that a clock signal can be recovered from the encoded data.
+Manchester code is widely-used (e.g. in Ethernet. See also RFID). There are more complex codes e.g. 8B/10B encoding which use less bandwidth to achieve the same data rate (but which may be less tolerant of frequency errors and jitter in the transmitter and receiver reference clocks).
+
+Manchester code ensures frequent line voltage transitions, directly proportional to the clock rate. This helps clock recovery.
+The DC component of the encoded signal is not dependent on the data and therefore carries no information, allowing the signal to be conveyed conveniently by media (e.g. Ethernet) which usually do not convey a DC component.
+
+Extracting the original data from the received encoded bit (from Manchester as per 802.3):
+Summary:
+Manchester code always has a transition at the middle of each bit period and may (depending on the information to be transmitted) have a transition at the start of the period also. The direction of the mid-bit transition indicates the data. Transitions at the period boundaries do not carry information. They exist only to place the signal in the correct state to allow the mid-bit transition. Although this allows the signal to be self-clocking, it doubles the bandwidth requirement compared to NRZ coding schemes (or see also NRZI).
+In the Thomas convention, the result is that the first half of a bit period matches the information bit and the second half is its complement.
+
+Manchester encoding is a special case of binary phase-shift keying (BPSK), where the data controls the phase of a square wave carrier whose frequency is the data rate. Such a signal is easy to generate.
+To control the bandwidth used, a filter can reduce the bandwidth to as low as 1Hz per bit/second without loss of information in transmission.[citation needed] In radio transmission, the encoded signal may also be modulated with a carrier wave; however, the property of 1Hz per bit/second is preserved.
+
+There are two opposing conventions for the representations of data.
+The first of these was first published by G. E. Thomas in 1949 and is followed by numerous authors (e.g., Tanenbaum). It specifies that for a 0 bit the signal levels will be Low-High (assuming an amplitude physical encoding of the data) - with a low level in the first half of the bit period, and a high level in the second half. For a 1 bit the signal levels will be High-Low.
+The second convention is also followed by numerous authors (e.g., Stallings) as well as by IEEE 802.4 (token bus) and lower speed versions of IEEE 802.3 (Ethernet) standards. It states that a logic 0 is represented by a High-Low signal sequence and a logic 1 is represented by a Low-High signal sequence.
+If a Manchester encoded signal is inverted in communication, it is transformed from one convention to the other. This ambiguity can be overcome by using differential Manchester encoding.
+
+Manchester code needs twice the bandwidth of asynchronous communications, and the signal spectrum is much wider. Most high-speed communication now uses encoding schemes with better coding performance.
+One consideration is synchronization of the receiver to the transmitter. It might appear that a half bit period error would give an inverted output at the receiver, but for typical data this leads to code violations. The receiver can detect these violations and use this information to synchronise accurately.
+
+
+This article contains material from the Federal Standard 1037C (in support of MIL-STD-188), which, as a work of the United States Government, is in the public domain.

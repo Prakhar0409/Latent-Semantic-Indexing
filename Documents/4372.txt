@@ -1,0 +1,50 @@
+Fairy chess piece
+A fairy chess piece or unorthodox chess piece is a chess piece not used in conventional chess, but used in certain chess variants and some chess problems. These pieces vary in movement abilities and possible additional properties.
+Due to distributed and uncoordinated nature of unorthodox chess development, often the same piece is referred to by different names or the same name is used for different pieces in various contexts (chess problems, various chess variants).
+
+A specialized solving program, WinChloe, recognizes more than 1200 different fairy pieces. Most (but not all) usual fairy chess pieces fall into one of three classes, although it should be noted that some are hybrid pieces (see the Chinese pieces, for example, which can move without capture as riders yet can only capture as hoppers). It is easy to create a new type of piece by simply combining the movement powers of two or more different pieces.
+
+
+A (m,n)leaper is a piece that moves by a fixed vector between its start square and its arrival square. One of the coordinate of the vector 'start square - arrival square' must have an absolute value equal to m and the other one an absolute value equal to n. A leaper moves in the same way to capture or not to capture, the taken unit being on the arrival square. For instance, the knight is the (1,2)leaper. [1]
+In shatranj, a forerunner to chess, the pieces later replaced by the bishop and queen were also leapers: the alfil was a (2,2)leaper (moving exactly two squares diagonally in any direction), and the fers a (1,1)leaper (moving exactly one square diagonally in any direction).[2]
+Some pieces can be described as combined leapers, i.e. as pieces having movement capabilities of multiple leapers. The king in orthodox chess is, as far as only its movement is concerned without taking into account check restrictions, example of a combination of (1,1)leaper and (1,0) leaper.
+Leapers are not able to create pins, although they are often effective forking pieces. One additional property is that the check of a leaper can not be parried by interposing.
+All orthodox chessmen belong to either leapers or riders although the Rook does 'hop' when it castles.
+The Wazir is an orthogonal 1,0 leaper; the Fers is a diagonal 1,1 leaper; both used in Muslim versions of Chess. The King of standard Chess combines the two.
+The Dababba is an orthogonal 2,0 leaper; the Alfil the 2,2 leaper; the Knight is a 1,2 leaper. The Alibaba combines the Dababba and Alfil; while the Squirrel can move to any square 2 units away.
+The 'level-3' leapers would be the Threeleaper, a 3,0 leaper, the Tripper, a 3,3 leaper, the Camel, a 1,3 leaper and the Zebra, a 2,3 leaper.
+A combined leaper is called an amphibian, if it has a larger range on the board than its components. The simplest amphibian is the Frog, a (1,1)-(0,3) leaper.
+
+A rider is a piece that can move an unlimited distance in one direction, providing there are no pieces in the way.
+There are three riders in orthodox chess: the rook can move an unlimited number of (1,0) cells and is therefore a (1,0) rider; the bishop is a (1,1) rider; and the queen is a (1,1) or (1,0) rider.
+One of the most popular fairy chess riders is the nightrider, which can make an unlimited number of knight moves (that is, 2,1 cells) in any direction (though, like other riders, it cannot change direction half-way through its move).
+Sliders are a noteworthy special case of riders which can only move between geometrically contiguous cells. All of the riders in orthodox chess are examples of sliders.
+The names of riders are often obtained by taking the name of a leaper which moves a similar cell-size and adding the suffix rider. For example, the zebra is a (3,2) leaper, and the zebrarider is a (3,2) rider.
+Riders can create both pins and skewers.
+
+A hopper is a piece which moves by jumping over another piece (called a hurdle). The hurdle can usually be any piece of any color. Unless it can jump over a piece, it cannot move. Note that hoppers generally capture by taking the piece on the destination square, not by taking the hurdle (as is the case in checkers). An exception is the locust.
+There are no hoppers in orthodox chess, although in xiangqi, the cannon captures as a hopper (when not capturing, it is a rider which can not capture - the so-called Chinese pieces (see below) share this characteristic).
+The most popular hopper in fairy chess is the grasshopper, which moves along the same lines as an orthodox queen, except that it must hop over some other piece and land on the square immediately beyond it.
+
+A locust is any piece which captures by hopping over its victim (as in checkers). It is sometimes considered a type of hopper.
+
+A marine piece is a combination piece consisting of a rider (for ordinary moves) and a locust (for captures) in the same directions. Marine pieces have names alluding to the sea and its myths, e.g., nereïde (marine bishop), triton (marine rook), mermaid (marine queen), or poseidon (marine king).
+
+Some classes of pieces come from a certain game; often these have a common set of characteristics.
+
+Chinese pieces are pieces derived from units found in xiangqi, the Chinese form of chess. The most common Chinese pieces are the leo, pao and vao (each of which are derived from the Chinese cannon) and the mao (derived from the horse). Those derived from the cannon are distinguished by moving as a leaper when capturing, but otherwise moving as a rider. Less frequently encountered Chinese pieces include the moa, nao and rao.
+
+
+A royal piece is one which must not be allowed to be captured. If a royal piece is threatened with capture and cannot avoid capture next move, then the game is lost (this is checkmate). In orthodox chess, each side has one royal piece, the king. In fairy chess any other orthodox piece or fairy piece may instead be designated royal, there may be more than one royal piece, or there may be no royal pieces at all (in which case the aim of the game must be something other than to deliver checkmate, such as capturing all of the opponent's pieces).
+
+
+
+In his book The Oxford History of Board Games[3] David Parlett used a notation to describe fairy piece movements. The move is specified by an expression of the form m={expression}, where m stands for "move", and the expression is composed from the following elements:
+
+The following can be added to Parlett's to make it more complete:
+The format (not including grouping) is: <conditions> <move type> <distance> <direction> <other>
+On this basis, the traditional chess moves are:
+
+Ralph Betza created a classification scheme for fairy chess pieces (including standard chess pieces) in terms of the moves of basic pieces with modifiers.[4]
+For example, the FIDE Rook, which can be described as a Wazir-rider, can be notated WW, with shorthand R. The FIDE Bishop can be notated as a Fers-rider, or FF. Finally, a FIDE pawn can be notated fmWfcF (or fcFfmW), meaning it is a piece that moves forward like a Wazir, and captures forward like a Fers (and has no other moves). This is setting aside the initial two-square move and promotion.
+

@@ -1,0 +1,27 @@
+Tree (data structure)
+In computer science, a tree is a widely-used data structure that emulates a hierarchical tree structure with a set of linked nodes. It is an acyclic connected graph where each node has a set of zero or more children nodes, and at most one parent node.
+
+A node is a structure which may contain a value, a condition, or represent a separate data structure (which could be a tree of its own). Each node in a tree has zero or more child nodes, which are below it in the tree (by convention, trees grow down, not up as they do in nature). A node that has a child is called the child's parent node (or ancestor node, or superior). A node has at most one parent.
+Nodes at the bottommost level of the tree are called leaf nodes. Since they are at the bottommost level, they do not have any children. They are also referred to as terminal nodes.
+The height of a node is the length of the longest downward path to a leaf from that node. The height of the root is the height of the tree. The depth of a node is the length of the path to its root (i.e., its root path). This is commonly needed in the manipulation of the various self balancing trees, AVL Trees in particular. Conventionally, the value -1 corresponds to a subtree with no nodes, whereas zero corresponds to a subtree with one node.
+The topmost node in a tree is called the root node. Being the topmost node, the root node will not have parents. It is the node at which operations on the tree commonly begin (although some algorithms begin with the leaf nodes and work up ending at the root). All other nodes can be reached from it by following edges or links. (In the formal definition, each such path is also unique). In diagrams, it is typically drawn at the top. In some trees, such as heaps, the root node has special properties. Every node in a tree can be seen as the root node of the subtree rooted at that node.
+An internal node or inner node is any node of a tree that has child nodes and is thus not a leaf node.
+A subtree is a portion of a tree data structure that can be viewed as a complete tree in itself. Any node in a tree T, together with all the nodes below it, comprise a subtree of T. The subtree corresponding to the root node is the entire tree; the subtree corresponding to any other node is called is a proper subtree (in analogy to the term proper subset).
+
+There are two basic types of trees. In a recursive tree or unordered tree, a tree is a tree in a purely structural sense — that is to say, given a node, there is no order for the children of that node. A tree on which an order is imposed — for example, by assigning different natural numbers to each edge leading to a node's children — is called an edge-labeled tree or an ordered tree with data structures built upon them being called ordered tree data structures.
+Ordered trees are by far the most common form of tree data structure. Binary trees are one kind of ordered tree because the children are ordered as left child node and right child node.
+
+There are many different ways to represent trees; common representations represent the nodes as records allocated on the heap (not to be confused with the heap data structure) with pointers to their children, their parents, or both, or as items in an array, with relationships between them determined by their positions in the array (e.g., binary heap).
+
+In graph theory, a tree is a connected acyclic graph. A rooted tree is such a graph with a vertex singled out as the root. In this case, any two vertices connected by an edge inherit a parent-child relationship. An acyclic graph with multiple connected components or a set of rooted trees is sometimes called a forest.
+
+Stepping through the items of a tree, by means of the connections between parents and children, is called walking the tree, and the action is a walk of the tree. Often, an operation might be performed when a pointer arrives at a particular node. A walk in which each parent node is traversed before its children is called a pre-order walk; a walk in which the children are traversed before their respective parents are traversed is called a post-order walk.
+
+
+
+
+
+Self-balancing binary search trees:
+
+
+

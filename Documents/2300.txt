@@ -1,0 +1,53 @@
+History of animation
+
+
+
+The earliest examples derive from still drawings, which can be found in Palaeolithic cave paintings, where animals are depicted with multiple sets of legs in superimposed positions, clearly attempting to convey the perception of motion.[1]
+
+A 5,200-year old earthen bowl found in Iran in Shahr-i Sokhta has five images painted along the sides. It shows phases of a goat leaping up to a tree to take a pear. [2][3][4] This, however, does not prove that the goat could have been seen in motion [1].
+
+An Egyptian mural, approximately 4000 years old, shows wrestlers in action. Even though this may appear similar to a series of animation drawings, there was no way of viewing the images in motion. It does, however, indicate the artist's intention of depicting motion.
+
+A zoetrope is a device which creates the image of a moving picture. The earliest elementary zoetrope was created in China around 180 AD by the prolific inventor Ting Huan (丁緩). Driven by convection Ting Huan's device hung over a lamp. The rising air turned vanes at the top from which were hung translucent paper or mica panels. Pictures painted on the panels would appear to move if the device is spun at the right speed. [5][6][7][8]
+The modern zoetrope contraption was produced in 1834 by William George Horner. The device is basically a cylinder with vertical slits around the sides. Around the inside edge of the cylinder there are a series of pictures on the opposite side to the slits. As the cylinder is spun, the user then looks through the slits producing the illusion of motion. No one thought this small device would be the initial beginnings for the animation world to come. As a matter a fact, in present day beginning animation classes, the Zoetrope is still being used to illustrate early concepts of animation.
+
+Seven drawings by Leonardo da Vinci extending over two folios in the Windsor Collection, Anatomical Studies of the Muscles of the Neck, Shoulder, Chest, and Arm, show detailed drawings of the upper body (with a less-detailed facial image), illustrating the changes as the torso turns from profile to frontal position and the forearm extends.
+
+The magic lantern is the predecessor of the modern day projector. It consisted of a translucent oil painting and a simple lamp. When put together in a darkened room, the image would appear larger on a flat surface. Athanasius Kircher spoke about this originating from China in the 16th century.
+
+A thaumatrope was a toy used in the Victorian era. It was a disk or card with two different pictures on each side that was attached to two pieces of string. When the strings were twirled quickly between the fingers the two pictures appear to combine into a single image. The creator of this invention may have been either John Ayrton Paris or Charles Babbage.
+
+The phenakistoscope was an early animation device, the predecessor of the zoetrope. It was invented in 1831 simultaneously by the Belgian Joseph Plateau and the Austrian Simon von Stampfer.
+
+The praxinoscope, invented by French scientist Charles-Émile Reynaud, was a more sophisticated version of the zoetrope. It used the same basic mechanism of a strip of images placed on the inside of a spinning cylinder, but instead of viewing it through slits, it was viewed in a series of stationary mirrors around the inside of the cylinder, so that the animation would stay in place, and also provided a clearer image. Reynaud also developed a larger version of the praxinoscope that could be projected onto a screen, called the Théâtre Optique.
+
+The first flip book was patented in 1868 by a John Barns Linnet. This was another step closer to the development of animation. Like the Zoetrope, the Flip Book creates the illusion of motion. A set of sequential pictures seen at a high speed creates this effect. The Mutoscope (1894) is essentially a flip book in a box with a crank handle to flip the pages.
+
+
+Stop motion is used for many animation productions using physical objects rather than images of people, as with traditional animation. An object will be photographed, moved slightly, and then photographed again. When the pictures are played back in normal speed the object will appear to move by itself. This process is used for many productions, for example, clay animations such as Chicken Run and Wallace and Gromit, as well as animated movies which use poseable figures, such as The Nightmare Before Christmas and James and the Giant Peach. Sometimes even objects are used, such as with the films of Jan Švankmajer.
+Stop motion animation was also commonly used for special effects work in many live-action films, such as the 1933 version of King Kong and The 7th Voyage of Sinbad.
+
+Computer-generated imagery (CGI) changed animated films forever. The first film done completely in CGI was Toy Story, produced by Pixar. The process of CGI animation is still very tedious and similar in that sense to traditional animation, and it still adheres to many of the same principles.
+A principal difference of CGI Animation compared to traditional animation is that drawing is replaced by 3D modeling, almost like virtual version of stop-motion, though a form of animation that combines the two worlds can be considered to be computer aided animation but on 2D computer drawing (which can be considered close to traditional drawing and sometimes based on it).
+
+
+Most CGI created films are based on animal characters, monsters, machines or cartoon-like humans. Animation studios are now trying to develop ways of creating realistic-looking humans. Films that have attempted this include Final Fantasy: The Spirits Within in 2001, The Polar Express in 2004, and Beowulf in 2007. However, due to the complexity of human body functions, emotions and interactions, this method of animation is rarely used. The more realistic a CG character becomes, the more difficult it is to create the nuances and details of a living person. The creation of hair and clothing that move convincingly with the animated human character is another area of difficulty.
+
+The history of film animation began in the 1890s with the earliest days of silent films and continues through the present day. The first animated film was created by Charles-Émile Reynaud, inventor of the praxinoscope, an animation system using loops of 12 pictures. On October 28, 1892 at Musée Grévin in Paris, France he exhibited animations consisting of loops of about 500 frames, using his Théâtre Optique system - similar in principle to a modern film projector.
+The first animated work on standard picture film was Humorous Phases of Funny Faces (1906) by J. Stuart Blackton. It features a cartoonist drawing faces on a chalkboard, and the faces apparently coming to life.
+Fantasmagorie, by the French director Émile Cohl (also called Émile Courtet), is also noteworthy. It was screened for the first time on August 17, 1908 at Théâtre du Gymnase in Paris. Émile Courtet later went to Fort Lee, New Jersey near New York City in 1912, where he worked for French studio Éclair and spread its technique in the US.
+The first puppet-animated film was The Beautiful Lukanida (1912) by the Russian-born (ethnically Polish) director Wladyslaw Starewicz (Ladislas Starevich).
+The first animated feature film was El Apóstol, made in 1917 by Quirino Cristiani from Argentina. He also directed two other animated feature films, including 1931's Peludopolis, the first to use synchronized sound. None of these, however, survive to the present day. The earliest-surviving animated feature, which used colour-tinted scenes, is the silhouette-animated Adventures of Prince Achmed (1926) directed by German Lotte Reiniger and French/Hungarian Berthold Bartosch. Walt Disney's Snow White and the Seven Dwarfs (1937), often considered to be the first animated feature when in fact at least eight were previously released.
+The first to use Technicolor and the first to become successful within the English-speaking world was Flowers and Trees (1932) Disney studios which won an academy award.
+The first Japanese-made anime film was the propaganda film Momotaro's Divine Sea Warriors (桃太郎 海の神兵) by the Japanese director Mitsuyo Seo. The film, shown in 1945, was ordered to be made to support the war by the Japanese Naval Ministry. The film's song AIEUO no Uta (アイウエオの歌) was later used in Osamu Tezuka's anime series Kimba the White Lion. Originally thought to have been destroyed during the American occupation, a negative copy survived and the film is now available in Japan on VHS.
+
+
+
+
+
+The first animated cartoon (1908), and most animation techniques: morphing (1909), puppet animation and color animated cartoon (1910), pixilation (1911), first animated series (Le chien Flambeau, 1916).
+
+
+
+
+

@@ -1,0 +1,59 @@
+Hayes command set
+The Hayes command set is a specific command-language originally developed for the Hayes Smartmodem 300 baud modem. The command set consists of a series of short text strings which combine together to produce complete commands for operations such as dialing, hanging up, and changing the parameters of the connection. Most dialup modems follow the specifications of the Hayes command set.
+
+Prior to the introduction of the Bulletin Board System (BBS), modems typically operated on direct-dial telephone lines that always began and ended with a single modem at each end. The user would usually dial the phone manually before connecting, or pick it up if it rang. In a few cases the computers themselves had to call a selection of numbers, and for this task they used a separate peripheral device, a "dialer" plugged into a different input/output port on the computer (typically an RS-232 port).
+This method of operation worked satisfactorily in the 1960s and early 1970s, when modems generally connected to only large mainframe computers. However, the microcomputer revolution of the 1970s led to the introduction of low-cost modems and the idea of a semi-dedicated point-to-point link was no longer appropriate. There were potentially thousands of users, who might want to dial any of the other thousands of users and the only solution at the time was to make the user dial manually.
+The computer industry needed a way to tell the modem what number to dial through software. The earlier separate dialers had this capability, but only at the cost of a separate port, which a microcomputer might not have available. One solution could have used a separate set of "command pins" dedicated to sending and receiving commands, another could have used a signal pin indicating that the modem should interpret incoming data as a command. But both of these suffered from the similar problem that these pins might not be available, or connected, in many microcomputers.
+Hayes Communications introduced a solution in its 1977 product, the Smartmodem, by re-using the existing data pins with no modification. Instead, the modem itself could switch itself between one of two modes:
+To switch from data mode to command mode sessions sent an escape sequence string of three plus signs ("+++") followed by a pause of about a second (to go to the command mode without losing the connection); and to switch back they sent the online command, O. In actual use many of the commands automatically switched to the online mode after completion, and it is rare for a user to use the online command explicitly.
+This use of In-band signaling leads to a potential serious problem: what happens if the data sent in data-mode contains three consecutive plus signs? This could happen randomly quite easily, and it would happen any time someone attempted to send data describing the system – this document for instance. In order to reduce the chance of this problem the pause at the end of the escape sequence was required, if any other data was received within one second of the three plus signs, it was not the escape sequence and would be sent as-is.
+The command set includes commands for various phone-line manipulations, dialing and hanging-up for instance. It also includes various controls to set up the modem, including a set of register commands which allowed the user to directly set the various memory locations in the original Hayes modem. The command set was copied largely verbatim, including the meaning of the registers, by almost all early 300 baud modem manufacturers, of which there were quite a few.
+The command set itself had no intellectual-property protection, but Hayes Communications patented the concept of a "guard time" after the escape sequence. In the late 1980s Hayes started enforcing the patent, charging $1 per modem that used it. Many later modems thus did not implement the guard time -- they used Time Independent Escape Sequence; this eventually (when modems began to be used to dial up to the Internet) led to a nasty denial-of-service attack involving an ICMP echo request ("ping") packet containing three pluses and ATH, the hangup command.[citation needed]
+The expansion to 1200 and 2400 baud required the addition of a small set of new commands, some of them prefixed with a & to denote those dedicated to new functionality. However Hayes Communications moved only slowly to higher speeds or the use of compression, and three other companies led the way here – Microcom, U.S. Robotics and Telebit. Each of these three used its own additional command-sets instead of waiting for Hayes to lead the way.
+Soon a plethora of new models appeared, including new ones from Hayes, following a variety of "standards". Although these shared the same commands for simple instructions such as dialing, the higher-speed options differed dramatically. Nevertheless, all of them referred to themselves as using the "Hayes command set".
+Years later, the TIA/EIA introduced a formal standard with the title Data Transmission Systems and Equipment - Serial Asynchronous Automatic Dialing and Control, otherwise known as TIA/EIA-602. TIA/EIA-602 is almost identical to the data-specific commands found in the Smartmodems 1200 and Smartmodem 2400. Of course, by the time the TIA/EIA-602 standard came out, vendors were selling modems with error-correction, compression and far higher speeds. None of these newer capabilities (or the commands needed to control them) are addressed by the TIA/EIA-602 standard, although other standards or drafts of standards exist for commands specific to FAX operations on modems that support FAX transmission or reception, as well as commands specific to voice operations. [1]
+Things became simpler again during the widespread introduction of 14.4 and 28.8 kbaud modems in the early 1990s. Slowly a set of commands based heavily on the original Hayes extended set using "&" commands became popular, and then universal. Only one other command set has remained popular, the US Robotics set from their popular line of modems.
+
+A string can contain many of Hayes commands placed together, so as to optimally prepare the modem to dial out or answer. This is called the Initialisation String. [2]
+
+The following represents two computers, computer A and computer B, both with modems attached, and the user controlling the modems with terminal-emulator software. Terminal-emulator software typically allows the user to send Hayes commands directly to the modem, and to see the responses. In this example, the user of computer A makes the modem dial the phone number of modem B at phone number 555-1234. Note that after every command and response, there is a carriage return sent to complete the command.
+
+The following text lists part of the Hayes command set (also called the AT commands: "AT" meaning attention).
+The Hayes command set can subdivide into four groups:
+A register represents a specific physical location in memory. Modems have small amounts of memory onboard. The fourth set of commands serves for entering values into a particular register (memory location). The register will store a particular variable (alpha-numeric information) which the modem and the communications software can utilize. For example, S7=60 instructs the computer to "Set register #7 to the value 60".
+Although the command-set syntax defines most commands by a letter-number combination (L0, L1 etc.), the use of a zero is optional. In this example, "L0" equates to a plain "L". Keep this in mind when reading the table below.
+Some of the most important characters that may appear in the modem initialization string follow. Normally one should not change these characters.
+When in data-mode an escape sequence can return the modem to command mode. The normal escape sequence is three plus signs ("+++"), and to disambiguate it from possible real data, a guard timer is used: it must be preceded by a pause, not have any pauses between the plus signs, and be followed by a pause; by default a "pause" is one second and "no pause" is anything less.
+
+The following syntactical definitions apply: [3]
+
+While the original Hayes command set represented a huge leap forward in modem-based communications, with time many problems set in, almost none of them due to Hayes per se:
+For example, setting up hardware or software handshaking often required many different commands for different modems. This undermined the handy universality of the basic "AT" command-set.
+As a result of all this, eventually many communiucations programs had to give up any sense of being able to talk to all "Hayes-compatible" modems, and instead the programs had to try to determine the modem type from its responses, or provide the user with some option whereby they could enter whatever special commands it took to coerce their particular modem into acting properly.
+
+Dial the following number and then handshake in originate mode.
+P - Pulse Dial
+T - Touch Tone Dial
+W - Wait for the second dial tone
+R - Reverse to answer-mode after dialing
+@ - Wait for up to 30 seconds for one or more ringbacks
+, - Pause for the time specified in register S8 (usually 2 seconds)
+; - Remain in command mode after dialing.
+! - Flash switch-hook (Hang up for a half second, as in transferring a call.)
+L - Dial last number
+while higher numbers often provide much more useful information. Today, Windows uses this for Plug-and-play detection of specific modem types.
+Note that Sn, ? and =r are actually three separate commands, and can be given in separate AT commands.
+Note: a command string is terminated with a CR (\r) character
+
+Command options:
+
+The ITU-T established a standard in its V-Series Recommendations, V.25 ter, in 1995 in an attempt to establish a standard for the command set again. It was renamed V.250 in 1998 with an annex that was not concerning the Hayes command set renamed as V.251. A V.250 compliant modem implements the A, D, E, H, I, L, M, N, O, P, Q, T, V, X, Z, &C, &D, and &F commands in the way specified by the standard. It must also implement S registers and must use registers S0, S3, S4, S5, S6, S7, S8, and S10 for the purposes given in the standard. Lastly it also must implement any command beginning with the plus sign, "+" followed by any letter A to Z, only in accordance with ITU recommendations. Modem manufacturers are free to implement other commands and S-registers as they see fit, and may add options to standard commands.
+
+The ETSI GSM 07.07 (3GPP TS 27.007) specifies AT style commands for controlling a GSM phone or modem.
+
+Modems with voice or answering-machine capabilities support a superset of these commands to enable digital audio playback and recording.
+
+
+
+
+ITU V-Series | V.92 | K56flex | X2 | MNP | Hayes command set

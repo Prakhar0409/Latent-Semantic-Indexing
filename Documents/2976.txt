@@ -1,0 +1,8 @@
+JabRef
+JabRef is a reference management software that uses BibTeX as its native format. JabRef provides an easy-to-use interface for editing BibTeX files, for importing data from online scientific databases, and for managing and searching BibTeX files.
+JabRef is released under the terms of the GPL license. The application is programmed in Java, and is maintained for Windows, Linux and Mac OS X.
+
+
+The first version of JabRef was released in 2003 after the creators of BibKeeper Morten O. Alver and JBibtexManager Nizar Batada decided to join the two projects. The name JabRef stands for Java, Alver, Batada, Reference.
+
+

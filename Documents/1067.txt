@@ -1,0 +1,15 @@
+Graph drawing
+Graph drawing, as a branch of graph theory, applies topology and geometry to derive two-dimensional representations of graphs. Graph drawing is motivated by applications such as VLSI circuit design, social network analysis, cartography, and bioinformatics.
+A drawing of a graph is basically a pictorial representation of an embedding of the graph in the plane, usually aimed at a convenient visualization of certain properties of the graph in question or of the object modeled by the graph.
+
+Graphs are usually represented pictorially using dots to represent vertices, and arcs to represent the edges between connected vertices. Arrows can be used to show the orientation of directed edges. Note that this graphical representation (a graph layout or an embedding) should not be confused with the graph itself (the abstract, non-graphical structure). Very different layouts can correspond to the same graph. In the abstract, all that matters is which vertices are connected to which others by how many edges. In the concrete, however, the arrangement of these vertices and edges impacts understandability, usability, fabrication cost, and aesthetics.
+Based on these concepts and caveats, there are different graph layout strategies, such as:
+In some applications of graph drawing it is important to formally specify, implement, and verify such procedures.
+
+There is no "best" layout of the drawing of a graph — different ways of displaying a graph emphasize different characteristics.
+One measure of a graph drawing algorithm's quality is the number of edge crossings it draws. While some graphs cannot be drawn without edge crossings, some graphs can. These are called planar graphs. According to this metric, "good" algorithms draw graphs with as few edge crossings as possible.
+Another possible measure is the closeness of vertices. Many graphs look better if non-adjacent vertices are not plotted close to each other. A further measure is the nearness of a vertex to a non-adjacent edge, this distance needs to be sufficiently big for an aesthetically pleasing appearance.
+
+
+
+

@@ -1,0 +1,19 @@
+Hilbert curve
+A Hilbert curve (also known as a Hilbert space-filling curve) is a continuous fractal space-filling curve first described by the German mathematician David Hilbert in 1891.[1]
+Because it is space-filling, its Hausdorff dimension (in the limit ) is 2.
+Hn is the nth approximation to the limiting curve. The Euclidean length of Hn is , i.e., it grows exponentially with n, while at the same time always being bounded by a square with a finite area.
+For multidimensional databases, Hilbert order has been proposed to be used instead of Z order because it has better locality-preserving behavior.
+
+The Hilbert Curve can be expressed by a rewrite system (L-system).
+Here, F means "draw forward", + means "turn left 90°", and − means "turn right 90°" (see turtle graphics).
+
+Butz[2] provided an algorithm for calculating the Hilbert curve in multidimensions.
+The following Java applet draws a Hilbert curve by means of four methods that recursively call one another:
+And here is another version that directly implements the representation as a Lindenmayer system: 
+This is written using the Tuga Turtle programming system, which is built on JRuby. It requires Java 5 or higher. To execute, run Tuga Turtle[1] by accepting the self-signed certificate, copy-paste the above code to replace the code in the left-hand pane, and press "Go". You will see a sixth-order Hilbert curve being drawn by the turtle on the screen.
+What follows is an example of how to draw the Hilbert curve in the Logo programming language. The code involves a parity variable to indicate whether the curve being drawn is a right-hand Hilbert curve or a left-hand Hilbert curve. The parity is a multiplication of the drawing direction by −1 (negative one). This leads to the realization that the right-hand curve is symmetrical to the left-hand curve.
+An example of invoking the curve is: hilbert 200 5
+Lastly, here is an example of how to produce the curve using NumPy in the Python programming language.
+
+
+

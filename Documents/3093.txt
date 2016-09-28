@@ -1,0 +1,27 @@
+Java Persistence API
+The Java Persistence API, sometimes referred to as JPA, is a Java programming language framework that allows developers to manage relational data in Java Platform, Standard Edition and Java Platform, Enterprise Edition applications.
+The Java Persistence API originated as part of the work of the JSR 220 Expert Group.
+Persistence consists of three areas:
+
+A persistence entity is a lightweight Java class that typically represents a table in a relational database. Entity instances correspond to individual rows in the table. Entities typically have relationships with other entities, and these relationships are expressed through object/relational metadata. Object/relational metadata can be specified directly in the entity class file by using annotations, or in a separate XML descriptor file distributed with the application.
+
+The Java Persistence Query Language (JPQL) is used to make queries against entities stored in a relational database. Queries resemble SQL queries in syntax, but operate against entity objects rather than directly with database tables.
+See Wikibooks:Java persistence:JPQL.
+
+The Java Persistence API was defined as part of the EJB 3.0 specification, which is itself part of the Java EE 5 platform. You do not need an EJB container or a Java EE application server in order to run applications that use persistence, however. Future versions of the Java Persistence API will be defined in a separate JSR and specification rather than in the EJB JSR/specification.
+The Java Persistence API replaces the persistence solution of EJB 2.0 CMP.
+
+The Java Persistence API was developed in part to unify the Java Data Objects API, and the EJB 2.0 Container Managed Persistence (CMP) API. This seems to have been successful as most products supporting each of those APIs now support the Java Persistence API.
+The Java Persistence API specifies only relational persistence (ORM) for Java (although there are providers that support other datastores). The Java Data Objects specification(s) provides relational persistence (ORM), as well as persistence to other types of datastores.
+
+The Java Persistence API is designed for relational persistence, with many of the key areas taken from object-relational mapping tools such as Hibernate and TopLink. It is generally accepted that the Java Persistence API is a significant improvement on the EJB 2.0 specification. The Service Data Objects (SDO) API (JSR 235) has a very different objective to the Java Persistence API and is considered complementary. The SDO API is designed for service-oriented architectures, multiple data formats rather than only relational data, and multiple programming languages. The Java version of the SDO API is managed via the Java Community Process and the C++ version of the SDO API is managed via OASIS.
+
+Many enterprise Java developers have been using lightweight persistent objects provided by open-source frameworks or Data Access Objects instead of entity beans because entity beans and enterprise beans were considered too heavyweight and complicated, and they could only be used in Java EE application servers. Many of the features of the third-party persistence frameworks were incorporated into the Java Persistence API, and projects like Hibernate and Open-Source Version TopLink Essentials are now implementations of the Java Persistence API.
+
+Hibernate is an Open source Object-relational mapping framework for Java. Versions 3.2 and later provide an implementation for the Java Persistence API[1].
+Gavin King is the founder[2] of Hibernate. He represented JBoss on JSR220[3], the JCP expert group charged with developing JPA. This led to ongoing controversy and speculation centered around the relationship between JPA and Hibernate. Sun states [4] that ideas were drawn from several frameworks including Hibernate and JDO.
+
+A newer version of JPA, namely JPA 2.0, is under development in JSR 317. The greatest feature of JPA 2.0 is better support java object models mapping to relational models.
+
+
+

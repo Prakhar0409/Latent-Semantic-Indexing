@@ -1,0 +1,25 @@
+Fractal dimension
+In fractal geometry, the fractal dimension, D, is a statistical quantity that gives an indication of how completely a fractal appears to fill space, as one zooms down to finer and finer scales. There are many specific definitions of fractal dimension and none of them should be treated as the universal one. From the theoretical point of view the most important are the Hausdorff dimension, the packing dimension and, more generally, the Rényi dimensions. On the other hand the box-counting dimension and correlation dimension are widely used in practice, partly due to their ease of implementation.
+Although for some classical fractals all these dimensions do coincide, in general they are not equivalent. For example, what is the dimension of the Koch snowflake? It has topological dimension one, but it is by no means a curve: the length of the curve between any two points on it is infinite. No small piece of it is line-like, but neither is it like a piece of the plane or any other. In some sense, we could say that it is too big to be thought of as a one-dimensional object, but too thin to be a two-dimensional object, leading to the question of whether its dimension might best be described in some sense by number between one and two. This is just one simple way of motivating the idea of fractal dimension.
+
+There are two main approaches to generate a fractal structure. One is growing from a unit object, and the other is to construct the subsequent divisions of an original structure, like the Sierpinski triangle (Fig.(2)).[2] Here we follow the second approach to define the dimension of fractal structures.
+If we take an object with linear size equal to 1 residing in Euclidean dimension D, and reduce its linear size by the factor 1 / l in each spatial direction, it takes N = lD number of self similar objects to cover the original object(Fig.(1)). However, the dimension defined by
+is still equal to its topological or Euclidean dimension.[1] By applying the above equation to fractal structure, we can get the dimension of fractal structure (which is more or less the Hausdorff dimension) as a non-whole number as expected.
+where N(ε) is the number of self-similar structures of linear size ε needed to cover the whole structure.
+For instance, the fractal dimension of Sierpinski triangle (Fig.(2)) is given by,
+
+Closely related to this is the box-counting dimension, which considers, if the space were divided up into a grid of boxes of size ε, how does the number of boxes scale that would contain part of the attractor? Again,
+Other dimension quantities include the information dimension, which considers how the average information needed to identify an occupied box scales, as the scale of boxes gets smaller:
+and the correlation dimension, which is perhaps easiest to calculate,
+where M is the number of points used to generate a representation of the fractal or attractor, and gε is the number of pairs of points closer than ε to each other.
+
+The last three can all be seen as special cases of a continuous spectrum of generalised or Rényi dimensions of order α, defined by
+where the numerator in the limit is the Rényi entropy of order α. The Rényi dimension with α=0 treats all parts of the support of the attractor equally; but for larger values of α increasing weight in the calculation is given to the parts of the attractor which are visited most frequently.
+An attractor for which the Rényi dimensions are not all equal is said to be a multifractal, or to exhibit multifractal structure. This is a signature that different scaling behaviour is occurring in different parts of the attractor.
+
+The fractal dimension measures, described above, are derived from fractals which are formally-defined. However, organisms and real-world phenomena exhibit fractal properties (see Fractals in nature), so it can often be useful to characterise the fractal dimension of a set of sampled data. The fractal dimension measures cannot be derived exactly but must be estimated. This is used in a variety of research areas including physics,[3] image analysis,[4] acoustics,[5] Riemann zeta zeros[6] and even (electro)chemical processes.[7]
+Practical dimension estimates are very sensitive to numerical or experimental noise, and particularly sensitive to limitations on the amount of data. Claims based on fractal dimension estimates, particularly claims of low-dimensional dynamical behaviour, should always be taken with a grain of salt — there is an inevitable ceiling, unless very large numbers of data points are presented.
+
+
+
+

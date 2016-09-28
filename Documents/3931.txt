@@ -1,0 +1,11 @@
+Random forest
+Random forest is a machine learning ensemble classifier that consists of many decision trees and outputs the class that is the mode of the class's output by individual trees. The algorithm for inducing a random forest was developed by Leo Breiman[1] and Adele Cutler, and "Random Forests" is their trademark. The term came from random decision forests that was first proposed by Tin Kam Ho of Bell Labs in 1995. The method combines Breiman's "bagging" idea and Ho's "random subspace method" to construct a collection of decision trees with controlled variations.
+
+Each tree is constructed using the following algorithm:
+
+The advantages of random forest are:
+
+
+
+
+

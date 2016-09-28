@@ -1,0 +1,22 @@
+Zend Framework
+Zend Framework (ZF) is an open source, object-oriented web application framework implemented in PHP 5 and licensed under the New BSD License.[1]
+
+Zend Framework was conceived in early 2005 while many new frameworks, such as Ruby on Rails and the Spring Framework, were gaining popularity in the web development community. ZF was publicly announced at the first Zend Conference in October 2005.[2]
+On July 1, 2007, Zend Framework 1.0 was released.[3]
+
+ZF is a use-at-will framework. There is no single development paradigm or pattern that all Zend Framework users must follow, although ZF does provide components for the MVC, Table Data Gateway, and Row Data Gateway design patterns. Zend Framework provides individual components for many other common requirements in web application development.[1]
+Zend Framework also seeks to promote web development best practices in the PHP community; conventions are not as commonly used in ZF as in many other frameworks, rather suggestions are put forth by setting reasonable defaults that can be overridden for each ZF application’s specific requirements.[4]
+
+Zend Framework is licensed under the Open Source Initiative(OSI)-approved New BSD License, and all code contributors must sign a Contributor License Agreement (CLA) based on the Apache Software Foundation’s CLA. The licensing and contribution policies were established to prevent intellectual property issues for commercial ZF users, according to Zend's Andi Gutmans[5].
+
+Zend Technologies, co-founded by PHP core contributors Andi Gutmans and Zeev Suraski, is the corporate sponsor of Zend Framework.[6] Technology partners include IBM[7], Google[8], Microsoft[9], Adobe Systems[10], and StrikeIron[11].
+
+Zend Framework requires PHP 5.2.4 or later since version 1.7.0. Previous versions required PHP 5.1.4 or later, although the ZF Programmer's Reference Guide strongly recommended PHP 5.2.3 or later for security and performance improvements included in these versions of PHP. PHPUnit 3.0 or later is required to run the unit tests shipped with Zend Framework. Many components also require PHP extensions.[12]
+
+Zend Framework features include:[4]
+
+Code contributions to Zend Framework are subject to rigorous code, documentation, and test standards. All code must meet ZF’s coding standards and unit tests must reach 80% code coverage before the corresponding code may be moved to the release branch.[13]
+
+
+
+

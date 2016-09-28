@@ -1,0 +1,20 @@
+List of Google products
+This list of Google products includes all major desktop, mobile and online products released or acquired by Google Inc.. They are either a gold release, in beta development, or part of the Google Labs initiative. This list also includes previous products, that have either been merged, discarded or renamed. Features of products, such as Web Search features, are not listed.
+
+
+
+These products created by Google are extensions to software created by other organizations.
+
+
+These products can be accessed through a browser on a mobile device or a standard desktop web browser such as Firefox.
+
+Some of these products must be downloaded and run from a mobile device.
+
+These products must be accessed via a Web browser.
+
+
+
+
+
+(For Google Earth, see "Standalone applications")
+

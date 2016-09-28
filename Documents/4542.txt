@@ -1,0 +1,23 @@
+Unified Process
+The Unified Software Development Process or Unified Process is a popular iterative and incremental software development process framework. The best-known and extensively documented refinement of the Unified Process is the Rational Unified Process (RUP).
+
+The Unified Process is not simply a process, but rather an extensible framework which should be customized for specific organizations or projects. The Rational Unified Process is, similarly, a customizable framework. As a result it is often impossible to say whether a refinement of the process was derived from UP or from RUP, and so the names tend to be used interchangeably.
+The name Unified Process as opposed to Rational Unified Process is generally used to describe the generic process, including those elements which are common to most refinements. The Unified Process name is also used to avoid potential issues of copyright infringement since Rational Unified Process and RUP are trademarks of IBM. The first book to describe the process was titled The Unified Software Development Process (ISBN 0-201-57169-2) and published in 1999 by Ivar Jacobson, Grady Booch and James Rumbaugh. Since then various authors unaffiliated with Rational Software have published books and articles using the name Unified Process, whereas authors affiliated with Rational Software have favored the name Rational Unified Process.
+
+
+The Unified Process is an iterative and incremental development process. The Elaboration, Construction and Transition phases are divided into a series of timeboxed iterations. (The Inception phase may also be divided into iterations for a large project.) Each iteration results in an increment, which is a release of the system that contains added or improved functionality compared with the previous release.
+Although most iterations will include work in most of the process disciplines (e.g. Requirements, Design, Implementation, Testing) the relative effort and emphasis will change over the course of the project.
+
+In the Unified Process, use cases are used to capture the functional requirements and to define the contents of the iterations. Each iteration takes a set of use cases or scenarios from requirements all the way through implementation, test and deployment.
+
+The Unified Process insists that architecture sit at the heart of the project team's efforts to shape the system. Since no single model is sufficient to cover all aspects of a system, the Unified Process supports multiple architectural models and views.
+One of the most important deliverables of the process is the executable architecture baseline which is created during the Elaboration phase. This partial implementation of the system serves to validate the architecture and act as a foundation for remaining development.
+
+The Unified Process requires the project team to focus on addressing the most critical risks early in the project life cycle. The deliverables of each iteration, especially in the Elaboration phase, must be selected in order to ensure that the greatest risks are addressed first.
+
+Refinements of the Unified Process vary from each other in how they categorize the project disciplines or workflows. The Rational Unified Process defines nine disciplines: Business Modeling, Requirements, Analysis and Design, Implementation, Test, Deployment, Configuration and Change Management, Project Management, and Environment. The Enterprise Unified Process extends RUP through the addition of eight "enterprise" disciplines. Agile refinements of UP such as OpenUP/Basic and the Agile Unified Process simplify RUP by reducing the number of disciplines.
+Refinements also vary in the emphasis placed on different project artifacts. Agile refinements streamline RUP by simplifying workflows and reducing the number of expected artifacts.
+Refinements also vary in their specification of what happens after the Transition phase. In the Rational Unified Process the Transition phase is typically followed by a new Inception phase. In the Enterprise Unified Process the Transition phase is followed by a Production phase.
+The number of Unified Process refinements and variations is countless. Organizations utilizing the Unified Process invariably incorporate their own modifications and extensions. The following is a list of some of the better known refinements and variations.
+
+

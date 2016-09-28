@@ -1,0 +1,24 @@
+Gutmann method
+The Gutmann method is an algorithm for securely erasing the contents of computer hard drives, such as files. Devised by Peter Gutmann and Colin Plumb, it does so by writing a series of 35 patterns over the region to be erased.
+The selection of patterns assumes that the user doesn't know the encoding mechanism used by the drive, and so includes patterns designed specifically for three different types of drives. A user who knows which type of encoding the drive uses can choose only those patterns intended for their drive. A drive with a different encoding mechanism would need different patterns. Most of the patterns in the Gutmann method were designed for older MFM/RLL encoded disks. Relatively modern drives no longer use the older encoding techniques, making many of the patterns specified by Gutmann superfluous.[1]
+
+One standard way to recover data that has been overwritten on a hard drive is to capture the analog signal which is read by the drive head prior to being decoded. This analog signal will be close to an ideal digital signal, but the differences are what is important. By calculating the ideal digital signal and then subtracting it from the actual analog signal it is possible to ignore that last information written, amplify the remaining signal and see what was written before.
+For example:
+This can then be done again to see the previous data written:
+However, even when overwriting the disk repeatedly with random data it's theoretically possible to recover the previous signal. The permittivity of a medium changes with the frequency of the magnetic field[citation needed]. This means that a lower frequency field will penetrate deeper into the magnetic material on the drive than a high frequency one[citation needed]. So a low frequency signal will, in theory still be detectable even after it has been overwritten hundreds of times by a high frequency signal.
+The patterns used are designed to apply alternating magnetic fields of various frequencies and various phases to the drive surface and thereby approximate degaussing the material below the surface of the drive[citation needed].
+
+An overwrite session consists of a lead-in of four random write patterns, followed by patterns 5-31, executed in a random order, and a lead-out of four more random patterns.
+Each of patterns 5-31 was designed with a specific magnetic media encoding scheme in mind, which each pattern targets. The drive is written to for all the passes even though the table below only shows the bit patterns for the passes that are specifically targeted at each encoding scheme. The end result should obscure any data on the drive so that only the most advanced physical scanning (e.g. using a magnetic force microscope) of the drive is likely to be able to recover any data.
+The series of patterns is as follows:
+Encoded bits shown in bold are what should be present in the ideal pattern, although due to the encoding the complementary bit is actually present at the start of the track.
+
+Some have criticized Gutmann's claim that intelligence agencies are likely to be able to read overwritten data.[2]
+The delete function in most operating systems simply marks the space occupied by the file as reusable (removes the pointer to the file) without immediately removing any of its contents. At this point the file can be fairly easily recovered by numerous recovery applications. However, once the space is overwritten with other data, there is no known way to recover it. It cannot be done with software alone since the storage device only returns its current contents via its normal interface. Gutmann claims that intelligence agencies have sophisticated tools, among these magnetic force microscopes, that, together with image analysis, can detect the previous values of bits on the affected area of the media (for example hard disk).
+This has not been proven one way or the other, and there is no published evidence as to intelligence agencies' current ability to recover files whose sectors have been overwritten, although published Government security procedures clearly consider an overwritten disk to still be sensitive.[3]
+Companies specializing in recovery from damaged media cannot recover completely overwritten files. These companies specialize in the recovery of information from media that has been damaged by fire, water or otherwise. No private data recovery company claims that it can reconstruct completely overwritten data as of now.
+Gutmann himself has responded to some of these criticisms and also criticized how his algorithm has been abused in an epilogue to his original paper, in which he states [1]:
+
+
+
+

@@ -1,0 +1,33 @@
+Arbitrage pricing theory
+Arbitrage pricing theory (APT), in finance, is a general theory of asset pricing, that has become influential in the pricing of stocks.
+APT holds that the expected return of a financial asset can be modeled as a linear function of various macro-economic factors or theoretical market indices, where sensitivity to changes in each factor is represented by a factor-specific beta coefficient. The model-derived rate of return will then be used to price the asset correctly - the asset price should equal the expected end of period price discounted at the rate implied by model. If the price diverges, arbitrage should bring it back into line.
+The theory was initiated by the economist Stephen Ross in 1976.
+
+If APT holds, then a risky asset can be described as satisfying the following relation:
+That is, the uncertain return of an asset j is a linear relationship among n factors. Additionally, every factor is also considered to be a random variable with mean zero.
+Note that there are some assumptions and requirements that have to be fulfilled for the latter to be correct: There must be perfect competition in the market, and the total number of factors may never surpass the total number of assets (in order to avoid the problem of matrix singularity),
+
+Arbitrage is the practice of taking advantage of a state of imbalance between two (or possibly more) markets and thereby making a risk-free profit; see Rational pricing.
+
+The APT describes the mechanism of arbitrage whereby investors will bring an asset which is mispriced, according to the APT model, back into line with its expected price. Note that under true arbitrage, the investor locks-in a guaranteed payoff, whereas under APT arbitrage as described below, the investor locks-in a positive expected payoff. The APT thus assumes "arbitrage in expectations" - i.e. that arbitrage by investors will bring asset prices back into line with the returns expected by the model.
+
+In the APT context, arbitrage consists of trading in two assets – with at least one being mispriced. The arbitrageur sells the asset which is relatively too expensive and uses the proceeds to buy one which is relatively too cheap.
+Under the APT, an asset is mispriced if its current price diverges from the price predicted by the model. The asset price today should equal the sum of all future cash flows discounted at the APT rate, where the expected return of the asset is a linear function of various factors, and sensitivity to changes in each factor is represented by a factor-specific beta coefficient.
+A correctly priced asset here may be in fact a synthetic asset - a portfolio consisting of other correctly priced assets. This portfolio has the same exposure to each of the macroeconomic factors as the mispriced asset. The arbitrageur creates the portfolio by identifying x correctly priced assets (one per factor plus one) and then weighting the assets such that portfolio beta per factor is the same as for the mispriced asset.
+When the investor is long the asset and short the portfolio (or vice versa) he has created a position which has a positive expected return (the difference between asset return and portfolio return) and which has a net-zero exposure to any macroeconomic factor and is therefore risk free (other than for firm specific risk). The arbitrageur is thus in a position to make a risk-free profit:
+Where today's price is too low:
+Where today's price is too high:
+
+The APT along with the capital asset pricing model (CAPM) is one of two influential theories on asset pricing. The APT differs from the CAPM in that it is less restrictive in its assumptions. It allows for an explanatory (as opposed to statistical) model of asset returns. It assumes that each investor will hold a unique portfolio with its own particular array of betas, as opposed to the identical "market portfolio". In some ways, the CAPM can be considered a "special case" of the APT in that the securities market line represents a single-factor model of the asset price, where beta is exposed to changes in value of the market.
+Additionally, the APT can be seen as a "supply-side" model, since its beta coefficients reflect the sensitivity of the underlying asset to economic factors. Thus, factor shocks would cause structural changes in assets' expected returns, or in the case of stocks, in firms' profitabilities.
+On the other side, the capital asset pricing model is considered a "demand side" model. Its results, although similar to those of the APT, arise from a maximization problem of each investor's utility function, and from the resulting market equilibrium (investors are considered to be the "consumers" of the assets).
+
+
+As with the CAPM, the factor-specific Betas are found via a linear regression of historical security returns on the factor in question. Unlike the CAPM, the APT, however, does not itself reveal the identity of its priced factors - the number and nature of these factors is likely to change over time and between economies. As a result, this issue is essentially empirical in nature. Several a priori guidelines as to the characteristics required of potential factors are, however, suggested:
+Chen, Roll and Ross (1986) identified the following macro-economic factors as significant in explaining security returns:
+As a practical matter, indices or spot or futures market prices may be used in place of macro-economic factors, which are reported at low frequency (e.g. monthly) and often with significant estimation errors. Market indices are sometimes derived by means of factor analysis. More direct "indices" that might be used are:
+
+The linear factor model structure of the APT is used as the basis for many of the commercial risk systems employed by asset managers. These include MSCI Barra, APT, Northfield and Axioma.
+
+
+

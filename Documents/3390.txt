@@ -1,0 +1,8 @@
+Wapedia
+Wapedia is a WAP site created by Florian Amrhein and operated by Taptu that brings the contents of Wikipedia to mobile devices like mobile phones and PDAs.[1][2] It offers the most recent version of every article, which is done by using a combination of a proxy-like behavior and a local article database. This combination provides fast speed and up-to-date articles on the one hand, and a low load and low traffic for the Wikipedia servers on the other hand.[2] Wapedia was started in August 2004.
+Wapedia can be accessed by visiting http://wapedia.mobi in a WAP or mobile web browser on a mobile phone or PDA.
+Standard Wikipedia pages are typically too long for display on these devices so long pages are divided into smaller chunks to fit into the small displays. To reduce the bandwidth requirements, images are scaled down to the resolution of the mobile device. In addition Wapedia includes a fast search engine, independent from Wikipedia servers. Wapedia supports WML and modern XHTML Mobile formats, with an autodetection of the best format for each device. Articles are served from an independent article database.[2]
+Unlike many other mobile Wikipedia solutions Wapedia injects advertising into the mobile versions of Wikipedia pages.
+
+
+

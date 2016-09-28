@@ -1,0 +1,30 @@
+Nmap
+Nmap is a security scanner originally written by Gordon Lyon (also known by his pseudonym Fyodor Vaskovich).[1] It may be used to discover computers and services on a computer network, thus creating a "map" of the network. Just like many simple port scanners, Nmap is capable of discovering passive services on a network despite the fact that such services aren't advertising themselves with a service discovery protocol. In addition Nmap may be able to determine various details about the remote computers. These include operating system, device type, uptime, software product used to run a service, exact version number of that product, presence of some firewall techniques and, on a local area network, even vendor of the remote network card.
+Nmap runs on Linux, Microsoft Windows, Solaris, and BSD (including Mac OS X), and also on AmigaOS.[2] Linux is the most popular nmap platform and Windows the second most popular.[3]
+
+Nmap features include:
+Typical uses of Nmap:
+
+NmapFE, originally written by Zach Smith, was Nmap's official GUI for Nmap versions 2.2 to 4.22.[7] For Nmap 4.50 (originally in the 4.22SOC development series) NmapFE was replaced with Zenmap, a new graphical user interface based on UMIT, developed by Adriano Monteiro Marques.
+Various web-based interfaces have also been available for controlling Nmap remotely from a web browser. These include LOCALSCAN,[8] nmap-web,[9] and Nmap-CGI.[10]
+Also some Microsoft Windows specific GUIs exist. These include NMapWin,[11] which has not been updated since v1.4.0 was released in June 2003, and NMapW[12] by Syhunt.
+Zenmap, showing results for a port scan against Wikipedia
+NmapFE, showing results for a port scan against Wikipedia
+XNmap, a Mac OS X GUI.
+
+Nmap's preferred output format is XML, which comes in handy for interpreted languages because they can parse and present this information for use by users' scripts.
+
+Nmap was first published in September 1997, as an article in Phrack Magazine with source-code included[13] Further development included better algorithms for determining which services were running,[14] code rewrites (C to C++), additional scan types and protocol support (e.g. IPv6) Nmap reached version 4.0 in January 2006 and version 4.5 in December 2007. Changes in each release are recorded in the Nmap Changelog.[15]
+It is used to discover computers and services on a computer network, thus creating a “map” of the network. Just like many simple port scanners, Nmap is capable of discovering passive services on a network despite the fact that such services aren’t advertising themselves with a service discovery protocol. In addition Nmap may be able to determine various details about the remote computers. These include operating system, device type, uptime, software product used to run a service, exact version number of that product, presence of some firewall techniques and, on a local area network, even vendor of the remote network card.[16]
+
+Like most tools used in computer security, Nmap can be used for black hat hacking,[17] or attempting to gain unauthorized access to computer systems. It would typically be used to discover open ports which are likely to be running vulnerable services, in preparation for attacking those services with another program.[18]
+System administrators often use Nmap to search for unauthorized servers on their network, or for computers which don't meet the organization's minimum level of security.[19]
+Nmap is often confused with host vulnerability assessment tools such as Nessus, which go further in their exploration of a target by testing for common vulnerabilities in the open ports found.
+In some jurisdictions unauthorized port scanning may be illegal.[citation needed]
+
+In The Matrix Reloaded, Trinity is seen using Nmap to access a power plant's computer system [1], allowing Neo to physically break in to a building.
+The appearance of Nmap in the film was widely discussed on internet forums [2], and hailed as an unusually realistic example of hacking compared to other movies [3]. It is thought that Trinity used the CRC32 compensation attack detector exploit [4] (discovered in 2001) to gain entry, once Nmap revealed the existence of an SSH service [5].
+Nmap and NmapFE were used in The Listening, a 2006 movie about a former NSA officer who defects and mounts a clandestine counter-listening station high in the Italian alps.
+Some Nmap source code can be seen in the movie Battle Royale [6], as well as brief views of the command line version of Nmap executing in Die Hard 4 and Bourne Ultimatum
+
+

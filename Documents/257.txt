@@ -1,0 +1,14 @@
+Dynamic memory allocation
+In computer science, dynamic memory allocation is the allocation of memory storage for use in a computer program during the runtime of that program. It can be seen also as a way of distributing ownership of limited memory resources among many pieces of data and code.
+Dynamically allocated memory exists until it is released either explicitly by the programmer, exiting a block, or by the garbage collector. This is in contrast to static memory allocation, which has a fixed duration. It is said that an object so allocated has a dynamic lifetime.
+
+Usually, memory is allocated from a large pool of unused memory area called the heap (also called the free store). Since the precise location of the allocation is not known in advance, the memory is accessed indirectly, usually via a reference. The precise algorithm used to organize the memory area and allocate and deallocate chunks is hidden behind an abstract interface and may use any of the methods described below.
+
+
+Fixed-size-blocks allocation, also called memory pool allocation, uses a free list of fixed-size blocks of memory (often all of the same size). This works well for simple embedded systems.
+
+In this system, memory is allocated from a large block in memory that is a power of two in size. If the block is more than twice as large as desired, it is broken in two. One of the halves is selected, and the process repeats (checking the size again and splitting if needed) until the block is just large enough.
+All the blocks of a particular size are kept in a sorted linked list or tree. When a block is freed, it is compared to its buddy. If they are both free, they are combined and placed in the next-largest size buddy-block list. (When a block is allocated, the allocator will start with the smallest sufficiently large block avoiding needlessly breaking blocks)
+
+
+

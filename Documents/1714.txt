@@ -1,0 +1,31 @@
+Sparse matrix
+In the mathematical subfield of numerical analysis a sparse matrix is a matrix populated primarily with zeros (Stoer & Bulirsch 2002, p.�619).
+Conceptually, sparsity corresponds to systems which are loosely coupled. Consider a line of balls connected by springs from one to the next; this is a sparse system. By contrast, if the same line of balls had springs connecting every ball to every other ball, the system would be represented by a dense matrix. The concept of sparsity is useful in combinatorics and application areas such as network theory, of a low density of significant data or connections.
+Huge sparse matrices often appear in science or engineering when solving partial differential equations.
+When storing and manipulating sparse matrices on a computer, it is beneficial and often necessary to use specialized algorithms and data structures that take advantage of the sparse structure of the matrix. Operations using standard matrix structures and algorithms are slow and consume large amounts of memory when applied to large sparse matrices. Sparse data is by nature easily compressed, and this compression almost always results in significantly less memory usage. Indeed, some very large sparse matrices are impossible to manipulate with the standard algorithms.
+
+The naive data structure for a matrix is a two-dimensional array. Each entry in the array represents an element ai,j of the matrix and can be accessed by the two indices i and j. For an m×n matrix we need at least enough memory to store (m×n) entries to represent the matrix.
+Many if not most entries of a sparse matrix are zeros. The basic idea when storing sparse matrices is to store only the non-zero entries as opposed to storing all entries. Depending on the number and distribution of the non-zero entries, different data structures can be used and yield huge savings in memory when compared to a naïve approach.
+One example of such a sparse matrix format is the Yale Sparse Matrix Format. It stores an initial sparse m×n matrix, M, in row form using three one-dimensional arrays. Let NNZ denote the number of nonzero entries of M. The first array is A, which is of length NNZ, and holds all nonzero entries of M in left-to-right top-to-bottom order. The second array is IA, which is of length m + 1 (i.e., one entry per row, plus one). IA(i) contains the index in A of the first nonzero element of row i. Row i of the original matrix extends from A(IA(i)) to A(IA(i+1)-1). The third array, JA, contains the column index of each element of A, so it also is of length NNZ.
+For example, the matrix
+is a three-by-four matrix with six nonzero elements, so
+
+
+A bitmap image having only 2 colors, with one of them dominant (say a file that stores a handwritten signature) can be encoded as a sparse matrix that contains only row and column numbers for pixels with the non-dominant color.
+
+A very efficient structure for a diagonal matrix is to store just the entries in the main diagonal as a one-dimensional array, so a diagonal n×n matrix requires only n entries.
+
+The lower bandwidth of a matrix A is the smallest number p such that the entry aij vanishes whenever i > j + p. Similarly, the upper bandwidth is the smallest p such that aij = 0 whenever i < j − p (Golub & Van Loan 1996, §1.2.1). For example, a tridiagonal matrix has lower bandwidth 1 and upper bandwidth 1.
+Matrices with small upper and lower bandwidth are known as band matrices and often lend themselves to simpler algorithms than general sparse matrices; one can sometimes apply dense matrix algorithms and simply loop over a reduced number of indices.
+
+The Cuthill-McKee algorithm can be used to reduce the bandwidth of a sparse symmetric matrix. There are, however, matrices for which the Reverse Cuthill-McKee algorithm performs better.
+The U.S. National Geodetic Survey (NGS) uses Dr. Richard Snay's "Banker's" algorithm because on realistic sparse matrices used in Geodesy work it has better performance.
+There are many other methods in use.
+
+The fill-in of a matrix are those entries which change from an initial zero to a non-zero value during the execution of an algorithm. To reduce the memory requirements and the number of arithmetic operations used during an algorithm it is useful to minimize the fill-in by switching rows and columns in the matrix. The symbolic Cholesky decomposition can be used to calculate the worst possible fill-in before doing the actual Cholesky decomposition.
+There are other methods than the Cholesky decomposition in use. Orthogonalization methods (such as QR factorization) are common, for example, when solving problems by least squares methods. While the theoretical fill-in is still the same, in practical terms the "false non-zeros" can be different for different methods. And symbolic versions of those algorithms can be used in the same manner as the symbolic Cholesky to compute worst case fill-in.
+
+Both iterative and direct methods exist for sparse matrix solving. One popular iterative method is the conjugate gradient method.
+
+
+

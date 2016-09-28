@@ -1,0 +1,48 @@
+Business Process Modeling Notation
+Business Process Modeling Notation (BPMN) is a graphical representation for specifying business processes in a workflow.
+BPMN was developed by Business Process Management Initiative (BPMI), and is currently maintained by the Object Management Group since the two organizations merged in 2005. As of January 2009, the current version of BPMN is 1.2, with a major revision process for BPMN 2.0 in progress.[1][2]
+
+The Business Process Modeling Notation (BPMN) is a standard for business process modeling, and provides a graphical notation for specifying business processes in a Business Process Diagram (BPD)[3], based on a flowcharting technnique very similar to activity diagrams from Unified Modelling Language (UML)[4]. The objective of BPMN is to support business process management for both technical users and business users by providing a notation that is intuitive to business users yet able to represent complex process semantics. The BPMN specification also provides a mapping between the graphics of the notation to the underlying constructs of execution languages, particularly Business Process Execution Language[5].
+The primary goal of BPMN is to provide a standard notation that is readily understandable by all business stakeholders. These business stakeholders include the business analysts who create and refine the processes, the technical developers responsible for implementing the processes, and the business managers who monitor and manage the processes. Consequently, BPMN is intended to serve as common language to bridge the communication gap that frequently occurs between business process design and implementation.
+Currently there are several competing standards for business process modeling languages used by modeling tools and processes.[6] Widespread adoption of the BPMN will help unify the expression of basic business process concepts (e.g., public and private processes, choreographies), as well as advanced process concepts (e.g., exception handling, transaction compensation).
+
+
+BPMN will be constrained to support only the concepts of modeling that are applicable to business processes. This means that other types of modeling done by organizations for non-business purposes will be out of scope for BPMN. For example, the modeling of the following will not be a part of BPMN:
+In addition, while BPMN will show the flow of data (messages), and the association of data artifacts to activities, it is not a data flow diagram.
+
+The modeling in BPMN is made by simple diagrams with a small set of graphical elements. It should make it easy for business users as well as developers to understand the flow and the process. The four basic categories of elements are as follows:
+These four categories of elements give us the opportunity to make a simple business process diagram (BPD). It is also allowed in BPD to make your own type of a Flow Object or an Artifact to make the diagram more understandable.
+
+Event
+Activity
+Gateway
+Connections
+Flow objects are the main describing elements within BPMN, and consist of three core elements (Events, Activities, and Gateways):
+
+Flow objects are connected to each other using Connecting objects, which consist of three types (Sequences, Messages, and Associations):
+
+Swimlanes
+Groups
+Annotation
+Swim lanes are a visual mechanism of organising and categorising activities, based on cross functional flowcharting, and in BPMN consist of two types:
+
+Artifacts allow developers to bring some more information into the model/diagram. In this way the model/diagram becomes more readable. There are three pre-defined Artifacts and they are:
+
+
+A Process with Normal Flow
+Discussion Cycle
+E-Mail Voting Process
+Collect Votes
+Within and between these three BPMN sub-models, many types of Diagrams can be created. The following are the types of business processes that can be modeled with BPMN (those with asterisks may not map to an executable language):
+BPMN is designed to allow all the above types of Diagrams. However, it should be cautioned that if too many types of sub-models are combined, such as three or more private processes with message flow between each of them, then the Diagram may become too hard for someone to understand. Thus, we recommend that the modeler pick a focused purpose for the BPD, such as a private process, or a collaboration process.
+
+The Business Process Model and Notation is the name of the working proposal for BPMN 2.0[7] The vision of BPMN 2.0 is to have one single specification for a new Business Process Model and Notation that defines the notation, metamodel and interchange format but with a modified name that still preserves the "BPMN" brand. The proposed features include
+The recommendation for the new BPMN is scheduled to be ready within 2008. There are two different groups working on competing drafts of the specification[8]. The first group, including e.g. EDS and MEGA, aims at incorporating BPDM directly into the BPMN specification. The second group, including e.g. SAP, IBM and Oracle, does not want to include BPDM directly, but instead provide a mapping between both standards. Since July 2008, both groups discuss how to merge both drafts to come up with a single specification.
+
+Business process modeling is used to communicate a wide variety of information to a wide variety of audiences. BPMN is designed to cover this wide range of usage and allows modeling of end-to-end business processes to allow the viewer of the Diagram to be able to easily differentiate between sections of a BPMN Diagram. There are three basic types of sub-models within an end-to-end BPMN model: Private (internal) business processes, Abstract (public) processes, and Collaboration (global) processes:
+
+The weaknesses of BPMN could relate to:
+
+
+
+

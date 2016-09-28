@@ -1,0 +1,16 @@
+Bipartite graph
+In the mathematical field of graph theory, a bipartite graph (or bigraph) is a graph whose vertices can be divided into two disjoint sets U and V such that every edge connects a vertex in U to one in V; that is, U and V are independent sets. Equivalently, a bipartite graph is a graph that does not contain any odd-length cycles.
+The two sets U and V may be thought of as the colors of a coloring of the graph with two colors: if we color all nodes in U blue, and all nodes in V green, each edge has endpoints of differing colors, as is required in the graph coloring problem. In contrast, such a coloring is impossible in the case of a nonbipartite graph, such as a triangle: after one node is colored blue and another green, the third vertex of the triangle is connected to vertices of both colors, preventing it from being assigned either color.
+One often writes G = (U, V, E) to denote a bipartite graph whose partition has the parts U and V. If |U| =|V|, that is, if the two subsets have equal cardinality, then G is called a balanced bipartite graph.
+
+
+If a bipartite graph is connected, its bipartition can be defined by the parity of the distances from any arbitrarily chosen vertex v: one subset consists of the vertices at even distance to v and the other subset consists of the vertices at odd distance to v.
+Thus, one may efficiently test whether a graph is bipartite by using this parity technique to assign vertices to the two subsets U and V, separately within each connected component of the graph, and then examine each edge to verify that it has endpoints assigned to different subsets.
+
+Bipartite graphs are useful for modelling matching problems. An example of bipartite graph is a job matching problem. Suppose we have a set P of people and a set J of jobs, with not all people suitable for all jobs. We can model this as a bipartite graph (P, J, E). If a person px is suitable for a certain job jy there is an edge between px and jy in the graph. The marriage theorem provides a characterization of bipartite graphs which allow perfect matchings.
+Bipartite graphs are extensively used in modern Coding theory, especially to decode codewords received from the channel. Factor graphs and Tanner graphs are examples of this.
+In computer science, a Petri net is a mathematical modelling tool used in analysis and simulations of concurrent systems. A system is modelled as a bipartite directed graph with two sets of nodes: A set of "place" nodes that contain resources, and a set of "event" nodes which generate and/or consume resources. There are additional constraints on the nodes and edges that constrain the behavior of the system. Petri nets utilize the properties of bipartite directed graphs and other properties to allow mathematical proofs of the behavior of systems while also allowing easy implementation of simulations of the system.
+In projective geometry, Levi graphs are a form of bipartite graph used to model the incidences between points and lines in a configuration.
+
+
+

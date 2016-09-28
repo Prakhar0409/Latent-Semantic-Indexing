@@ -1,0 +1,10 @@
+NAT Port Mapping Protocol
+NAT Port Mapping Protocol (NAT-PMP) is an Internet Engineering Task Force Internet Draft, introduced by Apple Computer as an alternative to the more common Internet Gateway Device (IGD) Standardized Device Control Protocol implemented in many network address translation (NAT) routers. It was introduced in June 2005. NAT-PMP allows a computer in a private network (behind a NAT router) to automatically configure the router to allow parties outside the private network to contact itself. NAT-PMP runs over UDP. It essentially automates the process of port forwarding.
+NAT-PMP is much more elegant than uPnP.[1] uPnP has a large standards committee and the reference and standards documents are 25 Megabytes.[2] In comparison, NAT-PMP is summed up in one 1600 line RFC.[3] which can be easily specified with a few simple tables.[1] Furthermore uPnP requires a complicated discovery process and UUID mapping specifications, etc... all which NAT-PMP succeeds without.
+Included in the protocol is a method for retrieving the public IP address of a NAT gateway, thus allowing a client to make this public IP address and port number known to peers that may wish to communicate with it. This protocol is implemented in current Apple products including Mac OS X 10.4 Tiger and 10.5 Leopard, AirPort Extreme and AirPort Express networking products, and Bonjour for Windows.
+
+
+Manufacturer and model - Router firmware version tested
+
+
+

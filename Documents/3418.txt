@@ -1,0 +1,19 @@
+Business case
+The purpose of a business case is to capture the reasoning for initiating a project or task. It is often presented in a well-structured written document, but may also sometimes come in the form of a short verbal argumentation. The logic of the business case is that, whenever resources such as money or effort are consumed, they should be in support of the business. An example could be that a software upgrade might improve system performance, but the "business case" is that better performance would improve customer satisfaction.
+Business cases can range from comprehensive and highly structured, as required by formal project management methodologies, to informal and brief. Information included in a formal business case could be the background of the project, the expected business benefits, the options considered (with reasons for rejecting or carrying forward each option), the expected costs of the project, a gap analysis and the expected risks. Consideration should also be given to the option of doing nothing including the costs and risks of inactivity. From this information, the justification for the project is derived.
+At various stages in the project, the business case should be reviewed to ensure that:
+The result of a review may be the termination or amendment of the project. The business case may also be subject to amendment if the review concludes that the business need has abated or changed, this will have a knock on effect on the project.
+
+Formal business cases are evaluated to ensure;
+
+The Business Case Process should be designed to be:
+The principal purposes of the formal business case process are:
+
+Generation of the Business Case should not be mechanical. Indeed, the case must demonstrate that: the issues have been thought through, the full benefits will be realised on time, any technical aspects have been thoroughly evaluated and costed, and track and measure their achievement.
+(For any IT project it is unlikely that any significant proposal would be submitted to the Executive Management Team for approval without both the business sponsor and the head of IT agreeing on the merit of the proposal.)
+A business case should contain some or all of the following information types (depending on the size, timing, scale and availability of information):
+
+
+
+
+Extracted with permission from The Complete Value Engineering Program [1]

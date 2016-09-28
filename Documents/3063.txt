@@ -1,0 +1,36 @@
+Historical method
+The historical method comprises the techniques and guidelines by which historians use primary sources and other evidence to research and then to write history. The question of the nature, and indeed the possibility, of sound historical method is raised in the philosophy of history, as a question of epistemology. The following summarizes the history guidelines commonly used by historians in their work, under the headings of external criticism, internal criticism, and synthesis.
+
+Garraghan divides criticism into six inquiries[1]
+The first four are known as higher criticism; the fifth, lower criticism; and, together, external criticism. The sixth and final inquiry about a source is called internal criticism.
+R. J. Shafer on external criticism: "It sometimes is said that its function is negative, merely saving us from using false evidence; whereas internal criticism has the positive function of telling us how to use authenticated evidence."[2]
+
+R. J. Shafer writes, "Determination of authorship and date involves one or all of the following: (a) content analysis, (b) comparison with the content of other evidence, (c) tests of the physical properties of the evidence."[3] Content analysis includes examinations of anachronisms in language, datable references, and consistency with a cultural setting. Comparison with other writings may involve palaeography, the study of style of handwriting, the study of stylometry and comparison of literary style with known authors, or something as simple as a reference to the document's author in another one of his works or by a contemporary. Physical properties include the properties of the paper, the consistency of the ink, and the appearance of a seal, as well as the results of radioactive carbon dating.
+
+Lower criticism is more frequently known as "textual criticism," and it is concerned with determining an accurate text in cases where we have copies instead of the original. Approaches to textual criticism include eclecticism, stemmatics, and cladistics. At the heart of eclecticism is that one should adopt the reading as original that most easily explains the derivation of the alternative readings. Stemmatics attempts to construct a "family tree" of extant manuscripts to help determine the correct reading. Cladistics makes use of statistical analysis in a similar endeavor.
+
+Noting that few documents are accepted as completely reliable, Louis Gottschalk sets down the general rule, "for each particular of a document the process of establishing credibility should be separately undertaken regardless of the general credibility of the author." An author's trustworthiness in the main may establish a background probability for the consideration of each statement, but each piece of evidence extracted must be weighed individually.
+
+R. J. Shafer offers this checklist for evaluating eyewitness testimony:[4]
+Louis Gottschalk adds an additional consideration: "Even when the fact in question may not be well-known, certain kinds of statements are both incidental and probable to such a degree that error or falsehood seems unlikely. If an ancient inscription on a road tells us that a certain proconsul built that road while Augustus was princeps, it may be doubted without further corroboration that that proconsul really built the road, but would be harder to doubt that the road was built during the principate of Augusutus. If an advertisement informs readers that 'A and B Coffee may be bought at any reliable grocer's at the unusual price of fifty cents a pound,' all the inferences of the advertisement may well be doubted without corroboration except that there is a brand of coffee on the market called 'A and B Coffee.'"[5]
+Garraghan says that most information comes from "indirect witnesses," people who were not present on the scene but heard of the events from someone else.[6] Gottschalk says that a historian may sometimes use hearsay evidence. He writes, "In cases where he uses secondary witnesses, however, he does not rely upon them fully. On the contrary, he asks: (1) On whose primary testimony does the secondary witness base his statements? (2) Did the secondary witness accurately report the primary testimony as a whole? (3) If not, in what details did he accurately report the primary testimony? Satisfactory answers to the second and third questions may provide the historian with the whole or the gist of the primary testimony upon which the secondary witness may be his only means of knowledge. In such cases the secondary source is the historian's 'original' source, in the sense of being the 'origin' of his knowledge. Insofar as this 'original' source is an accurate report of primary testimony, he tests its credibility as he would that of the primary testimony itself."[7]
+
+Gilbert Garraghan maintains that oral tradition may be accepted if it satisfies either two "broad conditions" or six "particular conditions", as follows:[8]
+Other methods of verifying oral tradition may exist, such as comparison with the evidence of archaeological remains.
+More recent evidence concerning the potential reliability or unreliability of oral tradition has come out of fieldwork in West Africa and Eastern Europe.[9]
+
+Once individual pieces of information have been assessed in context, hypotheses can be formed and established by historical reasoning.
+
+C. Behan McCullagh lays down seven conditions for a successful argument to the best explanation:[10]
+McCullagh sums up, "if the scope and strength of an explanation are very great, so that it explains a large number and variety of facts, many more than any competing explanation, then it is likely to be true."[11]
+
+McCullagh states this form of argument as follows:[12]
+McCullagh gives this example:[13]
+This is a syllogism in probabilistic form, making use of a generalization formed by induction from numerous examples (as the first premise).
+
+The structure of the argument is as follows:[14]
+McCullagh says that an argument from analogy, if sound, is either a "covert statistical syllogism" or better expressed as an argument to the best explanation. It is a statistical syllogism when it is "established by a sufficient number and variety of instances of the generalization"; otherwise, the argument may be invalid because properties 1 through n are unrelated to property n + 1, unless property n + 1 is the best explanation of properties 1 through n. Analogy, therefore, is uncontroversial only when used to suggest hypotheses, not as a conclusive argument.
+
+
+
+

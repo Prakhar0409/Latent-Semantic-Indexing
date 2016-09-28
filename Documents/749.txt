@@ -1,0 +1,4 @@
+Comparison of text editors
+This article provides a basic feature comparison for several text editors. Additional feature details are available from the Category of text editor features and from the individual products' articles. This article is not all-inclusive or necessarily up-to-date.
+The comparisons are made on the stable versions of software – not the upcoming versions or beta releases – and without the use of any add-ons, extensions or external programs (unless specified in footnotes).
+

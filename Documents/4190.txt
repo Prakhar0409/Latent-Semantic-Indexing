@@ -1,0 +1,36 @@
+Buyer decision processes
+Product / Pricing / Promotion
+Distribution / Service / Retail
+Brand management
+Account-based marketing
+Marketing effectiveness
+Market research
+Marketing strategy
+Marketing management
+Market dominance
+Advertising / Branding
+Direct marketing / Personal Sales
+Product placement / Public relations
+Publicity / Sales promotion
+Sex in advertising / Underwriting
+Printing / Publication / Broadcasting
+Out-of-home / Internet marketing
+Point of sale / Novelty items
+Digital marketing / In-game
+Word of mouth
+Buyer decision processes are the decision making processes undertaken by consumers in regard to a potential market transaction before, during, and after the purchase of a product or service.
+More generally, decision making is the cognitive process of selecting a course of action from among multiple alternatives. Common examples include shopping, deciding what to eat. Decision making is said to be a psychological construct. This means that although we can never "see" a decision, we can infer from observable behaviour that a decision has been made. Therefore we conclude that a psychological event that we call "decision making" has occurred. It is a construction that imputes commitment to action. That is, based on observable actions, we assume that people have made a commitment to effect the action.
+In general there are three ways of analysing consumer buying decisions. They are:
+Nobel laureate Herbert Simon sees economic decision making as a vain attempt to be rational. He claims (in 1947 and 1957) that if a complete analysis is to be done, a decision will be immensely complex. He also says that peoples' information processing ability is very limited. The assumption of a perfectly rational economic actor is unrealistic. Often we are influenced by emotional and non-rational considerations. When we try to be rational we are at best only partially successful.
+
+In an early study of the buyer decision process literature, Frank Nicosia (Nicosia, F. 1966; pp 9-21) identified three types of buyer decision making models. They are the univariate model (He called it the "simple scheme".) in which only one behavioural determinant was allowed in a stimulus-response type of relationship; the multi-variate model (He called it a "reduced form scheme".) in which numerous independent variables were assumed to determine buyer behaviour; and finally the "system of equations" model (He called it a "structural scheme" or "process scheme".) in which numerous functional relations (either univariate or multi-variate) interact in a complex system of equations. He concluded that only this third type of model is capable of expressing the complexity of buyer decision processes. In chapter 7, Nicosia builds a comprehensive model involving five modules. The encoding module includes determinants like "attributes of the brand", "environmental factors", "consumer's attributes", "attributes of the organization", and "attributes of the message". Other modules in the system include, consumer decoding, search and evaluation, decision, and consumption.
+
+A general model of the buyer decision process consists of the following steps:
+
+There are a range of alternative models, but that of AIUAPR, which most directly links to the steps in the marketing/promotional process is often seen as the most generally useful[1];
+This is a very simple model, and as such does apply quite generally. Its lessons are that you cannot obtain repeat purchasing without going through the stages of building awareness and then obtaining trial use; which has to be successful. It is a pattern which applies to all repeat purchase products and services; industrial goods just as much as baked beans. This simple theory is rarely taken any further - to look at the series of transactions which such repeat purchasing implies. The consumer's growing experience over a number of such transactions is often the determining factor in the later - and future - purchases. All the succeeding transactions are, thus, interdependent - and the overall decision-making process may accordingly be much more complex than most models allow for. [2] For purchasing raw material one should guess the future price about the Raw material. Mr. Ipsito das student of Indian Institute of Material Management introduced a statistical tool for this. He uses Forecasting method with Exponential smoothing to forecast the price of Steel rod Hot rolled. Based on this process he is able to save money for his project at ICTT project at kerala Kochin in India.
+in all four dimensions. In each category, 83% of E-I types, 89% of S-N types, 90% of T-F types, was 10.8 points better and for groups with the same personality dimensions was 4.4 points better than individuals (Volkema 114-16). Working in groups with a variety of people composed of multiple personalities and cognitive styles, often produces a better outcome in decision making rather than individually.
+
+It is generally agreed that biases can creep into our decision making processes, calling into question the correctness of a decision. Below is a list of some of the more common cognitive biases.
+
+

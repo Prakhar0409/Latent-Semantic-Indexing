@@ -1,0 +1,14 @@
+WS-ReliableMessaging
+WS-ReliableMessaging describes a protocol that allows SOAP messages to be reliably delivered between distributed applications in the presence of software component, system, or network failures.
+The original specification was written by BEA Systems, Microsoft, IBM, and Tibco and in March, 2003 and subsequently refined over the next two years. The February, 2005 version was submitted to the OASIS Web Services Reliable Exchange (WS-RX) Technical Committee in June of that year. The resulting WS-ReliableMessaging 1.1 was approved as an OASIS Standard on June 14th, 2007.
+Prior to WS-ReliableMessaging, OASIS produced a competing standard (WS-Reliability) that was supported by a coalition of vendors; namely Fujitsu, Hitachi, NEC, Oracle Corporation, Progress Software, and Sun Microsystems. Most of these vendors now also support the WS-ReliableMessaging specification.
+
+An Application Source (AS) wishes to reliably send messages to an Application Destination (AD) over an unreliable infrastructure. To accomplish this they make use of a Reliable Messaging Source (RMS) and a Reliable Messaging Destination (RMD). The AS sends a message to the RMS. The RMS uses the WS-ReliableMessaging (WS-RM) protocol to transmit the message to the RMD. The RMD delivers the message to the AD. If the RMS cannot transmit the message to the RMD for some reason, it must raise an exception or otherwise indicate to the AS that the message was not transmitted. The AS and RMS may be implemented within the same process space or they may be separate components. Similarly, the AD and RMD may exist within the same process space or they may be separate components.
+The important thing to keep in mind is that the WS-RM specification only deals with the contents and behavior of messages as they appear "on the wire". How messages are sent from the AS to the RMS, how they are delivered from the RMD to the AD, whether messages are persisted on-disk or held in memory, etc.; none of these considerations are part of the WS-RM specification.
+The WS-RM protocol defines and supports a number of Delivery Assurances. These are:
+
+WS-ReliableMessaging uses the extensibility model of SOAP and WSDL. WS-ReliableMessaging does not define all the features required for a complete messaging solution. WS-ReliableMessaging is a building block that is used in conjunction with other Web Services specifications and application-specific protocols to build a complete messaging solutions.
+
+
+
+

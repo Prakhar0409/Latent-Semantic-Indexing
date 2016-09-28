@@ -1,0 +1,14 @@
+MusicXML
+MusicXML is an open, XML-based music notation file format.
+It was developed by Recordare LLC, deriving several key concepts from existing academic formats (such as Walter Hewlett's MuseData and David Huron's Humdrum). It is designed for the interchange of scores, particularly between different scorewriters.
+Version 1.0 was released in January 2004. Version 1.1 was released in May 2005 with improved formatting support. Version 2.0 was released in June 2007 and included a standard compressed format. All of these versions were defined by a series of document type definitions (DTDs). An XML Schema Definition (XSD) implementation of Version 2.0 was released in September 2008.
+As of September 2008, MusicXML is supported to varying degrees by over 100 different notation programs. These programs include:
+The MusicXML DTDs and XSDs are each freely redistributable under the MusicXML Document Type Definition Public License.
+
+Like all XML-based formats, MusicXML is easy for automated tools to parse and manipulate. Though it is possible to create MusicXML by hand, interactive score writing programs like Rosegarden and Finale greatly simplify the reading, writing, and modifying of MusicXML files.
+The following example is a score consisting of a single whole note middle C in the key of C major.
+The output in standard musical notation looks like this: 
+The textual representation listed above is verbose; MusicXML v2.0 addresses this by adding a compressed zip format with a .mxl suffix that can make files roughly 20 times smaller than their uncompressed version[1].
+
+
+

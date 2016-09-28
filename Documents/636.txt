@@ -1,0 +1,34 @@
+chmod
+The chmod command (abbreviated from change mode) is a shell command and C language function in Unix and Unix-like environments. The command is based on the function. When executed, it can change file system modes of files and directories. The modes include permissions and special modes.
+
+A chmod command first appeared in AT&T Unix version 1, and is still used today on Unix-like machines.
+
+The chmod command options are specified like this:
+To view what the permissions currently are, type:
+The function prototype is defined:
+
+The chmod command has a number of command line options that affect its behavior. The most common options are:
+
+To the chmod utility, all permissions and special modes are represented by its mode parameter. One way to adjust the mode of files or directories is to specify a symbolic mode. The symbolic mode is composed of three components, which are combined to form a single string of text:
+The references (or classes) are used to distinguish the users to whom the permissions apply. If no references are specified it defaults to “all”. They are represented by one or more of the following letters:
+The chmod program uses an operator to specify how the modes of a file should be adjusted. The following operators are accepted:
+The modes indicate which permissions are to be granted or taken away from the specified classes. There are three basic modes which correspond to the basic permissions:
+The combination of these three components produces a string that is understood by the chmod command. Multiple changes can be specified by separating multiple symbolic modes with commas.
+
+For example, the following command would be used to add the read and write permissions to the user and group classes of a file or directory named sample:
+This command removes all permissions, allowing no one to read, write, or execute the file named sample.
+The following command changes the permissions for the user and the group to read and execute only (no write permission) on sample.
+
+The chmod command also accepts three and four-digit octal numbers representing modes. See the article mentioned above for more information. Using a four-digit octal number to set the modes of a file or directory named sample would look something like this:
+Assuming that the setuid, setgid and sticky bits are not set, this is equivalent to:
+or
+
+The chmod command is also capable of changing the additional permissions or special modes of a file or directory. The symbolic modes use s to represent the setuid and setgid modes, and t to represent the sticky mode. The modes are only applied to the appropriate classes, regardless of whether or not other classes are specified.
+Most operating systems support the specification of special modes using octal modes, but some do not. On these systems, only the symbolic modes can be used..
+
+
+The function takes a parameter of type mode_t, which is a bitfield composed of various flags:
+Where alternate flag names are given, one of the pair of names might not be supported on some OSs. The octal values of the flags are summed or combined in a bitwise or operation to give the desired permission mode.
+Various error codes can be returned, and these are detailed in the associated man page for the function.
+
+

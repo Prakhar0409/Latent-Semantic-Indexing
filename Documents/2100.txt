@@ -1,0 +1,11 @@
+Visual programming language
+A visual programming language (VPL) is any programming language that lets users create programs by manipulating program elements graphically rather than by specifying them textually. A VPL allows programming with visual expressions, spatial arrangements of text and graphic symbols, used either as elements of syntax or secondary notation. Many VPLs are based on the idea of "boxes and arrows," where boxes or other screen objects are treated as entities, connected by arrows, lines or arcs which represent relations.
+VPLs may be further classified, according to the type and extent of visual expression used, into icon-based languages, form-based languages, and diagram languages. Visual programming environments provide graphical or iconic elements which can be manipulated by users in an interactive way according to some specific spatial grammar for program construction.
+A visually transformed language is a non-visual language with a superimposed visual representation. Naturally visual languages have an inherent visual expression for which there is no obvious textual equivalent.
+Current developments try to integrate the visual programming approach with dataflow programming languages to either have immediate access to the program state resulting in online debugging or automatic program generation and documentation (i.e. visual paradigm). Dataflow languages also allow automatic parallelization, which is likely to become one of the greatest programming challenges of the future.[1]
+
+Note: Microsoft Visual Studio and the languages it encompasses (Visual Basic, Visual C#, Visual J#, etc.) are commonly confused to be but are not visual programming languages. All of these languages are textual and not graphical. MS Visual Studio is a visual programming environment, but not a visual programming language hence the confusion.
+
+
+This article was originally based on material from the Free On-line Dictionary of Computing, used with permission. Update as needed.
+

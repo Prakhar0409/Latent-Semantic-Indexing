@@ -1,0 +1,17 @@
+Alan Cox
+Alan Cox (born July 22, 1968 in Solihull, England) is a British computer programmer heavily involved in the development of the Linux kernel since its early days 1991. He lives in Swansea, Wales with his wife, Telsa Gwynne.
+
+While employed on the campus of Swansea University, he installed a very early version of Linux on one of the machines belonging to the university computer society. This was one of the first Linux installations on a busy network, and revealed many bugs in the networking code. Cox fixed many of these bugs, and went on to rewrite much of the networking subsystem. He then became one of the main developers and maintainers of the whole kernel.
+He maintained the 2.2 branch, and his own versions of the 2.4 branch (signified by an "ac" in the version, for example 2.4.13-ac1). This branch was very stable and contained bugfixes that went directly into the vendor kernels. He was once commonly regarded as being the "second in command" after Linus Torvalds himself, before reducing his involvement with Linux to study for an MBA.[1] His informative and friendly comments have guided many programmers on the Linux kernel mailing list.
+Alan was employed by Linux distributor Red Hat for ten years leaving in January 2009. He is now employed by Intel.[2] as well as running an etched model design business. He is a director at Ultima Model Engineering.
+He has also been involved in the GNOME and X.Org projects, and was the main developer of AberMUD, which he wrote whilst a student at the University of Wales, Aberystwyth.
+
+Alan Cox is an ardent supporter of programming freedom, and an outspoken opponent of software patents, the DMCA and the CBDTPA. He resigned from a subgroup of Usenix in protest, and said he would not visit the United States for fear of being imprisoned after the arrest of Dmitry Sklyarov for DMCA violations.
+In January 2007, he applied for a series of patents on "RMS", or Rights management systems.[3] It is said that he has filed a patent for Digital Rights Management. Red Hat Inc., Cox's former employer, has stated (in a document drafted by Mark Webbink and Cox himself[4]) that it will not use patents against free software projects.[5]
+Cox is also an adviser to the Foundation for Information Policy Research and the Open Rights Group .[6]
+
+Cox was the recipient of the Free Software Foundation's 2003 Award for the Advancement of Free Software at the FOSDEM conference in Brussels.[7]
+On October 5, 2005, Cox received a lifetime achievement award at the LinuxWorld awards in London.[8]
+
+
+Rick Adams Â· Eric Allman Â· Brian Behlendorf Â· Keith Bostic Â· Alan Cox Â· Matthias Ettrich  Â· Miguel de Icaza Â· Theo de Raadt Â· Jim Gettys Â· John Gilmore Â· Jon "maddog" Hall Â· Jordan Hubbard Â· Lynne and William Jolitz Â· Lawrence Lessig Â· Marshall Kirk McKusick Â· Eben Moglen Â· Ian Murdock Â· Tim O'Reilly Â· Keith Packard Â· Brian Paul Â· Bruce Perens Â· Eric S. Raymond Â· Bob Scheifler Â· Mark Shuttleworth Â· Richard Stallman Â· Linus Torvalds Â· Theodore Ts'o Â· Andrew Tridgell Â· Guido van Rossum Â· Larry Wall

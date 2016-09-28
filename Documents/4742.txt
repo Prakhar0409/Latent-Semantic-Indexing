@@ -1,0 +1,26 @@
+De Bruijn sequence
+In combinatorial mathematics, a k-ary De Bruijn sequence B(k, n) of order n, named after the Dutch mathematician Nicolaas Govert de Bruijn, is a cyclic sequence of a given alphabet A with size k for which every possible subsequence of length n in A appears as a sequence of consecutive characters exactly once.
+Such a sequence has the following properties:
+According to De Bruijn himself[1], the existence of De Bruijn sequences for each order together with the above properties were first proved, for the case of alphabets with two elements, by Camille Flye Sainte-Marie in 1894, whereas the generalization to larger alphabets is originally due to Tanja van Ardenne-Ehrenfest and himself.
+
+
+The De Bruijn sequences can be constructed by taking a Hamiltonian path of an n-dimensional De Bruijn graph over k symbols (or equivalently, a Eulerian cycle of a (n âˆ’ 1)-dimensional De Bruijn graph), or via finite fields.
+
+Goal: to construct a B(2, 4) De Bruijn sequence of length 24 = 16 using Eulerian (n âˆ’ 1 = 4 âˆ’ 1 = 3) 3-D De Bruijn graph cycle.
+Each edge in this 3-dimensional De Bruijn graph corresponds to a sequence of four digits: the three digits that label the vertex that the edge is leaving followed by the one that labels the edge. If one traverses the edge labeled 1 from 000, one arrives at 001, thereby indicating the presence of the subsequence 0001 in the De Bruijn sequence. To traverse each edge exactly once is to use each of the 16 four-digit sequences exactly once.
+For example, suppose we follow the following Eulerian path through these nodes:
+These are the output sequences of length k:
+This corresponds to the following De Bruijn sequence:
+The eight vertices appear in the sequence in the following way:
+...and then we return to the starting point. Each of the eight 3-digit sequences (corresponding to the eight vertices) appears exactly twice, and each of the sixteen 4-digit sequences (corresponding to the 16 edges) appears exactly once.
+
+The sequence can be used to shorten a brute-force attack on a PIN-like code lock that does not have an "enter" key and accepts the last n digits entered. For example, a digital door lock with a 4-digit code would have B(10, 4) solutions, with length 10000. Therefore, only 10000 + 3 = 10003 (as the solutions are cyclic) presses are needed to open the lock. Trying all codes separately would require 4 Ã— 10000 = 40000 presses.
+The symbols of a De Bruijn sequence written around a circular object (such as a wheel of a robot) can be used to identify its angle by examining the n consecutive symbols facing a fixed point. Gray codes can be used as similar rotary positional encoding mechanisms.
+A De Bruijn sequence can be used to quickly find the first or last bit in a word.[3]
+
+A De Bruijn torus is a toriodial array with the property that every k-ary m-by-n matrix occurs exactly once. (It is not necessary that the array be expressed toriodially; the array can be mapped into a 2-dimensional array. Because it is toriodial it "wraps around" on all 4 sides.)
+Such a pattern can be used for two-dimensional positional encoding in a fashion analogous to that described above for rotary encoding. Position can be determined by examining the m-by-n matrix directly adjacent to the sensor, and calculating its position on the De Bruijn torus.
+
+
+
+

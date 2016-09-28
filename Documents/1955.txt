@@ -1,0 +1,75 @@
+Riemann hypothesis
+In mathematics, the Riemann hypothesis, due to Bernhard Riemann�(1859), is a conjecture about the distribution of the zeros of the Riemann zeta-function stating that all non-trivial zeros of the Riemann zeta function have real part 1/2. The name is also used for some closely related analogues, such as the Riemann hypothesis for curves over finite fields.
+The Riemann hypothesis implies results about the distribution of prime numbers that are in some ways best possible. Along with suitable generalizations, it is considered by many mathematicians to be the most important unresolved problem in pure mathematics (Bombieri 2000). Since it was formulated, it has withstood concentrated efforts from many outstanding mathematicians, though Selberg's proof of the Riemann hypothesis for the Selberg zeta function of a Riemann surface, Deligne's proof of the Riemann hypothesis over finite fields, and extensive computer calculations verifying that the first 10 trillion zeros lie on the critical line, all suggest that it is probably true.
+The Riemann zeta-function ζ(s) is defined for all complex numbers s ≠ 1. It has zeros at the negative even integers (i.e. at s = −2, s = −4, s = −6, ...). These are called the trivial zeros. The Riemann hypothesis is concerned with the non-trivial zeros, and states that:
+Thus the non-trivial zeros should lie on the so-called critical line, ½ + it, where t is a real number and i is the imaginary unit.
+The Riemann hypothesis is part of Problem 8, along with the Goldbach conjecture, in Hilbert's list of 23 unsolved problems, and is also one of the Clay Mathematics Institute Millennium Prize Problems.
+There are several popular books on the Riemann hypothesis, such as (Derbyshire 2003), (Rockmore 2005), (Sabbagh 2003), (du Sautoy 2003). The books (Edwards 1974), (Patterson 1988) and (Borwein et al. 2008) give mathematical introductions, while (Titchmarsh 1986) is an advanced monograph.
+
+The Riemann zeta function is given for complex s with real part greater than 1 by
+Euler showed that it is given by the Euler product
+where the infinite product extends over all prime numbers p, and again converges for complex s with real part greater than 1. The convergence of the Euler product shows that ζ(s) has no zeros in this region, as none of the factors have zeros.
+The Riemann hypothesis discusses zeros outside the region of convergence of this series, so it needs to be analytically continued to all complex s. This can be done by expressing it in terms of the Dirichlet eta function as follows. If s has positive real part, then the zeta function satisfies
+where the series on the right converges whenever s has positive real part (though if the real part is less than 1 the convergence is excruciatingly slow). Thus, this alternative series extends the zeta function from Re(s)�>�1 to the larger domain Re(s)�>�0.
+In the strip 0�<�Re(s)�<�1 the zeta function satisfies the functional equation
+One may then define ζ(s) for all remaining nonzero complex numbers s by assuming that this equation holds outside the strip as well, and letting ζ(s) equal the right-hand side of the equation whenever s has non-positive real part. If s is a negative even integer then ζ(s) = 0 because the factor sin(πs/2) vanishes; these are the trivial zeros of the zeta function. (If s is a positive even integer this argument does not apply because the zeros of sin are cancelled by the poles of the gamma function.) The value ζ(0)�=�-1/2 is not determined by the functional equation, but is the limiting value of ζ(s) as s approaches zero. The functional equation also implies that the zeta function has no zeros other than the trivial zeros with negative real part, so all non-trivial zeros lie in the critical strip where s has real part between 0 and 1.
+
+In his 1859 paper On the Number of Primes Less Than a Given Magnitude Riemann found an explicit formula for the number of primes π(x) less than a given number x. His formula was given in terms of the related function
+which counts primes where a prime power pn counts as 1/n of a prime. The number of primes can be recovered from this function by
+Riemann's formula is then
+involving a sum over the non-trivial zeros ρ of the Riemann zeta function. The sum is not absolutely convergent, but may be evaluated by taking the zeros in order of the absolute value of their imaginary part. The function Li occurring in the first term is the (unoffset) logarithmic integral function given by the Cauchy principal value of the divergent integral
+The terms Li(xρ) involving the zeros of the zeta function need some care in their definition as Li has branch points at 0 and 1, and are defined (for x>1) by analytic continuation in the complex variable ρ in the region Re(ρ)>0. The other terms also correspond to zeros: the dominant term Li(x) comes from the pole at s�=�1, considered as a zero of multiplicity −1, and the remaining small terms come from the trivial zeros. This formula says that the zeros of the Riemann zeta function control the oscillations of primes around their "expected" positions. For some graphs of the sums of the first few terms of this series see (Riesel & Göhl 1970) or Zagier 1977. Riemann knew that the non-trivial zeros of the zeta-function were symmetrically distributed about the line s = ½ + it, and he knew that all of its non-trivial zeros must lie in the range 0 ≤ Re(s) ≤ 1. He checked that a few of the zeros lay on the critical line with real part 1/2 and suggested that they all do; this is the Riemann hypothesis.
+
+The practical uses of the Riemann hypothesis include many propositions which are known to be true under the Riemann hypothesis, and some which can be shown to be equivalent to the Riemann hypothesis.
+
+Riemann's explicit formula for the number of primes less than a given number in terms of a sum over the zeros of the Riemann zeta function says that the magnitude of the oscillations of primes around their expected position is controlled by the real parts of the zeros of the zeta function. In particular the error term in the prime number theorem is closely related to the position of the zeros: for example, the supremum of real parts of the zeros is the infimum of numbers β such that the error is O(xβ) (Ingham 1990).
+Koch�(1901) proved that the Riemann hypothesis is equivalent to the "best possible" bound for the error of the prime number theorem.
+A precise version of Koch's result, due to Schoenfeld (1976), says that the Riemann hypothesis is equivalent to
+
+The Riemann hypothesis implies strong bounds on the growth of many other arithmetic functions, in addition to the primes counting function above.
+One example involves the Möbius function μ. The statement that the equation
+is valid for every s with real part greater than ½, with the sum on the right hand side converging, is equivalent to the Riemann hypothesis. From this we can also conclude that if the Mertens function is defined by
+then the claim that
+for every positive ε is equivalent to the Riemann hypothesis. (For the meaning of these symbols, see Big O notation.) The determinant of the order n Redheffer matrix is equal to M(n), so the Riemann hypothesis can also be stated as a condition on the growth of these determinants. The Riemann hypothesis puts a rather tight bound on the growth of M, since Odlyzko & te Riele (1985) disproved the slightly stronger Mertens conjecture
+The Riemann hypothesis is equivalent to many other conjectures about the rate of growth of other arithmetic functions aside from μ(n). A typical example is Robin's theorem (Robin 1984), which states that if σ(n) is the divisor function, given by
+then
+for all n > 5040 if and only if the Riemann hypothesis is true.
+Another example was found by Franel & Landau (1924) showing that the Riemann hypothesis is equivalent to a statement that the terms of the Farey sequence are fairly regular. More precisely, if Fn is the Farey sequence of order n, beginning with 1/n and up to 1/1, then the claim that for all ε > ½
+is equivalent to the Riemann hypothesis. Here  is the number of terms in the Farey sequence of order n.
+For an example from group theory, if g(n) is Landau's function given by the maximal order of elements of the symmetric group Sn of degree n, then Massias, Nicolas & Robin (1988)) showed that the Riemann hypothesis is equivalent to the bound
+
+The Riemann hypothesis has various weaker consequences as well; one is the Lindelöf hypothesis on the rate of growth of the zeta function on the critical line, which says that, for any ε > 0,
+as t tends to infinity.
+The Riemann hypothesis also implies quite sharp bounds for the growth rate of the zeta function in other regions of the critical strip. For example, it implies that
+so the growth rate of ζ(1+it) and its inverse would be known up to a factor of 2 (Titchmarsh 1986).
+
+The prime number theorem implies that on average, the gap between the prime p and its successor is log�p. However, some gaps between primes may be much larger than the average. Cramér proved that, assuming the Riemann hypothesis, every gap is O(√p�log�p). This is a case when even the best bound that can currently be proved using the Riemann hypothesis is far weaker than what seems to be true: Cramér's conjecture implies that every gap is O(log(p)2) which, while larger than the average gap, is far smaller than the bound implied by the Riemann hypothesis. Numerical evidence supports Cramér's conjecture (Nicely 1999).
+
+Many statements equivalent to the Riemann hypthesis have been found, though so far none of them have led to much progress in solving it. Some typical examples are as follows.
+The Riesz criterion was given by Riesz (1916), to the effect that the bound
+holds for all ε > 0 if and only if the Riemann hypothesis holds.
+Nyman (1950) proved that the Riemann Hypothesis is true if and only if the space of functions of the form
+where ρ(z) is the fractional part of z, 0�≤�θν�≤�1, and
+is dense in the Hilbert space L2(0,1) of square-integrable functions on the unit interval. Beurling (1955) extended this by showing that the zeta function has no zeros with real part greater than 1/p if and only if this function space is dense in Lp(0,1)
+Salem (1953) showed that the Riemann hypothesis is true if and only if the integral equation
+has no non-trivial bounded solutions φ for 1/2<σ<1.
+Weil's criterion is the statement that the positivity of a certain function is equivalent to the Riemann hypothesis. Related is Li's criterion, a statement that the positivity of a certain sequence of numbers is equivalent to the Riemann hypothesis.
+Speiser (1934) proved that the Riemann hypothesis is equivalent to the statement that ζ'(s), the derivative of ζ(s), has no zeros in the strip
+That ζ has only simple zeros on the critical line is equivalent to its derivative having no zeros on the critical line.
+
+
+The Riemann hypothesis can be generalized by replacing the Riemann zeta-function by the formally similar, but much more general, global L-functions. In this broader setting, one expects the non-trivial zeros of the global L-functions to have real part 1/2. It is these conjectures, rather than the classical Riemann hypothesis only for the single Riemann zeta-function, which accounts for the true importance of the Riemann hypothesis in mathematics.
+The generalized Riemann hypothesis extends the Riemann hypothesis to all Dirichlet L-functions. In particular it implies the conjecture that Siegel zeros (zeros of L functions between 1/2 and 1) do not exist.
+The extended Riemann hypothesis extends the Riemann hypothesis to all Dedekind zeta-functions of algebraic number fields. The extended Riemann hypothesis for abelian extension of the rationals is equivalent to the generalized Riemann hypothesis. The Riemann hypothesis can also be extended to the L-functions of Hecke characters of number fields.
+The grand Riemann hypothesis extends it to all automorphic zeta functions, such as Mellin transforms of Hecke eigenforms.
+
+Artin (1924) introduced global zeta-functions of (quadratic) function fields and conjectured an analogue of the Riemann hypothesis for them, which has been proven by Hasse in the genus 1 case and by Weil (1948) in general. For instance, the fact that the Gauss sum, of the quadratic character of a finite field of size q (with q odd), has absolute value
+is actually an instance of the Riemann hypothesis in the function field setting. This led Weil (1949) to conjecture a similar statement for all algebraic varieties; the resulting Weil conjectures were proven by Pierre Deligne�(1974, 1980)
+
+Selberg (1956) introduced the Selberg zeta function of a Riemann surface. These are similar to the Riemann zeta function: they have a functional equation, and an infinite product similar to the Euler product but taken over closed geodesics rather than primes. The Selberg trace formula is the analogue for these functions of the explicit formulas in prime number theory. Selberg proved that the Selberg zeta functions satisfy the analogue of the Riemann hypothesis, with the imaginary parts of their zeros related to the eigenvalues of the Laplacian operator of the Riemann surface.
+
+Montgomery (1973) suggested the pair correlation conjecture that the correlation functions of the (suitably normalized) zeros of the zeta function should be the same as those of the eigenvalues of a random hermitian matrix. Odlyzko (1987) showed that this is supported by large scale numerical calculations of these correlation functions.
+Montgomery showed that (assuming the Riemann hypothesis) at least 2/3 of all zeros are simple, and a related conjecture is that all zeros of the zeta function are simple (or more generally have no non-trivial integer linear relations between their imaginary parts). Dedekind zeta functions of algebraic number fields, which generalize the Riemann zeta function, often do have multiple complex zeros. This is because the Dekekind zeta functions factorize as a product of powers of Artin L-functions, so zeros of Artin L-functions sometimes give rise to multiple zeros of Dekekind zeta functions. Other examples of zeta functions with multiple zeros are the L-functions of some elliptic curves: these can have multiple zeros at the real point of their critical line; the Birch-Swinnerton-Dyer conjecture predicts that the multiplicity of this zero is the rank of the elliptic curve.
+
+There are many other examples of zeta functions with analogues of the Riemann hypothesis, some of which have been proved. The main conjecture of Iwasawa theory, proved by Mazur and Wiles for cyclotomic fields, can be thought of as an analogue of the Riemann hypothesis for p-adic L-functions (Wiles 2000). Goss zeta functions of function fields also have a Riemann hypothesis, proved by Sheats (1998).
+

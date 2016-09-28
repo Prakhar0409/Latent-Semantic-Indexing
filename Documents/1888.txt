@@ -1,0 +1,18 @@
+OpenSimulator
+OpenSimulator, often referred to as OpenSim, is an open source server platform for hosting virtual worlds. While it is most recognized for compatibility with the Second Life client, it is also capable of hosting alternative worlds with differing feature sets with multiple protocols[1]. OpenSimulator is designed to be easily expanded through the use of plugin modules and several modified distributions exist, such as realXtend[2], additional plugins can be found on the OpenSimulator Forge. Multiple servers can be integrated into a 'grid' which allows larger more complex areas to be simulated[3].
+
+OpenSimulator can operate in one of two modes: standalone or grid mode. In standalone mode, a single process handles the entire simulation. In grid mode, various aspects of the simulation are separated among multiple processes, which can exist on different machines. Standalone mode is simpler to configure, but is limited to a smaller number of users. Grid mode has the potential to scale as the number of users grows.
+In grid mode, responsibilities are divided among six servers: the user server, the grid server, the asset server, the inventory server, the messaging server, and the region server.[4]
+OpenSimulator utilizes loadable modules for most of its functionality. These loadable modules can be independently developed to add functionality to the server.[5]
+The OpenSimulator project is hosting a collection of these loadable modules on OpenSimulator GForge.
+
+OpenSimulator uses currently Second Life protocol for client to server communication to be compliant with Linden Lab viewer. Second Life protocol applies both UDP and XML-RPC. Metaverse Exchange Protocol (MXP) is a second generation client to server communication protocol proposal. Internally OpenSimulator server components communicate with XML-RPC and REST (JSON/HTTP and XML/HTTP).
+
+OpenSimulator community can be reached at freenode IRC network at #opensim and #opensim-dev channels. Community includes end users, content contributors, region owners, grid owners, testers and developers. It is possible to join OSG Community College classes inworld about building and script programming. The college operates in OSGrid.
+
+Connecting to OpenSim requires installation of one of the available viewers.[6] With a browser protocol handler it is possible to launch viewer by clicking a link in a web page.[7] After installing a viewer and a protocol handler it is easy to connect to one of the public grids.
+
+There are several public grids available which usually require registration.[8] Grids generally contribute to the project through testing and community participation. These budding multiverses normally contain user generated content and may be based around user contributed resources.
+
+
+

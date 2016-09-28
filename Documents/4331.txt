@@ -1,0 +1,13 @@
+How to Solve It
+George Pólya's 1945 book How to Solve It is a small volume describing methods of problem solving.[1]
+
+This book was published at Princeton University. It suggests the following steps when solving a mathematical problem:
+If this technique fails, Pólya advises: "If you can't solve a problem, then there is an easier problem you can solve: find it."[2] Or: "If you cannot solve the proposed problem, try to solve first some related problem. Could you imagine a more accessible related problem?"
+His book contains a dictionary-style set of heuristics, many of which have to do with generating a more accessible problem. For example:
+The technique "have I used everything" is perhaps most applicable to formal educational examinations (e.g., n men digging m ditches) problems.
+The book has achieved "classic" status because of its considerable influence (see the next section).
+Other books on problem solving are often related to more creative and less concrete techniques. See lateral thinking, mind mapping, brainstorming, and creative problem solving.
+
+
+
+

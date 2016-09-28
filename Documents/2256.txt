@@ -1,0 +1,30 @@
+Capitalization
+Capitalization (or capitalisation — see spelling differences) is writing a word with its first letter as a majuscule (upper-case letter) and the remaining letters in minuscules (lower-case letters), in those writing systems which have a case distinction. The term is also used more broadly for the choice of case in text.
+Different language orthographies have different conventions for the use of capitalization.
+The systematic use of capitalized and uncapitalized words in running text is called "mixed case". Conventions for the capitalization of titles and other special cases vary among languages and different style guides.
+In some representations of certain writing systems, the notion of the "first letter" is subtle: for example, the South-Slavic digraph 'lj' is considered as a single orthographic letter, and has a representation as a single Unicode character, but as a capitalized initial, it is written 'Lj', while in an all-caps text, it is written 'LJ'. Meanwhile in Dutch, the single character 'ij' (known as the Dutch 'Y') is fully capitalized, for instance, with the city of IJmuiden.
+
+Capitalization custom varies with language. The full rules of capitalization for English are complicated. The rules have also changed over time, generally to capitalize fewer terms. To the modern reader, an 18th century document seems to use initial capitals excessively. It is an important function of English style guides to describe the complete current rules, although there is some variation from one guide to another.
+Owing to the essentially arbitrary nature of orthographic classification and the existence of variant authorities and local house styles, questionable capitalization of words is not uncommon, even in respected newspapers and magazines. Most publishers properly require consistency, at least within the same document, in applying a specified standard.
+
+
+The capitalization of geographic terms in English text generally depends on whether the author perceives the term as a proper noun, in which case it is capitalized, or as a combination of an established proper noun with a normal adjective or noun, in which case the latter are not capitalized. There are no universally agreed lists of which English geographic terms are considered proper nouns. The following are examples of rules that some British and U.S. publishers have established in style guides for their authors:
+Upper case: East Asia, South-East Asia, Central Asia, Central America, North Korea, South Africa, the North Atlantic, the Middle East, The Arctic, The Hague, The Gambia
+Lower case: the Philippines, central Europe, western China, southern Beijing, western Mongolia, eastern Africa, northern North Korea, the central Gobi, the lower Yangtze River.
+
+
+
+
+
+
+In most languages which use diacritics, these are treated the same way in uppercase whether the text is capitalized or all-uppercase. They may be always preserved (as in German) or always omitted (as is the rule in Scots Gaelic) or often omitted (as in French and Spanish)[8]. Some attribute this to the fact that diacritics on capital letters were not available earlier on typewriters, and it is now becoming more common to capitalize them in French and Spanish (in both languages the rule is to preserve them [9], although in France, for instance, schoolchildren are often taught, yet incorrectly, that they should not add diacritics on capital letters).
+However, in the polytonic orthography used for Greek prior to 1982, accents were omitted in all-uppercase words, but kept as part of an uppercase initial (written before rather than above the letter). The latter situation is provided for by title-case characters in Unicode. When Greek is written with the present day monotonic orthography, where only the acute accent is used, the same rule is applied. The accent is omitted in all-uppercase words but it is kept as part of an uppercase initial (written before the letter rather than above it).
+
+Some languages treat certain digraphs as letters. In general, where one such is formed as a ligature, the corresponding uppercase form is used in capitalization; where it is written as two separate characters, only the first will be capitalized. Thus Oedipus or Œdipus are both correct, but OEdipus is not. Examples with ligature include Ærøskøbing in Danish, where Æ/æ is a letter rather than a merely typographic ligature; with separate characters include Llanelli in Welsh, where Ll is a single letter; and Ffrangeg in Welsh where Ff is equivalent to English F (whereas Welsh F corresponds to English V).[10]
+
+In languages where inflected forms of a word may have extra letters at the start, the capitalized letter may be the initial of the root form rather of than the inflected form. For example, Slievenamon is in Irish written Sliabh na mBan ("women's mountain", where mBan derives from Bean, "woman"), even though the B is in fact mute in the derived form.
+Other languages may capitalize the initial letter of the orthographic word, even if it is not present in the base, as with definite nouns in Maltese that start with certain consonant clusters. For example, l-Istati Uniti (the United States) capitalize the epenthetic I, even though the base form of the word - without the definite article - is stati.
+
+In English, there even are few words whose meaning (and sometimes pronunciation) varies with capitalization. See: List of case sensitive English words.
+
+

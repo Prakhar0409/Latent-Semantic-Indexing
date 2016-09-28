@@ -1,0 +1,16 @@
+Neuroeconomics
+Neuroeconomics combines neuroscience, economics, and psychology to study how people make decisions.[1] It looks at the role of the brain when we evaluate decisions, categorize risks and rewards, and interact with each other.[1] It can be included in the field of social neuroscience.
+
+Behavioral economics experiments record the subject's decision over various different design parameters and use the data to generate formal models that predict performance. Neuroeconomics extends this approach by adding observation of the nervous system to the set of explanatory variables.
+
+In neuroeconomic experiments, brain scans can be performed using fMRI, PET or other functional neuroimaging tools in order to compare the roles of the different brain areas that contribute to economic decision-making.[1] Other experiments measure ERP (event-related potentials, or use EEG) and MEG (magnetoencephalograms) to measure the timecourses of different brain events.[1] Direct recordings of neurons activities and neurotransmitter concentrations in monkeys and seldomly in humans can also be carried out.
+
+In a typical behavioral economics experiment, a subject is asked to make a series of economic decisions. For example, a subject may be asked whether they prefer to have 45 cents or a gamble with a 50% chance of one dollar and 50% chance of nothing. The experimenter will then measure different variables in order to determine what is going on in the subject's brain as they make the decision.
+
+Different experts have criticized the emerging field. Example of critics have been that it is "a field that oversells itself";[2] or that neuroeconomic studies "misunderstand and understimate traditional economic models".[3]
+
+Neuromarketing is a distinct but closely related disciple to neuroeconomics. While the former is an applied field which uses neuroimaging tools for market investigations the latter has more academic aims since it studies the basic mechanisms of decision-making.[4][5]
+
+
+
+Scholarpedia neuroeconomics

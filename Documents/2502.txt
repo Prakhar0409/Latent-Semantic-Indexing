@@ -1,0 +1,47 @@
+Z-transform
+In mathematics and signal processing, the Z-transform converts a discrete time-domain signal, which is a sequence of real or complex numbers, into a complex frequency-domain representation.
+It is like a discrete equivalent of the Laplace transform. This similarity is explored in the theory of time scale calculus.
+The Z-transform and advanced Z-transform were introduced (under the Z-transform name) by E. I. Jury in 1958 in Sampled-Data Control Systems (John Wiley & Sons). The idea contained within the Z-transform was previously known as the "generating function method".
+
+The Z-transform, like many other integral transforms, can be defined as either a one-sided or two-sided transform.
+
+The bilateral or two-sided Z-transform of a discrete-time signal x[n] is the function X(z) defined as
+where n is an integer and z is, in general, a complex number:
+
+Alternatively, in cases where x[n] is defined only for n ≥ 0, the single-sided or unilateral Z-transform is defined as
+In signal processing, this definition is used when the signal is causal.
+An important example of the unilateral Z-transform is the probability-generating function, where the component x[n] is the probability that a discrete random variable takes the value n, and the function X(z) is usually written as X(s), in terms of s = z − 1. The properties of Z-transforms (below) have useful interpretations in the context of probability theory.
+
+In geophysics, the usual definition for the Z-transform is a polynomial in z as opposed to z − 1. This convention is used by Robinson and Treitel and by Kanasewich. The geophysical definition is
+The two definitions are equivalent; however, the difference results in a number of changes. For example, the location of zeros and poles move from inside the unit circle, using one definition, to outside the unit circle, using the other definition (and vice versa). Thus, care is required to note which definition is being used by a particular author.
+
+The inverse Z-transform is
+where  is a counterclockwise closed path encircling the origin and entirely in the region of convergence (ROC). The contour or path, , must encircle all of the poles of .
+A special case of this contour integral occurs when  is the unit circle (and can be used when the ROC includes the unit circle). The inverse Z-transform simplifies to the inverse discrete-time Fourier transform:
+The Z-transform with a finite range of n and a finite number of uniformly-spaced z values can be computed efficiently via Bluestein's FFT algorithm. The discrete-time Fourier transform (DTFT) (not to be confused with the discrete Fourier transform (DFT)) is a special case of such a Z-transform obtained by restricting z to lie on the unit circle.
+
+The region of convergence (ROC) is the set of points in the complex plane for which the Z-transform summation converges.
+
+Let . Expanding  on the interval  it becomes
+Looking at the sum
+Therefore, there are no such values of  that satisfy this condition.
+
+Let  (where u is the Heaviside step function). Expanding  on the interval  it becomes
+Looking at the sum
+The last equality arises from the infinite geometric series and the equality only holds if  which can be rewritten in terms of  as . Thus, the ROC is . In this case the ROC is the complex plane with a disc of radius 0.5 at the origin "punched out".
+
+Let  (where u is the Heaviside step function). Expanding  on the interval  it becomes
+Looking at the sum
+Using the infinite geometric series, again, the equality only holds if  which can be rewritten in terms of  as . Thus, the ROC is . In this case the ROC is a disc centered at the origin and of radius 0.5.
+What differentiates this example from the previous example is only the ROC. This is intentional to demonstrate that the transform result alone is insufficient.
+
+Examples 2 & 3 clearly show that the Z-transform  of  is unique when and only when specifying the ROC. Creating the pole-zero plot for the causal and anticausal case show that the ROC for either case does not include the pole that is at 0.5. This extends to cases with multiple poles: the ROC will never contain poles.
+In example 2, the causal system yields an ROC that includes  while the anticausal system in example 3 yields an ROC that includes .
+In systems with multiple poles it is possible to have an ROC that includes neither  nor . The ROC creates a circular band. For example,  has poles at 0.5 and 0.75. The ROC will be , which includes neither the origin nor infinity. Such a system is called a mixed-causality system as it contains a causal term  and an anticausal term .
+The stability of a system can also be determined by knowing the ROC alone. If the ROC contains the unit circle (i.e., ) then the system is stable. In the above systems the causal system (Example 2) is stable because  contains the unit circle.
+If you are provided a Z-transform of a system without an ROC (i.e., an ambiguous ) you can determine a unique  provided you desire the following:
+If you need stability then the ROC must contain the unit circle. If you need a causal system then the ROC must contain infinity and the system function will be a right-sided sequence. If you need an anticausal system then the ROC must contain the origin and the system function will be a left-sided sequence. If you need both, stability and causality, all the poles of the system function must be inside the unit circle.
+The unique  can then be found.
+
+
+Here:

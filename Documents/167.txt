@@ -1,0 +1,17 @@
+Qix
+Qix (pronounced /kɪks/) is an arcade game, released by Taito America Corporation in 1981.
+
+The objective of Qix is to fence off, or “claim”, a supermajority of the playfield. At the start of each level, the playing field is a large, empty rectangle, containing the Qix — a sticklike entity that performs graceful, but unpredictable motions within the confines of the rectangle.
+The player controls a small diamond-shaped marker that can move around the edges of the rectangle, with the goal to claim as much of the screen as possible via drawing Stix. When the player completes a closed shape, the captured area becomes solid and points are awarded. To complete a level, the player must claim most of the playfield. (The game was shipped at 75 percent, but the arcade operator could adjust the requirement between 50 percent and 90 percent.)
+The player has a limited number of lives and can lose a life if the Qix touches a Stix line as it is being drawn, or by being touched by Sparx - enemies that traverse all playfield edges except uncompleted Stix. Additionally, a Fuse appears if the marker stops moving whilst in the process of drawing Stix, disappearing when the player starts moving again. The player has no ability to defend themselves, and all enemies must be outmaneuvered.
+A Time Meter located at the top of the screen is responsible for the countdown of the entry of additional Sparx and the mutation of all Sparx to Super-Sparx, which have the ability to chase the player even up an unfinished Stix line.
+After the player completes two levels, the difficulty increases. This includes multiple Qixes and Sparxes, speed increases, and the eventual appearance of only Super Sparxes.
+
+Taito produced their own ports or licensed Qix for porting to various platforms over its lifetime. This includes ports for the Atari 5200 (1982), Atari 400/800, DOS (1989), Amiga (1989) (graphically enhanced), Apple IIGS (1990), Game Boy (1990) (developed by Nintendo, this version features at least two intermissions in which Mario is involved: in one, he is in the middle of a desert wearing Mexican clothing and playing a guitar with a vulture looking on; in another one, he's with Luigi and Princess Peach[2]), NES (1990), and Atari Lynx (1991).
+In 2000, a port for the Game Boy Color was released called Qix Adventure. This version features a new "Adventure" mode where the player travels a map screen, taking on various opponents which appear on the playing field. This adds a level of difficulty to the game, as these characters must also be captured in order to complete each level.
+The original arcade version of Qix has been re-released in various Taito game collections which include Taito Legends 2 (PS2, Xbox, Windows) and Taito Legends Power-Up (PSP). Its also available via the online game-playing service Gametap.
+
+Qix spawned a sequel, Qix II-Tournament in 1982 and that was followed by Super Qix, which was released in 1987. Another sequel, Twin Qix, reached prototype stage in 1995, but was never commercially released. The later game Volfied, also known as Ultimate Qix on Sega Genesis/Megadrive or Qix Neo on Playstation, was created as an additional sequel to Qix and also released on several mobile phones.
+Notable clones of Qix include the 1983 MS-DOS based clone Styx, the Gals Panic series of games, and Art Class a mini-game in the 2006 PS2 game, Bully. [3]
+
+

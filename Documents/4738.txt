@@ -1,0 +1,27 @@
+Tuple
+In mathematics, the word tuple is a noun used as a generalization of the words “pair”, “triple”, “quadruple”, etc. A tuple with n�parts is called an n-tuple. Thus a pair would be a 2-tuple, a triple would be a 3-tuple, and so forth.
+Usually the word refers to an ordered n-tuple. This is an ordered sequence (or ordered list) of values, called the components of the tuple. For example,
+is an ordered 5-tuple, with five numbers as its components. An ordered 2-tuple is called an ordered pair, an ordered 3-tuple is an ordered triple, etc.
+The components of a tuple may be any kind of mathematical objects, and they need not have the same type. A set of tuples whose components have specified types is called a Cartesian product.
+Tuples are often used in calculus and linear algebra to refer to the Cartesian coordinates of points in Euclidean space, or to refer to the components of a vector (usually a Euclidean vector in calculus, or a column vector or row vector in linear algebra). In this case, the components of a tuple are usually real numbers.
+In higher mathematics, tuples are often used to record the components of a mathematical structure. For example, a directed graph is defined as a tuple (V,�E) where V is a set of vertices and E�⊆V�×�V is a set of edges, and a ring is defined as a tuple (R,�+,�×), where R is a set and + and × are binary operations on R.
+Tuples in mathematics are similar to arrays in computer science, though sometimes the components of an array are required to have the same data type. More broadly, tuples are used in higher mathematics to construct objects of any record type. In type theory, a data type whose objects are tuples is called a product type.
+
+The term originated as an abstraction of the sequence: single, double, triple, quadruple, quintuple, n-tuple. A tuple of length n is usually described as an n-tuple. A 2-tuple is called a pair; a 3-tuple is a triple or triplet. The n can be any nonnegative integer. For example, a complex number can be represented as a 2-tuple, and a quaternion can be represented as a 4-tuple. Further constructed names are possible, such as octuple, but many mathematicians find it quicker to write "8-tuple", even if still pronouncing this "octuple".
+Although the word tuple was taken as an apparent suffix of some of the names for tuples of specific length, such as quintuple, this is based on a false analysis. The word quintuple comes from Latin quintuplex, which should be analyzed as quintu-plex, in which the suffix plex comes from plicare "to fold", from which also English ply (and hence also the calque fivefold).
+
+
+The main properties that distinguish a tuple from, for example, a set are that
+Note that (1) distinguishes it from an ordered set and that (2) distinguishes it from a multiset. This is often formalized by giving the following rule for the identity of two n-tuples:
+Since a n-tuple is indexed by the numbers 1…n (or 0…n-1), it can be regarded as a function from a subset of ℕ:
+Another way of formalizing tuples is by mapping them to more primitive constructs in set theory such as ordered pairs. For example, an n-tuple (with n > 2) can be defined as an ordered pair of its first entry and an (n−1)-tuple containing the remaining entries:
+Using the usual set-theoretic definition of an ordered pair, this results in the following inductive definition:
+Using this definition, (1, 2, 2) would be
+There is an important similarity here with the way Lisp originally used the ordered pair abstraction to inductively create all of its n-tuple and list structures:
+
+In database theory, the relational model extends the definition of a tuple to associate a distinct name with each component.[1] A tuple in the relational model is formally defined as a finite function that maps field names to values, rather than a sequence, so its components may appear in any order.
+Its purpose is the same as in mathematics, that is, to indicate that an object consists of certain components, but the components are identified by name instead of position, which often leads to a more user-friendly and practical notation, for example:
+Tuples are typically used to represent a row in a database table or a proposition; in this case, there exists a player "Harry" with a score of 25.
+
+
+

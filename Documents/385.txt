@@ -1,0 +1,10 @@
+Choice blindness
+In psychology, choice blindness is a phenomenon in which subjects fail to detect conspicuous mismatches between their intended (and expected) choice and the actual outcome.
+Writing in Science, psychologist Petter Johansson and coworkers describe choice blindness demonstrated in an experiment.
+The subject is presented with two cards, on which different (female) faces appear. The subject is asked to choose which one he finds more attractive. In the non-manipulated (NM) version, the subject is handed the card that he chose and asked to say why he chose that one. In the manipulated (M) version, the experimenter uses sleight of hand techniques to switch the cards without the subject's knowledge and give the subject the other card.
+The workers found that most subjects failed to notice the switch, and furthermore justified their decision using post-hoc confabulated evidence. For example, in a M trial, a subject might say "I preferred this one because I prefer blondes" when he had in fact chosen (and pointed to) the dark-haired woman, but was handed a blonde.
+They point out that his experiment allows one to investigate the relationship between choice and introspection.
+Johansson concludes that he has found that some normal participants unequivocally produce confabulatory reports when asked to describe the reasons behind their choices and suggests that choice blindness affords some insight into the mechanisms behind truthful report.
+
+
+

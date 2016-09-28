@@ -1,0 +1,55 @@
+Epinephrine
+A(AU) C(US)
+Prescription Only (S4)(AU) POM(UK) ℞-only(US)
+Epinephrine (also referred to as adrenaline; see Terminology) is a hormone and neurotransmitter.
+Epinephrine increases the "fight or flight" response of the sympathetic division of the autonomic nervous system.
+It is a catecholamine, a sympathomimetic monoamine derived from the amino acids phenylalanine and tyrosine. The Latin roots ad-+renes and the Greek roots epi-+nephros both literally mean "on/to the kidney" (referring to the adrenal gland, which sits atop the kidneys and secretes epinephrine). Epinephrine is often shortened to E or to EPI in Medical jargon.
+
+Epinephrine was isolated and identified in 1895 by Napoleon Cybulski, a Polish physiologist. In May 1896, William Bates reported the discovery of a substance produced by the adrenal gland in the New York Medical Journal.[1] The discovery was repeated in 1897 by John Jacob Abel.[2]
+Jokichi Takamine, a Japanese chemist, independently discovered the same hormone in 1900.[3][4] In 1901 he isolated and purified the hormone epinephrine from cow glands.
+Epinephrine was first artificially synthesized in 1904 by Friedrich Stolz.
+
+Epinephrine is a "fight or flight" hormone, and plays a central role in the short-term stress reaction. It is released from the adrenal glands when danger threatens or in an emergency, hence an Adrenaline rush. Such triggers may be threatening, exciting, or environmental stressor conditions such as high noise levels, or bright light and high ambient temperature (see Fight-or-flight response).
+
+When in the bloodstream, it rapidly prepares the body for action in emergency situations. The hormone boosts the supply of oxygen and glucose to the brain and muscles, while suppressing other non-emergency bodily processes (digestion in particular).
+It increases heart rate and stroke volume, dilates the pupils, and constricts arterioles in the skin and gastrointestinal tract while dilating arterioles in skeletal muscles. It elevates the blood sugar level by increasing catabolism of glycogen to glucose in the liver, and at the same time begins the breakdown of lipids in fat cells. Like some other stress hormones, epinephrine has a suppressive effect on the immune system.[5]
+Although epinephrine does not have any psychoactive effects, stress or arousal also releases norepinephrine in the brain. Norepinephrine has similar actions in the body, but is also psychoactive.
+The type of action in various cell types depends on their expression of adrenergic receptors.
+
+Epinephrine's actions are mediated through adrenergic receptors. Epinephrine is a non-selective agonist of all adrenergic receptors. It activates α1, α2, β1, and β2 receptors to different extents.[6] Specific functions include:
+β2 receptors are found primarily in skeletal muscle blood vessels where they trigger vasodilation. However, α-adrenergic receptors are found in most smooth muscles and splanchnic vessels, and epinephrine triggers vasoconstriction in those vessels.
+
+Epinephrine is used as a drug to treat cardiac arrest and other cardiac dysrhythmias resulting in diminished or absent cardiac output; its action is to increase peripheral resistance via α1-adrenoceptor vasoconstriction, so that blood is shunted to the body's core, and the β1-adrenoceptor response which is increased cardiac rate and output (the speed and pronouncement of heart beats). This beneficial action comes with a significant negative consequence—increased cardiac irritability—which may lead to additional complications immediately following an otherwise successful resuscitation. Alternatives to this treatment include vasopressin, a powerful antidiuretic which also increases peripheral vascular resistance leading to blood shunting via vasoconstriction, but without the attendant increase in myocardial irritability.[5]
+Due to its suppressive effect on the immune system, epinephrine is the drug of choice for treating anaphylaxis. It is also useful in treating sepsis. Allergy patients undergoing immunotherapy may receive an epinephrine rinse before the allergen extract is administered, thus reducing the immune response to the administered allergen. It is also used as a bronchodilator for asthma if specific beta2-adrenergic receptor agonists are unavailable or ineffective.
+Because of various expression of α1 or β2-receptors, depending on the patient, administration of epinephrine may raise or lower blood pressure, depending whether or not the net increase or decrease in peripheral resistance can balance the positive inotropic and chronotropic effects of epinephrine on the heart, effects which respectively increase the contractility and rate of the heart.
+Epinephrine can also be found in some brands of nasal spray. Its use in this form is to open air passages, however short-term this use may be.
+
+Epinephrine is synthesized from norepinephrine in a synthetic pathway shared by all catecholamines, including L-dopa, dopamine, norepinephrine, and epinephrine.
+Epinephrine is synthesized via methylation of the primary distal amine of norepinephrine by phenylethanolamine N-methyltransferase (PNMT) in the cytosol of adrenergic neurons and cells of the adrenal medulla (so-called chromaffin cells). PNMT is only found in the cytosol of cells of adrenal medullary cells. PNMT uses S-adenosylmethionine (SAMe) as a cofactor to donate the methyl group to norepinephrine, creating epinephrine.
+For norepinephrine to be acted upon by PNMT in the cytosol, it must first be shipped out of granules of the chromaffin cells. This may occur via the catecholamine-H+ exchanger VMAT1. VMAT1 is also responsible for transporting newly synthesized epinephrine from the cytosol back into chromaffin granules in preparation for release.
+
+Epinephrine synthesis is solely under the control of the central nervous system (CNS). Several levels of regulation dominate epinephrine synthesis.
+Adrenocorticotropic hormone (ACTH) and the sympathetic nervous system stimulate the synthesis of epinephrine precursors by enhancing the activity of enzymes involved in catecholamine synthesis. The specific enzymes are tyrosine hydroxylase in the synthesis of dopa and enzyme dopamine-β-hydroxylase in the synthesis of norepinephrine.
+ACTH also stimulates the adrenal cortex to release cortisol, which increases the expression of PNMT in chromaffin cells, enhancing epinephrine synthesis. This is most often done in response to stress.
+The sympathetic nervous system, acting via splanchnic nerves to the adrenal medulla, stimulates the release of epinephrine. Acetylcholine released by preganglionic sympathetic fibers of these nerves acts on nicotinic acetylcholine receptors, causing cell depolarization and an influx of calcium through voltage-gated calcium channels. Calcium triggers the exocytosis of chromaffin granules and thus the release of epinephrine (and norepinephrine) into the bloodstream.
+Epinephrine (as with norepinephrine) does exert negative feedback to down-regulate its own synthesis at the presynaptic alpha-2 adrenergic receptor.
+A pheochromocytoma is a tumor of the adrenal gland (or, rarely, the ganglia of the sympathetic nervous system), which results in the uncontrolled secretion of catecholamines, usually epinephrine.
+In liver cells, epinephrine binds to the β-Adrenergic receptor which changes conformation and helps Gs, a G protein, exchange GDP to GTP. This trimeric G protein dissociates to Gs alpha and Gs beta/gamma subunits. Gs alpha binds to adenyl cyclase thus converting ATP into Cyclic AMP. Cyclic AMP binds to the regulatory subunit of Protein Kinase A: Protein kinase A phosphorylates Phosphorylase Kinase. Meanwhile, Gs beta/gamma binds to the calcium channel and allows calcium ions to enter the cytoplasm. Calcium ions bind to calmodulin proteins, a protein present in all eukaryotic cells, which then binds to Phosphorylase Kinase and finishes its activation. Phosphorylase Kinase phosphorylates Phosphorylase which then phosphorylates glycogen and converts it to glucose-6-phosphate.
+
+Adverse reactions to epinephrine include palpitations, tachycardia, arrhythmia, anxiety, headache, tremor, hypertension, and acute pulmonary edema.[7]
+Use is contraindicated for patients on non-selective β-blockers because severe hypertension and even cerebral hemorrhage may result.[6]
+
+This chemical is widely referred to as adrenaline outside of the US; however, the USAN and INN for this chemical is epinephrine because adrenaline bore too much similarity to the Parke, Davis & Co trademark Adrenalin (without the "e") which was registered in the U.S. The BAN and EP term for this chemical is adrenaline, and is indeed now one of the few differences between the INN and BAN systems of names.
+Amongst U.S. health professionals, the term epinephrine is used over adrenaline. However, it should be noted that universally, pharmaceuticals that mimic the effects of epinephrine are called adrenergics, and receptors for epinephrine are called adrenoceptors.
+It can also be spelled epinephrin (without the "e").
+
+Natural epinephrine is the (R)-(−)-L-epinephrine stereoisomer.
+
+Epinephrine is now also used in EpiPens and Twinjects. EpiPens are long narrow autoinjectors that administer epinephrine, Twinjects are similar but contain two doses of epinephrine. It is also used in medicines and usually the Epinephrine is extracted from adrenal glands of hogs, cattle, and sheep.
+Though both EpiPen and Twinject are trademark names, common usage of the terms are drifting toward the generic context of any epinephrine autoinjector.
+
+Aqueous preparations of adrenaline are obtained by use of hydrochloric acid or tartaric acid, because in the absence of acid medium, it undergoes oxidation.
+Borate salt is used in ophthalmology.
+
+
+

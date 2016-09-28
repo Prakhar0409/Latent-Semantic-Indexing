@@ -1,0 +1,22 @@
+Unity (game engine)
+Unity is an integrated authoring tool for creating 3D video games or other interactive content such as architectural visualizations or real-time 3D animations. Unity is similar to Director, Blender game engine, Virtools or Torque Game Builder in the sense that an integrated graphical environment is the primary way of authoring the game.
+The editor runs on Windows and Mac OS X and can produce games for Windows, Mac, Wii[1], or iPhone[2] platforms. It can also produce browser games that use the Unity web player plugin, supported on Mac and Windows. The web player is also used for deployment as Mac widgets.
+Unity was a runner-up in the Best OS X Graphics category in the 2006 Apple Design Awards [3].
+
+
+
+Before commercial release, Unity was in several years in development. Gooball was released in March 2005 with a pre-release version of Unity.
+Full release notes can be found here.
+
+The Unity Asset Server is a version control solution for all game assets and scripts [15]. The asset server supports multi-gigabyte projects with thousands of multi-megabyte files. Import settings and other metadata are stored and versioned while updates, commits, and graphical version comparisons are all performed inside the Unity Editor. When files are modified, their status is updated instantly. The Unity Asset Server runs on the open source PostgreSQL database server and is available for Mac OS X and Linux. It lacks support for branches, and obviously for branch merges.
+Asset server has an extra cost of $499 per copy of Unity, and requires the user to have a Unity Pro License.
+
+Some of the more notable released and in-development games created with Unity are:
+More projects using Unity can be found in Unity's game list.
+
+There are two main licenses: Unity Indie ($199), and Unity Pro ($1499) [17]. The Pro version has additional features like render-to-texture and postprocessing effects. Unity Pro users can purchase an Asset Server client license, giving them the ability to communicate with Unity Asset Servers for $499. Unity Pro is also required for businesses with over $100,000 turnover/year. There is a free 30 day trial of Unity Indie.
+Both Indie and Pro licenses include the development environment, tutorials, sample projects and content, support via forum, wiki, and future updates in the same major version (i.e. buying Unity 2.0 gets all future Unity 2.x updates for free).
+Unity for iPhone is an add-on to existing Unity purchase, and comes at $399 for "Basic" version and $1499 for "Advanced" version [2].
+Source code, educational and Wii licenses are negotiated on a case by case basis.
+
+

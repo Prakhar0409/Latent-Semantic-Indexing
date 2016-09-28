@@ -1,0 +1,14 @@
+Short message peer-to-peer protocol
+The Short Message Peer-to-Peer (SMPP) protocol is a telecommunications industry protocol for exchanging SMS messages between SMS peer entities such as short message service centres. It is often used to allow third parties (e.g. value-added service providers like news organisations) to submit messages, often in bulk.
+SMPP was originally designed by Aldiscon, a small Irish company that was later acquired by Logica (now split off and known as Acision). In 1999, Logica formally handed over SMPP to the SMPP Developers Forum, later renamed as The SMS Forum and now disbanded. The SMPP protocol specifications are still available through the website which also carries a notice stating that it will be taken down at the end of 2007. As part of the original handover terms, SMPP ownership has now returned to Acision due to the disbanding of the SMS forum.
+The protocol is based on pairs of request/response PDUs (protocol data units, or packets) exchanged over OSI layer 4 (TCP session or X.25 SVC3) connections. PDUs are binary encoded for efficiency.
+The most commonly used versions of SMPP are v3.3, the most widely supported standard, and v3.4, which adds transceiver support (single connections that can send and receive messages). Data exchange may be synchronous, where each peer must wait for a response for each PDU being sent, and asynchronous, where multiple requests can be issued in one go and acknowledged in a skew order by the other peer. The latest version of SMPP is v5.0.
+
+This is an example of the binary encoding of a 60-octet submit_sm PDU. The data is shown in Hex octet values as a single dump and followed by a header and body break-down of that PDU.
+This is best compared with the definition of the submit_sm PDU from the SMPP specification in order to understand how the encoding matches the field by field definition.
+The value break-downs are shown with decimal in parentheses and Hex values after that. Where you see one or several hex octets appended, this is because the given field size uses 1 or more octets encoding.
+Again, reading the definition of the submit_sm PDU from the spec will make all this clearer.
+
+
+
+

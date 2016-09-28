@@ -1,0 +1,15 @@
+LED circuit
+In electronics, the basic LED circuit is an electrical circuit used to power a light-emitting diode (LED). It consists of a voltage source powering two components connected in series: A current limiting resistor, and an LED. Optionally a switch may be introduced to open and close the circuit.[1] The switch may be replaced with another component or circuit to form a continuity tester[2]
+
+The LED used will have a voltage drop specified at the intended operating current. Ohm's law and Kirchhoff's circuit laws are used to calculate the resistor that is used to attain the correct current.[3][4] The resistor value is computed by subtracting the LED voltage drop from the supply voltage, and then dividing by the desired LED operating current.[5]
+This basic circuit is used in a wide range of applications, including many consumer appliances.[6]
+
+The formula to use to calculate the correct resistance to use is:
+where:
+
+The formula can be explained considering the LED as a  resistance, and applying the KVL (R is the unknown quantity):
+
+
+
+
+

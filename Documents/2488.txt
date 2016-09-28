@@ -1,0 +1,7 @@
+Comparison of computer algebra systems
+The following tables provide a comparison of computer algebra systems (CAS).
+
+Forked in 2007 to OpenAxiom and FriCAS
+These computer algebra systems are sometimes combined with "front end" programs that provide a nice user interface, such as the general-purpose GNU TeXmacs.
+
+The operating systems the software can run on natively, without emulation. Some systems must be compiled first using an appropriate compiler for the source language and target platform.

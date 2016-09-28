@@ -1,0 +1,11 @@
+Fungibility
+Fungibility is the property of a good or a commodity whose individual units are capable of mutual substitution. Examples of highly fungible commodities are crude oil, wheat, orange juice, precious metals, and currencies.
+Fungibility has nothing to do with the ability to exchange one commodity for another different commodity. It refers only to the ease of exchanging one unit of a commodity with another unit of the same commodity.
+
+Fungibility is different from liquidity. A good is liquid and tradable if it can be easily exchanged for money or another different good. A good is fungible if one unit of the good is substantially equivalent to another unit of the same good of the same quality at the same time and place.
+As an example, one US$10 bank note is interchangeable with another. Cash is fungible. A barrel of West Texas Intermediate crude oil is fungible (direct exchange) with another barrel of the same type and grade of crude oil. Crude oil is fungible.
+Fungibility does not imply liquidity, and liquidity does not imply fungibility. Diamonds can be readily bought and sold (the trade is liquid), but individual diamonds, being unique, are not interchangeable (diamonds are not fungible). Indian rupee bank notes are mutually interchangeable in London (they are fungible there), but they are not easily traded there (they can not be spent in London).
+In contrast to diamonds, gold coins of the same grade and weight are fungible. They are also liquid, especially under a gold standard. The combination of fungibility, liquidity, durability, and rarity is one of the reasons why gold has successfully served as money for thousands of years.
+
+In legal disputes, when one party is compelled to remedy another party as the result of a ruling or adjudication, the appropriate legal remedy may depend on the fungibility of the underlying right, obligation or property interest that is intended to be restored.[1] Depending on whether the interests of the aggrieved party are fungible (a determination made by the trier of fact), the appropriate remedy may change. For example, a court may require specific performance as a remedy for breach of contract, instead of the more favored remedy of monetary damages.[2]
+

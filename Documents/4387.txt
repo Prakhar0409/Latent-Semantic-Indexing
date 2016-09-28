@@ -1,0 +1,27 @@
+Loop device
+In Unix-like operating systems, a loop device, vnd (vnode disk), or lofi (loopback file interface) is a pseudo-device that makes a file accessible as a block device.
+Before use, a loop device must be connected to an existing file in the filesystem. The association provides the user with an API that allows the file to be used in place of a block special file (cf. device file system). Thus, if the file contains an entire file system, the file may then be mounted as if it were a disk device.
+Files of this kind are often used for CD ISO images and floppy disc images. Mounting a file containing a filesystem via such a loop mount makes the files within that filesystem accessible. They appear in the mount point directory.
+A loop device may allow some kind of data elaboration during this redirection. For example, the device may be the unencrypted version of an encrypted file. In such a case, the file associated with a loop device may be another pseudo-device. This is mostly useful when this device contains an encrypted file system. If supported, the loop device is in this case the decrypted version of the original encrypted file and can therefore be mounted as if it were a normal filesystem.
+
+Mounting a file on a directory requires two steps:
+These two operations can be performed either using two separate commands, or through special flags to the mount command. The first operation can be executed by a specific command such as losetup[1] in Linux, or lofiadm[2] in SunOS. As an example, if example.img is a regular file containing a filesystem and /home/you/dir is a directory on a Linux box, the root user can mount the file on the directory by executing the following two commands:
+The first command associates the loop device node /dev/loop0 with the regular file example.img. This association can be later destroyed by executing losetup -d /dev/loop0. The second command mounts the device on the directory /home/you/dir. The overall effect of executing these two commands is that the content of the file is used as the whole mounted directory. The system call used by losetup to associate and disassociate files with loop devices is an ioctl on the loop device.
+An alternative way of doing the same is to let the mount utility handle the setting up of the loop device:
+In this case, the mount command performs both the association of the file with the loop device and the mount itself.
+At the level of system calls, the association and disassociation of a file with a loop device are done via ioctl's on the loop device. Both losetup and mount therefore use such ioctl's to operate on loop devices. For example, losetup /dev/loop0 example.img opens device /dev/loop0 and performs an ioctl on the resulting file descriptor, passing LOOP_SET_FD as the request number and the string example.img as the third argument.
+
+After mounting a file containing a filesystem, the files within the filesystem can be accessed through the usual filesystem interface of the operating system, without any need for special functionality, such as reading and writing to ISO images, in applications.
+Uses include managing and editing filesystem images meant for later normal use (especially CD or DVD images or installation systems) or permanent segregation of data in actual use (for example simulating removable media on a faster and more convenient hard disk or encapsulating encrypted filesystems).
+
+Some confusion exists about the naming of the loop device under various operating systems. Various Unix-like operating system provide the loop device functionality under different names.
+In Linux, device names are encoded in the symbol table entries of their corresponding device drivers. The device is called "loop" device and device nodes in the device file system are named /dev/loop0, /dev/loop1, etc. and created by the makedev script. The management user interface for the loop device is losetup and is part of the util-linux package.
+Sometimes, the loop device is erroneously referred to as 'loopback' device, but this term is reserved for a networking device in the Linux kernel (cf. loopback). The concept of the 'loop' device is distinct from that of 'loopback', although similar in name.
+In BSD-derived systems, such as NetBSD and OpenBSD, the loop device is called "virtual node device" or "vnd", and generally located at /dev/vnd0, /dev/rvnd0 or /dev/svnd0, etc., in the file system. The vnconfig program is used for configuration.
+FreeBSD followed the same conventions as other BSD systems until release version 5, in which the loop device was incorporated into the memory disk driver ("md"). Configuration is now performed using the mdconfig[3] program.
+In SunOS, the loop device is called "loopback file interface" or lofi, and located at /dev/lofi/1, etc. SunOS has the lofiadm configuration program.
+Mac OS X implements a native image mounting mechanism as part of its random access disk device abstraction. In the user interface it is activated by doubleclicking on the image file name. It can handle disk, CD-ROM or DVD images in various formats.
+Loop mounting is not natively available on Microsoft Windows operating systems. However, the facility is often added using third-party applications such as Daemon Tools and Alcohol 120%. A freely-available tool from VMware can also be used to achieve similar functionality.
+
+
+

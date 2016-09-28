@@ -1,0 +1,11 @@
+CouchDB
+Apache CouchDB, commonly referred to as CouchDB, is a free and open source document-oriented database written in the Erlang programming language. It is designed for extreme scalability and is easily deployed to multi-core or multi-server clusters.
+Like other document-oriented database systems such as Lotus Notes, CouchDB is not a relational database management system. Instead of storing data in rows and columns, the database manages a collection of JSON documents (early versions of CouchDB used XML). As a result, it is often compared with column-oriented datastores like Google's BigTable; however, CouchDB is not a column-oriented store, since the documents in a collection need not share a schema.
+Views are defined with aggregate functions and filters and are computed in parallel, much like MapReduce. Views are generally stored in the database and their indexes updated continuously, although queries may introduce temporary views.
+CouchDB exposes a RESTful HTTP API and a large number of pre-written clients are available. Additionally, a plugin architecture allows for using different computer languages as the view server such as JavaScript (default), PHP, Ruby and Python. Support for other languages can be easily added.
+CouchDB supports a view system using external socket servers and a JSON based protocol.[1] As a consequence, view servers have been developed in a series of languages.
+CouchDB was accepted into Apache incubation in February 2008[2] and became a top level project in November 2008.[3]
+
+
+
+

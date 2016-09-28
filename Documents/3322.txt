@@ -1,0 +1,31 @@
+Google Reader
+Google Reader is a Web-based aggregator, capable of reading Atom and RSS feeds online or offline. It was released by Google on October 7, 2005 through Google Labs. Reader graduated from beta status on September 17, 2007.[1]
+
+
+Major revisions to Reader's interface were made on September 28, 2006. In an interview with Robert Scoble, product manager Nick Baum stated that the redesign is a movement toward making news aggregation something for the general public to enjoy.[2]
+Here are some of the features that are now included within Google Reader:
+
+Users can subscribe to feeds using either Google Reader's search function, or by entering in the exact URL of the RSS or Atom feed. New posts from those feeds are then shown on the left-hand side of the screen. One can then order that list by date or relevance. Items can also be organized with labels, as well as being able to create "Starred Items" for easy access.
+
+Items in Google Reader can be shared with other Web users. Previously this was done by sending a link through e-mail, directing the user to the shared article; or by creating a basic webpage that includes all shared items from a user's account. In December 2007, Google changed the sharing policy so that items the user marked as shared were automatically visible to their Google Talk contacts.[5] Users criticized this change because there is no way to opt out.[6] The URL for a user's page of shared items contains a random string, and Google originally advertised this as a way to limit sharing to only those people to whom you give the address.
+
+Google Reader was the first application to make use of Google Gears, a browser extension that lets online applications work offline. Users who have installed the extension can download up to 2000 items to be read offline. After coming back online, Google Reader updates the feeds.
+
+A mobile interface was released[7] on May 18, 2006. It now can be used by devices that support XHTML or WAP 2.0. On May 12, 2008, Google announced a version of Google Reader targeted at iPhone users. It can be found here.[8]
+
+On May 4, 2006, Google released a new feature[9] which enables feeds from Reader to be displayed on iGoogle (formerly Google Personalized Homepage).
+
+Google Reader is included within Mozilla Firefox's feed recognition (in version 2.0 and higher), which can automatically redirect users to Google Reader's Add Subscription screen.
+
+On May 8, 2007, Google created a version of Google Reader specifically formatted for the Wii web browser. It can be found here.
+
+In addition to a (free) Google Account, Google Reader requires one of the following web browsers to work:
+In all cases, JavaScript must be enabled for Google Reader to work.
+
+Criticisms include feed updates appearing hours (or even days) after the feed was updated, a lack of password-protected feeds, and no warning that a user has subscribed to duplicate feeds.[10]
+
+Its main competitors are NewsGator Online, Rojo.com and Bloglines.
+
+
+Google:
+Unofficial:

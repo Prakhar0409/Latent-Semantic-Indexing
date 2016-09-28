@@ -1,0 +1,78 @@
+Cross product
+In mathematics, the cross product is a binary operation on two vectors in a three-dimensional Euclidean space that results in another vector which is perpendicular to the plane containing the two input vectors. The algebra defined by the cross product is neither associative nor commutative. It contrasts with the dot product which produces a scalar result. In many engineering and physics problems, it is handy to be able to construct a perpendicular vector from two existing vectors, and the cross product provides a means for doing so. The cross product is also useful as a measure of "perpendicularness"—the magnitude of the cross product of two vectors is equal to the product of their magnitudes if they are perpendicular and scales down to zero when they are parallel. The cross product is also known as the vector product, or Gibbs vector product.
+The cross product is not defined except in three or seven dimensions. Like the dot product, it depends on the metric of Euclidean space. Unlike the dot product, it also depends on the choice of orientation or "handedness". Certain features of the cross product can be generalized to other situations. For arbitrary choices of orientation, the cross product must be regarded not as a vector, but as a pseudovector. For arbitrary choices of metric, and in arbitrary dimensions, the cross product can be generalized by the exterior product of vectors, defining a two-form instead of a vector.
+
+The cross product of two vectors a and b is denoted by a × b. In physics, sometimes the notation a ∧ b is used[1] (mathematicians do not use this notation, to avoid confusion with the exterior product).
+In a three-dimensional Euclidean space, with a right-handed coordinate system, a × b is defined as a vector c that is perpendicular to both a and b, with a direction given by the right-hand rule and a magnitude equal to the area of the parallelogram that the vectors span.
+The cross product is defined by the formula[2]
+where θ is the measure of the smaller angle between a and b (0° ≤ θ ≤ 180°), a and b are the magnitudes of vectors a and b, and  is a unit vector perpendicular to the plane containing a and b in the direction given by the right-hand rule as illustrated. If the vectors a and b are collinear (i.e., the angle θ between them is either 0° or 180°), by the above formula, the cross product of a and b is the zero vector 0.
+The direction of the vector  is given by the right-hand rule, where one simply points the forefinger of the right hand in the direction of a and the middle finger in the direction of b. Then, the vector  is coming out of the thumb (see the picture on the right). Using this rule implies that the cross-product is anti-commutative, i.e., b × a = - (a × b). By pointing the forefinger toward b first, and then pointing the middle finger toward a, the thumb will be forced in the opposite direction, reversing the sign of the product vector.
+Using the cross product requires the handedness of the coordinate system to be taken into account (as explicit in the definition above). If a left-handed coordinate system is used, the direction of the vector  is given by the left-hand rule and points in the opposite direction.
+This, however, creates a problem because transforming from one arbitrary reference system to another (e.g., a mirror image transformation from a right-handed to a left-handed coordinate system), should not change the direction of . The problem is clarified by realizing that the cross-product of two vectors is not a (true) vector, but rather a pseudovector. See cross product and handedness for more detail.
+
+
+The unit vectors i, j, and k from the given orthogonal coordinate system satisfy the following equalities:
+Together with the skew-symmetry and bilinearity of the cross product, these three identities are sufficient to determine the cross product of any two vectors. In particular, the following identities are also seen to hold
+With these rules, the coordinates of the cross product of two vectors can be computed easily, without the need to determine any angles: Let
+and
+The cross product can be calculated by distributive cross-multiplication:
+Since scalar multiplication is commutative with cross multiplication, the right hand side can be regrouped as
+This equation is the sum of nine simple cross products. After all the multiplication is carried out using the basic cross product relationships between i, j, and k defined above,
+This equation can be factored to form
+
+The definition of the cross product can also be represented by the determinant of a matrix:
+This determinant can be computed using Sarrus' rule. Consider the table
+From the first three elements on the first row draw three diagonals sloping downward to the right (for example, the first diagonal would contain i, a2, and b3), and from the last three elements on the first row draw three diagonals sloping downward to the left (for example, the first diagonal would contain i, a3, and b2). Then multiply the elements on each of these six diagonals, and negate the last three products. The cross product would be defined by the sum of these products:
+
+
+
+The magnitude of the cross product can be interpreted as the positive area of the parallelogram having a and b as sides (see Figure 1):
+Indeed, one can also compute the volume V of a parallelepiped having a, b and c as sides by using a combination of a cross product and a dot product, called scalar triple product (see Figure 2):
+Figure 2 demonstrates that this volume can be found in two ways, showing geometrically that the identity holds that a "dot" and a "cross" can be interchanged without changing the result. That is:
+Because the magnitude of the cross product goes by the sine of the angle between its arguments, the cross product can be thought of as a measure of "perpendicularness" in the same way that the dot product is a measure of "parallelness". Given two unit vectors, their cross product has a magnitude of 1 if the two are perpendicular and a magnitude of zero if the two are parallel.
+
+The cross product is anticommutative,
+distributive over addition,
+and compatible with scalar multiplication so that
+It is not associative, but satisfies the Jacobi identity:
+It does not obey the cancellation law:
+However, if both a · b = a · c and a × b = a × c, then it can be concluded that b = c. Indeed,
+so that b - c is both parallel and perpendicular to the non-zero vector a. This is only possible if b - c = 0.
+The distributivity, linearity and Jacobi identity show that R3 together with vector addition and cross product forms a Lie algebra. In fact, the Lie algebra is that of the real orthogonal group in 3 dimensions, SO(3).
+Further, two non-zero vectors a and b are parallel if and only if a × b = 0.
+It follows from the geometrical definition above that the cross product is invariant under rotations about the axis defined by a×b.
+
+The triple product expansion, also known as Lagrange's formula, is a formula relating the cross product of three vectors (called the vector triple product) with the dot product:
+The mnemonic “BAC minus CAB” is used to remember the order of the vectors in the right hand member. This formula is used in physics to simplify vector calculations. A special case, regarding gradients and useful in vector calculus, is given below.
+This is a special case of the more general Laplace-de Rham operator Δ = dδ + δd.
+The following identity also relates the cross product and the dot product:
+This is a special case of the multiplicativity  of the norm in the quaternion algebra, and a restriction to  of Lagrange's identity.
+
+
+The cross product can also be described in terms of quaternions, and this is why the letters i, j, k are a convention for the standard basis on : it is thought of as the imaginary quaternions.
+For instance, the above given cross product relations among i, j, and k agree with the multiplicative relations among the quaternions i, j, and k. In general, if a vector [a1, a2, a3] is represented as the quaternion a1i + a2j + a3k, the cross product of two vectors can be obtained by taking their product as quaternions and deleting the real part of the result. The real part will be the negative of the dot product of the two vectors.
+Alternatively and more straightforwardly, using the above identification of the 'purely imaginary' quaternions with , the cross product may be thought of as half of the commutator of two quaternions.
+
+A cross product between two vectors (which can only be defined in three-dimensional space) can be rewritten in terms of pure matrix multiplication as the product of a skew-symmetric matrix and a vector, as follows:
+where
+Also, if  is itself a cross product:
+then
+This notation provides another way of generalizing cross product to the higher dimensions by substituting pseudovectors (such as angular velocity or magnetic field) with such skew-symmetric matrices. It is clear that such physical quantities will have n(n-1)/2 independent components in n dimensions, which coincides with number of dimensions for three-dimensional space, and this is why vectors can be used (and most often are used) to represent such quantities.
+This notation is also often much easier to work with, for example, in epipolar geometry.
+From the general properties of the cross product follows immediately that
+and from fact that  is skew-symmetric it follows that
+The above-mentioned triple product expansion (bac-cab rule) can be easily proven using this notation.
+The above definition of  means that there is a one-to-one mapping between the set of 3×3 skew-symmetric matrices, also known as the Lie algebra of SO(3), and the operation of taking the cross product with some vector .
+
+The cross product can alternatively be defined in terms of the Levi-Civita symbol, 
+where the indices i,j,k correspond, as in the previous section, to orthogonal vector components. This characterization of the cross product is often expressed more compactly using the Einstein summation convention as
+in which repeated indices are summed from 1 to 3. Note that this representation is another form of the skew-symmetric representation of the cross product:
+
+The word xyzzy can be used to remember the definition of the cross product.
+If
+where:
+then:
+The second and third equations can be obtained from the first by simply vertically rotating the subscripts, x → y → z → x. The problem, of course, is how to remember the first equation, and two options are available for this purpose: either to remember the relevant two diagonals of Sarrus's scheme (those containing i), or to remember the xyzzy sequence.
+Since the first diagonal in Sarrus's scheme is just the main diagonal of the above-mentioned  matrix, the first three letters of the word xyzzy can be very easily remembered.
+
+

@@ -1,0 +1,135 @@
+IP Multimedia Subsystem
+The IP Multimedia Subsystem (IMS) is an architectural framework for delivering Internet Protocol (IP) multimedia services. It was originally designed by the wireless standards body 3rd Generation Partnership Project (3GPP), as a part of the vision for evolving mobile networks beyond GSM. Its original formulation (3GPP R5) represented an approach to delivering "Internet services" over GPRS. This vision was later updated by 3GPP, 3GPP2 and TISPAN by requiring support of networks other than GPRS, such as Wireless LAN, CDMA2000 and fixed line. Notably though, as of now, there is little evidence of many companies using IMS to deploy these services.
+To ease the integration with the Internet, IMS uses IETF protocols wherever possible e.g. Session Initiation Protocol (SIP). According to the 3GPP[1], IMS is not intended to standardize applications but rather to aid the access of multimedia and voice applications from wireless and wireline terminals, i.e. create a form of fixed mobile convergence (FMC). This is done by having a horizontal control layer that isolates the access network from the service layer. From a logical architecture perspective, Services need not have their own control functions, as the control layer is a common horizontal layer. However in implementation this does not necessarily map into greater reduced cost and complexity.[citation needed]
+Alternative and overlapping technologies for access and provisioning of services across wired and wireless networks include combinations of Generic Access Network, soft switches and "naked" SIP. This contributes to making the business case for the use of IMS less appealing.[citation needed] It is easier to sell services than to sell the virtues of "integrated services", but additionally the task to sell an IMS based on a service is also difficult as there are often (cheaper) alternatives to creating and deploying that service.
+Since IMS was conceived years ago, it is becoming increasingly easier to access content and contacts using mechanisms outside the control of traditional wireless/fixed operators, and so those operators are likely to reconsider their strategies[2].
+It is unclear how much of the 3GPP/3GPP2/TISPAN IMS specifications as exist today will ever be implemented or deployed.[citation needed]
+
+
+The IP Multimedia Core Network Subsystem is a collection of different functions, linked by standardized interfaces, which grouped form one IMS administrative network. A function is not a node (hardware box): an implementer is free to combine 2 functions in 1 node, or to split a single function into 2 or more nodes. Each node can also be present multiple times in a single network, for load balancing or organizational issues.
+
+The user can connect to an IMS network in various ways, all of which use the standard Internet Protocol (IP). Direct IMS terminals (such as mobile phones, personal digital assistants (PDAs) and computers) can register directly on an IMS network, even when they are roaming in another network or country (the visited network). The only requirement is that they can use IPv6 (also IPv4 in early IMS) and run Session Initiation Protocol (SIP) user agents. Fixed access (e.g., Digital Subscriber Line (DSL), cable modems, Ethernet), mobile access (e.g. W-CDMA, CDMA2000, GSM, GPRS) and wireless access (e.g. WLAN, WiMAX) are all supported. Other phone systems like plain old telephone service (POTS -- the old analogue telephones), H.323 and non IMS-compatible VoIP systems, are supported through gateways.
+
+
+The Home Subscriber Server (HSS), or User Profile Server Function (UPSF), is a master user database that supports the IMS network entities that actually handle calls. It contains the subscription-related information (subscriber profiles), performs authentication and authorization of the user, and can provide information about the subscriber's location and IP information. It is similar to the GSM Home Location Register (HLR) and Authentication Centre (AUC).
+A Subscriber Location Function (SLF) is needed to map user addresses when multiple HSSs are used. Both the HSS and the SLF communicate through the Diameter protocol. This Diameter is also called as AAA protocol i.e Authentication, Accounting and Authorization
+
+Normal 3GPP networks use the following identities:
+IMSI is a unique phone identity that is stored in the SIM. To improve privacy, a TMSI is generated per geographical location. While IMSI/TMSI are used for user identification, the IMEI is a unique device identity and is phone specific. The MSISDN is the telephone number of a user.
+IMS also requires IP Multimedia Private Identity (IMPI) and IP Multimedia Public Identity (IMPU). Both are not phone numbers or other series of digits, but Uniform Resource Identifier (URIs), that can be digits (a tel-uri, like tel:+1-555-123-4567) or alphanumeric identifiers (a sip-uri, like sip:john.doe@example.com). There can be multiple IMPU per IMPI (often a tel-uri and a sip-uri). The IMPU can also be shared with another phone, so both can be reached with the same identity (for example, a single phone-number for an entire family).
+The HSS subscriber database contains, the IMPU, IMPI, IMSI, and MSISDN, subscriber service profiles, service triggers and other information.
+
+Several roles of Session Initiation Protocol (SIP) servers or proxies, collectively called Call Session Control Function (CSCF), are used to process SIP signalling packets in the IMS.
+
+Application servers (AS) host and execute services, and interface with the S-CSCF using Session Initiation Protocol (SIP). An example of an application server that is being developed in 3GPP is the Voice call continuity Function (VCC Server). Depending on the actual service, the AS can operate in SIP proxy mode, SIP UA (user agent) mode or SIP B2BUA (back-to-back user agent) mode. An AS can be located in the home network or in an external third-party network. If located in the home network, it can query the HSS with the Diameter Sh interface (for a SIP-AS) or the Mobile Application Part (MAP) interface (for IM-SSF).
+
+The Media Resource Function (MRF) provides media related functions such as media manipulation (e.g. voice stream mixing) and playing of tones and announcements.
+Each MRF is further divided into a Media Resource Function Controller (MRFC) and a Media Resource Function Processor (MRFP).
+
+A Breakout Gateway Control Function (BGCF) is a SIP server that includes routing functionality based on telephone numbers. It is only used when calling from the IMS to a phone in a circuit switched network, such as the Public Switched Telephone Network (PSTN) or the Public land mobile network (PLMN).
+
+A PSTN/CS gateway interfaces with PSTN circuit switched (CS) networks. For signalling, CS networks use ISDN User Part (ISUP) (or BICC) over Message Transfer Part (MTP), while IMS uses Session Initiation Protocol (SIP) over IP. For media, CS networks use Pulse-code modulation (PCM), while IMS uses Real-time Transport Protocol (RTP).
+
+Media Resources are those components that operate on the media plane and are under the control of IMS Core functions. Specifically, Media Server (MS) and Media gateway (MGW)
+
+There are two types of Next Generation Networking Interconnection:
+An NGN interconnection mode can be direct or indirect. Direct interconnection refers to the interconnection between two network domains without any intermediate network domain. Indirect interconnection at one layer refers to the interconnection between two network domains with one or more intermediate network domain(s) acting as transit networks. The intermediate network domain(s) provide(s) transit functionality to the two other network domains. Different interconnection modes may be used for carrying service layer signalling and media traffic.
+
+Offline charging is applied to users who pay for their services periodically (e.g., at the end of the month). Online charging, also known as credit-based charging, is used for prepaid services, or real-time credit control of postpaid services. Both may be applied to the same session.
+
+Cr
+MRFC, AS
+Used by MRFC to fetch documents (scripts and other resources) from an AS
+HTTP over dedicated TCP/SCTP channels
+Cx
+I-CSCF, S-CSCF, HSS
+Used to communicate between I-CSCF/S-CSCF and HSS
+Diameter
+Dh
+SIP AS, OSA, SCF, IM-SSF, HSS
+Used by AS to find a correct HSS in a multi-HSS environment
+Diameter
+Dx
+I-CSCF, S-CSCF, SLF
+Used by I-CSCF/S-CSCF to find a correct HSS in a multi-HSS environment
+Diameter
+Gm
+UE, P-CSCF
+Used to exchange messages between UE and CSCFs
+SIP
+Go
+PDF, GGSN
+Allows operators to control QoS in a user plane and exchange charging correlation information between IMS and GPRS network
+COPS (Rel5), Diameter (Rel6+)
+Gq
+P-CSCF, PDF
+Used to exchange policy decisions-related information between P-CSCF and PDF
+Diameter
+ISC
+S-CSCF, I-CSCF, AS
+Used to exchange messages between CSCF and AS
+SIP
+Ma
+I-CSCF -> AS
+Used to directly forward SIP requests which are destinated to a Public Service Identity hosted by the AS
+SIP
+Mg
+MGCF -> I-CSCF
+MGCF converts ISUP signalling to SIP signalling and forwards SIP signalling to I-CSCF
+SIP
+Mi
+S-CSCF -> BGCF
+Used to exchange messages between S-CSCF and BGCF
+SIP
+Mj
+BGCF -> MGCF
+Used to exchange messages between BGCF and MGCF in the same IMS network
+SIP
+Mk
+BGCF -> BGCF
+Used to exchange messages between BGCFs in different IMS networks
+SIP
+Mm
+I-CSCF, S-CSCF, external IP network
+Used for exchanging messages between IMS and external IP networks
+SIP
+Mn
+MGCF, IM-MGW
+Allows control of user-plane resources
+H.248
+Mp
+MRFC, MRFP
+Used to exchange messages between MRFC and MRFP
+H.248
+Mr
+S-CSCF, MRFC
+Used to exchange messages between S-CSCF and MRFC
+SIP
+Mw
+P-CSCF, I-CSCF, S-CSCF
+Used to exchange messages between CSCFs
+Rf
+P-CSCF, I-CSCF, S-CSCF, BGCF, MRFC, MGCF, AS
+Used to exchange offline charging information with CCF
+Diameter
+Ro
+AS, MRFC
+Used to exchange online charging information with ECF
+Diameter
+Sh
+SIP AS, OSA SCS, HSS
+Used to exchange information between SIP AS/OSA SCS and HSS
+Diameter
+Si
+IM-SSF, HSS
+Used to exchange information between IM-SSF and HSS
+MAP
+Sr
+MRFC, AS
+Used by MRFC to fetch documents (scripts and other resources) from an AS
+HTTP
+Ut
+UE, AS (SIP AS, OSA SCS, IM-SSF)
+Facilitates the management of subscriber information related to services and settings
+HTTP(s), XCAP
+

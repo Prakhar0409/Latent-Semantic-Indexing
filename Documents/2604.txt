@@ -1,0 +1,7 @@
+Click-through rate
+Click-through rate or CTR is a way of measuring the success of an online advertising campaign. A CTR is obtained by dividing the number of users who clicked on an ad on a web page by the number of times the ad was delivered (impressions). For example, if a banner ad was delivered 100 times (impressions delivered) and one person clicked on it (clicks recorded), then the resulting CTR would be 1 percent.
+Banner ad click-through rates have fallen over time, currently averaging much less than 1 percent. In most cases, a 2% clickthrough rate would be considered very successful. By selecting an appropriate advertising site with high affinity (e.g. a movie magazine for a movie advertisement), the same banner can achieve a substantially higher CTR. Personalized ads, unusual formats, and more obtrusive ads typically have higher click-through rates than standard banner ads.
+CTR is most commonly defined as number of clicks divided by number of impressions and generally not in terms of number of clicks divided by the number of persons who clicked. This is an important distinction. As a person clicks a single advertisement multiple times, the CTR increases using the latter definition, whereas the CTR doesn't change using the former definition.
+
+
+

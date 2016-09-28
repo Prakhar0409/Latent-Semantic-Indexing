@@ -1,0 +1,6 @@
+List of countries and territories by fertility rate
+This page consists of two tables. Table 1 is sourced from the The CIA World Factbook. It is a list of countries by total fertility rate (TFR): the expected number of children born per woman in her child-bearing years, based on 2008 age-specific fertility rate data. Sovereign states are ranked. Some countries might not be listed because they are not fully recognized as countries at the time of this census.
+Table 2 is sourced from the United Nations World Population Prospects: 2006 revision – Table A.15.
+
+
+Table 2 is a list of countries by total fertility rate (TFR): the expected number of children born per woman in her child-bearing years. Figures are from the 2006 revision of the United Nations World Population Prospects report, for the period 2000-2005 and 2005-2010, using the medium assumption.[5] Only countries/territories with a population of 100,000 or more in 2007 are included. Rank is based on 2005-2010 figure.

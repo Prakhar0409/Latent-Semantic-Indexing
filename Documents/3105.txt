@@ -1,0 +1,19 @@
+Codd's 12 rules
+Codd's 12 rules are a set of thirteen rules (numbered zero to twelve) proposed by Edgar F. Codd, a pioneer of the relational model for databases, designed to define what is required from a database management system in order for it to be considered relational, i.e., an RDBMS.[1][2]
+Codd produced these rules as part of a personal campaign to prevent his vision of the relational database being diluted, as database vendors scrambled in the early 1980s to repackage existing products with a relational veneer. Rule 12 was particularly designed to counter such a positioning. In fact, the rules are so strict that all popular so-called "relational" DBMSs fail on many of the criteria.[citation needed]
+
+Rule 0: The system must qualify as relational, as a database, and as a management system.
+Rule 1: The information rule:
+Rule 2: The guaranteed access rule:
+Rule 3: Systematic treatment of null values:
+Rule 4: Active online catalog based on the relational model:
+Rule 5: The comprehensive data sublanguage rule:
+Rule 6: The view updating rule:
+Rule 7: High-level insert, update, and delete:
+Rule 8: Physical data independence:
+Rule 9: Logical data independence:
+Rule 10: Integrity independence:
+Rule 11: Distribution independence:
+Rule 12: The nonsubversion rule:
+
+

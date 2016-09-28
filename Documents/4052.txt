@@ -1,0 +1,21 @@
+mdadm
+mdadm is a Linux utility by Neil Brown that is used to manage software RAID devices, previously known as mdctl. Besides managing, it can create, delete, or monitor Linux software RAIDs. Available under version 2 or later of the GNU General Public License, mdadm is free software.
+mdadm derives its name from the “md” (multiple disk) device nodes it manages.
+
+Create a RAID 1 (mirror) volume from two partitions of exactly or nearly exactly the same size:
+If you receive an error, such as: "mdadm: RUN_ARRAY failed: Invalid argument", make sure your kernel supports (either via a module or by being directly compiled in) the raid mode you are trying to utilize.
+To add RAID device md0 to /etc/mdadm.conf so that it is recognized the next time you boot.
+View the status of a multi disk array.
+View the status of all multi disk arrays.
+
+Mdmpd is a computer program for the GNU/Linux Operating System. It is part of the mdadm package written and copyrighted by Red Hat. The program is used to monitor multi-path (RAID) devices, and is usually started at boot time as a service, and afterwards running as a daemon.
+mdmpd - daemon to monitor MD multipath devices
+Enterprise storage requirements often include the desire to have more than one way to talk to a single disk drive so that in the event of some failure to talk to a disk drive via one controller, the system can automatically switch to another controller and keep going. This is called multipath disk access. The linux kernel implements multipath disk access via the software RAID stack known as the md (Multiple Devices) driver. The kernel portion of the md multipath driver only handles routing I/O requests to the proper device and handling failures on the active path. It does not try and find out if a path that has previously failed might be working again. That's what this daemon does. Upon startup, the daemon will fork and place itself in the background. Then it reads the current state of the md raid arrays, saves that state, and then waits for the kernel to tell it something interesting has happened. It then wakes up, checks to see if any paths on a multipath device have failed, and if they have then it starts to poll the failed path once every 15 seconds until it starts working again. Once it starts working again, the daemon will then add the path back into the multipath md device it was originally part of as a new spare path.
+If one is using the /proc filesystem, /proc/mdstat lists all active md devices with information about them. Mdmpd requires this to find arrays to monitor paths on and to get notification of interesting events.
+
+A common error when creating RAID devices is that the dmraid-driver has taken control of all the devices that are to be used in the new RAID device. Error-messages like this will occur:
+mdadm: Cannot open /dev/sdb1: Device or resource busy
+To solve this problem, you need to build a new initrd without the dmraid-driver. The following command does this on a system with the "2.6.18-8.1.6.el5"-kernel:
+mkinitrd --omit-dmraid /boot/NO_DMRAID_initrd-2.6.18-8.1.6.el5.img 2.6.18-8.1.6.el5
+After this, the system has to be rebooted with the new initrd. Edit your /boot/grub/grub.conf to achieve this.
+

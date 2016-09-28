@@ -1,0 +1,21 @@
+Vundo
+Vundo, or the Vundo Trojan (also known as Virtumonde or Virtumondo and sometimes referred to as MS Juan) is a Trojan horse that is known to cause popups and advertising for rogue antispyware programs, and sporadically other misbehavior including performance degradation and denial of service with some websites including Google and Facebook.
+
+A Vundo infection is typically caused either by opening an e-mail attachment carrying the trojan, or through a variety of browser exploits, including vulnerabilities in popular browser plug-ins, such as Java. Many of the popups advertise fraudulent programs including (but not limited to) Sysprotect, Storage Protector, AntiSpywareMaster, WinFixer, AntiVirus 2009, AntiVirus 360, and Virus Doctor (not to be confused with Spyware Doctor). There are two main components to the Virtumonde.dll file: Browser Helper Objects and Class ID. Each of these components are in the Windows Registry under Local Machine, and the file names are dynamic. It attaches to the system using bogus Browser Helper Objects and DLL files attached to Winlogon and Explorer.exe. Some recent variants have begun attaching to lsass.exe instead of winlogon.exe.[1] According to Spybot - Search & Destroy scans, there are two Virtumonde.prx files and one Virtumonde.dll file located in the Windows Registry as well as the system32 directory.[2] The hosts file may also have an entry for browser-security.microsoft.com.
+
+Since there are many different varieties of Vundo trojans, symptoms of Vundo vary widely, ranging from the relatively benign to the severe. Almost all varieties of Vundo feature some sort of pop-up advertising as well as rooting themselves to make them difficult to delete.
+Computers infected exhibit some or all of the following symptoms:
+
+On infected systems, there is usually a listing for "MS Juan" inside of the registry. This registry key causes a browser hijack, disallowing navigation to certain sites. There will be an entry listing the search page, which also calls upon a random windows dll file, causing the search functions on that site to fail. Google searches are disabled, as is access to Hotmail, Gmail, MySpace, and Facebook. Said pages usually become unresponsive.
+Often infects files on peer sharing and bittorrent sites.
+Uses web advertising, e.g. a popunder from the header of That's My Home, for delivery.
+
+Most antivirus programs are not able to block this infection; however it is possible to block many variants of Vundo with applications such as Malwarebytes' Anti-Malware or Peer Guardian.
+Spybot - Search & Destroy is able to block some newer versions of Vundo. Some modern variants of Vundo can exploit the presence of Spybot Search & Destroy by infecting TeaTimer.exe, a program that is bundled with Spybot, or by using an undetected "puppetmaster" to copy critical DLLs.
+An out of date version of Spybot - Search & Destroy such as 1.5.2.20 may well falsely report the presence of Virtumode, citing zipfldr.dll in the System 32 directory as being the infected file. Upgrading to the current version of Spybot - Search & Destroy and rescanning the system removes the detection.
+Some antivirus programs such as McAfee VirusScan and VundoFix may be able to remove parts the trojan such as "MS Juan", however sometimes it is not able to, depending on what happens and how much damage the trojan did.
+It is possible that CCleaner can remove the infection.
+ComboFix can be used to effectively eliminate the problem files, although its very powerful nature lends professionals to advise it only be used under supervision.
+
+
+

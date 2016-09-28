@@ -1,0 +1,35 @@
+Open source hardware
+Open source hardware refers to computer and electronic hardware that is designed in the same fashion as free and open source software (FOSS). Open source hardware is part of the open source culture that takes the open source ideas to fields other than software.
+The term has primarily been used to reflect the free release of information about the hardware design, such as schematics, bill of materials and PCB layout data, often with the use of FOSS to drive the hardware.
+With the rise of reconfigurable programmable logic devices, the sharing of logic designs is also a form of open source hardware. Instead of sharing the schematics, hardware description language (HDL) code is shared. HDL descriptions are commonly used to set up system-on-a-chip systems either in field-programmable gate arrays or directly in application-specific integrated circuit designs. HDL modules, when distributed, are called semiconductor intellectual property cores, or IP cores.
+
+Rather than creating a new license, some open source hardware projects simply use existing, open source software licenses.[4]
+In addition to existing software licenses, several new licenses have been proposed; these licenses are designed to address issues specific to hardware designs.[5] In these licenses, many of the fundamental principles expressed in open source software (OSS) licenses have been "ported" to their counterpart hardware projects. Organizations tend to rally around a shared license. For example, Opencores prefers the LGPL[6]; FreeCores insists on the GPL[7]; Open Hardware Foundation promote "'copyleft' or other permissive licenses"[8]; and the Balloon Project wrote their own license [9]. New hardware licenses are often explained as the "hardware equivalent" of a well-known OSS license, such as the GPL, LGPL, or BSD license.
+Despite superficial similarities to software licenses, most hardware licenses are fundamentally different: by nature, they rely on patent law, rather than copyright law. Whereas a copyright license may control the distribution of the source code or design documents, a patent license may control the use and manufacturing of the physical device built from the design documents. This distinction is explicitly mentioned in the preamble of the TAPR Open Hardware License.[10]
+
+
+Extensive discussion has taken place on ways to make open source hardware as accessible as open source software. Discussions focus on multiple areas[13], such as the level at which open source hardware is defined[14], ways to collaborate in hardware development, as well as a model for sustainable development[15].
+One of the major differences between developing open source software and developing open source hardware is that hardware results in tangible outputs, which cost money to prototype and manufacture. As a result, the phrase "free as in speech, not as in beer"[16], more formally known as Gratis versus Libre, distinguishes between the idea of zero cost and the freedom to use and modify information. While open source hardware faces challenges in minimizing cost and reducing financial risks for individual project developers, some community members have proposed models to address these needs.[17] Given this, there are initiatives to develop sustainable community funding mechanisms, such as the Open Source Hardware Central Bank, as well as tools like KiCAD to make schematic development more accessible to more users.
+
+
+
+
+
+There are several "open source hardware" CPUs, typically implemented as a soft microprocessor.
+Several designs include a CPU:
+
+
+
+
+
+
+
+
+
+
+A range of open design hardware can be used in home automation. [20][21]
+
+
+
+
+

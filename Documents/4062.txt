@@ -1,0 +1,79 @@
+Grails (framework)
+Grails is an open source web application framework which leverages the Groovy programming language (which is in turn based on the Java platform). It is intended to be a high-productivity framework by following the "coding by convention" paradigm, providing a stand-alone development environment and hiding much of the configuration detail from the developer.
+Grails was previously known as 'Groovy on Rails' (March 2006: the name was dropped in response to a request by David Heinemeier Hansson, founder of the Ruby on Rails framework.[1]). Work began in July 2005, with the 0.1 release on March 29, 2006 and the 1.0 release announced on February 18, 2008.
+G2One - The Groovy Grails Company [2] - was acquired by SpringSource [3] in November, 2008.
+
+Grails has been developed with a number of goals in mind:
+Grails has been designed to be easy to learn, easy to develop applications and extensible. It attempts to offer the right balance between consistency and powerful features.
+
+Grails has three properties which increase developer productivity significantly when compared to traditional Java web frameworks:
+
+Creating web applications in Java traditionally involves configuring environments and frameworks at the start and during development. This configuration is very often externalized in XML files to ease configuration and avoid embedding configuration in application code.
+XML was initially welcomed as it provided greater consistency to configure applications. In recent years however it has become apparent that although XML is great for configuration it can be tedious to set up an environment. This may take away productivity as developers spend time understanding and maintaining framework configuration as the application grows. Adding or changing functionality in applications which use XML configuration adds an extra step to the change process next to writing application code which slows down productivity and may take away the agility of the entire process.
+Grails takes away the need to add configuration in XML files. Instead the framework uses a set of rules or conventions while inspecting the code of Grails-based applications. For example, a class name which ends with Controller (for example BookController) is considered a web controller.
+
+When using traditional Java web toolkits, it's up to developers to assemble deployment units which can be tedious. Grails comes with a complete development environment which includes a web server to get developers started right away. All required libraries are part of the Grails distribution and Grails prepares the Java web environment for deployment automatically.
+
+Grails features dynamic methods on several classes through mixins. A mixin is a method which is added to a class dynamically as if the functionality was compiled in the program.
+These dynamic methods allow developers to perform operations without having to implement interfaces or extend base classes. Grails provides dynamic methods based on the type of class. For example domain classes have methods to automate persistence operations like save, delete and find.
+
+The Grails web framework has been designed according to the MVC paradigm.
+
+Grails uses controllers to implement the behaviour of web pages. Below is an example of a controller:
+The controller above has a list action which returns a model containing all books in the database. To create this controller the grails command is used, as shown below:
+This command requests the controller name and creates a class in the grails-app/controller directory of the Grails project. Creating the controller class is sufficient to have it recognized by Grails. The list action maps to http://localhost:8080/book/list in development mode.
+
+Grails supports JSP and GSP. The example below shows a view written in GSP which lists the books in the model prepared by the controller above:
+This view should be saved as grails-app/views/book/list.gsp of the Grails project. This location maps to the BookController and list action. Placing the file in this location is sufficient to have it recognized by Grails.
+There is also a GSP tag reference available.
+
+Grails supports several Ajax libraries including OpenRico, Prototype and YUI [4]. You can use existing tag libraries which create HTML with Ajax code. You can also easily create your own tag libraries.
+
+Grails provides a large number of tag libraries out of the box. However you can also create and reuse your own tag libraries easily:
+The formatDate tag library above formats a java.util.Date object to a String. This tag library should be added to the grails-app/taglib/ApplicationTagLib.groovy file or in a file ending with TagLib.groovy in the grails-app/taglib directory.
+Below is a snippet from a GSP file which uses the formatDate tag library:
+To use a dynamic tag library in a GSP no import tags have to be used. Dynamic tag libraries can also be used in JSP files although this requires a little more work. [3]
+
+
+The domain model in Grails is persisted to the database using GORM (Grails Object Relational Mapping). Domain classes are saved in the grails-app/domain directory and can be created using the grails command as shown below:
+This command requests the domain class name and creates the appropriate file. Below the code of the Book class is shown:
+Creating this class is all that is required to have it managed for persistence by Grails. With Grails 0.3, GORM has been improved and e.g. adds the properties id and version itself to the domain class if they are not present.
+
+The domain classes managed by GORM have 'magic' dynamic and static methods to perform persistence operations on these classes and its objects. [4]
+
+The save() method saves an object to the database:
+The delete() method deletes an object from the database:
+The refresh() method refreshes the state of an object from the database:
+The ident() method retrieves the object's identity assigned from the database:
+
+The count() method returns the number of records in the database for a given class:
+The exists() method returns true if an object exists in the database with a given identifier:
+The find() method returns the first object from the database based on an object query statement:
+Note that the query syntax is Hibernate HQL.
+
+The findAll() method returns all objects existing in the database:
+The findAll() method can also take an object query statement for returning a list of objects:
+The findBy*() methods return the first object from the database which matches a specific pattern:
+Also:
+The findAllBy*() methods return a list of objects from the database which match a specific pattern:
+The findWhere*() methods return the first object from the database which matches a set of named parameters:
+
+Grails supports scaffolding to support CRUD operations (Create, Read, Update, Delete). Any domain class can be scaffolded by creating a scaffolding controller as shown below:
+By creating this class you can perform CRUD operations on http://localhost:8080/book. Currently Grails does not provide scaffolding for associations.
+
+The persistence mechanism in GORM is implemented via Hibernate. As such, legacy databases may be mapped to GORM classes using standard Hibernate mapping files.
+
+A Grails project is created as follows:
+This command will request the name of the project and will create a project directory with the same name. Change to this directory to use the grails command.
+By running the grails run-app you can now try the http://localhost:8080/ URL.
+
+The target audience for Grails is:
+
+Grails is built on top of and is part of the Java platform meaning it's very easy to integrate with Java libraries, frameworks and existing code bases. The most prominent feature Grails offers in this area is the transparent integration of classes which are mapped with the Hibernate ORM framework. This means existing applications which use Hibernate can use Grails without recompiling the code or reconfiguring the Hibernate classes while using the dynamic persistence methods discussed above. [6]
+One consequence of this is that scaffolding can be configured for Java classes mapped with Hibernate. Another consequence is that the capabilities of the Grails web framework are fully available for these classes and the applications which use them.
+
+
+
+
+
+

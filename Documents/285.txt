@@ -1,0 +1,26 @@
+eRuby
+eRuby is a templating system that embeds Ruby into a text document. It is often used to embed Ruby code in an HTML document, similar to ASP, JSP and PHP.
+
+eRuby allows Ruby code to be embedded within a pair of <% and %> delimiters. These embedded code blocks are then evaluated in-place (they are replaced by the result of their evaluation).
+Here are a few examples of eRuby usage:
+One line of Ruby
+Output like hello from <% print "hello" %> would replace the ruby code between the delimiters.
+Alternatively, lines starting with a % sign are interpreted as Ruby as well:
+Multiple lines
+These can appear less graceful because the beginning and ending are not quite the same. They function like blocks in Ruby and are terminated by <% end %>. They are commonly used as looping constructs, which appear like this:
+Outputting:
+The same code could also be written as:
+Expression result substitution
+- Value evaluated from expression like 11 from 7 + 4 would replace the ruby expression between the delimiters. Often these are only one line.
+Comments
+- this is the same as a comment in Ruby. All Ruby code after the # is ignored and generates nothing. Other things common in eRuby are simply common in Ruby, such as string substitution with
+, which is similar in languages such as Perl or PHP. 
+There are several implementations of eRuby:
+
+eruby is an implementation of eRuby written in the C programming language.
+
+erb is an implementation of eRuby, written purely in the Ruby programming language.
+
+erubis is an implementation of eRuby implemented in Ruby and also in Java. It runs faster than eruby and erb,[citation needed] and has several useful options, including alternate tags allowing for valid XML.
+
+

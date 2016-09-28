@@ -1,0 +1,16 @@
+dpkg
+dpkg is the software at the base of the Debian package management system. dpkg is used to install, remove, and provide information about .deb packages.
+dpkg itself is a low level tool; higher level tools, such as APT, are used to fetch packages from remote locations or deal with complex package relations. Tools like aptitude or synaptic are more commonly used than dpkg as they have a more sophisticated way of dealing with package relationships and a friendlier interface.
+The Debian package "dpkg" provides the dpkg program, as well as several others necessary for run-time functioning of the packaging system, including dpkg-statoverride, dpkg-divert and update-alternatives. It also includes the programs such as start-stop-daemon and install-info, and the latter is kept mostly due to backwards compatibility (it is developed and distributed separately nowadays). The Debian package "dpkg-dev" includes the numerous build tools described below.
+
+dpkg was originally created by Matt Welsh, Carl Streeter and Ian Murdock, first as a Perl program, and then later the main part was rewritten in C by Ian Jackson in 1993. The name dpkg was originally the short for "Debian package", but the meaning of that phrase has evolved significantly, as dpkg the software is orthogonal to the deb package format as well as the Debian Policy which defines how Debian packages behave.
+
+To install a .deb package:
+where debFileName is the name of the Debian software package.
+The list of installed packages can be obtained with:
+To remove an installed package:
+
+dpkg-dev contains a series of development tools required to unpack, build and upload Debian source packages. These include:
+
+
+

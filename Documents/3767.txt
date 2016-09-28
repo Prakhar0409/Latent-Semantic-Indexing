@@ -1,0 +1,31 @@
+StarForce
+StarForce is a software copy protection mechanism developed by Protection Technology.
+Protection Technology claims that products protected with StarForce are difficult to reverse engineer.[1]
+
+Currently known official versions of StarForce include:
+Protection Technology provides a driver update tool,[7] but it does not widen compatibility for StarForce-protected games. For example, to add 64-bit support to a game built before StarForce supported it, a developer would be required to create patches specific to their product(s).
+
+There are two confirmed "tiers" of StarForce protection:
+Some of the games known to use the Pro level of protection are Bet on Soldier, Pro Cycling Manager, Splinter Cell: Chaos Theory, TOCA Race Driver, Trackmania Sunrise, and ÜberSoldier.[8]
+
+When StarForce 3.0 was released it marked a significant step up in the effort required to reverse engineer it.[9] Though its games have all eventually been cracked, the processes took far longer than normal: Splinter Cell: Chaos Theory (the system's debut game) held for 422 days.[10]
+Furthermore, the SF3-protected game Colin McRae Rally 2005 (among others) requires manuals to apply cracks to and, even after that, supplemental cracks to prevent crashes.[11]
+In March 2006 a warez group released a vast array of documentation about how StarForce 3 works. Alongside many technical details, it revealed how several resource-intensive procedures were implemented, such as virtual file system and functions protected with complex virtual machine.[12]
+
+StarForce 3.0 has received criticism for installing its own device driver onto computers along with the protected product,[13] which is generally not uninstalled along with the software[citation needed] (Peter Jackson's King Kong being one exception). Colin McRae: DIRT, however, both asks the player for permission to install the drivers and includes a help file with information on how to remove them. Though a removal utility can be downloaded, StarForce has yet to be advertised or provided to users anywhere within protected games.[citation needed]
+
+StarForce 3.0 drivers are installed with certain older game demos, freeware and downloadable games, like TrackMania Nations. Their presence is intended to prevent crackers from using demo executables to help break retail executables (as the two will usually be quite similar), and can also help to prevent online cheating.[citation needed] In response to criticism over this, Protection Technologies began offering a Lite version of StarForce which, instead of installing device drivers, asks for the original CD every three days. The lite version is also used in some StarForce-protected demos and downloadable games, minus the requests for discs or any connection requirement.
+
+CDV, Ubisoft, Digital Jesters (now defunct), JoWooD, Egosoft, Codemasters, Eagle Dynamics, Midway Games, and Bohemia Interactive Studio have used StarForce 3.0 on some of their products.
+However, Ubisoft and JoWooD announced in 2006 that the North American version of their games would no longer use StarForce, citing "problems with StarForce's software".[14] CDV also announced that they were dropping StarForce for all future games in May 2006 in favor of the TAGES copy prevention system, citing customer complaints.[15]
+
+Some gamers have advocated boycotts of games or publishers known to use StarForce.[16] These gamers claim that StarForce software causes system instability and crashes, and that Protection Technology refuses to address the damage their software causes. Ubisoft decided to investigate the extent of the StarForce boycott and ran a poll on their forums, the outcome of which was against the use of StarForce.[17] As a result (along with a lawsuit[18] and general discontent on the web[19][20]), in Heroes of Might and Magic V and GTR2, StarForce 3.0 was replaced by SecuROM.
+
+Uninstalling a StarForce-protected game does not remove the StarForce driver from the system; it continues to run in the background. The StarForce SDK provides functions for implementors to remove the driver during uninstall of the game, but is not automatically carried out. An official utility program exists to remove the StarForce driver from the system.[21] The program is hosted at a third-party website with a link on the official StarForce website.[22] Instructions for manual removal have also been provided by the community.[23]
+Starting from StarForce 4.0 it includes a removal service. This service automatically uninstalls StarForce drivers after StarForce protected product is uninstalled. After the drivers are uninstalled, the service uninstalls itself as well.
+
+On January 1, 2006, Boing Boing, a popular weblog, alleged that StarForce was malware, citing several problems associated with the protection system, including disk drive performance degradation, weakening of operating system security and stability.[24] A month later on January 31, 2006 Boing Boing received an email from StarForce, threatening legal action and stating that the article was "full of insults, lies, false accusations and rumors".[25] CNET ran a similar story and received a similar email.[26]
+On March 5, 2006, a Protection Technology employee posted a link to a torrent search engine for the results of the search for Galactic Civilizations 2, a game developed by StarDock which does not use mandatory copy prevention, as a demonstration of what a lack of prevention can lead to.[27][28] StarForce later issued an apology for this act after it received a great deal of attention on the Internet.[29]
+
+
+

@@ -1,0 +1,6 @@
+Grapheme
+In typography, a grapheme (from the Greek: γράφω, gráphō, "write") is the fundamental unit in written language. Graphemes include alphabetic letters, Chinese characters, numerals, punctuation marks, and all the individual symbols of any of the world's writing systems.
+In a phonemic orthography, a grapheme corresponds to one phoneme. In spelling systems that are non-phonemic�– such as the spellings used most widely for written English�– multiple graphemes may represent a single phoneme. These are called digraphs (two graphemes for a single phoneme) and trigraphs (three graphemes). For example, the word ship contains four graphemes (s, h, i, and p) but only three phonemes, because sh is a digraph. Conversely, a single grapheme can represent multiple phonemes: the English word "box" has three graphemes, but four phonemes: /bɑːks/.
+Different glyphs can represent the same grapheme, meaning they are allographs. For example, the minuscule letter a can be seen in two variants, with a hook at the top <a>, and without <ɑ>. Not all glyphs are graphemes in the phonological sense; for example the logogram ampersand (&) represents the Latin word et (English ‘and’), which contains two phonemes.
+
+

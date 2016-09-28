@@ -1,0 +1,29 @@
+Fluxx
+Fluxx is a card game, played with a specially-designed deck. It is different from most other card games, in that the rules and the conditions for winning are altered throughout the game, via cards played by the players.
+
+Fluxx was created by Andrew Looney and first published by Looney Labs in 1996. The game was successful and was licensed a year later to Iron Crown Enterprises (ICE) for wider distribution. ICE went bankrupt two years later and Looney Labs has resumed publication and distribution. Looney Labs produced a revised version of the original game in 2002. Amigo Spiele, a German game company, licensed a German language version of Fluxx in 2003. Similarly, Hobby Japan licensed a Japanese language version in 2005.
+
+The game starts out with just two basic rules, presented on a card placed in the play area at the start of the game: each player draws one card, and plays one card during his turn.
+In addition to this Basic Rules card, there are four types of cards in the core game, New Rule, Action, Keeper, and Goal cards:
+Fluxx Blanxx are semi-blank cards used to create custom cards to change gameplay further, and are sold in packs of five. Older Fluxx Blanxx booster packs included one booster card for Chrononauts (titled Beatles Reunion Album), a cover card, and a "microcatalog" card advertising other Looney Labs products. Current packs include only the cover card, but also include a new Creeper blank card in addition to one each of the other four card types.
+The most recent edition of Fluxx, version 4.0, contains 100 cards, as compared to 84 cards in version 3.1 and 81 in the promotional deck.
+
+
+Several expansions have been produced, including:
+
+
+There are also versions of Fluxx that have been released using entirely different sets of cards while playing by the same style of rules.
+EcoFluxx, Family Fluxx, Zombie Fluxx and Monty Python Fluxx can be combined with each other and/or one of the 2.x editions, 3.x editions, or the current 4.0 edition of regular Fluxx to make a "Mega-Fluxx" game (as all these versions have the same card back style).
+Stoner Fluxx was produced in 2003 and had the same rules as the original but with a marijuana-based theme. The card backs on the game list it as "Stoner Fluxx" to differentiate it from the rest of the Fluxx variants they market (although functionally, the game could still be combined with any of the other variants). The company donates a portion of the sales to groups advocating marijuana legalization, almost $15,000 to date.[citation needed] Even though there was no significant controversy over the game, the company has decided on some changes for the release of the game's second printing.
+The initial run of Stoner Fluxx cards is sold out, save for a few decks which periodically show up on eBay. According to Looney Labs official site for the game, a second printing is planned; however, it will be made under either a new imprint or a totally different company so as to fully separate the marketing efforts for Stoner Fluxx from the rest of their product line.
+
+German, Dutch and Japanese Fluxx contain new art and graphic designs (but identical gameplay). The German version has the same card mix as Fluxx 3.0, plus the "Hide Keepers"-related cards from Fluxx 2.0. The Dutch version is identical to the German version, except with localized text. The Japanese version has the same card mix as Fluxx 3.1, plus the "Go Fish" card from Fluxx 3.0.
+
+Looney Labs gives away promotional cards related to Fluxx at conventions such as GenCon and Origins. They have given away cards such as Composting and Jackpot which later appeared in different versions of Fluxx; EcoFluxx and Family Fluxx respectively. They have also given away promo cards for Christmas and in High Times Magazine. Mad Lab Rabbits, voluntary scouts for Looney Labs, give away promo cards to people interested in the game.
+In addition, there are certain cards that can only be obtained by purchasing other items, such as the above-mentioned "Flowers" card in the Fluxx & Flowers set, or the "Pandora's Box" card available with the Pandora's Fluxx Boxx card storage cases.
+Recently, Looney Labs has made many of these promotional and exclusive cards available for individual sale, where they aren't out of print. The list of available cards can be found at their web site.
+
+Fluxx was also available to be played online via the CCG Workshop, using the gatlingEngine to adjudicate most of its rules automatically. However, CCG Workshop is no longer operating. [5]
+
+
+

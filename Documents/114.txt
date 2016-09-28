@@ -1,0 +1,16 @@
+wxWidgets
+wxWidgets (formerly wxWindows) is a widget toolkit for creating graphical user interfaces (GUIs) for cross-platform applications. wxWidgets enables a program's GUI code to compile and run on several computer platforms with minimal or no code changes. It covers systems such as Microsoft Windows, Mac OS X, Linux/Unix (X11, Motif, and GTK+), OpenVMS, OS/2 and AmigaOS. A version for embedded systems is under development.[1]
+
+wxWidgets (initially wxWindows) was started in 1992 by Julian Smart at the University of Edinburgh.[2] He attained an honours degree in Computational Science from the University of St Andrews in the year 1986, and is still a core developer.[3][4]
+On February 20, 2004, the developers of wxWindows announced that the project was changing its name to wxWidgets, as a result of Microsoft requesting Julian Smart to respect Microsoft's United Kingdom trademark of the term Windows.[5]
+
+wxWidgets is distributed under a custom made licence, similar to the GNU Lesser General Public License, with an exception stating that derived works in binary form may be distributed on the user's own terms. This licence is a free software licence, making wxWidgets free software.[6]
+
+The wxWidgets library is implemented in C++, with bindings available for many commonly used programming languages, among them, Python (wxPython), Erlang (wxErlang), Haskell (wxHaskell), Lua (wxLua), Perl (wxPerl), Ruby (wxRuby), Smalltalk (wxSqueak), Java (wx4j) and even JavaScript (wxJavaScript). For a complete list, with links to the respective project sites, see the external references at the end of this article. There is also PLT Scheme, which uses an incompatible branch of wxWindows (version 1), created in 1995. The toolkit is deeply integrated with the language run-time (garbage collection, resource administration) unlike in other languages, which simply provide a library binding.
+wxWidgets is best described as a native mode toolkit as it provides a thin abstraction to a platform's native widgets, as opposed to emulating the display of widgets using graphic primitives. Calling a native widget on the target platform results in a more native looking interface than toolkits such as Swing (for Java), as well as offering performance and other benefits.[citation needed]
+The toolkit is also not restricted to GUI development, having a built-in ODBC-based database library, an inter-process communication layer, socket networking functionality, and more.
+
+
+
+
+

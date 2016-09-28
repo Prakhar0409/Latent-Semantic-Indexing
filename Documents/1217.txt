@@ -1,0 +1,16 @@
+ADO.NET
+ADO.NET is a set of computer software components that can be used by programmers to access data and data services. It is a part of the base class library that is included with the Microsoft .NET Framework. It is commonly used by programmers to access and modify data stored in relational database systems, though it can also be used to access data in non-relational sources. ADO.NET is sometimes considered an evolution of ActiveX Data Objects (ADO) technology, but was changed so extensively that it can be considered an entirely new product.
+
+ADO.NET consists of two primary parts:
+
+These classes provide access to a data source, such as a Microsoft SQL Server or Oracle database and OLEDB data provider. Each data source has its own set of provider objects, but they each have a common set of utility classes:
+
+DataSet objects, a group of classes describing a simple in-memory relational database, were the star of the show in the initial release (1.0) of the Microsoft .NET Framework. The classes form a containment hierarchy:
+A DataSet is populated from a database by a DataAdapter whose Connection and Command properties have been set. However, a DataSet can save its contents to XML (optionally with an XSD schema), or populate itself from XML, making it exceptionally useful for web services, distributed computing, and occasionally-connected applications.
+
+Functionality exists in the Visual Studio .NET IDE to create specialized subclasses of the DataSet classes for a particular database schema, allowing convenient access to each field through strongly-typed properties. This helps catch more programming errors at compile-time, making the IDE's Intellisense feature more beneficial.
+
+ADO.NET Entity Framework is a set of data access APIs for the Microsoft .NET Framework, targeting the version of ADO.NET that ships with .NET Framework 3.5. ADO.NET Entity Framework is included with .NET Framework 3.5 Service Pack 1 and Visual Studio 2008 Service Pack 1, released on 11 Aug 2008. An Entity Framework Entity is an object which has a key representing the primary key of a logical datastore entity. A conceptual Entity Data Model (Entity-relationship model) is mapped to a datastore schema model. Using the Entity Data Model, the Entity Framework allows data to be treated as entities independently of their underlying datastore representations.
+Entity SQL is a SQL-like language for querying the Entity Data Model (instead of the underlying datastore). Similarly, Linq extension Linq-to-Entities provides typed querying on the Entity Data Model. Entity SQL and Linq-to-Entities queries are converted internally into a Canonical Query Tree which is then converted into a query understandable to the underlying datastore (e.g. into SQL in the case of a Relational database). The entities can be using their relationships, and their changes committed back to the datastore.
+
+

@@ -1,0 +1,49 @@
+Tengwar
+Tengwar is a script that was invented by J.R.R. Tolkien. In his works, the tengwar script, invented by Fëanor, was used to write a number of the languages of Middle-earth, including Quenya and Sindarin. However, it can also be used to write other languages, such as English (most of Tolkien's tengwar samples are actually in English). The word tengwar is Quenya for "letters". The corresponding singular is tengwa, "letter".
+
+According to The War of the Jewels (Appendix D to Quendi and Eldar), Fëanor when he created his script introduced a change in terminology. He called a letter, i.e. a written representation of a spoken phoneme (tengwë) a tengwa. Previously, any letter or symbol had been called a sarat (from *sar "incise"), especially the alphabet of Rúmil of Valinor on which Fëanor supposedly based his was known as sarati, but became later also known as "Tengwar of Rúmil". The plural of tengwa was tengwar, and this is the name by which Fëanor's system became known. Since, however, in commonly used modes, an individual tengwa was equivalent to a consonant, the term tengwar in popular use became equivalent to "consonant sign", and the vowel signs were known as ómatehtar. By loan-translation, the tengwar became known as tîw (singular têw) in Sindarin, when they were introduced to Beleriand. The letters of the earlier alphabet native to Sindarin were called cirth (singular certh, probably from *kirte "cutting", and thus semantically analogous to, and cognate with, Quenya sarat). This term was loaned into exilic Quenya as certa, plural certar.
+
+
+The sarati, described in Parma Eldalamberon 13, a script developed by J. R. R. Tolkien in the late 1910s, anticipates many features of the tengwar, especially the vowel representation by diacritics (which is found in many tengwar varieties), different tengwar shapes and a few correspondences between sound features and letter shape features (though inconsistent).
+Even closer to the tengwar is the Valmaric script, described in Parma Eldalamberon 14, which J. R. R. Tolkien used from about 1922 to 1925. It features many tengwar shapes, the inherent vowel [a] found in some tengwar varieties, and the tables in the samples V12 and V13 show an arrangement that is very similar to the one of the primary tengwar in the classical Quenya "mode".
+Jim Allan (An introduction to Elvish, ISBN 0-905220-10-2) compared the tengwar with the Universal Alphabet of Francis Lodwick of 1686, both on grounds of the correspondence between shape features and sound features, and of the actual letter shapes.
+
+The tengwar were probably developed in the late 1920s or in the early 1930s. The Lonely Mountain Jar Inscription, the first published tengwar sample, dates to 1937 (The Hobbit, most editions). The full explanation of the tengwar was published in Appendix E of The Lord of the Rings in 1955.
+The Mellonath Daeron Index of Tengwar Specimina (DTS) lists 74 known samples of tengwar by Tolkien.
+There are only few known samples predating publication of The Lord of the Rings (many of them published posthumously):
+A few other samples, e.g. a tengwar mode for Gothic are known to exist, but remain unpublished to date [1].
+
+
+Just as with any alphabetic writing system, every specific language written in tengwar requires a specific orthography, depending on the phonology of that language. These tengwar orthographies are usually called modes.
+Some modes, called ómatehtar (or vowel tehtar) modes, are abugidas representing vowels with diacritics called tehtar ("signs"; corresponding singular: tehta, "sign"), while other modes, called full writing modes, represent vowels by full letters. These ómatehtar modes can be loosely considered consonant scripts rather than complete alphabets. Some modes map the basic consonants to /t/, /p/, /k/ and /kʷ/, while others use them to represent /t/, /p/, /tʃ/ and /k/. Some modes follow pronunciation, while others follow traditional orthography. The "full writing" modes are sometimes called Beleriandic modes because a well-known "full writing" mode is called the "mode of Beleriand".
+Ómatehtar modes can vary in that the vowel stroke can be placed either on top of the consonant preceding it, as in Quenya, or on the consonant following, as in Sindarin, English, and the notorious Black Speech inscription on the One Ring. The other main difference is in the fourth tyelle below, where those letters with raised stems and doubled bows can be either voiced fricatives, as in Sindarin, or nasalized stops, as in Quenya.
+Since the publication of the first official description of the tengwar at the end of The Lord of the Rings, others have created modes for other languages such as English, Spanish, German, French, Finnish, Italian, Esperanto and Lojban.
+Tolkien has used multiple modes for English, including full writing and ómatehtar alphabetic modes, phonetic full modes and phonetic ómatehtar modes known from documents published after his death.
+
+The most notable characteristic of the tengwar script is that the shapes of the letters correspond to the distinctive features of the sounds they represent.
+Most letters are constructed by a combination of two basic shapes: a vertical stem (either long or short) and either one or two rounded bows (which may or may not be underlined, and may be on the left or right of the stem).
+These principal letters are divided into four series ("témar") that correspond to the main places of articulation and into six rows ("tyeller") that correspond to the main manners of articulation. Both vary among modes.
+Each series is headed by the basic signs composed of a vertical stem descending below the line, and a single bow. These basic signs represent the voiceless stop consonants for that series. For the classical Quenya mode, they are /t/, /p/, /k/ and /kʷ/, and the series are named tincotéma, parmatéma, calmatéma, and quessetéma, respectively; téma means "series" in Quenya.
+In rows of the general use, there are the following correspondences between letter shapes and manners of articulation:
+Here is an example from the parmatéma (the signs with a closed bow on the right side) in the general use:
+In some languages such as Quenya, which do not contain any voiced fricatives other than "v", the raised stem + doubled bow row is used for nasalized stops (nt, mp). In such cases, the "w" sign in the previous paragraph is used for "v". In the mode of Beleriand, found on the door to Moria, the bottom tyelle is used for nasals (i.e., vala is used for /m/) and the fifth tyelle for doubled nasals (malta for /mm/).
+There are additional letters that don't have regular shapes. They may represent e.g. /r/, /l/, /s/ and /h/. Their use varies considerably from mode to mode. Some aficionados have added more letters not found in Tolkien's writings for use in their modes.
+
+
+The contemporary de facto standard in the tengwar user community maps the tengwar characters onto the ISO 8859-1 character encoding following the example of the tengwar typefaces by Dan Smith. This implies a major flaw: If no corresponding tengwar font is installed, a string of nonsense characters appears.
+Since there are not enough places in ISO 8859-1's 191 codepoints for all the signs used in tengwar orthography, certain signs are included in a "tengwar A" font which also maps its characters on ISO 8859-1, overlapping with the first font.
+For each tengwar diacritic, there are four different codepoints that are used depending on the width of the character which bears it.
+Other tengwar typefaces with this encoding include Johan Winge's Tengwar Annatar, Måns Björkman's Tengwar Parmaite, Enrique Mombello's Tengwar Élfica or Michal Nowakowski's Tengwar Formal (note that most of these differ in details).
+The following sample shows the first article of the Universal Declaration of Human Rights written in English, according to the traditional English orthography. It should look similar to the picture at the top of the page, but if no tengwar font is installed, it will look a random jumble of characters because the corresponding ISO 8859-1 characters will appear instead.
+j#¸ 9t&5# w`Vb%_ 6EO w6Y5 e7`V`V 2{( zèVj# 5% 2x%51T`Û 2{( 7v%1+- 4hR 7EO 2{$yYO2 y4% 7]F85^ 2{( z5^8I`B5$I( 2{( dyYj2 zE1 1yY6E2_ 5^( 5#4^(6 5% `C 8q7T1T W w74^(692^H --
+Note: Internet Explorer may not display these characters properly.
+
+A proposal has been made to include the tengwar in the Unicode standard. The codepoints are subject to change; the range U+016000 to U+01607F in the SMP is tentatively allocated for tengwar according to the current Unicode roadmap.
+Tengwar are also proposed for inclusion in the unofficial ConScript Unicode Registry, which assigns codepoints in the Private Use Area. Tengwar are mapped to the range U+E000 to U+E07F; see External links.
+The following Unicode sample (which repeats the one above) is meaningful when viewed under a typeface supporting tengwar glyphs in the area defined in the ConScript tengwar proposal. Some typefaces that support this proposal are James Kass's Code2000 and Code2001. (The Tengwar Telcontar Unicode font uses an incompatible version of the proposal.)
+                              
+
+
+
+
+

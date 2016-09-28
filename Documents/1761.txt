@@ -1,0 +1,66 @@
+Estimation theory
+Estimation theory is a branch of statistics and signal processing that deals with estimating the values of parameters based on measured/empirical data. The parameters describe an underlying physical setting in such a way that the value of the parameters affects the distribution of the measured data. An estimator attempts to approximate the unknown parameters using the measurements.
+For example, it is desired to estimate the proportion of a population of voters who will vote for a particular candidate. That proportion is the unobservable parameter; the estimate is based on a small random sample of voters.
+Or, for example, in radar the goal is to estimate the location of objects (airplanes, boats, etc.) by analyzing the received echo and a possible question to be posed is "where are the airplanes?" To answer where the airplanes are, it is necessary to estimate the distance the airplanes are at from the radar station, which can provide an absolute location if the absolute location of the radar station is known.
+In estimation theory, it is assumed that the desired information is embedded in a noisy signal. Noise adds uncertainty, without which the problem would be deterministic and estimation would not be needed.
+
+The entire purpose of estimation theory is to arrive at an estimator, and preferably an implementable one that could actually be used. The estimator takes the measured data as input and produces an estimate of the parameters.
+It is also preferable to derive an estimator that exhibits optimality. An optimal estimator would indicate that all available information in the measured data has been extracted, for if there was unused information in the data then the estimator would not be optimal.
+These are the general steps to arrive at an estimator:
+After arriving at an estimator, real data might show that the model used to derive the estimator is incorrect, which may require repeating these steps to find a new estimator. A non-implementable or infeasible estimator may need to be scrapped and the process started anew.
+In summary, the estimator estimates the parameters of a physical model based on measured data.
+
+To build a model, several statistical "ingredients" need to be known. These are needed to ensure the estimator has some mathematical tractability instead of being based on "good feel".
+The first is a set of statistical samples taken from a random vector (RV) of size N. Put into a vector,
+Secondly, we have the corresponding M parameters
+which need to be established with their probability density function (pdf) or probability mass function (pmf)
+It is also possible for the parameters themselves to have a probability distribution (e.g., Bayesian statistics). It is then necessary to define the epistemic probability
+After the model is formed, the goal is to estimate the parameters, commonly denoted , where the "hat" indicates the estimate.
+One common estimator is the minimum mean squared error (MMSE) estimator, which utilizes the error between the estimated parameters and the actual value of the parameters
+as the basis for optimality. This error term is then squared and minimized for the MMSE estimator.
+
+Commonly-used estimators and estimation methods, and topics related to them:
+
+
+Consider a received discrete signal, x[n], of N independent samples that consists of an unknown constant A with additive white Gaussian noise w[n] with known variance σ2 (i.e., ). Since the variance is known then the only unknown parameter is A.
+The model for the signal is then
+Two possible (of many) estimators are:
+Both of these estimators have a mean of A, which can be shown through taking the expected value of each estimator
+and
+At this point, these two estimators would appear to perform the same. However, the difference between them becomes apparent when comparing the variances.
+and
+It would seem that the sample mean is a better estimator since, as , the variance goes to zero.
+
+Continuing the example using the maximum likelihood estimator, the probability density function (pdf) of the noise for one sample w[n] is
+and the probability of x[n] becomes (x[n] can be thought of a )
+By independence, the probability of  becomes
+Taking the natural logarithm of the pdf
+and the maximum likelihood estimator is
+Taking the first derivative of the log-likelihood function
+and setting it to zero
+This results in the maximum likelihood estimator
+which is simply the sample mean. From this example, it was found that the sample mean is the maximum likelihood estimator for N samples of a fixed, unknown parameter corrupted by AWGN.
+
+To find the Cramér-Rao lower bound (CRLB) of the sample mean estimator, it is first necessary to find the Fisher information number
+and copying from above
+Taking the second derivative
+and finding the negative expected value is trivial since it is now a deterministic constant 
+Finally, putting the Fisher information into
+results in
+Comparing this to the variance of the sample mean (determined previously) shows that the sample mean is equal to the Cramér-Rao lower bound for all values of N and A. In other words, the sample mean is the (necessarily unique) efficient estimator, and thus also the minimum variance unbiased estimator (MVUE), in addition to being the maximum likelihood estimator.
+
+One of the simplest non-trivial examples of estimation is the estimation of the maximum of a uniform distribution. It is used as a hands-on classroom exercise and to illustrate basic principles of estimation theory. Further, in the case of estimation based on a single sample, it demonstrates philosophical issues and possible misunderstandings in the use of maximum likelihood estimators and likelihood functions.
+Given a discrete uniform distribution  with unknown maximum, the UMVU estimator for the maximum is given by
+where m is the sample maximum and k is the sample size, sampling without replacement.[1][2] This problem is commonly known as the German tank problem, due to application of maximum estimation to estimates of German tank production during World War II.
+The formula may be understood intuitively as:
+the gap being added to compensate for the negative bias of the sample maximum as an estimator for the population maximum.[note 1]
+This has a variance of[1]
+so a standard deviation of approximately N / k, the (population) average size of a gap between samples; compare  above. This can be seen as a very simple case of maximum spacing estimation.
+The sample maximum is the maximum likelihood estimator for the population maximum, but, as discussed above, it is biased.
+
+Numerous fields require the use of estimation theory. Some of these fields include (but are by no means limited to):
+Measured data are likely to be subject to noise or uncertainty and it is through statistical probability that optimal solutions are sought to extract as much information from the data as possible.
+
+
+
+

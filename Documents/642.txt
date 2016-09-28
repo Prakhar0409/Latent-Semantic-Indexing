@@ -1,0 +1,7 @@
+Inductive logic programming
+Inductive logic programming (ILP) is a subfield of machine learning which uses logic programming as a uniform representation for examples, background knowledge and hypotheses. Given an encoding of the known background knowledge and a set of examples represented as a logical database of facts, an ILP system will derive a hypothesised logic program which entails all the positive and none of the negative examples.
+Schema: positive examples + negative examples + background knowledge => hypothesis.
+Inductive logic programming is particularly useful in bioinformatics and natural language processing. The term Inductive Logic Programming was first introduced in a paper by Stephen Muggleton in 1991.
+
+
+

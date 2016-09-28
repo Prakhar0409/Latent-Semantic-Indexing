@@ -1,0 +1,10 @@
+OpenMicroBlogging
+OpenMicroBlogging is an open protocol that allows different micro-blogging services to inter-operate. It lets the user of one service subscribe to notices by a user of another service. This enables a federation of new communities[1], as potentially an organization of any size can host a service. OpenMicroBlogging utilizes the OAuth and Yadis protocols and does not depend on any central authority.
+
+The first implementation of the OpenMicroBlogging protocol is the Laconica software. identi.ca is the first service to support OpenMicroBlogging[2], and other sizeable services including Leo Laporte's Twit Army at http://army.twit.tv are amongst those powered by the open source Laconica.[3]
+Since March 2009 one can search users' accounts in Twit Army from within Identi.ca. You also can subscribe to accounts at Twit Army from your Identi.ca account.
+The second implementation of the OpenMicroBlogging protocol is the OpenMicroBlogger software.
+
+Implementations:
+Services
+

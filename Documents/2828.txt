@@ -1,0 +1,46 @@
+Meta-ethics
+Meta-ethics
+Normative Â· Descriptive
+Consequentialism
+Deontology
+Virtue ethics
+Ethics of care
+Good and evil Â· Morality
+Bio-ethics Â· Cyberethics Â·
+Neuroethics Â· Medical
+Engineering Â· Environmental
+Human rights Â· Animal rights
+Legal Â· Media
+Business Â· Marketing
+Religion Â· War
+Justice Â· Value
+Right Â· Duty Â· Virtue
+Equality Â· Freedom Â· Trust
+Free will Â· Consent
+Moral responsibility
+Confucius Â· Mencius
+Plato Â· Aristotle Â· Aquinas
+Hume Â· Kant Â· Bentham Â· Mill
+Kierkegaard Â· Nietzsche
+Rawls Â· Parfit Â· Singer
+List of ethics topics
+List of ethicists
+In philosophy, meta-ethics (sometimes called "analytic ethics")[1] is the branch of ethics that seeks to understand the nature of ethical properties, and ethical statements, attitudes, and judgments. Meta-ethics is one of the three branches of ethics generally recognized by philosophers, the others being ethical theory and applied ethics. Ethical theory and applied ethics make up normative ethics. Meta-ethics has received considerable attention from academic philosophers in the last few decades.
+While normative ethics addresses such questions as "What should one do?", thus endorsing some ethical evaluations and rejecting others, meta-ethics addresses questions such as "What is goodness?" and "How can we tell what is good from what is bad?", seeking to understand the nature of ethical properties and evaluations.
+Some theorists argue that a metaphysical account of morality is necessary for the proper evaluation of actual moral theories and for making practical moral decisions, however others make the (reverse) claim that only by importing ideas of moral intuition on how to act can we arrive at an accurate account of the metaphysics of morals.
+
+According to Richard Garner and Bernard Rosen[2], there are three kinds of meta-ethical problems, or three general questions:
+A question of the first type might be, "What do the words 'good', 'bad', 'right' and 'wrong' mean?" (see value theory). The second category includes questions of whether moral judgments are universal or relative, of one kind or many kinds, etc. Questions of the third kind ask, for example, how we can know if something is right or wrong, if at all. Garner and Rosen say that answers to the three basic questions "are not unrelated, and sometimes an answer to one will strongly suggest, or perhaps even entail, an answer to another."[2]
+A meta-ethical theory, unlike a normative ethical theory, does not attempt to evaluate specific choices as being better, worse, good, bad, or evil; although it may have profound implications as to the validity and meaning of normative ethical claims. An answer to any of the three example questions above would not itself be a normative ethical statement.
+
+These theories primarily put forward a position on the first of the three questions above, "What is the meaning of moral terms or judgments?" They may however imply or even entail answers to the other two questions as well.
+
+Yet another way of categorizing meta-ethical theories is to distinguish between centralist and non-centralist theories. The debate between centralism and non-centralism revolves around the relationship between the so-called "thin" and "thick" concepts of morality. Thin moral concepts are those such as good, bad, right, and wrong; thick moral concepts are those such as courageous, inequitable, just, or dishonest.[3] While both sides agree that the thin concepts are more general and the thick more specific, centralists hold that the thin concepts are antecedent to the thick ones and that the latter are therefore dependent on the former. That is, centralists argue that one must understand words like "right" and "ought" before understanding words like "just" and "unkind." Non-centralism rejects this view, holding that thin and thick concepts are on par with one another and even that the thick concepts are a sufficient starting point for understanding the thin ones.[4][5]
+Non-centralism has been of particular importance to ethical naturalists in the late 20th and early 21st centuries as part of their argument that normativity is a non-excisable aspect of language and that there is no way of analyzing thick moral concepts into a purely descriptive element attached to a thin moral evaluation, thus undermining any fundamental division between facts and norms. Allan Gibbard, R.M. Hare, and Simon Blackburn have argued in favor of the fact/norm distinction, meanwhile, with Gibbard going so far as to argue that even if conventional English has only mixed normative terms (that is, terms that are neither purely descriptive nor purely normative), we could develop a nominally English metalanguage that still allowed us to maintain the division between factual descriptions and normative evaluations.[6][7]
+
+These theories attempt to answer the second of the above questions: "What is the nature of moral judgments?"
+
+There are theories which attempt to answer questions like "How may moral judgments be supported or defended?" or "Why should I be moral?"
+If one presupposes a cognitivist interpretation of moral sentences, morality is justified by the moralist's knowledge of moral facts, and the theories to justify moral judgements are epistemological theories.
+
+

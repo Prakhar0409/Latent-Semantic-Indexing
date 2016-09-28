@@ -1,0 +1,66 @@
+Rational choice theory
+Africa�· North America
+South America�· Asia
+Europe�· Oceania
+Microeconomics�· Macroeconomics
+History of economic thought
+Methodology�· Heterodox approaches
+Mathematical�· Econometrics
+Experimental�· National accounting
+Behavioral�· Cultural�· Evolutionary
+Growth�· Development�· History
+International�· Economic systems
+Monetary and financial
+Public and welfare economics
+Health�· Labour�· Managerial
+Business�· Information�· Game theory
+Industrial organization �· Law
+Agricultural�· Natural resource
+Environmental�· Ecological
+Urban�· Rural�· Regional
+Journals · Publications
+Categories · Topics · Economists
+Anarchism�· Capitalism
+Communism�· Corporatism
+Fascism�· Georgism
+Islamic�· Laissez-faire
+Market socialism�· Mercantilism
+Protectionism�· Socialism
+Syndicalism�· Third Way
+Anglo-Saxon�· Feudalism
+International�· Hunter-gatherer
+Newly industrialized country
+Palace�· Plantation
+Post-capitalism�· Post-industrial
+Social market�· Socialist market
+Token�· Traditional
+Information�· Transition
+Rational choice theory, also known as rational action theory, is a framework for understanding and often formally modeling social and economic behavior. It is the dominant theoretical paradigm in microeconomics. It is also central to modern political science and is used by scholars in other disciplines such as sociology and philosophy.
+The 'rationality' described by rational choice theory is different from the colloquial and most philosophical uses of rationality. Although models of rational choice are diverse, all assume individuals choose the best action according to stable preference functions and constraints facing them. Most models have additional assumptions. Proponents of rational choice models do not claim that a model's assumptions are a full description of reality, only that good models can aid reasoning and provide help in formulating falsifiable hypotheses, whether intuitive or not. Successful hypotheses are those that survive empirical tests.
+It is widely used as an assumption of the behavior of individuals in microeconomic models and analysis. Although rationality cannot be directly empirically tested, empirical tests can be conducted on some of the results derived from the models. Over the last decades rational choice theory has also become increasingly employed in social sciences other than economics, such as sociology and political science.[1] It has had far-reaching impacts on the study of political science, especially in fields like the study of interest groups, elections, behaviour in legislatures, coalitions, and bureaucracy.[2]
+Models that rely on rational choice theory often adopt methodological individualism, the assumption that social situations or collective behaviors are the result of individual actions. The poor fit between this and sociological conceptions of social situations partially explains the theory's limited use in sociology.
+
+The basic idea of rational choice theory is that patterns of behavior in societies reflect the choices made by individuals as they try to maximize their benefits and minimize their costs. In other words, people make decisions about how they should act by comparing the costs and benefits of different courses of action. As a result, patterns of behavior will develop within the society that result from those choices.
+The idea of rational choice, where people compare the costs and benefits of certain actions, is easy to see in economic theory. Since people want to get the most useful products at the lowest price, they will judge the benefits of a certain object (for example, how useful is it or how attractive is it) compared to similar objects. Then they will compare prices (or costs). In general, people will choose the object that provides the greatest reward at the lowest cost.
+Rational decision making entails choosing an action given one's preferences, the actions one could take, and expectations about the outcomes of those actions. Actions are often expressed as a set, for example a set of j exhaustive and exclusive actions:
+For example, if a person is to vote for either Roger or Sara or to abstain, their set of possible voting actions is:
+Individuals can also have similar sets of possible outcomes.
+Rational choice theory makes two assumptions about individuals' preferences for actions:
+Together these assumptions form the result that given a set of exhaustive and exclusive actions to choose from, an individual can rank them in terms of his preferences, and that his preferences are consistent.
+An individual's preferences can also take forms:
+In more complex models, other assumptions are often incorporated, such as the assumption of independence axiom. Also, with dynamic models that include decision-making over time, time inconsistency may affect an individual's preferences.
+
+Often, to simplify calculation and facilitate testing, some possibly unrealistic assumptions are made about the world. These can include:
+
+Often preferences are described by their utility function or payoff function. This is an ordinal number an individual assigns over the available actions, such as:
+The individual's preferences are then expressed as the relation between these ordinal assignments. For example, if an individual prefers the candidate Sara over Roger over abstaining, their preferences would have the relation:
+
+Both the assumptions and the behavioral predictions of rational choice theory have sparked criticism from various camps. Some people have developed models of bounded rationality, which hope to be more psychologically plausible without completely abandoning the idea that reason underlies decision-making processes. For a long time, a popular strain of critique was a lack of empirical basis, but experimental economics and experimental game theory have largely changed that critique (although they have added other critiques, mainly by demonstrating some human behavior that consistently deviates from rational choice theory, see cognitive bias).
+In their 1994 piece, Pathologies of Rational Choice Theory, Green and Shapiro argue that the empirical outputs of rational choice theory have been limited. They contend that much of the applicable literature, at least in Political Science, was done with weak methods and that when corrected many of the empirical outcomes no longer hold. When taken in this perspective, Rational Choice Theory has provided very little to the overall understanding of political interaction - and is an amount certainly disproportionately weak relative to its appearance in the literature (Green and Shapiro, 1994).
+Schram and Caterino (2006) contains a fundamental methodological criticism of rational choice theory for promoting the view that the natural science model is the only appropriate methodology in social science and that political science should follow this model, with its emphasis on quantification and mathematization. Schram and Caterino argue instead for methodological pluralism.
+Another wave of criticisms came during the 19th and 20th centuries by a group of philosophers, now known as existentialists, who denounced the assumptions of rational choice theorists as dehumanizing and inaccurate. A central tenet of existentialism holds that human beings don't always act in their own interest, even when they know it.[3]
+
+Describing the decisions made by individuals as rational and utility maximizing may seem to be a tautological explanation of their behavior that provided very little new information. While there may be many reasons for a rational choice theory approach, two are important for the social sciences. First, assuming humans make decisions in a rational, rather than stochastic manner implies that their behavior can be modeled and thus predictions can be made about future actions. Second, the mathematical formality of rational choice theory models allows social scientists to derive results from their models that may have otherwise not been seen.
+
+
+

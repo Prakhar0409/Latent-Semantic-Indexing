@@ -1,0 +1,14 @@
+3GPP
+The 3rd Generation Partnership Project (3GPP) is a collaboration between groups of telecommunications associations, to make a globally applicable third generation (3G) mobile phone system specification within the scope of the International Mobile Telecommunications-2000 project of the International Telecommunication Union (ITU). 3GPP specifications are based on evolved Global System for Mobile Communications (GSM) specifications. 3GPP standardization encompasses Radio, Core Network and Service architecture.[1]
+The groups are the European Telecommunications Standards Institute, Association of Radio Industries and Businesses/Telecommunication Technology Committee (ARIB/TTC) (Japan), China Communications Standards Association [2], Alliance for Telecommunications Industry Solutions (North America) and Telecommunications Technology Association (South Korea).[1] The project was established in December 1998.
+3GPP should not be confused with 3rd Generation Partnership Project 2 (3GPP2), which specifies standards for another 3G technology based on IS-95 (CDMA), commonly known as CDMA2000.
+
+3GPP standards are structured as Releases. Discussion of 3GPP thus frequently refers to the functionality in one release or another.
+Each release incorporates hundreds of individual standards documents, each of which may have been through many revisions. Current 3GPP standards incorporate the latest revision of the GSM standards. 3GPP's plans for the future beyond Release 7 are in the development under the title Long Term Evolution ("LTE").
+The documents are available freely on 3GPP's Web site. While 3GPP standards can be bewildering to the newcomer, they are remarkably complete and detailed, and provide insight into how the cellular industry works. They cover not only the radio part ("Air Interface") and Core Network, but also billing information and speech coding down to source code level. Cryptographic aspects (authentication, confidentiality) are also specified in detail. 3GPP2 offers similar information about its system.
+
+3GPP systems are deployed across much of the established GSM market[10][11]. They are primarily Release 99 systems, but as of 2006, growing interest in High-Speed Downlink Packet Access (HSDPA) is driving adoption of Release 5 and its successors. Since 2005, 3GPP systems were seeing deployment in the same markets as 3GPP2 systems (for example, North America[12]). Industry commentators speculate constantly about the competing systems, and the outcome is unclear.
+
+
+
+

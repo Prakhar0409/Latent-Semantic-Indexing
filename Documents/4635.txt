@@ -1,0 +1,15 @@
+Haml
+Haml (XHTML Abstraction Markup Language) is a markup language that is used to cleanly and simply describe the XHTML of any web document without the use of traditional inline coding. It’s designed to address many of the flaws in traditional templating engines, as well as making markup as elegant as it can be. Haml functions as a replacement for inline page templating systems such as PHP, RHTML, and ASP. However, Haml avoids the need for explicitly coding XHTML into the template, because it is itself a description of the XHTML, with some code to generate dynamic content.
+Haml's equivalent for CSS is Sass, which comes with Haml.
+
+
+
+Note: This is a simple preview example and may not reflect the current version of the language.
+The above Haml would produce this XHTML:
+
+The official implementation of Haml has been built for Ruby with plugins for Ruby on Rails and Merb, but the Ruby implementation also functions independently.
+There are also implementations in other languages:
+
+Haml was invented in May 2006 by Hampton Catlin, who continues to work on the implementation and the ideals behind Haml. However, Nathan Weizenbaum is responsible for much of the recent growth and maturation of the Haml codebase.
+
+

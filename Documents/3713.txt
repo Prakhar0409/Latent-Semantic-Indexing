@@ -1,0 +1,55 @@
+Hypergeometric distribution
+ 
+In probability theory and statistics, the hypergeometric distribution is a discrete probability distribution that describes the number of successes in a sequence of n draws from a finite population without replacement, just as the binomial distribution describes the number of successes for draws with replacement.
+A typical example is illustrated by this contingency table:
+There is a shipment of N objects in which m are defective. The hypergeometric distribution describes the probability that exactly k objects are defective in a sample of n distinct objects drawn from the shipment.
+In general, if a random variable X follows the hypergeometric distribution with parameters N, m and n, then the probability of getting exactly k "successes" (defective objects in the previous example) is given by
+where the binomial coefficient  is defined to be the coefficient of xb in the polynomial expansion of (1 + x)a
+The probability is positive when k is between max(0, n + m âˆ’ N) and min(m, n).
+The formula can be understood as follows: There are  possible samples (without replacement). There are  ways to obtain k defective objects and there are  ways to fill out the rest of the sample with non-defective objects.
+The sum of the probabilities for all possible values of k is equal to 1 as one would expect intuitively; this is essentially Vandermonde's identity from combinatorics.
+
+
+The classical application of the hypergeometric distribution is sampling without replacement. Think of an urn with two types of marbles, black ones and white ones. Define drawing a white marble as a success and drawing a black marble as a failure (analogous to the binomial distribution). If the variable N describes the number of all marbles in the urn (see contingency table above) and m describes the number of white marbles (called defective in the example above), then N âˆ’ m corresponds to the number of black marbles.
+Now, assume that there are 5 white and 45 black marbles in the urn. Standing next to the urn, you close your eyes and draw 10 marbles without replacement. What is the probability that exactly 4 of the 10 are white? Note that although we are looking at success/failure, the data cannot be modeled under the binomial distribution, because the probability of success on each trial is not the same, as the size of the remaining population changes as we remove each marble.
+This problem is summarized by the following contingency table:
+The probability of drawing exactly k white marbles can be calculated by the formula
+Hence, in this example k = 4, calculate
+The probability of drawing exactly 4 white marbles is quite low, approximately 0.004, 4 in one thousand. If the random experiment of drawing 10 marbles from the urn of 50 marbles without replacement is repeated 1000 times, exactly 4 white ones would be drawn about 4 times.
+Intuitively we would expect it to be even more unlikely for all 5 marbles to be white. The contingency table in this case is as follows:
+The probability is as follows (notice that the denominator is always the same):
+As expected, the probability of drawing 5 white marbles is much lower than that of drawing 4.
+
+This symmetry can be intuitively understood if you repaint all the black marbles to white and vice versa, thus the black and white marbles simply change roles.
+This symmetry can be intuitively understood as swapping the roles of taken and not taken marbles.
+This symmetry can be intuitively understood if instead of drawing marbles, you label the marbles that you would have drawn. Both expressions give the probability that exactly k marbles are "black" and labeled "drawn".
+
+The metaphor of defective and drawn objects depicts an application of the hypergeometric distribution in which the interchange symmetry between n and m is not of foremost concern. Here is an alternate metaphor which brings this symmetry into sharper focus, as there are also applications where it serves no purpose to distinguish n from m.
+Suppose you have a set of N children who have been identified with an unusual bone marrow antigen. The doctor wishes to conduct a heredity study to determine the inheritance pattern of this antigen. For the purposes of this study, the doctor wishes to draw tissue from the bone marrow from the biological mother and biological father of each child. This is an uncomfortable procedure, and not all the mothers and fathers will agree to participate. Of the mothers, m participate and N-m decline. Of the fathers, n participate and N-n decline.
+We assume here that the decisions made by the mothers is independent of the decisions made by the fathers. Under this assumption, the doctor, who is given n and m, wishes to estimate k, the number of children where both parents have agreed to participate. The hypergeometric distribution can be used to determine this distribution over k. It's not straightforward why the doctor would know n and m, but not k. Perhaps n and m are dictated by the experimental design, while the experimenter is left blind to the true value of k.
+It is important to recognize that for given N, n and m a single degree of freedom partitions N into four sub-populations:
+1) Children where both parents participate
+2) Children where only the mother participates
+3) Children where only the father participates and
+4) Children where neither parent participates.
+Knowing any one of these four values determines the other three by simple arithmetic relations. For this reason, each of these quadrants is governed by an equivalent hypergeometric distribution. The mean, mode, and values of k contained within the support differ from one quadrant to another, but the size of the support, the variance, and other high order statistics do not.
+For the purpose of this study, it might make no difference to the doctor whether the mother participates or the father participates. If this happens to be true, the doctor will view the result as a three-way partition: children where both parents participate, children where one parent participates, children where neither parent participates. Under this view, the last remaining distinction between n and m has been eliminated. The distribution where one parent participates is the sum of the distributions where either parent alone participates.
+
+To express how the symmetry of the clinical metaphor degenerates to the asymmetry of the sampling language used in the drawn/defective metaphor, we will restate the clinical metaphor in the abstract language of decks and cards. We begin with a dealer who holds two prepared decks of N cards. The decks are labelled left and right. The left deck was prepared to hold n red cards, and N-n black cards; the right deck was prepared to hold m red cards, and N-m black cards.
+These two decks are dealt out face down to form N hands. Each hand contains one card from the left deck and one card from the right deck. If we determine the number of hands that contain two red cards, by symmetry relations we will necessarily also know the hypergeometric distributions governing the other three quadrants: hand counts for red/black, black/red, and black/black. How many cards must be turned over to learn the total number of red/red hands? Which cards do we need to turn over to accomplish this? These are questions about possible sampling methods.
+One approach is to begin by turning over the left card of each hand. For each hand showing a red card on the left, we then also turn over the right card in that hand. For any hand showing a black card on the left, we do not need to reveal the right card, as we already know this hand does not count toward the total of red/red hands. Our treatment of the left and right decks no longer appears symmetric: one deck was fully revealed while the other deck was partially revealed. However, we could just as easily have begun by revealing all cards dealt from the right deck, and partially revealed cards from the left deck.
+In fact, the sampling procedure need not prioritize one deck over the other in the first place. Instead, we could flip a coin for each hand, turning over the left card on heads, and the right card on tails, leaving each hand with one card exposed. For every hand with a red card exposed, we reveal the companion card. This will suffice to allow us to count the red/red hands, even though under this sampling procedure neither the left nor right deck is fully revealed.
+By another symmetry, we could also have elected to determine the number of black/black hands rather than the number of red/red hands, and discovered the same distributions by that method.
+The symmetries of the hypergeometric distribution provide many options in how to conduct the sampling procedure to isolate the degree of freedom governed by the hypergeometric distribution. Even if the sampling procedure appears to treat the left deck differently from the right deck, or governs choices by red cards rather than black cards, it is important to recognize that the end result is essentially the same.
+
+The test (see above) based on the hypergeometric distribution (hypergeometric test) is identical to the corresponding one-tailed version of Fisher's exact test. Reciprocally, the p-value of a two-sided Fisher's exact test can be calculated as the sum of two appropriate hypergeometric tests (for more information see [1]).
+
+Let X ~ Hypergeometric(m, N, n) and p = m / N.
+
+where Î¦ is the standard normal distribution function
+
+The model of an urn with black and white marbles can be extended to the case where there are more than two colors of marbles. If there are mi marbles of color i in the urn and you take n marbles at random without replacement, then the number of marbles of each color in the sample (k1,k2,...,kc) has the multivariate hypergeometric distribution.
+The properties of this distribution are given in the adjacent table, where c is the number of different colors and  is the total number of marbles.
+
+
+

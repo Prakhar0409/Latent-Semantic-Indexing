@@ -1,0 +1,16 @@
+PuTTY
+PuTTY is a terminal emulator application which can act as a client for the SSH, Telnet, rlogin, and raw TCP computing protocols. The name "PuTTY" has no definitive meaning[1], though 'tty' is the name for a terminal in the Unix tradition, usually held to be short for teletype.
+PuTTY was originally written for Microsoft Windows, but it has been ported to various other operating systems. Official ports are available for some Unix-like platforms, with work-in-progress ports to Classic Mac OS and Mac OS X, and unofficial ports have been contributed to platforms such as Symbian [2] [3] and Windows Mobile.
+PuTTY was written and is maintained primarily by Simon Tatham and is currently beta software. Licensed under the MIT License, PuTTY is free and open source software.
+
+Some features of PuTTY are:
+
+Prior to 0.58, three consecutive releases (0.55–0.57) were made to fix significant security holes in previous versions, some allowing client compromise even before the server is authenticated.
+Version 0.58, released in April 2005, contained several new features, including improved Unicode support, for international characters and right-to-left or bidirectional languages.
+Version 0.59, released in January 2007, implemented new features such as connection to serial ports, local proxying, sports SSH and SFTP speed improvements, changes the documentation format (for Vista compatibility) and has several bugfixes.
+The 0.60 version implements three new features and some bugfixes.
+
+Main functions are realized by PuTTY files themselves:
+
+
+

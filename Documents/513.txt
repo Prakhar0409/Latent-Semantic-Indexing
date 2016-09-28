@@ -1,0 +1,34 @@
+File hosting service
+A file hosting service, online file storage service, or online media center is an Internet hosting service specifically designed to host static content, typically large files that are not web pages. Typically they allow web and FTP access. They can be optimized for serving many users (as is implied by the term "hosting") or be optimized for single-user storage (as is implied by the term "storage"). Related services are video sharing, virtual storage and remote backup.
+
+
+Authors of Shareware, Freeware and Open Source/Free software often use file hosting services to serve their software. The inherent problem with free downloads is the huge bandwidth cost. These hosts also offer additional services to the authors such as statistics or other marketing features.
+
+Personal file storage services are aimed at private individuals, offering a sort of "network storage" for personal backup, file access, or file distribution. Users can upload their files and share them publicly or keep them password-protected.
+Prior to the advent of personal file storage services, off-site backup services were not typically affordable for individual and small office computer users.
+Sometimes people prefer hosting their files on a publicly accessible HTTP server. In this case, they generally choose paid hosting, and use their hosting for this purpose. Many free hosting providers do not allow the storage of files for non-website-related use.
+
+Content providers who potentially encounter bandwidth congestion issues may use services specialized in distributing cached or static content. It is the case for companies with a major Internet presence.[1]
+
+Most online file storage services offer space on a per-gigabyte basis, and sometimes include a bandwidth cost component as well. Usually these will be charged monthly or yearly. Some companies do offer the service for free, relying on advertising revenue. Some hosting services do not place any limit on how much space your account can consume. Some services require a software download which makes files only available on computers which have that software installed, others allow users to retrieve files through any web browser. With the increased inbox space offered by webmail services, many users have started using their webmail service as an online drive. Some sites offer free unlimited file storage but have a limit on the file size.
+Increasingly, organizations are recognizing the benefits of co-locating their mission-critical equipment within a data centre. Colocation is becoming increasingly popular because of the time and cost savings a company can realize as a result of using shared data centre infrastructure. Significant benefits of scale (large power and mechanical systems) result in large colocation facilities, typically 5,000-10,000 m² (50,000 to 100,000 square feet). With IT and communications facilities in safe, secure hands, telecommunications, Internet, ASP and content providers, as well as enterprises, enjoy less latency and the freedom to focus on their core business.
+Additionally, customers reduce their traffic back-haul costs and free up their internal networks for other uses. Moreover, by outsourcing network traffic to a colocation service provider with greater bandwidth capacity, web site access speeds should improve considerably.
+Major types of colocation customers are:
+Most network access point facilities provide colocation.
+
+Most colocation centres offer different types of services to customers ranging from dedicated suites/rooms or cages to smaller racks or partial racks. Some colocation centres also offer some degree of service level agreements to support a wide range of computer and network related services, for example, server reboots, hardware replacements and software updates.
+There are a few key differences between a dedicated server and colocation servers. Dedicated servers tend to be owned and rented out, while a colocation server is one that the client owns.
+Some colocation centres feature a "meet-me-room" where the different carriers housed in the centre can efficiently exchange data. Most peering points sit in colocation centres. These sites are often used for web hosting. Most colocation centres have high levels of physical security and multiple redundant power and humidity/air-conditioning systems.
+Confusingly, one company can operate a colocation centre, another can provide the bandwidth, whereas a third company would rent a cage inside the centre, renting out racks to hosting providers which would rent the servers themselves to actual clients. Any and all of those companies will claim ownership of the facility and will feature photos and descriptions of it on their web sites. At the actual physical location various ID cards with various logos will be present, including those of the company that built/rents/owns the actual building.
+
+In 2006, Sharebee started a new type of file hosting site, known as a file mirror, file distribution or file spreading engine. These services allow users to upload their file to the hosting servers. The user's file is then distributed to multiple web hosts without using the user's bandwidth. For more information, see Mirror (computing).
+
+One-click hosting generally describes web services that allow internet users to easily upload one or more files from their hard drives (or from a remote location) onto the one-click host's server free of charge.
+Most such services simply return a URL which can be given to other people, who can then fetch the file later on. As of 2005 these sites have drastically increased in popularity, and subsequently, many of the smaller, less efficient sites have failed. Many internet forums exist in order to share such links; this type of file sharing has, to a degree, taken over from P2P filesharing services[2].
+The sites make money through advertising or charging for premium services such as increased downloading capacity, removing any wait restrictions the site may have or prolonging how long uploaded files remain on the site. Some sites implement a CAPTCHA to prevent automated downloading.
+
+The table below presents a comparison of notable file hosting services used for file sharing.
+
+
+
+

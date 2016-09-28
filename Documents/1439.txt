@@ -1,0 +1,14 @@
+Softphone
+In computing, a softphone is a software program for making telephone calls over the Internet using a general purpose computer, rather than using dedicated hardware. Often a softphone is designed to behave like a traditional telephone, sometimes appearing as an image of a phone, with a display panel and buttons with which the user can interact. A softphone is usually used with a headset connected to the sound card of the PC, or with a USB phone. [1]
+
+A typical application of a softphone is to make calls via an Internet telephony service provider to other softphones or to telephones. Service providers may offer PC-to-PC calls for free; PC-to-phone and phone-to-PC calls are usually not free.
+Another type of softphone connects to a private branch exchange (PBX) through a local area network (LAN) and is used to control and dial through an existing hardware phone. This is often used in a call center environment to make calls from a central customer directory, and to "pop-up" information on the screen about which customer is calling, instantly providing the operator with details of the relationship between the caller and the company using the call center.But some countries do not allow this PBX.
+It's important to differentiate softphones from services based on softphones. Skype, Google Talk, and Vonage are Internet telephony service providers having their own softphones that you install on your computer. Unfortunately these three major providers are not interoperable, and you can't place a direct call between them.
+
+To communicate, both end-points must have the same communication protocol and at least one common audio codec. Most service providers use a communication protocol called SIP (Session Initiation Protocol) by IETF, except Skype which is a totally proprietary system and Google Talk which is based on Jabber, now known as XMPP. Examples of SIP softphones can be found in the category "VoIP software" (see below) and at Comparison of VoIP software.
+
+A typical softphone has all standard telephony features (DND, Mute, DTMF, Flash, Hold, Transfer etc) and a lot of new ones like Presence, Video, Wideband Audio and more. The minimum codecs set is G.711, GSM and iLBC. Softphone vendors may offer more codecs and different feature set.
+
+To make voice calls over Internet, you should have
+
+

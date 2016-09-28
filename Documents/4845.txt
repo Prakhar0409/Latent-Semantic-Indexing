@@ -1,0 +1,105 @@
+IBM mainframe utility programs
+IBM mainframe utility programs are supplied with IBM mainframe operating systems such as MVS to carry out various tasks associated with datasets, etc.
+
+Many of these utilities were designed by IBM users, through the group SHARE, and then developed by IBM or modified by IBM from versions written by a user.
+These utilities are usually invoked via Job Control Language (JCL). They tend to use common JCL DD identifiers for their data sets:
+
+
+IDCAMS ("Access Method Services") generates and modifies VSAM and Non-VSAM datasets. The "Access Method" reference derives from the initial "VSAM replaces all other access methods" mindset of OS/VS. It probably has the most functionality of all the utility programs, performing many functions, for both VSAM and non-VSAM files. It was intended to replace most of the other dataset utility programs. Example:
+In the example above, SYSIN control cards are coming from an in-stream file, but you can instead point to any sequential file or a PDS member containing control cards, if you wish. Example of using SYSIN files would be something like this:
+or this:
+
+IEBCOMPR compares records in sequential or partitioned data sets.
+The IEBCOMPR utility is used to compare two sequential or partitioned datasets. This data set comparison is performed at the logical record level. Therefore, IEBCOMPR is commonly used to verify that a backup copying of a data set is current.
+During processing, IEBCOMPR compares each record from each data set, one by one. If the records are unequal, IEBCOMPR lists the following information in the SYSOUT:
+When comparing sequential data sets, IEBCOMPR considers the data sets equal if the following conditions are met:
+For partitioned data sets, IEBCOMPR considers the data sets equal if the following conditions are met:
+If ten unequal comparisons are encountered during processing, IECOMPR terminates with the appropriate message.
+Note: IEBCOMPR is not a very flexible or user-friendly compare program. It can't restrict the comparison to only certain columns, it can't ignore differences in white space, it doesn't tell you where in the record the difference occurs, and it halts after 10 differences. On the other hand, it is fast, and it is present on all IBM mainframes. So it is very useful in comparing load modules, or checking that a copy worked properly. For comparisons of programs or reports, the ISPF SuperC (ISRSUPC) compare program is often used instead.
+
+IEBCOPY copies, compresses and merges partitioned data sets. It can also select or exclude specified members during the copy operation, and rename or replace members.
+Some of the tasks that IEBCOPY can perform include the following:
+The IEBCOPY utility differs from the other IEB-type utilities in that the DDNAMEs of the input and output DD statements are defined in the user commands as opposed to using the standard SYSUT1 and SYSUT2 DDNAMEs. For the IEBCOPY utility, the required job control statements are as follows:
+The MYDD1 and MYDD2 DD statements are names chosen by the user for the partitioned input and output data sets, respectively. You can use any valid DDNAME for these two DD statements. These DDNAMEs are specified in the utility control statements to tell IEBCOPY the name of the input and output data sets.
+
+IEBDG ('Data Generator') creates test datasets consisting of patterned data.
+
+IEBEDIT selectively copies portions of JCL.
+An example of an IEBEDIT program:
+In data set xxxxx.yyyyy.zzzzz you have to write a JCL program which contains 15 steps. After that you have to execute the above program.
+The syntax of the EDIT statement is:
+START=jobname specifies the name of the input job to which the EDIT statement applies. Each EDIT statement must apply to a separate job. If START is specified without TYPE and STEPNAME, the JOB statement and all job steps for the specified job are included in the output.
+Default: If START is omitted and only one EDIT statement is provided, the first job encountered in the input data set is processed. If START is omitted from an EDIT statement other than the first statement, processing continues with the next JOB statement found in the input data set.
+TYPE={POSITION|INCLUDE|EXCLUDE} specifies the contents of the output data set. These values can be coded:
+POSITION specifies that the output is to consist of a JOB statement, the job step specified in the STEPNAME parameter, and all steps that follow that job step. All job steps preceding the specified step are omitted from the operation. POSITION is the default.
+INCLUDE specifies that the output data set is to contain a JOB statement and all job steps specified in the STEPNAME parameter.
+EXCLUDE specifies that the output data set is to contain a JOB statement and all job steps belonging to the job except those steps specified in the STEPNAME parameter.
+STEPNAME=(namelist) specifies the names of the job steps that you want to process.
+namelist can be a single job step name, a list of step names separated by commas, or a sequential range of steps separated by a hyphen (for example, STEPA-STEPE). Any combination of these may be used in one namelist. If more than one step name is specified, the entire namelist must be enclosed in parentheses.
+When coded with TYPE=POSITION, STEPNAME specifies the first job step to be placed in the output data set. Job steps preceding this step are not copied to the output data set.
+When coded with TYPE=INCLUDE or TYPE=EXCLUDE, STEPNAME specifies the names of job steps that are to be included in or excluded from the operation. For example, STEPNAME=(STEPA,STEPF-STEPL,STEPZ) indicates that job steps STEPA, STEPF through STEPL, and STEPZ are to be included in or excluded from the operation.
+If STEPNAME is omitted, the entire input job whose name is specified on the EDIT statement is copied. If no job name is specified, the first job encountered is processed.
+NOPRINT specifies that the message data set is not to include a listing of the output data set.
+Default: The resultant output is listed in the message data set.
+See here for more info.: [1]
+
+IEBGENER copies records from a sequential dataset, or creates a partitioned dataset.
+Some of the tasks that IEBGENER can perform include the following:
+An example of an IEBGENER program to copy one dataset to another:
+For straight copy tasks, the sort program can often do these faster than IEBGENER. Thus many mainframe shops make use of an option that automatically routes such tasks to the sort ICEGENER program instead of IEBGENER.
+On some systems it is possible to send email from a batch job by directing the output to the "SMTP" external writer. On such systems, the technique is as follows:
+
+IEBIMAGE manipulates character set definitions (aka "load modules" or "images") for the IBM 3800 printing subsystem. Common uses are for images of forms to be printed on the output along with the text, for company logos to be printed on the page, or just to print 'graybar' pages (alternating gray & white horizontal backgrounds, to match the previous greenbar paper). With this utility, many different forms or logos could be stored as images, and printed when needed, all using the same standard blank paper, thus eliminating the need to stock many preprinted forms, and the need for operators to stop the printer and change paper.
+
+IEBISAM unloads, loads, copies and prints ISAM datasets. This is largely obsolete — ISAM has been replaced by VSAM on most modern operating systems, so the IDCAMS utility is used instead of this.
+
+IEBPTPCH ("PrinT and PunCH") prints or punches records from a sequential or partitioned dataset.
+Some of the tasks that IEBPTPCH can perform include the following:
+
+IEBUPDTE ("UPDaTE") incorporates changes to sequential or partitioned datasets. The UNIX patch utility is a similar program, but uses different input format markers (e..g, "./ INSERT ..." in MVS becomes "@@..." in Unix Patch).
+Some programmers pronounce it "I.E.B. up-ditty".
+The IEBUPDTE utility is used to maintain source libraries. Some of the functions that IEBUPDTE can perform include the following:
+IEBUPDTE is commonly used to distribute source libraries from tape to DASD.
+IEBUPDTE uses the same job control statements required by most IEB-type utilities. The only exceptions are as follow:
+The job control used by IEUPDTE are as follows:
+
+
+IEFBR14 is a dummy program, normally inserted to JCL when the only desired action is allocation or deletion of datasets.
+An example of an IEFBR14 step:
+The calling sequence for OS/360 contained the return address in Register 14. A branch to Register 14 would thus immediately exit the program. However, before and after executing this program, the operating system would allocate & deallocate datasets as specified in the DD statements, so it is commonly used as a quick way to set up or remove datasets.
+It consisted initially as a single instruction a "Branch to Register" 14. The mnemonic used in the IBM Assembler was BR and hence the name: IEF BR 14.
+This single instruction program had an error in it — it didn't set the return code. Hence a second instruction had to be added to clear the return code so that it would exit with the correct status.
+There was an additional error reported and fixed by IBM on this now two instruction program. This error was due to the IEFBR14 program not being link-edited as reentrant.
+
+These utilities are normally used by systems programmers in maintaining the operation of the system, rather than by programmers in doing application work on the system.
+
+ICKDSF ("Device Support Facility") installs, initializes and maintains DASD, either under an operating system, or standalone.
+
+IEHINITT ("INITalize Tape") initializes tapes by writing tape labels. Multiple tapes may be labeled in one run of the utility. IBM standard or ASCII labels may be written.
+An example of an IEHINITT program:
+This example will label 3 tapes on a 3490 magnetic tape unit. Each tape will receive an IBM standard label. The VOLSER will be incremented by one for each tape labeled. Each tape will be rewound and unloaded after being labeled.
+
+IEHLIST is a utility used to list entries in a Partitioned Dataset (PDS) directory or to list the contents of a Volume Table of Contents (VTOC).
+The IEHLIST utility is used to list the entries contained in any one of the following:
+An example of an IEHLIST program:
+This job will produce a formatted listing of the PDS directory of the PDS named xxxx.yyyy.zzzz.
+An example of an IEHLIST program to list a VTOC is very similar:
+
+IEHMOVE moves or copies collections of data. However, IBM does not recommend using the IEHMOVE utility in a DFSMS environment. A move differs from a copy in that during a move the original data set is deleted, or scratched. Some of the tasks that IEHMOVE can perform include the following:
+On the surface, IEHMOVE may seen redundant to the IEBGENER and IEBCOPY utilities. However, IEHMOVE is more powerful. The main advantage of using IEHMOVE is that you do not need to specify space or DCB information for the new data sets. This is because IEHMOVE allocates this information based on the existing data sets.
+Another advantage of IEHMOVE is that you can copy or move groups of data sets as well as entire volumes of data. Because of the ease in moving groups of data sets or volumes, the IEHMOVE utility is generally favored by system programmers.
+A sample IEHMOVE job:
+The DD statements for IEHMOVE, order than SYSPRINT and SYSIN, refer to DASD or tape volumes instead of individual data sets. However, referencing volumes can pose a problem, since specifying DISP=OLD gains exclusive access to a volume. Therefore, while your IEHMOVE job runs, that entire volume (and all datasets on it) is unavailable to other users. This is acceptable for private volumes, such as tape volumes or mountable volumes, but unacceptable public volumes, such as DASD volumes.
+The SYSUT1 DD statement specifies a DASD volume where three work data set required by IEHMOVE are allocated. You must specify unit and volume information for this DD statement.
+IEHMOVE was one of the first systems to be developed in PL/S.
+
+IEHPROGM builds and maintains system control data. It is also used for renaming and scratching (deleting) a data set.
+Some of the tasks that IEHPROGM can perform include the following:
+For cataloging:
+
+The following programs are not technically utilities — they are not supplied with the Operating System, but are sold as separate packages. Still, as they are standard items required for programming the computer, nearly all shops will have them installed.
+
+The Sort/Merge utility is program to sort records in a file into a specified order, or merge pre-sorted files. It is very frequently used; often the most commonly used application program in a mainframe shop. Modern sort/merge programs also can select or omit certain records, summarize records, remove duplicates, reformat records, and produce simple reports. Sort/merge is important enough that there are multiple companies each selling their own sort/merge package for IBM mainframes.
+
+IGYCRCTL is a COBOL compiler that prepares a COBOL source program for execution by producing a machine-language object module. Note that the object module produced by the compiler must be processed by the linkage editor, IEWL, before the compiled program is ready for execution. (This is the compiler for the current IBM Enterprise COBOL for z/OS product; there have been several previous IBM COBOL compilers over the years, with different names, as well as compilers for various other programming languages.)
+

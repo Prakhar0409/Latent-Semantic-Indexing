@@ -1,0 +1,14 @@
+Wear levelling
+Wear leveling (also written wear levelling) is a technique[1] for prolonging the service life of some kinds of erasable computer storage media, such as flash memory.
+The term has also been used by Western Digital to describe their hard disk preservation technique, but hard disks are not generally wear-leveled devices.
+
+EEPROM and flash memory media have individually erasable segments, each of which can be put through a limited number of erase cycles before becoming unreliable. This can be anywhere between 5,000 and 1,000,000 cycles[2], for example, for NAND flash devices. Erasable optical media such as CD-RW and DVD-RW are rated at up to 1,000 cycles (100,000 cycles for DVD-RAM media).
+Wear-leveling attempts to work around these limitations by arranging data so that erasures and re-writes are distributed evenly across the medium[3]. In this way, no single erase block prematurely fails due to a high concentration of write cycles.
+Conventional file systems like FAT, UFS, HFS, ext2 and NTFS were originally designed for magnetic disks and as such rewrite many of their data structures (such as their directories) repeatedly in place. Some file systems aggravate the problem by tracking last-access times, which can lead to file metadata being constantly rewritten in-place.
+
+There are several techniques for extending the life of the media:
+M-Systems' product DiskOnChip used a software driver named TrueFFS which performed wear-leveling of NAND flash chips and made them appear to OS like a conventional disk drive. On most contemporary flash memory devices, such as CompactFlash and Secure Digital cards, these techniques are implemented in hardware by a built-in microcontroller. On such devices, wear-leveling is transparent and most conventional file systems can be used as-is on them.
+Wear-leveling can also be implemented in software by special-purpose file systems such as JFFS2 and YAFFS on flash media or UDF on optical media. All three are log-structured filesystems in that they treat their media as circular logs and write to them in sequential passes. File systems which implement Copy-on-write strategies, such as ZFS, also implement a form of wear-leveling.
+
+
+

@@ -1,0 +1,16 @@
+Daemon Tools
+Daemon Tools (styled DAEMON Tools by its creators) is a disk image emulator and optical disc authoring program for Microsoft Windows. Daemon Tools was originally a furtherance in the development of another program, Generic SafeDisc emulator, and incorporated all of its features. The program is able to defeat most copy protection schemes such as SafeDisc and SecuROM.[1].It is currently compatible with Windows XP and Windows Vista.
+
+As of January 2008, the following image formats are supported:[2]
+
+Versions prior to v4.00 had only one edition. That edition was freeware, had no adware, and was solely an imaging disc-emulation software (no image conversion, creation, burning, and so forth). Version 3.47 is the last such version.
+Since version 4.00, four editions of the product exist: Lite [Commercial], Pro Standard and Pro Advanced. A feature comparison is given below:[3]
+
+Some software publishers go to great lengths to disable or frustrate Daemon Tools. For example, some games will check whether the Daemon Tools driver is loaded, and if so will take some action, such as uninstalling the toolset altogether. New releases of Daemon Tools take various measures to ensure the functionality of the application. For example, revision 4.06 randomizes the name of the virtual driver installed by the software.[citation needed]
+Daemon Tools currently uses rootkit technology to hide from other applications and the operating system itself. This often leads to false reports by antivirus and anti-rootkit software (such as RootkitRevealer).[4]
+
+Y.A.S.U (Yet Another SecuROM Utility) is a very small tool that works as an "SCSI-drive protector". It was created by sYk0, who also created CureROM (but CureROM uses an alternative method to protect SCSI drives).
+It’s a simple utility that can be used to hide emulated drives from SecuROM 7 and SafeDisc 4. YASU is a companion program for Daemon Tools and currently being hosted, supported and maintained by the Daemon Tools team and copybase.org.
+
+
+

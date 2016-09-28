@@ -1,0 +1,13 @@
+Real Time Streaming Protocol
+The Real Time Streaming Protocol (RTSP) is a network control protocol for use in entertainment and communications systems to control streaming media servers. The protocol is used to establish and control media sessions between end points. Clients of media servers issue VCR-like commands, such as play and pause, to facilitate real-time control of playback of media files from the server.
+The transmission of streaming data itself is not a task of the RTSP protocol. Most RTSP servers use the Real-time Transport Protocol (RTP) for media stream delivery, however some vendors implement proprietary transport protocols. The RTSP server from RealNetworks, for example, also features RealNetworks' proprietary RDT stream transport.
+RTSP was developed by the the Multiparty Multimedia Session Control Working Group (MMUSIC WG) of the Internet Engineering Task Force (IETF) and published as RFC 2326 in 1998.[1] The MMUSIC WG is working on a new draft of the protocol. If approved, the draft will obsolete RFC 2326 and will be be titled Real Time Streaming Protocol 2.0.
+
+The RTSP protocol has similarities to HTTP, but RTSP adds new requests. While HTTP is stateless, RTSP is a stateful protocol. A session identifier is used to keep track of sessions when needed. thus, no permanent TCP connection is needed. RTSP messages are sent from client to server, although some exceptions exist where the server will send to the client.
+Presented here are the basic RTSP requests. Some typical HTTP requests, like the OPTION request, are also available. The default transport layer port number is 554.
+
+
+
+
+
+

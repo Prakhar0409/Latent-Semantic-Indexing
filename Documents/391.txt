@@ -1,0 +1,10 @@
+Communications protocol
+In the field of telecommunications, a communications protocol is the set of standard rules for data representation, signaling, authentication and error detection required to send information over a communications channel. An example of a simple communications protocol adapted to voice communication is the case of a radio dispatcher talking to mobile stations. Communication protocols for digital computer network communication have features intended to ensure reliable interchange of data over an imperfect communication channel. Communication protocol is basically following certain rules so that the system works properly.
+
+Most recent protocols are assigned by the IETF for Internet communications, and the IEEE, or the ISO for other types. The ITU-T handles telecommunications protocols and formats for the public switched telephone network (PSTN). The ITU-R handles protocols and formats for radio communications. As the PSTN. radio systems, and Internet converge, the different sets of standards are also being driven towards technological convergence.
+For marine electronics the NMEA standards are used.
+
+
+
+
+

@@ -1,0 +1,35 @@
+Popek and Goldberg virtualization requirements
+The Popek and Goldberg virtualization requirements are a set of sufficient conditions for a computer architecture to efficiently support system virtualization. They were introduced by Gerald J. Popek and Robert P. Goldberg in their 1974 article "Formal Requirements for Virtualizable Third Generation Architectures"[1]. Even though the requirements are derived under simplifying assumptions, they still represent a convenient way of determining whether a computer architecture supports efficient virtualization and provide guidelines for the design of virtualized computer architectures.
+
+System virtual machines are virtual machines capable of virtualizing a full set of hardware resources, including a processor (or processors), memory and storage resources and peripheral devices. A virtual machine monitor (VMM) is the piece of software that provides the abstraction of a virtual machine. There are three properties of interest when analyzing the environment created by a VMM:
+In Popek and Goldberg terminology, a VMM must present all three properties. In today's terminology, VMM are typically assumed to satisfy the equivalence and resource control properties. So, in a sense, Popek and Goldberg's VMMs are today's efficient VMM.
+Popek and Goldberg describe the characteristics that the Instruction Set Architecture (ISA) of the physical machine must possess in order to run VMMs which possess the above properties. Their analysis derives such characteristics using a model of "third generation architectures" (e.g., IBM 360, Honeywell 6000, DEC PDP-10) that is nevertheless general enough to extended to modern machines. This model includes a processor that operates in either system or user mode, and has access to linear, uniformly addressable memory. It is assumed that a subset of the instruction set is available only when in system mode and that memory is addressed relative to a relocation register. I/O and interrupts are not modelled.
+
+To derive their virtualization requirements, Popek and Goldberg introduce a classification of instructions of an ISA into 3 different groups:
+The main result of Popek and Goldberg's analysis can then be expressed as follows.
+Theorem 1. For any conventional third-generation computer, a VMM may be constructed if the set of sensitive instructions for that computer is a subset of the set of privileged instructions.
+Intuitively, the theorem states that to build a VMM it is sufficient that all instructions that could affect the correct functioning of the VMM (sensitive instructions) always trap and pass control to the VMM. This guarantees the resource control property. Non-privileged instructions must instead be executed natively (i.e., efficiently). The holding of the equivalence property also follows.
+A related problem is that of deriving the ISA requirements for recursive virtualization, that is, the conditions under which a VMM that can run on a copy of itself can be built. Popek and Goldberg present the following (sufficient) conditions.
+Theorem 2. A conventional third-generation computer is recursively virtualizable if
+
+The conditions for ISA virtualization expressed in Theorem 1 may be relaxed at the expense of the efficiency property. VMMs for non-virtualizable ISAs (in the Popek and Goldberg's sense) have routinely been built.
+The virtualization of such architectures requires correct handling of critical instructions, i.e., sensitive but unprivileged instructions. One approach, known as patching, adopts techniques commonly used in dynamic recompilation: critical instructions are discovered at run-time and replaced with a trap into the VMM. Various mechanisms, such as the caching of emulation code or hardware assists, have been proposed to make the patching process more efficient. A different approach is that of paravirtualization, which requires guest operating systems to be modified (ported) before running in the virtual environment.
+
+This section presents some relevant architectures and how they relate to the virtualization requirements.
+
+The PDP-10 architecture has a few instructions which are sensitive (alter or query the processor's mode) but not privileged[2]. These instructions save or restore the condition codes containing USER or IOT bits:
+
+All sensitive instructions in the System/370 are privileged: it satisfies the virtualization requirements.
+
+The Motorola MC68000 has a single unprivileged sensitive instruction:
+This instruction is sensitive because it allows access to the entire status register, which includes not only the condition codes but also the user/supervisor bit, interrupt level, and trace control. In most later family members, starting with the MC68010, the MOVE from SR instruction was made privileged, and a new MOVE from CCR instruction was provided to allow access to the condition code register only.
+
+(Main article:X86 virtualization)
+The IA-32 instruction set contains 17 sensitive, unprivileged instructions[3]. They can be categorized in two groups:
+
+The effort needed to support virtualization on the IA-64 architecture is described in a 2000 article by Magenheimer and Christian.[4]
+
+A "hyperprivileged" mode for the UltraSPARC architecture was specified in UltraSPARC Architecture 2005.'[5] It defines a sun4v platform[6] which is a super-set of the sun4u platform, but is still compliant to the SPARC v9 Level-1[7] specification.
+
+
+

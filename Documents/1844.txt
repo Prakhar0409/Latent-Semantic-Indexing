@@ -1,0 +1,7 @@
+Privoxy
+Privoxy is a web proxy program, frequently used in combination with Tor and Squid. It has filtering capabilities for protecting privacy, modifying web page data, managing cookies, controlling access, and selectively removing content such as ads, banners and pop-ups. It can be customized and has application for both stand-alone systems and multi-user networks.
+The program is based on the Internet Junkbuster and is released under the GNU General Public License. It runs on Linux, Windows, Mac OS X, OS/2, AmigaOS, BeOS, and most flavors of Unix. Almost any web browser should be able to use it.
+Privoxy combined with Tor is also used around the world to bypass Internet censorship.
+
+
+

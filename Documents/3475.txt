@@ -1,0 +1,79 @@
+Case citation
+Case citation is the system used in many countries to identify the decisions in past court cases, either in special series of books called reporters or law reports, or in a 'neutral' form which will identify a decision wherever it was reported. Although case citations are formatted differently in different jurisdictions, they generally contain the same key information.
+Where cases are published in paper form the citation will usually contain:
+In some report series, for example in England and Australia, the volumes are not numbered independently of the year: thus the year and volume number (usually no greater than 4) are required to identify which book of the series has the case reported within its covers. In citations of this type it is usual in these jurisdictions for square brackets "[year]" to be applied to the year (which may not be the year that the case was decided: for example, a case decided in December 2001 may have been reported in 2002).
+The Internet brought with it the opportunity for courts to publish their decisions on web sites. Decisions of many courts from all over the world can now be found through the website WorldLII and its member institutes.[1]
+Most decisions of courts are not published in printed law reports. The expense of typesetting and publishing them has limited the printed law reports to the significant cases. Internet publishing of court decisions resulted in a flood of information. The result was that a medium-neutral citation system had to be adopted. This usually contains the following information:
+Rather than utilizing page numbers for pin-point references, which would depend upon particular printers and browsers, pin-point quotes refer to paragraph numbers.
+
+The standard case citation format in Australia is:
+Like in Canada, there has been divergence between citation styles. There exists commercial citation guides published by Butterworths and other legal publishing companies, academic citation styles and court citation styles. Each court in Australia may cite the same cases slightly differently. There is presently a movement in convergence to the comprehensive academic citation style of the Australian Guide to Legal Citation published by the Melbourne University Law Review.
+
+
+Australian courts and tribunals have now adopted a neutral citation standard for case law. The format provides a naming system that does not depend on the publication of the case in a law report. Most cases are now published on AustLII using neutral citations.[2]
+The standard format looks like this:
+So the above mentioned Mabo case would then be cited like this: [1992] HCA 23.
+There is a unique court identifier code for most courts. The court and tribunal identifiers include:
+
+
+There are a number of citation standards in Canada. Many legal publishing companies and schools have their own practice for citation. Since the late 1990s, however, there has been a convergence among much of legal community to a single standard which has been formulated in the "The Canadian Guide to Uniform Legal Citation", known as the "McGill Guide" after the McGill Law Journal that first published it. The following format reflects this standard.
+The standard case citation in Canada looks like this:
+The format can be broken into its component parts:
+The Style of Cause is italicized as in all other countries and the party names are separated by "v." (English) or "c." (French). Prior to 1984 the appellant party would always be named first. However, since then case names do not switch order when the case is appealed.
+Undisclosed parties to a case are represented by initials (eg. R. v. R.D.S.). Criminal cases are prosecuted by the Crown which is always represented by "R." for Regina (queen) or Rex (king). Constitutional references are always entitled "Reference re" followed by the subject title.
+Usually either the year of the decision or the year of the report is cited, but not usually both. Only if they are different years can they both be cited at the same time. If they are the same, one should always use the report year.
+Where available cases should be cited with their neutral citation immediately after the style of cause and preceding the print citation. For example,
+This format was introduced in 2006. Prior to this format, the opposite order of parallel citation was used.
+
+
+In 1999 the Canadian Judicial Council adopted a neutral citation standard for case law. The format provides a naming system that does not depend on the publication of the case a law report.
+The standard format look like this:
+There is a unique court identifier code for most courts. There are a few courts in Quebec and Ontario that have yet to adopt the system. A list of the court identifiers include:
+
+
+The standard case citation format in England and Wales is:
+In England and Wales as with certain Commonwealth countries, the abbreviation "R" for rex (king) or regina (queen), is used for cases in which the state is a party (typically criminal cases or judicial review cases).
+Square brackets "[ ]" are used when the year is essential to locating the report (e.g. the official law reports either - as with Donoghue v Stevenson, above - do not have volume numbers or, if there are multiple volumes in a single year, they are numbered 1, 2, etc.). Round brackets "( )" are used when the year is not essential but is useful for information purposes, e.g. in reports which have a cumulative volume number such as R v Dudley and Stevens, above.
+
+The term "reporter", meaning a law report or a series of them, is not widely used in England and Wales.
+Before 1865, English courts used a large number of privately-printed reports, and cases were cited based on which report they appeared in. (This system was also used in the United States and other common law jurisdictions during that period).
+In 1865, many English cases were reprinted in a set of volumes called English Reports, abbreviated E.R. Between 1865 and 1875, decisions were published in a single series of law reports simply known as the "Law Reports" (L.R).
+Since 1875 the official law reports have been split into a number of different series, the current series being the Appeal Cases (A.C.), Chancery (Ch.), Family (Fam.) and Queen's Bench (Q.B.) (or King's Bench—K.B.—depending on the monarch of the time). These 4 series are cited in preference to all others in court. There are two main unofficial law reports which report all areas of law, the Weekly Law Reports (W.L.R.) and the All England Reports (All E.R.). In addition there are a number of unofficial specialist law reports which focus on a particular area, e.g. the Entertainment and Media Law Reports (E.M.L.R.) or the Criminal Appeal Reports (Cr. App. R.). See the table below for a list of the most common current and past law reports.
+
+Since 2001, judgments in the House of Lords, Privy Council, Court of Appeal and Administrative Court have been issued with neutral citations. This system was extended to other parts of the High Court in 2002. Judgments with neutral citations are freely available on the British and Irish Legal Information Institute website (www.bailii.org). 	Neutral citations identify judgments independently of any series of reports, and cite only parties, year of judgment, court and case number. For example,
+Rottman v MPC [2002] UKHL 20
+identifies the 20th judgment in 2002 in the UK House of Lords. UKHL stands for UK House of Lords. EWHC and EWCA identify the England and Wales High Court and Court of Appeal respectively. These abbreviations are generally followed by an abbreviation indicating the court or division (eg Admin, Ch, Crim, Pat).
+
+If a neutral citation is available for a judgment, it should immediately follow the party names. If the judgment has also been reported in a law reports series, follow the neutral citation with the 'best report', which is usually from the official Law Reports series (Appeals Cases - AC, Chancery - Ch, Family - Fam, Queen’s Bench - QB etc).
+The case of Rottman v MPC was reported in the Appeals Cases, so the citation should be:
+Rottman v MPC [2002] UKHL 20, [2002] 2 AC 692.
+This means that a report of the case and the judgment can be found in the 2002 volumes, vol 2, of the Law Reports series called Appeals Cases, beginning at page 692.
+To cite a particular paragraph from the judgment, add the paragraph number in square brackets at the end of the citation: Rottman v MPC [2002] UKHL 20, [2002] 2 AC 692 [58].
+If a case is not reported in the Law Reports, the next best report is the Weekly Law Reports (eg [2002] 2 WLR 1315), and then the All England Reports (eg [2002] 2 All ER 865). In some situations, it might be preferable to cite a specialist series, eg Rottman v MPC was also cited in the Human Rights Law Reports, at [2002] HRLR 32.
+For cases before 2001, cite the best report. If referring to a particular page of the judgment, give that page number after the page number on which the report begins. The following citation refers to page 573 of the Donoghue v Stevenson judgment:
+Donoghue v Stevenson [1932] AC 562, 573.
+[edit] References
+
+In Germany there are two types of citation, the full citation of a case and its shortened form. In e.g. scientific articles the full citation of a particular case is only used at its first occurrence, after that its shortened form is used. In most law journals the articles themselves only use the shortened form, the full citations for all articles sometimes are summarized at the beginning of that journals edition.
+
+The most important cases of the Federal Constitutional Court of Germany are published by the court in its official collection. This collection is abbreviated "BVerfGE", whereas BVerfG is short for Bundesverfassungsgericht, the German court name, and E stands for Entscheidung (decision).
+Starting in 2004, the court also publishes the "BVerfGK" collection, containing decisions made only by a Kammer, a specific part of the court.
+The so-called Volkszählungsurteil for example could be cited
+in full and
+in short.
+For the meaning of the different case numbers of the BVerfG see the German article.
+If decisions are not published by the court yet or will not be published by it at all, law journals can be cited, e.g.
+Where NJW stands for the law journal Neue Juristische Wochenschrift, 2009 is the year, 1234 the page of the beginning and 1235 the cited page(s) - "f." stands for "seq.". In general, citations of the official collections are preferred.
+
+The Federal Court of Justice of Germany (Bundesgerichtshof, short BGH) publishes the official collections BGHSt for decisions in penal law and BGHZ for those in private law.
+The Katzenkönigfall e.g. would be cited
+in full and
+in short (in this example, not a specific page but the case as such is cited; "ff." means "sqq.").
+
+The official collection of the Federal Social Court of Germany (Bundessozialgericht, BSG) is abbreviated BSGE.
+The official collection of the Federal Finance Court of Germany (Bundesfinanzhof, BFH) is BFHE.
+The official collection of the Federal Labor Court of Germany (Bundesarbeitsgericht, BAG) is BAGE.
+
+For the other courts generally the same rules apply, though most of them do not publish an official collection, so that they have to be cited from a law journal.
+
+India's vast federated judicial system admits to a large number of reporters, each with their own s

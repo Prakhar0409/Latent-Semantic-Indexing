@@ -1,0 +1,34 @@
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae is a species of budding yeast. It is perhaps the most useful yeast owing to its use since ancient times in baking and brewing. It is believed that it was originally isolated from the skins of grapes (one can see the yeast as a component of the thin white film on the skins of some dark-colored fruits such as plums; it exists among the waxes of the cuticle). It is one of the most intensively studied eukaryotic model organisms in molecular and cell biology, much like Escherichia coli as the model prokaryote. It is the microorganism behind the most common type of fermentation. Saccharomyces cerevisiae cells are round to ovoid, 5–10 micrometres in diameter. It reproduces by a division process known as budding.
+Many proteins important in human biology were first discovered by studying their homologs in yeast; these proteins include cell cycle proteins, signaling proteins, and protein-processing enzymes. The petite mutation in S. cerevisiae is of particular interest.
+"Saccharomyces" derives from Greek, and means "sugar mold", or "sugar fungi". Saccharo- being "of sugar" and Myco- being "of fungi". "cerevisiae" comes from Latin, and means "of beer". Other names for the organism are:
+This species is also the main source of nutritional yeast and yeast extract.
+
+
+There are two forms in which yeast cells can survive and grow: haploid and diploid. The haploid cells undergo a simple lifecycle of mitosis and growth, and under conditions of high stress will generally simply die. The diploid cells (the preferential 'form' of yeast) similarly undergo a simple lifecycle of mitosis and growth, but under conditions of stress can undergo sporulation, entering meiosis and producing a variety of haploid spores, which can go on to mate
+
+All strains of Saccharomyces cerevisiae can grow aerobically on glucose, maltose, and trehalose and fail to grow on lactose and cellobiose. However,growth on other sugars is variable. It was shown that galactose and fructose were two of the best fermenting sugars. The ability of yeasts to use different sugars can differ depending on whether they are grown aerobically or anaerobically. Some strains cannot grow anaerobically on sucrose and trehalose.
+All strains can utilise ammonia and urea as the sole nitrogen source, but cannot utilise nitrate since they lack the ability to reduce them to ammonium ions. They can also utilise most amino acids, small peptides and nitrogen bases as a nitrogen source. Histidine, Glycine, Cystine and Lysine are however, not readily utilised. S. cerevisiae does not excrete proteases so extracellular protein cannot be metabolized.
+Yeasts also have a requirement for phosphorus, which is assimilated as a dihydrogen phosphate ion, and sulfur, which can be assimilated as a sulfate ion or as organic sulfur compounds like methionine and cystine. Some metals like magnesium, iron, calcium, zinc also are required for good growth of the yeast.
+
+Yeast has two mating types, a and α, which show primitive aspects of sex differentiation, and are hence of great interest. For more information on the biological importance of these two cell types, where they come from (from a molecular biology point of view), and details of the process of mating type switching, see the main article.
+
+Growth in yeast is synchronised with the growth of the bud, which reaches the size of the mature cell by the time it separates from the parent cell. In rapidly growing yeast cultures, all the cells can be seen to have buds since bud formation occupies the whole cell cycle. Both mother and daughter cell can initiate bud formation before cell separation has occurred. In yeast cultures which are growing more slowly, cells lacking buds can be seen and bud formation only occupies a part of the cell cycle. The cell cycle in yeast normally consists of the following stages -- G1, S, G2 and M -- which are the normal stages of mitosis.
+
+
+When researchers look for an organism to use in their studies, they look for several traits. Among these are size, generation time, accessibility, manipulation, genetics, conservation of mechanisms, and potential economic benefit.
+Saccharomyces cerevisiae has developed as a model organism because it scores favorably on a number of these criteria.
+
+S. cerevisiae was the first eukaryotic genome that was completely sequenced.[1] The genome sequence was released in the public domain on April 24, 1996. Since then, regular updates have been maintained at the Saccharomyces Genome Database (SGD). This database is a highly annotated and cross-referenced database for yeast researchers. Another important S. cerevisiae database is maintained by the Munich Information Center for Protein Sequences (MIPS). The genome is composed of about 12,156,677 base pairs and 6,275 genes, compactly organised on 16 chromosomes. Only about 5,800 of these are believed to be true functional genes. It is estimated that yeast shares about 23% of its genome with that of humans .
+
+The availability of the S. cerevisiae genome sequence and the complete set of deletion mutants has further enhanced the power of S. cerevisiae as a model for understanding the regulation of eukaryotic cells. A project underway to analyze the genetic interactions of all double deletion mutants through Synthetic genetic array analysis will take this research one step further.
+Approaches have been developed by yeast scientists which can be applied in many different fields of biological and medicinal science. These include Yeast two-hybrid for studying protein interactions and tetrad analysis.
+
+
+Saccharomyces cerevisiae is known as a top-fermenting yeast, so called because during the fermentation process its hydrophobic surface causes the flocs to adhere to CO2 and rise to the top of the fermentation vessel. It is one of the major types of yeast used in the brewing of beer, along with Saccharomyces pastorianus. Some beers that use top-fermenting yeast are called ales, and for that reason these yeasts are also sometimes called "ale yeast". Top-fermenting yeasts are often fermented at higher temperatures than lager yeasts and the resulting beers are normally "fruitier."
+
+Owing to the high cost of commercial CO2 cylinder systems, CO2 injection by yeast is one of the most popular DIY approaches followed by aquaculturists for providing CO2 to underwater aquatic plants. The yeast culture is generally maintained in plastic bottles and typical systems provide one bubble every 3–7 seconds. Various approaches have been devised to allow proper absorption of the gas into the water.
+
+
+
+

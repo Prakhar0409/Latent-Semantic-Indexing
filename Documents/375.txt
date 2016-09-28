@@ -1,0 +1,52 @@
+SKI combinator calculus
+SKI combinator calculus is a computational system that is a reduced, untyped version of Lambda calculus.
+All operations in Lambda calculus are expressed in SKI as binary trees whose leaves are one of the three symbols S, K, and I (called combinators). In fact, the symbol I is added only for convenience, and just the other two suffice for all of the purposes of the SKI system.
+Although the most formal representation of the objects in this system requires binary trees, they are usually represented, for typesettability, as parenthesized expressions, either with all the subtrees parenthesized, or only the right-side children subtrees parenthesized. So, the tree whose left subtree is the tree KS and whose right subtree is the tree SK is usually typed as ((KS)(SK)), or more simply as KS(SK), instead of being fully drawn as a tree (as formality and readability would require).
+
+Informally, and using programming language jargon, a tree (xy) can be thought of as a "function" x applied to an "argument" y. When "evaluated" (i.e., when the function is "applied" to the argument), the tree "returns a value". i.e., transforms into another tree. Of course, all three of the "function", the "argument" and the "value" are either combinators, or binary trees, and if they are binary trees they too may be thought of as functions whenever the need arises.
+The evaluation operation is defined as follows:
+(x, y, and z represent expressions made from the functions S, K, and I, and set values):
+I returns its argument:
+K, when applied to any argument x, yields a one-argument constant function Kx , which, when applied to any argument, returns x:
+S is a substitution operator. It takes three arguments and then returns the first argument applied to the third, which is then applied to the result of the second argument applied to the third. More clearly:
+Example computation: SKSK evaluates to KK(SK) by the S-rule. Then if we evaluate KK(SK), we get K by the K-rule. As no further rule can be applied, the computation halts here.
+Note that, for all trees x and all trees y, SKxy will always evaluate to y in two steps, and the ultimate result of evaluating SKxy will always equal the result of evaluating y. We say that SKx and I are "functionally equivalent" because they always yield the same result when applied to any y.
+Note that from these definitions it can be shown that SKI calculus is not the minimum system that can fully perform the computations of Lambda calculus, as all occurrences of I in any expression can be replaced by (SKK) or (SKS) or (S K whatever) and the resulting expression will yield the same result. So the "I" is merely syntactic sugar.
+In fact, it is possible to define a complete system using only one combinator. An example is Chris Barker's iota combinator, defined as follows:
+
+The terms and derivations in this system can also be more formally defined:
+Terms: The set T of terms is defined recursively by the following rules.
+Derivations: A derivation is a finite sequence of terms defined recursively by the following rules (where all Greek letters represent valid terms or expressions with fully balanced parentheses):
+Assuming a sequence is a valid derivation to begin with, it can be extended using these rules. [1]
+
+
+SII is an expression that takes an argument and applies that argument to itself:
+One interesting property of this is that it makes the expression SII(SII) irreducible:
+Another thing that results from this is that it allows you to write a function that applies something to the self application of something else:
+This function can be used to achieve recursion. If β is the function that applies α to the self application of something else, then self-applying β performs α recursively on ββ. More clearly, if:
+then:
+
+S(K(SI))K reverses the following two terms:
+
+SKI combinator calculus can also implement Boolean logic in the form of an if-then-else structure. An if-then-else structure consists of a Boolean expression that is either T (True) or F (False) and two arguments, such that:
+and
+The key is in defining the two Boolean expressions. The first works just like one of our basic combinators:
+The second is also fairly simple:
+Once True and False are defined, all Boolean logic can be implemented in terms of if-then-else structures.
+Boolean NOT (which returns the opposite of a given boolean) works the same as the if-then-else structure, with False and True as the second and third values, so it can be implemented as a postfix operation:
+If this is put in an if-then-else structure, it can be shown that this has the expected result
+Boolean OR (which returns True if either of the two Boolean values surrounding it is True) works the same as an if-then-else structure with True as the second value, so it can be implemented as an infix operation:
+If this is put in an if-then-else structure, it can be shown that this has the expected result:
+Boolean AND (which returns True if both of the two Boolean values surrounding it are True) works the same as an if-then-else structure with False as the third value, so it can be implemented as a postfix operation:
+If this is put in an if-then-else structure, it can be shown that this has the expected result:
+Because this defines True, False, NOT (as a postfix operator), OR (as an infix operator), and AND (as a postfix operator) in terms of SKI notation, this proves that the SKI system can fully express Boolean logic.
+
+The combinators K and S correspond to two well-known axioms of sentential logic:
+AK: A → (B → A),
+AS: (A → (B → C)) → ((A → B) → (A → C)).
+Function application corresponds to the rule modus ponens:
+MP: from A and A → B infer B.
+The axioms AK and AS, and the rule MP are complete for the implicational fragment of intuitionistic logic. In order for combinatory logic to have as a model:
+
+
+

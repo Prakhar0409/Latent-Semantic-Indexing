@@ -1,0 +1,32 @@
+SpaceX
+Space Exploration Technologies Corporation (SpaceX) is an American space-transportation startup company founded by PayPal co-founder Elon Musk. It is developing partially reusable launch vehicles - the Falcon 1 and Falcon 9 - and the Dragon series of space capsules. SpaceX designs, tests and fabricates the majority of their components in-house, including the Merlin, Kestrel, and Draco rocket engines.
+Originally based in El Segundo, SpaceX now operates out of Hawthorne, California.
+
+SpaceX was founded in June 2002 by PayPal founder Elon Musk who has invested $100 million of his own money as of March 2006. On August 4, 2008 SpaceX accepted a further $20 million investment from the Founders Fund.[1]
+SpaceX had 160 employees in November 2005 and more than 500 by July 2008.[2] [3] The launch crew in the Marshall Islands has 25 people with 6 in mission control. This small number, compared to similar space launch companies is part of Musk's design to reduce costs. Musk believes the high prices of other space-launch services are driven in part by unnecessary bureaucracy. He has stated that one of his goals is to improve the cost and reliability of access to space, ultimately by a factor of ten.
+In January 2005, SpaceX bought a 10% stake in Surrey Satellite Technology Ltd.
+On 18 August 2006, SpaceX announced that it has won a NASA Commercial Orbital Transportation Services (COTS) contract to demonstrate cargo delivery to the space station with a possible option for crew transport.
+On 23 December 2008, SpaceX announced that it had won a Commercial Resupply Services (CRS) contract (as part of the COTS program) which guarantees NASA missions worth of 1.6 billion dollars for resupplying the International Space Station after the Space Shuttle retires in 2010. [4]
+
+SpaceX is manufacturing two main space launch vehicles; the Falcon 1 which made its first successful flight on September 28, 2008, and the large EELV class Falcon 9 which is scheduled to have its first launch in 2009. A Falcon 5 launcher was also planned, but its development was stopped in favor of the Falcon 9. SpaceX is also designing the SpaceX Dragon, a human-rated orbital vehicle that will be launched on top of a Falcon 9 rocket.
+On May 2, 2005, SpaceX announced that it had been awarded an Indefinite Delivery/Indefinite Quantity (IDIQ) contract for Responsive Small Spacelift (RSS) launch services by the United States Air Force, which could allow the Air Force to purchase up to $100,000,000 worth of launches from the company.[5] On April 22, 2008, NASA announced that it had awarded an IDIQ Launch Services contract to SpaceX for Falcon 1 and Falcon 9 launches. The contract will be worth between $20,000 and $1 billion, depending on the number of missions awarded. The contract covers launch services ordered by June 30, 2010, for launches through December 2012.[6]
+Elon Musk stated in the same April 22 announcement that SpaceX has sold 14 contracts for flights on the various Falcon vehicles.[7]
+
+The Falcon 1 is a small, partially reusable rocket capable of placing several hundred kilograms into low earth orbit. It also functions as a testbed for developing concepts and components for the larger Falcon 9.
+The Falcon 1 succeeded in reaching orbit at its fourth attempt on September 28th, 2008, becoming the first privately funded, liquid-fueled rocket to do so.[8]
+
+On September 8, 2005, SpaceX announced the development of the Falcon 9 rocket, which will have nine Merlin engines in its first stage.[9][10] The design is an EELV-class vehicle, intended to compete with the Delta IV and the Atlas V rockets. Both stages will be designed to be reusable. A similarly designed Falcon 5 rocket was also envisioned to fit between the Falcon 1 and Falcon 9, but development was dropped to concentrate on the Falcon 9.
+The company purchased the McGregor, Texas testing facilities of defunct Beal Aerospace, where it refit the largest test stand at the facilities for Falcon 9 testing. The stand tested the nine Merlin 1C engines of the Falcon 9, which deliver 350-metric-tons-force (3.4-meganewtons) of thrust, well under the stand's capacity of 1,500 metric-tons-force (15 meganewtons).
+Musk said "Long-term plans call for development of a heavy lift product and even a super-heavy, if there is customer demand. We expect that each size increase would result in a meaningful decrease in cost per pound to orbit. For example, dollar cost per pound to orbit dropped from $4,000 to $1,300 ($8,800/kg to $2,900/kg) between Falcon 1 and Falcon 5. Ultimately, I believe $500 per pound ($1,100/kg) or less is very achievable." [11]
+The Falcon 9 vehicle was integrated at Cape Canaveral on December 30, 2008 and flight is pending for 2009.
+
+SpaceX announced plans to pursue a manned commercial space program through the end of the decade.[12]
+On Friday 18 August 2006, NASA announced that the company was one of two selected to provide crew and cargo resupply demonstration contracts to the International Space Station (ISS) under the Commercial Orbital Transportation Services (COTS) program. SpaceX will demonstrate crew and cargo resupply using the SpaceX Dragon, a conventional blunt-cone ballistic capsule, which is capable of carrying 7 persons or a mixture of personnel and cargo to and from low Earth orbit.[13] It will be launched atop a Falcon 9 vehicle. The nose cone of the vehicle has a hinged cap, which opens to reveal a standard ISS Common Berthing Mechanism, which allows the Dragon to dock to the U.S. segment of the ISS. NASA's plan calls for SpaceX demonstration flights between 2008 and 2010. SpaceX may receive up to $278 million if it meets all NASA milestones.[14][15][16]
+First flight of Dragon is planned for 2009 from Cape Canaveral.
+
+1 x Merlin 1C (2008 ff) [17]
+[18] [19] [20] [21] [22]
+
+
+The first four launches were conducted at Kwajalein Atoll using the SpaceX launch facility on Omelek Island and range facilities of the Reagan Test Site. All upcoming Falcon 1 flights shown on the SpaceX manifest are also planned for Kwajalein. Other launch sites which have been discussed for Falcon 1 flights include:
+

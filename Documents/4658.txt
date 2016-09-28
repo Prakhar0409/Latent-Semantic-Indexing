@@ -1,0 +1,15 @@
+UnionFS
+UnionFS is a filesystem service for Linux and FreeBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system. Contents of directories which have the same path within the merged branches will be seen together in a single merged directory, within the new, virtual filesystem.
+When mounting branches, the priority of one branch over the other is specified. So when both branches contain a file with the same name, one gets priority over the other.
+The different branches may be both read-only and read-write file systems, so that writes to the virtual, merged copy are directed to a specific real file system. This allows a file system to appear as writeable, but without actually allowing writes to change the file system, also known as copy-on-write. This may be desirable when the media is physically read-only, such as in the case of Live CDs.
+
+In KNOPPIX, a union between the file system on the CD-ROM or DVD and a file system contained in an image file called knoppix.img on a writable drive (such as a USB memory stick) can be made, where the writable drive has priority over the read-only filesystem. This allows the user to change any of the files on the system, with the new file stored in the image and transparently used instead of the one on the CD. [1]
+UnionFS can also be used to create a single common template for a number of file systems, or for security reasons. It is sometimes used as an ad-hoc snapshotting system.
+
+Unionfs for Linux has two versions. Version 1.x is a standalone one that can be built as a module. Version 2.x is a newer, redesigned, and reimplemented one. As of January 2007, Unionfs 2.0 has been included into Andrew Morton's Linux -mm tree, thus slated for eventual inclusion in the Linux kernel mainline source tree. Version 2.x is the smallest implementation of unioning for Linux, it is heavily tested and inspected by many kernel developers, and it is more efficient.
+aufs is an alternative version of unionfs for Linux.
+Plan 9 from Bell Labs operating system uses union mounts extensively to build custom namespaces per user/processes. The same concept, implemented as "union mount", has also been available in BSD, since at least 1995[2].
+The GNU Hurd has UnionFS [3]. As of January 2008, it works, but results in a read-only mountpoint.
+mhddfs works like UnionFS but allows to balance files over drives with the most free space available.
+
+

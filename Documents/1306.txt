@@ -1,0 +1,21 @@
+Bash
+Bash is a free software Unix shell written for the GNU Project. Its name is an acronym which stands for Bourne-again shell.[1] The name is a pun on the name of the Bourne shell (sh), an early and important Unix shell written by Stephen Bourne and distributed with Version 7 Unix circa 1978,[2] and the Christian concept of being "born again". Bash was created in 1987 by Brian Fox. In 1990 Chet Ramey became the primary maintainer.[3]
+Bash is the default shell on most systems built on top of the Linux kernel as well as on Mac OS X and it can be run on most Unix-like operating systems. It has also been ported to Microsoft Windows using Subsystem for UNIX-based Applications (SUA), or POSIX emulation provided by Cygwin and MSYS. It has been ported to MS-DOS by the DJGPP project and to Novell NetWare.
+
+The Bash command syntax is a superset of the Bourne shell command syntax. The vast majority of Bourne shell scripts can be executed by Bash without modification, with the exception of Bourne shell scripts referencing a Bourne special variable or those using builtin Bourne commands. Bash command syntax includes ideas drawn from the Korn shell (ksh) and the C shell (csh) such as command line editing, command history, the directory stack, the $RANDOM and $PPID variables, and POSIX command substitution syntax $(…). When used as an interactive command shell and pressing the tab key, Bash automatically uses command line completion to match partly typed program names, filenames and variable names.
+Bash's syntax has many extensions which the Bourne shell lacks. Bash can perform integer calculations without spawning external processes, unlike the Bourne shell. Bash uses the ((…)) command and the $[…] variable syntax for this purpose. Bash syntax simplifies I/O redirection in ways that are not possible in the traditional Bourne shell. For example, Bash can redirect standard output (stdout) and standard error (stderr) at the same time using the &> operator. This is simpler to type than the Bourne shell equivalent 'command > file 2>&1'.
+Bash supports here documents just as the Bourne shell always has. However, since version 2.05b Bash can redirect standard input (stdin) from a "here string" using the <<< operator.
+Bash 3.0 supports in-process regular expression matching using a syntax reminiscent of Perl.[4]
+
+Brace expansion is a feature, originating in csh, that allows arbitrary strings to be generated using a similar technique to filename expansion. However the generated names need not exist as files. The results of each expanded string are not sorted and left to right order is preserved:
+Brace expansions should not be used in portable shell scripts, because a traditional shell will not produce the same output:
+
+When Bash starts, it executes the commands in a variety of different scripts.
+When Bash is invoked as an interactive login shell, it first reads and executes commands from the file /etc/profile, if that file exists. After reading that file, it looks for ~/.bash_profile, ~/.bash_login, and ~/.profile, in that order, and reads and executes commands from the first one that exists and is readable.
+When a login shell exits, Bash reads and executes commands from the file ~/.bash_logout, if it exists.
+When an interactive shell that is not a login shell is started, Bash reads and executes commands from ~/.bashrc, if that file exists. This may be inhibited by using the --norc option. The --rcfile file option will force Bash to read and execute commands from file instead of ~/.bashrc.
+
+Shell scripts written with Bash-specific features (bashisms) will not function on a system using the Bourne shell or one of its replacements, unless bash is installed as a secondary shell and the script begins with #!/bin/bash. This problem became particularly important when Ubuntu began to ship the Debian Almquist shell (dash) as the default scripting shell in October 2006, causing a wide variety of scripts to fail.
+
+
+

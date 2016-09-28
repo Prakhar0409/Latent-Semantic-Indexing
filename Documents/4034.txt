@@ -1,0 +1,37 @@
+Latent semantic analysis
+Latent semantic analysis (LSA) is a technique in natural language processing, in particular in vectorial semantics, of analyzing relationships between a set of documents and the terms they contain by producing a set of concepts related to the documents and terms.
+LSA was patented in 1988 (US Patent 4,839,853) by Scott Deerwester, Susan Dumais, George Furnas, Richard Harshman, Thomas Landauer, Karen Lochbaum and Lynn Streeter. In the context of its application to information retrieval, it is sometimes called latent semantic indexing (LSI).
+
+LSA can use a term-document matrix which describes the occurrences of terms in documents; it is a sparse matrix whose rows correspond to terms and whose columns correspond to documents. The terms are typically not stemmed because LSA can intrinsically identify the relationship between words and their stem forms. A typical example of the weighting of the elements of the matrix is tf-idf (term frequency–inverse document frequency): the element of the matrix is proportional to the number of times the terms appear in each document, where rare terms are upweighted to reflect their relative importance.
+This matrix is also common to standard semantic models, though it is not necessarily explicitly expressed as a matrix, since the mathematical properties of matrices are not always used.
+LSA transforms the occurrence matrix into a relation between the terms and some concepts, and a relation between those concepts and the documents.[dubious – discuss]Thus the terms and documents are now indirectly related through the concepts.
+
+The new concept space typically can be used to:
+Synonymy and polysemy are fundamental problems in natural language processing:
+
+After the construction of the occurrence matrix, LSA finds a low-rank approximation to the term-document matrix. There could be various reasons for these approximations:
+The consequence of the rank lowering is that some dimensions are combined and depend on more than one term:
+This mitigates the problem of identifying synonymy, as the rank lowering is expected to merge the dimensions associated with terms that have similar meanings. It also mitigates the problem with polysemy, since components of polysemous words that point in the "right" direction are added to the components of words that share a similar meaning. Conversely, components that point in other directions tend to either simply cancel out, or, at worst, to be smaller than components in the directions corresponding to the intended sense.
+
+Let X be a matrix where element (i,j) describes the occurrence of term i in document j (this can be, for example, the frequency). X will look like this:
+Now a row in this matrix will be a vector corresponding to a term, giving its relation to each document:
+Likewise, a column in this matrix will be a vector corresponding to a document, giving its relation to each term:
+Now the dot product  between two term vectors gives the correlation between the terms over the documents. The matrix product XXT contains all these dot products. Element (i,p) (which is equal to element (p,i)) contains the dot product  (). Likewise, the matrix XTX contains the dot products between all the document vectors, giving their correlation over the terms: .
+Now assume that there exists a decomposition of X such that U and V are orthonormal matrices and Σ is a diagonal matrix. This is called a singular value decomposition (SVD):
+The matrix products giving us the term and document correlations then become
+Since ΣΣT and ΣTΣ are diagonal we see that U must contain the eigenvectors of XXT, while V must be the eigenvectors of XTX. Both products have the same non-zero eigenvalues, given by the non-zero entries of ΣΣT, or equally, by the non-zero entries of ΣTΣ. Now the decomposition looks like this:
+The values  are called the singular values, and  and  the left and right singular vectors. Notice how the only part of U that contributes to  is the i'th row. Let this row vector be called . Likewise, the only part of VT that contributes to  is the j'th column, . These are not the eigenvectors, but depend on all the eigenvectors.
+It turns out that when you select the k largest singular values, and their corresponding singular vectors from U and V, you get the rank k approximation to X with the smallest error (Frobenius norm). The amazing thing about this approximation is that not only does it have a minimal error, but it translates the term and document vectors into a concept space. The vector  then has k entries, each giving the occurrence of term i in one of the k concepts. Likewise, the vector  gives the relation between document j and each concept. We write this approximation as
+You can now do the following:
+To do the latter, you must first translate your query into the concept space. It is then intuitive that you must use the same transformation that you use on your documents:
+This means that if you have a query vector q, you must do the translation  before you compare it with the document vectors in the concept space. You can do the same for pseudo term vectors:
+
+The SVD is typically computed using large matrix methods (for example, Lanczos methods) but may also be computed incrementally and with greatly reduced resources via a neural network-like approach, which does not require the large, full-rank matrix to be held in memory (Gorrell and Webb, 2005).
+A fast, incremental, low-memory, large-matrix SVD algorithm has recently been developed (Brand, 2006). Unlike Gorrell and Webb's (2005) stochastic approximation, Brand's (2006) algorithm provides an exact solution.
+
+LSA has two drawbacks:
+
+LSA has been used to assist in performing prior art searches for patents.[1]
+
+
+

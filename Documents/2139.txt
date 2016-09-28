@@ -1,0 +1,43 @@
+C Sharp (programming language)
+C# (pronounced C Sharp) is a multi-paradigm programming language that encompasses functional, imperative, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed by Microsoft as part of the .NET initiative and later approved as a standard by ECMA (ECMA-334) and ISO (ISO/IEC 23270). C# is one of the programming languages supported by the .NET Framework's Common Language Runtime.
+C# is intended to be a simple, modern, general-purpose, object-oriented programming language. Its development team is led by Anders Hejlsberg, the designer of Borland's Object Pascal language. It has an object-oriented syntax based on C++ and is heavily influenced by Java. It was initially named Cool, which stood for "C-like Object Oriented Language." However, in July 2000, when Microsoft made the project public, the name of the programming language was given as C#. The most recent version of the language is 3.0 which was released in conjunction with the .NET Framework 3.5 in 2007. The next proposed version, 4.0, is in development.
+
+The ECMA standard lists these design goals for C#:
+
+In 1996, Sun Microsystems released the Java programming language with Microsoft soon purchasing a license to implement it in their operating system. Java was originally meant to be a platform independent language, but Microsoft, in their implementation, broke their license agreement[2][3] and made a few changes that would essentially inhibit Java's platform-independent capabilities.[citation needed] Sun filed a lawsuit and Microsoft settled,[citation needed] deciding to create their own version of a partially compiled, partially interpreted object-oriented programming language with syntax closely related to that of C++.
+During the development of .NET Framework, the class libraries were originally written in a language/compiler called Simple Managed C (SMC).[4][5][6] In January 1999, Anders Hejlsberg formed a team to build a new language at the time called Cool, which stood for "C like Object Oriented Language".[7] Microsoft had considered keeping the name "Cool" as the final name of the language, but chose not to do so for trademark reasons. By the time the .NET project was publicly announced at the July 2000 Professional Developers Conference, the language had been renamed C#, and the class libraries and ASP.NET runtime had been ported to C#.
+C#'s principal designer and lead architect at Microsoft is Anders Hejlsberg, who was previously involved with the design of Turbo Pascal, Borland Delphi, and Visual J++. In interviews and technical papers he has stated that flaws in most major programming languages (e.g. C++, Java, Delphi, and Smalltalk) drove the fundamentals of the Common Language Runtime (CLR), which, in turn, drove the design of the C# programming language itself. Some argue that C# shares roots in other languages.[8]
+
+By design, C# is the programming language that most directly reflects the underlying Common Language Infrastructure (CLI). Most of its intrinsic types correspond to value-types implemented by the CLI framework. However, the language specification does not state the code generation requirements of the compiler: that is, it does not state that a C# compiler must target a Common Language Runtime, or generate Common Intermediate Language (CIL), or generate any other specific format. Theoretically, a C# compiler could generate machine code like traditional compilers of C++ or FORTRAN. However, in practice, all existing compiler implementations target CIL.
+Some notable C# distinguishing features are:
+
+C# has a unified type system. This unified type system is called Common Type System (CTS).[9]
+A unified type system implies that all types, including primitives such as integers, are subclasses of the System.Object class. For example, every type inherits a ToString() method. For performance reasons, primitive types (and value types in general) are internally allocated on the stack.
+
+CTS separates datatypes into two categories[9]:
+Value types are plain aggregations of data. Instances of value types do not have referential identity nor a referential comparison semantics - equality and inequality comparisons for value types compare the actual data values within the instances, unless the corresponding operators are overloaded. Value types are derived from System.ValueType, always have a default value, and can always be created and copied. Some other limitations on value types are that they cannot derive from each other (but can implement interfaces) and cannot have a default (parameterless) constructor. Examples of value types are some primitive types, such as int (a signed 32-bit integer), float (a 32-bit IEEE floating-point number), char (a 16-bit Unicode codepoint), and System.DateTime (identifies a specific point in time with millisecond precision).
+In contrast, reference types have the notion of referential identity - each instance of reference type is inherently distinct from every other instance, even if the data within both instances is the same. This is reflected in default equality and inequality comparisons for reference types, which test for referential rather than structural equality, unless the corresponding operators are overloaded (such as the case for System.String). In general, it is not always possible to create an instance of a reference type, nor to copy an existing instance, or perform a value comparison on two existing instances, though specific reference types can provide such services by exposing a public constructor or implementing a corresponding interface (such as ICloneable or IComparable). Examples of reference types are object (the ultimate base class for all other C# classes), System.String (a string of Unicode characters), and System.Array (a base class for all C# arrays).
+Both type categories are extensible with user-defined types.
+
+Boxing is the operation of converting a value of a value type into a value of a corresponding reference type.[9] Boxing in C# is implicit.
+Example:
+Unboxing is the operation of converting a value of a reference type (previously boxed) into a value of a value type.[9] Unboxing in C# requires an explicit type cast.
+Example:
+
+New features in C# 2.0 (corresponding to the 3rd edition of the ECMA-334 standard and the .NET Framework 2.0) are:
+
+Partial classes allow implementation of a class to be spread between several files, with each file containing one or more class members. It is primarily useful when parts of a class are automatically generated. For example, the feature is heavily used by code-generating user interface designers in Visual Studio.
+file1.cs:
+file2.cs:
+
+Generics, or parameterized types, or parametric polymorphism is a .NET 2.0 feature supported by C#. Unlike C++ templates, .NET parameterized types are instantiated at runtime rather than by the compiler; hence they can be cross-language whereas C++ templates cannot. They support some features not supported directly by C++ templates such as type constraints on generic parameters by use of interfaces. On the other hand, C# does not support non-type generic parameters. Unlike generics in Java, .NET generics use reification to make parameterized types first-class objects in the CLI Virtual Machine, which allows for optimizations and preservation of the type information.[10]
+
+Static classes are classes that cannot be instantiated or inherited from, and that only allow static members. Their purpose is similar to that of modules in many procedural languages.
+
+A new form of iterator that provides generator functionality, using a yield return construct similar to yield in Python.
+
+Anonymous delegates provide closure functionality in C#.[11] Code inside the body of an anonymous delegate has full read/write access to local variables, method parameters, and class members in scope of the delegate, excepting out and ref parameters. For example:-
+
+Conversions from method groups to delegate types are covariant and contravariant in return and parameter types, respectively. [12]
+
+Example:

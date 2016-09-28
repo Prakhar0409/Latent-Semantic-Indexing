@@ -1,0 +1,12 @@
+Network file system
+A network file system is any computer file system that supports sharing of files, printers and other resources as persistent storage over a computer network. The first file servers were developed in the 1970s. In 1976 Digital Equipment Corporation created the File Access Listener (FAL) an implementation of the Data Access Protocol as part of DECnet Phase II which became the first widely used network file system. In 1985 Sun Microsystems created the file system called "Network File System" (NFS) which became the first widely used Internet Protocol based network file system. Other notable network file systems are Andrew File System (AFS), NetWare Core Protocol (NCP), and Server Message Block (SMB) which is also known as Common Internet File System (CIFS).
+
+Ideally, a network file system should appear to its users to be a conventional, centralized file system. The multiplicity and dispersion of its servers and storage devices should be made invisible. That is, the client interface used by programs should not distinguish between local and remote files. It is up to the network file system to locate the files and to arrange for the transport of the data.
+
+The most important performance measurement of a network file system is the amount of time needed to satisfy service requests. In conventional systems, this time consists of a disk-access time and a small amount of CPU-processing time. But in a network file system, a remote access has additional overhead due to the distributed structure. This includes the time to deliver the request to a server, the time to deliver the response to the client, and for each direction, a CPU overhead of running the communication protocol software. The performance of a network file system can be viewed as one dimension of its transparency: ideally, it would be comparable to that of a conventional file system.
+
+Concurrency control is a big and important issue nowadays as more than two persons accessing the same files and want to update it. A network file system should allow multiple client processes on multiple machines to access and update the same files. Hence updates to the file from one client should not interfere with access and updates from other clients. Concurrency control or locking may be either built into the file system or be provided by an add-on protocol.
+
+
+
+

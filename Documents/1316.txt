@@ -1,0 +1,22 @@
+Big Mac Index
+The Big Mac Index is published by The Economist as an informal way of measuring the purchasing power parity (PPP) between two currencies and provides a test of the extent to which market exchange rates result in goods costing the same in different countries. It "seeks to make exchange-rate theory a bit more digestible".[1]
+The index takes its name from the Big Mac, a hamburger sold at McDonald's restaurants.
+
+The Big Mac Index was introduced in The Economist in September 1986 by Pam Woodall as a semi-humorous illustration and has been published by that paper annually since then. The index also gave rise to the word burgernomics.[2]
+UBS Wealth Management Research has expanded the idea of the Big Mac Index to include the amount of time that an average worker in a given country must work to earn enough to buy a Big Mac. The working time-based Big Mac index might give a more realistic view of the purchasing power of the average worker, as it takes into account more factors, such as local wages. [3]
+One suggested method of predicting exchange rate movements is that the rate between two currencies should naturally adjust so that a sample basket of goods and services should cost the same in both currencies (PPP). In the Big Mac Index, the "basket" in question is considered to be a single Big Mac burger as sold by the McDonald's fast food restaurant chain. The Big Mac was chosen because it is available to a common specification in many countries around the world, with local McDonald's franchisees having significant responsibility for negotiating input prices. For these reasons, the index enables a comparison between many countries' currencies.
+The Big Mac PPP exchange rate between two countries is obtained by dividing the price of a Big Mac in one country (in its currency) by the price of a Big Mac in another country (in its currency). This value is then compared with the actual exchange rate; if it is lower, then the first currency is under-valued (according to PPP theory) compared with the second, and conversely, if it is higher, then the first currency is over-valued.
+For example, using figures in July 2008:[4]
+
+The Economist sometimes produces variants on the theme. For example in January 2004, it showed a Tall Latte index with the Big Mac replaced by a cup of Starbucks coffee.[5] In a similar vein, in 1997, the newspaper drew up a "Coca-Cola map" that showed inverse proportionality between the amount of Cola consumed per capita in a country and that country's health.[6]
+In 2007, an Australian bank, Commonwealth Securities, adapted the idea behind the Big Mac Index to create an "iPod index."[7] The bank's theory is that since the iPod is manufactured at a single place, the value of iPods should be more consistent globally. However, this theory can be criticised for ignoring shipping costs, which will vary depending on how far the product is delivered from its "single place" of manufacture.
+
+The burger methodology has limitations in its estimates of the PPP. In many countries, eating at international fast-food chain restaurants such as McDonald's is relatively expensive in comparison to eating at a local restaurant, and the demand for Big Macs is not as large in countries like India as in the United States. Social status of eating at fast food restaurants like McDonald's, local taxes, levels of competition, and import duties on selected items may not be representative of the country's economy as a whole. In addition, there is no theoretical reason why non-tradable goods and services such as property costs should be equal in different countries: this is the theoretical reason for PPPs being different from market exchange rates over time. Nevertheless, economists widely cite the Big Mac Index as a real world measurement of purchasing power parity.[8]
+
+Five most expensive (as of July 2008)[4]
+Five most affordable
+Ten fastest earned[3]
+Ten slowest earned[3]
+
+
+

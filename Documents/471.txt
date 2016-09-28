@@ -1,0 +1,19 @@
+TMPFS
+tmpfs is a common name for a temporary file storage facility on many Unix-like operating systems. It is intended to appear as a mounted file system, but one which uses virtual memory instead of a persistent storage device.
+
+Everything stored in tmpfs is temporary in the sense that no files will be created on the hard drive; however, swap space is used as backing store in case of low memory situations. On reboot, everything in tmpfs will be lost.
+The memory used by tmpfs grows and shrinks to accommodate the files it contains and can be swapped out to swap space.
+Many Unix distributions enable and use tmpfs by default for the /tmp branch of the file system or for shared memory. This can be observed with df as in this example:
+
+
+SunOS, and later Solaris, include some of the earliest implementations of tmpfs;[1] it first appeared in SunOS 4.1, released in March 1990.[2] As of Solaris 2.1 (November 1994), /tmp is by default a tmpfs file system. The `df` output however, looks a bit different, in that it does not show “tmpfs”, but “swap”, even if mounted with `mount -F tmpfs tmpfs /tmp/test`:
+
+tmpfs is supported by the Linux kernel from version 2.4 and up.[3] tmpfs (previously known as shmfs) distinguishes itself from the Linux ramdisk device by allocating memory dynamically and by allowing less-used pages to be moved onto swap space. RAMFS, in contrast, does not make use of virtual memory (which can be an advantage or disadvantage). In addition, MFS and some older versions of ramfs did not grow and shrink dynamically and instead used a fixed amount of memory at all times.
+Usage of tmpfs for example is "mount -t tmpfs -o size=1G,nr_inodes=10k,mode=0700 tmpfs /space" which will allow up to 1 GiB in RAM/swap with 10240 inodes and only accessible by the owner of the directory /space. The filesystem's maximum size can also be changed on-the-fly, like "mount -o remount,size=2G /space".
+Note that if tmpfs is used for /tmp then care must be taken to set the sticky bit for security reasons[4], and "mode=1777" should be typically used instead of "mode=0777" or "mode=777".
+/var/run and /var/lock can be tmpfs filesystems, to alleviate having to clean them up at each reboot.
+
+tmpfs was merged into the official NetBSD source tree on September 10, 2005[5], and is available in 4.0 and later versions. FreeBSD has ported NetBSD's implementation and is available in 7.0 and later versions[6].
+
+Windows systems have a rough analog to tmpfs in the form of "temporary files". Files created with both FILE_ATTRIBUTE_TEMPORARY and FILE_FLAG_DELETE_ON_CLOSE are held in memory and only written to disk if the system experiences low memory pressure. In this way they behave like tmpfs, except the files are written to the specified path during low memory situations rather than swap space. This technique is often used by servers along with TransmitFile to render content to a buffer before sending to the client.
+

@@ -1,0 +1,5 @@
+Principles of User Interface Design
+Principles of User Interface Design are intended to improve the quality of user interface design. According to Larry Constantine and Lucy Lockwood in their usage-centered design, these principles are:[1]
+
+According to Jef Raskin in his book The Humane Interface, there are two laws of user interface design, based on the fictional laws of robotics created by Isaac Asimov:[2]
+

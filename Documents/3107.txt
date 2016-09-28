@@ -1,0 +1,22 @@
+Metabolic pathway
+In biochemistry, a metabolic pathway is a series of chemical reactions occurring within a cell. In each pathway, a principal chemical is modified by chemical reactions. Enzymes catalyze these reactions, and often require dietary minerals, vitamins, and other cofactors in order to function properly. Because of the many chemicals that may be involved, pathways can be quite elaborate. In addition, many pathways can exist within a cell. This collection of pathways is called the metabolic network. Pathways are important to the maintenance of homeostasis within an organism.
+Metabolism is a step-by-step modification of the initial molecule to shape it into another product. The result can be used in one of three ways:
+A molecule called a substrate enters a metabolic pathway depending on the needs of the cell and the availability of the substrate. An increase in concentration of anabolic and catabolic end-products would slow the metabolic rate for that particular pathway.
+
+Each metabolic pathway is composed of a series of biochemical reactions that are connected by their intermediates: The reactants (or substrates) of one reaction are the products of the previous one, and so on. Metabolic pathways are usually considered in one direction (although all reactions are chemically reversible, conditions in the cell are such that it is thermodynamically more favorable for flux to be in one of the directions).
+
+
+
+
+
+
+
+
+Several distinct but linked metabolic pathways are used by cells to transfer the energy released by breakdown of fuel molecules to ATP. These occur within all living organisms in some forms:
+Other pathways occurring in (most or) all living organisms include:
+Creation of energetic compounds from non-living matter:
+
+
+
+Eicosanoid metabolism
+Sphingolipid metabolism

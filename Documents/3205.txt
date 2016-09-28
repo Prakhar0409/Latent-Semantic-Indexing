@@ -1,0 +1,21 @@
+dBm
+For other uses, see DBM (disambiguation)
+dBm (sometimes dBmW) is an abbreviation for the power ratio in decibels (dB) of the measured power referenced to one milliwatt (mW). It is used in radio, microwave and fiber optic networks as a convenient measure of absolute power because of its capability to express both very large and very small values in a short form. Compare dBW, which is referenced to one watt (1000 mW).
+Since it is referenced to the watt, it is an absolute unit, used when measuring absolute power. By comparison, the decibel (dB) is a dimensionless unit, used for quantifying the ratio between two values, such as signal-to-noise ratio.
+
+Zero dBm equals one milliwatt. A 3 dB increase represents roughly doubling the power, which means that 3 dBm equals roughly 2 mW. For a 3 dB decrease, the power is reduced by about one half, making âˆ’3 dBm equal to about 0.5 milliwatt. To express an arbitrary power P as x dBm, or go in the other direction, the following equations may be used:
+and
+where P is the power in W and x is the power ratio in dBm. Below is a table summarizing useful cases:
+Maximum output from a GSM850/900 mobile phone
+Maximum output from a GSM1800/1900 mobile phone
+Maximum output from a UMTS/3G mobile phone (Power class 2 mobiles)
+Typical wireless router transmission power.
+The signal intensity (power per unit area) can be converted to received signal power by multiplying by the square of the wavelength and dividing by 4Ï€ (see Free-space path loss).
+In United States Department of Defense practice, unweighted measurement is normally understood, applicable to a certain bandwidth, which must be stated or implied.
+In European practice, psophometric weighting may be, as indicated by context, equivalent to dBm0p, which is preferred.
+The dBm is not a part of the International System of Units and therefore is discouraged from use in documents or systems that adhere to SI units (the corresponding SI unit is the watt). However the straight decibel (dB), being a unitless ratio of two numbers, is perfectly acceptable.[1]
+Expression in dBm is typically used for optical and electrical power measurements, not for other types of power (such as thermal). A listing by power levels in watts is available that includes a variety of examples not necessarily related to electrical or optical power.
+
+
+ This article incorporates public domain material from websites or documents of the Federal Standard 1037C (in support of MIL-STD-188).
+

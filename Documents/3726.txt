@@ -1,0 +1,12 @@
+COinS
+ContextObjects in Spans, commonly abbreviated COinS, is a method of embedding latent OpenURL ContextObjects in the HTML code of Web pages. This allows client software to retrieve bibliographic metadata, e. g. to use an OpenURL resolver to find mediated links or to download the information into a reference management software.[1]
+A principal advantage of using COinS, rather than giving a static OpenURL, is that the client can determine which resolver to use. This allows, for instance, searching for a copy of a book in one's own library.
+
+The following Web sites make use of COinS:
+
+Several server-side applications embed COinS:
+
+Client tools which can use COinS include:
+
+
+

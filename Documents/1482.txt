@@ -1,0 +1,25 @@
+Berkeley Open Infrastructure for Network Computing
+The Berkeley Open Infrastructure for Network Computing (BOINC) is a non-commercial middleware system for volunteer and grid computing. It was originally developed to support the SETI@home project before it became useful as a platform for other distributed applications in areas as diverse as mathematics, medicine, molecular biology, climatology, and astrophysics. The intent of BOINC is to make it possible for researchers to tap into the enormous processing power of personal computers around the world.
+BOINC has been developed by a team based at the Space Sciences Laboratory at the University of California, Berkeley led by David Anderson, who also leads SETI@home. As a "quasi-supercomputing" platform, BOINC has about 550,000 active computers (hosts) worldwide processing on average 1.5 PetaFLOPS as of March 2009,[1] which tops the processing power of the current fastest supercomputer system (IBM Roadrunner, with a sustained processing rate of 1.026 PFLOPS). BOINC is funded by the National Science Foundation through awards SCI/0221529,[2] SCI/0438443[3] and SCI/0721124.[4]
+The framework is supported by various operating systems, including Microsoft Windows, Mac OS X and various Unix-like systems including Linux and FreeBSD. BOINC is free software which is released under the GNU Lesser General Public License.
+
+BOINC was originally developed to manage the SETI@home project.
+The original SETI client was a non-BOINC software exclusively for SETI@home. Being one of the first volunteer grid computing projects, it was not designed with a high level of security. Some participants in the project attempted to cheat the project to gain "credits"; while some others submitted entirely falsified work. BOINC was designed, in part, to combat these security breaches.[5]
+The BOINC project started in February 2002 and the first version was released on 10 April 2002. The first BOINC-based project was Predictor@home launched on 9 June 2004.
+
+BOINC is designed to be a free structure for anyone wishing to start a volunteer computing project. Most BOINC projects are nonprofit and rely heavily, if not completely, on volunteers.[citation needed]
+In essence BOINC is software that can use the unused CPU and GPU cycles on a computer to do scientific computing—what one individual doesn't use of his/her computer, BOINC uses. In late 2008, BOINC's official website[6] announced that NVIDIA (a leading GPU manufacturer) had developed a system called CUDA that uses GPUs for scientific computing. With NVIDIA's assistance, some BOINC-based projects have now applications that run on NVIDIA GPUs using CUDA. These applications run from 2X to 10X faster than the former CPU-only versions.
+BOINC consists of a server system and client software that communicate with each other to distribute, process, and return workunits.
+
+BOINC can be controlled remotely by Remote Procedure Calls, from the command line, and from the BOINC Account Manager.
+BOINC Manager currently has three 'views': the Advanced View, the Grid View and the Simplified GUI.
+The appearance (skin) of the Simplified GUI is user-customizable, in that users can create their own designs.
+
+The account manager concept was conceived and developed jointly by GridRepublic and BOINC. Current account managers include:
+The account managers are the unifying points for all the BOINC projects. They create a site that one can find and manage project settings with a single log in and password.
+
+The BOINC Credit System is designed to avoid cheating by validating results before granting credit.
+
+
+
+

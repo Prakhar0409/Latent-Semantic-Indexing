@@ -1,0 +1,13 @@
+David Cheriton
+David R. Cheriton is a Canadian-born computer science professor at Stanford University and a billionaire as a result of his investments in technology companies. He received his Masters and PhD degrees from the University of Waterloo in 1974 and 1978, respectively, and spent three years as an Assistant Professor at the University of British Columbia before moving to Stanford.
+
+Cheriton leads the Distributed Systems Group at Stanford University.
+One of Cheriton's notable publications, with Dale Skeen, is the paper "Understanding the limits of causally and totally ordered communication", presented at the ACM Symposium on Operating Systems Principles in 1993.[1]
+
+Cheriton co-founded Granite Systems with Andy Bechtolsheim, a company developing gigabit Ethernet products, acquired by Cisco Systems in 1996. He was also a co-founder, in 2001, of Bechtolsheim's next startup company, Kealia,[2] which was acquired by Sun Microsystems in 2004. Cheriton is also credited for connecting Stanford students Sergey Brin and Larry Page with venture capitalists at Kleiner Perkins, thus becoming one of the early investors that helped get Google off the ground. Recently, David Cheriton has been involved with Arastra (now Arista Networks), a maker of 10-Gigabit Ethernet switches. Cheriton is also an investor in and advisory board member for frontline data warehouse company Aster Data Systems (http://www.asterdata.com/about/advisory.php) and Zunavision (http://www.zunavision.com), an in-video advertising startup founded at Stanford.
+
+In 2003, Cheriton was presented with the SIGCOMM Lifetime Achievement award by the ACM "for his contributions in data networking and systems, and for his keen talent for questioning the assumptions behind all our work." [3]
+
+On November 18, 2005, the University of Waterloo announced that Cheriton had donated $25 million to support graduate studies and research in its School of Computer Science. In recognition of his contribution, the school was renamed the "David R. Cheriton School of Computer Science."
+
+

@@ -1,0 +1,21 @@
+Persistence (computer science)
+Persistence in computer science refers to the characteristic of data that outlives the execution of the program that created it. Without this capability, data only exists in RAM, and will be lost when the memory loses power, such as on computer shutdown.
+
+In programming, persistence refers specifically to the ability to retain data structures between program executions, such as, for example, an image editing program saving complex selections or a word processor saving undo history.
+This is achieved in practice by storing the data in non-volatile storage such as a file system or a relational database or an object database. Design patterns solving this problem are container based persistence, component based persistence and the Data Access Object model. When first introduced, the idea was that persistence should be an intrinsic property of the data, in contrast with the traditional approach where data is read and written to disk using imperative verbs in a programming language. This emphasis has largely disappeared, resulting in the use of persist as a transitive verb: On completion, the program persists the data. Examples of persistence are using Java serialization to store Java objects on disk or using Java EE to store Enterprise Java Beans in a relational database.
+
+
+Orthogonal persistence refers to either
+
+Most software applications include persistence as a minimum required feature in order for the software to be considered complete. In this context, persistence operations are usually separated into well-recognized categories, based on the types of data entries stored by the software. These categories are:
+Moreover, although not necessarily a minimum required standard for software, the following operations are also commonly associated with persistence, whenever a large number of entries must be maintained:
+
+Persistent storage (PSD) is the ability for a device to maintain data even when it is turned off. Devices that provide persistent storage capabilities are called non-volatile memory devices. Examples are a hard drive, flash memory and CD.
+Devices that need power to provide data, as does random access memory (RAM), are called volatile memory devices and do not provide persistent storage.
+On many early personal data assistants (PDAs), all data was stored in RAM. When the batteries ran out of power, all data was lost. Most newer PDA designs provide persistent storage to prevent the user from losing all data on the device.
+
+Incremental persistence is simply writing each change to an in-memory-datastructure immediately to disk or other non volatile storage device. When used with object-oriented languages, this is known as object prevalence.
+
+Persistence services is when the workflow runtime engine semantics dictate that persistence should occur, the workflow runtime engine will call methods supplied by a persistence service to save state information about the workflow instance. Likewise when workflow runtime engine needs to restore a previously persisted workflow instance, it will call methods supplied by the persistence service to load this state information.
+
+

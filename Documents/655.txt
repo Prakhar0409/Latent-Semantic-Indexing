@@ -1,0 +1,10 @@
+SPML
+SPML (Service Provisioning Markup Language) is an XML-based framework, being developed by OASIS, for exchanging user, resource and service provisioning information between cooperating organizations.
+
+The Service Provisioning Markup language is the open standard for the integration and interoperation of service provisioning requests. SPML is an OASIS standard based on the concepts of DSML. SPML version 1.0 was approved in October 2003. SPML version 2.0 was approved in April 2006. SAML exchanges the authorization data.
+
+Service provisioning refers to the "preparation beforehand" of IT systems' materials or supplies required to carry out a specific activity. It goes beyond the initial "contingency" of providing resources, to encompass the entire lifecycle management of these resources. This includes the provisioning of digital services such as user accounts and access privileges on systems, networks and applications, as well as the provisioning of non-digital or "physical" resources such as cell phones and credit cards.
+"Provisioning is the automation of all the steps required to manage (setup, amend and revoke) user or system access entitlements or data relative to electronically published services".
+
+The goal of SPML is to allow organizations to securely and quickly set up user interfaces for Web services and applications, by letting enterprise platforms such as Web portals, application servers, and service centers generate provisioning requests within and across organizations. This can lead to automation of user or system access and entitlement rights to electronic services across diverse IT infrastructures, so that customers are not locked into proprietary solutions.
+

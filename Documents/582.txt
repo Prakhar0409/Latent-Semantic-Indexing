@@ -1,0 +1,17 @@
+Breadcrumb (navigation)
+Breadcrumbs or breadcrumb trail is a navigation aid used in user interfaces. It gives users a way to keep track of their location within programs or documents. The term comes from the trail of breadcrumbs left by Hansel and Gretel in the popular fairytale.
+
+Breadcrumbs typically appear horizontally across the top of a web page, usually below title bars or headers. They provide links back to each previous page the user navigated through to get to the current page or—in hierarchical site structures—the parent pages of the current one. Breadcrumbs provide a trail for the user to follow back to the starting or entry point. Generally, a greater than (>) serves as hierarchy separator, although designers use other glyphs as well.
+Typical breadcrumbs look like this:
+Home page > Section page > Subsection page
+
+There are three types of web breadcrumbs:
+
+Some commentators[1] criticize Path-style breadcrumbs because they duplicate functionality that properly subsists in the browser; namely, the 'Back' button and browsing history.
+Location breadcrumbs are not necessarily appropriate for sites whose content is so rich that single categories do not fully describe a particular piece of content. This is a common situation in sites employing a search-base navigation paradigm (for example, Amazon). In general, wherever a strict hierarchy is not applicable, Location breadcrumbs are inappropriate.[citation needed]
+
+Some commentators and programmers alternatively use the term "cookie crumb" (or some variant) as a synonym to describe the previously mentioned navigation technique, but this usage is considered incorrect and most likely represents a linguistic corruption of the original "breadcrumb" metaphor. This misuse is further problematic because "cookie crumb" is often used to describe a datum or parameter inside an HTTP cookie file; another technology used on the web that is nonetheless distinct from the navigational method.[2]
+
+Advanced GPS tools may keep track of the motion of a GPS device bearer by recording the positions of the traveller at specified time moments and presenting them at a GPS display as a "breadcrumb trail" of position markers.
+
+

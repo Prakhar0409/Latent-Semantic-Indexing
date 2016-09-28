@@ -1,0 +1,60 @@
+Methane
+-182.5 Â°C, 91 K, -297 Â°F
+-161.6 Â°C, 112 K, -259 Â°F
+Methane is a chemical compound with the molecular formula CH4. It is the simplest alkane, and the principal component of natural gas. Methane's bond angles are 109.5 degrees. Burning methane in the presence of oxygen produces carbon dioxide and water. The relative abundance of methane and its clean burning process makes it a very attractive fuel. However, because it is a gas at normal temperature and pressure, methane is difficult to transport from its source. In its natural gas form, it is generally transported in bulk by pipeline or LNG carriers; few countries still transport it by truck.
+Methane is a relatively potent greenhouse gas with a high global warming potential of 72 (averaged over 20 years) or 25 (averaged over 100 years).[1] Methane in the atmosphere is eventually oxidized, producing carbon dioxide and water. As a result, methane in the atmosphere has a half life of seven years (if no methane were added, then every seven years, the amount of methane would halve).
+The abundance of methane in the Earth's atmosphere in 1998 was 1745 parts per billion, up from 700 ppb in 1750. In the same time period, CO2 increased from 278 to 365 parts per million. The radiative forcing effect due to this increase in methane abundance is about one-third of that of the CO2 increase.[2] In addition, there is a large, but unknown, amount of methane in methane clathrates in the ocean floors. The Earth's crust contains huge amounts of methane. Large amounts of methane are produced anaerobically by methanogenesis. Other sources include mud volcanoes, which are connected with deep geological faults, and livestock (primarily cows) from enteric fermentation.
+Methane is a significant contributor to global warming and the Kyoto protocol seeks to regulate its production.[citation needed]
+
+Methane is the major component of natural gas, about 87% by volume. At room temperature and standard pressure, methane is a colorless, odorless gas; the smell characteristic of natural gas as used in homes is an artificial safety measure caused by the addition of an odorant, often methanethiol or ethanethiol. Methane has a boiling point of âˆ’161 Â°C at a pressure of one atmosphere. As a gas it is flammable only over a narrow range of concentrations (5â€“15%) in air. Liquid methane does not burn unless subjected to high pressure (normally 4â€“5 atmospheres).
+
+Methane is not toxic; however, it is highly flammable and may form explosive mixtures with air. Methane is violently reactive with oxidizers, halogens, and some halogen-containing compounds. Methane is also an asphyxiant and may displace oxygen in an enclosed space. Asphyxia may result if the oxygen concentration is reduced to below 19.5% by displacement[citation needed]. The concentrations at which flammable or explosive mixtures form are much lower than the concentration at which asphyxiation risk is significant. When structures are built on or near landfills, methane off-gas can penetrate the buildings' interiors and expose occupants to significant levels of methane. Some buildings have specially engineered recovery systems below their basements to actively capture such fugitive off-gas and vent it away from the building. An example of this type of system is in the Dakin Building, Brisbane, California.
+
+Main reactions with methane are: combustion, steam reforming to syngas, and halogenation. In general, methane reactions are hard to control. Partial oxidation to methanol, for example, is difficult to achieve; the reaction typically progresses all the way to carbon dioxide and water.
+
+In the combustion of methane, several steps are involved:
+Methane is believed to form a formaldehyde (HCHO or H2CO). The formaldehyde gives a formyl radical (HCO), which then forms carbon monoxide (CO). The process is called oxidative pyrolysis:
+CH4 + O2 â†’ CO + H2 + H2O
+Following oxidative pyrolysis, the H2 oxidizes, forming H2O, replenishing the active species,[clarification needed] and releasing heat. This occurs very quickly, usually in significantly less than a millisecond.
+2H2 + O2 â†’2H2O
+Finally, the CO oxidizes, forming CO2 and releasing more heat. This process is generally slower than the other chemical steps, and typically requires a few to several milliseconds to occur.
+2CO + O2 â†’2CO2
+The result of the above is the following total equation:
+CH4(g) + 2O2(g) â†’ CO2(g) + 2H2O(l) + 890 kJ/mol[3]
+where bracketed "g" stands for gaseous form and bracketed "l" stands for liquid form.
+
+The strength of the carbon-hydrogen covalent bond in methane is among the strongest in all hydrocarbons, and thus its use as a chemical feedstock is limited. Despite the high activation barrier for breaking the Câ€“H bond, CH4 is still the principal starting material for manufacture of hydrogen in steam reforming. The search for catalysts which can facilitate Câ€“H bond activation in methane and other low alkanes is an area of research with considerable industrial significance.
+
+Methane reacts with all halogens given appropriate conditions, as follows:
+CH4 + X2 â†’ CH3X + HX
+where X is a halogen: fluorine (F), chlorine (Cl), bromine (Br), or iodine (I). This mechanism for this process is called free radical halogenation. When X is Cl, this mechanism has the following form:
+1. Radical generation:
+
+2. Radical exchanges:
+
+
+3. Radical extermination:
+
+
+
+
+
+Methane is important for electrical generation by burning it as a fuel in a gas turbine or steam boiler. Compared to other hydrocarbon fuels, burning methane produces less carbon dioxide for each unit of heat released. At about 891 kJ/mol, methane's combustion heat is lower than any other hydrocarbon; but a ratio with the molecular mass (16.0 g/mol) divided by the heat of combustion (891 kJ/mol) shows that methane, being the simplest hydrocarbon, produces more heat per mass unit than other complex hydrocarbons. In many cities, methane is piped into homes for domestic heating and cooking purposes. In this context it is usually known as natural gas, and is considered to have an energy content of 39 megajoules per cubic meter, or 1,000 BTU per standard cubic foot.
+Methane in the form of compressed natural gas is used as a vehicle fuel, and is claimed to be more environmentally friendly than fossil fuels such as gasoline/petrol and diesel.[who?]
+Research is being conducted by NASA on methane's potential as a rocket fuel. One advantage of methane is that it is abundant in many parts of the solar system and it could potentially be harvested in situ , providing fuel for a return journey.[4] Current methane engines in development produce a thrust of 7,500 pounds , which is far from the seven million pounds needed to launch the space shuttle. Instead, such engines will most likely propel voyages from our moon or send robotic expeditions to other planets in the solar system.[5]
+Recently methane emitted from coal mines has been successfully converted to electricity.[6]
+
+Methane is used in industrial chemical processes and may be transported as a refrigerated liquid (liquefied natural gas, or LNG). While leaks from a refrigerated liquid container are initially heavier than air due to the increased density of the cold gas, the gas at ambient temperature is lighter than air. Gas pipelines distribute large amounts of natural gas, of which methane is the principal component.
+In the chemical industry, methane is the feedstock of choice for the production of hydrogen, methanol, acetic acid, and acetic anhydride. When used to produce any of these chemicals, methane is first converted to synthesis gas, a mixture of carbon monoxide and hydrogen, by steam reforming. In this process, methane and steam react on a nickel catalyst at high temperatures (700â€“1100 Â°C).
+
+The ratio of carbon monoxide to hydrogen in synthesis gas can then be adjusted via the water gas shift reaction to the appropriate value for the intended purpose.
+CO + H2O â†’ CO2 + H2
+Less significant methane-derived chemicals include acetylene, prepared by passing methane through an electric arc, and the chloromethanes (chloromethane, dichloromethane, chloroform, and carbon tetrachloride), produced by reacting methane with chlorine gas. However, the use of these chemicals is declining. Acetylene is replaced by less costly substitutes, and the use of chloromethanes is diminishing due to health and environmental concerns.
+
+
+The major source of methane is extraction from geological deposits known as natural gas fields. It is associated with other hydrocarbon fuels and sometimes accompanied by helium and nitrogen. The gas at shallow levels (low pressure) is formed by anaerobic decay of organic matter and reworked methane from deep under the Earth's surface. In general, sediments buried deeper and at higher temperatures than those which give oil generate natural gas. Methane is also produced in considerable quantities from the decaying organic wastes of solid waste landfills.
+
+Apart from gas fields, an alternative method of obtaining methane is via biogas generated by the fermentation of organic matter including manure, wastewater sludge, municipal solid waste (including landfills), or any other biodegradable feedstock, under anaerobic conditions. Methane hydrates/clathrates (icelike combinations of methane and water on the sea floor, found in vast quantities) are a potential future source of methane. Cattle belch methane accounts for 16% of the world's annual methane emissions to the atmosphere.[7] The livestock sector in general (primarily cattle, chickens, and pigs) produces 37% of all human-induced methane".[8] However animals "that put their energies into making gas are less efficient at producing milk and meat". Early research has found a number of medical treatments and dietary adjustments that help limit the production of methane in ruminants.[9][10][11]
+Industrially, methane can be created from common atmospheric gases and hydrogen (produced, for example, by electrolysis) through chemical reactions such as the Sabatier process, Fischer-Tropsch process. Coal bed methane extraction is a method for extracting methane from a coal deposit, while enhanced coal bed methane recovery is a method of recovering methane from an unminable coal seam.
+Scientific experiments have given variable results in determining whether plants are a source of methane emissions.[12][13][14]
+

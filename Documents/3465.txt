@@ -1,0 +1,22 @@
+Bellman equation
+A Bellman equation (also known as a dynamic programming equation), named after its discoverer, Richard Bellman, is a necessary condition for optimality associated with the mathematical optimization method known as dynamic programming. Almost any problem which can be solved using optimal control theory can also be solved by analyzing the appropriate Bellman equation. The Bellman equation was first applied to engineering control theory and to other topics in applied mathematics, and subsequently became an important tool in economic theory.
+
+Given an appropriate initial condition
+the canonical infinite horizon dynamic programming problem is:
+subject to the constraints
+In this problem, x is a vector of state and control variables, indexed by discrete time t. 0≤β≤1 is the discount factor.
+The recursive restatement of this problem as a Bellman equation is:
+The function V that solves the Bellman equation is called the value function. The value function describes the optimized value of the problem, as a function of the state variable x. The function y(x) that describes the optimal choice as a function of the state is called the policy function. (The terms 'state' and 'policy' were used by Bellman, 1957, Ch. 3.2.)[1]
+Bellman called the equivalence between these two forms of the problem the principle of optimality[2]. The principle asserts that if the policy function is optimal for the infinite summation, then it must be the case that whatever the initial state and decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from that first decision (as expressed by the Bellman equation). The principle of optimality is related to the concept of optimal substructure, and problems that exhibit optimal substructure can often be solved with dynamic programming.
+
+In reinforcement learning, a Bellman equation refers to a recursion for expected rewards. For example, the expected reward for being in a particular state s and following some fixed policy π has the Bellman equation:
+This equation describes the expected reward for taking the action prescribed by some policy π.
+The equation for the optimal policy is referred to as the Bellman optimality equation:
+It describes the reward for taking the action giving the highest expected return.
+
+
+The first known economic application of a Bellman equation is Merton's seminal 1973 article on the intertemporal capital asset pricing model.[3] The solution to Merton's theoretical model, one in which investors chose between income today and future income or capital gains, is a form of Bellman's equation. Because economic applications of dynamic programming usually result in a Bellman equation that is a difference equation, economists refer to dynamic programming as a "recursive method."
+Stokey, Lucas & Prescott describes stochastic and nonstochastic dynamic programming in considerable detail, giving many examples of how to employ dynamic programming to solve problems in economic theory.[4] This book led to dynamic programming being employed to solve a wide range of theoretical problems in economics, including optimal economic growth, resource extraction, principal-agent problems, public finance, business investment, asset pricing, factor supply, and industrial organization. Ljungqvist & Sargent apply dynamic programming to study a variety of theoretical questions in monetary policy, fiscal policy, taxation, economic growth, search theory, and labor economics.[5] Dixit & Pindyck showed the value of the method for thinking about capital budgeting.[6]
+Using dynamic programming to solve concrete problems is complicated by informational difficulties, such as choosing the unobservable discount rate. There are also computational issues, the main one being the curse of dimensionality arising from the vast number of possible actions and potential state variables that must be considered before an optimal strategy can be selected. For an extensive discussion of computational issues, see Miranda & Fackler.[7], and Meyn 2007[8]
+
+

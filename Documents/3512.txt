@@ -1,0 +1,36 @@
+Online banking
+Part of a series on
+Electronic commerce
+Online goods and services
+Streaming media
+Electronic books
+Software
+Retail services
+Banking Â· Food ordering
+Online flower delivery Â· DVD or Blu-ray Disc rental
+Travel
+Marketplace services
+Trading communities
+Auctions Â· Online wallet
+Advertising
+Price comparison service
+E-procurement
+Online banking (or Internet banking) allows customers to conduct financial transactions on a secure website operated by their retail or virtual bank, credit union or building society.
+
+Online banking solutions have many features and capabilities in common, but traditionally also have some that are application specific.
+
+The precursor for the modern home online banking services were the distance banking services over electronic media from the early '80s. The term online became popular in the late '80s and referred to the use of a terminal, keyboard and TV (or monitor) to access the banking system using a phone line. â€˜Home bankingâ€™ can also refer to the use of a numeric keypad to send tones down a phone line with instructions to the bank. Online services started in New York in 1981 when four of the cityâ€™s major banks (Citibank, Chase Manhattan, Chemical and Manufacturers Hanover) offered home banking services[1] using the videotex system. Because of the commercial failure of videotex these banking services never became popular except in France where the use of videotex (Minitel) was subsidised by the telecom provider and the UK, where the Prestel system was used.
+The UKâ€™s first home online banking services[2] was set up by the Nottingham Building Society (NBS) in 1983 ("History of the Nottingham". http://www.thenottingham.com/main.asp?p=1710. Retrieved on 2007-12-14. ). The system used was based on the UK's Prestel system and used a computer, such as the BBC Micro, or keyboard (Tandata Td1400) connected to the telephone system and television set. The system (known as 'Homelink') allowed on-line viewing of statements, bank transfers and bill payments. In order to make bank transfers and bill payments, a written instruction giving details of the intended recipient had to be sent to the NBS who set the details up on the Homelink system. Typical recipients were gas, electricity and telephone companies and accounts with other banks. Details of payments to be made were input into the NBS system by the account holder via Prestel. A cheque was then sent by NBS to the payee and an advice giving details of the payment was sent to the account holder. BACS was later used to transfer the payment directly.
+Stanford Federal Credit Union was the first financial institution to offer online internet banking services to all of its members in Oct, 1994.[3]
+
+Protection through single password authentication, as is the case in most secure Internet shopping sites, is not considered secure enough for personal online banking applications in some countries. Basically there exist two different security methods for online banking.
+Attacks
+Most of the attacks on online banking used today are based on deceiving the user to steal login data and valid TANs. Two well known examples for those attacks are phishing and pharming. Cross-site scripting and keylogger/Trojan horses can also be used to steal login information.
+A method to attack signature based online banking methods is to manipulate the used software in a way, that correct transactions are shown on the screen and faked transactions are signed in the background.
+A recent FDIC Technology Incident Report, compiled from suspicious activity reports banks file quarterly, lists 536 cases of computer intrusion, with an average loss per incident of $30,000. That adds up to a nearly $16-million loss in the second quarter of 2007. Computer intrusions increased by 150 percent between the first quarter of 2007 and the second. In 80 percent of the cases, the source of the intrusion is unknown but it occurred during online banking, the report states.[4]
+Countermeasures
+There exist several countermeasures which try to avoid attacks. Digital certificates are used against phishing and pharming, the use of class-3 card readers is a measure to avoid manipulation of transactions by the software in signature based online banking variants. To protect their systems against Trojan horses, users should use virus scanners and be careful with downloaded software or e-mail attachments.
+
+In 2001 the FFIEC issued guidance for multifactor authentication (MFA) and then required to be in place by the end of 2006. [5]
+
+

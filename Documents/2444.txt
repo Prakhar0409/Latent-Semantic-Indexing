@@ -1,0 +1,25 @@
+BD-J
+BD-J, or Blu-ray Disc Java, is a specification supporting Java ME (specifically the Personal Basis Profile of the Connected Device Configuration or CDC) Xlets for advanced content on Blu-ray Disc and the Packaged Media profile of Globally Executable MHP (GEM).
+BD-J allows bonus content on Blu-ray Disc titles to be far more sophisticated than bonus content provided by standard DVD, including network access, picture-in-picture and access to expanded local storage. Collectively, these features (other than internet access) are referred to as "Bonus View", and the addition of internet access is called "BD Live." BD-J was developed by the Blu-ray Disc Association. All Blu-ray Disc players supporting video content are required by the specification to support BD-J.[1] Starting on October 31, 2007, all new players are required to have hardware support for the "Bonus View" features, but the players may require future firmware updates to enable the features. "BD Live" support is always optional for a BD player.[2]
+Sony's PlayStation 3 has been the de facto leader in compliance and support of BD-J. The PlayStation 3 added Blu-ray Profile 1.1 support with a firmware upgrade and was used to showcase BD-Live at CES 2008 in January. BD-J is also emerging as a possible de facto high-end standard for the interactive television industry.[3]
+
+
+Content authors have a variety of development strategies available, including the use of traditional Integrated Development Environments (IDE's) like NetBeans or Eclipse, non-programming graphical environments similar to Macromedia Director, or via rendering engines which consume standard data formats such as HTML, XML, or SVG. Having a full programming environment available on every Blu-ray Disc player provides developers with a platform for creating content types not bound by the restrictions of standard DVD. In addition to the standard BD-J APIs, developers may make use of existing Java libraries and application frameworks, assuming they do not use features outside the constraints of the BD-J platform, include that Java ME only supports Java version 1.3 class files.
+A set of freely-available tools that allow Java developers to produce complete disc images incorporating BD-J is available from the HD Cookbook Project.[4] In order to test content in a typical development environment (MS Windows), one needs either a Playstation 3 or a third-party software player for Windows, paying attention to player versions to ensure that the player supports BD-J.[5][6][7]
+Because of the many different standards and components involved, creating unified documentation on BD-J has proven to be a challenge.[8][9][10]
+
+The BD-J environment is designed to run Xlets with non-javax.* packages available to take advantage of the features peculiar to this platform beyond that defined by Java TV.
+Even a simple example such as FirstBDJApp.[11]
+A developer might choose to use not javax.* packages and instead use:
+A working example of a program using some features from each of the class trees would be the BdjGunBunny Xlet (a very simple version of Space Invaders using an image of a rabbit as the shooter and turtles as the targets) provided as an example in the Java ME 3.0 SDK.
+
+and the same for the other non-javax.* packages. Likewise, when trying to play a video, one might call the Blu-ray and DAVIC utility rather than using generic JMF:
+
+In alphabetical order, here are some titles that already use the features that the BD-J platform offers:
+
+Note: Special features and release dates are subject to change.
+Pirates, Digital Playground Adult Film (enhanced menu, bookmarking, bd-live access)
+
+
+
+

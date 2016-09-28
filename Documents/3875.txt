@@ -1,0 +1,18 @@
+SugarCRM
+SugarCRM is an open-source software-solution vendor which produces the Sugar Customer Relationship Management (CRM) system.
+
+John Roberts, Clint Oram and Jacob Taylor founded SugarCRM in 2004. The company began as an open-source project on Sourceforge in April 2004. By September 2004, potential users had downloaded 25,000 copies of Sugar Open Source. In October 2004, the company was named "Project of the Month" on Sourceforge.[1] The popularity of the project allowed the company to raise $46 million of venture capital from Draper Fisher Jurvetson, Walden International, and New Enterprise Associates.[2] SugarCRM currently[update] employs over 150 people.[3] Sugar Open Source has been downloaded over 4,000,000 times[4] and the project remains one of the most active on SourceForge.
+The company operates a number of web sites, including its commercial web site SugarCRM.com, a development web site (SugarForge.org), Sugar Exchange (for third-party extensions), and user forums.
+
+
+SugarCRM develops CRM software in three editions:
+Each product derives from the same code tree, with Sugar Community Edition containing roughly 85 percent of the functionality contained in Sugar Professional and Sugar Enterprise. The products originated on the LAMP stack of Linux, Apache, MySQL and PHP, but also run well on other platforms that can deliver Apache, MySQL and PHP (such as Windows, Solaris and Mac OS X). SugarCRM can also use alternative databases such as Oracle. Product functionality includes sales-force automation, marketing campaigns, customer support, collaboration and reporting.
+SugarCRM makes Sugar Community Edition available free of charge, and sells annual subscriptions to Sugar Professional and to Sugar Enterprise.
+
+SugarCRM offers Software as a Service (SaaS), on-premise offerings and appliance solutions.
+
+On July 25, 2007, SugarCRM announced the adoption of the GNU General Public License (version 3) for Sugar Community Edition, the offering previously known as Sugar Open Source.[5] The GPL takes effect with the release of Sugar Community Edition 5.0, scheduled[update] for late northern-hemisphere summer 2007.
+SugarCRM licensed previous versions of Sugar Community Edition under the SugarCRM Public License (based on the Mozilla Public License and the Attribution Assurance License). While users could freely redistribute Sugar Open Source and the licence allowed for the inspection and modification of the source code and for the creation of derived works, critics, including Dan Farber, editor in chief at CNET, expressed some concern over SugarCRM's use of the term "commercial open source" to describe its products.[6]
+
+
+

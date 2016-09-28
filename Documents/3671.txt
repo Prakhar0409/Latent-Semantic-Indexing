@@ -1,0 +1,12 @@
+Jaiku
+Jaiku is a social networking, micro-blogging and lifestreaming service comparable to Twitter.[1] Jaiku was founded in February 2006 by Jyri Engeström[2] and Petteri Koponen from Finland[3] and launched in July of that year. It was purchased by Google on October 9, 2007.[4]
+
+Jaiku was created in February 2006 and formed Jaiku Ltd. Jaiku is based in Helsinki.[5] Jaiku founders came up with the name Jaiku because the posts on Jaiku resemble Japanese haiku. Also, the indigenous Sami people of Finland have traditionally shared stories by singing joiks.
+On January 14, 2009 it was announced that Google would be open-sourcing the product [6] but would "no longer actively develop the Jaiku codebase" leaving development to a "passionate volunteer team of Googlers" [7].
+On March 12, 2009 Jaiku was re-launched on Google's AppEngine platform[8] and on March 13, 2009 the source code to JaikuEngine (the open source equivalent of the jaiku.com codebase) was released[9].
+
+Jaiku consists of a website, a mobile website and a client application which acts as a replacement address book that runs on S60 phones.
+Jaiku is compatible with Nokia S60 platform mobile devices through its Jaiku Mobile client software. The software allows users to make posts through the software onto their Jaiku page.[10] Jaiku released their API, which allows programmers to make their own third party software components such as Feedalizr. One of the main differences between Jaiku and its competitor Twitter is Lifestream, an internet feed that shares users online activities utilizing other programs such as flickr for photos, last.fm for music, and location by mobile phone.[11] Since Jaiku became open-source, the Lifestream function has been removed.
+
+
+

@@ -1,0 +1,6 @@
+Comparison of free software licences
+This is a comparison of published free software licences.
+
+The following table compares various features of each license and is a general guide to the terms and conditions of each license.[1]
+
+This table lists for each licence what organizations from the free software community have approved it - be it as a "free software" or as an “open source” licence - and how those organizations categorize it. Organizations usually approve specific versions of software licences.

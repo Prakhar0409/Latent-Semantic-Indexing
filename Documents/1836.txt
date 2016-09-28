@@ -1,0 +1,13 @@
+White hat
+A white hat is the hero or good guy, especially in computing slang, where it refers to an ethical hacker or penetration tester who focuses on securing and protecting IT systems.[1]
+
+White hat hackers, also known as "ethical hackers," are computer security experts, who specialize in penetration testing, and other testing methodologies, to ensure that a company's information systems are secure. Such people are employed by companies where these professionals are sometimes called "sneakers."[citation needed] Groups of these people are often called tiger teams[2] or red teams. These security experts may utilize a variety of methods to carry out their tests, including social engineering tactics, use of hacking tools, and attempts to evade security to gain entry into secured areas.
+The National Security Agency offers certifications such as the CNSS 4011. Such a certification covers orderly, ethical hacking techniques and team management. Aggressor teams are called "red" teams. Defender teams are called "blue" teams.
+
+In recent years, the terms white hat and black hat have been applied to the Search Engine Optimization (SEO) industry. Black hat SEO tactics such as spamdexing, attempt to redirect search results to particular target pages in a fashion that is against the search engines' terms of service, whereas white hat methods are generally approved by the search engines.[3] White hats tend to produce results that last a long time, whereas black hats anticipate that their sites may eventually be banned either temporarily or permanently once the search engines discover what they are doing.[4]
+
+In the movie industry, a white hat was someone in a western movie in which such a character would wear a white hat in contrast to the villain's black hat. Examples of such characters are Red Ryder, Tom Mix, and The Lone Ranger.
+
+In the Scottish Rite of Freemasonry, a white hat signifies an honorable degree which has been bestowed upon a member. It is also known as the 33rd degree. A 33° mason is a master mason who has exhibited knowledge, passion and sacrifice to his craft. It is awarded by the Supreme Council. Members selected for inclusion are elected at the Council's annual session. Members unanimously elected become honorary members of the Supreme Council. The cap for an Inspector General Honorary is white with a white band edged in gold, featuring the symbol for this honorary Degree, a red slanting Patriarchal Cross. [5].
+
+

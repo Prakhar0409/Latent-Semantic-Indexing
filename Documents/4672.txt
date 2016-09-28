@@ -1,0 +1,13 @@
+Merb
+Merb, short for "Mongrel+Erb"[1], is a model-view-controller web framework written in Ruby. Merb adopts an approach that focuses on essential core functionality, leaving most functionality to plugins.
+
+Merb allows for developer preference in choice of ORM (ActiveRecord, Datamapper, and Sequel), JavaScript library, and template language (HAML and eRuby).
+Starting February 2008, Merb underwent a large rewrite, jumping from version 0.5 to 0.9.[2] Core framework functionality was modularized into merb-core, and all extra functionality (e.g. various templating language plugins) inside a merb-more and merb-plugins components. One can still create simple web applications with merb-core alone, similar to the Camping microframework.
+
+Merb 1.0 was released on November 7 2008 at RubyConf.[3] and is currently at version 1.0.9.
+Merb was highly influenced by Rails, and it can also be used to write sophisticated applications and REST Web services. It has been suggested that Merb is more flexible and faster than Rails.[4].
+As of December 23, 2008, the Merb project is being merged with Rails, and a version with the best features of both will be released in 2009 under the name Rails 3.[5][6]
+
+Since its inception, Engine Yard provided developer resources to Merb.[7] Merb was designed by Ezra Zygmuntowicz, one of the founders of Engine Yard. Yehuda Katz, Merb's lead developer, and many other Merb developers are also employed with Engine Yard.[8] Given Merb's merger with Rails and the induction of Yehuda Katz and many other Merb developers into the Rails Core Team, Engine Yard has contributed direct sponsorship to the development of Ruby On Rails itself.[5][6]
+
+

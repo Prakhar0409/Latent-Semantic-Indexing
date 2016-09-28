@@ -1,0 +1,79 @@
+Money
+Africa†¬∑ North America
+South America†¬∑ Asia
+Europe†¬∑ Oceania
+Microeconomics†¬∑ Macroeconomics
+History of economic thought
+Methodology†¬∑ Heterodox approaches
+Mathematical†¬∑ Econometrics
+Experimental†¬∑ National accounting
+Behavioral†¬∑ Cultural†¬∑ Evolutionary
+Growth†¬∑ Development†¬∑ History
+International†¬∑ Economic systems
+Monetary and Financial
+Public and Welfare economics
+Health†¬∑ Labour†¬∑ Managerial
+Business†¬∑ Information†¬∑ Game theory
+Industrial organization †¬∑ Law
+Agricultural†¬∑ Natural resource
+Environmental†¬∑ Ecological
+Urban†¬∑ Rural†¬∑ Regional
+Journals ¬∑ Publications
+Categories ¬∑ Topics ¬∑ Economists
+Anarchist†¬∑ Capitalist
+Communist†¬∑ Corporatist
+Fascist†¬∑ Georgist
+Islamic†¬∑ Laissez-faire
+Market socialist†¬∑ Mercantilist
+Protectionist†¬∑ Socialist
+Syndicalist†¬∑ Third Way
+Anglo-Saxon†¬∑ Feudal
+Global†¬∑ Hunter-gatherer
+Newly industrialized country
+Palace†¬∑ Plantation
+Post-capitalist†¬∑ Post-industrial
+Social market†¬∑ Socialist market
+Token†¬∑ Traditional
+Information†¬∑ Transition
+Money is anything that is generally accepted as payment for goods and services and repayment of debts.[1] The main uses of money are as a medium of exchange, a unit of account, and a store of value.[2] Some authors explicitly require money to be a standard of deferred payment.[3] The dominant form of money is currency[counterfactual].[4][5]
+The term "price system" is sometimes used to refer to methods using commodity valuation or money accounting systems.
+The word "money" is believed to originate from a temple of Hera, located on Capitoline, one of Rome's seven hills. In the ancient world Hera was often associated with money. The temple of Juno Moneta at Rome was the place where the mint of Ancient Rome was located.[6]. The name "Juno" may derive from the Etruscan goddess Uni (which means "the one", "unique", "unit", "union", "united") and "Moneta" either from the Latin word "monere" (remind, warn, or instruct) or the Greek word "moneres" (alone, unique).
+
+Money is generally considered to have the following characteristics, which are summed up in a rhyme found in older economics textbooks: "Money is a matter of functions four, a medium, a measure, a standard, a store." That is, money functions as a medium of exchange, a unit of account, a standard of deferred payment, and a store of value.[2][7][8]
+There have been many historical arguments regarding the combination of money's functions, some arguing that they need more separation and that a single unit is insufficient to deal with them all. One of these arguments is that the role of money as a medium of exchange is in conflict with its role as a store of value: its role as a store of value requires holding it without spending, whereas its role as a medium of exchange requires it to circulate.[8] Others argue that storing of value is just deferral of the exchange, but does not diminish the fact that money is a medium of exchange that can be transported both across space and time.[9] 'Financial capital' is a more general and inclusive term for all liquid instruments, whether or not they are a uniformly recognized tender.
+
+Money is used as an intermediary for trade, in order to avoid the inefficiencies of a barter system, which are sometimes referred to as the 'double coincidence of wants problem'. Such usage is termed a medium of exchange.
+
+A unit of account is a standard numerical unit of measurement of the market value of goods, services, and other transactions. Also known as a "measure" or "standard" of relative worth and deferred payment, a unit of account is a necessary prerequisite for the formulation of commercial agreements that involve debt.
+
+To act as a store of value, a commodity, a form of money, or financial capital must be able to be reliably saved, stored, and retrieved ‚Äî and be predictably useful when it is so retrieved. Fiat currency like paper or electronic currency no longer backed by gold in most countries is not considered by some economists to be a store of value.
+
+Liquidity describes how easily an item can be traded for another item, or into the common currency within an economy. Money is the most liquid asset because it is universally recognised and accepted as the common currency. In this way, money gives consumers the freedom to trade goods and services easily without having to barter.
+Liquid financial instruments are easily tradable and have low transaction costs. There should be no ‚Äî or minimal ‚Äî spread between the prices to buy and sell the instrument being used as money.
+
+In economics, money is a broad term that refers to any financial instrument that can fulfill the functions of money (detailed above). Modern monetary theory distinguishes among different types of monetary aggregates, using a categorization system that focuses on the liquidity of the financial instrument used as money.
+
+Commodity money value comes from the commodity out of which it is made. The commodity itself constitutes the money, and the money is the commodity.[10] Examples of commodities that have been used as mediums of exchange include gold, silver, copper, rice, salt, peppercorns, large stones, decorated belts, shells, alcohol, cigarettes, cannabis, candy, barley, etc. These items were sometimes used in a metric of perceived value in conjunction to one another, in various commodity valuation or Price System economies. Use of commodity money is similar to barter, but a commodity money provides a simple and automatic unit of account for the commodity which is being used as money.
+
+Representative money is money that consists of token coins, other physical tokens such as certificates, and even non-physical "digital certificates" (authenticated digital transactions) that can be reliably exchanged for a fixed quantity of a commodity such as gold, silver or potentially water, oil or food. Representative money thus stands in direct and fixed relation to the commodity which backs it, while not itself being composed of that commodity.
+
+Credit money is any claim against a physical or legal person that can be used for the purchase of goods and services.[10] Credit money differs from commodity and fiat money in two ways: It is not payable on demand (although in the case of fiat money, "demand payment" is a purely symbolic act since all that can be demanded is other types of fiat currency) and there is some element of risk that the real value upon fulfillment of the claim will not be equal to real value expected at the time of purchase.[10]
+This risk comes about in two ways and affects both buyer and seller.
+First it is a claim and the claimant may default (not pay). High levels of default have destructive supply side effects. If manufacturers and service providers do not receive payment for the goods they produce, they will not have the resources to buy the labor and materials needed to produce new goods and services. This reduces supply, increases prices and raises unemployment, possibly triggering a period of stagflation. In extreme cases, widespread defaults can cause a lack of confidence in lending institutions and lead to economic depression. For example, abuse of credit arrangements is considered one of the significant causes of the Great Depression of the 1930s.[11]
+The second source of risk is time. Credit money is a promise of future payment. If the interest rate on the claim fails to compensate for the combined impact of the inflation (or deflation) rate and the time value of money, the seller will receive less real value than anticipated. If the interest rate on the claim overcompensates, the buyer will pay more than expected.
+The process of fractional-reserve banking has a cumulative effect of money creation by banks.
+
+Fiat money is any money whose value is determined by legal means. The terms fiat currency and fiat money relate to types of currency or money whose usefulness results not from any intrinsic value or guarantee that it can be converted into gold or another currency, but instead from a government's order (fiat) that it must be accepted as a means of payment.[12][13]
+Fiat money is created when a type of credit money (typically notes from a central bank, such as the Federal Reserve System in the U.S.) is declared by a government act (fiat) to be acceptable and officially-recognized payment for all debts, both public and private. Fiat money may thus be symbolic of a commodity or a government promise, though not a completely specified amount of either of these. Fiat money is thus not technically fungible or tradable directly for fixed quantities of anything, except more of the same government's fiat money. Fiat moneys usually trade against each other in value in an international market, as with other goods. An exception to this is when currencies are locked to each other, as explained below. Many but not all fiat moneys are accepted on the international market as having value. Those that are trade indirectly against any internationally available goods and services.[10] Thus the number of U.S. dollars or Japanese yen which are equivalent to each other, or to a gram of gold metal, are all market decisions which change from moment to moment on a daily basis. Occasionally, a country will peg the value of its fiat money to that of the fiat money of a larger economy: for example the Belize dollar trades in fixed proportion (at 2:1) to the U.S. dollar, so there is no floating value ratio of the two currencies.
+Fiat money, if physically represented in the form of currency (paper or coins) can be easily damaged or destroyed. However, here fiat money has an advantage over representative or commodity money, in that the same laws that created the money can also define rules for its replacement in case of damage or destruction. For example, the U.S. government will replace mutilated federal reserve notes (U.S. fiat money) if at least half of the physical note can be reconstructed, or if it can be otherwise proven to have been destroyed.[14] By contrast, commodity money which has been destroyed or lost is gone.
+
+The money supply is the amount of money within a specific economy available for purchasing goods or services. The supply in the US is usually considered as four escalating categories M0, M1, M2 and M3. The categories grow in size with M3 representing all forms of money (including credit) and M0 being just base money (coins, bills, and central bank deposits). M0 is also money that can satisfy private banks' reserve requirements. In the US, the Federal Reserve is responsible for controlling the money supply, while in the Euro area the respective institution is the European Central Bank. Other central banks with significant impact on global finances are the Bank of Japan, People's Bank of China and the Bank of England.
+When gold is used as money, the money supply can grow in either of two ways. First, the money supply can increase as the amount of gold increases by new gold mining at about 2% per year, but it can also increase more during periods of gold rushes and discoveries, such as when Columbus discovered the new world and brought gold back to Spain, or when gold was discovered in California in 1848. This kind of increase helps debtors, and causes inflation, as the value of gold goes down. Second, the money supply can increase when the value of gold goes up. This kind of increase in the value of gold helps savers and creditors and is called deflation, where items for sale are less expensive in terms of gold. Deflation was the more typical situation for over a century when gold and credit money backed by gold were used as money in the US from 1792 to 1913.
+
+Monetary policy is the process by which a government, central bank, or monetary authority manages the money supply to achieve specific goals. Usually the goal of monetary policy is to accommodate economic growth in an environment of stable prices. For example, it is clearly stated in the Federal Reserve Act that the Board of Governors and the Federal Open Market Committee should seek ‚Äúto promote effectively the goals of maximum employment, stable prices, and moderate long-term interest rates.‚Äù[15]
+A failed monetary policy can have significant detrimental effects on an economy and the society that depends on it. These include hyperinflation, stagflation, recession, high unemployment, shortages of imported goods, inability to export goods, and even total monetary collapse and the adoption of a much less efficient barter economy. This happened in Russia, for instance, after the fall of the Soviet Union.
+Governments and central banks have taken both regulatory and free market approaches to monetary policy. Some of the tools used to control the money supply include:
+For many years much of monetary policy was influenced by an economic theory known as monetarism. Monetarism is an economic theory which argues that management of the money supply should be the primary means of regulating economic activity. The stability of the demand for money prior to the 1980s was a key finding of Milton Friedman and Anna Schwartz[16] supported by the work of David Laidler[17], and many others.
+The nature of the demand for money changed during the 1980s owing to technical, institutional, and legal factors and the influence of monetarism has since decreased.
+
+The use of 

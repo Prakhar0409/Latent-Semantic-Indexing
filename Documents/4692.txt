@@ -1,0 +1,9 @@
+Automatic image annotation
+Automatic image annotation (also known as automatic image tagging) is the process by which a computer system automatically assigns metadata in the form of captioning or keywords to a digital image. This application of computer vision techniques is used in image retrieval systems to organize and locate images of interest from a database.
+This method can be regarded as a type of multi-class image classification with a very large number of classes - as large as the vocabulary size. Typically, image analysis in the form of extracted feature vectors and the training annotation words are used by machine learning techniques to attempt to automatically apply annotations to new images. The first methods learned the correlations between image features and training annotations, then techniques were developed using machine translation to try and translate the textual vocabulary with the 'visual vocabulary', or clustered regions known as blobs. Work following these efforts have included classification approaches, relevance models and so on.
+The advantages of automatic image annotation versus content-based image retrieval are that queries can be more naturally specified by the user [1]. CBIR generally (at present) requires users to search by image concepts such as color and texture, or finding example queries. Certain image features in example images may override the concept that the user is really focusing on. The traditional methods of image retrieval such as those used by libraries have relied on manually annotated images, which is expensive and time-consuming, especially given the large and constantly-growing image databases in existence.
+Some annotation engines are online, including the ALIPR.com real-time tagging engine developed by Penn State researchers, and Behold - an image search engine that indexes over 1 million Flickr images using automatically generated tags.
+
+
+
+

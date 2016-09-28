@@ -1,0 +1,23 @@
+Local Shared Object
+A Local Shared Object (LSO) is a collection of cookie-like data stored as a file on a user's PC. LSOs are used by all versions of Adobe Flash Player and Version 6 and above of Macromedia's now-obsolete Flash MX Player.[1]
+
+Flash Players use a sandbox security model. With the default settings, Adobe Flash Player does not seek the user's permission to store LSO files on the hard disk. LSO's contain cookie-like data stored by individual web sites or domains. Any kind of text data can be stored, some of which may be cause for privacy concerns. Indeed, as with cookies, online banks, merchants or advertisers may use LSOs for tracking purposes.[2]
+However, in order to respect people's privacy and for security purposes, the current version of Flash does not allow LSOs to be shared across domains. For example, an LSO from "www.example.com" cannot read an LSO created by the domain "www.example2.com".[3]
+
+Local Shared Objects are not temporary files. Users can opt-out of them on a per-site basis by right-clicking and selecting 'Settings', or can opt-out globally by using the Global Storage Settings panel[4] of the online Settings Manager at Adobe's website.
+Adobe's Website Storage Settings panel was created to let users view and delete LSOs on a per-domain basis. It is also possible to completely disallow LSOs from a specific domain by setting the storage space to "0 KB"[5] Add-on extensions have also been created for the Firefox Web browser, called Objection[6] and Better Privacy that allow the user to view and delete LSOs.[7]
+
+The default storage location for LSO files is operating system-dependent. LSO files are typically stored with a ".SOL" extension, within each User's directory. Note that for self-executing flash applications run on the local machine will show up as being run on a website, in the folder localhost.
+
+The Flash Player allows Web content to read and write LSO data to the computer's local drive on a per-domain basis;[8] such data may preserve session state and record user data and behavior.[9]
+A Flash application may store up to 100kb of data to user's hard drive (browser cookies have a limit of just 4kb).[8] The defined storage sizes are 0kb, 10kb, 100kb, 1Mb, 10Mb, and Unlimited.[10] If the current limit is exceeded, the user is shown a dialog requesting storage space of the next size. The user may override the amount manually by clicking the Flash application with right mouse button and selecting Settings; however, this applies only to the domain of the Flash movie. If the selected setting is smaller than the current data size, the data is deleted.
+Global LSO settings may be amended by the user, by browsing Adobe's Web page that invokes Adobe's "Global Settings Manager" control panel.[10][11]
+
+
+
+
+ Textbooks from Wikibooks
+ Quotations from Wikiquote
+ Source texts from Wikisource
+ Images and media from Commons
+ News stories from Wikinews

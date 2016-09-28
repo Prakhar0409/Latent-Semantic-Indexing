@@ -1,0 +1,17 @@
+Tomasulo algorithm
+The Tomasulo algorithm is a hardware algorithm developed in 1967 by Robert Tomasulo from IBM. It allows sequential instructions that would normally be stalled due to certain dependencies to execute non-sequentially (out-of-order execution). It was first implemented for the IBM System/360 Model 91’s floating point unit.
+This algorithm differs from scoreboarding in that it utilizes register renaming. Where scoreboarding resolves Write-after-Write (WAW) and Write-after-Read (WAR) hazards by stalling, register renaming allows the continual issuing of instructions. The Tomasulo algorithm also uses a common data bus (CDB) on which computed values are broadcast to all the reservation stations that may need it. This allows for improved parallel execution of instructions which may otherwise stall under the use of scoreboarding.
+Robert Tomasulo received the Eckert-Mauchly Award in 1997 for this algorithm.
+
+The following are the concepts necessary to the implementation of Tomasulo's Algorithm.
+
+The three stages listed below are the stages through which each instruction passes from the time it is issued to the time its execution is complete.
+
+In the Issue stage, instructions are issued for execution if all operands and reservation stations are ready or else they are stalled. Registers are renamed in this step, eliminating WAR and WAW hazards.
+
+In the Execute stage, the instruction operations are carried out. Instructions are delayed in this step until all of their operands are available, eliminating RAW hazards. Program correctness is maintained through effective address calculation to prevent hazards through memory.
+
+In the Write Result stage, ALU operations results are written back to registers and store operations are written back to memory.
+
+
+

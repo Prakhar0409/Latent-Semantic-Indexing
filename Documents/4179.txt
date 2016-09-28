@@ -1,0 +1,40 @@
+Capital asset pricing model
+In finance, the Capital Asset Pricing Model (CAPM) is used to determine a theoretically appropriate required rate of return of an asset, if that asset is to be added to an already well-diversified portfolio, given that asset's non-diversifiable risk. The model takes into account the asset's sensitivity to non-diversifiable risk (also known as systemic risk or market risk), often represented by the quantity beta (β) in the financial industry, as well as the expected return of the market and the expected return of a theoretical risk-free asset.
+The model was introduced by Jack Treynor (1961, 1962)[1], William Sharpe (1964), John Lintner (1965a,b) and Jan Mossin (1966) independently, building on the earlier work of Harry Markowitz on diversification and modern portfolio theory. Sharpe received the Nobel Memorial Prize in Economics (jointly with Markowitz and Merton Miller) for this contribution to the field of financial economics.
+
+The CAPM is a model for pricing an individual security or a portfolio. For individual securities, we made use of the security market line (SML) and its relation to expected return and systematic risk (beta) to show how the market must price individual securities in relation to their security risk class. The SML enables us to calculate the reward-to-risk ratio for any security in relation to that of the overall market. Therefore, when the expected rate of return for any security is deflated by its beta coefficient, the reward-to-risk ratio for any individual security in the market is equal to the market reward-to-risk ratio, thus:
+,
+The market reward-to-risk ratio is effectively the market risk premium and by rearranging the above equation and solving for E(Ri), we obtain the Capital Asset Pricing Model (CAPM).
+
+Where:
+
+Restated, in terms of risk premium, we find that:
+
+which states that the individual risk premium equals the market premium times beta.
+
+Note 1: the expected market rate of return is usually estimated by measuring the Geometric Average of the historical returns on a market portfolio (i.e. S&P 500).
+Note 2: the risk free rate of return used for determining the risk premium is usually the arithmetic average of historical risk free rates of return and not the current risk free rate of return.
+For the full derivation see Modern portfolio theory.
+
+Once the expected return, E(Ri), is calculated using CAPM, the future cash flows of the asset can be discounted to their present value using this rate (E(Ri)), to establish the correct price for the asset.
+In theory, therefore, an asset is correctly priced when its observed price is the same as its value calculated using the CAPM derived discount rate. If the observed price is higher than the valuation, then the asset is overvalued (and undervalued when the observed price is below the CAPM valuation).
+Alternatively, one can "solve for the discount rate" for the observed price given a particular valuation model and compare that discount rate with the CAPM rate. If the discount rate in the model is lower than the CAPM rate then the asset is overvalued (and undervalued for a too high discount rate).
+
+The CAPM returns the asset-appropriate required return or discount rate - i.e. the rate at which future cash flows produced by the asset should be discounted given that asset's relative riskiness. Betas exceeding one signify more than average "riskiness"; betas below one indicate lower than average. Thus a more risky stock will have a higher beta and will be discounted at a higher rate; less sensitive stocks will have lower betas and be discounted at a lower rate. Given the accepted concave utility function, the CAPM is consistent with intuition - investors (should) require a higher return for holding a more risky asset.
+Since beta reflects asset-specific sensitivity to non-diversifiable, i.e. market risk, the market as a whole, by definition, has a beta of one. Stock market indices are frequently used as local proxies for the market - and in that case (by definition) have a beta of one. An investor in a large, diversified portfolio (such as a mutual fund) therefore expects performance in line with the market.
+
+The risk of a portfolio comprises systematic risk, also known as undiversifiable risk, and unsystematic risk which is also known as idiosyncratic risk or diversifiable risk. Systematic risk refers to the risk common to all securities - i.e. market risk. Unsystematic risk is the risk associated with individual assets. Unsystematic risk can be diversified away to smaller levels by including a greater number of assets in the portfolio (specific risks "average out"). The same is not possible for systematic risk within one market. Depending on the market, a portfolio of approximately 30-40 securities in developed markets such as UK or US will render the portfolio sufficiently diversified to limit exposure to systematic risk only. In developing markets a larger number is required, due to the higher asset volatilities.
+A rational investor should not take on any diversifiable risk, as only non-diversifiable risks are rewarded within the scope of this model. Therefore, the required return on an asset, that is, the return that compensates for risk taken, must be linked to its riskiness in a portfolio context - i.e. its contribution to overall portfolio riskiness - as opposed to its "stand alone riskiness." In the CAPM context, portfolio risk is represented by higher variance i.e. less predictability. In other words the beta of the portfolio is the defining factor in rewarding the systematic exposure taken by an investor.
+
+The CAPM assumes that the risk-return profile of a portfolio can be optimized - an optimal portfolio displays the lowest possible level of risk for its level of return. Additionally, since each additional asset introduced into a portfolio further diversifies the portfolio, the optimal portfolio must comprise every asset, (assuming no trading costs) with each asset value-weighted to achieve the above (assuming that any asset is infinitely divisible). All such optimal portfolios, i.e., one for each level of return, comprise the efficient frontier.
+Because the unsystematic risk is diversifiable, the total risk of a portfolio can be viewed as beta.
+
+An investor might choose to invest a proportion of his or her wealth in a portfolio of risky assets with the remainder in cash - earning interest at the risk free rate (or indeed may borrow money to fund his or her purchase of risky assets in which case there is a negative cash weighting). Here, the ratio of risky assets to risk free asset does not determine overall return - this relationship is clearly linear. It is thus possible to achieve a particular return in one of two ways:
+For a given level of return, however, only one of these portfolios will be optimal (in the sense of lowest risk). Since the risk free asset is, by definition, uncorrelated with any other asset, option 2 will generally have the lower variance and hence be the more efficient of the two.
+This relationship also holds for portfolios along the efficient frontier: a higher return portfolio plus cash is more efficient than a lower return portfolio alone for that lower level of return. For a given risk free rate, there is only one optimal portfolio which can be combined with cash to achieve the lowest level of risk for any possible return. This is the market portfolio.
+
+All Investors:
+
+
+
+

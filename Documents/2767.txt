@@ -1,0 +1,20 @@
+Catalyst (software)
+Catalyst is an open source web application framework written in Perl, that closely follows the model-view-controller (MVC) architecture, and supports a number of experimental web patterns. It's heavily inspired by such frameworks as Ruby on Rails, Maypole, and Spring.
+Catalyst is primarily distributed through the CPAN, which is the official distribution channel for Perl libraries and applications.
+
+Catalyst's first development release took place on 2005-01-28. The first official version hit CPAN on 2005-02-16[1]. As of 2009-02-13, Catalyst has 75 registered contributors[2].
+
+Catalyst is based on a "don't repeat yourself" (DRY) principle, which means that definitions should only have to be made once.
+Catalyst can be used with automatic class loading from the database through one of the many loader modules, thus requiring no code for the database layer. But, if you require the flexibility of manually doing everything, it's also an option. Another guiding principle of Catalyst is flexibility.
+Catalyst promotes the re-use of existing Perl modules that already handle common web application concerns well.
+Catalyst has a large selection of plugins. For example, it has javascript generation for Ajax and RIA using the Catalyst::Plugin::Prototype module (prototype is an Ajax framework).
+
+
+For development and testing, Catalyst has a built-in simple HTTP server. For production use, Apache or lighttpd with FastCGI or mod_perl support is recommended, but any web server with CGI or FastCGI support will work. On Apache, mod_perl can help with performance considerably, though its use might be an issue because it can be unsafe to share multiple applications under mod_perl.
+Since early 2008, Catalyst applications can also be deployed using the HTTP::Prefork engine which provides for the deployment of high performance Catalyst apps without a separate web server.
+
+Catalyst can run using any database supported by Perl's DBI (this means almost anything, even a CSV file), but a proper RDBMS is recommended. The database access is entirely abstracted from the programmer's point of view and Catalyst, through one of its model classes, handles access to all databases automatically – though, if needed, using direct SQL queries is possible. This means you get database-neutrality, application portability over different database systems, and usability of pre-existing databases for Catalyst application development as much as possible, though due to different feature sets of the RDBMSes, it is not completely guaranteed by the framework alone. Several different RDBMS systems are supported, including MySQL, PostgreSQL, SQLite, IBM DB2, Oracle and Microsoft SQL Server.
+A lot of Catalyst-based projects use DBIx::Class as the ORM layer, which provides further abstraction of SQL queries, using a resultset based API with transparent (and efficient) support for arbitrary joins and other features.
+
+
+

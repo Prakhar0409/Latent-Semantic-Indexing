@@ -1,0 +1,30 @@
+Greasemonkey
+Greasemonkey is a Mozilla Firefox add-on that allows users to install scripts that make on-the-fly changes to most HTML-based web pages. As Greasemonkey scripts are persistent, the changes made to the web pages are executed every time the page is opened, making them effectively permanent for the user running the script. Greasemonkey can be used for adding new functions to web pages (for example, embedding price comparison in Amazon.com web pages), fixing rendering bugs, combining data from multiple webpages, and numerous other purposes.
+
+Greasemonkey user scripts are written in JavaScript with limitations [1] and manipulate the contents of a web page using the Document Object Model interface. Scripts are site-specific and written by hand. userscripts.org maintains a database of Greasemonkey scripts, and for each it lists the URLs of web pages to which the scripts pertain. When the user loads a matching page, Greasemonkey invokes the relevant scripts, which can then add to the page, delete parts of it, or move parts around. Greasemonkey scripts can also poll external HTTP resources via a non-domain-restricted XMLHTTP request. Greasemonkey scripts are named somename.user.js, and Greasemonkey automatically detects and offers to install any such script, when a URL ending in that suffix is loaded. In addition to JavaScript code, Greasemonkey scripts contain limited optional metadata, which specifies the name of the script, a description, a namespace URL used to differentiate identically named scripts, and URL patterns for which the script is intended to be invoked or not.
+Writing a Greasemonkey script is similar to writing JavaScript for a web page, with some additional restrictions imposed by the security provisions of Mozilla's XPCNativeWrappers. Compared to writing a full-fledged Firefox extension, user scripting is a very modest step up in complexity from basic web programming.
+For an interactive approach to modifying web pages that does not require programming, see Platypus [2], a Firefox extension that allows you to modify pages by clicking on objects.
+
+Users have written scripts that:
+
+
+Greasemonkey is available for Firefox, Flock and Epiphany. The Epiphany Greasemonkey extension is part of the Epiphany-extensions package. However, this extension is not fully compatible as of release 2.15.1, since some Greasemonkey API functions (e.g. GM_getValue) are unsupported. There are also custom versions for SeaMonkey[3] and Songbird.[4]
+
+Version 8 and upwards of Opera also have user scripting functionality. Both Opera and Firefox support the W3C DOM. Opera is capable of running many Greasemonkey user scripts.[5]
+
+GreaseKit (formerly Creammonkey) and PithHelmet (shareware) are similar tools for the Mac OS version of the Safari browser, along with other WebKit based applications such as MailPlane.
+
+Konqueror Userscript is a webpage manipulation tool for KDE's Konqueror browser that aims for compatibility with Greasemonkey scripts and metadata. It is available as a KPart.
+
+For Internet Explorer, similar function is offered by IE7pro, iMacros, Trixie (last updated 2005), Turnabout (last updated 2006) and Greasemonkey for IE (last updated 2006). Turnabout used to be open source software (under the BSD License), but as of September 2006, the source code is no longer available.
+
+As of November 2008[update], there is only limited support for Greasemonkey scripts in the Chrome beta (since build 3499).[6] It is disabled by default, but can be enabled by adding --enable-greasemonkey as a startup parameter. As there is currently no method to load scripts within Chrome, scripts must be placed into the C:\scripts directory for Chrome, and into the "user data directory" for newer builds of Chromium.[7] Chrome ignores @include metadata within the scripts, so the scripts are executed for all domains/pages. On the other hand, Chromium honors the @include directives and executes the scripts only for the domains/pages specified. However, the pre-beta version of Google Chrome 2.0, released in early January 2009, is reported to support Greasemonkey.
+
+
+
+
+Without an extension like Greasemonkey, developers still can modify websites other ways:
+
+
+
+

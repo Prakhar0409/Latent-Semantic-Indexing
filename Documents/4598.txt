@@ -1,0 +1,55 @@
+Business analysis
+Business analysis is the set of tasks, knowledge, and techniques required to identify business needs and determine solutions to business problems. Solutions often include a systems development component, but may also consist of process improvement or organizational change. The person who carries out this task is called a business analyst or BA. [1]
+Those BAs who work solely on developing software systems may be called IT Business Analysts or Technical Business Analysts.
+
+Business analysis as a discipline has a heavy overlap with requirements analysis sometimes also called requirements engineering, but focuses on identifying the changes to an organization that are required for it to achieve strategic goals. These changes include changes to policies, processes, and information systems.
+Examples of business analysis include:
+
+There are a number of techniques that a Business Analyst will use when facilitating business change. These range from workshop facilitation techniques used to elicit requirements, to techniques for analysing and organising requirements.
+
+Some of these techniques include:
+This is used to perform an external environmental analysis by examining the many different external factors affecting an organisation.
+6 attributes of PESTLE:
+This is used to perform an internal environmental analysis by defining the attributes of MOST to ensure that the project you are working on is aligned to each of the 4 attributes.
+4 attributes of MOST[2]
+This is used to help focus activities into areas of strength and where the greatest opportunities lie. This is used to identify the dangers that take the form of weaknesses and both internal and external threats.
+4 attributes of SWOT:
+This is used to prompt thinking about what the business is trying to achieve. Business Perspectives help the Business Analyst to consider the impact of any proposed solution on the people involved.
+There are 6 elements of CATWOE[3]
+This is often used in a brainstorming session to generate and analyse ideas and options. It is useful to encourage specific types of thinking and can be a convenient and symbolic way to request someone to “switch gear. It involves restricting the group to only thinking in specific ways - giving ideas & analysis in the “mood” of the time. Also known as the Six Thinking Hats.
+Not all colours / moods have to be used
+5 Whys is used to get to the root of what is really happening in a single instance. For each answer given a further 'why' is asked.
+This is used to prioritise requirements by allocating an appropriate priority, gauging it against the validity of the requirement itself and its priority against other requirements.
+MoSCoW comprises:
+
+As the scope of business analysis is very wide, there has been a tendency for business analysts to specialize in one of the three sets of activities which constitute the scope of business analysis.
+In any case, the term "analyst" is lately considered somewhat misleading, insofar as analysts (i.e. problem investigators) also do design work (solution definers).
+
+A business process improvement (BPI) typically involves six steps:
+1. Selection of process teams and leader
+Process teams, comprising 2-4 employees from various departments that are involved in the particular process, are set up. Each team selects a process team leader, typically the person who is responsible for running the respective process.
+2. Process analysis training
+The selected process team members are trained in process analysis and documentation techniques.
+3. Process analysis interview
+The members of the process teams conduct several interviews with people working along the processes. During the interview, they gather information about process structure, as well as process performance data.
+4. Process documentation
+The interview results are used to draw a first process map. Previously existing process descriptions are reviewed and integrated, wherever possible. Possible process improvements, discussed during the interview, are integrated into the process maps.
+5. Review cycle
+The draft documentation is then reviewed by the employees working in the process. Additional review cycles may be necessary in order to achieve a common view (mental image) of the process with all concerned employees. This stage is an iterative process.
+6. Problem analysis
+A thorough analysis of process problems can then be conducted, based on the process map, and information gathered about the process. At this time of the project, process goal information from the strategy audit is available as well, and is used to derive measures for process improvement.
+
+Ultimately, business analysts want to achieve the following outcomes:
+One way to assess these goals is to measure the return on investment (ROI) for all projects. Keeping score is part of human nature as we are always comparing ourselves or our performance to others, no matter what we are doing. According to Forrester Research, more than $100 billion is spent annually in the U.S. on custom and internally developed software projects. For all of these software development projects, keeping score is also important and business leaders are constantly asking for the return or ROI on a proposed project or at the conclusion of an active project. However, asking for the ROI without really understanding the underpinnings of where value is created or destroyed is putting the cart before the horse.
+
+Project delays are costly in three different dimensions:
+N.B. On a lot of projects (particularly larger ones) the project manager is the one tasked with ensuring that a project is completed on time. The BA's job is more to ensure that if a project is not completed on time then at least the highest priority requirements are met.
+
+Business analysts want to make sure that they define the application in a way that meets the end-users’ needs. Essentially, they want to define the right application. This means that they must document the right requirements through listening carefully to ‘customer’ feedback, and by delivering a complete set of clear requirements to the technical architects and coders who will write the program. If a business analyst has limited tools or skills to help him elicit the right requirements, then the chances are fairly high that he will end up documenting requirements that will not be used or that will need to be re-written – resulting in rework as discussed above. The time wasted to document unnecessary requirements not only impacts the business analyst, it also impacts the rest of the development cycle. Coders need to generate application code to perform these unnecessary requirements and testers need to make sure that the wanted features actually work as documented and coded. Experts estimate that 10% to 40% of the features in new software applications are unnecessary or go unused. Being able to reduce the amount of these extra features by even one-third can result in significant savings.
+
+Efficiency can be achieved in two ways: by reducing rework and by shortening project length.
+Rework is a common industry headache and it has become so common at many organizations that it is often built into project budgets and time lines. It generally refers to extra work needed in a project to fix errors due to incomplete or missing requirements and can impact the entire software development process from definition to coding and testing. The need for rework can be reduced by ensuring that the requirements gathering and definition processes are thorough and by ensuring that the business and technical members of a project are involved in these processes from an early stage.
+Shortening project length presents two potential benefits. For every month that a project can be shortened, project resource costs can be diverted to other projects. This can lead to savings on the current project and lead to earlier start times of future projects (thus increasing revenue potential).
+
+
+

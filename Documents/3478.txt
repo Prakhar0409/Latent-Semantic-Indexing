@@ -1,0 +1,21 @@
+Security Identifier
+In the context of the Microsoft Windows NT line of operating systems, a Security Identifier (commonly abbreviated SID) is a unique name (an alphanumeric character string) which is assigned by a Windows Domain controller during the log on process that is used to identify a subject, such as a user or a group of users in a network of NT/2000 systems.
+
+Windows grants or denies access and privileges to resources based on access control lists (ACLs), which use SIDs to uniquely identify users and their group memberships. When a user logs into a computer, an access token is generated that contains user and group SIDs and user privilege level. When a user requests access to a resource, the access token is checked against the ACL to permit or deny particular action on a particular object.
+SIDs are useful for troubleshooting issues with security audits, Windows server and domain migrations.
+SID has format as follows: S-1-5-21-7623811015-3361044348-030300820-1013
+Possible identifier authority values are:
+
+A number of "well-known" security identifiers are defined by the operating system so as to ensure that specific system accounts can always be found. Microsoft maintains a complete list of these identifiers in a knowledge base article.[1]
+
+The problem with duplicated SIDs in a Workgroup of computers running Windows NT/2K/XP is only related to different user accounts having the same SID. This could lead to unexpected access to shared files or files stored on a removable storage: If some ACLs (Access control lists) are set on a file, the actual permissions can be associated with a user SID. If this user SID is duplicated on another computer (because the computer SID is duplicated and because the user SIDs are built based on the computer SID + a sequential number), a user of a second computer having the same SID could have access to the files that the user of a first computer has protected.
+Now the truth is that when the computers are joined into a domain (Active Directory or NT domain for instance), each computer has a unique Domain SID which is recomputed each time a computer enters a domain. Thus there are usually no real problems with Duplicated SIDs when the computers are members of a domain, especially if local user accounts are not used. If local user accounts are used, there is a potential security issue that is the same as the one described above when the computers are members of a Workgroup but that affects only the files and resources protected by local users, not by domain users.
+In other words, duplicated SIDs are usually not a problem with Microsoft Windows systems. However Microsoft does provide a utility to change a machine SID: NewSID - Microsoft TechNet
+But other programs that detect SIDs might have problems with its security.
+
+The machine SID is stored in the SECURITY registry hive located at SECURITY\SAM\Domains\Account, this key has two values F and V. The V value is a binary value that has the computer SID embedded within it at the end of its data (Last 96 bits).[2]
+
+regedit.exe -> \HKEY_LOCAL_MACHINE\SAM\SAM\Domains\Account\V (last 12 bytes) explorer.exe -> \%windir%\system32\config\SAM If the SAM file is missing at startup, a backup is retrieved in hexidecimal form here: regedit.exe -> \HKEY_LOCAL_MACHINE\SECURITY\Policy\PolAcDmS\@ (last 12 bytes) explorer.exe -> \%windir%\system32\config\SECURITY Sometimes the SID number is referenced in decimal form.
+
+
+

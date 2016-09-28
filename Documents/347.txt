@@ -1,0 +1,23 @@
+Skewness
+In probability theory and statistics, skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable.
+
+Consider the distribution in the figure. The bars on the right side of the distribution taper differently than the bars on the left side. These tapering sides are called tails, and they provide a visual means for determining which of the two kinds of skewness a distribution has:
+In a skewed (unbalanced, lopsided) distribution, the mean is farther out in the long tail than is the median. If there is no skewness or the distribution is symmetric like the bell-shaped normal curve then the mean = median = mode.
+Many textbooks teach a rule of thumb stating that the mean is right of the median under right skew, and left of the median under left skew. This rule fails with surprising frequency. It can fail in multimodal distributions, or in distributions where one tail is long but the other is heavy. Most commonly, though, the rule fails in discrete distributions where the areas to the left and right of the median are not equal. Such distributions not only contradict the textbook relationship between mean, median, and skew, they also contradict the textbook interpretation of the median. [1]
+
+
+Skewness, the third standardized moment, is written as γ1 and defined as
+where μ3 is the third moment about the mean and σ is the standard deviation. Equivalently, skewness can be defined as the ratio of the third cumulant κ3 and the third power of the square root of the second cumulant κ2:
+This is analogous to the definition of kurtosis, which is expressed as the fourth cumulant divided by the fourth power of the square root of the second cumulant.
+For a sample of n values the sample skewness is
+where xi is the ith value,  is the sample mean, m3 is the sample third central moment, and m2 is the sample variance.
+Given samples from a population, the equation for the sample skewness g1 above is a biased estimator of the population skewness. The usual estimator of skewness is
+where k3 is the unique symmetric unbiased estimator of the third cumulant and k2 is the symmetric unbiased estimator of the second cumulant. Unfortunately G1 is, nevertheless, generally biased. Its expected value can even have the opposite sign from the true skewness.
+The skewness of a random variable X is sometimes denoted Skew[X]. If Y is the sum of n independent random variables, all with the same distribution as X, then it can be shown that Skew[Y] = Skew[X]�/�√n.
+Skewness has benefits in many areas. Many simplistic models assume normal distribution i.e. data is symmetric about the mean. The normal distribution has a skewness of zero. But in reality, data points are not perfectly symmetric. So, an understanding of the skewness of the dataset indicates whether deviations from the mean are going to be positive or negative.
+
+Karl Pearson suggested two simpler calculations as a measure of skewness:
+There is no guarantee that these will be the same sign as each other or as the ordinary definition of skewness.
+
+
+

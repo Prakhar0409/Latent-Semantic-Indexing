@@ -1,0 +1,9 @@
+Disassembler
+A disassembler is a computer program that translates machine language into assembly language—the inverse operation to that of an assembler. A disassembler differs from a decompiler, which targets a high-level language rather than an assembly language. Disassembly, the output of a disassembler, is often formatted for human-readability rather than suitability for input to an assembler, making it principally a reverse-engineering tool.
+Assembly language source code generally permits the use of symbolic constants and programmer comments. These are usually removed from the assembled machine code by the assembler. If so, a disassembler operating on the machine code would produce disassembly lacking these constants and comments; the disassembled output becomes more difficult for a human to interpret than the original annotated source code. Some disassemblers make use of the symbolic debugging information present in object files such as ELF. The Interactive Disassembler allow the human user to make up mnemonic symbols for values or regions of code in an interactive session: human insight applied to the disassembly process often parallels human creativity in the code writing process.
+Disassembly is not an exact science: On CISC platforms with variable-width instructions, or in the presence of self-modifying code, it is possible for a single program to have two or more reasonable disassemblies. Determining which instructions would actually be encountered during a run of the program reduces to the proven-unsolvable halting problem.
+
+
+
+
+

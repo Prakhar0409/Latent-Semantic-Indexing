@@ -1,0 +1,40 @@
+Mobile payment
+Mobile payment is new and rapidly-adopting alternative payment method – especially in Asia and Europe. Instead of paying with cash, check or credit cards, a consumer can use a mobile phone to pay for wide range of services and digital or hard goods such as:
+There are four primary models for mobile payments:
+Mobile payment has been well adopted in many parts of Europe and Asia. [1] Combined market for all types of mobile payments is expected to reach more than $600B globally by 2013 [2], while mobile payment market for goods and services, excluding contactless NFC transactions and money transfers, is expected to exceed $300B globally by 2013. [3]
+Some mobile payment solutions are also used in developing countries for micropayments. [4]
+
+This is where the consumer sends a payment request via an SMS text message to a shortcode and a premium charge is applied to their phone bill. The merchant involved is informed of the payment success and can then release the paid for goods.
+Since a trusted delivery address has typically not been given these goods are most frequently digital with the merchant replying using a Multimedia Messaging Service to deliver the purchased music, ringtones, wallpapers etc.
+A Multimedia Messaging Service can also deliver barcodes which can then be scanned for confirmation of payment by a merchant. This is used as an electronic ticket for access to cinemas and events or to collect hard goods.
+Transactional payments have been popular in Asia and Europe but are now being overtaken by other mobile payment methods such as mobile web payments (WAP) and Direct Mobile Billing for a number of reasons:
+
+This is where the consumer uses mobile billing option during checkout at an ecommerce site such as an online gaming site to make a payment. After two-factor authentication involving PIN and One-Time-Password, the consumer's mobile account is charged for the purchase. It is true alternative payment method that does not require use of credit/debit cards or pre-registration at online payment solution such as PayPal, thus bypassing banks and credit card companies altogether. This type of mobile payment method, which is extremely prevalent and popular in Asia, provides the following benefits:
+
+This is where the consumer uses web pages displayed or additional application s/he downloaded and installed on his/her mobile phone to make a payment. It uses WAP (Wireless Application Protocol) as underlying technology, thus inherits all the advantages and disadvantages of WAP. However, using a familiar web payment model gives a number of a few proven benefits:
+However, unless mobile account is directly charged through mobile network operator, use of credit/debit card or pre-registration at online payment solution such as PayPal is still required just as in desktop environment.
+Mobile web payment methods are now being mandated by a number of mobile network operators.
+A number of different actual payment mechanisms can be used behind a consistent set of web pages.
+
+A direct connection to the operator billing platform requires integration with the operator, but provides a number of benefits:
+
+A simple mobile web payment system can also include a credit card payment flow allowing a consumer to enter their card details to make purchases. This process is familiar but any entry of details on a mobile phone is known to reduce the success rate (conversion) of payments.
+In addition, if the payment vendor can automatically and securely identify customers then card details can be recalled for future purchases turning credit card payments into simple single click-to-buy giving higher conversion rates for additional purchases.
+
+Online companies like PayPal, Amazon Payments and Google Checkout also have mobile options. These require customers to register with a personal PIN before making payments. Subsequent payments also require a PIN code to be used. This is known to lower the success rate (conversion) for payments. These systems can be integrated with directly or can be combined with operator and credit card payments through a unified mobile web payment platform.
+
+NFC is used mostly in paying for purchases made in physical stores or transportation services. A consumer uses a special mobile phone equipped with a smartcard waves his/her phone near a reader module. Most transactions do not require authentication, but some require authentication using PIN, before transaction is completed. The payment could be deducted from pre-paid account or charged to mobile or bank account directly.
+Mobile payment method via NFC faces significant challenges for wide and fast adoption, while some phone manufacturers and banks are enthusiastic, due to lack of supporting infrastructure, complex ecosystem of stakeholders, and standards. [6]
+NFC vendors in Japan are deeply related to mass-transit networks, like the Mobile Suica used on the JR East rail network. Osaifu-Keitai system, used for Mobile Suica and many others including Edy and nanaco, has become the de-facto standard method for mobile payments in Japan. Its core technology, Mobile FeliCa IC, is partially owned by Sony, NTT DoCoMo and JR East. Mobile FeliCa utilize Sony's FeliCa technology, which itself is the de-facto standard for contactless smart cards in the country.
+Other NFC vendors mostly in Europe use contactless payment over mobile phones to pay for on- and off-street parking in specially demarcated areas. Parking wardens may enforce the parkings by license plate, transponder tags or barcode stickers. First conceptualized in the 1990s, the technology has seen commercial use in this century in both Scandinavia and Estonia. End users benefit from the convenience of being able to pay for parking from the comfort of their car with their mobile phone, and parking operators are not obliged to invest in either existing or new street-based parking infrastructures. Parking wardens maintain order in these systems by license plate, transponder tags or barcode stickers or they read a digital display with their eyes in the same way as they read a pay and display receipt.
+NFC-enabled payments are far easier and less costly to handle than cash itself including other traditional payment methods. Also, as an added advantage, users can have a complete trail of all payments they make - unlike cash.
+
+All operators and countries have different rules and regulations for mobile payments. Content classified as "U" (universal) rated in Europe may be classified as "R" (Restricted) in the USA. These rules affect which payment methods can be used for any given transaction.
+
+Payments can be initiated by both the consumer or the merchant, although consumer payment is becoming the most common since it suits the personal nature of mobile devices.
+
+
+
+
+
+

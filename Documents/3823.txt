@@ -1,0 +1,31 @@
+Adrenergic receptor
+The adrenergic receptors (or adrenoceptors) are a class of G protein-coupled receptors that are targets of the catecholamines. Adrenergic receptors specifically bind and are activated by their endogenous ligands, the catecholamines adrenaline (epinephrine) and noradrenaline (norepinephrine).
+Many cells possess these receptors, and the binding of an agonist will generally cause a sympathetic response (ie the fight-or-flight response). For instance, the heart rate will increase and the pupils will dilate, energy will be mobilized, and blood flow diverted from other non-essential organs to skeletal muscle.
+
+There are two main groups of adrenergic receptors, α and β, with several subtypes.
+
+Adrenaline reacts with both α- and β-adrenoreceptors, causing vasoconstriction and vasodilation, respectively. Although α receptors are less sensitive to epinephrine, when activated, they override the vasodilation mediated by β-adrenoreceptors. The result is that high levels of circulating epinephrine cause vasoconstriction. At lower levels of circulating epinephrine, β-adrenoreceptor stimulation dominates, producing an overall vasodilation.
+
+(Alpha-1 agonists)
+(Alpha-2 agonists)
+†There is no α1C receptor. At one time, there was a subtype known as C, but was found to be identical to one of the previously discovered subtypes. To avoid confusion, naming was continued with the letter D.
+
+α receptors have several functions in common, but also individual effects. Common (or still unspecified) effects include:
+
+Alpha1-adrenergic receptors are members of the G protein-coupled receptor superfamily. Upon activation, a heterotrimeric G protein, Gq, activates phospholipase C (PLC). The PLC cleaves phosphatidylinositol 4,5-biphosphate (PIP2) which in turn causes an increase in inositol triphosphate (IP3) and diacylglycerol (DAG). The former interacts with calcium channels of endoplasmic and sarcoplasmic retuculum thus changing the calcium content in a cell. This triggers all other effects.
+Specific actions of the α1 receptor mainly involves smooth muscle contraction. It causes vasoconstriction in many blood vessels including those of the skin & gastrointestinal system and to kidney (renal artery)[5] and brain[6]. Other areas of smooth muscle contraction are:
+Further effects include glycogenolysis and gluconeogenesis from adipose tissue[7] and liver, as well as secretion from sweat glands[7] and Na+ reabsorption from kidney.[7]
+Antagonists may be used in hypertension.
+
+There are 3 highly homologous subtypes of α2 receptors: α2A, α2Β, and α2C.
+Specific actions of the α2 receptor include:
+
+
+Specific actions of the β1 receptor include:
+
+The 3D crystallographic structure of the β2-adrenergic receptor has been determined (PDB 2R4R, 2R4S, 2RH1).[8][9][10]
+Specific actions of the β2 receptor include:
+
+Specific actions of the β3 receptor include:
+
+

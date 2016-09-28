@@ -1,0 +1,19 @@
+OTRS
+OTRS, short for Open-source Ticket Request System, is an open-source and free issue tracking system software package which a company, organization, or institution can use to assign tickets to incoming queries, thereby greatly facilitating the handling of support requests and other customer traffic.
+
+Like other Trouble Ticket Systems, OTRS does much more than only dealing with mail boxes: for every ticket there is a history, showing what happened to the ticket within its life cycle. OTRS has the ability to merge multiple requests about the same incident, thus making it possible to work on an incident rather than on singular requests.[1] OTRS is a multiuser system which means that multiple agents may work simultaneously on the tickets in OTRS, reading the incoming messages, bringing them in order, and answering them. OTRS is highly scalable, capable of handling thousands of tickets per day and a nearly unlimited number of simultaneously working agents.
+OTRS has integrated functionality for creating, reworking and searching FAQ texts. The FAQ texts may be incorporated into the agents' answers on tickets.
+By using a multilingual web user interface, OTRS is usable independently from the respective operating systems since it's operated from a web browser. Furthermore, this facilitates the usage of OTRS by external agents or even customers participating in working on or contributing to tickets.
+OTRS establishes a framework of functions. For example, the incident handling system SIRIOS of BSI, Germany, is based on OTRS.
+
+The OTRS.org project was founded in 2001 by Martin Edenhofer.[2] OTRS today is installed over 49,000 times world wide.
+
+Since its beginnings OTRS has been implemented in the programming language Perl. The web interface is made more user-friendly by using JavaScript (which can be switched off for security reasons). Different functionalities are implemented as reusable backend modules, making it possible to create custom modules to extend the functionality of the OTRS system.
+The web interface itself uses its own templating mechanism called DTL (Dynamic Template Language) to facilitate the display of the systems output data.
+Originally, OTRS worked only on MySQL databases. Support has since been added for PostgreSQL, Oracle, DB2 and Microsoft SQL Server. OTRS may be used on many UNIX or UNIX-like platforms (e.g. Linux, Mac OS X, FreeBSD, etc.) as well as on MS Windows.
+The scalability of OTRS systems may be increased by using mod_perl for the Apache Webserver or by separating the database and web server systems, allowing a large number of simultaneously working agents and high volumes of tickets.
+In UNIX and UNIX-like environments OTRS works closely with system programs like the mail transfer agent Postfix or the mail filter procmail.
+
+
+
+

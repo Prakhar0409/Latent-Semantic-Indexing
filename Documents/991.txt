@@ -1,0 +1,28 @@
+Puppy Linux
+Puppy Linux is a Live CD Linux distribution that is very small and focuses on ease of use. If the computer has at least 64 MB of RAM (depending on the version, up to at least 256 MB of RAM), the entire operating system and all the applications will run from RAM, allowing the boot medium to be removed after the operating system starts. Applications such as SeaMonkey, AbiWord, Gnumeric, and Gxine/xine are included. The distribution is actively developed by Warren Willson and other active members of the community. Puppy is an independent Linux distribution (i.e. not based on Debian, Fedora, SuSE, etc.).
+The latest release is 4.2, released on 2009-03-27.[1]
+
+Puppy Linux is a full-fledged operating system bundled with application suites covering a wide variety of tasks which can be used productively by general users. However, because Puppy is small-sized and can boot from many media, it is also useful as a rescue disk, a demonstration system, or for reviving old computers. Puppy can boot from:
+Puppy Linux features built-in tools which can be used to create bootable USB disks, create new Puppy CDs, or remaster a new live CD with different packages.[2]
+A unique feature that sets Puppy Linux apart from other Linux distributions is the ability to run a normal working environment on a write-once multisession CD. (It does not require a rewritable CD.) Puppy automatically detects changes in the file system and saves them incrementally on the CD.[3]When the CD is full, users can easily switch to a new CD while carrying over all their files and desktop environment. While other distributions offer Live CD versions of their operating systems, they do not allow programs to be permanently added nor do they allow files to be written to the CD.
+Puppy also features sophisticated write-caching system designed to extend the life of USB flash drives that Puppy Linux runs from.[4]
+
+Puppy comes with a choice of 2 graphical servers: X.org (full-featured) and Xvesa (lightweight). A wizard during the start-up process guides the user through setting up a graphical server appropriate for their video card & monitor. At the end of the wizard the user will be presented with a desktop and window manager; the default WM in most Puppy releases is JWM.
+Packages of the IceWM desktop, Fluxbox and Enlightenment are also available via Puppy's PetGet package management system (see below). Some derivative distributions, called pupplets, come with default window managers other than JWM.
+When the operating system boots, everything in the Puppy package uncompresses into a RAM area, the "ramdisk". The PC needs to have at least 128 MB of RAM (with no more than 8 MB shared video) for all of Puppy to load into the ramdisk. However, it is possible for it to run on a PC with only about 48 MB of RAM because part of the system can be kept on the hard drive, or in the worst case, left on the CD.
+Puppy is fairly full-featured for a system that runs entirely in a ramdisk; applications were chosen that met various constraints, size in particular. Because one of the aims of the distribution is to be extremely easy to set up, there are a number of wizards that take the user through the process of a range of common tasks.[5]
+
+Puppy Linux comes with a specific package manager called PetGet. An older kind of packages, DotPup, were used in previous versions of the system and are still compatible.
+Puppy Unleashed is available for creating a custom live CD. It consists of more than 500 packages that are put together according to the user's needs.
+Puppy also comes with a remaster tool that takes a snapshot of the current system and creates a remastered live-CD from it.
+Puppy Linux uses the T2 SDE build scripts to build the base binary packages.
+
+Puppy 1 series will run comfortably on very dated hardware, such as a Pentium computer with at least 32 MB RAM. For newer systems, the USB keydrive version might be better (although if USB device booting is not directly supported in the BIOS, the Puppy floppy boot disk can be used to kick-start it). It is possible to run Puppy Linux with Windows 9x/Windows Me. It is also possible, if the BIOS does not support booting from USB drive, to boot from the CD and keep user state on a USB keydrive; this will be saved on shutdown and read from the USB device on bootup.
+Puppy 2.14 (86.5 MB) uses the Mozilla-based SeaMonkey as its Internet suite (primarily a web browser and e-mail client). It comes in different sized editions.
+Puppy 3 features Slackware 12 compatibility.[6] This is accomplished by the inclusion of almost all the dependencies needed for the installation of Slackware packages. However, this does not mean that Puppy Linux is now a Slackware-based distribution.[7]
+Puppy 4 no longer features native Slackware 12 compatibility[8] in order to reduce the size and include new package version than 3.[9]. To compensate for this, an optional "compatibility collection" of packages was created that restores some of the lost compatibility.[10]
+Puppy 4.1.2 marks the end of Barry Kauler's development on the project, offering only limited support to the development community. Puppy 4.2 is the first version of Puppy after Barry's retirement, featuring changes to the user interface and backend, upgraded packages, localizations, new in-house software, and optimizations, while still keeping the ISO size under 100 MB.
+Kauler is currently working on a project called Woof which is designed to assemble a Puppy Linux distribution from the packages of other Linux distributions.[11]
+
+
+

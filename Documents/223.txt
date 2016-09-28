@@ -1,0 +1,10 @@
+Joanna Rutkowska
+Joanna Rutkowska is a Polish security specialist, primarily known for her research on stealth malware and contributions to Windows Vista backdoor installation and hiding techniques.
+In August 2006 at the Black Hat Briefings conference in Las Vegas, Rutkowska presented system compromise techniques that could be used on Windows Vista systems - and subsequently, has been named one of Five Hackers who Put a Mark on 2006 by eWeek Magazine for her research on the topic [1].
+In the first part of the presentation, Rutkowska discussed how to bypass Vista kernel protection, demonstrating how to load unsigned code into the Vista kernel. The second part of the presentation introduced a technique dubbed Blue Pill. It could be described as a rootkit technology, allowing potentially malicious code to covertly take control over the system through the use of CPU virtualization. This method, although presented and implemented on Vista system is OS-independent and does not exploit any weakness in the Vista system itself. The effectiveness of the latter approach, dubbed Blue Pill, is a subject of a debate among some researchers.
+At Black Hat Federal, in March 2007, Rutkowska demonstrated that certain types of hardware-based memory acquisition (e.g. Firewire based) are unreliable and can be defeated.
+At the next Black Hat in Las Vegas, Rutkowska and Alexander Tereshkin presented research that:
+In April 2007 Rutkowska founded Invisible Things Lab in Warsaw, Poland. The company focuses on OS and VMM security research and provides various consulting services.
+
+
+

@@ -1,0 +1,18 @@
+Okapi BM25
+In information retrieval, Okapi BM25 is a ranking function used by search engines to rank matching documents according to their relevance to a given search query. It is based on the probabilistic retrieval framework developed in the 1970s and 1980s by Stephen E. Robertson, Karen Spärck Jones, and others.
+The name of the actual ranking function is BM25. To set the right context, however, it usually referred to as "Okapi BM25", since the Okapi information retrieval system, implemented at London's City University in the 1980s and 1990s, was the first system to implement this function.
+BM25, and its newer variants, e.g. BM25F (a version of BM25 that can take document structure and anchor text into account), represent state-of-the-art retrieval functions used in document retrieval, such as Web search.
+
+BM25 is a bag-of-words retrieval function that ranks a set of documents based on the query terms appearing in each document, regardless of the inter-relationship between the query terms within a document (e.g., their relative proximity). It is not a single function, but actually a whole family of scoring functions, with slightly different components and parameters. One of the most prominent instantiations of the function is as follows.
+Given a query Q, containing keywords q1,...,qn, the BM25 score of a document D is:
+where f(qi,D) is qi's term frequency in the document D, | D | is the length of the document D in words, and avgdl is the average document length in the text collection from which documents are drawn. k1 and b are free parameters, usually chosen as k1 = 2.0 and b = 0.75. IDF(qi) is the IDF (inverse document frequency) weight of the query term qi. It is usually computed as:
+where N is the total number of documents in the collection, and n(qi) is the number of documents containing qi.
+There are several interpretations for IDF and slight variations on its formula. In the original BM25 derivation, the IDF component is derived from the Binary Independence Model (see BM25 tutorial).
+
+
+Here is an interpretation from information theory. Suppose a query term q appears in n(q) documents. Then a randomly picked document D will contain the term with probability  (where N is again the cardinality of the set of documents in the collection). Therefore, the information content of the message "D contains q" is:
+Now suppose we have two query terms q1 and q2. If the two terms occur in documents entirely independently of each other, then the probability of seeing both q1 and q2 in a randomly picked document D is:
+and the information content of such an event is:
+With a small variation, this is exactly what is expressed by the IDF component of BM25.
+
+

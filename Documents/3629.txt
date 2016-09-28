@@ -1,0 +1,12 @@
+DokuWiki
+DokuWiki is wiki software aimed at small companies’ documentation needs. DokuWiki is licensed under GPL 2 and written in the programming language PHP. It works on plain text files and thus needs no database. Its syntax is similar to the one used by MediaWiki and makes sure the data files remain readable outside the wiki.
+
+DokuWiki[1] was created by Andreas Gohr in June 2004. In July the first official release was published on Freshmeat [2]. A big step in the development was the re-design of the parser and the renderer in January 2005. The new design was a big performance improvement and made DokuWiki usable for bigger documentation projects. It also prepared DokuWiki for an introduction of a generic plugin interface which simplified the development and maintenance of add-ons. A push of the level of awareness was the introduction of DokuWiki in the Linux distributions Debian in April and Gentoo Linux in July 2005. It is currently one of the most popular wiki engines in use. [3][4]
+
+[5]
+Other features can be found on the feature list[8] on the homepage.
+
+
+
+
+

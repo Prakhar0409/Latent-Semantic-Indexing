@@ -1,0 +1,18 @@
+Event-related potential
+An event-related potential (ERP) is any measured brain response that is directly the result of a thought or perception. More formally, it is any stereotyped electrophysiological response to an internal or external stimulus.
+ERPs are measured with electroencephalography (EEG). The magnetoencephalography (MEG) counterpart of ERP is the ERF, or event-related field.[1]
+
+ERPs can be reliably measured using electroencephalography (EEG), a procedure that measures electrical activity of the brain through the skull and scalp. As the EEG reflects thousands of simultaneously ongoing brain processes, the brain response to a single stimulus or event of interest is not usually visible in the EEG recording of a single trial; to see the brain response to the stimulus, the experimenter must conduct many trials (100 or more) and average the results together, causing random brain activity to be averaged out and the relevant ERP to remain.[2]
+While evoked potentials reflect the processing of the physical stimulus, event-related potentials are caused by the "higher" processes, that might involve memory, expectation, attention, or changes in the mental state, among others.
+
+Though some ERP components are referred to with acronyms (e.g., early left anterior negativity - ELAN), most components are referred to by a preceding letter indicating polarity followed by the typical latency in milliseconds. Thus, the N400 ERP component is described as a negative voltage deflection occurring approximately 400ms after stimulus onset, whereas the P600 component describes a positive voltage deflection 600ms after stimulus onset. The stated latencies for ERP components are often quite variable; for example, the N400 component may exhibit a latency between 300ms - 500ms.
+
+Physicians and neurologists will sometimes use a flashing visual checkerboard stimulus to test for any damage or trauma in the visual system. In a healthy person, this stimulus will elicit a strong response over the primary visual cortex located in the occipital lobe in the back of the brain.
+
+Experimental psychologists and neuroscientists have discovered many different stimuli that elicit reliable ERPs from participants. The timing of these responses is thought to provide a measure of the timing of the brain's communication or time of information processing. For example, in the checkerboard paradigm described above, in healthy participants the first response of the visual cortex is around 50-70 msec. This would seem to indicate that this is the amount of time it takes for the transduced visual stimulus to reach the cortex after light first enters the eye. Alternatively, the P300 response occurs at around 300ms regardless of the stimulus presented: visual, tactile, auditory, olfactory, gustatory, etc. Because of this general invariance in regard to stimulus type, this ERP is understood to reflect a higher cognitive response to unexpected and/or cognitively salient stimuli.
+Due to the consistency of the P300 response to novel stimuli, a brain-computer interface can be constructed which relies on it. By arranging many signals in a grid, randomly flashing the rows of the grid as in the previous paradigm, and observing the P300 responses of a subject staring at the grid, the subject may communicate which stimulus he is looking at, and thus slowly "type" words.[citation needed]
+Other ERPs used frequently in research, especially neurolinguistics research, include the ELAN, the N400, and the P600/SPS.
+
+
+
+

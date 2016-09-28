@@ -1,0 +1,7 @@
+Fallacies of Distributed Computing
+The Fallacies of Distributed Computing are a set of common but flawed assumptions made by programmers when first developing distributed applications. The fallacies are summarized as follows:[1]
+
+The list of fallacies generally came about at Sun Microsystems. Peter Deutsch, one of the original Sun "Fellows," is credited with penning the first seven fallacies in 1994; however, Bill Joy and Tom Lyon had already identified the first four as "The Fallacies of Networked Computing"[2] (the article claims "Dave Lyon," but this is considered a mistake). Around 1997, James Gosling, another Sun Fellow and the inventor of Java, added the eighth fallacy.[2]
+
+
+

@@ -1,0 +1,11 @@
+Hexspeak
+Hexspeak, like leetspeak, is a novelty form of variant English spelling.
+Hexspeak was created by programmers who wanted a magic number, a clear and unique identifier with which to mark memory or data. Using hexadecimal notation, which includes the digits 0123456789ABCDEF, it is possible to create small words with the digit "0" representing the letter "O", "1" representing the letter "I", and "5" representing "S".
+
+Many computer processors, operating systems, and debuggers make use of magic numbers, especially as a magic debug value.
+
+Given there are at least a few hundred words in English consisting of only the letters "a", "b", "c", "d", "e", "f", "o", "i" and "s", it is easy for programmers to devise their own, such as 0xD15EA5ED or 0xBED51DE5. As such, it is useful to observe a few patterns in the classic hexspeak constants given above. These constants all use the full width of the word (in this case 32-bit), and none begin with "1" or "5". This choice means that if the word is interpreted as an integer, it is a (usually large) negative integer. For example, 0xBAADF00D is -1163005939, a large negative integer that is unlikely to arise in many programs. Microsoft's 0xBAADF00D is also a good value to catch access to uninitialised memory for another reason—ending the word with the "1", "5", "b", "d", or "f" ensures that the constant is an odd number, which generates an unaligned pointer exception on many processor architectures if the constant is interpreted as a pointer value.[citation needed]
+
+
+
+

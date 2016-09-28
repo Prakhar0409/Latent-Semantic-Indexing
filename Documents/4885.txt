@@ -1,0 +1,14 @@
+GNU Scientific Library
+In computing, the GNU Scientific Library (or GSL) is a software library written in the C programming language for numerical calculations in applied mathematics and science. The GSL is part of the GNU project and is distributed under the GNU General Public License.
+Software which uses GSL includes PSPP and Perl Data Language.
+
+The following example program calculates the value of the Bessel function for 5 [1]:
+The example program has to be linked to the GSL library upon compilation:
+The output is shown below, and should be correct to double-precision accuracy:
+
+The software library provides facilities for:
+
+The GSL can be used in C++ classes, but not using pointers to member functions, because the type of pointer to member function is different from pointer to function [2]. Instead, pointers to static functions have to be used. C++ wrappers for GSL are available [3], although many are not regularly maintained.
+
+
+

@@ -1,0 +1,81 @@
+Universally Unique Identifier
+A Universally Unique Identifier (UUID) is an identifier standard used in software construction, standardized by the Open Software Foundation (OSF) as part of the Distributed Computing Environment (DCE). The intent of UUIDs is to enable distributed systems to uniquely identify information without significant central coordination. Thus, anyone can create a UUID and use it to identify something with reasonable confidence that the identifier will never be unintentionally used by anyone for anything else. Information labeled with UUIDs can therefore be later combined into a single database without needing to resolve name conflicts. The most widespread use of this standard is in Microsoft's Globally Unique Identifiers (GUIDs). Other significant uses include Linux's ext2/ext3 filesystem, LUKS encrypted partitions, GNOME, KDE, and Mac OS X, all of which use implementations derived from the uuid library found in the e2fsprogs package.
+UUIDs are documented as part of ISO/IEC 11578:1996 "Information technology -- Open Systems Interconnection -- Remote Procedure Call (RPC)" and more recently in ITU-T Rec. X.667 | ISO/IEC 9834-8:2005 (freely available). The IETF has published Proposed Standard RFC 4122 that is technically equivalent with ITU-T Rec. X.667 | ISO/IEC 9834-8.
+
+A UUID is a 16-byte (128-bit) number. The number of theoretically possible UUIDs is therefore 216 × 8 = 2128 = 25616 or about 3.4 × 1038. This means that 1 trillion UUIDs would have to be created every nanosecond for slightly more than 10 billion years to exhaust the number of UUIDs.
+In its canonical form, a UUID consists of 32 hexadecimal digits, displayed in 5 groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters(32 digits and 4 '-'). For example:
+A UUID may also be used with a specific identifier intentionally used repeatedly to identify the same thing in different contexts. For example, in Microsoft's Component Object Model, every component must implement the IUnknown interface, which is done by creating a UUID representing IUnknown. In all cases wherever IUnknown is used, whether it is being used by a process trying to access the IUnknown interface in a component, or by a component implementing the IUnknown interface, it is always referenced by the same identifier: 00000000-0000-0000-C000-000000000046.
+
+Conceptually, the original (version 1) generation scheme for UUIDs was to concatenate the UUID version with the MAC address of the computer that is generating the UUID, and with the number of 100-nanosecond intervals since the adoption of the Gregorian calendar in the West. In practice, the actual algorithm is more complicated. This scheme has been criticized in that it is not sufficiently 'opaque'; it reveals both the identity of the computer that generated the UUID and the time at which it did so.
+
+Version 2 UUIDs are similar to Version 1 UUIDs, with the upper byte of the clock sequence replaced by the identifier for a "local domain" (typically either the "POSIX UID domain" or the "POSIX GID domain") and the first 4 bytes of the timestamp replaced by the user's POSIX UID or GID (with the "local domain" identifier indicating which it is).[1][2]
+
+Version 3 UUIDs use a scheme deriving a UUID via MD5 from a URL, a fully qualified domain name, an Object identifier, a distinguished name (DN as used in Lightweight Directory Access Protocol), or on names in unspecified namespaces. Version 3 UUIDs have the form xxxxxxxx-xxxx-3xxx-xxxx-xxxxxxxxxxxx with hexadecimal digits x.
+To determine the version 3 UUID of a given name the UUID of the namespace, e.g. 6ba7b810-9dad-11d1-80b4-00c04fd430c8 for a domain, is transformed to a string of bytes corresponding to its hexadecimal digits, concatenated with the input name, hashed with MD5 yielding 128 bits. Six bits are replaced by fixed values, four of these bits indicate the version, 0011 for version 3. Finally the fixed hash is transformed back into the hexadecimal form with hyphens separating the parts relevant in other UUID versions.
+
+Version 4 UUIDs use a scheme relying only on random numbers. This algorithm sets the version number as well as two reserved bits. All other bits are set using a random or pseudorandom data source. Version 4 UUIDs have the form xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx with hexadecimal digits x and hexadecimal digits 8, 9, A, or B for y. e.g. f47ac10b-58cc-4372-a567-0e02b2c3d479.
+
+Version 5 UUIDs use a scheme with SHA-1 hashing, otherwise it is the same idea as in version 3. RFC 4122 states that version 5 is preferred over version 3 name based UUIDs.
+
+
+libuuid is part of the e2fsprogs package and is available from http://e2fsprogs.sourceforge.net/.
+The OSSP project provides a UUID library.[3]
+
+ooid implements a C++ UUID class.
+
+CakePHP will automatically generate UUIDs for new records if you specify a table's primary key as data type CHAR(36).[4]
+
+The Core Foundation class CFUUIDRef is used to produce and store UUIDs, as well as to convert them to and from CFString/NSString representations.[5]
+
+A new GUID can be generated by pressing Ctrl+Shift+G.
+
+The createUUID() function provides a UUID in all versions, however the format generated is in 4 segments instead of 5 xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxx (8-4-4-16).[6]
+
+A library is available to create UUIDs (v1, v3, v4 and v5) according to RFC 4122.[7]
+
+A library is available to create UUIDs Generates uuids according to RFC 4122, Variant 1 0, Version 4. Source available at Eiffel UUID library
+
+Firebird has gen_uuid() from version 2.1[8] and uuid_to_char() and char_to_uuid() from version 2.5[9] as built-in functions.
+
+In Free Pascal there is a class called TGUID that holds the structure of a UUID. Also in the SysUtils.pas unit there are methods to create, compare and convert UUID's. They are CreateGUID(), GUIDToString() and IsEqualGUID().[10] In the Lazarus IDE you can also generate a UUID by pressing Ctrl+Shift+G.
+
+The package uuid[11] provides a binding to library libuuid, which is part of e2fsprogs.[12] The package can be used to create, parse, and print UUIDs.
+
+The J2SE 5.0 release of Java provides a class that will produce 128-bit UUIDs, although it only implements version 3 and 4 generation methods, not the original method (due to lack of means to access MAC addresses using pure Java). The API documentation for the java.util.UUID class refers to ISO/IEC 11578:1996.
+Open source implementations supporting MAC addresses on several common operating systems are UUID – generate UUIDs (or GUIDs) in Java , Java Uuid Generator (JUG) and ActiveScript [1].
+
+AF Design provide a javascript class based on random number instead of MAC address. Broofa.com has implemented a JavaScript function which generates version 4 UUIDs as defined in the RFC 4122 specification.
+
+MySQL provides a UUID() function.[13]
+
+The .NET Framework also provides a class called System.Guid to generate and manipulate 128-bit UUIDs. [2]
+
+The Oracle SQL provides a function called SYS_GUID() to generate unique identifiers ([3]).
+
+The Data::GUID[14] module from CPAN can be used to create UUIDs
+
+In PHP there are several modules for creating UUIDs. [4]
+
+PostgreSQL contains a uuid data type. Also various generation functions as part of the uuid-ossp contrib module.[15]
+
+The GENERATE-UUID function in OpenEdge 10 provides a UUID which can be made printable using the GUID() or BASE64-ENCODE() functions. [5]
+
+The uuid module[16] (included in the standard library since Python 2.5) creates UUIDs to RFC 4122.
+
+The libUUID library[17] A library that generates UUIDs of type 1 (time based), type 3 (name-based) and type 4 (random-based). Version 1.0. by Mark Smith. OSL 3.0
+
+There are several RFC4122 implementations for Ruby, the most updated ones being Ruby-UUID (not online anymore; fork here), UUID and UUIDTools.
+
+Transact-SQL (2000 and 2005) provides a function called NEWID() to generate uniqueidentifiers. SQL Server 2005 provides an additional function called NEWSEQUENTIALID() which generates a new GUID that is greater than any GUID previously created by the NEWSEQUENTIALID() function on a given computer.
+
+A Tcl implementation is provided in the TclLib package.[18]
+
+The Qt C++ toolkit has UUID support in form of the QUuid class.
+
+Randomly generated UUIDs like those generated by the java.util.UUID class have 122 random bits. There are 128 bits altogether with 4 bits being used for the version ('Randomly generated UUID'), and 2 bits for the variant ('Leach-Salz'). With random UUIDs, the chance of two having the same value can be calculated using probability theory (Birthday paradox). Using the approximation
+these are the probabilities of an accidental clash after calculating n UUIDs, with x=2122:
+To put these numbers into perspective, one's annual risk of being hit by a meteorite is estimated to be one chance in 17 billion [19], that means the probability is about 0.00000000006 (6 × 10−11), equivalent to the odds of creating a few tens of trillions of UUIDs in a year and having one duplicate. In other words, only after generating 1 billion UUIDs every second for the next 100 years, the probability of creating just one duplicate would be about 50%. The probability of one duplicate would be about 50% if every person on earth owns 600 million UUIDs.
+However, these probabilities only hold for Cryptographically secure pseudorandom number generators. These must be used to generate the values, otherwise the probability of duplicates may be significantly higher, since the statistical dispersion may be lower.
+
+The initial design of DCE UUIDs was based on UUIDs as defined in the Network Computing System,[20] whose design was in turn inspired by the (64-bit) unique identifiers defined and used pervasively in Domain/OS, the operating system designed by Apollo Computer, Inc.
+

@@ -1,0 +1,16 @@
+Semantic MediaWiki
+Semantic MediaWiki (SMW) is an extension to MediaWiki (the wiki software implementation that Wikipedia and other sites run), that allows for annotating semantic data within wiki pages, thus turning a wiki that incorporates the extension into a semantic wiki. Data that has been encoded can be used in semantic searches, used for aggregation of pages, displayed in formats like maps, calendars and graphs, and exported to the outside world via formats like RDF and CSV.
+
+Semantic MediaWiki was initially created by Markus Krötzsch, Denny Vrandečić and Max Völkel, and was first released in 2005. Currently the extension has over 30 developers, and its development is supported by Institute AIFB of Universität Karlsruhe.
+
+Every semantic annotation within SMW is a "property" connecting the page on which it resides to some other piece of data, either another page or a data value of some type, using triples of the form "subject, predicate, object".
+As an example, a page about Germany could have, encoded within it, the fact its capital city is Berlin. On the page "Germany", the syntax would be:
+which is semantically equivalent to the statement "Germany" "Has capital" "Berlin". In this example the "Germany" page is the subject, "Has capital" is the predicate, and "Berlin" is the object that the semantic link is pointing to.
+The population of Germany could also be encoded; the syntax might look like:
+which is semantically equivalent to the statement "Berlin" "Has population" "82,060,000".
+Using SMW's own inline querying tools, a page could then be created that lists all countries with a population greater than, say, 50 million, and their capital city; and Germany would appear in such a list, with Berlin alongside it.
+
+A variety of open-source MediaWiki extensions exist that use the data structure provided by Semantic MediaWiki. Among the most notable are:
+
+
+

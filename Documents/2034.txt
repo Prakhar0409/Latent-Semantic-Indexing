@@ -1,0 +1,21 @@
+Facial Action Coding System
+Facial Action Coding System (FACS) is a system to taxonomize human facial expressions, originally developed by Paul Ekman and Wallace Friesen in 1976.[1] It is a common standard to systematically categorize the physical expression of emotions, and it has proven useful to psychologists and to animators.
+
+FACS and its action units (AUs) are based on the book of Carl-Herman Hjortsjö "Man's Face and Mimic [i.e. Facial] Language".[2] Hjortsjö was professor of Anatomy at Lund University in Sweden.
+The original FACS was published in 1976 by Paul Ekman and Wallace V. Friesen. While using the system for several years in their lab and training new FACS coders, they updated the rules and definitions of the system. At first the changes were handed out to the new FACS coders in form of an addendum. However, as changes became more structural, a new version of FACS was needed.
+In 2002, a new version of FACS was finally published, with large contributions by Joseph Hager.[3] Most co-occurrence rules were removed, a number of AUs were removed and some added, minimum requirements were eliminated and a novel intensity scoring definition was introduced. The authors decided not to rename the system. It is still simply known as FACS, not as FACS2, FACS 2002 revision or FACS version 2. The website of Paul Ekman's lab refers to it as the "new" FACS.
+
+Using FACS, human coders can manually code nearly any anatomically possible facial expression, decomposing it into the specific AUs and their temporal segments that produced the expression. As AUs are independent of any interpretation, they can be used for any higher order decision making process including recognition of basic emotions, or pre-programmed commands for an ambient intelligent environment. However, the FACS literature only provides the list of AUs and nothing about the interpretation of each facial expression. In other words, this is an encyclopedia of facial expressions and it is up to the reader to attach any meaning to them.
+FACS defines 32 AUs, which are a contraction or relaxation of one or more muscles. It also defines a number of Action Descriptors, which differ from AUs in that the authors of FACS have not specified the muscular basis for the action and have not distinguished specific behaviors as precisely as they have for the AUs.
+For example, FACS can be used to distinguish two types of smiles as follows: [4]
+Although the labeling of expressions currently requires trained experts, researchers have had some success in using computers to automatically identify FACS codes, and thus quickly identify emotions[5]. Computer graphical face models, such as CANDIDE or Artnatomy, allow expressions to be artificially posed by setting the desired action units.
+The use of FACS has been proposed for use in the analysis of depression[6], and the measurement of pain in patients unable to express themselves verbally[7].
+FACS is designed to be self-instructional. People can learn the technique from a number of sources[8], including manuals and workshops[9], and obtain certification through testing[10]. A variant of FACS has been developed to analyze facial expressions in chimpanzees[11].
+
+For clarification, FACS is an index of facial expressions, but does not actually provide any bio-mechanical information about the degree muscle activation. Though muscle activation is not part of FACS, the main muscles involved in the facial expression has been added here for the benefit of the reader.
+(Also see the list of facial muscles.)
+
+
+
+
+

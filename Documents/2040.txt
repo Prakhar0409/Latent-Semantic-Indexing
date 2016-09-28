@@ -1,0 +1,18 @@
+Shared memory
+In computing, shared memory is a memory that may be simultaneously accessed by multiple programs with an intent to provide communication among them or avoid redundant copies. Depending on context, programs may run on a single processor or on multiple separate processors. Using memory for communication inside a single program, for example among its multiple threads, is generally not referred to as shared memory.
+
+In computer hardware, shared memory refers to a (typically) large block of random access memory that can be accessed by several different central processing units (CPUs) in a multiple-processor computer system.
+A shared memory system is relatively easy to program since all processors share a single view of data and the communication between processors can be as fast as memory accesses to a same location.
+The issue with shared memory systems is that many CPUs need fast access to memory and will likely cache memory, which has two complications:
+The alternatives to shared memory are distributed memory and distributed shared memory, each having a similar set of issues. See also Non-Uniform Memory Access.
+
+In computer software, shared memory is either
+Since both processes can access the shared memory area like regular working memory, this is a very fast way of communication (as opposed to other mechanisms of IPC such as named pipes, Unix sockets or CORBA). On the other hand, it is less powerful, as for example the communicating processes must be running on the same machine (whereas other IPC methods can use a computer network), and care must be taken to avoid issues if processes sharing memory are running on separate CPUs and the underlying architecture is not cache coherent.
+IPC by shared memory is used for example to transfer images between the application and the X server on Unix systems, or inside the IStream object returned by CoMarshalInterThreadInterfaceInStream in the COM libraries under Windows.
+Dynamic libraries are generally held in memory once and mapped to multiple processes, and only pages that had to be customized for the individual process (because a symbol resolved differently there) are duplicated, usually with a mechanism that transparently copies the page when a write is attempted, and then lets the write succeed on the private copy.
+POSIX provides a standardized API for using shared memory, POSIX Shared Memory. This uses the function shm_open from sys/mman.h.
+Unix System 5 provides an API for shared memory as well. This uses shmget from sys/shm.h.
+BSD systems provide "anonymous mapped memory" which can be used by several processes.
+Recent 2.6 Linux kernel builds have started to offer /dev/shm as shared memory in the form of a ramdisk, more specifically as a world-writable directory that is stored in memory with a defined limit in /etc/default/tmpfs. /dev/shm support is completely optional within the kernel config file. It is included by default in both Fedora and Ubuntu distributions, where it is most extensively used by the Pulseaudio application.
+
+

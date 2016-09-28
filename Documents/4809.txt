@@ -1,0 +1,37 @@
+Friendster
+Chander Sarna, Senior Vice President of Engineering & Operations David Jones, Vice President of Global Marketing Aaron Barnes, Vice President of Global Sales & Business Development
+
+Screenshot of Friendster's main page
+Friendster is a privately owned internet social networking website.[1][2] Its headquarters are in Mountain View, CA, US.[3]
+Friendster is focused on helping people meet new friends, stay in touch with old ones and sharing online content and media.[4] The website is also used for dating and discovering new events, bands, hobbies, and more. Users can share content including videos, photos, messages and comments with friends via their profile and their network.[4]
+Friendster has over 90 million registered users and over 61 million unique visitors a month globally. The website receives approximately 19 billion page views per month making it a top 20 global website based on web traffic.[4][5][6]
+Over 90% of Friendster's traffic comes from Asia. In Asia, Friendster has more monthly unique visitors than any other social network.[7][8][9][10] The top 15 countries accessing Friendster today are the Philippines, Indonesia, Malaysia, the United States, Singapore, Canada, India, Australia, the United Kingdom, Hong Kong, Japan, the United Arab Emirates, People's Republic of China, Taiwan and South Korea.[4]
+
+Friendster was founded by computer programmer Jonathan Abrams in 2002 in Mountain View, California before the creation, launch and adoption of MySpace, Facebook, LinkedIn and others.[11]
+Friendster was founded to create a safer, more effective environment for meeting new people by browsing user profiles and connecting to friends, friends of friends and so on, allowing members to expand their network of friends more rapidly than in real life, face-to-face scenarios.[2]
+Friendster.com went live in March 2003 and was quickly adopted by three million users within the first few months.[2] Publications including Time, Esquire, Vanity Fair, Entertainment Weekly, US Weekly and Spin wrote about Friendster's success and the founder appeared on magazine covers and late-night talk shows.[2]
+Today, Friendster has a membership base of more than 90 million registered users and continues to grow, especially in Asia.[9][10][11]
+In August 2008, Friendster hired ex-Google executive Richard Kimber as the CEO.[12][13][14] Kimber, who was previously the regional managing director of South Asia at Google, is focusing on Friendster's expansion in Asia.[15]
+
+The company was originally funded in 2003 with a $12 million investment by Kleiner Perkins Caufield & Byers, Benchmark Capital, and private investors.[2][16]
+In 2003, Friendster management received a $30 million buyout offer from Google, which they declined.[2]
+Friendster received another $3 million in funding in February 2006 led by Kleiner Perkins Caufield & Byers and Benchmark Capital.[17] In August 2006, Friendster also received $10 million in funding in a round led by DAG Ventures[17], and Friendster announced in August 2008 that it had raised an additional $20 million in funding in a round led by IDG Ventures.[1][18] Today, Friendster is backed by Kleiner Perkins Caufield & Byers, Benchmark Capital, DAG Ventures, IDG Ventures and individual investors.
+
+Friendster is a top-50 global website serving more than 19 billion pages a month with over 90 million registered users globally, and 62 million in Asia. Friendster had over 61 million monthly unique visitors globally and 45 million monthly unique visitors from Asia in September 2008.[9][10]
+Friendster claims the website is the #1 social network in "user engagement" among the top 5 global social networks with about 200 minutes per visitor per month spent on the site.[19]
+Friendster has gained more than 35 million registered users and over 21 million monthly unique visitors within the past year (from August 2007 to August 2008). It is also the top social networking site in the Asia-Pacific region and one of the fastest growing social networks globally with over 150,000 new users registering each day.[7][11][8][5]
+Friendster is among the top 5 most popular websites in the Philippines, Singapore, Malaysia and Indonesia, according to Alexa.com.[6] [9][10]
+
+In 2007 Friendster added Fan Profiles, the Friendster Developer Program (open platform) and starting launching Friendster.com in 9 additional languages. In 2008, Friendster continued to launch the site in new languages and also launched Friendster Mobile which includes SMS text alerts.[8][14][20][21]
+Fan Profiles: Fan Profiles encompass over 40 different types of "entities"[22] – including artists, celebrities, models, musicians and organizations. Such entities can create a "Fan Profile" which helps them promote themselves and build a fan base on Friendster. Fan Profiles are also accessible to non-Friendster members via search engines like Google, Yahoo!, and MSN. [23] Friendster users can become fans of their favorite entities and keep up to date on all their latest news. There are over 40 million total fan connections to Fan Profiles on Friendster.[23][4]
+Friendster Mobile and Friendster Text Alerts: Friendster mobile (m.friendster.com) is free for users from any web-enabled mobile device and is available globally. Friendster mobile is available in several languages in addition to English (Indonesian, Malay, Korean, Simplified Chinese and Traditional Chinese). Friendster users in Singapore, Malaysia, Indonesia and the Philippines can subscribe to and receive SMS text alerts on their mobile devices for network activity and friend related updates. This service is expected to roll out in more countries soon.[24]
+Languages: Languages include Tagalog, Thai, Malay, Vietnamese, Indonesian, Chinese (both Traditional and Simplified), Japanese, Korean, and Spanish.[4] Until September 2007, Friendster was only available in English. 10 new languages were added in as many months from 2007 up to January 2009, with Tagalog being the newest language to be included.[25] Users can also enter content on Friendster in any language.
+Friendster launched all language support on a single domain - www.friendster.com. Friendster is the first global online social network to support Asian languages and others on a single domain – www.friendster.com – so that users from around the world can talk to each other.[26]
+Over 70% of the world's Internet users can now use Friendster.[27]
+Friendster Developer Program: Friendster has been an open site since August 2006 when it first began allowing widgets and content to be embedded in user profile pages.[28] Roughly 39 percent of Friendster's users have widgets on their profile.[28]
+Friendster gives software developers access to APIs that utilize content and data within the Friendster network to build and deploy customizable applications on and off Friendster. Friendster's Developer Program is an open, non-proprietary platform with an open revenue model.[28][29]
+Friendster was the first to support both the OpenSocial and the Facebook Platform.[29]
+
+Friendster holds four fundamental online social networking patents for 'Connecting Users in an Online Computer System Based on Their Relationships within Social Networks,' 'Method of Inducing Content Uploads in a Social Network,' 'System and Method for Managing Connections in an Online Social Network' and 'Compatibility Scoring of Users in a Social Network.'[30][31]
+
+

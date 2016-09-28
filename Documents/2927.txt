@@ -1,0 +1,39 @@
+Arecibo message
+The Arecibo message was beamed into space a single time (not repeated) via frequency modulated radio waves at a ceremony to mark the remodeling of the Arecibo radio telescope on 16 November 1974.[1] It was aimed at the globular star cluster M13 some 25,000 light years away because M13 was a large and close collection of stars that was available in the sky at the time and place of the ceremony.[2] The message consisted of 1679 binary digits, approximately 210 bytes, transmitted at a frequency of 2380 MHz and modulated by shifting the frequency by 10 Hz, with a power of 1000kW. The transmission rate of the message was one bit per second, thus the entire transmission lasted 1679 seconds.[3][1]
+The cardinality of 1679 was chosen because it is a semiprime (the product of two prime numbers), to be arranged rectangularly as 73 rows by 23 columns. The alternate arrangement, 23 rows by 73 columns, produces jumbled nonsense. The message forms the image shown on the right, or its inverse, when translated into graphics characters and spaces.[4]
+Dr. Frank Drake, then at Cornell University and creator of the famous Drake equation, wrote the message, with help from Carl Sagan, among others.[1] The message consists of seven parts that encode the following:[4]
+Because it will take 25,000 years for the message to reach its intended destination of stars (and an additional 25,000 years for any reply), the Arecibo message was more a demonstration of human technological achievement than a real attempt to enter into a conversation with extraterrestrials. In fact, the stars that the message was aimed at will no longer be there when it arrives.[1] According to the Cornell News press release of November 12, 1999, the real purpose of the message was not to make contact, but to demonstrate the capabilities of newly installed equipment.[1]
+
+
+
+The numbers from 1 to 10 appear in binary format (the bottom row marks the beginning of each number).
+Even assuming that recipients know the purpose of this section is to write decimal in binary, the encoding of the numbers may not be immediately obvious due to the way they have been written. To read the first seven digits, ignore the bottom row, and read them as three binary digits from top to bottom, with the top digit being the most significant.
+The readings for 8, 9 and 10 are a little different, as they have been given an additional column next to the first (to the right in the image). This is probably intended to show that numbers too large to fit in a column can be written in several contiguous ones, where the contiguous columns do not have the base marker.
+
+
+The numbers 1, 6, 7, 8 and 15 appear. These are the atomic numbers of hydrogen (H), carbon (C), nitrogen (N), oxygen (O), and phosphorus (P), the components of DNA.
+The numbers 8 and 15 are written in a logical extension of binary encoding, rather than with the contiguous-columns method shown in the message's number figures at the top:
+
+
+The nucleotides are described as sequences of the five atoms that appear on the preceding line. Each sequence represents the molecular formula of the nucleotide as incorporated into DNA (as opposed to the free form of the nucleotide).
+For example, deoxyribose (C5OH7 in DNA, C5O4H10 when free), the nucleotide in the top left in the image, is read as:
+i.e. 7 atoms of hydrogen, 5 atoms of carbon, 0 atoms of nitrogen, 1 atom of oxygen, and 0 atoms of phosphorus.
+
+
+DNA double helix (the vertical bar represents the number of nucleotides, but the value depicted is around 4.3 billion when in fact there are about 3.2 billion base pairs in the human genome).
+
+
+The element in the center represents a human. The element on the left (in the image) indicates the average height of a person: 1764 mm. This corresponds to the horizontally written binary 14 multiplied by the wavelength of the message (126 mm). The element on the right depicts the size of human population in 1974, around 4.3 billion. In this case, the number is oriented horizontally rather than vertically, with the least-significant-digit marker to the upper left in the image.
+
+
+The solar system, showing the Sun and the planets in the order of their position from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto. (Pluto has since been reclassified as a dwarf planet by the International Astronomical Union, but it was still considered a planet at the time the message was transmitted.)
+The Earth is the third planet from the Sun - its graphic is shifted up to identify it as the planet from which the signal was sent. The human figure is shown "standing on" the Earth graphic.
+In addition to showing position, the graphic provides a general, not-to-scale size reference of each planet and the Sun.
+
+
+The last part represents the Arecibo radio telescope with its diameter (2430 multiplied by the wavelength gives 306.18 m). In this case, the number is oriented horizontally, with the least-significant-digit marker to the lower right in the image.
+
+or
+
+
+

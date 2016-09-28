@@ -1,0 +1,12 @@
+Controlled natural language
+Controlled natural languages (CNLs) are subsets of natural languages, obtained by restricting the grammar and vocabulary in order to reduce or eliminate ambiguity and complexity. Traditionally, controlled languages fall into two major types: those that improve readability for human readers (e.g. non-native speakers), and those that enable reliable automatic semantic analysis of the language.
+The first type of languages (often called "simplified" or "technical" languages), for example ASD Simplified Technical English, Caterpillar Technical English, IBM's Easy English, are used in the industry to increase the quality of technical documentation, and possibly simplify the (semi-)automatic translation of the documentation. These languages restrict the writer by general rules such as "write short and grammatically simple sentences", "use nouns instead of pronouns", "use determiners", and "use active instead of passive".[1]
+The second type of languages have a formal logical basis, i.e. they have a formal syntax and semantics, and can be mapped to an existing formal language, such as first-order logic. Thus, those languages can be used as knowledge-representation languages, and writing of those languages is supported by fully automatic consistency and redundancy checks, query answering, etc.
+
+Existing logic-based controlled natural languages include[2]:
+
+Other existing controlled natural languages include:
+
+
+
+

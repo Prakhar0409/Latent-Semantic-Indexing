@@ -1,0 +1,14 @@
+Web conferencing
+Web conferencing is used to conduct live meetings or presentations via the Internet. In a web conference, each participant sits at his or her own computer and is connected to other participants via the internet. This can be either a downloaded application on each of the attendees computers or a web-based application where the attendees will simply enter a URL (website address) to enter the conference.
+A webinar is a neologism to describe a specific type of web conference. It is typically one-way,[1] from the speaker to the audience with limited audience interaction, such as in a webcast. A webinar can be collaborative[1] and include polling and question & answer sessions to allow full participation between the audience and the presenter. In some cases, the presenter may speak over a standard telephone line, pointing out information being presented on screen and the audience can respond over their own telephones, preferably a speaker phone. There are web conferencing technologies on the market that have incorporated the use of VoIP audio technology, to allow for a truly web-based communication. Webinars may (depending upon the provider) provide hidden or anonymous participant functionality, enabling participants to be unaware of other participants in the same meeting.
+In the early years of the Internet, the terms "web conferencing" was often used to describe a group discussion in a message board and therefore not live. The term has evolved to refer specifically to live or "synchronous" meetings.
+
+Other typical features of a web conference include: [2]
+Web conferencing is often sold as a service, hosted on a web server controlled by the vendor. Offerings vary per vendor but most hosted services provide a cost per user per minute model, a monthly flat fee model and a seat model. Some vendors also provide a server side solution which allows the customer to host their own web conferencing service on their own servers.
+
+Web conferencing technologies are not standardized, which has been a significant factor in the lack of interoperability, transparency, platform dependence, security issues, cost and market segmentation. In 2003, the IETF established a working group to establish a standard for web conferencing, called "Centralized Conferencing (xcon)" [3]. The planned deliverables of xcon include:
+
+Real-time text chat facilities such as IRC appeared early in the Internet's history, in the late 1980s. Web-based chat and instant messaging software appeared in the mid-1990s. In the late 1990s, the first true web conferencing capability became available and dozens of other web conferencing venues followed thereafter.[citation needed]
+A trademark for the term "webinar" was registered in 1998 by Eric R. Korb (Serial Number 75478683, USPTO) but was difficult to defend; it is currently assigned to InterCall.[5]
+
+

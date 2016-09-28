@@ -1,0 +1,18 @@
+Delicious (website)
+Delicious (formerly del.icio.us, pronounced "delicious") is a social bookmarking web service for storing, sharing, and discovering web bookmarks. The site was founded by Joshua Schachter in 2003 and acquired by Yahoo! in 2005. It has more than five million users and 150 million bookmarked URLs.[1] It is headquartered in Santa Clara, California.
+
+Delicious uses a non-hierarchical classification system in which users can tag each of their bookmarks with freely chosen index terms (generating a kind of folksonomy). A combined view of everyone's bookmarks with a given tag is available; for instance, the URL "http://delicious.com/tag/wiki" displays all of the most recent links tagged "wiki". Its collective nature makes it possible to view bookmarks added by similar-minded users.
+Delicious has a "hotlist" on its home page and "popular" and "recent" pages, which help to make the website a conveyor of internet memes and trends.
+Delicious is one of the most popular social bookmarking services.[2] Many features have contributed to this, including the website's simple interface, human-readable URL scheme, a novel domain name, a simple REST-like API, and RSS feeds for web syndication.
+Use of Delicious is free. The source code of the site is not available, but a user can download his or her own data through the site's API in an XML or JSON format, or export it to a standard Netscape bookmarks format.
+All bookmarks posted to Delicious are publicly viewable by default, although users can mark specific bookmarks as private, and imported bookmarks are private by default. The public aspect is emphasized; the site is not focused on storing private ("not shared") bookmark collections.[3] Delicious linkrolls, tagrolls, network badges, RSS feeds, and the site's daily blog posting feature can be used to display bookmarks on weblogs.
+
+The precursor to Delicious was Muxway, a link blog that had grown out of a text file that Schachter maintained to keep track of links related to Memepool.[4] In September 2003, Schachter released the first version of Delicious. In March 2005, he left his day job to work on Delicious full-time, and in April 2005 it received approximately $2 million in funding from investors including Union Square Ventures and Amazon.com.[5] Yahoo! acquired Delicious on December 9, 2005.[6] Various guesses suggest it was sold for somewhere between US$15 million and US$30 million.[7][8]
+There are several competing social bookmarking services as well as a few open source clones.
+
+The "del.icio.us" domain name was a well-known example of a domain hack, an unconventional combination of letters to form a word or phrase. Del.icio.us and delicio.us now redirect to the new domain, delicious.com.
+In an interview, Schachter explained how he chose the name: "I'd registered the domain when .us opened the registry, and a quick test showed me the six letter suffixes that let me generate the most words. In early discussions, a friend referred to finding good links as 'eating cherries' and the metaphor stuck, I guess."[9]
+On September 6, 2007, Schachter announced the website's name would change to "Delicious" when the site was redesigned;[10][11] The design went live July 31, 2008.
+
+
+

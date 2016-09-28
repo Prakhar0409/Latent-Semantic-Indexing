@@ -1,0 +1,82 @@
+Newton's method
+In numerical analysis, Newton's method (also known as the Newton–Raphson method, named after Isaac Newton and Joseph Raphson) is perhaps the best known method for finding successively better approximations to the zeroes (or roots) of a real-valued function. Newton's method can often converge remarkably quickly, especially if the iteration begins "sufficiently near" the desired root. Just how near "sufficiently near" needs to be, and just how quickly "remarkably quickly" can be, depends on the problem. This is discussed in detail below. Unfortunately, when iteration begins far from the desired root, Newton's method can easily lead an unwary user astray with little warning. Thus, good implementations of the method embed it in a routine that also detects and perhaps overcomes possible convergence failures.
+Given a function f(x) and its derivative f'(x), we begin with a first guess x0�. ��A better approximation x1 is
+Newton's method can also be used to find a minimum or maximum of such a function, by finding a zero in the function's first derivative, see Newton's method as an optimization algorithm.
+The algorithm is first in the class of Householder's methods, succeeded by Halley's method.
+
+The idea of the method is as follows: one starts with an initial guess which is reasonably close to the true root, then the function is approximated by its tangent line (which can be computed using the tools of calculus), and one computes the x-intercept of this tangent line (which is easily done with elementary algebra). This x-intercept will typically be a better approximation to the function's root than the original guess, and the method can be iterated.
+Suppose f�: [a, b] → R is a differentiable function defined on the interval [a, b] with values in the real numbers R. The formula for converging on the root can be easily derived. Suppose we have some current approximation xn. Then we can derive the formula for a better approximation, xn+1 by referring to the diagram on the right. We know from the definition of the derivative at a given point that it is the slope of a tangent at that point.
+That is
+Here, f�' denotes the derivative of the function f. Then by simple algebra we can derive
+We start the process off with some arbitrary initial value x0. (The closer to the zero, the better. But, in the absence of any intuition about where the zero might lie, a "guess and check" method might narrow the possibilities to a reasonably small interval by appealing to the intermediate value theorem.) The method will usually converge, provided this initial guess is close enough to the unknown zero, and that f'(x0) ≠ 0. Furthermore, for a zero of multiplicity 1, the convergence is at least quadratic (see rate of convergence) in a neighbourhood of the zero, which intuitively means that the number of correct digits roughly at least doubles in every step. More details can be found in the analysis section below.
+
+Newton's method was described by Isaac Newton in De analysi per aequationes numero terminorum infinitas (written in 1669, published in 1711 by William Jones) and in De metodis fluxionum et serierum infinitarum (written in 1671, translated and published as Method of Fluxions in 1736 by John Colson). However, his description differs substantially from the modern description given above: Newton applies the method only to polynomials. He does not compute the successive approximations xn, but computes a sequence of polynomials and only at the end, he arrives at an approximation for the root x. Finally, Newton views the method as purely algebraic and fails to notice the connection with calculus. Isaac Newton probably derived his method from a similar but less precise method by François Viète. The essence of Viète's method can be found in the work of the Persian mathematician, Sharaf al-Din al-Tusi, while his successor Jamshīd al-Kāshī used a form of Newton's method to solve xP − N = 0 to find roots of N (Ypma 1995). A special case of Newton's method for calculating square roots was known much earlier and is often called the Babylonian method.
+Newton's method was first published in 1685 in A Treatise of Algebra both Historical and Practical by John Wallis. In 1690, Joseph Raphson published a simplified description in Analysis aequationum universalis. Raphson again viewed Newton's method purely as an algebraic method and restricted its use to polynomials, but he describes the method in terms of the successive approximations xn instead of the more complicated sequence of polynomials used by Newton. Finally, in 1740, Thomas Simpson described Newton's method as an iterative method for solving general nonlinear equations using fluxional calculus, essentially giving the description above. In the same publication, Simpson also gives the generalization to systems of two equations and notes that Newton's method can be used for solving optimization problems by setting the gradient to zero.
+Arthur Cayley in 1879 in The Newton-Fourier imaginary problem was the first who noticed the difficulties in generalizing the Newton's method to complex roots of polynomials with degree greater than 2 and complex initial values. This opened the way to the study of the theory of iterations of rational functions.
+
+Newton's method is an extremely powerful technique -- in general the convergence is quadratic: the error is essentially squared at each step (that is, the number of accurate digits doubles in each step). However, there are some difficulties with the method.
+Firstly, Newton's method requires that the derivative be calculated directly. In most practical problems, the function in question may be given by a long and complicated formula, and hence an analytical expression for the derivative may not be easily obtainable. In these situations, it may be appropriate to approximate the derivative by using the slope of a line through two points on the function. In this case, the Secant method results. This has slightly slower convergence than Newton's method but doesn't require the existence of derivatives.
+Secondly, if the initial value is too far from the true zero, Newton's method may fail to converge. For this reason, Newton's method is often referred to as a local technique. Most practical implementations of Newton's method put an upper limit on the number of iterations and perhaps on the size of the iterates.
+Thirdly, it is clear from the formula for Newton's method that it will fail in cases where the derivative is zero. Similarly, when the derivative is close to zero, the tangent line is nearly horizontal and hence may "shoot" wildly past the desired root.
+Lastly, if the root being sought has multiplicity greater than one, the convergence rate is merely linear (errors reduced by a constant factor at each step) unless special steps are taken.
+Since the most serious of the problems above is the possibility of a failure of convergence, Press et al. (1992) present a version of Newton's method that starts at the midpoint of an interval in which the root is known to lie and stops the iteration if an iterate is generated that lies outside the interval.
+Developers of large scale computer systems involving root finding tend to prefer the secant method over Newton's method because the use of a difference quotient in place of the derivative in Newton's method implies that the additional code to compute the derivative need not be maintained. In practice, the advantages of maintaining a smaller code base usually outweigh the superior convergence characteristics of Newton's method.
+
+Suppose that the function f has a zero at α, i.e., f(α) = 0.
+If f� is continuously differentiable and its derivative is nonzero at α, then there exists a neighborhood of α such that for all starting values x0 in that neighborhood, the sequence {xn} will converge to α.
+If the function is continuously differentiable and its derivative does not vanish at α and it has a second derivative at α then the convergence is quadratic or faster. If the second derivative does not vanish at α then the convergence is merely quadratic.
+If the derivative does vanish at α, then the convergence is usually only linear. Specifically, if f is twice continuously differentiable,  and , then there exists a neighborhood of α such that for all starting values x0 in that neighborhood, the sequence of iterates converges linearly, with rate log10�2 (Süli & Mayers, Exercise 1.6). Alternatively if  and  elsewhere, in a neighborhood U of α, α being a zero of multiplicity r and if  then there exists a neighborhood of α such that for all starting values x0 in that neighborhood, the sequence of iterates converges linearly.
+However, even linear convergence is not guaranteed in pathological situations.
+In practice these results are local and the neighborhood of convergence are not known a priori, but there are also some results on global convergence, for instance, given a right neighborhood U+ of α, if f is twice differentiable in U+ and if ,  in U+, then, for each x0 in U+ the sequence xk is monotonically decreasing to α.
+
+
+Consider the problem of finding the square root of a number. There are many methods of computing square roots, and Newton's method is one.
+For example, if one wishes to find the square root of 612, this is equivalent to finding the solution to
+The function to use in Newton's Method is then,
+with derivative,
+With an initial guess of 10, the sequence given by Newton's method is
+Where the correct digits are underlined. With only a few iterations one can obtain a solution accurate to many decimal places.
+
+Consider the problem of finding the positive number x with cos(x) = x3. We can rephrase that as finding the zero of f(x) = cos(x) − x3. We have f'(x) = −sin(x) − 3x2. Since cos(x) ≤ 1 for all x and x3 > 1 for x>1, we know that our zero lies between 0 and 1. We try a starting value of x0 = 0.5.
+The correct digits are underlined in the above example. In particular, x6 is correct to the number of decimal places given. We see that the number of correct digits after the decimal point increases from 2 (for x3) to 5 and 10, illustrating the quadratic convergence.
+
+Newton's method makes no guarantee on convergence, and depending on the shape of the function and the starting point it may or may not converge.
+
+
+Consider the function:
+It has a maximum at x=0 and solutions of f(x)=0 at x=±1. However, if we start iterating from x0=0, where the derivative is zero, x1 will be undefined:
+The same issue occurs if, instead of the starting point, any iteration point is stationary. In particular, this problem appears when the solution is constant over some interval.
+
+For some functions, some starting points may enter an infinite cycle, preventing convergence. Let
+and take 0 as the starting point. The first iteration produces 1 and the second iteration returns to 0 so the sequence will oscillate between the two without converging to a root. In general, the behavior of the sequence can be very complex. (See Newton fractal.)
+
+Some functions can be constructed on which Newton's method will always diverge, unless the solution is guessed on the first try; a simple one is the cubic root, which is continuous and infinitely differentiable with continuity, except for x=0, where its derivative is undefined (this, however, does not affect the algorithm, since it will never require the derivative if the solution is already found):
+For any iteration point xn, the next iteration point will be:
+The algorithm overshoots the solution and lands on the other side of the y axis, farther away than it initially was; applying Newton's method actually doubles the distances from the solution at each iteration.
+This consideration holds true for every , where n>2. In the limiting case of n=2 (square root), the iterations will oscillate indefinitely between points x0 and -x0.
+
+
+If the derivative is not continuous at the root, then convergence may fail to occur in any neighborhood of the root. Consider the function
+Its derivative is:
+Within any neighborhood of the root, this derivative keeps changing sign as x approaches 0 from the right (or from the left) while f(x)≥x-x²>0 for 0<x<1.
+So f(x)/f'(x) is unbounded near the root, and Newton's method will not converge, even though:
+
+If there is no second derivative at the root, then convergence may fail to be quadratic. Indeed, let
+Then
+And
+except when  where it is undefined. Given ,
+which has approximately 4/3 times as many bits of precision as  has. This is less than the 2 times as many which would be required for quadratic convergence. So the convergence of Newton's method (in this case) is not quadratic, even though: the function is continuously differentiable everywhere; the derivative is not zero at the root; and  is infinitely differentiable except at the desired root.
+
+If the first derivative is zero at the root, then convergence will not be quadratic. Indeed, let
+then  and consequently . So convergence is not quadratic, even though the function is infinitely differentiable everywhere.
+
+
+One may use Newton's method also to solve systems of k (non-linear) equations, which amounts to finding the zeroes of continuously differentiable functions F�: Rk → Rk. In the formulation given above, one then has to left multiply with the inverse of the k-by-k Jacobian matrix JF(xn) instead of dividing by f�'(xn). Rather than actually computing the inverse of this matrix, one can save time by solving the system of linear equations
+for the unknown xn+1 − xn. Again, this method only works if the initial value x0 is close enough to the true zero. Typically, a region which is well-behaved is located first with some other method and Newton's method is then used to "polish" a root which is already known approximately.
+
+Another generalization is the Newton's method to find a zero of a function F defined in a Banach space. In this case the formulation is
+where  is the Fréchet derivative applied at the point Xn. One needs the Fréchet derivative to be invertible at each Xn in order for the method to be applicable.
+
+When dealing with complex functions, however, Newton's method can be directly applied to find their zeroes. For many complex functions, the boundary of the set (also known as the basin of attraction) of all starting values that cause the method to converge to a particular zero is a fractal.
+
+

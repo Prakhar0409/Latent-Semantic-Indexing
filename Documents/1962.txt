@@ -1,0 +1,17 @@
+Plurk
+Plurk is a free social networking and micro-blogging service that allows users to send updates (otherwise known as plurks) through short messages or links, which can be up to 140 text characters in length.
+Updates are then shown on the user's home page using a timeline which lists all the updates received in chronological order, and delivered to other users who have signed up to receive them. Users can respond to other users' updates from their timeline through the Plurk.com website, by instant messaging, or by text messaging.
+
+Plurk was developed by and envisioned as a communication medium meant to form a balance between blogs and social networks, and between e-mail messaging and instant messaging. After months of development, Plurk was launched on May 2008.[3]
+The etymology of the name was explained by the developers as such:[4]
+
+Plurk's interface shows updates in horizontal form through a scrollable timeline written in JavaScript and updated through AJAX. Users can post new messages with optional 'qualifiers', which are one-word verbs used to represent a thought (ex. "feels", "thinks", "loves", etc.). There are also advanced features such as sending updates only to a subset of your friends, posting updates on events earlier in the day, and sharing images, videos, and other media.[5]
+Plurk also supports group conversations between friends and allows usage of emoticons together with the usual text micro-blogging.[6]
+The Plurk.com developers does not yet have an API released to the public, however an unofficial but supported[7] Plurk API is hosted on Google Code.[8]
+
+To help translate their base list of qualifiers/verbs into a number of languages, Plurk hosts its own translation website where users can submit translations of the Plurk user interface in their own local language.[9] As of July 2008, Plurk is translated into over twenty languages.
+
+Plurk has often been considered to be a rival to Twitter, an earlier micro-blogging service.[10][11]
+In June 2008, Plurk received much online attention when it was featured by Leo Laporte and Amber MacArthur on their net@night show in the TWiT.tv podcast network.[12][13]
+
+

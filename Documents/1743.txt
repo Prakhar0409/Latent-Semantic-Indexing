@@ -1,0 +1,26 @@
+List of web browsers
+The following is a list of web browsers.
+
+This is a table of personal computer web browsers by year of release of major version, in chronological order, with the approximate number of worldwide Internet users in millions. Note that Internet user data is related to the entire market, not the versions released in that year. The increased growth of the Internet in the 1990s and 2000s means that current browsers with small market shares have more total users than the entire market early on. For example, 90% market share in 1997 would be roughly 60 million users, but by the start of 2007 9% market share would equate to over 90 million users.[1]
+
+In order of release:
+
+
+
+Other software publishers have extended the functionality of Microsoft's Trident engine. The following browsers are all based on the Trident rendering engine:
+
+
+Browsers that use both Trident and Gecko include:
+
+
+
+
+
+Browsers created for enhancements of specific browsing activities.
+
+
+
+See Mobile browser
+
+
+

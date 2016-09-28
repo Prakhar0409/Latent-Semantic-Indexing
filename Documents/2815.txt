@@ -1,0 +1,33 @@
+Route of administration
+
+In pharmacology and toxicology, a route of administration is the path by which a drug, fluid, poison or other substance is brought into contact with the body.[1]
+A substance must be transported from the site of entry to the part of the body where its action is desired to take place (even if this only means penetration through the stratum corneum into the skin). However, using the body's transport mechanisms for this purpose can be far from trivial. The pharmacokinetic properties of a drug (that is, those related to processes of uptake, distribution, and elimination) are critically influenced by the route of administration.
+
+Routes of administration can broadly be divided into:
+The U.S. Food and Drug Administration recognizes 111 distinct routes of administration. The following is a brief list of some routes of administration.
+
+
+Enteral is any form of administration that involves any part of the gastrointestinal tract:
+
+
+
+
+There are advantages and disadvantages to each route of administration
+
+Advantages
+Disadvantages
+
+Injection incompasses intravenous (IV), intramuscular (IM), and subcutaneous (sub-Q)
+Advantages
+Disadvantages
+
+Some routes can be used for topical as well as systemic purposes, depending on the circumstances. For example, inhalation of asthma drugs is targeted at the airways (topical effect), whereas inhalation of volatile anesthetics is targeted at the brain (systemic effect).
+On the other hand, identical drugs can produce different results depending on the route of administration. For example, some drugs are not significantly absorbed into the bloodstream from the gastrointestinal tract and their action after enteral administration is therefore different from that after parenteral administration. This can be illustrated by the action of naloxone (Narcan), an antagonist of opiates such as morphine. Naloxone counteracts opiate action in the central nervous system when given intravenously and is therefore used in the treatment of opiate overdose. The same drug, when swallowed, acts exclusively on the bowels; it is here used to treat constipation under opiate pain therapy and does not affect the pain-reducing effect of the opiate.
+Enteral routes are generally the most convenient for the patient, as no punctures or sterile procedures are necessary. Enteral medications are therefore often preferred in the treatment of chronic disease. However, some drugs can not be used enterally because their absorption in the digestive tract is low or unpredictable. Transdermal administration is a comfortable alternative; there are, however, only a few drug preparations are suitable for transdermal administration.
+In acute situations, in emergency medicine and intensive care medicine, drugs are most often given intravenously. This is the most reliable route, as in acutely ill patients the absorption of substances from the tissues and from the digestive tract can often be unpredictable due to altered blood flow or bowel motility.
+
+
+Inaba, Darryl and Cohen, William. 2007. Uppers, Downers, All Arounders. Medford, Oregon: CNS Productions, Inc.
+
+
+[1][A.S.P.E.N.]

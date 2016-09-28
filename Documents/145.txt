@@ -1,0 +1,26 @@
+AVL tree
+In computer science, an AVL tree is a self-balancing binary search tree, and it is the first such data structure to be invented.[1] In an AVL tree, the heights of the two child subtrees of any node differ by at most one; therefore, it is also said to be height-balanced. Lookup, insertion, and deletion all take O(log n) time in both the average and worst cases, where n is the number of nodes in the tree prior to the operation. Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
+The AVL tree is named after its two inventors, G.M. Adelson-Velsky and E.M. Landis, who published it in their 1962 paper "An algorithm for the organization of information."
+The balance factor of a node is the height of its right subtree minus the height of its left subtree and a node with balance factor 1, 0, or -1 is considered balanced. A node with any other balance factor is considered unbalanced and requires rebalancing the tree. The balance factor is either stored directly at each node or computed from the heights of the subtrees.
+AVL trees are often compared with red-black trees because they support the same set of operations and because red-black trees also take O(log n) time for the basic operations. AVL trees perform better than red-black trees for lookup-intensive applications.[2] The AVL tree balancing algorithm appears in many computer science curricula.
+
+The basic operations of an AVL tree generally involve carrying out the same actions as would be carried out on an unbalanced binary search tree, but preceded or followed by one or more operations called tree rotations, which help to restore the height balance of the subtrees.
+
+If the balance factor becomes -1, 0, or 1 then the tree is still in AVL form, and no rotations are necessary.
+If the balance factor becomes 2 or -2 then the tree rooted at this node is unbalanced, and a tree rotation is needed. At most a single or double rotation will be needed to balance the tree.
+There are basically four cases which need to be accounted for, of which two are symmetric to the other two. For simplicity, the root of the unbalanced subtree will be called P, the right child of that node will be called R, and the left child will be called L. If the balance factor of P is 2, it means that the right subtree outweighs the left subtree of the given node, and the balance factor of the right child (R) must then be checked. If the balance factor of R is 1, it means the insertion occurred on the (external) right side of that node and a left rotation is needed (tree rotation) with P as the root. If the balance factor of R is -1, this means the insertion happened on the (internal) left side of that node. This requires a double rotation. The first rotation is a right rotation with R as the root. The second is a left rotation with P as the root.
+
+If the node is a leaf, remove it. If the node is not a leaf, replace it with either the largest in its left subtree (inorder predecessor) or the smallest in its right subtree (inorder successor), and remove that node. The node that was found as replacement has at most one subtree. After deletion retrace the path back up the tree (parent of the replacement) to the root, adjusting the balance factors as needed.
+The retracing can stop if the balance factor becomes -1 or 1 indicating that the height of that subtree has remained unchanged. If the balance factor becomes 0 then the height of the subtree has decreased by one and the retracing needs to continue. If the balance factor becomes -2 or 2 then the subtree is unbalanced and needs to be rotated to fix it. If the rotation leaves the subtree's balance factor at 0 then the retracing towards the root must continue since the height of this subtree has decreased by one. This is in contrast to an insertion where a rotation resulting in a balance factor of 0 indicated that the subtree's height has remained unchanged.
+The time required is O(log n) for lookup, plus a maximum of O(log n) rotations on the way back to the root, so the operation can be completed in O(log n) time.
+
+Lookup in an AVL tree is performed exactly as in an unbalanced binary search tree. Because of the height-balancing of the tree, a lookup takes O(log n) time. No special provisions need to be taken, and the tree's structure is not modified by lookups. (This is in contrast to splay tree lookups, which do modify their tree's structure.)
+If each node additionally records the size of its subtree (including itself and its descendants), then the nodes can be retrieved by index in O(log n) time as well.
+Once a node has been found in a balanced tree, the next or previous node can be obtained in amortized constant time. (In a few cases, about 2*log(n) links will need to be traversed. In most cases, only a single link need be traversed. On the average, about two links need to be traversed.)[citation needed]
+
+Both AVL trees and red-black trees are self-balancing binary search trees, so they are very similar mathematically. The operations to balance the trees are different, but both occur in constant time. The real difference between the two is the limiting height. For a tree of size n:
+The AVL tree is more rigidly balanced than Red-Black trees, leading to slower insertion and removal but faster retrieval.
+
+
+
+

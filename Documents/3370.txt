@@ -1,0 +1,11 @@
+Apple Lossless
+Apple Lossless (also known as Apple Lossless Encoder, ALE, or Apple Lossless Audio Codec, ALAC) is an audio codec developed by Apple Inc. for lossless data compression of digital music.
+Apple Lossless data is stored within an MP4 container with the filename extension .m4a. It is not a variant of AAC, but uses linear prediction similar to other lossless codecs such as FLAC and Shorten.[1] All current iPod players can play Apple Lossless-encoded files. It does not utilize any digital rights management (DRM) scheme, but by the nature of the container, it is thought that DRM could be applied to ALAC much the same way it can with other files in QuickTime containers.
+Apple claims that audio files compressed with its lossless codec will use up "about half the storage space" that the uncompressed data would require. Testers using a selection of music have found that compressed files are about 40% to 60% the size of the originals depending on the kind of music, similar to other lossless formats. Furthermore, the speed at which it can be decoded makes it useful for a limited-power device such as the iPod.[2]
+The Apple Lossless Encoder was introduced as a component of QuickTime 6.5.1 on April 28, 2004 and thus as a feature of iTunes 4.5 and above. The codec is also used in the AirPort Express's AirTunes implementation.
+
+David Hammerton and Cody Brocious have analyzed and decoded this codec without any documents on the format. On March 5, 2005 Hammerton published a simple open source decoder in the programming language C on the basis of the reverse engineering work.
+The open source library libavcodec now incorporates both a decoder and an encoder for Apple Lossless format which means that media players based on that library, including VLC media player and MPlayer, are able to play Apple Lossless files.
+
+
+

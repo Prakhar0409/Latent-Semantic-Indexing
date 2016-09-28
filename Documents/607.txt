@@ -1,0 +1,16 @@
+Trident (layout engine)
+Trident (also known as MSHTML) is the name of the layout engine for the Microsoft Windows version of Internet Explorer. It was first introduced with the release of Internet Explorer version 4.0 in October 1997; it has been steadily upgraded and remains in use today. For versions 7 and 8 of Internet Explorer, Microsoft made significant changes to the Trident layout engine to improve compliance with web standards and add support for new technologies.
+
+Trident was designed as a software component to allow software developers to easily add web browsing functionality to their own applications. It presents a COM interface for accessing and editing web pages in any COM-supported environment, like C++ and .NET. For instance, a web browser control can be added to a C++ program and Trident can then be used to access the page currently displayed in the web browser and retrieve element values. Events from the web browser control can also be captured. Trident functionality becomes available by connecting the file mshtml.dll to the software project.
+
+Notes: Internet Explorer 8 is the first version to include the Trident version in the user agent string.
+
+All versions of Internet Explorer for Windows from 4.0 onwards use Trident, and it is also used by various other web browsers and software components (see Internet Explorer shells). In Windows 98, Windows Me, and Windows 2000, it is also used for the Windows file manager/shell, Windows Explorer. The Add/Remove Programs tool in Windows 2000 and Windows XP uses Trident to render the list of installed programs and in Windows XP, it is also used for the User Accounts Control Panel, which is an HTML Application. However Trident was not used by the IE5 version for Mac, or by Internet Explorer Mobile.
+Some other Trident-based applications include:
+
+Although each version of IE has improved standards support, including the introduction of a "standards-compliant mode" in version 6, the core standards that are used to build web pages (HTML and CSS) are sometimes implemented in an incomplete fashion. For example, there is no support for the <abbr> element which is part of the HTML 4.01 standard, and there are bugs in the implementation of float-margins for the CSS1 standard.[citation needed] There are also some CSS attributes missing from Trident, like min-height, etc as of IE 6. As of Internet Explorer 8 CSS 2.1 will be fully supported as well as some CSS 3.0 attributes.[3]
+
+Apart from Trident, Microsoft also has several other layout engines. One of them, known as Tasman, was used in Internet Explorer 5 for Mac. Development of Internet Explorer for Mac was halted in roughly 2003, but development of Tasman continued to a limited extent, and was later included in Office 2004 for Mac. Microsoft's new web design product, Expression Web does not use Internet Explorer's Trident engine, but rather its own engine, which Microsoft claims is more standards-compliant than Trident. [4]
+
+
+

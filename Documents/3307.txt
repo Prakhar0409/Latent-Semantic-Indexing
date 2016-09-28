@@ -1,0 +1,20 @@
+File synchronization
+File synchronization (or 'synching' or 'syncing') in computing is the process of making sure that two or more locations contain the same up-to-date files. If you add, change, or delete a file from one location, the synchronization process will add, change, or delete the same file at the other location.
+File synchronization may be one-way or two-way. In a one-way sync, also called mirroring, files are copied only from a 'source' location to a 'target' location, or locations, but no files are copied back to the source location. In two-way sync, files are copied in both directions, keeping the two locations in sync with each other. The term synchronization is used in this article to mean exclusively two-way synchronization, in contrast with 'mirroring'.
+File synchronization maintains the same version of files on multiple locations, normally directories on a computer or removable storage devices such as USB flash drives. In other words, when two locations are synchronized, the most current version of a file is available at both locations, regardless of where it was last modified. File synchronization is useful for mobile workers, or others that work on multiple computers.
+Although it is possible to synchronize directories manually, using a software tool is both faster and less error prone.
+
+File synchronization tools are similar to Version Control tools (CVS, Subversion, etc.), distributed filesystems (Coda, etc.), and mirroring utilities (rsync, etc.), in that all these attempt to keep sets of files synchronized. However, only version control and file synchronization tools can deal with modifications to more than one copy of the files.
+Version control tools are intended to deal with situations where more than one person wants to simultaneously modify the same file, while file synchronizers are optimized for situations where only one copy of the file will be edited at a time. For this reason, although version control tools can be used for file synchronization, dedicated programs require less overhead.
+Distributed filesystems may also be seen as ensuring multiple versions of a file are synchronized. Unlike file synchronization, this is transparent to the user, and normally requires that the devices the files are stored on are always connected.
+
+Advanced file synchronizers will compare the differences between the two locations and synchronize only the file differences, rather than re-copying the entire file. In cases where one location is remote, this requires a software agent, a server, to be installed on the remote computer. A good sync program will also allow encryption for security, particularly when synchronizing across the Internet.
+Other advanced features include:
+It is possible to synchronize multiple locations by synchronizing them a pair at a time.
+
+There are a very large number of file synchronization programs available, either as open source, freeware (closed-source), or commercial licenses.
+Here is an incomplete list of file synchronization programs:
+
+
+
+

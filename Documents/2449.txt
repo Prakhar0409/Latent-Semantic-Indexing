@@ -1,0 +1,19 @@
+List of Greek words with English derivatives
+This is a list of Greek words with derivatives in English. The words are in Greek alphabetic order, with tables for the 24 Greek letters, listing thousands of related English words.
+
+
+There are considerable differences between the various transliterations used to represent the Greek alphabet in English. The table in the sidebar shows:
+Rough breathing was represented in some Greek dialects by an [h] while in others, the [h] represented the vowel eta (the origin of the sign is thought to be the left-hand half ( ├ ) of the letter H): a rough breathing over an initial vowel or diphthong – ἁ ἑ ἡ ἱ ὁ ὑ ὡ – indicates that the word was pronounced with an initial h, and a smooth breathing – ἀ ἐ ἠ ἰ ὀ ὐ ὠ – indicates the absence of an h, but this has since disappeared in speech, and Modern Greek omits the breathings. An initial upsilon (υ) always had the rough breathing – ὑ – hence hy is very common at the start of words derived from Greek, but no (or very few) such words start with y.
+The letter rho (ρ) at the start of a word always had the rough breathing – ῥ – and is transliterated rh. If a rho was geminated within a word, the first ρ always had the smooth breathing and the second the rough breathing – ῤῥ – leading to the transiliteration rrh.
+In ancient Greek, gamma was used to represent nu before a khi, ksi, kappa and another gamma. On this list, where this occurs, the word is listed as if the gamma were in fact a nu.
+For a fuller discussion of these matters, see the Greek alphabet.
+The Greek alphabet is not very hard to learn. In fact, it is very similar to the english alphabet.
+Note: the distinction between the rough and smooth breathings as shown above may not be very clear on certain browsers.
+
+The citation form shown is the form most commonly shown in dictionaries, but this form is often unrepresentative of the word as used to form a compound word, hence the Root form is also shown. In the case of verbs, the citation form is often by convention the first person singular, present indicative, (cf Latin), for instance φάγω (phagō), "I eat", rather than the infinitive ("to eat"). The Greek formsare generally in their true root form; i.e., a noun or verb derived from an earlier form will appear under the earlier form.
+The "classical" transliteration as described above is used for both the Citation form and the Root form. Greek entries are in alphabetical order according to the Greek alphabet, English entries by the Roman alphabet.
+The Greek words are shown in polytonic orthography, in other words showing the breathings and the fuller range of accents, as used in Ancient Greek and in Modern Greek for those who do not accept the 1982 "monotonic reform".
+Note that alpha privatives are addressed under the heading of the positive form of the word whenever possible.
+
+a
+aerodynamics, aerofoil, aeronautics, aerobatics, airplane, airship

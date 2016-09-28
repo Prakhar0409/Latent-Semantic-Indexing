@@ -1,0 +1,9 @@
+David Heinemeier Hansson
+David Heinemeier Hansson is a Danish programmer and the creator of the popular Ruby on Rails web development framework and the Instiki wiki. He is also a partner at the web-based software development firm 37signals.
+In 1999 David founded and built a Danish online gaming news website and community called Daily Rush, which he ran until 2001.
+In 2005 he was recognized by Google and O'Reilly with the Hacker of the Year award for his creation of Ruby on Rails. After graduating from the Copenhagen Business School and receiving his bachelor's degree in Computer Science and Business Administration, he moved from Denmark to Chicago, Illinois, U.S. in November 2005.
+David co-wrote Agile Web Development with Rails, a book on the topic, with Dave Thomas in 2005 as part of The Facets of Ruby Series.
+David appeared on the cover of the July 2006 issue of Linux Journal which included an interview with him in the feature story 'Opinions on Opinionated Software'. The same month Business 2.0 ranked him 34th among '50 people who matter now'.[3]
+
+
+

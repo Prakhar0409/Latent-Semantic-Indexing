@@ -1,0 +1,12 @@
+Table of logic symbols
+In logic, a set of symbols is commonly used to express logical representation. As logicians are familiar with these symbols, they are not explained each time they are used. So, for students of logic, the following table lists many common symbols together with their name, pronunciation and related field of mathematics. Additionally, the third column contains an informal definition, and the fourth column gives a short example.
+Be aware that, outside of logic, different symbols have the same meaning, and the same symbol has, depending on the context, different meanings.
+
+
+These symbols are sorted by their Unicode value:
+Note that the following operators are rarely supported by natively installed fonts. If you wish to use these in a web page, you should always embed the necessary fonts so the page viewer can see the web page without having the necessary fonts installed in their computer.
+
+
+Technical note: Due to technical limitations, some browsers may not display the special characters in this article. Some characters may be rendered as boxes, question marks, or other symbols, depending on your browser, operating system, and installed fonts. Even if you have ensured that your browser is interpreting the article as UTF-8 encoded and you have installed a font that supports a wide range of Unicode, such as Code2000, Arial Unicode MS, Lucida Sans Unicode or one of the free software Unicode fonts, you may still need to use a different browser, as browser capabilities vary in this regard.
+
+

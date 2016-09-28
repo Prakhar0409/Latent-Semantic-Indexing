@@ -1,0 +1,5 @@
+Comparison of raster graphics editors
+This is a comparison of raster graphics editors sorted by availability.
+
+
+Basic general information about the editors: creator/company, license/price etc.

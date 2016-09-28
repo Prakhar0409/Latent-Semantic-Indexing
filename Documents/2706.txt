@@ -1,0 +1,22 @@
+Josephus problem
+The Josephus problem (or Josephus permutation) is a theoretical problem occurring in computer science and mathematics.
+There are people standing in a circle waiting to be executed. After the first man is executed, certain number of people are skipped and one man is executed. Then again, people are skipped and a man is executed. The elimination proceeds around the circle (which is becoming smaller and smaller as the executed people are removed), until only the last man remains, who is given freedom.
+The task is to choose the place in the initial circle so that you survive (are the last one remaining).
+
+The problem is named after Flavius Josephus, a Jewish historian living in the 1st century. As the legend goes, he and his 40 comrade soldiers were trapped in a cave, surrounded by Romans. They chose suicide over capture and decided that they would form a circle and start killing themselves using a step of three. As Josephus did not want to die, he was able to find the safe place, and stayed alive with his comrade, later joining the Romans who captured them. (The only statement given by Josephus himself is that by luck, or maybe by the hand of God, he and another man remained the last and gave up to the Romans.)
+
+We explicitly solve the problem when every 2nd person will be killed, i.e. k = 2. (For the more general case , we outline a solution below.) We express the solution recursively. Let f(n) denote the position of the survivor when there are initially n people (and k = 2). The first time around the circle, all of the even-numbered people die. The second time around the circle, the new 2nd person dies, then the new 4th person, etc; it's as though there were no first time around the circle. If the initial number of people was even, then the person in position x during the second time around the circle was originally in position 2x − 1 (for every choice of x). So the person in position f(n) was originally in position 2f(n) − 1. This gives us the recurrence:
+If the initial number of people was odd, then we think of person 1 as dying at the end of the first time around the circle. Again, during the second time around the circle, the new 2nd person dies, then the new 4th person, etc. In this case, the person in position x was originally in position 2x + 1. This gives us the recurrence:
+When we tabulate the values of n and f(n) we see a pattern:
+This suggests that f(n) is an increasing odd sequence that restarts with f(n) = 1 whenever the index n is a power of 2. Therefore, if we choose m and l so that n = 2m + l and , then . It is clear that values in the table satisfy this equation. But mathematics demands exact proof. Below, we give a proof by induction.
+Theorem: If n = 2m + l and , then f(n) = 2l + 1.
+Proof: We use strong induction on n. The base case n = 1 is true. We consider separately the cases when n is even and when n is odd.
+If n is even, then choose l1 and m1 such that  and . Note that l1 = l / 2. We have f(n) = 2f(n / 2) − 1 = 2((2l1) + 1) − 1 = 2l + 1, where the second equality follows from the induction hypothesis.
+If n is odd, then choose l1 and m1 such that  and . Note that l1 = (l − 1) / 2. We have f(n) = 2f((n − 1) / 2) + 1 = 2((2l1) + 1) + 1 = 2l + 1, where the second equality follows from the induction hypothesis. This completes the proof.
+The most elegant form of the answer involves the binary representation of size n: f(n) can be obtained by a one-bit left cyclic shift of n itself. If we represent n in binary as , then the solution is given by . The proof of this follows from the representation of n as 2m + l.
+The easiest way to solve this problem in the general case is to use dynamic programming. This approach gives us the recurrence:
+which is evident when considering how the survivor number changes when switching from n − 1 to n. This approach has running time O(n), but for small k and large n there is another approach. The second approach also uses dynamic programming but has running time O(klogn). It is based on considering killing k-th, 2k-th, ..., -th people as one step, then changing the numbering.
+
+According to Concrete Mathematics, section 1.3, Josephus had an accomplice; the problem was then to find the places of the two last remaining survivors (whose conspiracy would ensure their survival).
+
+

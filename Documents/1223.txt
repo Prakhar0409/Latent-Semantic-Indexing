@@ -1,0 +1,9 @@
+3GP
+3GP is a multimedia container format defined by the Third Generation Partnership Project (3GPP) for use on 3G mobile phones but can also be played on some 2G and 4G phones.
+
+3GP is a simplified version of the MPEG-4 Part 14 (MP4) container format, designed to decrease storage and bandwidth requirements in order to accommodate mobile phones. It stores video streams as MPEG-4 Part 2 or H.263 or MPEG-4 Part 10 (AVC/H.264), and audio streams as AMR-NB, AMR-WB, AMR-WB+, AAC-LC or HE-AAC. A 3GP file is always big-endian, storing and transferring the most significant bytes first. It also contains descriptions of image sizes and bitrate. There are two different standards for this format:
+Both are based on MPEG-4 and H.263 video, and AAC or AMR audio.
+When transferred to a computer, 3GP movies can be viewed on Linux, Mac, and Windows platforms with MPlayer and VLC media player. Programs such as Media Player Classic, Totem, RealPlayer, QuickTime, and GOM Player can also be used. Some cell phones use the .mp4 extension for 3GP video.
+
+
+

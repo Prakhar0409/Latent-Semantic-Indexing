@@ -1,0 +1,27 @@
+Resource reservation protocol
+The Resource ReSerVation Protocol (RSVP), described in RFC 2205, is a Transport layer protocol designed to reserve resources across a network for an integrated services Internet. "RSVP does not transport application data but is rather an Internet control protocol, like ICMP, IGMP, or routing protocols" - RFC 2205. RSVP provides receiver-initiated setup of resource reservations for multicast or unicast data flows with scaling and robustness.
+RSVP can be used by either hosts or routers to request or deliver specific levels of quality of service (QoS) for application data streams or flows. RSVP defines how applications place reservations and how they can relinquish the reserved resources once the need for them has ended. RSVP operation will generally result in resources being reserved in each node along a path.
+RSVP is not itself a routing protocol and was designed to interoperate with current and future routing protocols.
+RSVP by itself is rarely deployed in telecommunications networks today[citation needed] but the traffic engineering extension of RSVP, or RSVP-TE, is becoming more widely accepted nowadays in many QoS-oriented networks.
+
+
+RSVP is described in a series of RFC documents from the IETF:
+
+The two key concepts of RSVP reservation model are flowspec and filterspec:
+
+RSVP reserves resources for a flow. A flow is identified by the destination address, the protocol identifier and optionally the destination port. In MPLS a flow is defined as a LSP. For each flow RSVP also identifies the particular quality of service required by the flow although it does not understand the specific information of the flow QoS. This QoS specific information is called a flowspec and RSVP passes the flowspec from the application to the hosts and routers along the path. Those systems then analyse the flowspec to accept and reserve the resources. A flowspec consists of:
+
+The filterspec defines the set of packets that shall be affected by a flowspec (i.e. the data packets to receive the QoS defined by the flowspec). A filterspec typically selects a subset of all the packets processed by a node. The selection can depend on any attribute of a packet (e.g. the sender IP address and port).
+The currently defined RSVP reservation styles are:
+An RSVP reservation request consists of a flowspec and a filterspec and the pair is called a flowdescriptor. The effects at the node of each spec are that while the flowspec sets the parameters of the packet scheduler at a node, the filterspec sets the parameters at the packet classifier.
+
+There are two primary types of messages:
+The data objects on RSVP messages can be transmitted in any order. For the complete list of RSVP messages and date objects see RFC 2205.
+
+An RSVP host that needs to send a data flow with specific QoS will transmit an RSVP path message that will travel along the unicast or multicast routes pre-established by the working routing protocol. If the path message arrives at a router that does not understand RSVP, that router forwards the message without interpreting the contents of the message and will not reserve resources for the flow.
+When the destination router receives the path message it will:
+Each node in the path can either accept or reject the request.
+
+
+
+

@@ -1,0 +1,20 @@
+haXe
+haXe (pronounced hex[1]) is a programming language, designed for creating interactive web applications. Currently there are four official compiler targets - Adobe Flash, JavaScript, PHP and the Neko VM.[2]
+
+Development of haXe was started on the 22nd of October, 2005. The first alpha version of haXe was released on the 14th of November, in the same year. The first beta version was released on the 4th of February, 2006. haXe 1.0 was released on the 17th of April, in the same year. The current release of haXe is version 2.0, which was released on the 28th of July, 2008.[3]
+haXe is released under the GNU General Public License.[4]
+
+The name haXe (pronounced as hex, although the authors of the only published book on the language pronounce it "hacks"[5]) was chosen because it is short, easy, cool, and "has an X inside", which the author claims is necessary to make any new technology a success.[6]
+
+The header of the official haXe site describes haXe as a "web oriented universal language." The feature that is tied to this description is the compiler's ability to target different virtual machines: Adobe Flash's AVM1(Flash 6-8) and AVM2(Flash 9+), Javascript, and NekoVM, the last being a general-purpose virtual machine also built by haXe creator Nicolas Cannasse. The haXe language and libraries are designed to achieve maximal support of these target platforms, and the compiler will emit target source or bytecode depending on the language and options selected. The "web oriented universal" moniker follows from this ability to deploy the same code across different layers of a WWW application. The haXe community has shown interest in adding PHP[7] and Java[8] support.
+haXe is similar to ECMAScript, although almost no ECMAScript code will run on haXe without modifications. Unlike ECMAScript, haXe is a compiled language. It is a general-purpose language with object-oriented programming, exceptions, and type inference with class parameters. Generic classes, reflectivity, iterators, and functional programming are built-in functionality of the language and libraries.[9] Unusual among programming languages, haXe contains a type system which is both strong and dynamic. The compiler will check types implicitly and give compile-time errors, but it also enables the programmer to bypass type-checking and rely on the target platform's dynamic type-handling.
+Function parameters can be defined very precisely in haXe:
+Enumerated types are a key feature of the language, they can have parameters of their own and be recursive, which allows them to be treated like classes.[10] Enums in haXe are not simply indexed "magic-number" values as in most languages, but are more abstract: they contain no inherent value, but can be instanced into variables as in this example:
+(Modified from the haXe Reference)
+Demonstrating haXe for graphical uses, here is some example code for the Adobe Flash target (from the haXe website):
+This will draw a square using a Flash MovieClip object.
+
+The haXe compiler is implemented in the OCaml language. Because haXe-generated code runs on virtual machines, no knowledge of OCaml is necessary to develop applications using haXe. This also means that benchmark performance varies depending on the target platform, as each platform must be customized to make the best use of available features.
+One benchmark[11] indicates that haXe compiles Flash 9(AVM2) bytecode with better performance than the equivalent AS3 code on Adobe's compiler. Since publication of this benchmark the compiler has further improved performance features with the addition of inline functions.
+
+

@@ -1,0 +1,18 @@
+Ishikawa diagram
+The Ishikawa diagram (or fishbone diagram or also cause-and-effect diagram) are diagrams, that shows the causes of a certain event. A common use of the Ishikawa diagram is in product design, to identify potential factors causing an overall effect.
+
+Ishikawa diagrams were proposed by Kaoru Ishikawa[1] in the 1960s, who pioneered quality management processes in the Kawasaki shipyards, and in the process became one of the founding fathers of modern management.
+It was first used in the 1960s, and is considered one of the seven basic tools of quality management, along with the histogram, Pareto chart, check sheet, control chart, flowchart, and scatter diagram. See Quality Management Glossary. It is known as a fishbone diagram because of its shape, similar to the side view of a fish skeleton.
+Mazda Motors famously used an Ishikawa diagram in the development of the Miata sports car, where the required result was "Jinba Ittai" or "Horse and Rider as One". The main causes included such aspects as "touch" and "braking" with the lesser causes including highly granular factors such as "50/50 weight distribution" and "able to rest elbow on top of driver's door". Every factor identified in the diagram was included in the final design.
+
+Causes in the diagram are often based on a certain set of causes, such as the 6 M's, described below. Cause-and-effect diagrams can reveal key relationships among various variables, and the possible causes provide additional insight into process behaviour.
+Causes in a typical diagram are normally grouped into categories, the main ones of which are:
+Causes should be derived from brainstorming sessions. Then causes should be sorted through affinity-grouping to collect similar ideas together. These groups should then be labeled as categories of the fishbone. They will typically be one of the traditional categories mentioned above but may be something unique to our application of this tool. Causes should be specific, measurable, and controllable.
+
+Most Ishikawa diagrams have a box at the right hand side, where the effect to be examined is written. The main body of the diagram is a horizontal line from which stem the general causes, represented as "bones". These are drawn towards the left-hand side of the paper and are each labeled with the causes to be investigated—often brainstormed beforehand—and based on the major causes listed above.
+Off each of the large bones there may be smaller bones highlighting more specific aspects of a certain cause, and sometimes there may be a third level of bones or more. These can be found using the '5 Whys' technique. When the most probable causes have been identified, they are written in the box along with the original effect. The more populated bones generally outline more influential factors, with the opposite applying to bones with fewer "branches". Further analysis of the diagram can be achieved with a Pareto chart.
+The Ishikawa concept can also be documented and analyzed through depiction in a matrix format.
+
+
+
+

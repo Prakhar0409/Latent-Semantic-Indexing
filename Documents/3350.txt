@@ -1,0 +1,22 @@
+List of wiki software
+This is a list of notable wiki software applications. For a list of Websites using wiki software, organized by topic, see List of wikis.
+
+
+
+
+
+
+
+
+While not strictly Wiki software, weblog-engine Blosxom mostly meets the definition when used with its wikieditish and wikiwordish plugins. There are also plugins available that enable Blosxom to use the text parsers from Kwiki, TWiki, or PurpleWiki. Along with Blosxom, Blooki is also a combination of a blog and a wiki.
+
+Please note that some of the Wikis below have no or limited support for international characters; check the features of the individual Wikis for specifics.
+
+
+
+
+
+
+
+
+

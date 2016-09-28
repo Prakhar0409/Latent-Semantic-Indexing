@@ -1,0 +1,24 @@
+ISO 9126
+ISO 9126 is an international standard for the evaluation of software quality. The fundamental objective of this standard is to address some of the well known human biases that can adversely effect the delivery and perception of a software development project. These biases include changing priorities after the start of a project or not having any clear definitions of "success". By clarifying, then agreeing on the project priorities and subsequently converting abstract priorities (compliance) to measurable values (output data can be validated against schema X with zero intervention), ISO 9126 tries to develop a common understanding of the project's objectives and goals.
+The standard is divided into four parts:
+
+
+The quality model established in the first part of the standard, ISO 9126-1, classifies software quality in a structured set of characteristics and sub-characteristics as follows:
+Each quality sub-characteristic (e.g. adaptability) is further divided into attributes. An attribute is an entity which can be verified or measured in the software product. Attributes are not defined in the standard, as they vary between different software products.
+Software product is defined in a broad sense: it encompasses executables, source code, architecture descriptions, and so on. As a result, the notion of user extends to operators as well as to programmers, which are users of components as software libraries.
+The standard provides a framework for organizations to define a quality model for a software product. On doing so, however, it leaves up to each organization the task of specifying precisely its own model. This may be done, for example, by specifying target values for quality metrics which evaluates the degree of presence of quality attributes.
+
+Internal metrics are those which do not rely on software execution (static measures).
+
+External metrics are applicable to running software.
+
+Quality in use metrics are only available when the final product is used in real conditions.
+Ideally, the internal quality determines the external quality and external quality determines quality in use.
+This standard stems from the model established in 1977 by McCall and his colleagues, who proposed a model to specify software quality. The McCall quality model is organized around three types of Quality Characteristics:
+ISO 9126 distinguishes between a defect and a nonconformity, a defect being The nonfulfilment of intended usage requirements, whereas a nonconformity is The nonfulfilment of specified requirements. A similar distinction is made between validation and verification, known as V&V in the testing trade.
+
+SQuaRE which is a tailored view for COTS software.
+
+
+
+Scalet et al, 2000: ISO/IEC 9126 and 14598 integration aspects: A Brazilian viewpoint. The Second World Congress on Software Quality, Yokohama, Japan, 2000.

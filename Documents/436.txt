@@ -1,0 +1,11 @@
+Word count
+A word count is the number of words that a document contains. Knowing the number of words in a document is sometimes important, for instance if the author is required to stay within certain minimum or maximum bounds, particularly in academia, legal proceedings, journalism and advertising. Word counts are also important in defining typing and reading speeds (usually measured in words per minute), and they are also occasionally used to differentiate different categories of writing, particularly prose writing, for judgment in literary contests.
+
+The command wc in Unix/Linux can do automatic word counts, as can many word processors. Many word processing programs give a word count broken down into additional information such as the number of pages, words, characters, paragraphs, and lines.. Different word counting programs may give unequal results for the same document, depending on the text segmentation algorithms used, or whether footnotes are counted.
+Word counts may also be important for spoken pieces. Formal speaking in English is usually around 100 to 120 words per minute; thus, for example, an eight-minute speech would contain roughly 800 to 960 words.
+
+For many kinds of prose or poetry writing, a word count can help determine the classification of the piece of writing. The Science Fiction and Fantasy Writers of America association uses word count length for determining Nebula awards categories, as follows:[1]
+National Novel Writing Month requires its novels to be at least 50,000 words. While the length of any individual novel is to a large extent up to its writer,[2] expectations of novel lengths may differ by genre: a typical mystery novel might be in the 60,000 to 80,000 word range while a thriller could be over 100,000 words.[3]
+The acceptable length of an academic thesis varies greatly, dependent predominantly on the subject. Many universities limit Ph.D. theses to at most 100,000 words, barring special permission for exceeding this limit.[4] Other types of theses typically have lower word count limits.
+
+

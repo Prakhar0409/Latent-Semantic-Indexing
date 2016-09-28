@@ -1,0 +1,26 @@
+ISO/IEC 11179
+ISO/IEC 11179 (formally known as the ISO/IEC 11179 Metadata Registry (MDR) standard) is the international standard for representing metadata for an organization in a Metadata Registry.
+
+Today organizations are required to exchange data quickly and precisely between computer systems using enterprise application integration technologies. Completed transactions must also be regularly transferred to separate data warehouse and business rules systems with specialized structures designed to make data retrieval efficient. Many industry experts feel that this can only be done efficiently if data is precisely defined and automated tools are created to exchange data between remote computer systems. Precise exchange of data between computers is also a key driver behind the W3C's Semantic Web project.
+ISO/IEC 11179 is one of the few mature standards for storing enterprise metadata in a controlled environment.
+
+An ISO metadata registry consists of a hierarchy of "concepts" with associated properties for each concept. Concepts are similar to classes in object-oriented programming but without the behavioral elements. Properties are similar to Class attributes. ISO standards require that each concept and property have a precisely worded data element definition.
+
+The standard consists of six parts:
+Part 1 explains the purpose of each part. Part 3 specifies the metamodel that defines the registry. The other parts specify various aspects of the use of the registry.
+
+The Data element is foundational concept in an ISO/IEC 11179 metadata registry. The purpose of the registry is to maintain a semantically precise structure of data elements.
+Each Data element in an ISO/IEC 11179 metadata registry:
+Data elements that store "Codes" or enumerated values must also specify the semantics of each of the code values with precise definitions.
+
+The use of metadata standards is strongly encourage by organizations that exchange large amounts of data. Organizations such as the United Nations and the US Government are large users of 11179 standards.
+11179 is strongly recommended by state and federal agencies such as the US Government's XML web site.
+
+Although the ISO/IEC 11179 metadata registry is a complex standard comprising several hundreds of pages, there are users that are attempting to extend these standards to meet various challenges. For example the XMDR project states its purpose as being: ...concerned with the development of improved standards and technology for storing and retrieving the semantics of data elements, terminologies, and concept structures in metadata registries.
+
+The following metadata registries state that they follow ISO/IEC 11179 guidelines although there have been no formal third party tests developed to test for metadata registry compliance.
+
+Listed alphabetically:
+Note that there are no independent agencies that certify ISO/IEC 11179 compliance.
+
+

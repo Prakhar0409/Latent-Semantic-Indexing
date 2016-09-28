@@ -1,0 +1,44 @@
+SWOT analysis
+SWOT Analysis is a strategic planning method used to evaluate the Strengths, Weaknesses, Opportunities, and Threats involved in a project or in a business venture. It involves specifying the objective of the business venture or project and identifying the internal and external factors that are favorable and unfavorable to achieving that objective. The technique is credited to Albert Humphrey, who led a research project at Stanford University in the 1960s and 1970s using data from Fortune 500 companies.
+
+
+A SWOT analysis must first start with defining a desired end state or objective. A SWOT analysis may be incorporated into the strategic planning model. An example of a strategic planning technique that incorporates an objective-driven SWOT analysis is Strategic Creative Analysis (SCAN)[1]. Strategic Planning, including SWOT and SCAN analysis, has been the subject of much research.
+Identification of SWOTs is essential because subsequent steps in the process of planning for achievement of the selected objective may be derived from the SWOTs.
+First, the decision makers have to determine whether the objective is attainable, given the SWOTs. If the objective is NOT attainable a different objective must be selected and the process repeated.
+The SWOT analysis is often used in academia to highlight and identify strengths, weaknesses, opportunities and threats. It is particularly helpful in identifying areas for development.
+
+If, on the other hand, the objective seems attainable, the SWOTs are used as inputs to the creative generation of possible strategies, by asking and answering each of the following four questions, many times:
+Ideally a cross-functional team or a task force that represents a broad range of perspectives should carry out the SWOT analysis. For example, a SWOT team may include an accountant, a salesperson, an executive manager, an engineer, and an ombudsman.
+
+Another way of utilizing SWOT is matching and converting.
+Matching is used to find competitive advantages by matching the strengths to opportunities.
+Converting is to apply conversion strategies to convert threats or weaknesses into strengths or opportunities. [2]
+An example of conversion strategy is to find new markets.
+If the threats or weaknesses cannot be converted a company should try to minimize or avoid them.[3]
+
+SWOT analysis may limit the strategies considered in the evaluation. "In addition, people who use SWOT might conclude that they have done an adequate job of planning and ignore such sensible things as defining the firm's objectives or calculating ROI for alternate strategies." [4] Findings from Menon et al. (1999) [5] and Hill and Westbrook (1997) [6] have shown that SWOT may harm performance. As an alternative to SWOT, J. Scott Armstrong describes a 5-step approach alternative that leads to better corporate performance.[7]
+These criticisms are addressed to an old version of SWOT analysis that precedes the SWOT analysis described above under the heading "Strategic and Creative Use of SWOT Analysis." This old version did not require that SWOTs be derived from an agreed upon objective. Examples of SWOT analyses that do not state an objective are provided below under "Human Resources" and "Marketing."
+
+The aim of any SWOT analysis is to identify the key internal and external factors that are important to achieving the objective. These come from within the company's unique value chain. SWOT analysis groups key pieces of information into two main categories:
+The internal factors may be viewed as strengths or weaknesses depending upon their impact on the organization's objectives. What may represent strengths with respect to one objective may be weaknesses for another objective. The factors may include all of the 4P's; as well as personnel, finance, manufacturing capabilities, and so on. The external factors may include macroeconomic matters, technological change, legislation, and socio-cultural changes, as well as changes in the marketplace or competitive position. The results are often presented in the form of a matrix.
+SWOT analysis is just one method of categorization and has its own weaknesses. For example, it may tend to persuade companies to compile lists rather than think about what is actually important in achieving objectives. It also presents the resulting lists uncritically and without clear prioritization so that, for example, weak opportunities may appear to balance strong threats.
+It is prudent not to eliminate too quickly any candidate SWOT entry. The importance of individual SWOTs will be revealed by the value of the strategies it generates. A SWOT item that produces valuable strategies is important. A SWOT item that generates no strategies is not important.
+
+The usefulness of SWOT analysis is not limited to profit-seeking organizations. SWOT analysis may be used in any decision-making situation when a desired end-state (objective) has been defined. Examples include: non-profit organizations, governmental units, and individuals. SWOT analysis may also be used in pre-crisis planning and preventive crisis management.
+
+The SWOT-landscape grabs different managerial situations by visualizing and foreseeing the dynamic performance of comparable objects according to findings by Brendan Kitts, Leif Edvinsson and Tord Beding (2000).[8]
+Changes in relative performance are continuously identified. Projects (or other units of measurements) that could be potential risk or opportunity objects are highlighted.
+SWOT-landscape also indicates which underlying strength/weakness factors that have had or likely will have highest influence in the context of value in use (for ex. capital value fluctuations).
+
+As part of the development of strategies and plans to enable the organization to achieve its objectives, then that organization will use a systematic/rigorous process known as corporate planning. SWOT alongside PEST/PESTLE can be used as a basis for the analysis of business and environmental factors.[9]
+
+In many competitor analyses, marketers build detailed profiles of each competitor in the market, focusing especially on their relative competitive strengths and weaknesses using SWOT analysis. Marketing managers will examine each competitor's cost structure, sources of profits, resources and competencies, competitive positioning and product differentiation, degree of vertical integration, historical responses to industry developments, and other factors.
+Marketing management often finds it necessary to invest in research to collect the data required to perform accurate marketing analysis. Accordingly, management often conducts market research (alternately marketing research) to obtain this information. Marketers employ a variety of techniques to conduct market research, but some of the more common include:
+Using SWOT to analyse the market position of a small management consultancy with specialism in HRM.[11]
+strength- market related , finance related , operational related , research and development related, hr related
+market related- product quality, packaging , advertisement, service, distribution channel finance related- optimum debt/equity ratio, number of share holders, inventory size , optimum use of the financial resources, low cost of borrowings proper investment of the financial products
+operational related- low cost , higher productivity , excellent quality , modernized technology,
+
+
+
+

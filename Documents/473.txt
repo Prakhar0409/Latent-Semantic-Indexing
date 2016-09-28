@@ -1,0 +1,27 @@
+Canon EF-S lens mount
+The EF-S lens mount is a derivative of the EF lens mount created for a subset of Canon digital single-lens reflex cameras with APS-C sized image sensors. It was released in 2003. Cameras supporting the EF-S mount are backward-compatible with the EF lens mount. Only Canon cameras with the APS-C sized sensor released after 2003 support the mount. All other cameras do not support it.
+The "S" in EF-S stands for "short back focus", which means that the rear element of the lens is closer to the image sensor than on regular 35 mm SLR cameras. The proximity of the rear element to the image sensor greatly enhances the possibilities for wide angle and very wide angle lens, enabling them to be made smaller, lighter (containing less glass), faster (larger aperture) and less expensive. Most current Canon EF-S lenses are wide angle.
+Lenses designed specifically for APS-C sized sensors are often optically designed to provide a narrower light cone to match the sensor. However, not all such lenses require the shorter back focus, and may feature the standard EF mount. Such lenses will give noticeable vignetting if used on a 35mm film or sensor camera.
+
+The cameras that can use the EF-S mount are:
+Canon designers have taken steps to ensure it is physically impossible to mount EF-S lenses on EF-only cameras. This is because the increased proximity of the lens to the sensor means that on full-frame sensor or 35mm film EF cameras the lens itself would obstruct the mirror's movement and cause damage to the lens and/or camera. While it is possible to modify the lens such that the physical obstruction is removed, allowing for mounting to EF mount cameras, the rear of the lens would still obstruct the mirror. An additional reason is that the lenses produce a smaller image circle of even illumination (circle of no vignetting). To assist the photographer, an EF-S lens alignment mark is indicated by a small white rectangle, whereas the EF lenses and mounts use a small red dot. EF-S camera bodies have both EF-S and EF alignment marks, while EF bodies have only EF marks. Some have reported success attaching EF-S lenses to full-frame bodies with the use of an extension tube; however, this does not eliminate the vignetting problem, and also removes the lens's ability to achieve infinite focus. [1]
+The 10D, D60, and earlier cameras share the EF-only mount with the full frame EOS camera bodies, and also with the APS-H size EOS camera bodies (1D series), despite having a smaller sensor and therefore a smaller mirror. However, attempting this on full frame Canon EF mount cameras would cause the mirror to collide with the rear lens element, potentially damaging the lens and/or camera.
+
+The EF-S lens mount is a relatively new offering from Canon, so the selection of available lenses is limited compared to the full EF range, but it is backwards compatible with the EF mount, and can therefore still accept all EF lenses. As of 2008, no EF-S lens has been produced with the "L" designation or with Diffractive optics.
+
+
+EF-S 10-22mm
+EF-S 17-55mm | EF-S 17-85mm | EF-S 18-55mm | EF-S 18-200mm
+EF-S 55-250mm
+EF 16-35mm | EF 17-40mm | EF 20-35mm
+EF 24-70mm | EF 24-85mm | EF 24-105mm | EF 28-80mm | EF 28-90mm | EF 28-105mm | EF 28-135mm | EF 28-200mm | EF 28-300mm
+EF 55-200mm | EF 70-200mm | EF 70-300mm | EF 75-300mm | EF 80-200mm | EF 90-300mm | EF 100-300mm | EF 100-400mm
+EF 14mm | EF 20mm | EF 24mm | EF 28mm | EF 35mm
+EF 85mm | EF 100mm | EF 135mm | EF 200mm
+EF 300mm | EF 400mm | EF 500mm | EF 600mm | EF 800mm | EF 1200mm
+EF 15mm Fisheye | EF 135mm with Softfocus
+TS-E 17mm | TS-E 24mm | TS-E 45mm | TS-E 90mm
+EF 50mm Compact Macro | EF-S 60mm Macro | MP-E 65mm 1-5x Macro | EF 100mm Macro | EF 180mm Macro
+Extender EF | Extension Tube
+EF 17-35mm | EF 22-55mm | EF 28-70mm | EF 70-210mm
+EOS 650 (1987), EOS 620 (1987), EOS 750QD (1988), EOS 850QD (1988), EOS 630QD (1989), EOS RT (1989), EOS 700QD (1989), EOS 10sQD (1990), EOS 1000F (199

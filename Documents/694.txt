@@ -1,0 +1,16 @@
+ISO 3166-2
+ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code. It was first published in 1998.
+The purpose of ISO 3166-2 is to establish an international standard of short alphanumeric codes to represent any administrative division of a country in a more convenient and less ambiguous form than its full name. Each ISO 3166-2 code consists of two parts, separated by a hyphen. The first part is the ISO 3166-1 alpha-2 code of the country, and the second part is a string of up to three alphanumeric characters. The second part is usually obtained from national sources and stems from coding systems already in use in the country concerned, but may also be developed by the ISO 3166 Maintenance Agency (ISO 3166/MA) itself. There are currently more than 4200 codes defined in ISO 3166-2.[1]
+ISO 3166-2 is not the only standard for region codes. Examples of other region codes include:
+Moreover, ISO 3166-2 codes may differ from codes defined in local standards or other commonly-used local codes.
+
+For a complete list of the ISO 3166-2 codes of each country sorted by country name, see the section Officially assigned code elements in ISO 3166-1 (the links are in the last column of the table, and can also be sorted by country code).
+
+The format of the ISO 3166-2 codes is different for each country. The codes may be alphabetic, numeric, or alphanumeric, and they may also be of constant or variable length. The following is a table of the ISO 3166-2 codes of each country grouped by their format (excluding countries where no codes are defined):
+For some countries, codes are defined for more than one level of subdivisions. The format shown above is of the codes for the primary subdivisions, i.e., the codes which contain the ISO 3166-1 alpha-2 code of the country as prefix.
+
+There have been two editions of ISO 3166-2. The first edition (ISO 3166-2:1998) was published on 1998-12-20, and the second edition (ISO 3166-1:2007) was published on 2007-12-13.
+Between different editions, the ISO 3166/MA updates the code lists by announcing the changes in newsletters.[2] Changes in ISO 3166-2 comprise mostly of spelling corrections, addition and deletion of subdivisions, and modification of the administrative structure.
+
+
+

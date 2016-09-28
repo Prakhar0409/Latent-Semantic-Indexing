@@ -1,0 +1,8 @@
+BrainGate
+BrainGate is a brain implant system developed by the bio-tech company Cyberkinetics in 2003 in conjunction with the Department of Neuroscience at Brown University. The device was designed to help those who have lost control of their limbs, or other bodily functions, such as patients with amyotrophic lateral sclerosis (ALS) or spinal cord injury. The computer chip, which is implanted into the brain, monitors brain activity in the patient and converts the intention of the user into computer commands.
+Currently the chip uses 96 hair-thin electrodes that sense the electro-magnetic signature of neurons firing in specific areas of the brain, for example, the area that controls arm movement. The activity is translated into electrically charged signals and are then sent and decoded using a program, which can move a robotic arm, a computer cursor, or even a wheelchair. According to the Cyberkinetics' website, three patients have been implanted with the BrainGate system. The company has confirmed that one patient (Matt Nagle) has a spinal cord injury, whilst another has advanced ALS.
+Also with this chip comes the abilitiy to twitch (paralysis) and paralysed nerves into life.
+In addition to real-time analysis of neuron patterns to relay movement, the Braingate array is also capable of recording electrical data for later analysis. A potential use of this feature would be for a neurologist to study seizure patterns in a patient with epilepsy.
+Braingate is currently recruiting patients with a range of neuromuscular and neurodegenerative conditions for pilot clinical trials in the United States.[1]
+
+

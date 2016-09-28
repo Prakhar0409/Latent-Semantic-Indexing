@@ -1,0 +1,11 @@
+ProtoWall
+ProtoWall (formerly eWall) is a closed-source freeware program for IP blocking that is similar to PeerGuardian from Phoenix Labs. It is designed to block connections from organizations such as MediaSentry, BayTSP and MediaDefender while using filesharing networks.
+ProtoWall achieves this via a low-level driver that filters network traffic. It is capable of filtering all NDIS protocols including IPV6 and, most importantly, TCP/IP and UDP – two protocols which are essential for the operation of file-sharing software. The driver sits at a low-level in the system and consequently there is only a small loss of performance when the driver is active.[1]
+ProtoWall's filtering is controlled by the use of blocklists, text files containing the IP addresses of organisations opposed to file-sharing (such as MediaDefender and MediaSentry), and the related Blocklist Manager program.
+Although it works in a similar manner, ProtoWall is not a fully-featured software firewall and is not suitable for securing a computer from internet-based attacks, however it can be used alongside a firewall without problems.
+Unlike similar programs such as PeerGuardian 2 and MoBlock, ProtoWall remains closed-source. The creators of ProtoWall state that ProtoWall remains closed-source to "prevent cloning and others stealing its code."[2]
+
+"Protowall only works on Windows NT based Operating Systems such as Windows XP/2000/2003. Currently Protowall is not 64 bit compliant..." as of beta 2.01 Build 9.[3]
+
+
+

@@ -1,0 +1,20 @@
+Distributed revision control
+Distributed revision control (or Distributed Version Control (Systems) (DVCS), or Decentralized Version Control) is a fairly recent innovation in software revision control. It provides some significant advantages over the more traditional centralized approach to revision control, and it has some defining characteristics that separate it from centralized systems. However, the line between distributed and centralized systems is blurring in some regards, especially since DVCSs can be used in a "centralized mode".
+
+Comparisons are often made between centralized and distributed revision control:
+
+
+
+
+The following points are neither well documentated nor easily understandable:
+
+The distributed model also impacts the traditional developer working model.
+
+The first DVCS is Reliable Software's Code Co-op (1997). First generation DVCSes include Arch and Monotone. The second generation was prompted by the arrival of Darcs, followed by a host of others, including Mercurial, Bazaar, and Git.
+See the List of revision control software for a more comprehensive list.
+
+Some natively centralized systems are starting to grow distributed features. For example, Subversion is able to do many operations with no network, and it is planning to implement local commits.[citation needed] It may become more difficult to separate natively distributed vs centralized systems.
+Due to the explosion of new DVCSs in the last couple of years, it is likely that some of them will slow down or die off.
+There are many tools that rely on version control, such as wikis, file systems, and text editors. Some are starting to adopt DVCS features, and even integrate with them. E.g., the Gazest wiki, ikiwiki. See Category:Software using distributed revision control.
+
+

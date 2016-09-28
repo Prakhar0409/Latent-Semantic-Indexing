@@ -1,0 +1,23 @@
+Conditional comment
+Conditional comments are proprietary conditional statements interpreted by Microsoft Internet Explorer in HTML source code. Conditional comments first appeared in Microsoft's Internet Explorer 5 browser and is supported through at least version 8.[1]
+Conditional comments can be used to provide and hide code to and from Internet Explorer.
+There are two types of "conditional comment", downlevel revealed, and downlevel hidden.
+
+Here is a simple example that demonstrates how conditional comments work.
+
+Below are two examples of a "downlevel hidden" conditional comment:
+or
+The tag in the first example will let IE 7 read the specified CSS file while IE 6 or less will ignore it. Browsers other than IE will also ignore it because it looks like a standard HTML comment. The tag in the second example will let IE versions 5.0 through 7 read the internal CSS style. With different uses of this tag you can also single out IE 6, IE 5, or versions of IE that are greater or lesser than a specified version.
+
+Below is an example of a "downlevel revealed" conditional comment:
+This is recommended by Microsoft for when the content should be exposed to non-IE browsers.
+Microsoft acknowledges this method is not standardized markup for comments,[2] intending these tags to be overlooked by other browsers and expose the content in the middle. Some web developers use an alternative technique[3] for downlevel-revealed conditional comments in order to only use markup that appears less irregular.
+This method has the drawback that if the condition evaluates to true (for example, if writing code meant to display on non-IE browsers and on some versions of IE), IE will then display the "-->" present before the HTML content. This is easily solved by prepending "<!" to the initial "-->" as follows:
+The extra "<!" is ignored by non-IE browsers; it is also ignored by IE regardless of the condition because if false, everything within the conditional comment is ignored, and if true, the resulting tag "<!-->" is unrecognized and therefore ignored.
+While this method is functional in current versions of Internet Explorer, there is no guarantee that future versions will continue to operate this way.
+
+Starting with Internet Explorer 4, there exists a similar proprietary mechanism for adding conditional comments within JScript, known as Conditional Compilation.[4]
+Code examples:
+There are also several predefined variables[1].
+
+

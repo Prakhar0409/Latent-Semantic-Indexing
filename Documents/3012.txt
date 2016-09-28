@@ -1,0 +1,14 @@
+Call graph
+A call graph (also known as a call multigraph) is a directed graph that represents calling relationships between subroutines in a computer program. Specifically, each node represents a procedure and each edge (f,g) indicates that procedure f calls procedure g. Thus, a cycle in the graph indicates recursive procedure calls.
+Call graphs are a basic program analysis result that can be used for human understanding of programs, or as a basis for further analyses, such as an analysis that tracks the flow of values between procedures. One simple application of call graphs is finding procedures that are never called.
+Call graphs can be dynamic or static. A dynamic call graph is a record of an execution of the program, e.g., as output by a profiler. Thus, a dynamic call graph can be exact, but only describes one run of the program. A static call graph is a call graph intended to represent every possible run of the program. The exact static call graph is undecidable, so static call graph algorithms are generally overapproximations. That is, every call relationship that occur is represented in the graph, and possibly also some call relationships that would never occur in actual runs of the program.
+Call graphs can be defined to represent varying degrees of precision. A more precise call graph more precisely approximates the behavior of the real program, at the cost of taking longer to compute and more memory to store. The most precise call graph is fully context-sensitive, which means that for each procedure, the graph contains a separate node for each call stack that procedure can be activated with. A fully context-sensitive call graph can be computed dynamically easily, although it may take up a large amount of memory. Fully context-sensitive call graphs are usually not computed statically, because it would take too long for a large program. The least precise call graph is context-insensitive, which means that there is only one node for each procedure.
+With languages that feature dynamic dispatch, such as Java and C++, computing a static call graph precisely requires alias analysis results. Conversely, computing precise aliasing requires a call graph. Many static analysis systems solve the apparent infinite regress by computing both simultaneously.
+This term is frequently used in the compiler and binary translation community. By tracking a call graph, it may be possible to detect anomalies of program execution or code injection attacks[citation needed].
+
+
+
+
+
+A sample Call Graph generate from GProf analyzing itself (while analyzing itself):
+

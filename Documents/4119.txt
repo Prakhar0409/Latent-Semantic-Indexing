@@ -1,0 +1,18 @@
+Brodmann area
+A Brodmann area is a region of the cortex defined based on its cytoarchitecture, or organization of cells.
+Brodmann areas were originally defined and numbered by Korbinian Brodmann based on the organization of neurons he observed in the cortex using the Nissl stain. Brodmann published his maps of cortical areas in humans, monkeys, and other species in 1909, along with many other findings and observations regarding the general cell types and laminar organization of the mammalian cortex. (The same Brodmann area number in different species does not necessarily indicate homologous areas.) Although the Brodmann areas have been discussed, debated, refined, and renamed exhaustively for nearly a century, they remain the most widely known and frequently cited cytoarchitectural organization of the human cortex. Many of the areas Brodmann defined based solely on their neuronal organization have since been correlated closely to diverse cortical functions. For example, Brodmann areas 1, 2 and 3 are the primary somatosensory cortex; area 4 is the primary motor cortex; area 17 is the primary visual cortex; and areas 41 and 42 correspond closely to primary auditory cortex. Higher order functions of the association cortical areas are also consistently localized to the same Brodmann areas by neurophysiological, functional imaging, and other methods (e.g., the consistent localization of Broca's speech and language area to the left Brodmann areas 44 and 45).
+Some of the original Brodmann areas have been subdivided further, e.g., "23a" and "23b".[1]
+
+(*) Area only found in non-human primates.
+
+When von Bonin and Bailey were to construct a brain map for the macaque monkey they found the description of Brodmann inadequate and wrote:
+They instead used the cytoarchitechtonic scheme of Constantin von Economo and Georg N. Koskinas published in 1925[3] which had the "only acceptable detailed description of the human cortex".
+
+
+
+Superior frontal gyrus/Frontal eye fields (6, 8, 9) Â· Middle frontal gyrus (46) Â· Inferior frontal gyrus/Broca's area (44-Pars opercularis, 45-Pars triangularis)
+Orbitofrontal cortex (10, 11, 12, 47)
+Prefrontal cortex Â· Premotor cortex
+Parietal lobules (Superior (7l) Â· Inferior (40)) Â· Angular gyrus (39)
+Internal capsule (Anterior limb Â· Genu Â· Posterior limb) Â· Corona radiata Â· External capsule Â· Lamina terminalis Â· Extreme capsule Â· Semioval center
+gray: Olfactory bulb Â· Anterior olfactory nucleus Â· Basal optic nucleus of Meynert Â· Substantia innominata Â· Anterior perforated substance

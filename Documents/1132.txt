@@ -1,0 +1,39 @@
+Continuous integration
+Continuous integration describes a set of software engineering practices that speed up the delivery of software by decreasing integration times.
+
+When embarking on a change, a developer takes a copy of the current codebase on which to work. As changed code is submitted to the repository by other developers, this copy gradually ceases to reflect the repository code. When the developer submits code to the repository they must first update their code to reflect the changes in the repository since they took their copy. The more changes there are to the repository, the more work the developer must do before submitting their own changes.
+Eventually, the repository may become so different from the developer's baseline that they enter what is sometimes called, "integration hell," where the time it takes to integrate is greater than the time it took to make their original changes. In a worse case scenario, the changes the developer is making may have to be discarded and the work redone.
+Continuous Integration is the practice of integrating early and often, so as to avoid the pitfalls of "integration hell". The ultimate goal is to reduce timely rework and thus reduce cost and time. When done well, continuous integration has been shown to achieve these goals.
+The rest of this article discusses best practice in how to achieve continuous integration, and how to automate this practice (automation is considered best practice itself).
+
+Continuous integration itself refers to the practice of frequently integrating one's code with the code that is to be released (often this is the trunk, but that is not necessarily the case). The term 'frequently' is open to interpretation, but is often taken to mean "many times every day".
+
+This practice advocates the use of a revision control system for the project's source code. All artifacts that are needed to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies. Extreme Programming advocate Martin Fowler also mentions that where branching is supported by tools, its use should be minimised. Instead, it is preferred that changes are integrated rather than creating multiple versions of the software that are maintained simultaneously. The mainline (or trunk) should be the place for the working version of the software.
+
+The system should be buildable using a single command. Many build tools exist, such as make, which has existed for many years. Other more recent tools like Ant, Maven or MSBuild are frequently used in Continuous Integration environments. Automation of the build should include automating the integration, which often includes deployment into a production-like environment. In many cases, the build script not only compiles binaries, but also generates documentation, website pages, statistics and distribution media (such as Windows MSI files or RPM files).
+
+This touches on another aspect of best practice, Test-driven development. Briefly, this is the practice of writing a test that demonstrates a lack of functionality in the system, and then writing the code that makes the test pass.
+Once the code is built, all the tests should be run to confirm that it behaves as the developers expect it to behave.
+
+By committing regularly, every committer can reduce the number of conflicting changes. Checking in weeks worth of work runs the risk of conflicting with other features and can be very difficult to solve. Early, small conflicts in an area of the system cause team members to communicate about the change they are making.
+
+Commits to the current working version should be built to verify they have been integrated correctly. A common practice is to use Automated Continuous Integration, although this may be done manually. In fact, James Shore prefers this approach. For many, continuous integration is synonymous with using Automated Continuous Integration where a continuous integration server or daemon monitors the version control system for changes, then automatically runs the build process.
+
+The build needs to be fast, so that if there is a problem with integration, it is quickly identified.
+
+Having a test environment can lead to failures in tested systems when they are deployed to the production environment, because the production environment may differ from the test environment in a significant way.
+
+Making builds readily available to stakeholders and testers can reduce the amount of rework necessary when rebuilding a feature that doesn't meet requirements. Additionally, early testing reduces the chances that defects survive until deployment. Finding issues earlier also, in some cases, reduces the amount of work necessary to resolve them.
+
+It should be easy to find out whether the build is broken and who made the change.
+
+
+Continuous Integration emerged in the Extreme Programming (XP) community, and XP advocates Martin Fowler and Kent Beck first wrote about continuous integration near the turn of the millennium. Fowler's paper[1] (and following book[2]) is a popular source of information on the subject. Beck's book Extreme Programming Explained (1999, ISBN 0-201-61641-6), the original reference for Extreme Programming, also describes the term.
+
+Continuous integration has many advantages:
+
+Notable examples of continuous integration software include:
+
+
+
+

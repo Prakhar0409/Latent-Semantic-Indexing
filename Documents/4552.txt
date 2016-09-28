@@ -1,0 +1,60 @@
+Bond market
+Bond market
+Fixed income
+Corporate bond
+Government bond
+Municipal bond
+Bond valuation
+High-yield debt
+Stock market
+Stock
+Preferred stock
+Common stock
+Registered share
+Voting share
+Stock exchange
+Foreign exchange market
+Derivatives market
+Credit derivative
+Hybrid security
+Options
+Futures
+Forwards
+Swaps
+Other Markets
+Commodity market
+Money market
+OTC market
+Real estate market
+Spot market
+Finance series
+Financial market
+Financial market participants
+Corporate finance
+Personal finance
+Public finance
+Banks and Banking
+Financial regulation
+The bond market (also known as the debt, credit, or fixed income market) is a financial market where participants buy and sell debt securities, usually in the form of bonds. As of 2006, the size of the international bond market is an estimated $45 trillion, of which the size of the outstanding U.S. bond market debt was $25.2 trillion.
+Nearly all of the $923 billion average daily trading volume (as of early 2007) in the U.S. bond market takes place between broker-dealers and large institutions in a decentralized, over-the-counter (OTC) market. However, a small number of bonds, primarily corporate, are listed on exchanges.
+References to the "bond market" usually refer to the government bond market, because of its size, liquidity, lack of credit risk and, therefore, sensitivity to interest rates. Because of the inverse relationship between bond valuation and interest rates, the bond market is often used to indicate changes in interest rates or the shape of the yield curve.
+
+Bond markets in most countries remain decentralized and lack common exchanges like stock, future and commodity markets. This has occurred, in part, because no two bond issues are exactly alike, and the number of different securities outstanding is far larger.
+However, the New York Stock Exchange (NYSE) is the largest centralized bond market, representing mostly corporate bonds. The NYSE migrated from the Automated Bond System (ABS) to the NYSE Bonds trading system in April 2007 and expects the number of traded issues to increase from 1000 to 6000.[1]
+
+The Securities Industry and Financial Markets Association classifies the broader bond market into five specific bond markets.
+
+Bond market participants are similar to participants in most financial markets and are essentially either buyers (debt issuer) of funds or sellers (institution) of funds and often both.
+Participants include:
+Because of the specificity of individual bond issues, and the lack of liquidity in many smaller issues, the majority of outstanding bonds are held by institutions like pension funds, banks and mutual funds. In the United States, approximately 10% of the market is currently held by private individuals.
+
+For market participants who own a bond, collect the coupon and hold it to maturity, market volatility is irrelevant; principal and interest are received according to a pre-determined schedule.
+But participants who buy and sell bonds before maturity are exposed to many risks, most importantly changes in interest rates. When interest rates increase, the value of existing bonds fall, since new issues pay a higher yield. Likewise, when interest rates decrease, the value of existing bonds rise, since new issues pay a lower yield. This is the fundamental concept of bond market volatility: changes in bond prices are inverse to changes in interest rates. Fluctuating interest rates are part of a country's monetary policy and bond market volatility is a response to expected monetary policy and economic changes.
+Economists' views of economic indicators versus actual released data contribute to market volatility. A tight consensus is generally reflected in bond prices and there is little price movement in the market after the release of "in-line" data. If the economic release differs from the consensus view the market usually undergoes rapid price movement as participants interpret the data. Uncertainty (as measured by a wide consensus) generally brings more volatility before and after an economic release. Economic releases vary in importance and impact depending on where the economy is in the business cycle.
+
+Investment companies allow individual investors the ability to participate in the bond markets through bond funds, closed-end funds and unit-investment trusts. In 2006 total bond fund net inflows increased 97% from $30.8 billion in 2005 to $60.8 billion in 2006.[2] Exchange-traded funds (ETFs) are another alternative to trading or investing directly in a bond issue. These securities allow individual investors the ability to overcome large initial and incremental trading sizes.
+
+A number of bond indices exist for the purposes of managing portfolios and measuring performance, similar to the S&P 500 or Russell Indexes for stocks. The most common American benchmarks are the Lehman Aggregate, Citigroup BIG and Merrill Lynch Domestic Master. Most indices are parts of families of broader indices that can be used to measure global bond portfolios, or may be further subdivided by maturity and/or sector for managing specialized portfolios.
+
+
+

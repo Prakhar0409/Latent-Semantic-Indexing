@@ -1,0 +1,8 @@
+Stackless Python
+Stackless Python, or Stackless, is a Python programming language interpreter, so named because it avoids depending on the C call stack for its own stack. The most prominent feature of Stackless is microthreads, which avoid much of the overhead associated with usual operating system threads. In addition to Python features, Stackless also adds support for coroutines, communication channels and task serialization.
+Stackless microthreads are managed by the language interpreter itself, not the operating system kernel—context switching and task scheduling is done purely in the interpreter. This avoids many of the overheads of threads, because no mode switching between user mode and kernel mode needs to be done, and can significantly reduce CPU load in some high-concurrency situations.
+Due to the considerable number of changes in the source, Stackless Python cannot be installed on a preexisting Python installation as an extension or library. It is instead a complete Python distribution in itself. The majority of Stackless' features have also been implemented in PyPy, a self-hosting Python interpreter and JIT compiler.
+Stackless is used extensively in the implementation of the EVE Online massively multiplayer online game to provide for concurrency,[1] as well as in IronPort's mail platform. Second Life is also beginning to use it.[2]
+
+
+

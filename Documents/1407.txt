@@ -1,0 +1,19 @@
+Beryl (window manager)
+Beryl was a compositing window manager for the X Window System which forked from Compiz in September 2006 and was re-merged in 2007[1], under the name of Compiz Fusion.
+
+Beryl was the project name for the Quinnstorm branch of Compiz, announced on 19 September 2006 after Quinnstorm and the development team decided that the fork had come too far from the original Compiz started by Novell (compiz-vanilla). After the Novell XGL/Compiz team (mostly David Reveman) refused the proposition to merge the Quinnstorm changes with compiz-vanilla, the decision was made to make a real differentiation.[2][3] In 2007, they remerged into Compiz-Fusion.
+
+Notable differences between Compiz and Beryl were the following:
+
+Like Compiz and unlike traditional window managers, Beryl delegated the drawing of window borders to a separate process, called a window decorator. There were three of them, all named after varieties of beryl, although only Emerald was considered stable.
+
+According to the Beryl FAQ, Beryl ran acceptably well on a GeForce 3/Intel i855/Radeon 7500, 256MB of RAM, and a 1.2GHz processor, although the processor is not a strong requirement[citation needed]. Version 7.1 of Xorg and a recent version of Mesa 3D was recommended. [1]
+
+Included in the 0.1.4 release were the following plugins. As of the 0.1.4 release plugins were sorted into groups. Also introduced in 0.1.4 was a new plugin configuration interface that was more intuitive. Plugins were sorted into groups and the actual options for each plugin were also sorted more intuitively.
+
+The first official release of the project (Version 0.1.0) along with Emerald and Beryl-manager came on 29 September 2006. The second 'stable' release (Version 0.2.0) came on 15 March 2007[6], shortly followed by an almost identical Version 0.2.1, the only changes being to update licensing and where the source code was stored[7].
+
+As of March 30, 2007, Beryl and Compiz have decided to merge their projects back into one[8]. The Beryl project has been shut down in favor of the new merged project Compiz Fusion[9]; its main activities will be focused on installation, configuration and additional plugins for addition to the core functionalities of Compiz, which will be responsible for core and base plugins.
+
+
+

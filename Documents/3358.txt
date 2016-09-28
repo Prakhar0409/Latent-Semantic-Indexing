@@ -1,0 +1,23 @@
+Fedora (software)
+Fedora (or Flexible Extensible Digital Object Repository Architecture) (not to be confused with the Linux distribution named Fedora) is a modular architecture built on the principle that interoperability and extensibility is best achieved by the integration of data, interfaces, and mechanisms (i.e., executable programs) as clearly defined modules. Fedora is a digital asset management (DAM) architecture, upon which many types of digital library, institutional repositories, digital archives, and digital libraries systems might be built. Fedora is the underlying architecture for a digital repository, and is not a complete management, indexing, discovery, and delivery application.
+
+Fedora was originally developed at Cornell University in 1997 by Sandra Payette, Carl Lagoze and Naomi Dushay. Since then, several modifications have been made to the architecture, and in late 2005, version 2.1 was released. The current version is 3.1.
+Fedora is developed jointly by Cornell University Information Science and the University of Virginia Library. Fedora began as a DARPA and NSF-funded research project of Carl Lagoze and Sandy Payette at Cornell University's Digital Library Research Group in 1997, where the first reference implementation and a CORBA-based technical implementation were built. The Fedora Project is currently supported by grants from the Andrew W. Mellon Foundation and the Gordon and Betty Moore Foundation, and is directed by Sandy Payette from Cornell and Thornton Staples from the University of Virginia.
+
+Fedora provides a general-purpose management layer for digital objects. Object management is based on content models that represent data objects (units of content) or collections of data objects. The objects contain linkages between datastreams (internally managed or external content files), metadata (inline or external), system metadata (including a PID – persistent identifier – that is unique to the repository), and behaviors that are themselves code objects that provide bindings or links to disseminators (software processes that can be used with the datastreams). Content models can be thought of as containers that give a useful shape to information poured into them; if the information fits the container, it can immediately be used in predefined ways.
+Fedora supports two types of access services: a management client for ingest, maintenance, and export of objects; or via API hooks for customized web-based access services built on either HTTP or SOAP. A Fedora Repository provides a general-purpose management layer for digital objects, and containers that aggregate mime-typed datastreams (e.g., digital images, XML files, metadata). Out-of-the-box Fedora includes the necessary software tools to ingest, manage, and provide basic delivery of objects with few or no custom disseminators, or can be used as a backend to a more monolithic user interface.
+
+Fedora supports ingest and export of digital objects in a variety of XML formats. This enables interchange between Fedora and other XML-based applications and facilitates archiving tasks.
+
+The FEDORA digital object model allows tight management of metadata and digital content, regardless of format. The system is scalable and flexible allowing for FEDORA to associate objects with external or distributed repositories. Objects and behaviour are separated making it possible to change the required behaviours by altering the mechanisms without changing the objects themselves.
+
+FEDORA server architecture is based upon four main Application Programming Interfaces (APIs): manage, access, search and the Open Archival Initiative service (for metadata harvesting).
+There are various applications that can be implemented as a front end layer over Fedora.
+
+
+The Fedora software is available under the terms of the Apache License.
+
+When the Fedora Core distribution was created by Red Hat, and the name adopted, Red Hat attempted to assert its trademark against the Cornell software. Cornell University and the University of Virginia considered legal action against Red Hat.
+References:
+Further discussion of this dispute seems to be either unspoken or under wraps; both projects continue to use the name and there seems to be no further press since November 2003.
+

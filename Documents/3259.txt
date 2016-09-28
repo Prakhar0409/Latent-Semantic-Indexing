@@ -1,0 +1,83 @@
+Welfare economics
+Africa Â· North America
+South America Â· Asia
+Europe Â· Oceania
+Microeconomics Â· Macroeconomics
+History of economic thought
+Methodology Â· Heterodox approaches
+Mathematical Â· Econometrics
+Experimental Â· National accounting
+Behavioral Â· Cultural Â· Evolutionary
+Growth Â· Development Â· History
+International Â· Economic systems
+Monetary and financial
+Public and welfare economics
+Health Â· Labour Â· Managerial
+Business Â· Information Â· Game theory
+Industrial organization  Â· Law
+Agricultural Â· Natural resource
+Environmental Â· Ecological
+Urban Â· Rural Â· Regional
+Journals Â· Publications
+Categories Â· Topics Â· Economists
+Anarchism Â· Capitalism
+Communism Â· Corporatism
+Fascism Â· Georgism
+Islamic Â· Laissez-faire
+Market socialism Â· Mercantilism
+Protectionism Â· Socialism
+Syndicalism Â· Third Way
+Anglo-Saxon Â· Feudalism
+International Â· Hunter-gatherer
+Newly industrialized country
+Palace Â· Plantation
+Post-capitalism Â· Post-industrial
+Social market Â· Socialist market
+Token Â· Traditional
+Information Â· Transition
+Welfare economics is a branch of economics that uses microeconomic techniques to simultaneously determine allocative efficiency within an economy and the income distribution associated with it.[citation needed] It analyzes social welfare, however measured, in terms of economic activities of the individuals that comprise the theoretical society considered. As such, individuals, with associated economic activities, are the basic units for aggregating to social welfare, whether of a group, a community, or a society, and there is no "social welfare" apart from the "welfare" associated with its individual units.
+Welfare economics typically takes individual preferences as given and stipulates a welfare improvement in Pareto efficiency terms from social state A to social state B if at least one person prefers B and no one else opposes it. There is no requirement of a unique quantitative measure of the welfare improvement implied by this. Another aspect of welfare treats income/goods distribution, including equality, as a further dimension of welfare.[1]
+Social welfare refers to the overall welfare of society. With sufficiently strong assumptions, it can be specified as the summation of the welfare of all the individuals in the society. Welfare may be measured either cardinally in terms of "utils" or dollars, or measured ordinally in terms of Pareto efficiency. The cardinal method in "utils" is seldom used in pure theory today because of aggregation problems that make the meaning of the method doubtful, except on widely challenged underlying assumptions. In applied welfare economics, such as in cost-benefit analysis, money-value estimates are often used, particularly where income-distribution effects are factored into the analysis or seem unlikely to undercut the analysis.
+Since the early 1980s economists have been interested in a number of new approaches and issues in welfare economics. The capabilities approach to welfare argues that what people are free to do or be should also be included in welfare assessments and the approach has been particularly influential in development policy circles where the emphasis on multi-dimensionality and freedom has shaped the evolution of the Human Development Index.
+Economists have also been interested in using life satisfaction to measure what Kahneman and colleagues call experienced utility.
+What follows, for the most part, therefore refers to a particular approach to welfare economics, possibly best referred to as 'neo-classical' or 'traditional' welfare economics.
+Other classifying terms or problems in welfare economics include externalities, equity, justice, inequality, and altruism.
+
+There are two approaches that can be taken to welfare economics: the early Neoclassical approach and the New welfare economics approach.
+The early Neoclassical approach was developed by Edgeworth, Sidgwick, Marshall, and Pigou. It assumes that:
+With these assumptions, it is possible to construct a social welfare function simply by summing all the individual utility functions.
+The New Welfare Economics approach is based on the work of Pareto, Hicks, and Kaldor. It explicitly recognizes the differences between the efficiency part of the discipline and the distribution part and treats them differently. Questions of efficiency are assessed with criteria such as Pareto efficiency and the Kaldor-Hicks compensation tests, while questions of income distribution are covered in social welfare function specification. Further, efficiency dispenses with cardinal measures of utility: ordinal utility, which merely ranks commodity bundles, such as represented by an indifference-curve map is adequate for this analysis.
+
+Situations are considered to have distributive efficiency when goods are distributed to the people who can gain the most utility from them.
+Many economists use Pareto efficiency as their efficiency goal. According to this measure of social welfare, a situation is optimal only if no individuals can be made better off without making someone else worse off.
+This ideal state of affairs can only come about if four criteria are met:
+There are a number of conditions that, most economists agree, may lead to inefficiency. They include:
+To determine whether an activity is moving the economy towards Pareto efficiency, two compensation tests have been developed. Any change usually makes some people better off while making others worse off, so these tests ask what would happen if the winners were to compensate the losers. Using the Kaldor criterion, an activity will contribute to Pareto optimality if the maximum amount the gainers are prepared to pay is greater than the minimum amount that the losers are prepared to accept. Under the Hicks criterion, an activity will contribute to Pareto optimality if the maximum amount the losers are prepared to offer to the gainers in order to prevent the change is less than the minimum amount the gainers are prepared to accept as a bribe to forgo the change. The Hicks compensation test is from the losers' point of view, while the Kaldor compensation test is from the gainers' point of view. If both conditions are satisfied, both gainers and losers will agree that the proposed activity will move the economy toward Pareto optimality. This is referred to as Kaldor-Hicks efficiency or the Scitovsky criterion.
+See also: first welfare theorem
+
+There are many combinations of consumer utility, production mixes, and factor input combinations consistent with efficiency. In fact, there are an infinity of consumer and production equilibria that yield Pareto optimal results. There are as many optima as there are points on the aggregate production possibilities frontier. Hence, Pareto efficiency is a necessary, but not a sufficient condition for social welfare. Each Pareto optimum corresponds to a different income distribution in the economy. Some may involve great inequalities of income. So how do we decide which Pareto optimum is most desirable? This decision is made, either tacitly or overtly, when we specify the social welfare function. This function embodies value judgements about interpersonal utility. The social welfare function is a way of mathematically stating the relative importance of the individuals that comprise society.
+A utilitarian welfare function (also called a Benthamite welfare function) sums the utility of each individual in order to obtain society's overall welfare. All people are treated the same, regardless of their initial level of utility. One extra unit of utility for a starving person is not seen to be of any greater value than an extra unit of utility for a millionaire. At the other extreme is the Max-Min, or Rawlsian John Rawls utility function (Stiglitz, 2000, p102). According to the Max-Min criterion, welfare is maximized when the utility of those society members that have the least is the greatest. No economic activity will increase social welfare unless it improves the position of the society member that is the worst off. Most economists specify social welfare functions that are intermediate between these two extremes.
+The social welfare function is typically translated into social indifference curves so that they can be used in the same graphic space as the other functions that they interact with. A utilitarian social indifference curve is linear and downward sloping to the right. The Max-Min social indifference curve takes the shape of two straight lines joined so as they form a 90 degree angle. A social indifference curve drawn from an intermediate social welfare function is a curve that slopes downward to the right.
+The intermediate form of social indifference curve can be interpreted as showing that as inequality increases, a larger improvement in the utility of relatively rich individuals is needed to compensate for the loss in utility of relatively poor individuals.
+A crude social welfare function can be constructed by measuring the subjective dollar value of goods and services distributed to participants in the economy (see also consumer surplus).
+
+The basic welfare economics problem is to find the theoretical maximum of a social welfare function, subject to various constraints such as the state of technology in production, available natural resources, national infrastructure, and behavioural constraints such as consumer utility maximization and producer profit maximization. In the simplest possible economy this can be done by simultaneously solving seven equations. This simple economy would have only two consumers (consumer 1 and consumer 2), only two products (product X and product Y), and only two factors of production going into these products (labour (L) and capital (K)). The model can be stated as:
+The solution to this problem yields a Pareto optimum. In a more realistic example of millions of consumers, millions of products, and several factors of production, the math gets more complicated.
+Also, finding a solution to an abstract function does not directly yield a policy recommendation! In other words, solving an equation does not solve social problems. However, a model like the one above can be viewed as an argument that solving a social problem (like achieving a Pareto-optimal distribution of wealth) is at least theoretically possible.
+
+The relation between production and consumption in a simple seven equation model (2x2x2 model) can be shown graphically. In the diagram below, the aggregate production possibility frontier, labeled PQ shows all the points of efficiency in the production of goods X and Y. If the economy produces the mix of good X and Y shown at point A, then the marginal rate of transformation (MRT), X for Y, is equal to 2.
+Point A defines the boundaries of an Edgeworth box diagram of consumption. That is, the same mix of products that are produced at point A, can be consumed by the two consumers in this simple economy. The consumers' relative preferences are shown by the indifference curves inside the Edgeworth box. At point B the marginal rate of substitution (MRS) is equal to 2, while at point C the marginal rate of substitution is equal to 3. Only at point B is consumption in balance with production (MRS=MRT). The curve 0BCA (often called the contract curve) inside the Edgeworth box defines the locus of points of efficiency in consumption (MRS1=MRS Â²). As we move along the curve, we are changing the mix of goods X and Y that individuals 1 and 2 choose to consume. The utility data associated with each point on this curve can be used to create utility functions.
+
+Utility functions can be derived from the points on a contract curve. Numerous utility functions can be derived, one for each point on the production possibility frontier (PQ in the diagram above). A social utility frontier (also called a grand utility frontier) can be obtained from the outer envelope of all these utility functions. Each point on a social utility frontier represents an efficient allocation of an economy's resources; that is, it is a Pareto optimum in factor allocation, in production, in consumption, and in the interaction of production and consumption (supply and demand). In the diagram below, the curve MN is a social utility frontier. Point D corresponds with point B from the earlier diagram. Point D is on the social utility frontier because the marginal rate of substitution at point B is equal to the marginal rate of transformation at point A. Point E corresponds with point C in the previous diagram, and lies inside the social utility frontier (indicating inefficiency) because the MRS at point C is not equal to the MRT at point A.
+Although all the points on the grand social utility frontier are Pareto efficient, only one point identifies where social welfare is maximized. This is point Z where the social utility frontier MN is tangent to the highest possible social indifference curve labelled SI.
+
+Welfare economics uses many of the same techniques as microeconomics and can be seen as intermediate or advanced microeconomic theory. Its results are applicable to macroeconomic issues so welfare economics is somewhat of a bridge between the two branches of economics.
+Cost-benefit analysis is a specific application of welfare economics techniques, but excludes the income distribution aspects.
+Political science also looks into the issue of social welfare (political science), but in a less quantitative manner.
+Human development theory explores these issues also, and considers them fundamental to the development process itself.
+
+Paretian welfare economics rests on the assumed value judgment that, if a particular change in the economy leaves at least one individual better off and no individual worse off, social welfare may be said to have increased. (One individual being better off than other individuals and not leaving other individuals worse off is possible in societies, where political power is not related to economic power.) In this sense, an individualistic approach to social welfare is defined, with concern extending to all individuals in society, and with an explicit rejection of any â€˜organicâ€™ concept of the State[2].
+
+Some, such as economists in the tradition of the Austrian School, doubt whether a cardinal utility function, or cardinal social welfare function, is of any value. The reason given is that it is difficult to aggregate the utilities of various people that have differing marginal utility of money, such as the wealthy and the poor.
+Also, the economists of the Austrian School question the relevance of pareto optimal allocation considering situations where the framework of means and ends is not perfectly known, since neoclassical theory always assumes that the ends-means framework is perfectly defined.
+Some even question the value of ordinal utility functions. They have proposed other means of measuring well-being as an alternative to price indices, "willingness to pay" functions, and other price oriented measures.[citation needed] These price based measures are seen as promoting consumerism and productivism by many.[citation needed] It should be noted that it is possible to do welfare economics without the use of prices, however this is not always done.[

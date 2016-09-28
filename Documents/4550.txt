@@ -1,0 +1,20 @@
+Niklaus Wirth
+Niklaus Emil Wirth (born February 15, 1934) is a Swiss computer scientist, best known for designing several programming languages, including Pascal, and for pioneering several classic topics in software engineering. In 1984 he won the Turing Award for developing a sequence of innovative computer languages.
+
+Wirth was born in Winterthur, Switzerland, in 1934. In 1959 he earned a degree in Electronics Engineering from the Swiss Federal Institute of Technology Zürich (ETH Zürich). In 1960 he earned an M.Sc. from Université Laval, Canada. Then in 1963 he was awarded a Ph.D.in EECS from the University of California, Berkeley, supervised by the computer designer pioneer Harry Huskey.
+From 1963 to 1967 he served as assistant professor of Computer Science at Stanford University and again at the University of Zurich. Then in 1968 he became Professor of Informatics at ETH Zürich, taking a two year sabbatical at Xerox PARC in California. Wirth retired in 1999.
+
+Wirth was the chief designer of the programming languages Euler, Algol W, Pascal, Modula, Modula-2 and Oberon. He was also a major part of the design and implementation team for the Lilith and Oberon operating systems, and for the Lola digital hardware design and simulation system. He received the ACM Turing Award for the development of these languages and in 1994 he was inducted as a Fellow of the ACM. He designed the simple programming language PL/0 to illustrate compiler design. It has formed the basis for many university compiler design classes.
+
+His article Program Development by Stepwise Refinement, about the teaching of programming, is considered to be a classic text in software engineering. In 1975 he wrote the book Algorithms + Data Structures = Programs, which gained wide recognition and is still useful today.
+
+In 1995, he popularized the adage now known as Wirth's law: "Software is getting slower more rapidly than hardware becomes faster." In his 1995 paper A Plea for Lean Software he attributes it to Martin Reiser.[1]
+
+"Whereas Europeans generally pronounce my name the right way ('Nick-louse Veert'), Americans invariably mangle it into 'Nickel's Worth.' This is to say that Europeans call me by name, but Americans call me by value."[citation needed]
+"In our profession, precision and perfection are not a dispensable luxury, but a simple necessity."
+"Reliable and transparent programs are usually not in the interest of the designer."
+
+
+
+Perlis (1966)�· Wilkes (1967)�· Hamming (1968)�· Minsky (1969)�· Wilkinson (1970)�· McCarthy (1971)�· Dijkstra (1972)�· Bachman (1973)�· Knuth (1974)�· Newell / Simon (1975)�· Rabin / Scott (1976)�· Backus (1977)�· Floyd (1978)�· Iverson (1979)�· Hoare (1980)�· Codd (1981)�· Cook (1982)�· Thompson / Ritchie (1983)�· Wirth (1984)�· Karp (1985)�· Hopcroft / Tarjan (1986)�· Cocke (1987)�· Sutherland (1988)�· Kahan (1989)�· Corbató (1990)�· Milner (1991)�· Lampson (1992)�· Hartmanis / Stearns (1993)�· Feigenbaum / Reddy (1994)�· Blum (1995)�· Pnueli (1996)�· Engelbart (1997)�· Gray (1998)�· Brooks (1999)�· Yao (2000)�· Ole-Johan Dahl / Kristen Nygaard (2001)�· Ron Rivest / Adi Shamir / Leonard Adleman (2002)�· Alan Kay (2003)�· Vint Cerf / Bob Kahn (2004)�· Peter Naur (2005)�· Frances E. Allen (2006)�· Edmund M. Clarke / E. Allen Emerson / Joseph Sifakis (2007)�· Barbara Liskov (2008)
+

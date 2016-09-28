@@ -1,0 +1,63 @@
+Mobile banking
+Mobile banking (also known as M-Banking, mbanking, SMS Banking etc.) is a term used for performing balance checks, account transactions, payments etc. via a mobile device such as a mobile phone. Mobile banking today (2007) is most often performed via SMS or the Mobile Internet but can also use special programs called clients downloaded to the mobile device.
+
+In one academic model,[1] mobile banking is defined as:
+"Mobile Banking refers to provision and availment of banking- and financial services with the help of mobile telecommunication devices.The scope of offered services may include facilities to conduct bank and stock market transactions, to administer accounts and to access customised information."
+According to this model Mobile Banking can be said to consist of three inter-related concepts:
+Most services in the categories designated Accounting and Brokerage are transaction-based. The non-transaction-based services of an informational nature are however essential for conducting transactions - for instance, balance inquiries might be needed before committing a money remittance. The accounting and brokerage services are therefore offered invariably in combination with information services. Information services, on the other hand, may be offered as an independent module.
+
+The advent of the Internet has revolutionized the way the financial services industry conducts business, empowering organizations with new business models and new ways to offer 24x7 accessibility to their customers.
+The ability to offer financial transactions online has also created new players in the financial services industry, such as online banks, online brokers and wealth managers who offer personalized services, although such players still account for a tiny percentage of the industry.
+Over the last few years, the mobile and wireless market has been one of the fastest growing markets in the world and it is still growing at a rapid pace. According to the GSM Association and Ovum, the number of mobile subscribers exceeded 2 billion in September 2005, and now exceeds 2.5 billion (of which more than 2 billion are GSM).
+According to a study by financial consultancy Celent, 35% of online banking households will be using mobile banking by 2010, up from less than 1% today. Upwards of 70% of bank center call volume is projected to come from mobile phones. Mobile banking will eventually allow users to make payments at the physical point of sale. "Mobile contactless payments” will make up 10% of the contactless market by 2010.[2]
+Many believe that mobile users have just started to fully utilize the data capabilities in their mobile phones. In Asian countries like India, China, Bangladesh, Indonesia and Philippines, where mobile infrastructure is comparatively better than the fixed-line infrastructure, and in European countries, where mobile phone penetration is very high (at least 80% of consumers use a mobile phone), mobile banking is likely to appeal even more.
+This opens up huge markets for financial institutions interested in offering value added services. With mobile technology, banks can offer a wide range of services to their customers such as doing funds transfer while travelling, receiving online updates of stock price or even performing stock trading while being stuck in traffic. According to the German mobile operator Mobilcom, mobile banking will be the "killer application" for the next generation of mobile technology.
+Mobile devices, especially smartphones, are the most promising way to reach the masses and to create “stickiness” among current customers, due to their ability to provide services anytime, anywhere, high rate of penetration and potential to grow. According to Gartner, shipment of smartphones is growing fast, and should top 20 million units (of over 800 million sold) in 2006 alone.
+In the last 4 years, banks across the globe have invested billions of dollars to build sophisticated internet banking capabilities. As the trend is shifting to mobile banking, there is a challenge for CIOs and CTOs of these banks to decide on how to leverage their investment in internet banking and offer mobile banking, in the shortest possible time.[citation needed]
+The proliferation of the 3G (third generation of wireless) and widespread implementation expected for 2003–2007 will generate the development of more sophisticated services such as multimedia and links to m-commerce services.
+
+A wide spectrum of Mobile/branchless banking models is evolving. However, no matter what business model, if mobile banking is being used to attract low-income populations in often rural locations, the business model will depend on banking agents, i.e., retail or postal outlets that process financial transactions on behalf telcos or banks. The banking agent is an important part of the mobile banking business model since customer care, service quality, and cash management will depend on them. Many telcos will work through their local airtime resellers. However, banks in Colombia, Brazil, Peru, and other markets use pharmacies, bakeries, etc.
+These models differ primarily on the question that who will establish the relationship (account opening, deposit taking, lending etc.) to the end customer, the Bank or the Non-Bank/Telecommunication Company (Telco). Another difference lies in the nature of agency agreement between bank and the Non-Bank. Models of branchless banking can be classified into three broad categories - Bank Focused, Bank-Led and Nonbank-Led.
+
+The bank-focused model emerges when a traditional bank uses non-traditional low-cost delivery channels to provide banking services to its existing customers. Examples range from use of automatic teller machines (ATMs) to internet banking or mobile phone banking to provide certain limited banking services to banks’ customers. This model is additive in nature and may be seen as a modest extension of conventional branch-based banking.
+
+The bank-led model offers a distinct alternative to conventional branch-based banking in that customer conducts financial transactions at a whole range of retail agents (or through mobile phone) instead of at bank branches or through bank employees. This model promises the potential to substantially increase the financial services outreach by using a different delivery channel (retailers/ mobile phones), a different trade partner (telco / chain store) having experience and target market distinct from traditional banks, and may be significantly cheaper than the bank-based alternatives. The bank-led model may be implemented by either using correspondent arrangements or by creating a JV between Bank and Telco/non-bank. In this model customer account relationship rests with the bank
+
+The non-bank-led model is where a bank does not come into the picture (except possibly as a safe-keeper of surplus funds) and the non-bank (e.g telco) performs all the functions.
+
+Mobile banking can offer services such as the following:
+
+
+Especially for clients in remote locations, it will be important to help them deposit and withdraw funds at banking agents, i.e., retail and postal outlets that turn cash into electronic funds and vice versa. The feasibility of such banking agents depends on local regulation which enables retail outlets to take deposits or not.
+A specific sequence of SMS messages will enable the system to verify if the client has sufficient funds in his or her wallet and authorize a deposit or withdrawal transaction at the agent. When depositing money, the merchant receives cash and the system credits the client's bank account or mobile wallet. In the same way the client can also withdraw money at the merchant: through exchanging sms to provide authorization, the merchant hands the client cash and debits the client's account.
+
+
+
+Based on a survey conducted by Forrester, mobile banking will be attractive mainly to the younger, more "tech-savvy" customer segment. A third of mobile phone users say that they may consider performing some kind of financial transaction through their mobile phone. But most of the users are interested in performing basic transactions such as querying for account balance and making bill payment.
+
+Key challenges in developing a sophisticated mobile banking application are�:
+
+There is a lack of common technology standards for mobile banking. Many protocols are being used for mobile banking – HTML, WAP, SOAP, XML to name a few. It would be a wise idea for the vendor to develop a mobile banking application that can connect multiple banks. It would require either the application to support multiple protocols or use of a common and widely acceptable set of protocols for data exchange.
+There are a large number of different mobile phone devices and it is a big challenge for banks to offer mobile banking solution on any type of device. Some of these devices support J2ME and others support WAP browser or only SMS.
+Overcoming interoperability issues however have been localized, with countries like India using portals like R-World to enable the limitations of low end java based phones, while focus on areas such as South Africa have defaulted to the USSD as a basis of communication achievable with any phone.
+The desire for interoperability is largely dependent on the banks themselves, where installed applications(Java based or native) provide better security, are easier to use and allow development of more complex capabilities similar to those of internet banking while SMS can provide the basics but becomes difficult to operate with more complex transactions.
+
+Security of financial transactions, being executed from some remote location and transmission of financial information over the air, are the most complicated challenges that need to be addressed jointly by mobile application developers, wireless network service providers and the banks' IT departments.
+The following aspects need to be addressed to offer a secure infrastructure for financial transaction over wireless network�:
+
+Another challenge for the CIOs and CTOs of the banks is to scale-up the mobile banking infrastructure to handle exponential growth of the customer base. With mobile banking, the customer may be sitting in any part of the world (true anytime, anywhere banking) and hence banks need to ensure that the systems are up and running in a true 24 x 7 fashion. As customers will find mobile banking more and more useful, their expectations from the solution will increase. Banks unable to meet the performance and reliability expectations may lose customer confidence. There are systems such as Mobile Transaction Platform which allow quick and secure mobile enabling of various banking services. Recently in India there has been a phenomenal growth in the use of Mobile Banking applications, with leading banks adopting Mobile Transaction Platform and the Central Bank publishing guidelines for mobile banking operations.
+
+Due to the nature of the connectivity between bank and its customers, it would be impractical to expect customers to regularly visit banks or connect to a web site for regular upgrade of their mobile banking application. It will be expected that the mobile application itself check the upgrades and updates and download necessary patches (so called "Over The Air" updates). However, there could be many issues to implement this approach such as upgrade / synchronization of other dependent components.
+
+It would be expected from the mobile application to support personalization such as�:
+
+This part of the mobile commerce is very popular in countries where most of their population is unbanked.
+Countries like Sudan, Ghana and South Africa received this new commerce very well.
+In Latin America countries like Uruguay, Paraguay, Argentina, Brazil, Venezuela, Colombia, Guatemala and recently Mexico started with a huge success.
+In Colombia was released with Redeban.
+In Iran banks like Parsian, Tejarat, Mellat, Saderat, Sepah, edbi and bankmelli offer this service. Guatemala have the support of Banco industrial.
+Mexico released the mobile commerce with Omnilife,Bancomer and a private company(MPower Ventures). Kenya's Safaricom (Part of the Vodafone Group) has had the very popular MPESA Service - mainly used to transfer limited amounts of money, but has been increasingly used to pay utility bills. Zain in 2009 launched their own mobile money transfer business known as ZAP in Kenya and other African countries.
+
+
+
+

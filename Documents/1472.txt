@@ -1,0 +1,17 @@
+Movable Type
+Movable Type is a weblog publishing system developed by the company Six Apart. It was publicly announced on 3 September 2001,[1] and version 1.0 was publicly released on 8 October 2001.[2] On 12 December 2007, Movable Type was relicensed as free software under the GNU General Public License.[3]
+The current version is 4.25.[4]
+
+The application supports static page generation (in which files for each page are updated whenever the content of the site is changed), dynamic page generation (in which pages are composited from the underlying data as the browser requests them), or a combination of the two techniques.
+Movable Type optionally supports LDAP for user and group management and automatic blog provisioning.
+Movable Type is written in Perl, and supports storage of the weblog's content and associated data within MySQL, PostgreSQL, and SQLite (support for Berkeley DB was dropped in version 4). Dynamic page generation is handled by Smarty.
+Movable Type is free software under the GPLv2 license. In addition to the free version, users can purchase support or buy commercial, education, or nonprofit licenses, which come with support contracts and author limits and unlimited blogs.[5] Movable Type Enterprise also supports the Oracle database and Microsoft SQL Server.
+
+Movable Type was originally named "Serge" after musician Serge Gainsbourg.
+The TrackBack feature was introduced in version 2.2, and has since been adopted by a number of other blog systems.
+With the release of version 3.0, there were marked changes in Movable Type's licensing,[6] most notably placing greater restrictions on its use without paying a licensing fee.[7] This sparked criticism from some users of the software. With the release of Movable Type 3.2, the ability to create an unlimited number of weblogs at all licensing levels was restored. In Movable Type 3.3, it is completely free for personal users.
+Six Apart released Movable Type 4 beta on June 5, 2007 and re-launched movabletype.org as a community site for purposes of developing an open-source version that was released under GPL on December 12, 2007.[8][9]
+Movable Type Enterprise version provides advanced features such as LDAP management, enterprise database integration such as Oracle, MySQL, user roles, blog cloning and automated blog provisioning. It is also available as part of Intel's SuiteTwo professional software offering of Web 2.0 tools.
+Six Apart also maintains two other weblog publishing systems, TypePad and Vox. While Movable Type is a system which needs to be installed on a user's own web server, TypePad and Vox are both hosted weblog services.
+
+

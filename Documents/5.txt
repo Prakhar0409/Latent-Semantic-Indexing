@@ -1,0 +1,13 @@
+Amazon Web Services
+The Amazon Web Services (AWS) are a collection of remote computing services (also called web services) offered over the Internet by Amazon.com.
+Launched in July 2002, Amazon Web Services provide online services for other web sites or client-side applications. Most of these services are not exposed directly to end users, but instead offer functionality that other developers can use. In June 2007, Amazon claimed that more than 330,000 developers had signed up to use Amazon Web Services.[1]
+Amazon Web Services’ offerings are accessed over HTTP, using REST and SOAP protocols. All are billed on usage, with the exact form of usage varying from service to service.
+
+
+IBM has announced Blue Cloud, a service based on Linux, Hadoop, Xen, and PowerVM. RightScale and 3Tera offer administration tools to manage seamlessly machines based on different data centers operated by Internet hosting services around the world. opsource Offers a similar service too.
+Google App Engine was released in April 2008 and allows web applications to be deployed to Google infrastructure.
+Microsoft has announced Windows Azure and the Azure Services Platform, a similar cloud-computing infrastructure intended to host both managed and unmanaged .Net applications. It is free like Google App Engine. Unfortunately you need a token which is now in limited supply [4]
+Rackspace has released a similar cloud-computing platform under the brand Mosso, which includes Cloud Sites, Cloud Files, and Cloud Servers while ServePath has done the same under the brand GoGrid.
+Companies such as RightScale provide the interface access necessary to access the Amazon Web Services cloud-computing platform.
+
+

@@ -1,0 +1,9 @@
+Instiki
+Instiki is a Ruby-based Wiki clone written by David Heinemeier Hansson. Until Version 0.11 it was maintained by Alexey Verkhovsky - currently it is maintained by Matthias Tarasiewicz. It can be used under Linux, Mac OS X or Windows. It accomplishes its two-step install (install Ruby, run instiki.rb) by using WEBrick, a web server, and Active Record, a major component in the Ruby on Rails framework. Until Instiki 0.11.0, released March 19, 2006, Madeleine, a persistence layer that ships with the standard distribution of Ruby, was used. The Ruby on Rails Wiki (http://rubyonrails.org) runs a modified version of instiki, called i2.
+Instiki also has the seldom-seen feature of offering a choice of markup languages: Textile, Markdown, and RDoc are supported. Instiki is full-featured, offering revision history, RSS feeds, and password protected webs.
+Its persistence layer makes Instiki's install fast and easy (two steps). Yet it's very difficult to edit Instiki's persisted data compared to an SQL repository.[citation needed]
+The latest Instiki version (Instiki 0.11) supports in full the Ruby on Rails structure, and also uses a RDBMS as backend data repository.
+Instiki is written using a Model View Controller model and its platform is a subset of the Ruby on Rails framework.
+Instiki is currently undergoing a rewrite, mostly focusing on the problem of Wiki spam.
+
+

@@ -1,0 +1,81 @@
+Screens of death
+In many computer operating systems, a special type of error message will display onscreen when the system has experienced a fatal error. Computer users have dubbed these messages Screens of Death, as they typically result in unsaved work being lost and often indicate serious problems with the system's hardware or software. Most screens of death are displayed on an even background color with a message advising the user to restart the computer. The Screens of Death are primarily organized by their background color.
+
+The Black Screen of Death (BSOD), is either of two things: a failure mode of Microsoft Windows 3.x, or the screen displayed by the OS/2 operating system in the event of either a system error from which it cannot recover or a "hard" error in a program running in "full screen" mode (the former being a serious system failure but the latter being a less serious application failure).
+The black screen of death has been present in all versions of OS/2.
+
+In Windows 3.x the black screen of death is the behavior that occurred when a DOS-based application failed to execute properly. It was often known to occur in connection with attempting certain operations while networking drivers were resident in memory. (Commonly, but not exclusively, it was seen while the Novell NetWare client for DOS, NETX, was loaded.) The system would switch the display to text mode, but would display nothing, leaving the user looking at an entirely black screen with a blinking caret in the upper left corner. At this point, the user could do nothing but perform a cold reboot to get the system running normally again.
+According to Wallace McClure of ASP.net,[1] the phrase was originally coined in the summer of 1991 by Ed Brown, a technician with Coca-Cola Company's IT department in Atlanta, GA. He reports that the company was rolling out Windows 3.0 within the Global Marketing group and when the users would attempt to run WordPerfect, they would randomly receive a BSOD.
+This can also be triggered by something on the keyboard during a boot. In this case, it is accompanied by a very loud beeping sound directly from the computer itself.
+Windows XP displays a black screen with white arrow if lsass.exe is missing or corrupted.
+On Windows Vista, some boot errors are shown on a black screen. These generally occur when winload.exe is missing or corrupted.
+
+In OS/2, a black screen of death is either a "TRAP screen" or "full-screen hard-error VIO pop-up". OS/2 switches the display adapter to a text mode of 80 columns by 25 rows, with white lettering on a black background and a black border, utilizing the text mode font of the display adapter.
+
+A "TRAP screen" occurs when the kernel encounters an error from which it cannot recover, a system crash. Usually this is a result of faulty (or overclocked) hardware, but it may also result from a software error in either the kernel or a device driver.
+The "TRAP screen" contains a dump of the processor registers and stack, and information about the version of the operating system and the actual processor exception that was triggered.
+The only actions the user can take in this situation is to perform a soft reboot by pressing Control-Alt-Delete or to perform a system dump by pressing Control-Alt-NumLock twice.
+
+A "full-screen hard-error VIO pop-up" occurs when a process incurs a "hard" error, either an outright application program crash or a potentially recoverable hard error (such as an attempt to access a floppy disc device where no disc has been inserted into the drive).
+The screen is displayed by the "hard error daemon" process, which handles hard errors from all other processes. Technically, the screen is a "VIO pop-up" screen. All processes (except the one that has incurred the error, any that also incur hard errors whilst the first error is being displayed, and any that themselves wish to display a "VIO pop-up" screen) continue to run, and the system continues to operate as normal. The hard error daemon uses a VIO pop-up when either the system has been booted into text mode or the hard error has occurred in a process running in a full-screen session.
+The "pop-up screen" contains information about the processor exception that was triggered and the identity of the process.
+The user is prompted for the action to be taken, and may choose
+
+A Linux Black Screen of Death is caused by a kernel panic or any other error that results in the system falling back to a text-based command line interface.
+
+When the Nintendo DS boots to a DS game instead of the main menu, when the user removes the game cartridge, there will be a message on the bottom screen that reads: "Game cartridge has been removed." on a black background. Also, if the game started with sound, the last fifth of a second of audio will be played over and over. This also freezes the DS because if the user inserts the game cartridge back in the slot, it will not resume, thus, requiring a reboot.
+
+The Blue Screen of Death (also called BSOD, stop error, or bluescreen) is a common name for a screen displayed by the Microsoft Windows operating system when a system error occurs. There are two main types of BSODs. The Windows NT/2000/XP indicates a serious kernel or driver error. The Windows 9x/ME is not as serious and occurs more often when a driver encounters an error. 9x/ME BSODs can also appear when a CD, floppy disk, or other removable memory device is removed from its drive while being used. The NT BSOD only lets the user restart the system, whereas the 9x/ME version usually allows the user to continue. Generally, rebooting is the only way to fix the error. Windows CE also has a BSOD, being the simplest of them all. The PlayStation Portable has its own blue error screen as well.
+The BSOD has become a commonly known term in IT. Administrators often use the word "Bluescreen" as a verb. Microsoft has recently released BSOD prank software,[2] originally made by Sysinternals. The software detects the operating system of the computer, and displays the relevant BSOD, along with fake hard drive chatter. It then simulates restarting the machine, and repeats the cycle again. Many anti-virus programs report this screen saver as an "unwanted program" because it attempts to fool users even though as a program it is not harmful to the system.
+With the BSOD, it is possible to connect a second computer via a serial cable and run WinDbg to access diagnostic information. This is a useful tool for device driver writers who often receive BSOD while writing their drivers. The BSOD is actually an exception that halts the operating system, but there are lots of utilities that can still run through WinDebug while the computer is in a BSOD.
+In rare cases, Windows XP may hang right before the logon screen is displayed, leading to an empty "blue" screen with a movable 'busy' mouse pointer.[3]
+The Apple IIgs computer also had its own BSOD, with an Apple icon bouncing across the screen "bouncing" from left to right and back, whenever the IIgs crashed or was started up with no disk in the drive(s).[citation needed]
+
+Purple Screen of Death (PSOD) occurs in VMware when an ESX vmkernel experiences a critical failure.
+
+A similar "Purple Screen of Death" may occur on Windows Vista when the graphics drivers fail.
+When the DS in Pictochat and the user removes a GameBoy or DS cartridge is removed, both screens will turn purple. It also may be blue depending on the system firmware version.
+
+The original front-loading Nintendo Entertainment System (NES) video game console would sometimes show a blank gray screen if the cartridge would not start. As a play on the traditional Blue Screen of Death, NES fans have dubbed this the Gray Screen of Death. After repeated attempts to boot a game, the system power light will flash on and off, displaying a different color on the screen each time it is on. On the top loading NES, however, this screen would be green instead of gray.
+On Mac OS X a Kernel panic (see below) causes a gray screen. This is known on the Mac forums by several names, including "Gray Screen of Death (GSOD)" and "Gray Curtains of Death (GCOD)".
+
+The Green Screen of Death (GSoD or Green Screen of Intensive Care) is the name given to failure modes on the TiVo digital video recorder and Xbox 360 console game system platforms. In such instances on the Xbox 360 the user is prompted to contact Xbox customer support.
+This error also occurs on the original Xbox when the system identifies the disc as a disc readable by the system, but an error occurs when reading it, and gives an error message similar to its successor's.
+On TiVo machines, the causes of it vary, but it is generally regarded as a recoverable error despite its grave appearance. The message is displayed while the TiVo attempts to repair the data contents of its hard drive.
+The GSoD text reads as follows:
+Please leave the Receiver plugged in and connected
+to the phone line for the next three hours while the
+Receiver attempts to repair itself.
+DO NOT UNPLUG OR RESTART THE RECEIVER.
+If, after three hours, the Receiver does not restart
+itself, call Customer Care.
+The GSoD has also been present on PlayStation 2 consoles with poorly soldered Multi-X chips. There are no error messages for the GSoD on a PlayStation 2, which means there is only an even green color displayed on the screen until the console is restarted. The GSoD is received after a failed disc read. This problem is common with DMS chips.
+
+
+In Mozilla-based applications, the yellow screen of death is the screen displayed when they encounter an XML parsing error. This typically happens when the XML document that the browser is trying to access is not well-formed, for example when it does not nest tags properly.
+The yellow screen of death is common when an author of HTML tries to serve HTML as XHTML, with the recommended MIME type of "application/xhtml+xml", without checking for well-formedness.
+When it arises due to a web page error, only the page content area displays the yellow screen of death; the browser chrome is unaffected. However, the entire browser window may be replaced with the yellow screen of death in situations where browser code has caused a parsing error (this is almost always the result of a bug in an extension or an extension incompatibility).
+
+The yellow screen of death is the colloquial name given to an Exception report screen generated by ASP.NET. The HTML behind the error page was created by Scott Guthrie.
+If ASP.NET cannot build or compile an application it will display a parser or compiler error in red on white and the relevant problematic source code in black and red on yellow. If the error is a runtime exception then it will display a stack trace in black on yellow. If the original page source is available ASP.NET will also display the last location in the application's source code where the exception was thrown.
+By default, the application's Web.config file tells the server what to do when an unhandled exception occurs, the default is to show a simple error message, as not to reveal any sensitive information about the application's operation to site visitors. The Web.config file can also be used to specify a custom error page or to show the entire error message to all visitors (the default is to only show it to visitors connected to localhost).
+
+On the original Nintendo DS when the user removes a DS or GBA game cartridge while in pictochat, both screens will turn completely yellow. On the Nintendo DS Lite however, both screens will purple or blue depending on the system firmware version.
+
+A "red screen of death" is used on some game consoles, and early beta versions of Windows Vista used a red screen for boot loader errors. There is also a Red Screen of Death on the PlayStation Portable and certain versions of Linux.
+
+
+MOIN Browser, a faster version of Internet Explorer created by Matrinex Multimedia will display this message, "The Web Browser is not available" when it cannot find some IE files. Usually, you will have to re-install IE.
+Also, the current stable version of MOIN Browser, 3.0, will sometimes have an error that it cant find the publication file. Matrinex Multimedia said that in their version 4.0 (currently being developed) this error will be non-existent. Matrinex Multimedia suggests that users of version three should wait until version 4.0 is released.
+
+The White Screen of Death (WSoD) affects some newer mobile phones and Pocket PCs leaving them with a blank white screen. It was first mentioned in user groups in April 2005.[4][5] In some cases unplugging the battery and restarting allowed the phone to reboot but some phones are left unusable. Most users found that WSoD was initiated by USB plug removal during mobile phone to computer transfer, and other users reported erratic functioning of the phone after the installation of games, applications and MP3s. WSoD has so far been observed on mobile phones in the USA and Europe. A reflash of firmware can resolve the problem of WSoD but users have reported the same bug on newer phones in the same product line. A flashing White Screen of Death has also been known.
+On most Linux distributions, failing to configure a certain video driver, failing to properly execute X, or in other situations (configuration of Beryl or Compiz) can also result in a White Screen of Death, or will drop back down to a text mode console.
+On iPods, if the firmware is corrupted, a white screen with black text in several languages prompts the user to connect the iPod to a computer and restore it. Recently iPods have not been displaying any text during a screen of death, and thus not letting the user know the exact nature of the problem. Solution for an iPod's white screen of death range from leaving the device plugging in for an extended period of time, to letting the battery runout, to having to send the iPod away for repair.
+On the Sega Game Gear, if the system is started without a cartridge, the screen will be gray/white.
+On Mozilla Firefox, if the back button is hit after the cache has timed out, you may get a blank white screen (if your background is set as the default white, as it uses the background color).
+On some websites programmed in Adobe Systems ColdFusion, if the programmer has not properly trapped an error, users may receive a blue-gray error screen. This ColdFusion error is usually called the "white screen of death" although some programmers also call it the "blue screen of death" or less frequently the "gray screen of death."
+On some rare cases the Rio will show a complete blank white screen from a crash of the firmware and the device will usually get very hot from the CPU overheating from the crash. To solve the problem, the user must do a hard reset by plugging the charger into the Rio and sticking a small, thin object into a hole in the case.
+
+When the GameBoy starts up to no cartridge inserted or if a Nintendo DS boots up to the GameBoy operating system and before the game can start, the user removes the game cartridge, after the boot video is done playing and fades away the, the screen will be completely white and will freeze the system leaving the user no choice but to reboot.
+
+A kernel panic is an action taken by Unix or Unix-like operating systems upon detecting an internal fatal error from which it cannot recover. The kernel routines that handle panics (in AT&T-derived and BSD Unix source code, a routine known as panic()) are generally designed to output an error message to the console, dump an image of kernel memory to disk for post-mortem debugging and then either wait for the system to be manually rebooted, or initiate an automatic reboot. The information provided is not always useful to the end user, but can sometimes provide troubleshooting data for a system developer or tech support personnel. The format of the panic error 

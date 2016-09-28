@@ -1,0 +1,6 @@
+XACML
+XACML stands for eXtensible Access Control Markup Language. It is a declarative access control policy language implemented in XML and a processing model, describing how to interpret the policies. It is a replacement for IBM's XML access control language (XACL)[1] which is no longer in development.[2]
+Latest version 2.0 was ratified by OASIS standards organization on 1 February 2005. As of 2007, version 3.0 is in preparation and will add generic attribute categories for the evaluation context and policy delegation profile (administrative policy profile).
+
+
+

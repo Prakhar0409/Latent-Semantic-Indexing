@@ -1,0 +1,22 @@
+Logical Volume Manager (Linux)
+LVM is a logical volume manager for the Linux kernel: it manages disk drives and similar mass-storage devices, in particular large ones. The term "volume" refers to a disk drive or part thereof. It was originally written in 1998 by Heinz Mauelshagen, who based its design on that of the LVM in HP-UX.
+The acronym "LVM" can also refer to the Logical Volume Management available in HP-UX and IBM AIX operating Systems.
+The installers for the Arch Linux, Debian, Fedora, Gentoo, MontaVista Linux, openSUSE, SLED, SLES, and Ubuntu distributions are LVM-aware and can install a bootable system with a root filesystem on a logical volume.
+
+LVM is suitable for:
+One can think of LVM as a thin software layer on top of the hard disks and partitions, which creates an illusion of continuity and ease-of-use for managing hard-drive replacement, repartitioning, and backups.
+
+The LVM can:
+The LVM will also work in a shared-storage cluster (where disks holding the PVs are shared between multiple host computers), but requires an additional daemon to propagate state changes between cluster nodes.
+LVM does not:
+
+LVM keeps a metadata header at the start of every physical volume, each of which is uniquely identified by a UUID. Each PV's header is a complete copy of the entire volume group's layout, including the UUIDs of all other PV, the UUIDs of all logical volumes and an allocation map of PEs to LEs. This simplifies data recovery in the event of PV loss.
+In the 2.6-series Linux kernels, the LVM is implemented in terms of the device mapper, a simple block-level scheme for creating virtual block devices and mapping their contents onto other block devices. This minimizes the amount of relatively hard-to-debug kernel code needed to implement the LVM. It also allows its I/O redirection services to be shared with other volume managers (such as EVMS). Any LVM-specific code is pushed out into its user-space tools, which merely manipulate these mappings and reconstruct their state from on-disk metadata upon each invocation.
+To bring a volume group online, the "vgchange" tool:
+To move an online logical volume between PVs, the "pvmove" tool:
+These device mapper operations take place transparently, without applications or filesystems being aware that their underlying storage is moving.
+
+The current implementation does not support write barriers. This means that the guarantee against filesystem corruption offered by journaled file systems like ext3 and XFS is negated under some circumstances.[1] Most distros, with the notable exception of SUSE, turn off protective barriers by default anyway, to prevent performance degradation.
+
+
+

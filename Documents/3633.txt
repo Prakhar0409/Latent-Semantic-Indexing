@@ -1,0 +1,13 @@
+.kkrieger
+.kkrieger (from Krieger, German for warrior) is a first-person shooter computer game created by German demogroup .theprodukkt (a former subdivision of Farbrausch) which won first place in the 96k game competition at Breakpoint in April 2004. The game remains a beta version as of 2009[update].
+The entire game uses only 97,280 bytes of disk space. Much of this small size is attributable to the game's use of procedurally generated content. In contrast, most popular first-person shooters fill one or more CDs or DVDs.[1] According to the developers, .kkrieger itself would take up around 200–300 MB of space if it had been stored the conventional way.
+.theprodukkt have developed .kkrieger since mid-2002, using their tool called .werkkzeug (from Werkzeug, German for tool). They used an unreleased version of .werkkzeug called .werkkzeug3.
+An earlier example of a demoscene production containing a game-like 3D engine and procedural content in a very compact form is Omniscent by Sanction, a DOS-based intro from 1997, which is a fly-through of the first level of Descent in 4,095 bytes.
+The game won two German game developer prizes at the Deutscher Entwicklerpreis in 2006, in Innovation and Advancement.[2]
+
+.kkrieger makes extensive use of procedural generation methods:
+These two generation processes explain the extensive loading time of the game — all assets of the gameplay are reproduced during the loading phase.
+The game music and sounds are produced by a multifunctional synthesizer called V2, which is fed a continuous stream of MIDI data. The synthesizer then produces the music in real time.
+
+
+

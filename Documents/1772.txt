@@ -1,0 +1,33 @@
+Martingale (probability theory)
+In probability theory, a martingale is a stochastic process (i.e., a sequence of random variables) such that the conditional expected value of an observation at some time t, given all the observations up to some earlier time s, is equal to the observation at that earlier time s. Precise definitions are given below.
+
+Originally, martingale referred to a class of betting strategies that was popular in 18th century France.[1] The simplest of these strategies was designed for a game in which the gambler wins his stake if a coin comes up heads and loses it if the coin comes up tails. The strategy had the gambler double his bet after every loss so that the first win would recover all previous losses plus win a profit equal to the original stake. As the gambler's wealth and available time jointly approach infinity, his probability of eventually flipping heads approaches 1, which makes the martingale betting strategy seem like a sure thing. However, the exponential growth of the bets eventually bankrupts its users.
+The concept of martingale in probability theory was introduced by Paul Pierre L√©vy, and much of the original development of the theory was done by Joseph Leo Doob. Part of the motivation for that work was to show the impossibility of successful betting strategies.
+
+A discrete-time martingale is a discrete-time stochastic process (i.e., a sequence of random variables) X1,†X2,†X3,†... that satisfies for all n
+i.e., the conditional expected value of the next observation, given all the past observations, is equal to the last observation.
+Somewhat more generally, a sequence Y1,†Y2,†Y3†... is said to be a martingale with respect to another sequence X1,†X2,†X3†... if for all n
+Similarly, a continuous-time martingale with respect to the stochastic process Xt is a stochastic process Yt such that for all t
+This expresses the property that the conditional expectation of an observation at time t, given all the observations up to time s, is equal to the observation at time s (of course, provided that s†‚â§†t).
+In full generality, a stochastic process Y†:†T†√ó†Œ©†‚Üí†S is a martingale with respect to a filtration Œ£‚àó and probability measure P if
+It is important to note that the property of being a martingale involves both the filtration and the probability measure (with respect to which the expectations are taken). It is possible that Y could be a martingale with respect to one measure but not another one; the Girsanov theorem offers a way to find a measure with respect to which an It≈ç process is a martingale.
+
+
+A stopping time with respect to a sequence of random variables X1,†X2,†X3,†... is a random variable œÑ with the property that for each t, the occurrence or non-occurrence of the event œÑ = t depends only on the values of X1,†X2,†X3,†...,†Xt. The intuition behind the definition is that at any particular time t, you can look at the sequence so far and tell if it is time to stop. An example in real life might be the time at which a gambler leaves the gambling table, which might be a function of his previous winnings (for example, he might leave only when he goes broke), but he can't choose to go or stay based on the outcome of games that haven't been played yet.
+Some mathematicians defined the concept of stopping time by requiring only that the occurrence or non-occurrence of the event œÑ†=†t be probabilistically independent of Xt†+†1,†Xt†+†2,†... but not that it be completely determined by the history of the process up to time t. That is a weaker condition than the one appearing in the paragraph above, but is strong enough to serve in some of the proofs in which stopping times are used.
+The optional stopping theorem (or optional sampling theorem) says that, under certain conditions, the expected value of a martingale at a stopping time is equal to its initial value. We can use it, for example, to prove the impossibility of successful betting strategies for a gambler with a finite lifetime and a house limit on bets.
+
+A (discrete-time) submartingale is a sequence X1,X2,X3,... of integrable random variables satisfying
+Analogously a (discrete-time) supermartingale satisfies
+The more general definitions of both discrete-time and continuous-time martingales given earlier can be converted into the corresponding definitions of sub/supermartingales in the same way by replacing the equality for the conditional expectation by an inequality.
+Here is a mnemonic for remembering which is which: "Life is a supermartingale; as time advances, expectation decreases."
+
+
+One can define a martingale which is an uncountable family of random variables. Also, those random variables may take values in a more general space than just the real numbers.
+Let  be a directed set,  be a real topological vector space, and  its topological dual (denote by  this duality). Moreover, let  be a filtered probability space, that is a probability space  equipped with a family of sigma-algebras  with the following property: for each  with , one has .
+A family of random variables :
+is called a martingale if for each  and  with , the three following properties are satisfied:
+If the directed set  is a real interval (or the whole real axis, or a semiaxis) then a martingale is called a continuous time martingale. If  is the set of natural numbers it is called a discrete time martingale.
+
+
+

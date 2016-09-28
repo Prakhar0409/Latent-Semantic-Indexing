@@ -1,0 +1,22 @@
+Microsoft Analysis Services
+Microsoft Analysis Services is a group of OLAP and Data Mining services provided in Microsoft SQL Server.
+
+Microsoft's foray into the OLAP Server business began with their 1996 acquisition of the OLAP software technology from Israeli-based Panorama Software. Two years later, Microsoft released OLAP Services as part of SQL Server 7. OLAP Services supported MOLAP, ROLAP and HOLAP architectures, and used OLEDB for OLAP as the client access API and MDX as a query language. It could work in client-server mode or offline mode with local cube files. In 2000, Microsoft released Analysis Services 2000. The rename from OLAP Services happened because of the inclusion of Data Mining services, so the product wasn't just about OLAP anymore. Analysis Services 2000 was an evolutionary release as it was built on the same architecture as OLAP Services and was backward compatible with it. The major improvements included more flexibility in dimension design through support of parent child dimensions, changing dimensions, virtual dimensions etc. Another major area of improvements was a much enhanced calculation engine with support for unary operators, custom rollups, and cell calculations. Other new features were dimension security, distinct count, connectivity over HTTP, session cubes, grouping levels etc. In 2005, Microsoft released the next generation of OLAP and Data Mining technology as Analysis Services 2005. It maintained backward compatibility on the API level, i.e. applications written with OLE DB for OLAP and MDX continue to work, but the architecture of the product was completely different. The major change came to the model in the form of UDM - Unified Dimensional Model.
+
+
+Microsoft Analysis Services takes a neutral position in the MOLAP vs. ROLAP arguments among OLAP products. It allows all the flavors of MOLAP, ROLAP and HOLAP to be used within the same model.
+
+
+
+
+Microsoft Analysis Services supports different sets of APIs and object models for different operations and in different programming environments
+
+
+
+Microsoft Analysis Services supports the following query languages
+
+DDL in Analysis Services is XML based and supports commands such as <Create>, <Alter>, <Delete>, <Process> etc. For Data Mining models import and export, it also supports PMML.
+
+
+
+

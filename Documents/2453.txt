@@ -1,0 +1,51 @@
+Web accessibility
+Web accessibility refers to the practice of making websites usable by people of all abilities and disabilities. When sites are correctly designed, developed and edited, all users can have equal access to information and functionality. For example, when a site is coded with semantically meaningful HTML, with textual equivalents provided for images and with links named meaningfully, this helps blind users using text-to-speech software and/or text-to-Braille hardware. When text and images are large and/or enlargable, it is easier for users with poor sight to read and understand the content. When links are underlined (or otherwise differentiated) as well as coloured, this ensures that color blind users will be able to notice them. When clickable links and areas are large, this helps users who cannot control a mouse with precision. When pages are coded so that users can navigate by means of the keyboard alone, or a single switch access device alone, this helps users who cannot use a mouse or even a standard keyboard. When videos are closed captioned or a sign language version is available, deaf and hard of hearing users can understand the video. When flashing effects are avoided or made optional, users prone to seizures caused by these effects are not put at risk. And when content is written in plain language and illustrated with instructional diagrams and animations, users with dyslexia and learning difficulties are better able to understand the content. When sites are correctly built and maintained, all of these users can be accommodated while not impacting on the usability of the site for non-disabled users.
+The needs that Web accessibility aims to address include:
+
+Individuals living with a disability use assistive technologies such as the following to enable and assist web browsing:
+
+
+In 1999 the Web Accessibility Initiative, a project by the World Wide Web Consortium (W3C), published the Web Content Accessibility Guidelines WCAG 1.0. In recent years, these have been widely accepted as the definitive guidelines on how to create accessible websites.
+On 11 December 2008, the WAI released the WCAG 2.0 as a Recommendation. WCAG 2.0 aims to be up to date and more technology neutral.
+
+For a general criticism of the W3C process, read Putting the user at the heart of the W3C process. In articles such as WCAG 2.0: The new W3C guidelines evaluated, To Hell with WCAG 2.0 and Testability Costs Too Much, the WAI has been criticised for allowing WCAG 1.0 to get increasingly out of step with today's technologies and techniques for creating and consuming web content, for the slow pace of development of WCAG 2.0, for making the new guidelines difficult to navigate and understand, and other argued failings. In one attempt to provide guidelines that are designed to be up to date, easier to understand, and more relevant and practical to typical web development projects, Joe Clark's WCAG Samurai project has published an unofficial set of errata to WCAG 1.0.
+
+
+Canada has the Common Look and Feel Standards requiring federal government internet websites to meet Web Content Accessibility Guidelines (WCAG) 1.0 Checkpoints Priorities 1 and 2 (Double A conformance level). The standards have existed since 2000 and were updated in 2007.
+
+As part of the Web Accessibility Initiatives in the Philippines, the government through the National Council for the Welfare of Disabled Persons (NCWDP) board approved the recommendation of forming an adhoc or core group of webmasters that will help in the implementation of the Biwako Millennium Framework set by the UNESCAP.
+The Philippines was also the place where the Interregional Seminar and Regional Demonstration Workshop on Accessible Information and Communications Technologies (ICT) to Persons with Disabilities was held where eleven countries from Asia - Pacific were represented. The Manila Accessible Information and Communications Technologies Design Recommendations was drafted and adopted in 2003.
+
+In Spain, UNE 139803[1] is the norm entrusted to regulate web accessibility.
+
+In Sweden, Verva, the Swedish Administrative Development Agency is responsible for a set of guidelines for Swedish public sector web sites. Through the guidelines, Web accessibility is presented as an integral part of the overall development process and not as a separate issue.
+The Swedish guidelines contain criteria which cover the entire lifecycle of a website; from its conception to the publication of live web content. These criteria address several areas which should be considered, including:
+An English translation was released in April 2008: Swedish National Guidelines for Public Sector Websites
+The translation is based on the latest version of Guidelines which was released in 2006.[2]
+
+In the UK, the Disability Rights Commission (DRC) in collaboration with BSI have published Pas 78 which outlines good practice in commissioning accessible websites.
+
+In order for the web to be accessible, 7 components must be included: 1) the content on Web pages must be natural information (text, images, and sound) 2) Web browsers and media players 3) assistive technology software's 4) users' knowledge and experience using the Web 5) Developers 6) Authoring tools 7) Evaluation tools
+"Web developers usually use authoring tools and evaluation tools to create Web Content. People ("users") use Web browsers, media players, assistive technologies or other "user agents" to get and interact with the content."[3]
+
+Authoring Tool Accessibility Guidelines (ATAG)[4]
+Web Content Accessibility Guidelines (WCAG)[5]
+User Agent Accessibility Guidelines (UAAG)[6]
+
+A growing number of countries around the world have introduced legislation which either directly addresses the need for websites and other forms of communication to be accessible to people with disabilities, or which addresses the more general requirement for people with disabilities not to be discriminated against.
+
+In 2000, an Australian blind man won a court case against the Sydney Organising Committee of the Olympic Games (SOCOG). This was the first successful case under Disability Discrimination Act 1992 because SOCOG had failed to make their official website, Sydney Olympic Games, adequately accessible to blind users. The Human Rights and Equal Opportunity Commission (HREOC) also published World Wide Web Access: Disability Discrimination Act Advisory Notes. All Governments in Australia also have policies and guidelines that require accessible public websites; Vision Australia maintain a complete list of Australian web accessibility policies.[7]
+
+In Ireland, the Disability Act 2005 was supplemented with the National Disability Authority's Code of Practice on Accessible Public Services in July 2006. It is a practical guide to help all Government Departments and nearly 500 public bodies to comply with their obligations under the Disability Act 2005.
+
+In the UK, the Disability Discrimination Act 1995 (DDA) does not refer explicitly to website accessibility, but makes it illegal to discriminate against people with disabilities. The DDA applies to anyone providing a service; public, private and voluntary sectors. The Code of Practice: Rights of Access - Goods, Facilities, Services and Premises document[8] published by the government's Disability Rights Commission to accompany the Act does refer explicitly to websites as one of the "services to the public" which should be considered covered by the Act.
+
+A growing number of organizations, companies and consultants offer website accessibility audits. These audits, a type of system testing, identify accessibility problems that exist within a website, and provide advice and guidance on the steps that need to be taken to correct these problems.
+A range of methods are used to audit websites for accessibility:
+Each of these methods has its strengths and weaknesses:
+Ideally, a combination of methods should be used to assess the accessibility of a website.
+
+
+
+
+

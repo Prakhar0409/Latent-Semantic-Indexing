@@ -1,0 +1,58 @@
+Data remanence
+Data remanence is the residual representation of data that has been in some way nominally erased or removed. This residue may be due to data being left intact by a nominal delete operation, or through physical properties of the storage medium. Data remanence may make inadvertent disclosure of sensitive information possible, should the storage media be released into an uncontrolled environment (e.g., thrown in the trash, or given to a third-party).
+Over time, various techniques have been developed to counter data remanence. Depending on the effectiveness and intent, they are often classified as either clearing or purging/sanitizing. Specific methods include overwriting, degaussing, encryption, and physical destruction.
+
+Many operating systems, file managers, and other software provide a facility where a file is not immediately deleted when the user requests that action. Instead, the file is moved to a holding area, to allow the user to easily revert a mistake.
+Even when an explicit deleted file retention facility is not provided or when the user does not use it, most computers do not actually remove the contents of a file when it is deleted. Instead, they simply remove the file's entry from the file system directory, because this requires less work and is therefore usually faster. The contents of the file—the actual data—remain on the storage medium. The data will remain there until the operating system reuses the space for new data. In some systems, enough filesystem metadata is also left behind to enable easy undeletion by commonly available utility software. Even when undelete has become impossible, the data, until it has been overwritten, can be read by software that reads disk sectors directly. Computer forensics often employs such software.
+Likewise, reformatting, repartitioning or reimaging a system is not always guaranteed to write to every area of the disk, though all will cause the disk to appear empty or, in the case of reimaging, empty except for the files present in the image, to most software.
+Finally, even when the storage medium is overwritten, physical properties of the medium may make it possible to recover the previous contents using laboratory techniques.
+
+There are three levels commonly recognized for eliminating remnant data:
+
+Clearing is the removal of sensitive data from storage devices in such a way that there is assurance that the data may not be reconstructed using normal system functions or software file/data recovery utilities. The data may still be recoverable, but not without special laboratory techniques. [1]
+Clearing is typically an administrative protection against accidental disclosure within an organization. For example, before a floppy disk is re-used within an organization, its contents may be cleared to prevent their accidental disclosure to the next user.
+
+Purging or sanitizing is the removal of sensitive data from a system or storage device with the intent that the data can not be reconstructed by any known technique. Purging, proportional to the sensitivity of the data, is generally done before releasing media outside of control, such as before discarding old media, or moving media to a computer with different security requirements.
+
+The storage device is physically destroyed by incineration, melting, shredding, pulverizing, drilling or other means that completely prevent data recovery.
+
+
+A common method used to counter data remanence is to overwrite the storage medium with new data. This is often called a wiping or shredding a file or disk. Because such methods can often be implemented in software alone, and may be able to selectively target only part of a medium, it is a popular, low-cost option for some applications. Overwriting is generally an acceptable method of clearing, as long as the media is writable and not damaged.
+The simplest overwrite technique writes the same data everywhere -- often just a pattern of all zeros. At a minimum, this will prevent the data from being retrieved simply by reading from the medium again using standard system functions.
+To counter more advanced data recovery techniques, specific overwrite patterns are often prescribed. These may be generic patterns intended to eradicate any trace signatures. For example, writing repeated, alternating patterns of ones and zeros may be more effective than zeros alone. Combinations of patterns are frequently specified.
+One challenge with an overwrite is that some areas of the disk may be inaccessible, due to media degradation or other errors. Software overwrite may also be problematic in high-security environments which require stronger controls on data commingling than can be provided by the software in use. The use of advanced storage technologies may also make file-based overwrite ineffective.
+
+Peter Gutmann investigated data recovery from nominally overwritten media in the mid-1990s. He suggested magnetic force microscopy may be able to recover such data, and developed specific patterns, for specific drive technologies, designed to counter such.[2] These patterns have come to be known as the Gutmann method.
+Daniel Feenberg, an economist at the private National Bureau of Economic Research, claims that the chances of overwritten data being recovered from a modern hard drive amount to "urban legend".[3] Daniel Feensberg also points to the interesting fact, that the "18 minute gap" Rose Mary Woods created on the tape of Nixon discussing the Watergate break-in, has not been recovered. An easy task compared to recovery of a modern high density digital signal.
+As of November 2007, the United States Department of Defense considers overwriting acceptable for clearing magnetic media within the same security area/zone, but not as a sanitization method. Only degaussing or physical destruction is acceptable for the latter.[4]
+On the other hand, according to the 2006 NIST Special Publication 800-88 (p. 7): "Studies have shown that most of today’s media can be effectively cleared by one overwrite" and "for ATA disk drives manufactured after 2001 (over 15 GB) the terms clearing and purging have converged."[1] Further analysis by Wright et al. seems to also indicate that one overwrite is all that is generally required.[5]
+
+Degaussing is the removal or reduction of a magnetic field. Applied to magnetic media, degaussing may purge an entire media element quickly and effectively. A device, called a degausser, designed for the media being erased, is used.
+Degaussing often renders hard disks inoperable, as it erases low-level formatting which is only done at the factory, during manufacture. Degaussed floppy disks can generally be reformatted and reused.
+In high-security environments, one may be required to use a degausser which has been approved for the task. For example, in US government and military jurisdictions, one may be required to use a degausser from the NSA's "Evaluated Products List". [6].
+
+Encrypting data before it is stored on the medium may mitigate concerns about data remanence. If the decryption key is strong and carefully controlled (i.e., not itself subject to data remanence), it may effectively make any data on the medium unrecoverable. Even if the key is stored on the medium, it may prove easier or quicker to overwrite just the key, vs the entire disk.
+Encryption may be done on a file-by-file basis, or on the whole disk. However if the key is stored, even temporarily, on the same system as the data, it is subject to data remanence and may be recovered by an attacker. See cold boot attack.
+
+Physical destruction of the data storage medium is generally considered the most certain way to counter data remanence, although also at the highest cost. Not only is the process generally time-consuming and cumbersome, it obviously renders the media unusable. Further, with the high recording densities of modern media, even a small media fragment may contain large amounts of data.
+Specific destruction techniques include:
+
+
+Storage media may have areas which become inaccessible by normal means. For example, magnetic disks may develop new "bad sectors" after data has been written, and tapes require inter-record gaps. Modern hard disks often feature automatic remapping of marginal sectors or tracks, which the OS may not even be aware of. Attempts to counter data remanence by overwriting may not be successful in such situations, as data remnants may persist in such nominally inaccessible areas.
+
+Data storage systems with more sophisticated features may make overwrite ineffective, especially on a per-file basis.
+Journaling file systems increase the integrity of data by recording write operations in multiple locations, and applying transaction-like semantics. On such systems, data remnants may exist in locations "outside" the nominal file storage location.
+Some file systems implement copy-on-write or built-in revision control, with the intent that writing to a file never overwrites data in-place.
+Technologies such as RAID and anti-fragmentation techniques may result in file data being written to multiple locations, either by design (for fault tolerance), or as data remnants.
+Wear levelling can also defeat data erasure, by relocating blocks between the time when they are originally written and the time when they are overwritten.
+
+Optical media are not magnetic and are not affected by degaussing. Write-once optical media (CD-R, DVD-R, etc.) also cannot be purged by overwrite. Read/write optical media, such as CD-RW and DVD-RW, may be receptive to overwriting. Methods for successfully sanitizing optical discs include delaminating-abrasion of the metallic data layer, shredding, destructive electrical arcing (as by exposure to microwave energy), and submersion in a polycarbonate solvent (e.g., acetone).
+
+Data remanence has been observed in static RAM, which is typically considered volatile (i.e., contents are erased with loss of electrical power). In the study, data retention was sometimes observed even at room temperature.[7]
+Another study found data remanence in dynamic random access memory (DRAM), again with data retention of seconds to minutes at room temperature and "a full week without refresh when cooled with liquid nitrogen."[8] The study authors were able to use a cold boot attack to recover cryptographic keys for several popular full disk encryption systems. Despite some memory degradation, they were able to take advantage of redundancy in the way keys are stored after they have been expanded for efficient use, such as in key scheduling. The authors recommend that computers be powered down, rather than be left in a "sleep" state, when not in physical control of the owner, and in some cases such as Bitlocker, that a boot PIN also be configured. [8]
+
+
+
+There are dozens of other tools for various operating systems.
+
+

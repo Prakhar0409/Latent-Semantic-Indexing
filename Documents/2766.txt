@@ -1,0 +1,16 @@
+User-mode Linux
+User-mode Linux (UML) enables multiple virtual Linux systems (known as guests) to run as an application within a normal Linux system (known as the host). As each guest is just a normal application running as a process in user space, this approach provides the user with a way of running multiple virtual Linux machines on a single piece of hardware, offering excellent security and safety without affecting the host environment's configuration or stability.
+
+Numerous things become possible through the use of UML. One can run network services from a UML environment and remain totally sequestered from the main Linux system in which the UML environment runs. Administrators can use UML to set up honeypots, which allow one to test the security of one's computers or network. UML can serve to test and debug new software without adversely affecting the host system. UML can also be used for teaching and research, providing a realistic Linux networked environment with a high degree of safety.
+In UML environments, host and guest kernel versions need not match, so it is entirely possible to test a "bleeding edge" version of Linux in User-mode on a system running a much older kernel. UML also allows kernel debugging to be performed on one machine, where other kernel debugging tools (such as kgdb) require two machines connected with a null modem cable.
+Recently, several web hosting providers have begun offering UML-powered virtual servers for lower prices than true dedicated servers. Each customer has root access on what appears to be their own system, while in reality one physical computer is shared between many people.
+
+The UML guest application (a Linux binary ELF) was originally available as a patch for some Kernel versions above 2.2.x, and the host with any kernel version above 2.2.x supported it easily in the thread mode (i.e., non-skas3).
+As of Linux 2.6.0 it is integrated into the main kernel source tree. A method of running a separate kernel address space (skas) that does not require host kernel patching has been implemented; This improves performance and security over the old Traced Thread approach, in which processes running in the UML share the same address space from the host's point of view, which leads the memory inside the UML to not be protected by the Memory management unit. Unlike the current UML using skas, buggy or malicious software inside a UML running on a non-skas host could be able to read the memory space of other UML processes or even the UML kernel memory.
+
+User-mode Linux is generally considered to have lower performance than some competing technologies, such as Xen and OpenVZ. Future work in adding support for x86 virtualization to UML may reduce this disadvantage.
+Often cited as a strength of Xen (a competing technology) is support for Thread Local Storage (TLS). This is now also supported in the latest UML kernels. Xen concentrates on virtualizing the whole machine, and thus all systems running on a Xen machine are really virtual machines. In UML, the host machine is not virtualized in any way, and only guest systems are true virtual machines.
+
+UML was originally designed for x86 processors, but has also been ported to other architectures including IA-64 and PowerPC; the only currently working port is to x86-64 architecture.
+
+

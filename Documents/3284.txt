@@ -1,0 +1,24 @@
+Erasure code
+In computer science, an erasure code transforms a message of n blocks into a message with more than n blocks, such that the original message can be recovered from a subset of those blocks. The fraction of the blocks required is called the rate, denoted r. Erasure codes are used in some forms of forward error correction.
+
+Optimal erasure codes produce n/r blocks where any n blocks is sufficient to recover the original message. Unfortunately optimal codes are costly (in terms of memory usage, CPU time or both) when n is large, and so near optimal erasure codes are often used. These require (1+ε)n blocks to recover the message. Reducing ε can be done at the cost of CPU time.
+Fountain codes (also known as rateless erasure codes) transform an n block message into a practically infinite encoded form. Encoded symbols can be generated ad infinitum and some number of them is enough to recover the message.
+
+Alice wants to send her telephone number (555629) to Bob using err-mail. Err-mail works just like e-mail, except
+Instead of asking Bob to acknowledge the messages she sends, Alice devises the following scheme.
+
+Bob knows that the form of f(n) is f(n) = a + (b − a)(n − 1), where a and b are the two parts of the telephone number. Now suppose Bob receives "D=777" and "E=851".
+
+Bob can reconstruct Alice's phone number by computing the values of a and b from the values (f(4) and f(5)) he has received. Bob can perform this procedure using any two err-mails, so the erasure code in this example has a rate of 40%.
+Note that Alice cannot encode her telephone number in just one err-mail, because it contains six characters, and the maximum length of one err-mail message is five characters. If she sent her phone number in pieces, asking Bob to acknowledge receipt of each piece, at least four messages would have to be sent anyway (two from Alice, and two acknowledgments from Bob). So the erasure code in this example, which requires five messages, is quite economical.
+This example is a little bit contrived. For truly generic erasure codes that work over any data set, we would need something other than the f(n) given.
+
+When err-mail 2 arrives (the upgrade), the maximum message length is reduced to 4 characters. Alice will now start by sending "A=55", "B=56" and "C=29". She will then place markers called A through E on the floor in a configuration that is known to Bob. She will then fit a plane such that its height above A is 55, its height above B is 56 and its height above C is 29. The redundant messages are then the height of that plane above D and E.
+If Bob receives three messages he can reconstruct the plane and extract Alice's phone number.
+
+This process is commonly implemented with code words constructed over a finite field using a Vandermonde matrix.
+
+
+
+
+

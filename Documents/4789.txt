@@ -1,0 +1,14 @@
+Boot sector
+A boot sector is a sector of a hard disk, floppy disk, or similar data storage device that contains code for booting programs (usually, but not necessarily, operating systems) stored in other parts of the disk.
+On a IBM PC compatible machine the BIOS selects a boot device, then it copies the first sector from the device (which may be an MBR, VBR or any executable code), to address location 0x7C00.
+
+There are several major kinds of boot sectors could be encountered on IBM PC compatible hard disks, floppy disks and similar storage devices:
+To be a valid boot sector, the two-byte hex word 0xAA55, called the boot sector signature, must exist at the end of the sector; otherwise, either the BIOS or MBR code will report an error message and halt any OS bootstrapping process.
+
+On IBM PC compatible machines, the BIOS is ignorant of the distinction between VBRs and MBRs, and of partitioning. The firmware simply loads and runs the first sector of the storage device. If the device is a floppy or USB flash drive, that will be a VBR. If the device is a hard disk, that will be an MBR. It is the code in the MBR which generally understands disk partitioning, and in turn, is responsible for loading and running the VBR of whichever primary partition is set to boot (the active partition). The VBR then loads a second-stage bootloader from another location on the disk.
+Furthermore, whatever is stored in the first sector of a floppy diskette, USB device, hard disk or any other bootable storage device, is not required to immediately load any bootstrap code for an OS, if ever. The BIOS merely passes control to whatever exists there, as long as the sector meets the very simple qualification of having the boot record signature of 0xAA55 in its last two bytes. This is why it's easy to replace the usual bootstrap code found in an MBR with more complex loaders, even large multi-functional boot managers (programs stored elsewhere on the device which can run without an operating system), allowing users a number of choices in what occurs next. But with such freedom, there's also the possibility for abuse as addressed in the section on boot viruses.
+
+Since code in the boot sector is executed automatically, boot sectors have historically been a common attack vector for computer viruses. To combat this behavior, the BIOS often includes an option to prevent writing to the boot sectors of attached hard drives.
+
+
+

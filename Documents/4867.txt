@@ -1,0 +1,11 @@
+Metaverse
+The Metaverse is a virtual world, described in Neal Stephenson's 1992 science fiction novel Snow Crash, where humans, as avatars, interact with each other and software agents, in a three-dimensional space that uses the metaphor of the real world. The word metaverse is a portmanteau of the words "meta" and "universe".
+
+The Metaverse appears to its users as an urban environment, developed along a single hundred-meter-wide road, the Street, that runs the entire 65536 km (216 km) circumference of a featureless, black, perfectly spherical planet. The virtual real estate is owned by the Global Multimedia Protocol Group, a fictional part of the real Association for Computing Machinery, and is available to be bought and buildings developed thereupon.
+Users of the Metaverse gain access to it through personal terminals that project a high-quality virtual reality display onto goggles worn by the user, or from low-quality public terminals in booths (with the penalty of presenting a grainy black and white appearance). Stephenson also describes a sub-culture of people choosing to remain continuously connected to the Metaverse by wearing portable terminals, goggles and other equipment; they are given the soubriquet "gargoyles" due to their grotesque appearance. The users of the Metaverse experience it from a first person perspective.
+Within the Metaverse, individual users appear as avatars of any form, with the sole restriction of height, "to prevent people from walking around a mile high". Transport within the Metaverse is limited to analogs of reality - by foot, or vehicle, such as the monorail that runs the entire length of the Street, stopping at 256 Express Ports, located evenly at 256 km intervals, and Local Ports, one kilometer apart.
+
+Although similar concepts have appeared under a variety of names in the cyberpunk genre of fiction as far back as 1981 (in the novella True Names), in the acknowledgments section following the text of Snow Crash, Stephenson writes:
+
+Various software implementations, with differing degrees of similarity to the original text, have been made of Metaverse-like environments.
+

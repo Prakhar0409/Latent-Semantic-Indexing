@@ -1,0 +1,5 @@
+LiveConnect
+LiveConnect is a feature of Web browsers that allows Java and JavaScript software to intercommunicate within a Web page. From the Java side it allows an applet to invoke the embedded scripts of a page or to access the built-in JavaScript environment, much as scripts can. Conversely, from the JavaScript side, it allows a script to invoke applet methods, or to access the Java runtime libraries, much as applets can.[1][2]
+LiveConnect was used in Netscape 4 to implement scriptability of NPAPI plugins.
+It is currently used in Rhinohide to implement a DOM interface for applets, that allows each applet to manipulate its containing Web page, using a standard Java binding of the DOM.[3]
+

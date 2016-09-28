@@ -1,0 +1,20 @@
+Application service provider
+An application service provider (ASP) is a business that provides computer-based services to customers over a network. Software offered using an ASP model is also sometimes called On-demand software or software as a service (SaaS). The most limited sense of this business is that of providing access to a particular application program (such as customer relationship management) using a standard protocol such as HTTP.
+The need for ASPs has evolved from the increasing costs of specialized software that have far exceeded the price range of small to medium sized businesses. As well, the growing complexities of software have led to huge costs in distributing the software to end-users. Through ASPs, the complexities and costs of such software can be cut down. In addition, the issues of upgrading have been eliminated from the end-firm by placing the onus on the ASP to maintain up-to-date services, 24 x 7 technical support, physical and electronic security and in-built support for business continuity and flexible working.
+The importance of this marketplace is reflected by its size. As of early 2003[update], estimates of the United States market range from 1.5 to 4 billion dollars. Clients for ASP services include businesses, government organizations, non-profits, and membership organizations.
+
+There are several forms of ASP business. These are:
+Some analysts identify a volume ASP as a fifth type. This is basically a specialist ASP that offers a low cost packaged solution via their own website. PayPal was an instance of this type, and their volume was one way to lower the unit cost of each transaction.
+In addition to these types, some large multi-line companies (such as IBM), use ASP concepts as a particular business model that supports some specific customers.
+
+The application software resides on the vendor's system and is accessed by users through a web browser using HTML or by special purpose client software provided by the vendor. Custom client software can also interface to these systems through XML APIs. These APIs can also be used where integration with in-house systems is required.
+Common features associated with ASPs include:
+The advantages to this approach include:
+Some inherent disadvantages include:
+Evaluating an Application Service Provider security when moving to an ASP infrastructure can come at a high cost, as such a firm must assess the level of risk associated with the ASP itself. Failure to properly account for such risk can lead to:
+Some other risks include failure to account for the financial future of the ASP in general, i.e. how stable a company is and if it has the resources to continue business into the foreseeable future. For these reasons Cisco Systems has developed a comprehensive evaluation guideline. This guideline includes evaluating the scope of the ASP's service, the security of the program and the ASP's maturity with regard to security awareness. Finally the guidelines indicate the importance of performing audits on the ASP with respect to:
+Physical visits to the ASP to assess the formality of the organization will provide invaluable insight into the awareness of the firm.
+
+In terms of their common goal of enabling customers to outsource specific computer applications so they can focus on their core competencies, ASPs may be regarded as the indirect descendants of the service bureaus of the 1960s and 1970s. In turn, those bureaus were trying to fulfill the vision of computing as a utility, which was first proposed by John McCarthy in a speech at MIT in 1961.
+
+

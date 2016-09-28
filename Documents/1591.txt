@@ -1,0 +1,16 @@
+Groovy (programming language)
+Groovy is an object-oriented programming language for the Java Platform as an alternative to the Java programming language. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform.
+Groovy uses a Java-like curly bracket syntax which is dynamically compiled to Java Virtual Machine bytecode and which works seamlessly with other Java code and libraries. The Groovy compiler can be used to generate standard Java bytecode to be used by any Java project. Most Java code is also syntactically valid Groovy.
+Groovy is currently undergoing standardization via the Java Community Process under JSR 241. Groovy 1.0 was released on January 2, 2007.
+
+The Groovy language is largely a superset of the Java language. One can usually rename a .java file to a .groovy one and it will work (though there are a few incompatibilities). Groovy has a number of features not found in standard Java. This makes the learning curve for Java developers almost zero, since they can start with Java syntax and gradually learn to add Groovy features. [1] Groovy features not available in Java include both static and dynamic typing (with the def keyword), closures, operator overloading, native syntax for lists and associative arrays (maps), native support for regular expressions, polymorphic iteration, expressions embedded inside strings, additional helper methods, and the safe navigation operator "?." to automatically check for nulls (for example, "variable?.method()", or "variable?.field"). [2]
+Groovy's syntax can be made far more compact than Java. For example, a declaration in Standard Java 5+ such as:
+can be expressed in Groovy as:
+One noteworthy feature of Groovy is its native support for various markup languages such as XML and HTML, accomplished via an inline DOM syntax. This feature enables the definition and manipulation of many types of heterogeneous data assets with a uniform and concise syntax and programming methodology.[citation needed]
+
+James Strachan first talked about the development of Groovy in his blog in August 2003. Several versions were released between 2004 and 2006. After the JCP standardization process began, the version numbering was changed and a version called "1.0" was released on Tuesday, January 2, 2007. After various betas and release candidates numbered 1.1, on December 7, 2007 Groovy 1.1 Final was released and immediately rebranded as Groovy 1.5 as a reflection of the great improvement made.
+
+Many integrated development environments support Groovy:
+
+
+

@@ -1,0 +1,41 @@
+SOCKS
+SOCKS is an Internet protocol that facilitates the routing of network packets between client-server applications via a proxy server. SOCKS performs at Layer 5 of the OSI model - the Session Layer (an intermediate layer between the presentation layer and the transport layer).
+
+The protocol was originally developed by David Koblas, a system administrator of MIPS Computer Systems. After MIPS was taken over by Silicon Graphics in 1992, Koblas presented a paper on SOCKS at that year's Usenix Security Symposium and SOCKS became publicly available.[1] The protocol was extended to version 4 by Ying-Da Lee of NEC.
+The SOCKS reference architecture and client are owned by Permeo Technologies.[2] (Note that Permeo Technologies has been bought out by Blue Coat Systems [3] a spin-off from NEC.[4])
+
+Clients behind a firewall may connect to a SOCKS proxy server in order to access external services through the firewall. Such a proxy server controls the eligibility of the client to access the external server and, if the client has eligibility, passes the request on to the server. SOCKS can also be used in the opposite way, allowing the clients outside the firewall ("exterior clients") to connect to servers inside the firewall (internal servers).
+
+SOCKS uses a handshake protocol to inform the proxy software about the connection that the client is trying to make and may be used for any form of TCP or UDP socket connection, whereas a HTTP proxy analyses the HTTP headers sent through it in order to deduce the address of the server and therefore may only be used for HTTP traffic. The following examples demonstrate the difference between the SOCKS and HTTP proxy protocols:
+
+Bill wishes to communicate with Jane over the internet, but a firewall exists on his network between them and Bill is not authorised to communicate through it himself. Therefore, he connects to the SOCKS proxy on his network and sends information about the connection he wishes to make to Jane. The SOCKS proxy opens a connection through the firewall and facilitates the communication between Bill and Jane. For more information on the technical specifics of the SOCKS protocol, see the sections below.
+
+Bill wishes to download a web page from Jane, who runs a web server. Bill cannot directly connect to Jane's server, as a firewall has been put in place on his network. In order to communicate with the server, Bill connects to his network's HTTP proxy. His internet browser communicates with the proxy in exactly the same way it would the target server - it sends a standard HTTP request header. The HTTP proxy reads the request and looks for the Host header. It then connects to the server specified in the header and transmits any data the server replies with back to Bill.
+
+A typical SOCKS 4 connection request looks like this (each number is one byte):
+Client to SOCKS Server:
+Server to SOCKS client:
+Example:
+This is a SOCKS 4 request to connect Fred to 66.102.7.99:80, the server replies with an "OK".
+From this point on any data sent from the SOCKS client to the SOCKS server will be relayed to 66.102.7.99 and vice versa.
+The command field can be 0x01 for "connect" or 0x02 for "bind". "bind" allows incoming connections for protocols like active FTP.
+
+SOCKS 4a is a simple extension to SOCKS 4 protocol that allows a client that cannot resolve the destination host's domain name to specify it.
+The client should set the first three bytes of DSTIP to NULL and the last byte to a non-zero value (This corresponds to IP address 0.0.0.x, with x nonzero, an inadmissible destination address and thus should never occur if the client can resolve the domain name). Following the NULL byte terminating USERID, the client must send the destination domain name and terminate it with another NULL byte. This is used for both "connect" and "bind" requests.
+Client to Socks Server:
+Server to SOCKS client:
+A server using protocol 4A must check the DSTIP in the request packet. If it represents address 0.0.0.x with nonzero x, the server must read in the domain name that the client sends in the packet. The server should resolve the domain name and make connection to the destination host if it can.
+
+The SOCKS 5 protocol is an extension of the SOCKS 4 protocol that is defined in RFC 1928. It offers more choices of authentication, adds support for IPv6 and UDP that can be used for DNS lookups. The initial handshake now consists of the following:
+The authentication methods supported are numbered as follows:
+The initial greeting from the client is:
+The server's choice is communicated:
+The subsequent authentication is method-dependent and described in RFC 1929:
+The client's authentication request is:
+Server response for authentication:
+The client's connection request is:
+Server response:
+There are client programs that "socksify",[8] which allows adaptation of any networked software to connect to external networks via SOCKS.
+
+
+

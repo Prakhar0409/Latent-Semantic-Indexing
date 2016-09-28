@@ -1,0 +1,14 @@
+Information architecture
+Information architecture (IA) is the art of expressing a model or concept of information used in activities that require explicit details of complex systems. Among these activities are library systems, Content Management Systems, web development, user interactions, database development, programming, technical writing, enterprise architecture, and critical system software design. Information architecture has somewhat different meanings in these different branches of IS or IT architecture. Most definitions have common qualities: a structural design of shared environments, methods of organizing and labeling websites, intranets, and online communities, and ways of bringing the principles of design and architecture to the digital landscape.
+
+Information architecture is defined by the R.I.P.O.S.E.[1] technique, developed in 1989 [2] as:
+Note: In this case the term intelligence is used to the effect of "knowledge used to inform".
+Information architecture is defined by the Information Architecture Institute as:
+The term information architecture describes a specialized skill set which relates to the interpretation of information and expression of distinctions between signs and systems of signs. It has some degree of origin in the library sciences. Many schools with library and information science departments teach information architecture [5]
+In the context of information system design, information architecture refers to the analysis and design of the data stored by information systems, concentrating on entities, their attributes and their interrelationships. It refers to the modeling of data for an individual database and to the corporate data models an enterprise uses to coordinate the definition of data in several (perhaps scores or hundreds) of distinct databases. Recently, the "canonical data model" is applied to integration technologies as a definition for specific data passed between the systems of an enterprise. At a higher level of abstraction, it may also refer to the definition of data stores.
+
+Information Architecture was originally a term with a meaning more akin to what is called today Information Design. The term "Information Architecture" was coined around 1975 by Richard Saul Wurman, an architect and AIGA luminary[6]. Later, the term was appropriated by Web Design experts and applied onto high-complexity web sites, since Information Architecture is an important aspect of Web User experience design. This appropriation has changed the original meaning into what is today considered to be Information Architecture.
+
+
+
+

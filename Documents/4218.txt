@@ -1,0 +1,20 @@
+Schematron
+In Markup Languages, Schematron is a rule-based validation language for making assertions about the presence or absence of patterns in XML trees. It is a simple and powerful structural schema language expressed in XML using a small number of elements and XPath. The Schematron schema XML is then processed into normal XSLT code for deployment anywhere that XSLT can be used.
+
+Because of its rule-based nature, Schematron's specificity is very strong. For example, it can require that the content of an element be controlled by one of its siblings. Or it can request or require that the root element, regardless of what element that is, must have specific attributes. Schematron can even specify required relationships between multiple XML files.
+On top of these specific rules are validation error messages expressed in natural language instead of cryptic error codes. This can make error diagnosis by end-users much easier than some other schema languages.
+
+Schematron's elegant design of a expressing constraints through a simple, XPath-based language but deployed as XSLT code, make it practical for applications such as the following:
+
+Schematron was invented by Rick Jelliffe. He described Schematron as "a feather duster to reach the parts other schema languages cannot reach".
+
+
+Any files that use ISO/IEC FDIS 19757-3 should use the following namespace:
+
+Schematron rules are very simple to create using a standard XML editor or XForms application. The following is a sample rule:
+This rule checks to make sure that the ContractDate XML element has a date that is before the current date. If this rule fails the validation will fail and an error message which is the body of the assert element will be returned to the user.
+
+Schematron source files are usually transformed into XSLT files (using XSLT) and placed in an XML Pipeline. This allows workflow process designers to build and maintain rules using standard XML manipulation tools.
+For example an Apache Ant task can be used to convert Schematron rules into XSLT files.
+
+

@@ -1,0 +1,11 @@
+Remote Installation Services
+Remote Installation Services is a Microsoft-supplied server that allows PXE BIOS-enabled computers to remotely execute boot environment variables.
+
+At boot time, a workstation that has been set to boot from PXE will issue a BOOTP request via the network. Once the request is received, the DHCP Server will supply an IP address to the machine, and the DNS server will point the client computer to the RIS server, which in turn will issue a disk boot image (often called the "OS Chooser"). Once the OS Chooser environment has been booted, the user must authenticate against the Domain Controller, and can then select a Windows image to install. The source files for each image can be customized with a utility such as nLite to slipstream updates and service packs, apply tweaks, perform unattended installations, and include software with the operating system.
+
+Remote Installation Services was introduced with Windows 2000 as an optional component when installed on Windows 2000 Server. Initially, it supported only the distribution of Windows 2000 Professional, but with Service Pack 3 allowed for the remote installation of Windows 2000 Server. [1] RIS was updated twice; once to support Windows XP, and again to support Windows Server 2003. With the release of Service Pack 2 for Windows Server 2003, RIS was replaced with Windows Deployment Services.
+
+On Windows 2003, two services are required to provide Remote Installation Services: DHCP and Remote Installation Service. The Remote Installation Server doubles as a proxy DHCP server to provide Boot Server and Filename instructions to clients. Remote Installation Service utilizes UDP port 4011[2] to provide clients the contents of each page the OS Chooser displays. Additionally, this service can provide drivers to clients; it is often used to provide the workstation's network card driver, which is required to launch the OS Chooser and mount the share where images are stored.
+
+
+

@@ -1,0 +1,14 @@
+Primary rate interface
+The primary rate interface (PRI) is a telecommunications standard for carrying multiple DS0 voice and data transmissions between a network and a user.
+All data and voice channels are ISDN and operate at 64 kbit/s.
+
+North America and Japan use a T1 system of 23 B channels and one D channel which corresponds to a T1 line. Europe, Australia and most of the rest of the world use the slightly higher capacity E1 system, which is composed of 30 B channels, one synchonization channel and one D channel.
+See T-carrier for DS0, T1, E1, T3, E3 and other carrier communications terms.
+
+In the Integrated Services Digital Network (ISDN), there are two levels of service: the Basic Rate Interface (BRI), intended for the home and small enterprise, and the Primary Rate Interface (PRI), for larger users. Both rates include a number of B-channels and a D-channel. Each B-channel carries data, voice, and other services. The D-channel carries control and signaling information. The Basic Rate Interface consists of two 64 kbit/s B-channels and one 16 kbit/s D-channel. Thus, a Basic Rate Interface user can have up to 128 kbit/s service. The Primary Rate Interface consists of 23 B-channels and one 64 kbit/s D-channel using a T1 line (North American standard) or 30 B-channels and one D-channel using an E1 line (Europe/Rest of World). Thus, a Primary Rate Interface user on a T1 line can have up to 1.544 Mbit/s service or up to 2.048 Mbit/s service on an E1 line. PRI uses the Q.931 protocol over the D-channel.
+
+Fewer active B channels (also called user channels) can be used for a fractional T1. More channels can be used with more T1s, within certain design limits.
+
+The Primary Rate Interface channels are typically used by medium to large enterprises with digital PBXs to provide them digital access to the Public Switched Telephone Network (PSTN). The 23 (or 30) B-channels can be used flexibly and reassigned when necessary to meet special needs such as videoconferences. The Primary Rate user is hooked up directly to the telephone company central office.
+
+

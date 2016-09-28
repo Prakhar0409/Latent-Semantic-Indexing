@@ -1,0 +1,4 @@
+Comparison of platform virtual machines
+The table below compares basic information about platform virtual machine (VM) packages.
+
+

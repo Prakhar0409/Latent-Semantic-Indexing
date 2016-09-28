@@ -1,0 +1,6 @@
+SubRip
+SubRip is an optical character recognition program for Windows which rips (extracts) subtitles and their timings from video files or DVDs, recording them as a text file. Subrip is also the name of the subtitle format created by this software. The caption files are named with the extension .SRT. This format is supported by most software video players and subtitle creation programs, detailed in the article Comparison of media players.
+In practice, SubRip is first configured to correctly detect subtitles in a video file. The correct video codecs (DGMPGDec for DVDs) must be installed, along with AviSynth. SubRip is configured while displaying a frame with subtitles, including their color, shape of the subtitle area, and any required image manipulation (fattening, contrast adjustments). After trial and fine tuning, extraction is then performed automatically for the entire file during playback.
+The time format used is hours:minutes:seconds,milliseconds, with the milliseconds field precise to three decimal places. The decimal separator used is the comma, since the program was written in France, and the line break used is the CR+LF pair. Subtitles are indexed numerically, starting at 1.
+
+

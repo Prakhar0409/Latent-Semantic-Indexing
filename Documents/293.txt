@@ -1,0 +1,31 @@
+Algebraic structure
+In algebra, a branch of pure mathematics, an algebraic structure consists of one or more sets closed under one or more operations, satisfying some axioms. Abstract algebra is primarily the study of algebraic structures and their properties. The notion of algebraic structure has been formalized in universal algebra.
+As an abstraction, an "algebraic structure" is the collection of all possible models of a given set of axioms. More concretely, an algebraic structure is any particular model of some set of axioms. For example, the monster group both "is" an algebraic structure in the concrete sense, and abstractly, "has" the group structure in common with all other groups. This article employs both meanings of "structure."
+This definition of an algebraic structure should not be taken as restrictive. Anything that satisfies the axioms defining a structure is an instance of that structure, regardless of how many other axioms that instance happens to have. For example, all groups are also semigroups and magmas.
+
+If the axioms defining a structure are all identities, the structure is a variety (not to be confused with algebraic variety in the sense of algebraic geometry). Identities are equations formulated using only the operations the structure allows, and variables that are tacitly universally quantified over the relevant universe. Identities contain no connectives, existentially quantified variables, or relations of any kind other than the allowed operations. The study of varieties is an important part of universal algebra.
+All structures in this section are varieties. Some of these structures are most naturally axiomatized using one or more nonidentities, but are nevertheless varieties because there exists an equivalent axiomatization, one perhaps less perspicuous, composed solely of identities. Algebraic structures that are not varieties are described in the following section, and differ from varieties in their metamathematical properties.
+In this section and the following one, structures are listed in approximate order of increasing complexity, operationalized as follows:
+The indentation structure employed in this section and the one following is intended to convey information. If structure B is under structure A and more indented, then all theorems of A are theorems of B; the converse does not hold.
+Ringoids and lattices can be clearly distinguished despite both having two defining binary operations. In the case of ringoids, the two operations are linked by the distributive law; in the case of lattices, they are linked by the absorption law. Ringoids also tend to have numerical models, while lattices tend to have set-theoretic models.
+Simple structures: No binary operation:
+Group-like structures:
+One binary operation, denoted by concatenation. For monoids, boundary algebras, and sloops, S is a pointed set.
+Three binary operations. Quasigroups are listed here, despite their having 3 binary operations, because they are (nonassociative) magmas. Quasigroups feature 3 binary operations only because establishing the quasigroup cancellation property by means of identities alone requires two binary operations in addition to the group operation.
+Lattice: Two or more binary operations, including meet and join, connected by the absorption law. S is both a meet and join semilattice, and is a pointed set if and only if S is bounded. Lattices often have no unary operations. Every true statement has a dual, obtained by replacing every instance of meet with join, and vice versa.
+Ringoids: Two binary operations, addition and multiplication, with multiplication distributing over addition. Semirings are pointed sets.
+N.B. The above definition of ring does not command universal assent. Some authorities employ "ring" to denote what is here called a rng, and refer to a ring in the above sense as a "ring with identity."
+Modules: Composite Systems Defined over Two Sets, M and R: The members of:
+The scalar multiplication of scalars and module elements is a function RxM→M which commutes, associates (∀r,s∈R, ∀x∈M, r(sx) = (rs)x ), has 1 as identity element, and distributes over module and scalar addition. If only the pre(post)multiplication of module elements by scalars is defined, the result is a left (right) module.
+Vector spaces, closely related to modules, are defined in the next section.
+
+The structures in this section are not varieties because they cannot be axiomatized with identities alone. Nearly all of the nonidentities below are one of two very elementary kinds:
+Structures whose axioms unavoidably include nonidentities are among the most important ones in mathematics, e.g., fields and vector spaces. Moreover, much of theoretical physics can be recast as models of multilinear algebras. Although structures with nonidentities retain an undoubted algebraic flavor, they suffer from defects varieties do not have. For example, neither the product of integral domains nor a free field over any set exist.
+Arithmetics: Two binary operations, addition and multiplication. S is an infinite set. Arithmetics are pointed unary systems, whose unary operation is injective successor, and with distinguished element 0.
+Field-like structures: Two binary operations, addition and multiplication. S is nontrivial, i.e., S≠{0}.
+The following structures are not varieties for reasons in addition to S≠{0}:
+Composite Systems: Vector Spaces, and Algebras over Fields. Two Sets, M and R, and at least three binary operations.
+The members of:
+Three binary operations.
+Four binary operations.
+Composite Systems: Multilinear algebras. Two sets, V and K. Four binary operations:

@@ -1,0 +1,15 @@
+Deductive reasoning
+Deductive reasoning, sometimes called deductive logic, is reasoning which constructs or evaluates deductive arguments. In logic, an argument is said to be deductive when the truth of the conclusion is purported to follow necessarily or be a logical consequence of the premises and (consequently) its corresponding conditional is a necessary truth. Deductive arguments are said to be valid or invalid, never true or false. A deductive argument is valid if and only if the truth of the conclusion actually does follow necessarily (or is indeed a logical consequence of) the premises and (consequently) its corresponding conditional is a necessary truth. If a deductive argument is not valid then it is invalid. A valid deductive argument with true premises is said to be sound; a deductive argument which is invalid or has one or more false premises or both is said to be not sound (unsound).
+An example of a deductive argument and hence of deductive reasoning:
+Deductive reasoning is sometimes compared with inductive reasoning.
+
+An argument is valid when it is impossible for its premises to be true and its conclusion to be false, or, to put it another way, if the premises were true the conclusion would have to be true, or again, the conclusion follows necessarily from the premises. An argument can be valid even though the premises are false. Note, for example, that the conclusion of the following argument would have to be true if the premises were true, (even though they are, in fact, false):
+The argument, however, is not sound. In order for a deductive argument to be sound, it must not only be valid, the premises must be true as well.
+A theory of deductive reasoning known as categorical or term logic was developed by Aristotle but was superseded by propositional (sentential) logic and predicate logic.
+Deductive reasoning is sometimes contrasted with inductive reasoning. By thinking about phenomena such as how apples fall and how the planets move, Isaac Newton induced his theory of gravity. In the 19th century, Adams and LeVerrier applied Newton's theory (general principle) to deduce the existence, mass, position, and orbit of Neptune (specific conclusions) from perturbations in the observed orbit of Uranus (specific data).
+
+Deductive reasoning should be distinguished from the related concept of natural deduction, an approach to proof theory that attempts to provide a formal model of logical reasoning as it "naturally" occurs.
+
+
+
+

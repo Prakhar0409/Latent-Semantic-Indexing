@@ -1,0 +1,22 @@
+LinuxMCE
+LinuxMCE (Linux Media Center Edition) is a free and open source software platform with a 10-foot user interface designed to allow a computer to act as a home theater PC (HTPC) for the living-room TV, personal video recorder, and home automation system. It allows control of everything in the home, from lighting and climate to surveillance cameras and home security. It also includes a full-featured VOIP-compatible phone system with support for video conferencing.
+
+LinuxMCE may be used as a standalone home theater PC (without any other home network connectivity), but it may also serve as a complete home LAN system in a Server/Thin client configuration. In such a configuration, a central Core server (a standard PC running Kubuntu) does most of the storage and processing functions, while peripheral PCs (and other devices) provide input and output services. Thin client PCs can netboot over the LAN to serve as "Media Directors", which stream media content from the Core to audiovisual devices which are connected to these thin clients.
+This home automation/multimedia LAN can be expanded to include home automation systems, surveillance cameras, high-tech remote controllers (called "Orbiters"), and telephone PBX systems. The Core server co-ordinates the functions of all the devices on the home LAN. The advanced networking capabilities of the Linux OS allow this high level of network co-ordination.
+
+LinuxMCE was begun by Paul Webber as a fork of the PlutoHome home automation software project. It was adapted to run on top of a standard Linux distribution, Kubuntu, as its base OS, rather than to exist as a custom Linux distribution.
+Most of the core components, including the Orbiter (remote control) user interface, have undergone significant improvements, and are licensed under the GPL.
+
+The LinuxMCE package is installed on the Kubuntu OS, and utilizes open source applications such as Asterisk, Xine, MythTV, VDR, Firefox, VideoLAN and SlimServer. There are 32-bit and 64-bit versions.
+These programs have been given wrappers which allow them to communicate with each other, and with the Ruby scripts that control the home automation components. This communication is co-ordinated using a DCE (Data, Commands, Events) protocol through a program called the DCE Router. This added communications layer allows trigger-command features such as pausing media playback when an important phone call arrives, dimming the lights while playing a movie, and allowing media playback to follow from computer to computer whenever a Bluetooth enabled remote is carried between rooms.
+The DCE communications protocol allows a single program to present a standardized user interface, the Orbiter UI, to the various devices and applications used within the LinuxMCE system.
+Currently, LinuxMCE uses the SVN system for collaborative updates. An active development community for LinuxMCE has provided continuous developments in 2008, which has allowed the addition of a wide range of devices to the current LinuxMCE version.
+
+
+LinuxMCE allows the User Interface to be displayed in several different resolutions, to accommodate the graphics capabilities of the different devices (PCs, mobile phones, webpads, PDAs) that can be used to display it.
+
+Context-sensitive menus allow a single remote control to control not only LinuxMCE menus, but also audiovisual device functions.
+
+The appearance of the user interface is similar in many respects to the Nintendo Wii system.
+
+

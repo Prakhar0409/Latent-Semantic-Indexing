@@ -1,0 +1,9 @@
+Mu (negative)
+Mu (Japanese/Korean), and Wu (Chinese traditional: 無, simplified: 无 pinyin: wú Jyutping: mou2) is a word which has been roughly translated as "no", "none", "null", "without", "no meaning". While used in Japanese and Chinese mainly as a prefix to imply the absence of something (e.g., 無線/无线 musen/wúxiàn for "wireless"), in English it is more famously used as a response to certain koans and other questions in Zen Buddhism, intending to indicate that the question itself was wrong.
+The Mu koan is as follows: A monk asked Zhaozhou, a Chinese Zen master (known as Jōshū in Japanese): "Has a dog Buddha-nature or not?", Zhaozhou answered: "Wú" (in Japanese, Mu).
+Some earlier Buddhist thinkers had maintained that creatures such as dogs did have the Buddha-nature; others, that they did not. Therefore, to answer "no" is to deny their wisdom, whereas to say "yes" would appear to blindly follow their teachings. Zhaozhou's answer has subsequently been interpreted to mean that all such categorical thinking is in fact a delusion. In other words, yes and no are both right and wrong. This Koan is traditionally used by students of the Rinzai school of Zen as their initiation into Zen study.
+
+For example, it's stated over and over again that computer circuits exhibit only two states, a voltage for "one" and a voltage for "zero". That's silly! Any computer-electronics technician knows otherwise. Try to find a voltage representing one or zero when the power is off! The circuits are in a mu-state.
+
+
+

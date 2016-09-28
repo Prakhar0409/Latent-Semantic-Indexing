@@ -1,0 +1,19 @@
+Fuzzy set
+Fuzzy sets are sets whose elements have degrees of membership. Fuzzy sets have been introduced by Lotfi A. Zadeh (1965) as an extension of the classical notion of set.[1] In classical set theory, the membership of elements in a set is assessed in binary terms according to a bivalent condition â€” an element either belongs or does not belong to the set. By contrast, fuzzy set theory permits the gradual assessment of the membership of elements in a set; this is described with the aid of a membership function valued in the real unit interval [0, 1]. Fuzzy sets generalize classical sets, since the indicator functions of classical sets are special cases of the membership functions of fuzzy sets, if the latter only take values 0 or 1.[2]
+
+A fuzzy set is a pair (A,m) where A is a set and .
+For each , m(x) is the grade of membership of x. If A = {x1,...,xn} the fuzzy set (A,m) can be denoted {m(x1) / x1,...,m(xn) / xn}.
+An element mapping to the value 0 means that the member is not included in the fuzzy set, 1 describes a fully included member. Values strictly between 0 and 1 characterize the fuzzy members.[3] The set  is called the support of the fuzzy set (A,m) and the set  is called the kernel of the fuzzy set (A,m).
+Sometimes, a more general definition is used, where membership functions take values in an arbitrary fixed algebra or structure L; usually it is required that L be at least a poset or lattice. The usual membership functions with values in [0, 1] are then called [0, 1]-valued membership functions. This generalization was first considered in 1967 by Joseph Goguen, who was a student of Zadeh.[4]
+
+As an extension of the case of multi-valued logic, valuations () of propositional variables (Vo) into a set of membership degrees (W) can be thought of as membership functions mapping predicates into fuzzy sets (or more formally, into an ordered set of fuzzy pairs, called a fuzzy relation). With these valuations, many-valued logic can be extended to allow for fuzzy premises from which graded conclusions may be drawn.[5]
+This extension is sometimes called "fuzzy logic in the narrow sense" as opposed to "fuzzy logic in the wider sense," which originated in the engineering fields of automated control and knowledge engineering, and which encompasses many topics involving fuzzy sets and "approximated reasoning."[6]
+Industrial applications of fuzzy sets in the context of "fuzzy logic in the wider sense" can be found at fuzzy logic.
+
+A fuzzy number is a convex, normalized fuzzy set  whose membership function is at least segmentally continuous and has the functional value Î¼A(x) = 1 at precisely one element. This can be likened to the funfair game "guess your weight," where someone guesses the contestant's weight, with closer guesses being more correct, and where the guesser "wins" if he or she guesses near enough to the contestant's weight, with the actual weight being completely correct (mapping to 1 by the membership function).
+
+A fuzzy interval is an uncertain set  with a mean interval whose elements possess the membership function value Î¼A(x) = 1. As in fuzzy numbers, the membership function must be convex, normalized, at least segmentally continuous.[7]
+
+
+
+

@@ -1,0 +1,23 @@
+Mark Shuttleworth
+Mark Richard Shuttleworth (born 18 September 1973) is a South African entrepreneur who was the second self-funded space tourist.[1][2] Shuttleworth founded Canonical Ltd. and as of 2009, provides leadership for the Ubuntu operating system.
+He currently lives in London and holds dual citizenship of South Africa and the United Kingdom.
+
+Shuttleworth was born in Welkom, Free State, South Africa as a son of a surgeon and a kindergarten teacher.[3] After attending school at Rondebosch Boys' High School and Diocesan College, Shuttleworth obtained a Business Science degree in Finance and Information Systems at the University of Cape Town. He lived in Smuts Hall, where he was involved in the installation of the first residential Internet connections at the university.
+
+Shuttleworth founded Thawte in 1995, which specialised in digital certificates and Internet security and then sold it to VeriSign in December 1999, earning R 3.5 billion (about US$ 575 million at the time).
+In September 2000, Shuttleworth formed HBD Venture Capital, a business incubator and venture capital provider.
+In March 2004 he formed Canonical Ltd., for the promotion and commercial support of free software projects.
+
+In the 1990s, Shuttleworth participated as one of the developers of the Debian operating system.
+In 2001 he formed the Shuttleworth Foundation, a non-profit organization dedicated to social innovation which also funds educational and free and open source software projects in South Africa, such as the Freedom Toaster.
+In 2004 he returned to the free software world by funding the development of Ubuntu, a GNU/Linux distribution based on Debian, through his company Canonical Ltd.
+In 2005 he founded the Ubuntu Foundation and made an initial investment of 10 million dollars. In the Ubuntu project, Shuttleworth is often referred to with the tongue-in-cheek title Self-Appointed Benevolent Dictator for Life, abbreviated SABDFL.[4] To come up with a list of names of people to hire for the project, Mr. Shuttleworth took six months of Debian mailing list archives with him whilst travelling to the Antarctic aboard the icebreaker Kapitan Khlebnikov in early 2004.[5] In September 2005, he purchased a 65% stake of Impi Linux.[6]
+On 15 October 2006 it was announced that Mark Shuttleworth became the first patron of KDE, the highest level of sponsorship available.[7]
+
+Shuttleworth gained worldwide fame on 25 April 2002 as the second self-funded spaceflight participant. Working with Space Adventures, he launched aboard the Russian Soyuz TM-34 mission, paying approximately US$ 20 million for the voyage. Two days later, the Soyuz spacecraft arrived at the International Space Station, where he spent eight days participating in experiments related to AIDS and genome research. On 5 May 2002, he returned to Earth. In order to participate on the flight, Shuttleworth had to undergo one year of training and preparation, including seven months spent in Star City, Russia.
+While in space he had a radio conversation with Nelson Mandela and a 14 year old South African girl, Michelle Foster, who asked him to marry her. He politely dodged the question, stating that he was "very honoured at the question" before changing the subject.[8] The terminally ill Miss Foster's conversation was enabled by the Reach for a Dream foundation.[9][10]
+
+He has a private jet, a Bombardier Global Express,[11] which is often referred to as Canonical One[12][13][14] but is in fact owned through his HBD Venture Capital company. The dragon depicted on the side of the plane is "Norman", the HBD Venture Capital mascot.
+
+
+Rick Adams Â· Eric Allman Â· Brian Behlendorf Â· Keith Bostic Â· Alan Cox Â· Matthias Ettrich  Â· Miguel de Icaza Â· Theo de Raadt Â· Jim Gettys Â· John Gilmore Â· Jon "maddog" Hall Â· Jordan Hubbard Â· Lynne and William Jolitz Â· Lawrence Lessig Â· Marshall Kirk McKusick Â· Eben Moglen Â· Ian Murdock Â· Tim O'Reilly Â· Keith Packard Â· Brian Paul Â· Bruce Perens Â· Eric S. Raymond Â· Bob Scheifler Â· Mark Shuttleworth Â· Richard Stallman Â· Linus Torvalds Â· Theodore Ts'o Â· Andrew Tridgell Â· Guido van Rossum Â· Larry Wall

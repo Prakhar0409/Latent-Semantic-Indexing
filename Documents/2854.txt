@@ -1,0 +1,29 @@
+Konqueror
+Konqueror is a web browser, file manager and file viewer designed as a core part of the K Desktop Environment. It is developed by volunteers and can run on most Unix-like operating systems. Konqueror, along with the rest of the components in the KDEBase package, is licensed and distributed under the GNU General Public License.
+The name "Konqueror" is a reference to the two primary competitors at the time of the browser's first release: "first comes the Navigator, then Explorer, and then the Konqueror". It also follows the KDE naming convention: the names of most KDE programs begin with the letter K.[1]
+Konqueror came with the version 2 of KDE, released on October 23, 2000.[2] It replaces its predecessor, KFM (KDE file manager).[3]
+
+Konqueror's user interface is somewhat reminiscent of Microsoft's Internet Explorer (in turn designed after Netscape Navigator and NCSA Mosaic), though it is more customizable. It works extensively with "panels", which can be rearranged or added. For example, one could have an Internet bookmarks panel on the left side of the browser window, and by clicking a bookmark, the respective web page would be viewed in the larger panel to the right. Alternatively, one could display a hierarchical list of folders in one panel and the content of the selected folder in another. The panels are quite flexible and can even include a console window. Panel configurations can be saved, and there are some default configurations. (For example, "Midnight Commander" displays a screen split into two panels, where each one contains a folder, Web site, or file view.)
+Navigation functions (back, forward, history, etc.) are available during all operations. Most keyboard shortcuts can be remapped using a graphical configuration, and navigation can be conducted through an assignment of letters to nodes on the active file by pressing the control key. The address bar has extensive autocompletion support for local directories, past URLs, and past search terms.
+The application uses a tabbed document interface, wherein a window can contain multiple documents in tabs. Multiple document interfaces are not supported, however it is possible to recursively divide a window to view multiple documents simultaneously, or simply open another window.
+
+Konqueror has been developed as an autonomous web browser project. It uses KHTML as its layout engine, which is compliant with HTML and supports JavaScript, Java applets, CSS, SSL, and other relevant open standards.
+Konqueror integrates several customizable search services which can be accessed by entering the service's abbreviation code (for example, gg: for Google) followed by the search term(s). One can add their own search service; for instance, to retrieve Wikipedia articles, a shortcut may be added with the URL http://en.wikipedia.org/wiki/Special:Search?search=\{@}&go=Go.
+Konqueror's rendering speed is on par with that of competing browsers, but sites with malformed HTML are sometimes less leniently rendered than by other browsers.[citation needed] Problems can also result from the use of plugins on a web site which cannot be run under the operating system on which Konqueror is run; the use of QuickTime movies, or Shockwave animations can result in such problems. However, SWF (Flash), PDF, Java applets, and other plugins are supported if the respective software is installed.
+Konqueror is replaced as the primary web browser by Firefox in many distributions, though it is generally present for dependency reasons.
+
+Konqueror also allows browsing the local directory hierarchy—either by entering locations in the address bar, or by selecting items in the file browser window. It allows browsing in different views, which differ in their usage of icons and layout. Files can also be executed, viewed, copied, moved, and deleted.
+The user can also open an embedded version of Konsole in which they can directly execute shell commands.
+Although this functionality is not removed from it, in KDE 4 Konqueror is replaced by Dolphin as the default file manager.
+
+Using the KParts object model, Konqueror executes components that are capable of viewing (and sometimes editing) specific filetypes and embeds their client area directly into the Konqueror panel in which the respective files have been opened. This makes it possible to, for example, view an OpenDocument (via KOffice) or PDF document directly from within Konqueror. Any application that implements the KParts model correctly can be embedded in this fashion.
+KParts can also be used to embed certain types of multimedia content into HTML pages; for example, KMPlayer's KPart enables Konqueror to show embedded video on web pages.
+
+In addition to browsing files and web sites, Konqueror utilizes KIO plugins to extend its capabilities well beyond those of other browsers and file managers. It uses components of KIO, the Konqueror I/O plugin system, to access different protocols such as HTTP and FTP (support for these is built-in).
+Similarly, Konqueror can use KIO plugins (called IOslaves) to access ZIP files and other archives, smb (Windows) shares, to process ed2k links (edonkey/emule), or even to browse audio CDs, ("audiocd:/") and rip them via drag-and-drop. The FISH ("fish://user@host") IOslave allows Konqueror to manage files on remote secure shell servers, and the "man:" and "info:" IOslaves are handy for fetching nicely formatted documentation.
+A complete list is available in the KDE Info Center's Protocols section.
+
+Konqueror has traditionally been developed for Linux, but it supports all platforms that KDE supports. This includes other Unix-like systems, such as BSD and Solaris, as well as Mac OS X. Konqueror can be run under Windows as part of the KDE on Windows project.
+
+
+

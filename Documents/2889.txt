@@ -1,0 +1,24 @@
+Delegation (programming)
+In object-oriented programming there are two related notions of delegation.
+Interestingly, despite delegation being fairly widespread, relatively few major programming languages implement delegation as an alternative model to static inheritance. The Self programming language incorporates the notion of delegation through its notion of mutable parent slots which are used upon method lookup on self calls.
+
+Delegation is the simple yet powerful concept of handing a task over to another part of the program. In object-oriented programming it is used to describe the situation wherein one object defers a task to another object, known as the delegate. This mechanism is sometimes referred to as aggregation, consultation or forwarding (when a wrapper object doesn't pass itself to the wrapped object[1]).
+Delegation is dependent upon dynamic binding, as it requires that a given method call can invoke different segments of code at runtime. It is used throughout Mac OS X (and its predecessor NeXTStep) as a means of customizing the behavior of program components.[2] It enables implementations such as making use of a single OS-provided class to manage windows because the class takes a delegate that is program-specific and can override default behavior as needed. For instance, when the user clicks the close box, the delegate is sent a windowShouldClose: call, and the delegate can delay the closing of the window if there is unsaved data represented by the window's contents.
+
+The short definition is that delegation defines method dispatching the way it is defined for virtual methods in inheritance: It is always the most specific method which is chosen during method-lookup --- Hence it is the original receiver entity which is the start of method lookup even though it has passed on control to some other object (through a delegation link, not an object reference). Delegation has the advantage that it can take place at run-time and affect only a subset of entities of some type and can even be removed at run-time. Inheritance on the other hand typically targets the type rather than the instances and is restricted to compile time. On the other hand inheritance can be statically type-checked while delegation generally cannot without generics (G. Kniesel has shown that a restricted version of delegation can be statically typesafe). Delegation can be termed "run-time inheritance for specific objects".
+Example in a Java/C# like language
+Calling
+will result in b.bar being printed. Using the old definition would have resulted in a.bar being printed. Calling
+will result in a.bar being printed.
+Programming languages in general do not support delegation as a language concept, but there are a few exceptions: Self, Kniesels Lava, and the Tcl object system Snit all support delegation. Lava uses an explicit delegation link which can never be null, and can never change during an object's lifetime. Self has the notion of explicit parent slots which can change at run-time. As there were several parent slots, essentially Self has multiple inheritance. As with dual inheritance (described below) this entails a carefully designed method-lookup scheme.
+
+If the language supports both delegation and inheritance one can do dual inheritance by utilizing both mechanisms at the same time as in
+This calls for additional rules for method lookup, as there are now potentially two methods which can be denoted as the most specific (due to the two lookup paths). This is elaborated in K. Graversen's Ph.D. thesis on roles.
+
+Delegation can be described as a low level mechanism for sharing code and data between entities. Thus it builds the foundation for other language constructs. Notably Role-Oriented Programming languages have been utilizing delegation but especially the older ones factually used aggregation while stating the use of delegation. This should not be considered cheating, merely the plural definitions of what delegation means (as described above).
+In recent time however work has also been carried out in distributing delegation, so e.g. clients of a search engine (finding cheap hotel rooms) can use a shared entity using delegation to share best hits and general re-usable functionality.
+Delegation has also been suggested for advice resolution in aspect-oriented programming by Ernst and Lorenz in 2003.
+Delegation is a fundamental technique used in languages of prototype-based programming (such as JavaScript).
+
+
+

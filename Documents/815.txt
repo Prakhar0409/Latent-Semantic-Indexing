@@ -1,0 +1,36 @@
+MPEG transport stream
+Transport stream (TS, TP, MPEG-TS, or M2T) is a communications protocol for audio, video, and data. It is a type of digital container format that encapsulates packetized elementary streams and other data. TS is specified in MPEG-2 Part 1, Systems (ISO/IEC standard 13818-1).[1] It is also known as ITU-T Rec. H.222.0. Its design goal is to allow multiplexing of digital video and audio and to synchronize the output. Transport stream offers features for error correction for transportation over unreliable media, and is used in broadcast applications such as DVB and ATSC. It is contrasted with program stream, designed for more reliable media such as DVDs.
+
+Similar to the OSI network protocol stack, a transport stream is processed by the receiver in layers. An example stream containing video may be processed as follows:
+An example of data that is muxed into the transport stream is an electronic program guide. See Program and System Information Protocol for more information.
+
+
+A packet is the basic unit of data in a transport stream. It consists of a sync byte, whose value is 0x47, followed by three one-bit flags and a 13-bit Packet Identifier (PID). This is followed by a 4-bit continuity counter. Additional optional transport fields, as signaled in the optional adaptation field, may follow. The rest of the packet consists of payload. Packets are 188 bytes in length[4] , but the communication medium may add some error correction bytes to the packet. DVB-ASI uses 204 bytes and ATSC 208 bytes as transport stream packet. ATSC transmission adds 20 bytes of Reed-Solomon forward error correction to create a packet that is 208 bytes long [5]. The 188-byte packet size was originally chosen for compatibility with ATM systems [6] [7] .
+
+Each table or elementary stream in a transport stream is identified by a 13-bit packet ID (PID). A demultiplexer extracts elementary streams from the transport stream in part by looking for packets identified by the same PID. In most applications, Time-division multiplexing will be used to decide how often a particular PID appears in the transport stream.
+
+Transport stream has a concept of programs. Each single program is described by a Program Map Table (PMT) which has a unique PID, and the elementary streams associated with that program have PIDs listed in the PMT. For instance, a transport stream used in digital television might contain three programs, to represent three television channels. Suppose each channel consists of one video stream, one or two audio streams, and any necessary metadata. A receiver wishing to decode a particular "channel" merely has to decode the payloads of each PID associated with its program. It can discard the contents of all other PIDs. A transport stream with more than one program is referred to as MPTS - Multi Program Transport Stream. A single program transport stream is referred to as SPTS.
+
+There are 4 PSI tables: Program Association (PAT), Program Map (PMT), Conditional Access (CAT), and Network Information (NIT). The MPEG-2 specification does not specify the format of the CAT and NIT.
+
+PAT stands for Program Association Table. It lists all programs available in the transport stream. Each of the listed programs is identified by a 16-bit value called program_number. Each of the programs listed in PAT has an associated value of PID for its Program Map Table (PMT).
+The value 0x0000 of program_number is reserved to specify the PID where to look for Network Information Table (NIT). If such a program is not present in PAT the default PID value (0x0010) shall be used for NIT.
+TS Packets containing PAT information always have PID 0x0000.
+
+Program Map Tables (PMTs) contain information about programs. For each program, there is one PMT. Each PMT shall be transmitted on a separate PID although technically it is not required. The PMTs describe which PIDs contain data relevant to the programs. PMTs also provide metadata about the streams in their constituent PIDs. For example, if a program contains an MPEG-2 video stream, the PMT will list this PID, describe it as a video stream, and provide the type of video that it contains (in this case, MPEG-2). The PMT may also contain additional descriptors providing data about its constituent streams.
+
+To assist the decoder in presenting programs on time, at the right speed, and with synchronization, programs usually periodically provide a Program Clock Reference, or PCR, on one of the PIDs in the program. This is also known as the master clock. Timing in MPEG2 references this clock, for example the presentation time stamp (PTS) is relative to the PCR. The first 33 bits is based on a 90kHz clock, increment bit extension is ed for each Hertz or cycle. The 9-based on a 27MHz clock.
+
+Some transmission schemes, such as those in ATSC and DVB, impose strict constant bitrate requirements on the transport stream. In order to ensure that the stream maintains a constant bitrate, a Multiplexer may need to insert some additional packets. The PID 0x1FFF is reserved for this purpose. The payload of null packets may not contain any data at all, and the receiver is expected to ignore its contents.
+
+
+Transport Stream was designed for tape and broadcast, but it required modifications for usage with random-access media devices like new generation of digital camcorders that record onto DVD disks, Blu-ray disks, hard drives or solid-state memory cards.
+Random-access based systems may save data packets into a temporary buffer if a storage device is not ready, for example on device startup. Packets are written out of order, and to keep track of them, a 4-byte timecode (TC) is added to standard 188-byte packets. The result is a 192-byte packet. This is what is informally called M2TS stream. Sony calls it "BDAV MPEG-2 transport stream". JVC calls it TOD (possibly an abbreviation for "Transport stream on media") when used in HDD-based camcorders like GZ-HD7.[8] M2TS transport stream is also used for AVCHD video files, which often have MTS extension.
+
+
+
+
+
+
+
+

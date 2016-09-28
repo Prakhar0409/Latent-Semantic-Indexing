@@ -1,0 +1,27 @@
+Wow! signal
+The Wow! signal was a strong, narrowband radio signal detected by Dr. Jerry R. Ehman on August 15, 1977, while working on a SETI project at the Big Ear radio telescope of Ohio State University. The signal bore expected hallmarks of potential non-terrestrial and non-solar system origin. It lasted for 72 seconds, the full duration Big Ear observed it, but has not been detected again. It has been the focus of attention in the mainstream media when talking about SETI results.
+Amazed at how closely the signal matched the expected signature of an interstellar signal in the antenna used, Ehman circled the signal on the computer printout and wrote the comment "Wow!" on its side. This comment became the name of the signal.
+
+The circled letter code 6EQUJ5 describes the intensity variation of the signal. A space denotes an intensity between 0 and 0.999.., the numbers 1-9 denote the correspondingly numbered intensities (from 1.000 to 9.999...), and intensities of 10.0 and above are denoted by a letter ('A' corresponds to intensities between 10.0 and 10.999..., 'B' to 11.0 to 11.999..., etc). The value 'U' (an intensity between 30.0 and 30.999...) was the highest ever detected by the telescope. The intensity in this case is the unitless signal-to-noise ratio, where noise was averaged for that band over the previous few minutes.[1]
+The bandwidth of the signal is less than 10 kHz (each column on the printout corresponds to a 10 kHz-wide channel; the signal is only present in one column). Two different values for its frequency have been given: 1420.356 MHz (J. D. Kraus) and 1420.456 MHz (J. R. Ehman), both within 50 kHz of the frequency of the hydrogen line, which is at 1420.406 MHz. Two possible equatorial coordinates are given:
+Both coordinates give dec.�= -27°03´�±�20´ (epoch B1950.0).[2]
+The Big Ear telescope was fixed and used the rotation of the Earth to scan the sky. At the speed of the earth's rotation, and given the width of the Big Ear's observation "window", the Big Ear could observe any given point for just 72 seconds. An extraterrestrial signal, therefore, would be expected to register for exactly 72 seconds, and the recorded intensity of that signal would show a gradual peaking for the first 36 seconds – until the signal reached the center of Big Ear's observation "window" – at which time it would show a gradual decrease.
+Therefore, both the length of the Wow! signal, 72 seconds, and its shape would correspond to a possible extraterrestrial origin.[3]
+
+The Big Ear telescope used two feed horns to search for signals, each pointing to a slightly different direction in the sky following Earth's rotation; the Wow! signal was detected in one of the horns but not in the other, although the data were processed in such a way that it is impossible to determine in which of the two horns the signal entered. In any case, the signal was expected to appear a mere three minutes apart in each of the horns, but this did not happen.[3] Ehman unsuccessfully looked for recurrences of the signal using Big Ear in the month after the detection.[4]
+In 1987 and 1989, Robert Gray searched for the event using the META array at Oak Ridge Observatory, but did not re-detect it.[4]
+In 1995 and 1996, Gray also searched for the signal using the Very Large Array, which is significantly more powerful than Big Ear.[4]
+Gray and Dr. Simon Ellingsen later searched for recurrences of the event in 1999 using the University of Tasmania's Hobart 26m radio telescope.[5] Six 14-hour observations were made at positions in the vicinity, but did not detect anything similar to the Wow signal.[3]
+
+Interstellar scintillation of a weaker continuous signal — similar, in effect, to atmospheric twinkling—could be a possible explanation, although this still would not exclude the possibility of the signal being artificial in its nature. However, even by using the significantly more sensitive Very Large Array, such a signal could not be detected, and the probability that a signal below the Very Large Array level could be detected by the Big Ear radio telescope due to interstellar scintillation is low.[4] Other speculations include a rotating lighthouse-like source, a signal sweeping in frequency, or a one time burst.
+Ehman has stated his doubts that the signal is of intelligent extraterrestrial origin: "We should have seen it again when we looked for it 50 times. Something suggests it was an Earth-sourced signal that simply got reflected off a piece of space debris."[6]
+He later recanted his skepticism somewhat after further research scientifically relegated an Earth-bound signal to be astronomically unlikely, due to the requirements of a space-borne reflector being bound to certain unrealistic requirements to sufficiently explain the nature of the signal. Also, the 1420 MHz signal is problematic in itself in that it is "protected spectrum" or bandwidth in which terrestrial transmitters are forbidden to transmit.[7][8] In his most recent writings, Ehman resists "drawing vast conclusions from half-vast data."
+
+The location of the signal in celestial coordinates was, at (epoch J2000.0)
+Right Ascension (On the positive horn): 19h25m31s ± 10s
+Right Ascension (On the negative horn): 19h28m22s ± 10s
+Declination (Is the same for both horns): -26d57m ± 20m
+This region of the sky lies in the constellation Sagittarius, roughly 2.5 degrees south of the fifth-magnitude star Chi-1 Sagittarii.
+
+
+

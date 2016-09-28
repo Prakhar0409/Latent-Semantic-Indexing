@@ -1,0 +1,15 @@
+Exabyte
+An exabyte (derived from the SI prefix exa-) is a unit of information or computer storage equal to one quintillion bytes. It is commonly abbreviated EB. When used with byte multiples, the SI prefix may indicate a power of either 1000 or 1024, so the exact number may be either:
+The term exbibyte, using a binary prefix, has been proposed as an unambiguous reference to the latter value.
+Theoretically, 64-bit microprocessors found in many computers can allocate up to 16 exabytes of RAM to a program.[1]
+
+As of December 2008[update], the global monthly Internet traffic is estimated to be 5 to 8 exabytes.[2]
+According to CSIRO, in the next decade, astronomers expect to be processing 10 petabytes of data every hour from the Square Kilometre Array telescope.[3] The array is thus expected to generate approximately one exabyte every four days of operation.
+
+A popular expression claims that "all words ever spoken by human beings" could be stored in approximately 5 exabytes of data,[4][5][6] often citing a project at the UC Berkeley School of Information in support.[7] The 2003 University of California Berkeley report credits the estimate to the website of Caltech researcher Roy Williams, where the statement can be found as early as May 1999.[8] This statement has been criticized.[9][10] Mark Liberman calculated the storage requirements for all human speech at 42 zettabytes, if digitized as 16�kHz 16-bit audio, although he did "freely confess that maybe the authors [of the exabyte estimate] were thinking about text."[11]
+Earlier Berkeley studies estimated that by the end of 1999, the sum of human-produced information (including all audio, video recordings and text/books) was about 12 exabytes of data.[12] The 2003 Berkeley report stated that in 2002 alone, "telephone calls worldwide on both landlines and mobile phones contained 17.3 exabytes of new information if stored in digital form" and that "it would take 9.25 exabytes of storage to hold all U.S. [telephone] calls each year."[7] International Data Corporation estimates that approximately 160 exabytes of digital information were created, captured, and replicated worldwide in 2006.[13]
+
+The word exabyte is the basis for the term exaflood, a neologism created by Bret Swanson of the Discovery Institute in a January 2007 Wall Street Journal editorial.[14] Exaflood refers to the rapidly increasing torrent of data transmitted over the Internet. The amount of information people upload, download and share on the Internet—known as internet traffic—is growing (due in large part to video, audio and photo applications) at an exponential rate, while the capacity of the Internet, its bandwidth, is limited and susceptible to a "flood" of data equal to multiple exabytes. "One exabyte is the equivalent of about 50,000 years of DVD quality video."[15]
+
+
+

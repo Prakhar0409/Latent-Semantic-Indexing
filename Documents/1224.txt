@@ -1,0 +1,30 @@
+Calling convention
+In computer science, a calling convention is a scheme for how functions receive parameters from their caller and how they return a result; calling conventions can differ in:
+Different programming languages use different calling conventions, and so can different platforms (CPU architecture + operating system). This can sometimes cause problems when combining modules written in multiple languages, or when calling operating system or library APIs from a language other than the one in which they are written; in these cases, special care must be taken to coordinate the calling conventions used by caller and callee. Even a program using a single programming language may use multiple calling conventions, either chosen by the compiler, for code optimization, or specified by the programmer.
+Architectures almost always have more than one possible calling convention. With many general-purpose registers and other features, the potential number of calling conventions is large, although some architectures are specified to use only one calling convention, supplied by the architect.
+
+
+The x86 architecture features many different calling conventions. Due to the small number of architectural registers, the x86 calling conventions mostly pass arguments on the stack, while the return value (or a pointer to it) is passed in a register. Some conventions use registers for the first few parameters, which may improve performance for some very frequently invoked short and simple subroutines.
+Example call:
+Typical callee structure: (some or all (except ret) of the instructions below may be optimized away in simple procedures)
+
+The PowerPC architecture has a large number of registers so most functions can pass all arguments in them for single level calls. Additional arguments are passed on the stack, and space for register-based arguments is also always allocated on the stack as a convenience to the called function in case multi-level calls are used (recursive or otherwise) and the registers must be saved. This is also of use in variadic functions, such as printf(), where the function's arguments need to be accessed as an array. A single calling convention is used for all procedural languages.
+
+The MIPS passes the first four arguments to a function in the registers $a0-$a3; subsequent arguments are passed on the stack. The return value (or a pointer to it) is stored in register $v0.
+
+The SPARC architecture, unlike most RISC architectures, is built on register windows. There are 24 accessible registers in each register window, 8 of them are the "in" registers, 8 are registers for local variables, and 8 are out registers. The in registers are used to pass arguments to the function being called, so any additional arguments needed to be pushed onto the stack. However, space is always allocated by the called function to handle a potential register window overflow, local variable, and returning a struct by value. To call a function, one places the argument for the function to be called in the out registers, when the function is called the out registers become the in registers and the called function access the argument in its in registers. When the called function returns, it places the return value in the first in register, which becomes the first out register when the called function returns.
+The System V ABI, which most modern Unix-like systems follow, passes the first six arguments in "in" registers %i0 through %i5, reserving %i6 for the frame pointer and %i7 for the return address.
+
+Threaded code places all the responsibility for setting up and cleaning up a function call on the called code. The calling code does nothing but list the subroutines to be called. This puts all the function setup and cleanup code in one place -- the prolog and epilog of the function -- rather than in the many places that function is called. This makes threaded code the most compact calling convention.
+Threaded code passes all arguments on the stack. All return values are returned on the stack. This makes naive implementations slower than calling conventions that keep more values in registers. However, threaded code implementations that cache several of the top stack values in registers -- in particular, the return address -- are usually faster than subroutine calling conventions that always push and pop the return address to the stack. [1]
+
+The standard ARM calling convention allocates the 16 ARM registers as:
+If the type of value returned is too large to fit in r0 to r3, or whose size cannot be determined statically at compile time, then the caller must allocate space for that value at run time, and pass a pointer to that space in r0.
+Subroutines must preserve the contents of r4 to r11 and the stack pointer. (Perhaps by saving them to the stack in the function prolog, then using them as scratch space, then restoring them from the stack in the function epilog).
+In particular, subroutines that call other subroutines *must* save the return value in the link register r14 to the stack before calling those other subroutines. However, such subroutines do not need to return that value to r14 -- they merely need to load that value into r15, the progam counter, to return.
+The ARM stack is full-descending.
+[2]
+This calling convention causes a "typical" ARM subroutine to
+
+
+

@@ -1,0 +1,43 @@
+dd (Unix)
+dd is a common UNIX program whose primary purpose is the low-level copying and conversion of raw data. dd is an abbreviation for "data definition" in IBM JCL, and the command's syntax is meant to be reminiscent of this.[1]
+dd is used to copy a specified number of bytes or blocks, performing on-the-fly byte order conversions, as well as more esoteric EBCDIC to ASCII conversions.[2] dd can also be used to copy regions of raw device files, e.g. backing up the boot sector of a hard disk, or to read fixed amounts of data from special files like /dev/zero or /dev/random.[3]
+It can also be used in computer forensics when the magnetic pattern of an entire disk needs to be preserved as a byte-exact copy. Using cp would not be possible because data from deleted files still physically present on a disk are not visible through the file system interface.
+It is jokingly said to stand for "data destroyer" or "delete data", since, being used for low-level operations on hard disks, a small mistake, such as reversing the if and of parameters, may accidentally render the entire disk unusable.[2]
+
+The command line syntax of dd is significantly different from most other UNIX programs, and because of its ubiquity it is resistant to recent attempts to enforce a common syntax for all command line tools. Generally, dd uses an option=value format, whereas most Unix programs use a -option value format. Also, dd's input is specified using the "if" (input file) option, while most programs simply take the name by itself. It is rumored to have been based on IBM's JCL, and though the syntax may have been a joke[1], there seems never to have been any effort to write a more Unix-like replacement.
+Example use of dd command to create an ISO disk image from a CD-ROM:
+Note that an attempt to copy the entire disk image using cp may omit the final block if it is an unexpected length; dd will always complete the copy if possible.
+Using dd to wipe an entire disk with random data (though there are better tools for this, like Darik's Boot and Nuke):
+alternative:
+Using dd to duplicate one hard disk partition to another hard disk:
+Note that notrunc means do not truncate the output file.[clarification needed] Noerror means to keep going if there is an error (though a better tool for this would be ddrescue).
+To duplicate a disk partition as a disk image file on a different partition
+Create a 1GB file containing only zeros (bs=blocksize, count=number of blocks):
+To make sure that my drive is really zeroed out!!
+To duplicate the first 2 sectors of the floppy.
+To duplicate master boot record only
+To making drive benchmark test and analyzing read and write performance
+To make a file of 100 random bytes:
+To convert a file to uppercase:
+To search the system memory:
+Image a partition to another machine:
+Everybody has mentioned the first obvious fix: raise your blocksize from the default 512 bytes. The second fix addresses the problem that with a single dd, you are either reading or writing. If you pipe the first dd into a second one, it'll let you run at the max speed of the slowest device.
+Sending a USR1 signal to a running `dd' process makes it print I/O statistics to standard error and then resume copying.
+Create a 1GB sparse file or resize an existing file to 1GB without overwriting:
+Some implementations understand x as a multiplication operator in the block size and count parameters:
+where the "b" suffix indicates that the units are 512-byte blocks. Unix block devices use this as their allocation unit by default.
+For the value of bs field, following decimal number can be suffixed:
+Hence bs=2*80*18b means, 2*80*18*512=1474560 which is the exact size of 1440 KiB floppy disk
+To mount that image mount -o loop floppy.image /mntpoint
+
+The GNU variant of dd as supplied with Linux does not describe the format of the messages displayed on stdout on completion, however these are described by other implementations e.g. that with BSD.
+Each of the "Records in" and "Records out" lines shows the number of complete blocks transferred + the number of partial blocks, e.g. because the physical medium ended before a complete block was read.
+
+Open Source unix-based programs for rescue include dd_rescue and dd_rhelp, which work together, or GNU ddrescue.
+Antonio Diaz Diaz (the developer of GNU ddrescue) compares[4] the variants of dd for the task of rescuing:
+The standard utility dd does a linear read of the drive, so it can take a long time or even fry the drive without rescueing anything if the errors are at the beginning of the drive. Kurt Garloff's dd_rescue does basically the same thing as dd, only more efficiently. LAB Valentin's dd_rhelp is a complex shell script that runs Garloff's dd_rescue many times, trying to be strategic about copying the drive, but it is very inefficient.
+dd_rhelp or GNU ddrescue will yield a complete disk image, faster but possibly with some errors. GNU ddrescue is generally much faster, as it is written entirely in C++, whereas dd_rhelp is a shell script wrapper around dd_rescue. Both dd_rhelp and GNU ddrescue aim to copy data fast where there are no errors, then copy in smaller blocks and with retries where there are errors. GNU ddrescue is easy to use with default options, and can easily be downloaded and compiled on Linux-based Live CDs such as Knoppix, and can be used with SystemRescueCD.
+GNU ddrescue example [5]
+
+
+

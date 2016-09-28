@@ -1,0 +1,5 @@
+List of nearest stars
+This list of stars nearest to the Earth is ordered by increasing distance out to a maximum of 5 parsecs (16.308 light-years). Including the Solar System, there are currently 50 stellar systems known which may lie within this distance. These systems contain a total of 65 known stars and 4 known brown dwarfs.
+Stars and brown dwarfs which have an apparent magnitude greater than 6.5, and which consequently cannot typically be observed with the naked eye,[1] are shown in light blue. The classes of the stars and brown dwarfs are shown in the color of their spectral types. (These colors are derived from conventional names for the spectral types and do not reflect the star's observed color.) Some parallax and distance results were measured by the Research Consortium on Nearby Stars (RECONS) and may be only preliminary measurements.[2]
+The only first-magnitude stars on this list are Alpha Centauri, Sirius, and Procyon. See also List of nearest bright stars.
+

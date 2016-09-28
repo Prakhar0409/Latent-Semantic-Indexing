@@ -1,0 +1,14 @@
+Laplace's demon
+In the history of science, Laplace's demon is a hypothetical "demon" envisioned in 1814 by Pierre-Simon Laplace such that if it knew the precise location and momentum of every atom in the universe then it could use Newton's laws to reveal the entire course of cosmic events, past and future.
+
+Laplace strongly believed in causal determinism, which is expressed in the following quotation from the introduction to the Essai:
+This intellect is often referred to as Laplace's demon. Note, however, that the description of the hypothetical intellect described above by Laplace as a demon does not come from Laplace, but from later biographers: Laplace saw himself as a scientist; and while hoping that humanity would progress to a better scientific understanding of the world, he recognized that, if and when such an understanding were eventually completed, a tremendous calculating power would still be needed to compute it all in a single instant. While Laplace saw foremost practical problems for mankind to reach this ultimate stage of knowledge and computation, later interpretations of quantum mechanics, which were adopted by philosophers defending the existence of free will, also leave the theoretical possibility of such an "intellect" contested.
+
+John Polkinghorne argues strongly as a physicist that nature is cloud-like rather than clock-like and points out that, apart from any other problems, uncertainty about the exact position of an electron on the other side of the universe would be sufficient to invalidate a calculation about the position of an O2 molecule in air after 50 collisions with its neighbours (i.e. in about 0.1 ns), even if they were solely influenced by Newton's laws.[1]
+According to chemical engineer Robert Ulanowicz, in his 1986 book Growth and Development, Laplace's demon met its end with early 19th century developments of the concepts of irreversibility, entropy, and the second law of thermodynamics. In other words, Laplace's demon was based on the premise of reversibility and classical mechanics; thermodynamics, i.e. real processes, however, are, under current theory, thought to be irreversible.
+In 2008, David Wolpert used Cantor diagonalization to "slam the door" on Laplace's demon.[2]
+
+There has recently been proposed a limit on the computational power of the universe, i.e. the ability of Laplace's Demon to process an infinite amount of information. The limit is based on the maximum entropy of the universe, the speed of light, and the minimum amount of time taken to move information across the Planck length, and the figure was shown to be about 10120 bits[3]. Accordingly, anything that requires more than this amount of data cannot be computed in the amount of time that has lapsed so far in the universe.
+
+
+

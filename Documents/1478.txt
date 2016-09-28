@@ -1,0 +1,12 @@
+NTFS-3G
+NTFS-3G is an open source cross-platform implementation of the Microsoft Windows NTFS file system with read-write support. NTFS-3G uses the FUSE file system interface, so it can run unmodified on many different operating systems. It has been reported to work with Linux, Mac OS X, FreeBSD, NetBSD, Solaris, BeOS and Haiku. It is licensed under either the GNU General Public License or a Commercial license. It is a fork of ntfsmount and is under active maintenance and development.
+NTFS-3G was introduced by one of the senior Linux NTFS developers, Szabolcs Szakacsits (IPA:�[ˈsɒbolt͡ʃ ˈsɒkɒt͡ʃit͡ʃ]), in July 2006. The first stable version was released on 2007-02-21 as version 1.0.
+
+NTFS-3G supports all operations for writing files: files of any size can be created, modified, renamed, moved, or deleted on NTFS partitions. Transparent compression and encryption is not fully supported yet, only reading is allowed[1]. Support to modify access control lists and permissions is available[2]. NTFS partitions are mounted using the Filesystem in Userspace (FUSE) interface.
+NTFS-3G supports partial NTFS journaling, so unexpected computer crashes or power loss can leave the file system in an inconsistent state. The only way to fix it is to boot into Windows and let NTFS replay the Journal.
+
+Benchmarks show that the driver's and other filesystems' performance are very comparable:
+That said, NTFS-3G is not yet fully optimized for performance. However, a high-performance commercial version is available for embedded platforms and consumer electronics device makers.[3]
+
+
+

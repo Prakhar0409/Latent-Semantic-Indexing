@@ -1,0 +1,62 @@
+Windows Registry
+The Windows Registry is a database which stores settings and options for Microsoft Windows operating systems. It contains information and settings for hardware, operating system software, most non-operating system software, and per-user settings. The registry also provides a window into the operation of the kernel, exposing runtime information such as performance counters and currently active hardware.
+When first introduced with Windows 3.1, the Windows registry's purpose was to tidy up the profusion of per-program INI files that had previously been used to store configuration settings for Windows programs.[1] These files tended to be scattered all over the system, which made them difficult to track.
+
+
+The registry contains two basic elements: keys and values.
+Registry Keys are similar to folders - in addition to values, each key can contain subkeys, which may contain further subkeys, and so on. Keys are referenced with a syntax similar to Windows' path names, using backslashes to indicate levels of hierarchy. E.g. HKEY_LOCAL_MACHINE\Software\Microsoft\Windows refers to the subkey "Windows" of the subkey "Microsoft" of the subkey "Software" of the HKEY_LOCAL_MACHINE key.
+Registry Values are name/data pairs stored within keys. Values are referenced separately from keys. Value names can contain backslashes but doing so makes them difficult to distinguish from their key paths. The Windows API functions that query and manipulate registry values take value names separately from the key path and/or handle that identifies the parent key.
+The terminology is somewhat misleading, as the values are similar to an associative array, where standard terminology would refer to the name part of the value as a "key". The terms are a holdout from the 16-bit registry in Windows 3, in which keys could not contain arbitrary name/data pairs, but rather contained only one unnamed value (which had to be a string). In this sense, the entire registry was like an associative array where the keys (in both the registry sense and dictionary sense) formed a hierarchy, and the values were all strings. When the 32-bit registry was created, so was the additional capability of creating multiple named values per key, and the meanings of the names were somewhat distorted[2].
+There are a number of different types of values:
+
+The Registry is split into a number of logical sections, or "hives"[3] (the reason the word hive was used is an in-joke[4]) Hives are generally named by their Windows API definitions, which all begin "HKEY". They are abbreviated to a three- or four-letter short name starting with "HK" (e.g. HKCU and HKLM).
+The HKEY_LOCAL_MACHINE (local machine-specific configuration data) and HKEY_CURRENT_USER (user-specific configuration data) nodes have a similar structure to each other; user applications typically look up their settings by first checking for them in "HKEY_CURRENT_USER\Software\Vendor's name\Application's name\Version\Setting name", and if the setting is not found look instead in the same location under the HKEY_LOCAL_MACHINE key. However the converse may apply for administrator-enforced policy settings where HKLM make take precedence over HKCU. The Windows Logo Program has specific requirements for where different types of user data may be stored, and that the concept of least privilege be followed so that administrator-level access is not required to use an application.[Note 1][5]
+
+Abbreviated HKCR, HKEY_CLASSES_ROOT stores information about registered applications, such as file associations and OLE Object Class IDs tying them to the applications used to handle these items. On Windows 2000 and above, HKCR is a compilation of user-based HKCU\Software\Classes and machine-based HKLM\Software\Classes. If a given value exists in both of the subkeys above, the one in HKCU\Software\Classes takes precedence.[6] The design allows for either machine- or user-specific registration of COM objects. The user-specific classes hive, unlike the HKCU hive, does not form part of a roaming user profile.
+
+Abbreviated HKCU, HKEY_CURRENT_USER stores settings that are specific to the currently logged-in user.[7] The HKCU key is a link to the subkey of HKEY_USERS that corresponds to the user; the same information is reflected in both locations. On Windows-NT based systems, each user's settings are stored in their own files called NTUSER.DAT and USRCLASS.DAT inside their own Documents and Settings subfolder (or their own Users subfolder in Windows Vista). Settings in this hive follow users with a roaming profile from machine to machine.
+
+Abbreviated HKLM, HKEY_LOCAL_MACHINE stores settings that are specific to the local computer.[8] On NT-based versions of Windows, HKLM contains four subkeys, SAM, SECURITY, SOFTWARE and SYSTEM, that are found within their respective files located in the %SystemRoot%\System32\config folder. A fifth subkey, HARDWARE, is volatile and is created dynamically, and as such is not stored in a file. Information about system hardware drivers and services are located under the SYSTEM subkey, while the SOFTWARE subkey contains software and Windows settings.
+
+Abbreviated HKU, HKEY_USERS contains subkeys corresponding to the HKEY_CURRENT_USER keys for each user profile actively loaded on the machine, though user hives are usually only loaded for currently logged-in users.
+
+Abbreviated HKCC, HKEY_CURRENT_CONFIG contains information gathered at runtime; information stored in this key is not permanently stored on disk, but rather regenerated at the boot time. It is a link to HKEY_LOCAL_MACHINE\System\CurrentControlSet\Hardware Profiles\Current.
+
+This key provides runtime information into performance data provided by either the NT kernel itself or other programs that provide performance data. This key is not displayed in the Registry Editor, but it is visible through the registry functions in the Windows API.
+
+This key is used only on Windows 95, Windows 98 and Windows Me. [9] It contains information about hardware devices, including Plug-and-Play and network performance statistics. The information in this hive is also not stored on the hard drive. The Plug and Play information is gathered and configured at startup and is stored in memory. [10]
+
+In Windows NT based systems Symbolic Links between registry keys are supported through REG_LINK value type. Registry links work similarly to file shortcuts or filesystem Symbolic links. As such they can span across different hives, however only those visible in Native API namespace, that is \Registry\Machine and \Registry\User. Other hives like HKEY_DYN_DATA are only virtual objects in Win32 API and thus not linkable. Links are used in Windows rather scarcely, only by CurrentControlSet and Hardware Profiles\Current. [11]
+
+
+The registry can be edited manually in Microsoft Windows by running regedit.exe or regedt32.exe in the Windows directory. However, careless registry editing can cause irreversible damage. Thus, performing backups of the registry before editing it is highly recommended[who?].
+A simple implementation of the current registry tool appeared in Windows 3.x, called the "Registration Info Editor" or "Registration Editor". This was basically just a database of applications used to edit embedded OLE objects in documents.
+Windows 9x operating systems include REGEDIT.EXE which can be used in Windows and also in real mode MS-DOS. [12] Windows NT introduced permissions for Registry editing. Windows NT 4.0 and Windows 2000 were distributed with both the Windows 9x REGEDIT.EXE program and Windows NT 3.x's REGEDT32.EXE program. There are several differences between the two editors on these platforms:
+Windows XP was the first system to integrate these two programs into one, adopting the old REGEDIT.EXE interface and adding the REGEDT32.EXE functionality. The differences listed above are not applicable on Windows XP and newer systems; REGEDIT.EXE is the improved editor, and REGEDT32.EXE is simply a stub that invokes REGEDIT.EXE.
+The Registry Editor allows users to perform the following functions:
+It also possible to edit the registry under Linux using the opensource Offline NT Password & Registry Editor to edit the files.[14]
+
+.REG files (also known as Registration entries) are text-based human-readable files for storing portions of the registry. On Windows 2000 and later NT-based operating systems, they contain the string Windows Registry Editor Version 5.00 at the beginning and are Unicode-based. On Windows 9x and NT 4.0 systems, they contain the string REGEDIT4 and are ANSI-based. [15] Windows 9x format .REG files are compatible with Windows 2000 and later NT-based systems. The Registry Editor on Windows on these systems also supports exporting .REG files in Windows 9x/NT format. Data is stored in .REG files in the following syntax: [15]
+For example, to add the values "Value A", "Value B", "Value C", "Value D", and "Value E" to the HKLM\SOFTWARE\Microsoft key,
+Data from .REG files can be added/merged with the registry by double-clicking these files or using the /s switch in the command line. .REG files can also be used to remove registry data by merging them.
+To remove a key (and all subkeys, values and data), the .REG file must have a minus sign ("-") before the hive name. [15]
+For example, to remove the <Key Name> key (and all subkeys, values and data),
+To remove a value (and its data), the .REG file must have a minus sign ("-") after the equal sign ("=") of each value to be removed. [15]
+For example, to remove only the "Value A" and "Value B" values (and their data) from the <Key Name> key,
+To remove only the (Default) value of the key <Key Name> (and its data),
+
+The registry can be manipulated in a number of ways from the command line. The reg.exe utility tool is included in Windows XP and Windows Vista and can be downloaded separately for previous versions. Alternative locations include the Resource Kit CDs or the original Installation CD of Windows.
+Also, a .REG file can be imported from the command line with the following command:
+The /s means the file will be silent merged to the Registry. If the /s parameter is omitted the user will be asked to confirm the operation. In Windows 98, Windows 95 and at least some configurations of Windows XP the /s switch also causes regedit.exe to ignore the setting in the registry that allows administrators to disable it. When using the /s switch Regedit does not return an appropriate return code if the operation fails, unlike reg.exe which does. This makes it hard to script, however a possible workaround is to add the following lines into your batch file:
+The default association for .REG files in many versions of Microsoft Windows, starting with Windows 98 does require the user to confirm the merging to avoid user mistake.
+Other command line options include a VBScript or JScript together with CScript, WMI or WMIC.exe and Windows PowerShell.
+Registry permissions can be manipulated through the command line using the SubInACL.exe tool. The permissions on the HKEY_LOCAL_MACHINE\SOFTWARE key can be displayed using:
+To set the owner of the key HKEY_LOCAL_MACHINE\SOFTWARE and all of its subkeys to Administrator:
+To grant full access rights to the HKEY_LOCAL_MACHINE\SOFTWARE key to Administrator:
+
+The registry can be edited through the APIs of the Advanced Windows 32 Base API Library (advapi32.dll).[16]
+Many programming languages offer built-in runtime library functions or classes that enable programs to store settings in the registry (e.g. Microsoft.Win32.Registry in VB.NET and C#, or TRegistry in Delphi). COM-enabled applications like Visual Basic 6 can use the WSH WScript.Shell object. Another way is to use the Windows Resource Kit Tool, Reg.exe by executing it from code,[17] although this is considered poor programming practice.
+Similarly, scripting languages such as Perl (with Win32::TieRegistry), Windows Powershell and Windows Scripting Host also enable registry editing from scripts.
+
+The Registry is stored in several files; depending upon the version of Windows, there will be different files and different locations for these files, but they are all on the local machine. The user-specific HKEY_CURRENT_USER user registry hive is stored in Ntuser.dat. There is one of these per user; if a user has a roaming profile, then this file will be copied to and from a server at logout and login respectively.
+

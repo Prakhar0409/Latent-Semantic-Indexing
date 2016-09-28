@@ -1,0 +1,12 @@
+Windows Media Encoder
+Windows Media Encoder is a freely downloadable media encoder developed by Microsoft which enables content developers to convert or capture both live and prerecorded audio, video, and computer screen images to Windows Media formats for live and on-demand delivery. It is the succesor of NetShow Encoder[1].
+The latest version, Windows Media Encoder 9 Series can encode video using Windows Media Video version 7, 8 or 9. Audio encoding uses a number of Windows Media Audio version 9.2 or version 10 (if the version 10 codecs are installed) profiles and a Windows Media Audio 9 Voice speech codec. Content can also be created as uncompressed audio/video. It is available in both 32-bit and 64-bit versions.
+Windows Media Encoder 9 Series enables two-pass encoding to optimize quality for on-demand (streamed or download-and-play) content. It also supports variable bitrate (VBR) Encoding for download-and-play scenarios. True VBR can be applied over the entire duration of a high-motion sequence, ensuring the highest quality. This version also enables scripted encoding with the wmcmd.vbs VBScript file allowing content developers to encode large numbers of pre-recorded media files. Bundled with the program are the applications, Windows Media File Editor, Windows Media Profile Editor, and Windows Media Stream Editor.
+The GUI encoder application is actually a "wrapper" of the encoder itself. Developers can write their own applications using Visual Studio to perform the same functions found in the application. These applications can be used to automate audio and video production. An SDK is also available. [2]
+
+Windows Media Encoder 7.1 is the previous version which can be installed on Windows 98, Windows Me and Windows 2000. For Windows 95 and Windows NT 4.0, Windows Media Tools 4.1 was the last release.
+
+Windows Media Encoder Studio Edition[3] was a separate planned version of Windows Media Encoder 9 Series with support for segment encoding and multiple audio channels. After beta 1, it was eventually cancelled. Microsoft later released the commercial application, Expression Encoder as part of its Expression Studio suite.
+
+
+

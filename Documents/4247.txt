@@ -1,0 +1,20 @@
+List of HTTP status codes
+The following is a list of HyperText Transfer Protocol (HTTP) response status codes. This includes codes from IETF internet standards as well as unstandardised RFCs, other specifications and some additional commonly used codes. The first digit of the status code specifies one of five classes of response; the bare minimum for an HTTP client is that it recognises these five classes. Microsoft IIS may use additional decimal sub-codes to provide more specific information[1], but these are not listed here. The phrases used are the standard examples, but any human-readable alternative can be provided. Unless otherwise stated, the status code is part of the HTTP/1.1 standard.
+
+Request received, continuing process.
+This class of status code indicates a provisional response, consisting only of the Status-Line and optional headers, and is terminated by an empty line. Since HTTP/1.0 did not define any 1xx status codes, servers must not send a 1xx response to an HTTP/1.0 client except under experimental conditions.
+
+The action was successfully received, understood, and accepted.
+This class of status code indicates that the client's request was successfully received, understood, and accepted.
+
+The client must take additional action to complete the request.
+This class of status code indicates that further action needs to be taken by the user agent in order to fulfil the request. The action required may be carried out by the user agent without interaction with the user if and only if the method used in the second request is GET or HEAD. A user agent should not automatically redirect a request more than five times, since such redirections usually indicate an infinite loop.
+
+The request contains bad syntax or cannot be fulfilled.
+The 4xx class of status code is intended for cases in which the client seems to have erred. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents should display any included entity to the user. These are typically the most common error codes encountered while online.
+
+The server failed to fulfil an apparently valid request.
+Response status codes beginning with the digit "5" indicate cases in which the server is aware that it has encountered an error or is otherwise incapable of performing the request. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and indicate whether it is a temporary or permanent condition. Likewise, user agents should display any included entity to the user. These response codes are applicable to any request method.
+
+
+

@@ -1,0 +1,41 @@
+Velocity
+In physics, velocity is defined as the rate of change of position. It is a vector physical quantity; both speed and direction are required to define it. In the SI (metric) system, it is measured in meters per second: (m/s) or ms-1. The scalar absolute value (magnitude) of velocity is speed. For example, "5 meters per second" is a scalar and not a vector, whereas "5 meters per second east" is a vector. The average velocity v of an object moving through a displacement (Δx) during a time interval (Δt) is described by the formula:
+The rate of change of velocity is acceleration, which refers to how an object's speed or direction changes over time.
+
+The instant velocity vector v of an object that has positions x(t) at time t and x(t + Δt) at time t + Δt, can be computed as the derivative of position:
+The equation for an object's velocity can be obtained mathematically by evaluating the integral of the equation for its acceleration beginning from some initial period time t0 to some point in time later tn.
+The final velocity v of an object which starts with velocity u and then accelerates at constant acceleration a for a period of time (Δt) is:
+The average velocity of an object undergoing constant acceleration is , where u is the initial velocity and v is the final velocity. To find the position, x, of such an accelerating object during a time interval, Δt, then:
+When only the object's initial velocity is known, the expression,
+can be used.
+This can be expanded to give the position at any time t in the following way:
+These basic equations for final velocity and position can be combined to form an equation that is independent of time, also known as Torricelli's equation:
+The above equations are valid for both Newtonian mechanics and special relativity. Where Newtonian mechanics and special relativity differ is in how different observers would describe the same situation. In particular, in Newtonian mechanics, all observers agree on the value of t and the transformation rules for position create a situation in which all non-accelerating observers would describe the acceleration of an object with the same values. Neither is true for special relativity. In other words only relative velocity can be calculated.
+In Newtonian mechanics, the kinetic energy (energy of motion), EK, of a moving object is linear with both its mass and the square of its velocity:
+The kinetic energy is a scalar quantity.
+Escape velocity is the minimum velocity a body must have in order to escape from the gravitational field of the earth. To escape from the earth's gravitational field an object must have greater kinetic energy than its gravitational potential energy. The value of the escape velocity from the Earth's surface is approximately 11100 m/s
+
+Relative velocity is a measurement of velocity between two objects as determined in a single coordinate system. Relative velocity is fundamental in both classical and modern physics, since many systems in physics deal with the relative motion of two or more particles. In Newtonian mechanics, the relative velocity is independent of the chosen inertial reference frame. This is not the case anymore with special relativity in which velocities depend on the choice of reference frame.
+If an object A is moving with velocity vector v and an object B with velocity vector w, then the velocity of object A relative to object B is defined as the difference of the two velocity vectors:
+Similarly the relative velocity of object B moving with velocity w, relative to object A moving with velocity v is:
+Usually the inertial frame is chosen in which the latter of the two mentioned objects is in rest.
+
+In the one dimensional case,[1] the velocities are scalars and the equation is either:
+
+In polar coordinates, a two-dimensional velocity is described by a radial velocity, defined as the component of velocity away from or toward the origin (also known as velocity made good), and an angular velocity, which is the rate of rotation about the origin (with positive quantities representing counter-clockwise rotation and negative quantities representing clockwise rotation, in a right-handed coordinate system).
+The radial and angular velocities can be derived from the Cartesian velocity and displacement vectors by decomposing the velocity vector into radial and transverse components. The transverse velocity is the component of velocity along a circle centered at the origin.
+where
+The magnitude of the radial velocity is the dot product of the velocity vector and the unit vector in the direction of the displacement.
+where
+The magnitude of the transverse velocity is that of the cross product of the unit vector in the direction of the displacement and the velocity vector. It is also the product of the angular speed ω and the magnitude of the displacement.
+such that
+Angular momentum in scalar form is the mass times the distance to the origin times the transverse velocity, or equivalently, the mass times the distance squared times the angular speed. The sign convention for angular momentum is the same as that for angular velocity.
+where
+If forces are in the radial direction only with an inverse square dependence, as in the case of a gravitational orbit, angular momentum is constant, and transverse speed is inversely proportional to the distance, angular speed is inversely proportional to the distance squared, and the rate at which area is swept out is constant. These relations are known as Kepler's laws of planetary motion.
+
+The velocity of an object over one period of time.
+
+
+
+← Integrate … Differentiate →
+Displacement (Distance) | Velocity (Speed) | Acceleration | Jerk | Jounce

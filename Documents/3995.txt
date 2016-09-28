@@ -1,0 +1,19 @@
+Monkey patch
+A monkey patch (also spelled monkey-patch, MonkeyPatch) is a way to extend or modify the runtime code of dynamic languages (e.g. Smalltalk, JavaScript, Objective-C, Ruby, Perl, Python, Groovy etc.) without altering the original source code.
+This process has also been described as "duck punching". [1]
+
+The term monkey patch was first used as guerrilla patch, which referred to changing code sneakily at runtime without any rules. In Zope 2 these patches would sometimes interact counterintuitively, which was referred to as the patches engaging in battle with each other.
+Since the word guerrilla and gorilla are near-homophones, people started using the incorrect term gorilla patch instead of guerrilla patch. When a developer then created a guerrilla patch they tried very hard to avoid any battles that may ensue due to the patch and the term monkey patch was coined to make the patch sound less forceful.[2]
+The term monkey patch caught on and has been in use ever since. The definition of the term varies depending upon the community using it.
+In Python, the term monkey patch only refers to dynamic modifications of a class at runtime based on the intent to patch existing methods in an external class as a workaround to a bug or feature which does not act as you desire. Other forms of modifying a class at runtime have different names, based on their different intents. For example, in Zope and Plone, security patches are often delivered using dynamic class modification, but they are called hot fixes.
+In Ruby, the term monkey patch means any dynamic modification to a class and is often used as a synonym for dynamically modifying any class at runtime.
+Some members in the Ruby world started adopting the term duck punching in lieu of monkey patching. This term comes from the extensive use of duck typing in Ruby and Python as explained by Adam Keys and Patrick Ewing at RailsConf 2007:[3]
+Well, I was just totally sold by Adam, the idea being that if it walks like a duck and talks like a duck, it’s a duck, right? So if this duck is not giving you the noise that you want, you’ve got to just punch that duck until it returns what you expect.
+– Patrick Ewing
+
+Monkey patching is used to:
+
+Carelessly written or poorly documented monkey patches can lead to the problems:
+Even if monkey patching isn't used, some see a problem with the availability of the feature, since the ability to use monkey patching in a programming language is incompatible with enforcing strong encapsulation, as required by the object-capability model, between objects.
+
+

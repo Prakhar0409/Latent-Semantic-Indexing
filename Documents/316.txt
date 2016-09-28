@@ -1,0 +1,23 @@
+Canon Digital IXUS
+The Digital IXUS (IXY Digital in Japan and PowerShot Digital ELPH in US and Canada) is a series of digital cameras released by Canon. It is a line of ultracompact cameras, originally based on the design of Canon's IXUS/IXY/ELPH line of APS cameras.
+
+This article uses the Digital IXUS model names unless otherwise stated. The comparison tables in this article list equivalent IXY Digital and PowerShot Digital ELPH model names.
+Canon's PowerShot A and S line of the time were being made as small as contemporary technology allowed [1], and demonstrated the demand for a small digital camera of good quality. Canon used its experience with small film cameras, particularly the APS IXUS, to mass-produce good digital cameras smaller than anyone else had managed up to the time (the first Digital IXUS was the smallest 2MP then available [2]) and reused the popular IXUS/IXY/ELPH brand name with the tag line "The DIGITAL IXUS blends Canon's award-winning IXUS design with PowerShot digital technology." [3]
+The first Digital IXUS, released in June 2000 fitted the technology of the PowerShot S10 into a body similar to the APS IXUS II.[4] Between 2003 and 2004, starting with the Digital IXUS II, Canon moved from the use of CF cards to SD cards to create thinner cameras.
+
+The same camera models are released in Europe, the US and Japan under different names. The cameras themselves are identical apart from the front fascia, according to the parts lists. The Canon model number on the bottom is consistent between marketing names.
+All models use lithium ion batteries of Canon proprietary design, though third-party equivalents are readily available.
+All models use RGBG Bayer filter (except the original Digital IXUS, which uses a CYGM filter[5]) CCD sensors made by Sony. Images are recorded as JPEGs. Raw image files are not accessible without the use of third party firmware such as CHDK[6].
+
+These cameras use a CF memory card for auxiliary storage.
+
+
+
+
+Canon considers the following problems design faults and will often repair devices with these particular faults free after the warranty period. You must however ascertain whether a particular service centre will perform a repair for you.
+Like all compacts with a zoom lens, cameras in the Ixus range are susceptible to lens errors if the lens is physically unable to zoom in or out. On Canon cameras, this manifests as the E18 error.
+
+
+
+Note 1: The PC1001 was marketed as "Digital IXUS," "IXY Digital" and "PowerShot S100 Digital ELPH."
+

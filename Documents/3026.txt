@@ -1,0 +1,15 @@
+Help authoring tool
+A Help Authoring Tool or HAT is a software program used by technical writers to create online help manuals.
+
+The basic functions of Help Authoring Tools can be divided into the following categories:
+
+HATs obtain their source text either by importing it from a file produced by another program, or by allowing the author to create the text within the tool by using an editor. File formats that can be imported vary from HAT to HAT, though they can include such formats as ASCII, HTML and Microsoft Word, and compiled Help formats such as Microsoft WinHelp and Microsoft Compressed HTML Help.
+
+The output from a HAT can be either a compiled Help file in a format such as WinHelp (*.HLP) or Microsoft Compiled HTML (*.CHM), or noncompiled file formats such as Adobe PDF, XML, or HTML.
+
+Some HATs provide extra functions such as:
+
+Some common HATs include:
+
+Technical writers often use content management systems and version control systems to manage their work.
+

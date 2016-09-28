@@ -1,0 +1,44 @@
+Bioethics
+Meta-ethics
+Normative Â· Descriptive
+Consequentialism
+Deontology
+Virtue ethics
+Ethics of care
+Good and evil Â· Morality
+Bio-ethics Â· Cyberethics Â·
+Neuroethics Â· Medical
+Engineering Â· Environmental
+Human rights Â· Animal rights
+Legal Â· Media
+Business Â· Marketing
+Religion Â· War
+Justice Â· Value
+Right Â· Duty Â· Virtue
+Equality Â· Freedom Â· Trust
+Free will Â· Consent
+Moral responsibility
+Confucius Â· Mencius
+Plato Â· Aristotle Â· Aquinas
+Hume Â· Kant Â· Bentham Â· Mill
+Kierkegaard Â· Nietzsche
+Rawls Â· Parfit Â· Singer
+List of ethics topics
+List of ethicists
+Bioethics is the philosophical study of the ethical controversies brought about by advances in biology and medicine. Bioethicists are concerned with the ethical questions that arise in the relationships among life sciences, biotechnology, medicine, politics, law, philosophy, and theology.
+
+Although bioethical issues have been debated since ancient times, and public attention briefly focused on the role of human subjects in biomedical experiments following the revelation of Nazi experiments conducted during World War II, the modern field of bioethics first emerged as an academic discipline in the 1960s. Technological advances in such diverse areas as organ transplantation and end-of-life care, including the development of kidney dialysis and respirators, posed novel questions regarding when and how care might be withdrawn. These questions often fell upon philosophers and religious scholars, but by the 1970s, bioethical think tanks and academic bioethics programs emerged. Among the earliest such institutions were the Hastings Center (originally known as The Institute of Society, Ethics and the Life Sciences), founded in 1970 by philosopher Daniel Callahan and psychiatrist Willard Gaylin, and the Kennedy Institute of Ethics, established at Georgetown University in 1971. The publication of Principles of Bioethics by James F. Childress and Tom Beauchampâ€”the first American textbook of bioethicsâ€”marked a transformative moment in the discipline.
+During the subsequent three decades, bioethical issues gained widespread attention through the court cases surrounding the deaths of Karen Ann Quinlan, Nancy Cruzan and Terri Schiavo. The field developed its own cadre of widely-known advocates, such as Al Jonsen at the University of Washington, John Fletcher at the University of Virginia, Minnesota, Glenn McGee at SUNY Albany, Jacob M. Appel at Brown University, Ruth Faden at Johns Hopkins University, and Arthur Caplan at the University of Pennsylvania, Philadelphia. In 1995, President Bill Clinton established the Presidentâ€™s Council on Bioethics, a sign that the field had finally reached an unprecedented level of maturity and acceptance. President George W. Bush also relied upon a Council on Bioethics in rendering decisions in areas such as the public funding of embryonic stem-cell research.
+
+The field of bioethics addresses a broad swath of human inquiry, ranging from debates over the boundaries of life (eg. abortion, euthanasia) to the allocation of scarce health care resources (eg. organ donation, health care rationing) to the right to turn down medical care for religious or cultural reasons. Bioethicists often disagree among themselves over the precise limits of their discipline, debating whether the field should concern itself with the ethical evaluation of all questions involving biology and medicine, or only a subset of these questions. Some bioethicists would narrow ethical evaluation only to the morality of medical treatments or technological innovations, and the timing of medical treatment of humans. Others would broaden the scope of ethical evaluation to include the morality of all actions that might help or harm organisms capable of feeling fear and pain, and include within bioethics all such actions if they bear a relation to medicine and biology. However, most bioethicists share a commitment to discussing these complex issues in an honest, civil and intelligent way, using tools from the many different disciplines that "feed" the field to produce meaningful frameworks for analysis.
+
+One of the first areas addressed by modern bioethicists was that of human experimentation. The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research was initially established in 1974 to identify the basic ethical principles that should underlie the conduct of biomedical and behavioral research involving human subjects. However, the fundamental principles announced in the Belmont Report (1979)--namely, autonomy, beneficence and justice--have influenced the thinking of bioethicists across a wide range of issues. Others have added non-maleficence, human dignity and the sanctity of life to this list of cardinal values.
+
+Bioethicists come from a wide variety of backgrounds and have training in a diverse array of disciplines. The field contains individuals trained in philosophy such as Peter Singer of Princeton University and Daniel Brock of Harvard University, medically-trained clinician ethicists such as Mark Siegler of the University of Chicago and Joseph Fins of Cornell University, lawyers such as Jacob Appel and Wesley J. Smith, political economists like Francis Fukuyama, and theologians including James Childress. The field, once dominated by formally trained philosophers, has become increasingly interdisciplinary, with some critics even claiming that the methods of analytic philosophy have had a negative effect on the field's development. Leading journals in the field include the Hastings Center Report, the Journal of Medical Ethics and the Cambridge Quarterly of Healthcare Ethics.
+Many religious communities have their own histories of inquiry into bioethical issues and have developed rules and guidelines on how to deal with these issues from within the viewpoint of their respective faiths. The Jewish, Christian and Muslim faiths have each developed a considerable body of literature on these matters. In the case of many non-Western cultures, a strict separation of religion from philosophy does not exist. In many Asian cultures, for example, there is a lively (and often less dogmatic, but more pragmatic) discussion on bioethical issues. Buddhist bioethics, in general, is characterised by a naturalistic outlook that leads to a rationalistic, pragmatic approach. Buddhist bioethicists include Damien Keown. In India, Vandana Shiva is the leading bioethicist speaking from the Hindu tradition. In Africa, and partly also in Latin America, the debate on bioethics frequently focusses on its practical relevance in the context of underdevelopment and geopolitical power relations.
+
+
+Areas of health sciences that are the subject of published, peer-reviewed bioethical analysis include:
+
+
+

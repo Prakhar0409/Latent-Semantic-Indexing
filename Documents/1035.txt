@@ -1,0 +1,58 @@
+Tempo
+In musical terminology, tempo (Italian for time, movement) is the speed or pace of a given piece. It is a crucial element of composition, as it can affect the mood and difficulty of a piece. The plural of tempo is tempi.
+
+The tempo of a piece will typically be written at the start of a piece of music, and in modern music is usually indicated in beats per minute (BPM). This means that a particular note value (for example, a quarter note or crotchet) is specified as the beat, and the marking indicates that a certain number of these beats must be played per minute. The greater the tempo, the larger the number of beats that must be played in a minute is, and, therefore, the faster a piece must be played. Mathematical tempo markings of this kind became increasingly popular during the first half of the 19th century, after the metronome had been invented by Johann Nepomuk Mälzel, although early metronomes were somewhat inconsistent. Beethoven was the first composer to use the metronome, and in 1817 he published metronomic indications for his (then) eight symphonies. Unfortunately, the metronome markings on his "Hammerklavier" Sonata and Ninth Symphony are almost impossibly fast, as is also the case for many of the works of Schumann.[1]
+With the advent of modern electronics, BPM became an extremely precise measure. MIDI files and other types of sequencing software use the BPM system to denote tempo.
+As an alternative to metronome markings, some 20th century composers (such as Béla Bartók and John Cage) would give the total execution time of a piece, from which the proper tempo can be roughly derived.
+Tempo is as crucial in contemporary music as it is in classical. In electronic dance music, accurate knowledge of a tune's BPM is important to DJs for the purposes of beatmatching.
+
+Whether a music piece has a mathematical time indication or not, in classical music it is customary to describe the tempo of a piece by one or more words. Most of these words are Italian, because many of the most important composers of the 17th century were Italian, and this period was when tempo indications were first used extensively.
+Before the metronome, words were the only way to describe the tempo of a composition. Yet after the metronome's invention, these words continued to be used, often additionally indicating the mood of the piece, thus blurring the traditional distinction between tempo and mood indicators. For example, presto and allegro both indicate a speedy execution (presto being faster), but allegro also connotes joy (from its original meaning in Italian). Presto, on the other hand, indicates speed as such (while possibly connoting virtuosity, a connotation it did not acquire until the late 18th century).
+Additional Italian words also indicate tempo and mood. For example, the "agitato" in the Allegro agitato of the last movement of George Gershwin's piano concerto in F has both a tempo indication (undoubtedly faster than a usual Allegro) and a mood indication ("agitated").
+
+In some cases (quite often up to the end of the Baroque period), conventions governing musical composition were so strong that no tempo had to be indicated. For example, the first movement of Bach's Brandenburg Concerto No. 3 has no tempo or mood indication whatsoever. To provide movement names, publishers of recordings resort to ad hoc measures, for instance marking the Brandenburg movement "Allegro", "(Allegro)", "(Without indication)", and so on.
+In Renaissance music most music was understood to flow at a tempo defined by the tactus, roughly the rate of the human heartbeat. Which note value corresponded to the tactus was indicated by the mensural time signature.
+Often a particular musical form or genre implies its own tempo, so no further explanation is placed in the score. Thus musicians expect a minuet to be performed at a fairly stately tempo, slower than a Viennese waltz; a Perpetuum Mobile to be quite fast, and so on. Genres can be used to imply tempos; thus Ludwig van Beethoven wrote "In tempo d'un Menuetto" over the first movement of his Piano Sonata Op. 54, although that movement is not a minuet. Popular music charts use terms such as "bossa nova", "ballad", and "Latin rock" in much the same way.
+It is important to remember when interpreting these words that not only have tempos changed over historical time, and even in different places, but sometimes even the ordering of terms has changed. Thus a modern largo is slower than an adagio, but in the Baroque period it was faster[2].
+
+The definitions of the Italian tempo markings mentioned in this section can be found in the Harvard Dictionary of Music and/or the online Italian-English dictionary, both of which are listed in Sources.
+
+From fastest to slowest, the common tempo markings are:
+Additional Terms:
+All of these markings are based on a few root words such as 'allegro', 'largo', 'adagio', 'vivace', 'presto' 'andante' and 'lento'. By adding the -issimo ending the word is amplified, by adding the -ino ending the word is diminished, and by adding the -etto ending the word is endeared. Many tempos also can be translated with the same meaning, and it is up to the player to interpret the speed that best suits the period, composer, and individual work.
+Note: Metronome markings are a guide only and depending on the time signature and the piece itself, these figures may not be appropriate in every circumstance.
+
+Note: In addition to the common allegretto, composers freely apply Italian diminutive and superlative suffixes to various tempo indications: andantino, larghetto, adagietto, and larghissimo.
+
+Some markings that primarily mark a mood (or character) also have a tempo connotation:
+
+Composers may use expressive marks to adjust the tempo:
+While the base tempo indication (such as allegro) appears in large type above the staff, these adjustments typically appear below the staff or (in the case of keyboard instruments) in the middle of the grand staff.
+They generally designate a gradual change in tempo; for immediate tempo shifts, composers normally just provide the designation for the new tempo. (Note, however, that when Più Mosso or Meno Mosso appears in large type above the staff, it functions as a new tempo, and thus implies an immediate change.) Several terms control how large and how gradual this change is:
+After a tempo change, a composer may return to a previous tempo in two different ways:
+These terms also indicate an immediate, not a gradual, tempo change. Although they are Italian, composers typically use them even if they have written their initial tempo marking in some other language.
+
+Although Italian has been the prevalent language for tempo markings throughout most of classical music history, many composers have written tempo indications in their own language. The definitions of the tempo markings mentioned in this section can be found in the Harvard Dictionary of Music and/or the online foreign language dictionaries which are listed in Sources.
+
+Several composers have written markings in French, among them baroque composers François Couperin and Jean-Philippe Rameau as well as Claude Debussy, Olivier Messiaen, Maurice Ravel and Alexander Scriabin. Common tempo markings in French are:
+
+Many composers have used German tempo markings. Typical German tempo markings are:
+One of the first German composers to use tempo markings in his native language was Ludwig van Beethoven. The one using the most elaborate combined tempo and mood markings was probably Gustav Mahler. For example, the second movement of his Symphony No. 9 is marked Im tempo eines gemächlichen Ländlers, etwas täppisch und sehr derb, indicating a slowish folk-dance–like movement, with some awkwardness and vulgarity in the execution. Mahler would also sometimes combine German tempo markings with traditional Italian markings, as in the first movement of his sixth symphony, marked Allegro energico, ma non troppo. Heftig, aber markig (Energetically quick, but not too much. Violent, but vigorous[3]).
+
+English indications, for example quickly, have also been used, by Benjamin Britten and Percy Grainger, among many others. In jazz and popular music charts, terms like "fast", "laid back", "steady rock", "medium", "medium-up", "ballad", and similar style indications may appear.
+
+Generally, composers (or music publishers) will name movements of compositions after their tempo (and/or mood) marking. For instance the second movement of Samuel Barber's first String Quartet is an "Adagio".
+Some such movements may start to lead a life of their own, and become known with the tempo/mood marker name, for instance the string orchestra version of the second movement of Barber's first string quartet became known as Adagio for Strings. A similar example is Mahler's most famous work - the Adagietto from his Symphony No. 5. Another is Mozart's Alla Turca (here indicating the Janissary music type of mood of the final movement of Mozart's 11th Piano Sonata, K. 331)
+Sometimes the link between a musical composition with a "tempo" name and a separate movement of a composition is less clear. For instance Albinoni's Adagio, a 20th century creative "reconstruction" based on an incomplete manuscript.
+Some composers chose to include tempo indicators in the name of a separate composition, for instance Bartók in Allegro barbaro ("barbaric Allegro"), a single movement composition.
+
+When performers unintentionally speed up, they are said to rush. The similar term for unintentionally slowing down is drag.
+Unless practiced by an experienced performer to achieve a particular musical effect, these actions are undesirable; dragging can often indicate a hesitance in the performer due to lack of practice; rushing can likewise destroy the pulse of the music.
+Because of their negative connotation, neither rush nor drag (nor their equivalents in other languages) are often used as tempo indications in scores, Mahler being a notable exception: as part of a tempo indication he used schleppend (dragging) in the first movement of his Symphony No. 1, for example.
+By practising with a metronome a musician can try to gain control over rushing or dragging.
+
+
+Books on tempo in music:
+Music Dictionary:
+General Language Dictionaries:
+

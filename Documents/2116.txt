@@ -1,0 +1,7 @@
+External Data Representation
+eXternal Data Representation (XDR) is an IETF standard from 1995 of the presentation layer in the OSI model. XDR allows data to be wrapped in an architecture independent manner so data can be transferred between heterogeneous computer systems. Converting from the local representation to XDR is called encoding. Converting from XDR to the local representation is called decoding. XDR is implemented as a software library of functions that is portable between different operating systems and is also independent of the transport layer.
+The XDR data format is in use by many systems, including:
+
+
+
+The XDR standard exists in three different versions in the following RFC's...

@@ -1,0 +1,17 @@
+List of ISO 639-2 codes
+ISO 639 has five code lists. The following is a complete list of ISO 639-2 codes, including the corresponding ISO 639-1 codes where they exist. The codes are sorted by language name in the third column. The ISO 639-3 codes are not included.
+The standard defines some codes for special situations:
+There is also a range reserved for local use: qaa-qtz.
+Where two alpha-3 codes are given in the table, the first is the bibliographic code (B code) and the second is the terminological code (T code).
+
+
+
+
+
+
+
+
+
+
+
+

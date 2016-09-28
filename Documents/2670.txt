@@ -1,0 +1,45 @@
+Ergodic theory
+Ergodic theory is a branch of mathematics that studies dynamical systems with an invariant measure and related problems. Its initial development was motivated by problems of statistical physics.
+A central aspect of ergodic theory is the behavior of a dynamical system when it is allowed to run long. This is expressed through ergodic theorems which assert that, under certain conditions, the time average of a function along the trajectories exists almost everywhere and is related to the space average. Two most important examples are the ergodic theorems of Birkhoff and von Neumann. For the special class of ergodic systems, the time average is the same for almost all initial points: statistically speaking, the system that evolves for a long time "forgets" its initial state. Stronger properties, such as mixing and equidistribution have also been extensively studied. The problem of metric classification of systems is another important part of the abstract ergodic theory. An outstanding role in ergodic theory and its applications to stochastic processes is played by the various notions of entropy for dynamical systems.
+Applications of ergodic theory to other parts of mathematics usually involve establishing ergodicity properties for systems of special kind. In geometry, methods of ergodic theory have been used to study the geodesic flow on Riemannian manifolds, starting with the results of Eberhard Hopf for Riemann surfaces of negative curvature. Markov chains form a common context for applications in probability theory. Ergodic theory has fruitful connections with harmonic analysis, Lie theory (representation theory, lattices in algebraic groups), and number theory (the theory of diophantine approximations, L-functions).
+
+A measure-preserving transformation T on a probability space is said to be ergodic if the only measurable sets invariant under T have measure 0 or 1. An older term for this property was metrically transitive.
+Let  be a measure-preserving transformation on a measure space (X,Σ,μ). An element A of Σ is T-invariant if A differs from T − 1(A) by a set of measure zero, q.e. if
+where  denotes the set-theoretic symmetric difference of A and B.
+The transformation T is said to be ergodic if for every T-invariant element A of Σ, either A or X\A has measure zero.
+Ergodic transformations capture a very common phenomenon in statistical physics. For instance, if one thinks of the measure space as a model for the particles of some gas contained in a bounded recipient, with X being a finite set of positions that the particles fill at any time and μ the counting measure on X, and if T(x) is the position of the particle x after one unit of time, then the assertion that T is ergodic means that any part of the gas which is not empty nor the whole recipient is mixed with its complement during one unit of time. This is of course a reasonable assumption from a physical point of view.
+
+Let  be a measure-preserving transformation on a measure space (X,Σ,μ). One may then consider the "time average" of a μ-integrable function f, i.e. . The "time average" is defined as the average (if it exists) over iterations of T starting from some initial point x.
+So  is defined at every point x for which the limit exists.
+If μ(X) is finite and nonzero, we can consider the "space average" or "phase average" of f, defined as
+In general the time average and space average may be different. But if the transformation is ergodic, and the measure is invariant, then the time average is equal to the space average almost everywhere. This is the celebrated ergodic theorem, in an abstract form due to George David Birkhoff. (Actually, Birkhoff's paper considers not the abstract general case but only the case of dynamical systems arising from differential equations on a smooth manifold.) The equidistribution theorem is a special case of the ergodic theorem, dealing specifically with the distribution of probabilities on the unit interval.
+More precisely, the pointwise or strong ergodic theorem states that the limit in the definition of the time average of f exists for almost every x and that the (almost everywhere defined) limit function  is integrable:
+Furthermore,  is T-invariant, that is to say
+holds almost everywhere, and if μ(X) is finite, then the normalization is the same:
+In particular, if T is ergodic, then  must be a constant (almost everywhere), and so one has that
+almost everywhere. Joining the first to the last claim and assuming that μ(X) is finite and nonzero, one has that
+for almost all x, i.e., for all x except for a set of measure zero.
+For an ergodic transformation, the time average equals the space average almost surely.
+As an example, assume that the measure space (X,Σ,μ) models the particles of a gas as above, and let f(x) denotes the velocity of the particle at position x. Then the pointwise ergodic theorems says that the average velocity of all particles at some given time is equal to the average velocity of one particle over time.
+
+Another form of the ergodic theorem, von Neumann's mean ergodic theorem, holds in Hilbert spaces.[1]
+Let U be a unitary operator on a Hilbert space H. Let P be the orthogonal projection onto .
+Then, for any , we have:
+where the limit is with respect to the norm on H. In other words, the sequence of averages
+converges to P in the strong operator topology.
+This theorem specializes to the case in which the Hilbert space H consists of L2 functions on a measure space and U is an operator of the form
+where T is a measure-preserving automorphism of X, thought of in applications as representing a time-step of a discrete dynamical system.[2] The ergodic theorem then asserts that the average behavior of a function f over sufficiently large time-scales is approximated by the orthogonal component of f which is time-invariant.
+In another form of the mean ergodic theorem, let Ut be a strongly continuous one-parameter group of unitary operators on H. Then the operator
+converges in the strong operator topology as T�→�∞. In fact, this result also extends to the case of strongly continuous one-parameter semigroup of contractive operators on a reflexive space.
+
+Let (X,Σ,μ) be a measure space such that μ(X) is finite and nonzero. The time spent in a measurable set A is called the sojourn time. An immediate consequence of the ergodic theorem is that, in an ergodic system, the relative measure of A is equal to the mean sojourn time:
+where χA is the indicator function of A, for all x except for a set of measure zero.
+Let the occurrence times of a measurable set A be defined as the set k1, k2, k3, ..., of times k such that Tk(x) is in A, sorted in increasing order. The differences between consecutive occurrence times Ri = ki − ki−1 are called the recurrence times of A. Another consequence of the ergodic theorem is that the average recurrence time of A is inversely proportional to the measure of A, assuming that the initial point x is in A, so that k0 = 0.
+(See almost surely.) That is, the smaller A is, the longer it takes to return to it.
+
+The ergodicity of the geodesic flow on compact Riemann surfaces of variable negative curvature and on compact manifolds of constant negative curvature of any dimension was proved by Eberhard Hopf in 1939, although special cases had been studied earlier: see for example, Hadamard's billiards (1898) and Artin billiard (1924). The relation between geodesic flows on Riemann surfaces and one-parameter subgroups on SL(2,R) was described in 1952 by S. V. Fomin and I. M. Gelfand. The article on Anosov flows provides an example of ergodic flows on SL(2,R) and on Riemann surfaces of negative curvature. Much of the development described there generalizes to hyperbolic manifolds, since they can be viewed as quotients of the hyperbolic space by the action of a lattice in the semisimple Lie group SO(n,1). Ergodicity of the geodesic flow on Riemannian symmetric spaces was demonstrated by F. I. Mautner in 1957. In 1967 D. V. Anosov and Ya. G. Sinai proved ergodicity of the geodesic flow on compact manifolds of variable negative sectional curvature. A simple criterion for the ergodicity of a homogeneous flow on a homogeneous space of a semisimple Lie group was given by C. C. Moore in 1966. Many of the theorems and results from this area of study are typical of rigidity theory.
+In the 1930s G. A. Hedlund proved that the horocycle flow on a compact hyperbolic surface is minimal and ergodic. Unique ergodicity of the flow was established by Hillel Furstenberg in 1972. Ratner's theorems provide a major generalization of ergodicity for unipotent flows on the homogeneous spaces of the form Γ\G, where G is a Lie group and Γ is a lattice in G.
+
+
+
+

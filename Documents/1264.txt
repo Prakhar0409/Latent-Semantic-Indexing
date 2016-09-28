@@ -1,0 +1,40 @@
+List of user interface markup languages
+The following is a list of user interface markup languages categorized
+
+
+
+
+
+
+
+
+
+UIML is the earliest pioneer in user interface markup languages. It is an open standard where implementation is not restricted to a single vendor. However, it doesn't attract much attention.
+
+The primary interface language of Mozilla Foundation products is XUL. XUL documents are rendered by the Gecko engine, which also renders XHTML and SVG documents. It cooperates with many existing standards and technologies, including CSS, JavaScript, DTD and RDF, which makes it relatively easy to learn for people with background of web programming and design.
+
+eXtensible Application Language is the Markup language of Nexaweb's Enterprise Web 2.0 Suite. Developers can use this language to define applications that will run as a Java Client or an Ajax Client.
+
+Scalable Vector Graphics is a markup language for graphics proposed by the W3C that can support rich graphics for web and mobile applications. While SVG is not a user interface language, it includes support for vector/raster graphics, animation, interaction with the DOM and CSS, embedded media, events and scriptability. When these features are used in combination, rich user interfaces are possible.
+SVG can also be super-imposed upon another XML-compatible user interface markup language, such as XUL and XForms, as the graphics-rich portion of a user interface.
+
+XAML is a markup system that underlies user interface components of Microsoft's .NET framework 3.0 and above. Its scope is more ambitious than that of most user interface markup languages, since program logic and styles are also embedded in the XAML document. Functionally, it can be seen as a combination of XUL, SVG, CSS, and JavaScript into a single XML schema.
+Some people are critical of this design, as many standards (such as those already listed) exist for doing these things. However, it is expected to be developed with a visual tool where developers do not even need to understand the underlying markups.
+
+I3ML is a proprietary thin client Application Delivery mechanism developed by CoKinetic Systems Corp, with client support provided by a browser plugin that will render windows-like applications over an HTTP infrastructure with minimal bandwidth needs.
+
+OpenLaszlo is a runtime environment that comprises a runtime environment and an interface definition language (Laszlo XML - LZX). LZX is a declarative user interface language which defines the widgets, application layout and scripting elements (using JavaScript) to create your application. LZX is runtime agnostic with the currently supported runtime being within Macromedia/Adobe Flash. An experimental runtime called Laszlo "Legals" that will allow OpenLaszlo (LZX) applications run in multiple runtime environments, such as DHTML/AJAX.
+
+Hierarchical Model View Controller User Interface Language (HMVCUL) is an XML markup user interface language which supports the creation and chaining of atomic MVC triad components used in constructing HMVC GUI applications. The associated runtime provides methods which enable configuration of properties, data binding and events of each of the MVC triad elements (widget, controller, model). The runtime accomplishes this by mapping XML elements defined in an HMVCUL file to objects inside the framework, attributes to properties or to events. Chaining is accomplished by following the tree structure described inside the HMVCUL file.
+
+WasabiXML is an XML markup language that is used to define the graphical interface in Wasabi powered applications. It is most commonly used with Winamp for making Winamp skins. WasabiXML had been developed by Nullsoft for Winamp, but it is also usable with other applications with the Wasabi SDK.
+The root element in WasabiXML is <WasabiXML> (for Winamp skins, it is also <WinampAbstractionLayer>). The <skininfo> element shows the information for a skin. The graphical interface is held by the <container> element and the basic viewable GUI element is <layout>. Following is an example for a simple GUI with a button element:
+WasabiXML supports many GUI elements including:
+<groupdef> allows the developer to define a group of GUI objects which can be re-used anywhere in the skin. Wasabi also supports XUI's which are nothing but <groups> powered by a MAKI script allowing developers to create GUI components (widgets) of their own adding to modularity.
+WasabiXML has an XML namespace 'Wasabi::' which defines common GUI's without having the need to declare their image paths.
+
+Other markup languages incorporated into existing frameworks are:
+Some of these are compiled into binary forms.
+In avionics, the ARINC 661 standard prescribes a binary format to define user interfaces in glass cockpits.
+
+

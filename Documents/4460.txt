@@ -1,0 +1,28 @@
+Magic SysRq key
+The magic SysRq key is a key combination in the Linux kernel which allows the user to perform various low level commands regardless of the system's state using the SysRq key. It is often used to recover from freezes, or to reboot a computer without corrupting the filesystem.[1]
+To be able to use this functionality the CONFIG_MAGIC_SYSRQ option has to be enabled at kernel compile time.
+
+Much like the Sun Microsystems Open Firmware, this key combination provides the ability to have access to powerful tools for software development and disaster recovery. In this sense, it can be considered a form of escape sequence. Principal among the offered commands are options to forcibly unmount file systems, kill processes, recover keyboard state, and write unwritten data to disk. With respect to these tasks, they provide a tool of last resort.
+
+The key combination consists of Alt, SysRq and another key, which controls the command issued (as shown in the table below). Users with a keyboard layout other than QWERTY have to remember that their layout becomes QWERTY when they use one of these combinations. For example, on a Dvorak keyboard, the key below '9' and '0' counts as a 'o', not as an 'r', so it shuts the system down instead of switching the keyboard to raw mode. Furthermore, some keyboards may not provide a separate SysRq key. In this case, a separate "Print" key should be present. The AltGr key, if present, can be used in place of Alt key in order to avoid alternative uses of these combinations such as Screenshot for Alt+SysRq+s under Gnome. It also can be accessed from the serial console.[2]
+
+
+While this was originally implemented as part of the kernel's keyboard handler for debugging, the functionality has been also exposed via the proc filesystem and are commonly used to provide extended management capabilities to headless and remote systems. As an example, shell script can be simply used:
+This is equivalent to the key combination Alt + SysRq + B which reboots the machine.
+The feature is controlled both by a compile-time option in the kernel configuration, CONFIG_MAGIC_SYSRQ, and a sysctl kernel parameter, kernel.sysrq. This can be accessed through the proc filesystem as well, e.g.:
+
+The linux daemon sysrqd provides a method of accessing SysRq features over TCP/IP port 4094 after authenticating with a plain-text password.
+
+When magic SysRq keys are used to kill a frozen graphical program, the program has no chance to restore text mode. This can make everything unreadable. The commands textmode (part of SVGAlib) and reset can restore text mode and make the console readable again.
+
+The Xen hypervisor has functionality to send magic commands to hosted domains via its "xm" command.[4]
+
+A common idiom to perform a safe reboot of a Linux computer which has otherwise locked up, the QWERTY (or AZERTY) mnemonic "Raising Elephants Is So Utterly Boring", "Reboot Even If System Utterly Broken" or simply remembering the word "BUSIER" backwards, is often useful.[5] It stands for
+This can prevent a fsck being required on reboot and gives some programs a chance to save emergency backups of unsaved work.
+Another common version of this mnemonic device is "Raising Skinny Elephants Is Utterly Boring", which performs the same task, but in an alternate order. There is debate regarding whether the Sync command should come earlier or later.
+Wait a few seconds between each command. For example, many applications will do an emergency save on receiving SIGTERM, but if SIGKILL is sent too soon, the application will not have time. Likewise, the Sync and Unmount processes need a few seconds before the system is rebooted.
+
+Some people view this key as giving access to dangerous system-level commands to anyone who has physical access to the keyboard or serial console.[6] It has been argued that this perceived security is illusory, as anyone with physical access to the computer would already have the capability to compromise its security.[7] The advent of the procfs interface has rekindled debate over this subject.
+
+
+

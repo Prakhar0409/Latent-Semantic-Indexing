@@ -1,0 +1,26 @@
+Binomial proportion confidence interval
+In statistics, a binomial proportion confidence interval is a confidence interval for a proportion in a statistical population. It uses the proportion estimated in a statistical sample and allows for sampling error. There are several formulas for a binomial confidence interval, but all of them rely on the assumption of a binomial distribution. A simple example of a binomial distribution is the number of heads observed when a coin is flipped ten times. In general, a binomial distribution applies when an experiment is repeated a fixed number of times, each trial of the experiment has two possible outcomes (labeled arbitrarily success and failure), the probability of success is the same for each trial, and the trials are statistically independent.
+There are several ways to compute a confidence interval for a binomial proportion. The normal approximation interval is the simplest formula, and the one introduced in most basic Statistics classes and textbooks. This formula, however, is based on an approximation that does not always work well. Several competing formulas are available that perform better, especially for situations with a small sample size and a proportion very close to zero or one. The choice of interval will depend on how important it is to use a simple and easy to explain interval versus the desire for better accuracy.
+
+The simplest and most commonly used formula for a binomial confidence interval relies on approximating the binomial distribution with a normal distribution. This approximation is justified by the central limit theorem. The formula is
+where  is the proportion estimated from the statistical sample, z1 âˆ’ Î± / 2 is the 1 âˆ’ Î± / 2 percentile of a standard normal distribution, and n is the sample size.
+The central limit theorem applies well to a binomial distribution, even with a sample size less than 30, as long as the proportion is not too close to 0 or 1. For very extreme probabilities, though, a sample size of 30 or more may still be inadequate. The normal approximation fails totally when the sample proportion is exactly zero or exactly one. A frequently cited rule of thumb is that the normal approximation works well as long as np > 5 and n(1 âˆ’ p) > 5; see however Brown et al. 2001.
+An important theoretical derivation of this confidence interval involves the inversion of a hypothesis test. Under this formulation, the confidence interval represents those values of the population parameter that would have large p-values if they were tested as a hypothesized population proportion. The collection of values, Î¸, for which the normal approximation is valid can be represented as
+Since the test in the middle of the inequality is a Wald test, the normal approximation interval is sometimes called the Wald interval.
+
+The Wilson interval is an improvement (the actual coverage probability is closer to the nominal value) over the normal approximation interval and was first developed by Wilson (1927).
+This interval has good properties even for a small number of trials and/or an extreme probability. The center of the Wilson interval
+can be shown to be a weighted average of  = X/n and 1/2, with  receiving greater weight as the sample size increases. For the 95% interval, the Wilson interval is nearly identical to the normal approximation interval using  instead of .
+The Wilson interval can be derived as
+The test in the middle of the inequality is a score test, so the Wilson interval is sometimes called the Wilson score interval.
+
+The Clopper-Pearson interval is an early and very common method for calculating exact binomial confidence intervals (Clopper and Pearson 1934). This method uses the cumulative probabilities of the binomial distribution. The Clopper-Pearson interval can be written as
+where X is the number of successes observed in the sample and Bin(n; Î¸) is a binomial random variable with n trials and probability of success Î¸.
+Because of a relationship between the cumulative binomial distribution and the beta distribution, the Clopper-Pearson interval is sometimes presented in an alternate format that uses percentiles from the beta distribution. The beta distribution is, in turn, related to the F-distribution so a third formulation of the Clopper-Pearson interval uses F percentiles.
+The Clopper-Pearson interval is an exact interval since it is based directly on the binomial distribution rather than any approximation to the binomial distribution. This interval, however, can be conservative because of the discrete nature of the binomial distribution.
+
+There are several research papers that compare these and other confidence intervals for the binomial proportion. A good starting point is Agresti and Coull (1998) or Ross (2003) which point out that exact methods such as the Clopper-Pearson interval may not work as well as certain approximations. But it is still used today for many studies.
+
+There are numerous web sites that will calculate a binomial proportion confidence interval.
+
+

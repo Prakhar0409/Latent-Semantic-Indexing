@@ -1,0 +1,25 @@
+Vim (text editor)
+Vim is a text editor first released by Bram Moolenaar in 1991 for the Amiga computer. The name "Vim" is an acronym for "Vi IMproved"[2] because Vim was created as an extended version of the vi editor, with many additional features designed to be helpful in editing program source code.
+While Vim is cross-platform, it is most popular on Unix-like operating systems.[3]
+Released under a software license compatible with the GNU General Public License, Vim is free and open source software. The program's license includes some charityware clauses, encouraging users who enjoy the software to consider donating to children in Uganda.[4]
+
+Like vi, Vim's interface is based not on menus or icons but on commands given in a text user interface; its GUI mode, gVim, adds menus and toolbars for commonly used commands but the full functionality is still expressed through its command line mode.
+Vim has a built-in tutorial for beginners. There is also the Vim Users' Manual that details the basic and more advanced Vim features. This manual can be read from within Vim, or found online.[5][6]
+Vim also has a built-in help facility (using the :help command) that allows users to query and navigate through commands and features.
+
+As a descendant of vi, Vim is modal—a design choice that tends to confuse new users not familiar with vi and unaware of insert-mode. Many editors are modal in the general sense of having to distinguish between insert-mode and command inputs, but most others implement that modality through very different methods: command menus (mouse or keyboard driven), meta keys (simultaneous use of multiple keys, usually involving control key (CTRL) or alt key (ALT)), and mouse input. Vim, following vi, is unique in that the entire keyboard is switched into and out of these modes. This allows, but does not require, one to perform all editing functions with no use of the mouse or menus and minimal use of meta keys. For touch-typists and those averse to the mouse, this can be a great benefit in power and efficiency.[citation needed]
+Some variations of vi show the mode as an onscreen status-box, such as "<INSERT>" or could show the repeat mode counter ("<REPEAT:�87>"). However, with the widespread use of mode-based browsers for the Internet, people are accustomed to hidden modes, because they don't have a browser status-box saying "BUSY" on those windows that are in data-receive mode blocking their input.
+
+Part of Vim's power is that it can be extensively customized. The basic interface can be controlled by the many options available, and the user can define personalized key mappings—often called macros—or abbreviations to automate sequences of keystrokes, or even call internal or user defined functions.
+
+There are many plugins available that will extend or add new functionality to Vim. These complex scripts are usually written in Vim's internal scripting language vimscript.[7] Vim also supports scripting using MzScheme, Perl, Python, Ruby, Tcl, and other languages.
+
+There are projects bundling together complex scripts and customizations and aimed at turning Vim into a tool for a specific task or adding a major flavour to its behaviour. Examples include Cream which makes Vim behave like a click-and-type editor or VimOutliner that provides a comfortable outliner for users of Unix-like systems.
+
+Vim is almost fully vi compatible when in compatible mode, but Vim has many enhancements over vi which may or may not be available in compatible mode.[8]
+Some of those enhancements include completion, comparison and merging of files (known as vimdiff), a comprehensive integrated help system, extended regular expressions, scripting languages (both native and through alternative scripting interpreters such as Perl, Python, Ruby, Tcl, etc.) including support for plugins, a graphical user interface (known as gvim), limited integrated development environment-like features, mouse interaction (both with and without the GUI), folding, editing of compressed or archived files in gzip, bzip2, zip, and tar format and files over network protocols such as SSH, FTP, and HTTP, session state preservation, spell checking, split (horizontal and vertical) and tabbed windows, unicode and other multi-language support, syntax highlighting, trans-session command, search, and cursor position histories, multiple level undo/redo history, and visual mode.
+While vi was traditionally only available on Unix operating systems, Vim is very portable; there are versions for AmigaOS (the initial target platform), Atari MiNT, BeOS, MS-DOS, Microsoft Windows 95/98/Me/NT/2000/XP/Server 2003/Vista/Server 2008, IBM OS/2 and OS/390, MorphOS, OpenVMS, QNX, RISC OS, Unix, Linux, BSD, Mac OS and Mac OS X, etc.[9]
+
+(Note that some dates are approximate,[16] development releases are not listed, and many minor version releases are not yet included in this list.)
+
+

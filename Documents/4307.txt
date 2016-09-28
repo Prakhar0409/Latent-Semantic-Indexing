@@ -1,0 +1,38 @@
+Acid2
+Acid2 is a test page published and promoted by the Web Standards Project to expose web page rendering flaws in web browsers and other applications that render HTML. It was developed in the spirit of Acid1, a relatively narrow test of compliance with the Cascading Style Sheets 1.0 (CSS1) standard, and was released on April 13, 2005. Like Acid1, an application passes the test if the way it displays the test page matches a reference image.
+Acid2 tests aspects of HTML markup, CSS 2.1 styling, PNG images, and data URIs. The Acid2 test page will be displayed correctly in any application that follows the World Wide Web Consortium and Internet Engineering Task Force specifications for these technologies. These specifications are known as web standards because they describe how technologies used on the web are expected to function.
+While at the time of Acid2's release no web browser passed the test, Acid2 was designed with Microsoft Internet Explorer particularly in mind. The creators of Acid2 were dismayed that Internet Explorer did not follow web standards and because of this Internet Explorer was prone to display web pages differently from other browsers. When such a discrepancy between browsers is encountered, web developers spend time tweaking their web pages in order to make the pages be displayed correctly in different browsers. Acid2 represented a challenge to Microsoft to bring Internet Explorer in line with web standards, making it easier to design web pages that work as intended in any web browser.
+On October 31, 2005, Safari 2.0.2 became the first browser to pass Acid2. Opera, Konqueror, Firefox, and others followed. With the release of Internet Explorer 8 on March 19, 2009, the latest versions of all major web browsers now pass the test.
+
+Acid2 was first proposed by Håkon Wium Lie, chief technical officer of Opera Software and creator of the widely-used Cascading Style Sheets web standard.[1] In a March 16, 2005 article on CNET, Lie expressed dismay that Microsoft Internet Explorer did not properly support web standards and hence was not completely interoperable with other browsers. He announced that Acid2 would be a challenge to Microsoft to design Internet Explorer 7, then in development, to achieve a greater degree of standards compliance than previous versions of Internet Explorer. The original Acid1 test had forced browser makers to fix their applications or face embarrassment; Lie hoped that Acid2 would do the same.[2]
+Lie and a colleague, Ian Hickson, had created the first draft of the test in February 2005.[3] Ian Hickson coded the final test in collaboration with the Web Standards Project and the larger web community.[2][4][5][6] It was officially released on April 13, 2005[7] and at that time, every web browser failed it spectacularly.[8]
+On April 23, 2005, Acid2 was updated to fix a bug that made the mouth appear too close to the nose.[9][10] After several complaints, the test was again updated in January 2006 to remove a test for unpopular SGML-style comments that were never widely implemented. In browsers that do not implement SGML-style comments, the original test displayed the word "ERROR" on the bottom part of the face.[3]
+In March 2008, Ian Hickson released Acid3 as a follow-up to Acid2. While Acid2 primarily tests CSS, Acid3 focuses more on JavaScript and other "Web 2.0" technologies.[11]
+
+In July 2005, Chris Wilson, the Internet Explorer Platform Architect, stated that passing Acid2 was not a priority for Internet Explorer 7, describing the test as a "wish list" of features rather than a true test of standards compliance.[12] In December 2007, Microsoft announced that all the changes required to pass Acid2 would be made available in Internet Explorer 8, but that the changes would not be turned on by default, meaning that IE8 would not actually pass the test.[13][14] The concern was that switching to a new behavior would cause too many problems in web pages expecting Internet Explorer's old, non-compliant behavior. Then in March 2008 Microsoft released IE8 beta 1 and turned on the changes by default after all.[15] James Pratt, Product Manager for IE8, explained that this decision was made so that "developers can spend more time building features and cool stuff, and less time just trying to tweak their sites across different browsers."[16]
+Unfortunately, another unresolved standards compliance issue prevented IE8 beta 1 from passing in some cases.[17][18][19] In August 2008 Microsoft released IE8 beta 2, which resolved the issue,[20] however as of IE8 beta 2 standards mode is not turned on by default for pages loaded in the "Intranet Zone". This zone is active for pages loaded via UNC Paths, named addresses without dots (like http://mysite/), and sites that bypass the proxy settings.[21] As such, IE8 will not pass the Acid2 test if loaded in these cases.[22]
+
+Acid2 tests a variety of web standards published by the World Wide Web Consortium and the Internet Engineering Task Force. With the exception of CSS 2.1, all web standards tested were codified before the year 2000.[23][24][25][26] CSS 2.1 was a candidate recommendation at the time of Acid2's release,[27] and is still a candidate recommendation as of March 2009.[28]
+Specifically, Acid2 tests:[29]
+Because Acid2 is not a comprehensive test, it does not guarantee total conformance to any particular standard. A variant of the Acid2 test that does not test for data URI support is also available from the Web Standards Project.[29]
+
+A passing score is only considered valid if the browser's default settings were used. Actions such as changing font sizes, zoom level, and applying user stylesheets can break the display of the test. This is expected and is not relevant to a browser's compliance.[38]
+The following browser settings and user actions invalidate the test:[38][39]
+
+If rendered correctly, Acid2 will appear as a smiley face below the text "Hello World!" in the user's browser, with the nose turning blue when the mouse cursor hovers over it. At the time of the test's release every browser failed it,[8] but now a number of applications pass the test:
+
+
+
+Internet Explorer 6
+Internet Explorer 7
+Firefox 1.0, Mozilla 1.7.13, and Netscape 7.2
+Firefox 1.5 and 2.0
+Opera 8.0
+Opera 8.54
+Konqueror 3.4
+NetSurf 1.2
+Opera Mini 4
+iPod touch 2.0
+Even though Opera Mini is based on the same rendering engine as Opera for personal computers, it does not pass the Acid2 test.[42][43] This is because Opera Mini intentionally reformats web pages to try and make them more suitable for devices with small screens.[38][44][45]
+
+The following is a list of releases noting significant releases of applications that passed the test. New applications that have passed Acid2 since their first official release are not included in the timeline.

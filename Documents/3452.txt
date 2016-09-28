@@ -1,0 +1,53 @@
+Building Information Modeling
+Building Information Modeling (BIM) is the process of generating and managing building data during its life cycle[1]. Typically it uses three-dimensional, real-time, dynamic building modeling software to increase productivity in building design and construction.[2] The process produces the Building Information Model (also abbreviated BIM), which encompasses building geometry, spatial relationships, geographic information, and quantities and properties of building components.
+
+One theory claims that Professor Charles M. Eastman at Georgia Institute of Technology coined the term [3]. This theory is based on a view that the term Building Information Model is basically the same as Building Product Model, which Professor Eastman has used extensively in his book [4] and papers since the late 1970s. ('Product model' means 'data model' or 'information model' in engineering.)
+Nevertheless, it is agreed upon that the term was popularized by Jerry Laiserin [5] as a common name for a digital representation of the building process to facilitate exchange and interoperability of information in digital format. According to him[6] and others[7], the first implementation of BIM was under the Virtual Building concept by Graphisoft's ArchiCAD, in its debut in 1987.
+
+Building information modeling covers geometry, spatial relationships, geographic information, quantities and properties of building components (for example manufacturers' details). BIM can be used to demonstrate the entire building life cycle including the processes of construction and facility operation. Quantities and shared properties of materials can easily be extracted. Scopes of work can be isolated and defined. Systems, assemblies, and sequences are able to be shown in a relative scale with the entire facility or group of facilities.
+BIM is a process which goes far beyond switching to a new software. It requires changes to the definition of traditional architectural phases and more data sharing than most architects and engineers are used to.
+BIM is able to achieve such improvements by modeling representations of the actual parts and pieces being used to build a building. This is a substantial shift from the traditional computer aided drafting method of drawing with vector file based lines that combine to represent objects.
+The interoperability requirements of construction documents include the drawings, procurement details, environmental conditions, submittal processes and other specifications for building quality. It is anticipated by proponents that BIM can be utilized to bridge the information loss associated with handing a project from design team, to construction team and to building owner/operator, by allowing each group to add to and reference back to all information they acquire during their period of contribution the BIM model. For example, a building owner may find evidence of a leak in his building. Rather than exploring the physical building, he may turn to his BIM and see that a water valve is located in the suspect location. He could also have in the model the specific valve size, manufacturer, part number, and any other information ever researched in the past, pending adequate computing power.
+There have been attempts at creating a BIM for older, pre-existing facilities. They generally reference key metrics such as the Facility Condition Index, or FCI. The validity of these models will need to be monitored over time, because trying to model a building constructed in, say 1927, requires numerous assumptions about design standards, building codes, construction methods, materials, etc., and therefore is far more complex than building a BIM at time of initial design.
+The American Institute of Architects has further defined BIM as "a model-based technology linked with a database of project information"[1], and this reflects the general reliance on database technology as the foundation. In the future, structured text documents such as specifications may be able to be searched and linked to regional, national, and international standards.
+
+BOOKS
+BIG BIM little bim
+Published October 2007
+Written by Finith Jernigan, AIA
+ISBN 978-0-979-56990-6
+Building Information Modeling: Planning and Managing Construction Projects with 4D CAD and Simulations
+Published April 2008
+Written by Willem Kymmell
+ISBN 978-0-071-49453-3
+BIM Handbook: A Guide to Building Information Modeling for Owners, Managers, Designers
+Published March 2008
+Written by Chuck Eastman, Paul Teicholz, Rafael Sacks, and Kathleen Liston
+ISBN 978-0-470-18528-5
+Green BIM: Successful Sustainable Design with Building Information Modeling
+Published April 2008
+Written by Eddy Krygiel, Brad Nies; foreword by Steve McDowell, FAIA, BNIM
+ISBN 978-0470239605
+RESEARCH REPORTS
+McGraw-Hill Construction SmartMarket Report on BIM.
+Published December 2008
+Written by Stephen A Jones
+Research with hundreds of current BIM users on implementation and ROI. Includes 4-page special section "Introduction to BIM".
+Free download: http://construction.ecnext.com/coms2/summary_0249-296182_ITM_analytics
+VIDEOS
+Thoughts on BIM by John Stebbins, CEO, Digital Vision Automation http://www.digitalvis.com/bim/
+
+BIM is currently employed by professionals on all building types from the simplest warehouse to many of the most complex new buildings, BIM design method is currently young in its development.
+BIM provides the potential for a virtual information model to be handed from Design Team (architects, surveyors, consulting engineers, and others) to Contractor and Subcontractors and then to the Owner, each adding their own additional discipline-specific knowledge and tracking of changes to the single model. The result greatly reduces the information loss that occurs when a new team takes "ownership" of the project as well as in delivering extensive information to owners of complex structures far beyond that which they are currently accustomed to having.
+BIM can greatly decrease errors made by design team members as well as the construction team (Contractors and Subcontractors) by allowing the use of conflict detection where the computer actually informs team members about parts of the building in conflict or clashing, and through detailed computer visualization of each part in relation to the total building. As computers and software become more capable of handling more building information, this will become even more pronounced than it is in current design and construction projects. This error reduction is a great part of cost savings realized by all members of a project. Reduction in time required to complete construction directly contributes to the cost savings numbers as well. It's important to realize that this decrease can only be accomplished if the models are sufficiently developed in the Design Development phase.
+The Industry Foundation Classes (IFC/ifcXML) are an open specification for Building Information Modeling and are used to share and exchange BIM in a neutral format among various software applications. gbXML is an emerging schema, a subset of the Building Information Modeling efforts, focused on green building design and operation.
+
+
+The Associated General Contractors and contracting firms also have developed a variety of working definition of BIM which describe it generally as "an object-oriented building development tool that utilizes 5-D modeling concepts, information technology and software interoperability to design, construct and operate a building project, as well as communicate its details.
+Although the concept of BIM and relevant processes are being explored by contractors, architects and developers alike, the term itself is under debate[8], and it is yet to be seen whether it will win over alternatives, which include:
+BIM is often associated with IFCs (Industry Foundation Classes) and aecXML, which are data structures for representing information used in BIM. IFCs were developed by the International Alliance for Interoperability. There are other data structures which are proprietary, and many have been developed by CAD firms that are now incorporating BIM into their software. One of the earliest examples of a nationally approved BIM standard is the AISC (American Institute of Steel Construction)-approved CIS/2 standard, a non proprietary standard with its roots in the UK.
+Proponents claim that BIM offers:
+In August 2004 the US National Institute of Standards and Technology (NIST) issued a report entitled "Cost Analysis of Inadequate Interoperability in the U.S. Capital Facilities Industry" (NIST GCR 04-867 (PDF), which came to the conclusion that, as a conservative estimate, $15.8 billion is lost annually by the U.S. capital facilities industry resulting from inadequate interoperability due to "the highly fragmented nature of the industry, the industry’s continued paperbased business practices, a lack of standardization, and inconsistent technology adoption among stakeholders".
+
+
+

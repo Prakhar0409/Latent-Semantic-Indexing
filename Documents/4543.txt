@@ -1,0 +1,16 @@
+Considered harmful
+In computer science and related disciplines, considered harmful is a phrase popularly used in the titles of diatribes and other critical essays (there are at least 65 such works[1]). It was popularized by Edsger Dijkstra's letter Go To Statement Considered Harmful,[2] published in the March 1968 Communications of the ACM (CACM), in which he criticized the excessive use of the GOTO statement in programming languages of the day and advocated structured programming instead.[3] The original title of the letter, as submitted to CACM, was A Case Against the Goto Statement, but CACM editor Niklaus Wirth changed the title to the now immortalized Go To Statement Considered Harmful.[4]
+Frank Rubin published a criticism of Dijkstra's letter in the March 1987 CACM where it appeared under the title 'GOTO Considered Harmful' Considered Harmful[5]. The May 1987 CACM printed further replies, both for and against, under the title '"GOTO Considered Harmful" Considered Harmful' Considered Harmful?[6]. Dijkstra's own response to this controversy was titled On a somewhat disappointing correspondence.[7]
+According to linguist Mark Liberman, considered harmful was a journalistic cliché, used in headlines, well before the Dijkstra article. He cites the headline over a letter published August 12, 1949 in The New York Times: "Rent Control Controversy / Enacting Now of Hasty Legislation Considered Harmful".[8]
+
+Some variants with replacement adjectives (considered silly, etc.) have been noted in hacker jargon.[9] Many variants dealt with computer-related issues, such as: "Weblogging Considered Harmful" [10] "'Reply-To' Munging Considered Harmful" [11] "XMLHttpRequest Considered Harmful" [12] "Letter 'O' Considered Harmful" [13] "Csh Programming Considered Harmful" [14] "Geek Culture Considered Harmful to Perl" [15]
+Eric A. Meyer focused upon the letter, itself:
+Others extended Rubin's criticism, of Wirth's refutation cliche, into a recursive sequence, starting with:
+There is no obvious limiting condition to end this infinite sequence (nor any standard punctuation convention with which to represent it).
+This recursive notion was reminiscent of (and may have been inspired by) a series of earlier letters that appeared in "MAD" magazine, beginning with:
+then, in a subsequent issue:
+and, later:
+Similar recursions were extended even further, in later issues of "MAD" magazine, during the late 1950s or early 1960s. These MAD magazine letters were published several years prior to Wirth's re-titling of the Dijkstra letter, and the further variations of it.
+
+
+

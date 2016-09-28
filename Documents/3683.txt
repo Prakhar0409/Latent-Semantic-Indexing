@@ -1,0 +1,8 @@
+Blosxom
+Blosxom is a free-software weblog program (and simple content management system) written in Perl by Rael Dornfest and now maintained by a group of developers. It uses the pre-existing file system instead of a database management system, unlike most blog software.
+The design of Blosxom is minimalist. It is distributed as a single Perl script, and all configuration is done by editing this script. All of the weblog entries are stored as plain text files consisting of a headline, optional headers or meta-information (if using certain plugins), and a blank line followed by the post body. New display styles can be added by creating template files called flavours. Blosxom can operate as a CGI script or produce static HTML files. By default, Blosxom supports showing recent posts, doing content categorization, content retrieval by date (and permalinking based on that), and RSS feeds. It can be extended with dozens of available plugins [1].
+Blosxom has inspired many derivatives in various languages, including PyBlosxom (in Python), Blojsom (in Java), Posy[dead link] (in Perl), Blosxonomy (in Ruby), Blosxom.PHP (in PHP), and Hobix (in Ruby).
+Blosxom and its derivatives tend to be used by people who prefer to write weblog postings with their favourite text editor instead of using a web-based interface. However, there are plugins for web-based posting to a Blosxom weblog, too.
+It has a small but dedicated userbase, including many users in Japan.
+
+

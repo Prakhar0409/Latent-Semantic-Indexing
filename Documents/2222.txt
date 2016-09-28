@@ -1,0 +1,13 @@
+Microsoft Comic Chat
+Microsoft Comic Chat (later Microsoft Chat but not to be confused with Windows Chat, or WinChat) is a graphical IRC client created by Microsoft, first released with Internet Explorer 3.0 in 1996. Comic Chat was developed by Microsoft Researcher David Kurlander, with Microsoft Research's Virtual Worlds Group and later a group he managed in Microsoft's Internet Division.[1]
+Comic Chat's main feature, which set it apart from other IRC clients, is that it enabled comic avatars to represent a user; this character could express a specified emotion, possibly making IRC chatting a more emotive and expressive experience. All of the comic characters and backgrounds were initially created by comic artist Jim Woodring. Later, available tools allowed user-created characters and backgrounds.[2]
+Comic Chat started out as a research project, and a paper describing the technology was published at SIGGRAPH '96.[3] It was an experiment in automatic illustration construction and layout. The algorithms used in Comic Chat attempted to mimic some basic illustration techniques of comic artists (particularly Jim Woodring). Character placement, the choice of gestures and expressions, and word balloon construction and layout, were all chosen automatically. A widget called the "emotion wheel" allowed users to override the program's choice of expression.
+Although Comic Chat could be used in text-based chat rooms as well, it added a code at the beginning of every message to communicate the character's expression to other chat clients. This had a somewhat annoying effect on non-Comic Chat users (although it could be disabled).
+Comic Chat was released with the full downloads of Internet Explorer 3, 4, and 5, as well as in the Windows 98 and Windows 2000 distributions. It also became the official chat client of MSN. It was localized into 24 different languages. Although the program can still be downloaded and still works with most IRC servers, it is infrequently used today because MSN decided to get out of the chat business, and turned off its servers.[1]
+The program is used to create the daily web comic "Jerkcity".
+Microsoft Comic Chat installed a custom font, Microsoft Comic Sans, that users could use in other applications and documents.
+It was renamed as Microsoft Chat 2.0, and was bundled with Internet Explorer along with the then new Outlook Express, in the late 1990s.[4] Version 2.5 bundled with Internet Explorer 5[5] was the last update.
+
+
+
+

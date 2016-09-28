@@ -1,0 +1,14 @@
+NodeBox
+NodeBox is an open-source application for programming 2D animation and graphics in Python. It runs on Mac OS X.
+NodeBox is inspired by technologies like OpenGL and PostScript. The syntax is similar to that of Processing. NodeBox is based on another open-source project, DrawBot.
+
+NodeBox can generate forms such as rectangles, ovals, stars, and arrows, but also bezier paths in general. It supports images (even PDF) and text (with line wrapping). You can specify fill and stroke colors using RGB, HSB or CMYK, all with alpha transparency.
+You can deconstruct paths into contours, insert points at arbitrary positions on the path, and constructing paths based on a list of points. You can apply all these transformations to text as well.
+
+NodeBox can generate PDF documents that can easily be certified (CMYK colors, embedded fonts and images). It also generates QuickTime movies.
+
+NodeBox libraries support all kind of different functionality:
+
+NodeBox is currently used in the field of graphic design research and artificial intelligence. Some of the projects are:
+
+

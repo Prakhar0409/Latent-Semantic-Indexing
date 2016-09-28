@@ -1,0 +1,13 @@
+List of NP-complete problems
+Here are some of the more commonly known problems that are NP-complete when expressed as decision problems. This list is in no way comprehensive (there are more than 3000 known NP-complete problems). Most of the problems in this list are taken from Garey and Johnson's seminal book Computers and Intractability: A Guide to the Theory of NP-Completeness, and are here presented in the same order and organization.
+
+
+
+
+
+
+
+
+
+
+

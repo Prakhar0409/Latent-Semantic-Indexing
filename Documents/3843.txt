@@ -1,0 +1,51 @@
+ZFS
+In computing, ZFS is a file system designed by Sun Microsystems for the Solaris Operating System. The features of ZFS include support for high storage capacities, integration of the concepts of filesystem and volume management, snapshots and copy-on-write clones, continuous integrity checking and automatic repair, RAID-Z and native NFSv4 ACLs. ZFS is implemented as open-source software, licensed under the Common Development and Distribution License (CDDL).
+
+ZFS was designed and implemented by a team at Sun led by Jeff Bonwick. It was announced on September 14, 2004.[2] Source code for ZFS was integrated into the main trunk of Solaris development on October 31, 2005[3] and released as part of build 27 of OpenSolaris on November 16, 2005. Sun announced that ZFS was included in the 6/06 update to Solaris 10 in June 2006, one year after the opening of the OpenSolaris community.[4]
+The name originally stood for "Zettabyte File System", but is now an orphan acronym.[5]
+
+
+Unlike traditional file systems, which reside on single devices and thus require a volume manager to use more than one device, ZFS filesystems are built on top of virtual storage pools called zpools. A zpool is constructed of virtual devices (vdevs), which are themselves constructed of block devices: files, hard drive partitions, or entire drives, with the last being the recommended usage.[6] Block devices within a vdev may be configured in different ways, depending on needs and space available: non-redundantly (similar to RAID 0), as a mirror (RAID 1) of two or more devices, as a RAID-Z group of three or more devices, or as a RAID-Z2 group of four or more devices.[7] Besides standard storage, devices can be designated as volatile read cache (ARC), nonvolatile write cache, or as a spare disk for use only in the case of a failure. Finally, when mirroring, block devices can be grouped according to physical chassis, so that the filesystem can continue in the face of the failure of an entire chassis.
+Storage pool composition is not limited to similar devices but can consist of ad-hoc, heterogenous collections of devices, which ZFS seamlessly pools together, subsequently doling out space to diverse filesystems as needed. Arbitrary storage device types can be added to existing pools to expand their size at any time. If high-speed solid-state drives (SSDs) are included in a pool, ZFS will transparently utilize the SSDs as cache within the pool, directing frequently used data to the fast SSDs and less-frequently used data to slower, less expensive mechanical disks. [8]
+The storage capacity of all vdevs is available to all of the file system instances in the zpool. A quota can be set to limit the amount of space a file system instance can occupy, and a reservation can be set to guarantee that space will be available to a file system instance.
+
+ZFS is a 128-bit file system, so it can address 18 billion billion (1.84 × 1019) times more data than current 64-bit systems. The limitations of ZFS are designed to be so large that they would never be encountered, given the known limits of physics. Some theoretical limits in ZFS are:
+
+ZFS uses a copy-on-write transactional object model. All block pointers within the filesystem contain a 256-bit checksum (fletcher2, fletcher4, or SHA-256)[11] of the target block which is verified when the block is read. Blocks containing active data are never overwritten in place; instead, a new block is allocated, modified data is written to it, and then any metadata blocks referencing it are similarly read, reallocated, and written. To reduce the overhead of this process, multiple updates are grouped into transaction groups, and an intent log is used when synchronous write semantics are required.
+
+An advantage of copy-on-write is that when ZFS writes new data, the blocks containing the old data can be retained, allowing a snapshot version of the file system to be maintained. ZFS snapshots are created very quickly, since all the data composing the snapshot is already stored; they are also space efficient, since any unchanged data is shared among the file system and its snapshots.
+Writeable snapshots ("clones") can also be created, resulting in two independent file systems that share a set of blocks. As changes are made to any of the clone file systems, new data blocks are created to reflect those changes, but any unchanged blocks continue to be shared, no matter how many clones exist.
+
+Dynamic striping across all devices to maximize throughput means that as additional devices are added to the zpool, the stripe width automatically expands to include them; thus all disks in a pool are used, which balances the write load across them.
+
+ZFS uses variable-sized blocks of up to 128 kilobytes. The currently available code allows the administrator to tune the maximum block size used as certain workloads do not perform well with large blocks. Automatic tuning to match workload characteristics is contemplated.[citation needed]
+If data compression (LZJB) is enabled, variable block sizes are used. If a block can be compressed to fit into a smaller block size, the smaller size is used on the disk to use less storage and improve IO throughput (though at the cost of increased CPU use for the compression and decompression operations).
+
+In ZFS, filesystem manipulation within a storage pool is easier than volume manipulation within a traditional filesystem; the time and effort required to create or resize a ZFS filesystem is closer to that of making a new directory than it is to volume manipulation in some other systems.
+
+
+ZFS also uses the ARC, a new method for cache management, instead of the traditional Solaris virtual memory page cache.
+
+Pools and their associated ZFS file systems can be moved between different platform architectures, including systems implementing different byte orders. The ZFS block pointer format stores filesystem metadata in an endian-adaptive way; individual metadata blocks are written with the native byte order of the system writing the block. When reading, if the stored endianness doesn't match the endianness of the system, the metadata is byte-swapped in memory.
+This does not affect the stored data itself; as is usual in POSIX systems, files appear to applications as simple arrays of bytes, so applications creating and reading data remain responsible for doing so in a way independent of the underlying system's endianness.
+
+
+ZFS is part of Sun's own Solaris operating system and is thus available on both SPARC and x86-based systems. Since the code for ZFS is open source, a port to other operating systems and platforms can be produced without Sun's involvement.
+
+OpenSolaris 2008.05 uses ZFS as its default filesystem. There are a half dozen 3rd party distributions.
+Nexenta OS, a complete GNU-based open source operating system built on top of the OpenSolaris kernel and runtime, includes a ZFS implementation, added in version alpha1. More recently, Nexenta Systems announced NexentaStor, their ZFS storage appliance providing NAS/SAN/iSCSI capabilities and based on Nexenta OS. NexentaStor includes a GUI that simplifies the process of utilizing ZFS.
+
+Pawel Jakub Dawidek has ported ZFS to FreeBSD. It is part of FreeBSD 7.x as an experimental feature.[20] In the current development branch exists an updated version of the port (ZFS version 13) which will be part of FreeBSD 8.0.
+As a part of the 2007 Google Summer of Code a ZFS port was started for NetBSD.[21]
+
+An April 2006 post on the opensolaris.org zfs-discuss mailing list, was the first indication of Apple Inc.'s interest in ZFS, where an Apple employee is mentioned as being interested in porting ZFS to their Mac OS X operating system.[22]
+In the release version of Mac OS X 10.5, ZFS is available in read-only mode from the command line, which lacks the possibility to create zpools or write to them.[23] Before the 10.5 release, Apple released the "ZFS Beta Seed v1.1", which allowed read-write access and the creation of zpools,[24] however the installer for the "ZFS Beta Seed v1.1" has been reported to only work on version 10.5.0, and has not been updated for version 10.5.1 and above.[25]
+In August 2007, Apple opened a ZFS project on their Mac OS Forge site. On that site, Apple provide the source code and binaries of their port of ZFS which includes read-write access, but don't provide an installer.[26] An installer has been made available by a third-party developer.[27]
+The current Mac OS Forge release of the Mac OS X ZFS project is version 119 and synchronized with the OpenSolaris ZFS SNV version 72[28]
+Complete ZFS support is one of the advertised features of Apple's upcoming 10.6 version of Mac OS X Server.[29]
+
+Porting ZFS to Linux is complicated by the fact that the GNU General Public License, which governs the Linux kernel, prohibits linking with code under certain licenses, such as CDDL, the license ZFS is released under.[30] One solution to this problem is to port ZFS to Linux's FUSE system so the filesystem runs in userspace instead. A project to do this was sponsored by Google's Summer of Code program in 2006, and is in a bugfix-only state as of March 2009.[31] The ZFS on FUSE project is available here. Running a file system outside the kernel on traditional Unix-like systems can have a significant performance impact. However, NTFS-3G (another file system driver built on FUSE) performs well when compared to other traditional file system drivers.[32] This shows that reasonable performance is possible with ZFS on Linux after proper optimization. Sun Microsystems has stated that a Linux port is being investigated.[33] It is also possible to run Linux in a Zone on Solaris and thus the underlying filesystem would be ZFS (though Linux would not have 'ZFS commands').[34] It is also possible to run the GNU userland on top of an OpenSolaris kernel, as done by Nexenta.
+It would also be possible to reimplement ZFS under GPL as has been done to support other filesystems (e.g. HFS and FAT) in Linux.
+The BTRFS project, which aims to implement a filesystem with a similar feature set to ZFS, was merged into Linux kernel 2.6.29 in Jan 2009.
+
+

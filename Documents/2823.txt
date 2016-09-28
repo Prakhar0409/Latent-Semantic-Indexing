@@ -1,0 +1,14 @@
+Synfig
+Synfig is a free and open source 2D vector graphics and timeline-based computer animation program created by Robert Quattlebaum[1] with additional contributions by Adrian Bentley.
+Synfig was originally the custom animation platform for the now defunct Voria Studios, but was released in 2005 under the open source GNU General Public License[2]. As a true front-end and back-end-application, it is possible to design the animation in the front-end; Synfig Studio and to render it at a later time with the backend Synfig Tool on another (potentially faster) computer without a graphical display connected.
+The goal of the developers is to create a program that is capable of producing "feature-film quality animation with fewer people and resources."[1] The program offers an alternative to manual tweening so that the animator doesn't have to draw each and every frame.
+The software is capable of simulating soft-shading using curved gradients within an area so that the animator doesn't have to draw shading into every single frame. There is also a wide variety of other real-time effects that can be applied to layers or groups of layers like radial blurs, color tweaks that all are resolution-independent. Other features include the ability to control and animate the width of lines at their individual control points, and the ability to link any related data from one object to another. Synfig also works with High Dynamic Range Imaging.
+
+Synfig stores its animations in a non-standard xml-based-format, which includes natively vector graphics and additionally raster graphics, referenced to external stored bitmaps. Among several video formats like Digital Video, Avi, Theora and MPEG synfig can save to animated graphics like MNG and GIF. For best quality of the resulting output, it is also possible to render the video sequence into separate, numbered pictures like PNG, BMP, PPM and OpenEXR. With external programs, it is possible to convert SVG-files to the synfig native sif-format.
+
+The software is written in C++, relies on GTK+ and related libraries.
+
+
+
+
+

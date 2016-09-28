@@ -1,0 +1,16 @@
+CSS framework
+CSS Animations
+Comparison of layout engines (Cascading Style Sheets)
+Comparison of stylesheet languages
+CSS framework
+CSS Zen Garden
+CSSTidy
+Style sheet
+Tableless web design
+
+A CSS framework, also known as a web design framework is a pre-prepared library that is meant to allow for easier, more standards-compliant styling of a webpage using the Cascading Style Sheets language. Just like programming and scripting language libraries, CSS frameworks (usually packaged as external .css sheets inserted into the header) package a number of ready-made options for designing and outlaying a webpage.
+
+
+
+
+

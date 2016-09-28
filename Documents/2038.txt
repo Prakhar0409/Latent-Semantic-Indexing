@@ -1,0 +1,12 @@
+DataPortability
+DataPortability is an effort by a group of volunteers and Internet application vendors to promote the capability to control, share, and move data from one system to another. DataPortability is the idea that users should be able to move, share, and control their identity, photos, videos and all other forms of personal data.
+The project aims to document the best practices for integrating existing open standards and protocols to enable end-to-end data portability between online tools, vendors, and services.
+
+The DataPortability project was founded by a group of people[1] that created a workgroup by inviting industry thinkers in November 2007 to explore the idea.
+In January 2008, several major web industry players supported the workgroup: Google, Facebook and Plaxo on 8 January 2008,[2] followed by Drupal, Netvibes and Mystrands,[3] and then LinkedIn, Flickr, Six Apart and Twitter,[4] as well as Digg[5] and Microsoft.[6]
+
+There are numerous open standards, microformats, and protocols that currently enable various aspects of data portability. These include APML, FOAF, hCard, OAuth, OpenID, OPML, RDF, RSS, SIOC, the XHTML Friends Network (XFN), XRI, and XDI.
+
+The following groups have implemented software and services incorporated in the DataPortability recommendations:
+
+

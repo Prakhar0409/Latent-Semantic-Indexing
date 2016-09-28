@@ -1,0 +1,52 @@
+Semiotics
+Biosemiotics�· Code
+Computational semiotics
+Connotation�· Decode�· Denotation
+Encode�· Lexical�· Modality
+Salience�· Sign�· Sign relation
+Sign relational complex�· Semiosis
+Semiosphere�· Literary semiotics
+Triadic relation�· Umwelt�· Value
+Commutation test
+Paradigmatic analysis
+Syntagmatic analysis
+Charles Peirce�· Thomas Sebeok
+Ferdinand de Saussure
+Jakob von Uexküll
+Umberto Eco�· Louis Hjelmslev
+Roman Jakobson�· Juri Lotman
+Roland Barthes�· Marcel Danesi
+John Deely�· Roberta Kevelson
+Eero Tarasti�· Kalevi Kull
+Structuralism
+Aestheticization
+Semiotics of Ideal Beauty
+Postmodernity
+Semiotics, also called semiotic studies or semiology, is the study of sign processes (semiosis), or signification and communication, signs and symbols, both individually and grouped into sign systems. It includes the study of how meaning is constructed and understood.
+One of the attempts to formalize the field was most notably led by the Vienna Circle and presented in their International Encyclopedia of Unified Science, in which the authors agreed on breaking out the field, which they called "semiotic", into three branches:
+These branches are clearly inspired by Charles W. Morris, especially his Writings on the general theory of signs (The Hague, The Netherlands, Mouton, 1971, orig. 1938).
+Semiotics is frequently seen as having important anthropological dimensions, for example Umberto Eco proposes that every cultural phenomenon can be studied as communication. However, some semioticians focus on the logical dimensions of the science. They examine areas belonging also to the natural sciences - such as how organisms make predictions about, and adapt to, their semiotic niche in the world (see semiosis). In general, semiotic theories take signs or sign systems as their object of study: the communication of information in living organisms is covered in biosemiotics or zoosemiosis.
+Syntactics is the branch of semiotics that deals with the formal properties of signs and symbols.[1] More precisely, syntactics deals with the "rules that govern how words are combined to form phrases and sentences."[2]. Charles Morris adds that semantics deals with the relation of signs to their designata and the objects which they may or do denote; and, pragmatics deals with the biotic aspects of semiosis, that is, with all the psychological, biological, and sociological phenomena which occur in the functioning of signs.
+
+The term, which was spelled semeiotics (Greek: σημειωτικός, semeiotikos, an interpreter of signs), was first used in English by Henry Stubbes (1670, p. 75) in a very precise sense to denote the branch of medical science relating to the interpretation of signs. John Locke used the terms semeiotike and semeiotics in Book 4, Chapter 21 of An Essay Concerning Human Understanding (1690). Here he explains how science can be divided into three parts:
+All that can fall within the compass of human understanding, being either, first, the nature of things, as they are in themselves, their relations, and their manner of operation: or, secondly, that which man himself ought to do, as a rational and voluntary agent, for the attainment of any end, especially happiness: or, thirdly, the ways and means whereby the knowledge of both the one and the other of these is attained and communicated; I think science may be divided properly into these three sorts.
+Locke then elaborates on the nature of this third category, naming it Σημειωτικη (Semeiotike) and explaining it as "the doctrine of signs" in the following terms:
+Nor is there any thing to be relied upon in Physick,[3] but an exact knowledge of medicinal physiology (founded on observation, not principles), semiotics, method of curing, and tried (not excogitated,[4] not commanding) medicines.
+In the nineteenth century, Charles Peirce defined what he termed "semiotic" as the "quasi-necessary, or formal doctrine of signs", which abstracts "what must be the characters of all signs used by...an intelligence capable of learning by experience"[5], and which is philosophical logic pursued in terms of signs and sign processes[6]. Charles Morris followed Peirce in using the term "semiotic" and in extending the discipline beyond human communication to animal learning and use of signals.
+Saussure, however, viewed the most important area within semiotics as belonging to the social sciences:
+It is... possible to conceive of a science which studies the role of signs as part of social life. It would form part of social psychology, and hence of general psychology. We shall call it semiology (from the Greek semeîon, 'sign'). It would investigate the nature of signs and the laws governing them. Since it does not yet exist, one cannot say for certain that it will exist. But it has a right to exist, a place ready for it in advance. Linguistics is only one branch of this general science. The laws which semiology will discover will be laws applicable in linguistics, and linguistics will thus be assigned to a clearly defined place in the field of human knowledge.
+
+Semioticians classify signs or sign systems in relation to the way they are transmitted (see modality). This process of carrying meaning depends on the use of codes that may be the individual sounds or letters that humans use to form words, the body movements they make to show attitude or emotion, or even something as general as the clothes they wear. To coin a word to refer to a thing (see lexical words), the community must agree on a simple meaning (a denotative meaning) within their language. But that word can transmit that meaning only within the language's grammatical structures and codes (see syntax and semantics). Codes also represent the values of the culture, and are able to add new shades of connotation to every aspect of life.
+To explain the relationship between semiotics and communication studies, communication is defined as the process of transferring data from a source to a receiver as efficiently and effectively as possible. Hence, communication theorists construct models based on codes, media, and contexts to explain the biology, psychology, and mechanics involved. Both disciplines also recognise that the technical process cannot be separated from the fact that the receiver must decode the data, i.e., be able to distinguish the data as salient and make meaning out of it. This implies that there is a necessary overlap between semiotics and communication. Indeed, many of the concepts are shared, although in each field the emphasis is different. In Messages and Meanings: An Introduction to Semiotics, Marcel Danesi (1994) suggested that semioticians' priorities were to study signification first and communication second. A more extreme view is offered by Jean-Jacques Nattiez (1987; trans. 1990: 16), who, as a musicologist, considered the theoretical study of communication irrelevant to his application of semiotics.
+Semiotics differs from linguistics in that it generalizes the definition of a sign to encompass signs in any medium or sensory modality. Thus it broadens the range of sign systems and sign relations, and extends the definition of language in what amounts to its widest analogical or metaphorical sense. Peirce's definition of the term "semiotic" as the study of necessary features of signs also has the effect of distinguishing the discipline from linguistics as the study of contingent features that the world's languages happen to have acquired in the course of human evolution.
+Perhaps more difficult is the distinction between semiotics and the philosophy of language. In a sense, the difference is a difference of traditions more than a difference of subjects. Different authors have called themselves "philosopher of language" or "semiotician". This difference does not match the separation between analytic and continental philosophy. On a closer look, there may be found some differences regarding subjects. Philosophy of language pays more attention to natural languages or to languages in general, while semiotics is deeply concerned about non-linguistic signification. Philosophy of language also bears a stronger connection to linguistics, while semiotics is closer to some of the humanities (including literary theory) and to cultural anthropology.
+Semiosis or semeiosis is the process that forms meaning from any organism's apprehension of the world through signs.
+
+The importance of signs and signification has been recognized throughout much of the history of philosophy, and in psychology as well. Plato and Aristotle both explored the relationship between signs and the world, and Augustine considered the nature of the sign within a conventional system. These theories have had a lasting effect in Western philosophy, especially through Scholastic philosophy. More recently, Umberto Eco, in his Semiotics and philosophy of language, has argued that semiotic theories are implicit in the work of most, perhaps all, major thinkers.
+
+
+Applications of semiotics include:
+Semiotics is only slowly establishing itself as a discipline to be respected. In some countries, its role is limited to literary criticism and an appreciation of audio and visual media, but this narrow focus can inhibit a more general study of the social and political forces shaping how different media are used and their dynamic status within modern culture. Issues of technological determinism in the choice of media and the design of communication strategies assume new importance in this age of mass media. The use of semiotic methods to reveal different levels of meaning and, sometimes, hidden motivations has led some to demonise elements of the subject as Marxist, nihilist, etc. (e.g. critical discourse analysis in Postmodernism and deconstruction in Post-structuralism).
+Publication of research is both in dedicated journals such as Sign Systems Studies, established by Juri Lotman and published by Tartu University Press; Semiotica, founded by Thomas A. Sebeok and published by Mouton de Gruyter; Zeitschrift für Semiotik; European Journal of Semiotics; Versus (founded and directed by Umberto Eco), et al.; The American Journal of Semiotics; and as articles accepted in periodicals of other disciplines, especially journals oriented toward philosophy and cultural criticism.
+
+Semiotics has sprouted a number of subfields, including but not limited to the following:

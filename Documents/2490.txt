@@ -1,0 +1,18 @@
+Yojijukugo
+Yojijukugo (四字熟語 ?) is a Japanese lexeme consisting of four kanji, or "Chinese characters". English translations of yojijikugo include "four-character compound", "four-character idiom", "four-character idiomatic phrase", and "four-character idiomatic compound".
+
+The definition of yojijukugo is somewhat murky since the Japanese word jukugo (熟語, literally "ripe/mature/popular word") can linguistically mean "compound", "idiom", or "phrase".
+Yojijukugo in the broad sense of the term simply means any Japanese compound words consisting of four kanji characters. In the narrow or strict sense of the term, however, the term refers only to four-kanji compounds that have a particular (idiomatic) meaning that cannot be inferred from the meanings of the words that make them up.
+
+There exists a very large number — perhaps tens of thousands — of four-character compounds. A great majority of them are those whose meanings can be easily deduced from the literal definition of their parts. These compounds may be called non-idiomatic yojijukugo.
+For example, the compound word 屋内禁煙 okunaikin'en "No smoking indoors." is a non-idiomatic yojijukugo. It is made up of four characters: 屋 oku building, 内 nai inside, 禁 kin prohibited, and 煙 en smoking. Alternatively, it can be regarded as consisting of two common two-character compounds: 屋内 okunai indoors, and 禁煙 kin'en prohibition of smoking. Either way, the meaning of the compound is clear; there are no idiomatic meanings beyond the literal meanings of its components. Below are a few more examples of non-idiomatic yojijukugo:
+Note that 四字熟語 is itself a non-idiomatic four-character phrase.
+
+By contrast, several thousands of these four-character compounds are true idioms in the sense that they have a particular meaning that is different from the meanings of the component words. An example of the highly idiomatic compound is:
+Ocean-thousand-mountain-thousand means a sly old fox or someone who has had all sorts of experience in life so that s/he can handle, or wiggle out of, any difficult situations through cunning alone. This meaning derives from an old saying that a snake lives in the ocean for a thousand years and in the mountains for another thousand years before it turns into a dragon. Hence a sly, worldly-wise person is referred to as an ocean-1000-mountain-1000 person.
+Many idiomatic yojijukugo were adopted from classical Chinese literature. Other four-character idioms are derived from Buddhist literature and scriptures, old Japanese customs and proverbs, and historical and contemporary Japanese life and social experience. The entries in the published dictionaries of yojijukugo are typically limited to these idiomatic compounds of various origins.
+
+The Japanese yojijukugo are closely related to the Chinese chengyu in that a great many of the former are adopted from the latter and have the same or similar meaning as in Chinese. Many other yojijukugo, however, are Japanese in origin. Some examples of these indigenous Japanese four-character idioms are:
+
+
+

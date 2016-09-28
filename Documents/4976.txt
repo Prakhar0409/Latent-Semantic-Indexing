@@ -1,0 +1,11 @@
+Network News Transfer Protocol
+The Network News Transfer Protocol or NNTP is an Internet application protocol used primarily for reading and posting Usenet articles (aka netnews), as well as transferring news among news servers. Brian Kantor of the University of California, San Diego and Phil Lapsley of the University of California, Berkeley completed RFC 977, the specification for the Network News Transfer Protocol, in March 1986. Other contributors included Stan Barber from the Baylor College of Medicine and Erik Fair of Apple Computer.
+Usenet was originally designed around the UUCP network, with most article transfers taking place over direct computer-to-computer telephone links. Readers and posters would log into the same computers that hosted the servers, reading the articles directly from the local disk.
+As local area networks and the Internet became more commonly used, it became desirable to allow newsreaders to be run on personal computers, and a means of employing the Internet to handle article transfers was desired. A newsreader, also known as a news client, is an application software that reads articles on Usenet (generally known as newsgroup), either directly from the news server's disks or via the NNTP.
+Because networked Internet-compatible filesystems were not yet widely available, it was decided to develop a new protocol that resembled SMTP, but was tailored for reading newsgroups.
+The well-known TCP port 119 is reserved for NNTP. When clients connect to a news server with SSL, TCP port 563 is used. This is sometimes referred to as NNTPS.
+In October 2006, the IETF released RFC 3977 which updates the NNTP protocol and codifies many of the additions made over the years since RFC 977. The IMAP protocol can also be used for reading newsgroups.
+
+During an abortive attempt to update the NNTP standard in the early 1990s, a specialized form of NNTP intended specifically for use by clients, NNRP, was proposed. This protocol was never completed or fully implemented, but the name persisted in INN's nnrpd program. As a result, the subset of standard NNTP commands useful to clients is sometimes still referred to as "NNRP".
+
+

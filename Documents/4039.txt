@@ -1,0 +1,9 @@
+GDAL
+GDAL (Geospatial Data Abstraction Library) is a library for reading and writing raster geospatial data formats, and is released under an X/MIT style Open Source license by the Open Source Geospatial Foundation. As a library, it presents a single abstract data model to the calling application for all supported formats. It may also be built with a variety of useful command-line utilities for data translation and processing.
+The related OGR library (which is part of the GDAL source tree) provides a similar capability for simple features vector data.
+GDAL was primarily developed by Frank Warmerdam until the release of version 1.3.2, when maintainership was officially transferred to the GDAL/OGR Project Management Committee under the Open Source Geospatial Foundation.
+GDAL/OGR is considered a major project in the Open Source and also in the commercial GIS community due to its widespread use and comprehensive set of functionalities. In the words of Howard Butler "I see GDAL as the glibc/glibc++ of the geospatial software world. It's open, it provides core functionality, I can't understand how anybody gets anything done without it."
+
+Several software programs use the GDAL/OGR libraries to allow them to read and write multiple GIS formats. Such programs include:
+
+

@@ -1,0 +1,25 @@
+Edward Tufte
+Edward Rolf Tufte (pronounced /ˈtʌfti/) (born 1942) is an American statistician and Professor Emeritus of statistics, information design, interface design and political economy at Yale University.[1] He has been described by The New York Times as "the da Vinci of Data". [2]
+He is an expert in the presentation of informational graphics such as charts and diagrams, and is a fellow of the American Statistical Association. Tufte has held fellowships from the Guggenheim Foundation and the Center for Advanced Study in Behavioral Sciences.
+Tufte lives in Cheshire, Connecticut. He periodically travels around the United States to offer one-day workshops on data presentation and information graphics.
+
+Edward Rolf Tufte was born in 1942 in Kansas City, Missouri, to Virginia and Edward E. Tufte. He grew up in Beverly Hills, California, and graduated from Beverly Hills High School.[3] He received a BA and MS in statistics from Stanford University and a PhD in political science from Yale. His dissertation, completed in 1968, was entitled The Civil Rights Movement and Its Opposition. He was then hired by Princeton University's Woodrow Wilson School, where he taught courses in political economy and data analysis while publishing three quantitatively-inclined political science books.
+In 1975, while at Princeton, Tufte was asked to teach a statistics course to a group of journalists who were visiting the school to study economics. He developed a set of readings and lectures on statistical graphics, which he further developed in joint seminars he subsequently taught with legendary statistician John Tukey, a pioneer in the field of information design. These course materials became the foundation for his first book on information design, The Visual Display of Quantitative Information.[4]
+Tufte self-published his Visual Display in 1982, working closely with graphic designer Howard Gralla. He financed the work by taking out a second mortgage on his home. The book quickly became a commercial success and secured his transition from political scientist to information expert.[4]
+
+Tufte's writing is important in such fields as information design and visual literacy, which deal with the visual communication of information. He coined the term "chartjunk" to refer to useless, non-informative, or information-obscuring elements of quantitative information displays.
+He uses the term "data-ink ratio" to argue against including non-informative decoration in visual displays of quantitative information. He claims that ink should only[citation needed] be used to convey and display significant data. In Visual Display, Tufte states:
+Sometimes decorations can help editorialize about the substance of the graphic. But it's wrong to distort the data measures—the ink locating values of numbers—in order to make an editorial comment or fit a decorative scheme.
+Tufte also encourages the use of data-rich illustrations with all the available data presented. When examined closely, every data point has value; when seen overall, trends and patterns can be observed. Tufte suggests these macro/micro readings be presented in the space of an eyespan, in the high resolution format of the printed page, and at the unhurried pace of the viewer's leisure. Tufte uses several historical examples to make his case including John Snow's cholera outbreak map, Charles Joseph Minard's Carte Figurative, early space debris plots, and Maya Lin's Vietnam Veterans Memorial. For instance, the listing of the names of deceased soldiers on the black granite of Lin's sculptural memorial is shown to be more powerful as a chronological rather than as an alphabetical list. The sacrifice each individual made is thus highlighted within the overall scope of the war.[5]
+
+Tufte has criticized the way Microsoft PowerPoint is typically used. In his essay "The Cognitive Style of PowerPoint", Tufte criticizes many properties and uses of the software:
+Tufte's criticism of PowerPoint has extended to its use by NASA engineers in the events leading to the Columbia disaster. Tufte's analysis of a representative NASA PowerPoint slide is included in a full-page sidebar entitled "Engineering by Viewgraphs" [6] in Volume 1 (page 191) of the Columbia Accident Investigation Board's report.
+
+Tufte also developed sparklines — a simple, condensed way to present trends and variation, associated with a measurement such as average temperature or stock market activity. These are often used as elements of a Small multiple with several lines used together. Tufte explains the sparkline as a kind of "word" that conveys rich information without breaking the flow of a sentence or paragraph made of other "words" both visual and conventional.
+
+Tufte's Yale PhD thesis was The Civil Rights Movement and Its Opposition (1968).
+Early in his career, Tufte wrote several books about using statistics to analyze political issues:
+The core of Tufte's work documents how to best display different forms of information with copious examples and commentary:
+
+
+

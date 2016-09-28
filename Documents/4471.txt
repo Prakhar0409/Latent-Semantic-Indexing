@@ -1,0 +1,7 @@
+Description of a Career
+Description Of A Career (DOAC) is a semantic vocabulary created by Ramon A. Parada to describe professional capabilities of a worker. It has been designed to be compatible with the European curriculum (Europass) so those can be generated from a FOAF+DOAC file. It includes information about education, working experience, publications, spoken languages and other skills so it can be shared and processed by any application.
+
+
+
+Schemas, Ontologies & Rules : RDFS  Â· OWL  Â· Rule Interchange Format  Â· Semantic Web Rule Language
+Semantic Annotation : RDFa  Â· eRDF  Â· GRDDL  Â· Microformats

@@ -1,0 +1,14 @@
+Linus's Law
+Linus's Law can refer to two different notions, both named after Linus Torvalds.
+
+Linus's Law according to Eric S. Raymond states that "given enough eyeballs, all bugs are shallow". More formally: "Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix will be obvious to someone." The rule was formulated and named by Eric S. Raymond in his essay "The Cathedral and the Bazaar".
+
+Linus Torvalds himself also describes a notion as Linus's Law in the prologue to the book The Hacker Ethic: "Linus's Law says that all of our motivations fall into three basic categories. More important, progress is about going through those very same things as 'phases' in a process of evolution, a matter of passing from one category to the next. The categories, in order, are 'survival', 'social life', and 'entertainment'."[1]
+Although not referred to as Linus's Law, in the autobiography Just for Fun - The Story of an Accidental Revolutionary, Linus offers to start the book by giving his opinion on the meaning of life. He goes on to say:
+"Basically, it is short and sweet. It won't give your life any meaning, but it tells you what's going to happen. There are three things that have meaning for life - for anything that you do or any living thing does: The first is survival, the second is social order, and the third is entertainment. Everything in life progresses in that order. And there is nothing after entertainment. So, in a sense, the implication is that the meaning of life is to reach that third stage. And once you've reached the third stage, you're done. But you have to go through the other stages first."[2]
+Linus's ideas closely follow Maslow's hierarchy of needs.
+There is also an echo in the writings of Douglas Adams: The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why and Where phases. For instance, the first phase is characterized by the question "How can we eat?" the second by the question "Why do we eat?" and the third by the question "Where shall we have lunch?"
+
+Linus Torvalds wrote in a GNOME-related mailing list discussion, in a tongue-in-cheek fashion, that "Linus's Law (nr 76 of 271)" was "Don't claim to have a config option, if you don't actually have the UI to change it."[3]
+
+

@@ -1,0 +1,38 @@
+Electronic color code
+The electronic color code discussed here is used to indicate the values or ratings of electronic components, very commonly for resistors, but also for capacitors, inductors, and others. A separate code, the 25-pair color code, is used to identify wires in a cable or bundle.
+The electronic color code was developed in the early 1920s by the Radio Manufacturer's Association, now part of Electronic Industries Alliance and was published as EIA-RS-279. The current international standard is IEC 60062[1].
+Colorbands were commonly used (especially on resistors) because they were easily printed on tiny components, decreasing construction costs. However, there were drawbacks, especially for color blind people. In the days of classical chassis televisions, overheated resistors would change their color bands, making it virtually impossible to distinguish brown from red from orange.[citation needed]
+Today, printed numbers are being used in favor of colorbands (see Other schemes below).
+
+Color-coding of this form is becoming rarer. In newer equipment, most passive components come in surface mount packages. Many of these packages are unlabeled, and those that are normally use alphanumeric codes, not colors.
+In one popular marking method, the manufacturer prints 3 digits on components: 2 value digits followed by the power of ten multiplier. Thus the value of a resistor marked 472 is 4,700 Î©, a capacitor marked 104 is 100 nF (10x104 pF), and an inductor marked 475 is 4.7 H (4,700,000 ÂµH). This can be confusing; a resistor marked 270 might seem to be a 270 Î© unit, when the value is actually 27 Î© (27Ã—100). Another way is to use the "kilo-" or "mega-" prefixes in place of the decimal point:
+For 1% resistors, a three-digit alphanumeric code is sometimes used, which is not obviously related to the value but can be derived from a table of 1% values. For instance, a resistor marked 68C is 499(68) Ã— 100(C) = 49,900 Î©. In this case the value 499 is the 68th entry of a table of 1% values between 100 and 999.
+It is sometimes not obvious whether a color coded component is a resistor, capacitor, or inductor, and this may be deduced by knowledge of its circuit function, physical shape or by measurement (capacitors have nearly infinite resistance; unfortunately, so do faulty open-circuit resistors and inductors).
+
+ 
+Resistor values are always coded in ohms, capacitors in picofarads (pF), inductors in microhenries (ÂµH), and transformers in volts.
+For example, a resistor with bands of yellow, violet, red, and gold will have first digit 4 (yellow in table below), second digit 7 (violet), followed by 2 (red) zeros: 4,700 ohms. Gold signifies that the tolerance is Â±5%, so the real resistance could lie anywhere between 4,465 and 4,935 ohms.
+Resistors manufactured for military use may also include a fifth band which indicates component failure rate (reliability); refer to MIL-HDBK-199 for further details.
+Tight tolerance resistors may have three bands for significant figures rather than two, and/or an additional band indicating temperature coefficient, in units of ppm/K.
+All coded components will have at least two value bands and a multiplier; other bands are optional (italicised below).
+The Standard EIA Color Code Table per EIA-RS-279 is as follows:
+Note: red to violet are the colors of the rainbow where red is low energy and violet is higher energy.
+As an example, let us take a resistor which (read left to right) displays the colors yellow, violet, yellow, brown. We take the first two bands as the value, giving us 4, 7. Then the third band, another yellow, gives us the multiplier 104. Our total value is then 47 x 104 Î©, totalling 470,000 Î© or 470 kÎ©. Our brown is then a tolerance of Â±1%.
+Resistors use specific values, which are determined by their tolerance. These values repeat for every exponent; 6.8, 68, 680, and so forth. This is useful because the digits, and hence the first two or three stripes, will always be similar patterns of colors, which make them easier to understand.
+A much older resistor color coding scheme, still to be found on components in vintage radios, is known as 'body-tip-spot'. Here the color of the resistor body was the first digit, the color of one tip or end of the resistor was the second, and the color of the spot on the body was the multiplier.
+
+Zero ohm resistors are manufactured; these are lengths of wire wrapped in a resistor-shaped body which can be substituted for another resistor value in automatic insertion equipment. They are marked with a single black band.[2][3]
+
+A useful mnemonic for remembering the first ten color codes matches the first letter of the color code, by order of increasing magnitude. There are many variations:
+The tolerance codes, gold, silver, and none, are not usually included in the mnemonics; one extension that includes them is:
+Since B can stand for both "black" and "brown", variations are formed such as "Black boys rape our young girls...".[6]
+Humorous, offensive, or sexual mnemonics are more memorable (see mnemonic), but these variations are often considered inappropriate for classrooms, and have been implicated as a sign of sexism in science and engineering classes.[9] Dr. Latanya Sweeney, associate professor of computer science at Carnegie Mellon, a black woman, mentions the mnemonic ("black boys rape only young girls but Violet gives willingly") as one of the reasons she felt alienated and eventually dropped out of MIT in the 1980s to form her own software company.[10][11]
+A politically-correct mnemonic that has attained some traction in recent years is:
+Another mnemonic that is not offensive and can be used in the classroom is:
+This mnemonic originated in the Great Britain in the early 20th century and as a result, is still popular in areas which were once British colonies, specially the Indian subcontinent. The Roy last name is very common in the West Bengal state of India. One problem with this mnemonic is that it contains the words "of" and "has," which are used just to make a proper sentence.
+The colors are sorted by their energy/frequency in the visible light spectrum: red (2), orange (3), yellow (4), green (5), blue (6), violet (7). Black (0) has no energy, brown (1) has a little more, white (9) has everything and grey (8) is like white, but less intense.
+
+From top to bottom:
+Note: The physical size of a resistor is indicative of the power it can dissipate, not of its resistance.
+
+

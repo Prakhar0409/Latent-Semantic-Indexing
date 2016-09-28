@@ -1,0 +1,57 @@
+Methods of computing square roots
+This article presents and explains several methods which can be used to calculate square roots.
+
+Many of the methods for calculating square roots of a positive real number S require an initial seed value. If the initial value is too far from the actual square root, the calculation will be slowed down. It is therefore useful to have a rough estimate, which may be very inaccurate but easy to calculate. If S ≥ 1, let D be the number of digits to the left of the decimal point. If S < 1, let D be the negative of the number of zeros to the immediate right of the decimal point. Then the rough estimation is this:
+Two and six are used because  and 
+When working in the binary numeral system (as computers do internally), an alternative method is to use  (here D is the number of binary digits).
+
+Perhaps the first algorithm used for approximating  is known as the "Babylonian method", named after the Babylonians,[1] or "Heron's method", named after the first-century Greek mathematician Heron of Alexandria who gave the first explicit description of the method.[2] It can be derived from (but predates) Newton's method. This is a quadratically convergent algorithm, which means that the number of correct digits of the approximation roughly doubles with each iteration. It proceeds as follows:
+It can also be represented as:
+This algorithm works equally well in the p-adic numbers, but cannot be used to identify real square roots with p-adic square roots; it is easy, for example, to construct a sequence of rational numbers by this method which converges to + 3 in the reals, but to − 3 in the 2-adics.
+
+To calculate , where S = 125348, to 6 significant figures, we will use the rough estimation method above to get x0. The number of digits in S is D=6=2·2+2. So, n=2 and the rough estimate is
+Therefore, 
+
+We let the relative error in xn be defined by
+and thus
+Then one can show that
+and thus that
+and consequently that convergence is assured provided that x0 and S are both positive.
+
+If one is using the rough estimate above with the Babylonian method, then the worst cases are:
+Thus in any case,
+Remember that rounding errors will slow the convergence. One should keep at least one extra digit beyond the desired accuracy of the xn which you are calculating to minimize round off error.
+
+Pocket calculators typically implement good routines to compute the exponential function and the natural logarithm, and then compute the square root of S using the identity
+The same identity is used when computing square roots with logarithm tables or slide rules.
+
+Another simple way to find a square root is the high/low method, an instance of the bisection method. This method involves guessing a number based on known squares, then checking if its square is too high or too low and adjusting accordingly.
+Let's say you wanted to find the square root of 20. You know that the square of 5 is 25, and that the square of 4 is 16, so it must be between 4 and 5. Now you guess 4.5. The square of 4.5 equals 20.25 and is too high, so you guess 4.4. This equals 19.36 and is too low. Now you know that it is between 4.4 and 4.5. Continue this pattern until you get as many decimal places as needed. We are going to stop at three.
+Now that we know that it is between 4.472 and 4.473, we now know that the square root of 20 to the first three decimal places is 4.472.
+
+This is a method for finding an approximation to a square root which was described in an ancient manuscript known as the Bakhshali manuscript. It is equivalent to two iterations of the Babylonian method beginning with N. The original presentation goes as follows: To calculate , let N2 be the nearest perfect square to S. Then, calculate:
+This can be also written as:
+
+We'll find 
+
+This is a method to find each digit of the square root in a sequence. It is slower than the Babylonian method (if you have a calculator which can divide in one operation), but it has several advantages:
+Napier's bones include an aid for the execution of this algorithm. The Shifting nth-root algorithm is a generalization of this method.
+The algorithm works for any base, and naturally, the way it proceeds depends on the base chosen.
+
+Write the original number in decimal form. The numbers are written similar to the long division algorithm, and, as in long division, the root will be written on the line above. Now separate the digits into pairs, starting from the decimal point and going both left and right. The decimal point of the root will be above the decimal point of the square. One digit of the root will appear above each pair of digits of the square.
+Beginning with the left-most pair of digits, do the following procedure for each pair:
+
+Find the square root of 152.2756.
+Find the square root of 2.
+
+Inherent to digit-by-digit algorithms is a search and test step: find a digit, , when added to the right of a current solution ', such that , where  is the value for which a root is desired. Expanding, we obtain . The current value of —or, usually, the remainder—can be incrementally updated efficiently when working in binary, as the value of  will be a single bit, and the operations needed to compute  and  can be replaced with faster bit shift operations. This gives rise to simple computer implementations:[3]
+Faster algorithms, in binary and decimal or any other base, can be realized by using lookup tables—in effect trading more storage space for reduced run time.[4]
+
+The duplex method is a variant of the digit by digit method for calculating the square root of a whole or decimal number one digit at a time.[5] The duplex is the square of the central digit plus double the cross-product of digits equidistant from the center. The duplex is computed from the quotient digits (square root digits) computed thus far, but after the initial digits. The duplex is subtracted from the dividend digit prior to the second subtraction for the product of the quotient digit times the divisor digit. For perfect squares the duplex and the dividend will get smaller and reach zero after a few steps. For non-perfect squares the decimal value of the square root can be calculated to any precision desired. However, as the decimal places proliferate, the duplex adjustment gets larger and longer to calculate. The duplex method follows the Vedic ideal for an algorithm, one-line, mental calculation. It is flexible in choosing the first digit group and the divisor. Small divisors are to be avoided by starting with a larger initial group.
+In short, to calculate the duplex of a number, double the product of each pair of equidistant digits plus the square of the center digit (of the digits to the right of the colon).
+In a square root calculation the quotient digit set increases incrementally for each step.
+
+Consider the perfect square 2809. 532 = 2809. Use the duplex method to find the square root of 2,809.
+
+
+Find the square root of 2,080,180,881. Solution by the duplex method: this ten-digit square has five digit-pairs, so it will have a five-digit square root. The first digit-pair is 20. Put the colon to the right. The nearest square below 20 is 16, whose root is 4, the first root digit. So, we use 2·4=8 for the divisor. Now we proceed with the duplex division, one digit column at a time. Prefix the remainder to the next dividend digit.

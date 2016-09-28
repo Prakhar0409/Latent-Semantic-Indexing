@@ -1,0 +1,25 @@
+Human Development Index
+The Human Development Index (HDI) is an index used to rank countries by level of "human development", which usually also implies to determine whether a country is a developed, developing, or underdeveloped country.
+
+The HDI combines normalized measures of life expectancy, literacy, educational attainment, and GDP per capita for countries worldwide. It is claimed as a standard means of measuring human developmentâ€”a concept that, according to the United Nations Development Program (UNDP), refers to the process of widening the options of persons, giving them greater opportunities for education, health care, income, employment, etc. The basic use of HDI is to measure a country's development.
+The index was developed in 1990 by Pakistani economist Mahbub ul Haq, Sir Richard Jolly, with help from Gustav Ranis of Yale University and Lord Meghnad Desai of the London School of Economics. It has been used since then by UNDP in its annual Human Development Report. It is claimed that ideas of Indian Nobel prize winner Amartya Sen were influential in the development of the HDI. The HDI now serves as a path towards a wide variety of more detailed measures contained in the Human Development Reports.
+The HDI combines three basic dimensions:
+From the time it was created, the HDI has been criticized as a redundant measure that adds little to the value of the individual measures composing it; as a means to provide legitimacy to arbitrary weightings of a few aspects of social development; and as a number producing a relative ranking which is useless for inter-temporal comparisons, and difficult to interpret because the HDI for a country in a given year depends on the levels of, say, life expectancy or GDP per capita of other countries in that year.[1][2][3][4] However, each year, UN member states are listed and ranked according to the computed HDI. If high, the rank in the list can be easily used as a means of national aggrandizement; alternatively, if low, it can be used to highlight national insufficiencies. Using the HDI as an absolute index of social welfare, some authors have used panel HDI data to measure the impact of economic policies on quality of life.[5]
+An alternative measure, focusing on the amount of poverty in a country, is the Human Poverty Index.
+
+     OECD      Central and eastern Europe, and the CIS      Latin America and the Caribbean      East Asia
+     Arab States      South Asia      Sub-Saharan Africa
+In general, to transform a raw variable, say x, into a unit-free index between 0 and 1 (which allows different indices to be added together), the following formula is used:
+where  and  are the lowest and highest values the variable x can attain, respectively.
+= vlookup = = = =
+The Human Development Index (HDI) then represents the average of the following three general indices:
+
+A new index was released on December 18, 2008. This so-called "statistical update" covers the period up to 2006 and was published without an accompanying report on human development. The update is relevant due to newly released estimates of purchasing power parities (PPP), implying substantial adjustments for many countries, resulting in changes in HDI values and, in many cases, HDI ranks.[6]
+
+The following nations are not ranked in the 2008 Human Development Index, for being unable or unwilling to provide the necessary data at the time of publication.
+Africa
+Asia
+Europe
+Oceania
+
+The report for 2007/2008 was launched in 

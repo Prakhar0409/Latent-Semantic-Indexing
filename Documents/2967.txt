@@ -1,0 +1,37 @@
+Enterprise social software
+Enterprise social software, also known as Enterprise 2.0, is a term describing social software used in "enterprise" (business) contexts. It includes social and networked modifications to company intranets and other classic software platforms used by large companies to organize their communication. In contrast to traditional enterprise software, which imposes structure prior to use, enterprise social software tends to encourage use prior to providing structure.
+The Association for Information and Image Management (AIIM) defines Enterprise 2.0 as "a system of web-based technologies that provide rapid and agile collaboration, information sharing, emergence and integration capabilities in the extended enterprise".[1]
+
+The term "enterprise social software" generally describes this class of tools. As of 2006, "Enterprise 2.0" had become a catchier term, sometimes used to describe social and networked changes to enterprises, which often includes social software (but may transcend social software, social collaboration and software).
+"Enterprise Web 2.0" sometimes describes the introduction and implementation of Web 2.0 technologies within an enterprise,[citation needed] including rich Internet applications, providing software as a service, and using the web as a general platform.
+
+
+Social software for an enterprise must according to Andrew McAfee (Associate Professor, Harvard Business School) have the following functionality to work well (McAfee 2006):
+- Search: allow users to search for other users or content
+- Links: group similar users or content together
+- Authoring: include blogs and wikis
+- Tags: allow users to tag content
+- Extensions: recommendations of users or content based on profile
+- Signals: allow people to subscribe to users or content with RSS feeds
+[cite this quote]
+McAfee recommends installing easy-to-use software which does not impose any rigid structure on users. He envisages an informal roll-out,[citation needed] but on a common platform to enable future collaboration between areas. He also recommends strong and visible managerial support to achieve this.
+In 2007 Dion Hinchcliffe expanded the list above by adding the following four functions:
+- Freeform: no barriers to authorship, i.e. free from a learning curve or restrictions.
+- Network-oriented: all content must be Web-addressable.
+- Social: stresses transparency (to access), diversity (in content and community members) and openness (to structure)
+- Emergence: must provide approaches that detect and leverage the collective wisdom of the community.
+[cite this quote]
+
+Specific social software tools which programmers have adapted for enterprise use include:
+Social networking capabilities can help organizations capture unstructured tacit knowledge.[citation needed] The challenge then becomes how to distill meaningful, re-usable knowledge from other content also captured in tools such as blogs, online communities, and wikis. In 2008, companies that provide enterprise social software started introducing profile pages to their products, to integrate the functionality of public online communities within the enterprise.[citation needed] This enables knowledge workers to find others with the knowledge they may need.[citation needed] This is especially useful in large organizations.[citation needed]
+
+Blogs and wikis function as collaboration tools, and as such, they have uses mainly in sharing "unstructured" information associated with ad hoc or ongoing projects and processes, but not for "structured informational" retrieval. However, Shell has started converting its official documentation to wikis, because this enables that company to make documentation updates available in real time and allows non-editors to contribute to the documentation. In this process Shell restructures the paper documents to a set of on-line wiki pages.
+Business processes often rely on access to "structured" data, potentially from a variety of sources: databases, and directories. Social technologies work to address such complexities.[citation needed]
+The "unstructured" information provided by social technologies has proven particularly useful in business processes that lack rigid pre-definition, but where people work together in an adaptive way to innovate solutions. Human interaction management provides the theory of such processes, and the associated type of software has become known as human interaction management systems (HIMS). A HIMS can provide management control over the use of social software.
+A Service Network exemplifies another application of enterprise social software within the context of service innovation initiatives that span academia, business, and government.
+The law, which many[who?] view as a field where professionals operate highly "un-collaboratively", may become among the first areas to embrace Web 2.0 in the enterprise (if anyone ever does), because lawyers manage intensive document-collaboration, and sit in both large legal departments within corporations and in outside law firms.
+Enterprise search differs from a typical web search in its focus on "use within an organization by employees seeking information held internally, in a variety of formats and locations, including databases, document management systems, and other repositories".[2]
+
+
+
+

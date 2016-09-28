@@ -1,0 +1,10 @@
+ATHENA
+ATHENA was an antimatter research project that took place at the AD Ring at CERN. In 2005 ATHENA was disbanded and many of the former members became the ALPHA Collaboration. In August 2002, it was the first experiment to produce 50,000 low-energy antihydrogen atoms, as reported in the journal Nature[1].
+
+For antihydrogen to be created, antiprotons and positrons must first be prepared. Once the antihydrogen is created, a high-resolution detector is needed to confirm that the antihydrogen was created, as well as to look at the spectrum of the antihydrogen in order to compare it to "normal" hydrogen[2].
+The antiprotons are obtained from CERN's Antiproton Decelerator while the positrons are obtained from a positron accumulator. The antiparticles are then led into a recombination trap to create antihydrogen. The trap is surrounded by the ATHENA detector, which detects the annihilation of the antiprotons as well as the positrons.
+
+The ATHENA Collaboration comprised the following institutions[3]:
+
+
+

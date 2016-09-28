@@ -1,0 +1,9 @@
+Polyglot (computing)
+In the context of computing, a polyglot is a computer program or script written in a valid form of multiple programming languages, which performs the same operations or output independently of the programming language used to compile or interpret it.
+Generally polyglots are written in a combination of C (which allows redefinition of tokens with a preprocessor) and a scripting programming language such as Lisp, Perl or sh.
+
+The two most commonly used techniques for constructing a polyglot program are to make liberal use of languages which use different characters for comments and to redefine various tokens as others in different languages. Often good use is made of quirks of syntax. These are demonstrated in this public domain polyglot written in ANSI C, PHP and bash:
+Note the following:
+The term is sometimes applied to programs that are valid in more than one language, but do not strictly perform the same function in each. One use for this form is a file that runs as a DOS batch file, then re-runs itself in Perl:
+This allows the creation of Perl scripts that can be run on DOS systems with minimal effort.
+

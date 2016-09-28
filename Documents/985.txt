@@ -1,0 +1,43 @@
+The Toyota Way
+The 14 Principles of the Toyota Way is a management philosophy used by the Toyota corporation that includes the Toyota Production System. The main ideas are to base management decisions on a "philosophical sense of purpose", to think long term, to have a process for solving problems, to add value to the organization by developing its people, and to recognize that continuously solving root problems drives organizational learning.[1]
+Since the 1980s, Toyota and Lexus vehicles have been recognized for their quality and are consistently ranked higher than other car makes in owner satisfaction surveys, due in large part (according to Jeffrey Liker, a University of Michigan professor of industrial engineering) to the business philosophy that underlies its system of production.[2]
+
+The Toyota Way has been called "a system designed to provide the tools for people to continually improve their work"[1] The 14 principles of The Toyota Way are organized in four sections: 1) Long-Term Philosophy, 2) The Right Process Will Produce the Right Results, 3) Add Value to the Organization by Developing Your People, and 4) Continuously Solving Root Problems Drives Organizational Learning. The principles are set out and briefly described below:
+
+
+People need purpose to find motivation and establish goals.
+
+
+Work processes are redesigned to eliminate waste (muda) through the process of continuous improvement — kaizen. The eight types of muda are:
+
+A method where a process signals its predecessor that more material is needed. The pull system produces only the required material after the subsequent operation signals a need for it. This process is necessary to reduce overproduction.
+
+This helps achieve the goal of minimizing waste (muda), not overburdening people or the equipment (muri), and not creating uneven production levels (mura).
+
+Quality takes precedence (Jidoka). Any employee in the Toyota Production System has the authority to stop the process to signal a quality issue.
+
+Although Toyota has a bureaucratic system, the way that it is implemented allows for continuous improvement (kaizen) from the people affected by that system. It empowers the employee to aid in the growth and improvement of the company.
+
+Included in this principle is the 5S Program - steps that are used to make all work spaces efficient and productive, help people share work stations, reduce time looking for needed tools and improve the work environment.
+
+Technology is pulled by manufacturing, not pushed to manufacturing.
+
+
+Without constant attention, the principles will fade. The principles have to be ingrained, it must be the way one thinks. Employees must be educated and trained: they have to maintain a learning organization.
+
+Teams should consist of 4-5 people and numerous management tiers. Success is based on the team, not the individual.
+
+Toyota treats suppliers much like they treat their employees, challenging them to do better and helping them to achieve it. Toyota provides cross functional teams to help suppliers discover and fix problems so that they can become a stronger, better supplier.
+
+
+Toyota managers are expected to "go-and-see" operations. Without experiencing the situation firsthand, managers will not have an understanding of how it can be improved. Furthermore, managers use Tadashi Yamashima's (President, Toyota Technical Center (TCC)) ten management principles as a guideline:
+
+The following are decision parameters:
+
+The process of becoming a learning organization involves criticizing every aspect of what one does. The general problem solving technique to determine the root cause of a problem includes:
+
+There is a question of uptake of the principles now that Toyota has production operations in many different countries around the world. As a New York Times article notes, while the corporate culture may have been easily disseminated by word of mouth when Toyota manufacturing was only in Japan, with worldwide production, many different cultures must be taken into account. Concepts such as “mutual ownership of problems,” or “genchi genbutsu,” (solving problems at the source instead of behind desks), and the “kaizen mind,” (an unending sense of crisis behind the company’s constant drive to improve), may be unfamiliar to North Americans and people of other cultures. A recent increase in vehicle recalls may be due, in part, to "a failure by Toyota to spread its obsession for craftsmanship among its growing ranks of overseas factory workers and managers." Toyota is attempting to address these needs by establishing training institutes in the United States and in Thailand.[3]
+
+
+
+The Toyota Way - Official Site

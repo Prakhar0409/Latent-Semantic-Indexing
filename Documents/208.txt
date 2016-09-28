@@ -1,0 +1,25 @@
+Open Archives Initiative Protocol for Metadata Harvesting
+OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) is a protocol developed by the Open Archives Initiative. It is used to harvest (or collect) the metadata descriptions of the records in an archive so that services can be built using metadata from many archives.
+The protocol is usually just referred to as the OAI Protocol.
+OAI-PMH uses XML over HTTP. The current version is 2.0, updated in 2002.
+
+In the late 1990s, Herbert Van de Sompel (Ghent University) was working with researchers and librarians at Los Alamos National Laboratory (US) and called a meeting to address difficulties related to interoperability issues of e-print servers and digital repositories. The meeting was held in Santa Fe, New Mexico, in October 1999. A key development from the meeting was the definition of an interface that permitted e-print servers to expose metadata for the papers it held in a structured fashion so other repositories could identify and copy papers of interest with each other. This interface/protocol was named the "Santa Fe Convention".
+Several workshops were held in 2000 at the ACM Digital Libraries conference and elsewhere to share the ideas from the Santa Fe Convention. It was discovered at the workshops that the problems faced by the e-print community were also shared by libraries, museums, journal publishers, and others who needed to share distributed resources. To address these needs, the Coalition for Networked Information and the Digital Library Federation provided funding to establish an Open Archives Initiative (OAI) secretariat managed by Herbert Van de Sompel and Carl Lagoze. The OAI held a meeting at Cornell University (Ithaca, New York) in September 2000 to improve the interface developed at the Santa Fe Convention. The specifications were refined over e-mail.
+OAI-PMH version 1.0 was introduced to the public in January 2001 at a workshop in Washington D.C., and another in February in Berlin, Germany. Subsequent modifications to the XML standard by the W3C required making minor modifications to OAI-PMH resulting in version 1.1. The current version, 2.0, was released in June 2002. It contained several technical changes and enhancements and is not backward compatible.
+
+The OAI Protocol has become widely adopted by many digital libraries, institutional repositories, and digital archives. Although registration is not mandatory, it is encouraged.
+There are several large registries of OAI-compliant repositories:
+
+Commercial search engines have started using OAI-PMH to acquire more resources. Google are using OAI-PMH to harvest information from the National Library of Australia Digital Object Repository. In 2004, Yahoo! acquired content from OAIster (University of Michigan) that was obtained through metadata harvesting with OAI-PMH. Google did accept OAI-PMH as part of their Sitemap Protocol, though decided to stop doing so in 2008[1].
+The mod_oai project is using OAI-PMH to expose content to web crawlers that is accessible from Apache Web servers.
+
+OAI-PMH is based on a client-server architecture, in which "harvesters" request information on updated records from "repositories". Requests for data can be based on a datestamp range, and can be restricted to named sets defined by the provider. Data providers are required to provide XML metadata in Dublin Core format, and may also provide it in other XML formats.
+A number of software systems support the OAI-PMH, including Fedora, GNU EPrints from the University of Southampton, Open Journal Systems from the Public Knowledge Project, Desire2Learn, DSpace from MIT and HyperJournal from the University of Pisa , DOOR from the eLab in Lugano, Switerland.
+
+A number of large archives support the protocol including arXiv and the CERN Document Server.
+
+Since 2001 there has been a yearly workshop at CERN in Geneva.
+
+
+
+

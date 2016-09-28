@@ -1,0 +1,2 @@
+Computational biology
+Computational biology is an interdisciplinary field that applies the techniques of computer science, applied mathematics and statistics to address biological problems. It encompasses the fields of:

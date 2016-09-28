@@ -1,0 +1,46 @@
+Cognitive bias
+
+Portal â€¢ History
+Areas
+Abnormal
+Biological
+Cognitive
+Developmental
+Experimental
+Evolutionary
+Mathematical
+Neuropsychology
+Personality
+Positive
+Psychophysics
+Social
+Transpersonal
+Clinical
+Educational
+Forensic
+Health
+Industrial
+Organizational
+School
+Sport
+Outline
+Publications
+Topics
+Therapies
+A cognitive bias is a person's tendency to make errors in judgment based on cognitive factors, and is a phenomenon studied in cognitive science and social psychology. Forms of cognitive bias include errors in statistical judgment, social attribution, and memory that are common to all human beings. Such biases drastically skew the reliability of anecdotal and legal evidence. These are thought to be based upon heuristics, or rules of thumb, which people employ out of habit or evolutionary necessity.
+
+Bias arises from various life, loyalty and local risk and attention concerns that are difficult to separate or codify. Much of the present scientific understanding of biases stems from the work of Amos Tversky and Daniel Kahneman and their colleagues,[citation needed] whose experiments demonstrated distinct and replicable ways in which human judgment and decision-making differ from rational choice theory. This led to Tversky and Kahneman developing prospect theory as an alternative.[citation needed] Tversky and Kahneman claim that the biases they identified are at least partially the result of problem-solving using mental short-cuts or "heuristics", for instance using how readily or vividly something comes to mind as an indication of how often or how recently it was encountered (the availability heuristic). Other biases have been demonstrated in separate experiments, such as the confirmation bias demonstrated by Peter C. Wason[citation needed]
+
+Biases can be distinguished on a number of dimensions. For example, there are biases specific to groups (such as the risky shift) as well as biases at the individual level.
+Some biases affect decision-making, where the desirability of options has to be considered (e.g. Sunk Cost fallacy). Others such as Illusory correlation affect judgment of how likely something is, or of whether one thing is the cause of another. A distinctive class of biases affect memory,[1] such as consistency bias (remembering one's past attitudes and behaviour as more similar to one's present attitudes).
+Some biases reflect a subject's motivation, [2] for example the desire for a positive self-image leading to Egocentric bias[3] and the avoidance of unpleasant cognitive dissonance. Other biases are due to the particular way the brain perceives, forms memories and makes judgments. This distinction is sometimes described as "Hot cognition" versus "Cold Cognition", as motivated cognition can involve a state of arousal.
+Among the "cold" biases, some are due to ignoring relevant information (e.g. Neglect of probability), whereas some involve a decision or judgement being affected by irrelevant information (for example the Framing effect where the exact same problem receives different responses depending on how it is described) or giving excessive weight to an unimportant but salient feature of the problem (e.g. Anchoring).
+The fact that some biases reflect motivation, and in particular the motivation to have positive attitudes to oneself[3] accounts for the fact that many biases are self-serving or self-directed (e.g. Illusion of asymmetric insight, Self-serving bias, Projection bias). There are also biases in how subjects evaluate in-groups or out-groups; evaluating in-groups as more diverse and "better" in many respects, even when those groups are arbitrarily-defined (Ingroup bias, Outgroup homogeneity bias).
+The following is a list of the more commonly studied cognitive biases.
+
+Many social institutions rely on individuals to make rational judgments . A fair jury trial, for example, requires that the jury ignore irrelevant features of the case (such as the attractiveness of the defendant), weigh the relevant features appropriately, consider different possibilities open-mindedly and resist fallacies such as appeal to emotion. The various biases demonstrated in these psychological experiments suggest that people will fail to do all these things. However, they fail to do so in systematic, directional ways that are predictable.
+A&H Method[clarification needed] decision maps illustrate the combination of reasons-claim argument strands as well as the influences of cognitive heuristics and psychological dominance structuring which emerge from those data. Researchers can compare decision maps illustrating how many different people have made a decision about the same question (e.g. "Should I have a doctor look at this troubling breast cancer symptom I've discovered." "Why did I ignore the evidence that the project was going over budget?") and then craft potential cognitive interventions aimed at improving decision making outcomes.
+
+
+
+

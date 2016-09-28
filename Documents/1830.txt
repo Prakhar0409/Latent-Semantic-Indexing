@@ -1,0 +1,15 @@
+Server Side Includes
+Server Side Includes (SSI) is a simple server-side scripting language used almost exclusively for the web. As its name implies, its primary use is including the contents of one file into another one dynamically when the latter is served by a web server.
+SSI is primarily used to "paste" the contents of one or more files into another. For example, a file (of any type, .html, .txt, etc.) containing a daily quote could be included into multiple SSI-enabled pages throughout a website by placing the following code into the desired pages:
+With one change of the quote.txt file, pages including the snippet will display the latest daily quote. Server Side Includes are useful for including a common piece of code throughout a site, such as a navigation menu.
+In order for a web server in a default configuration to recognize an SSI-enabled HTML file and therefore carry out these instructions, the file must end with the .shtml, .stm or .shtm extension. (It is also possible to configure a web server to process files with extension .html, or really any extension with more modern web servers.)
+SSI is most suitable for simple automation tasks; more complex server-side processing is often done with one of the more complex programming languages Perl, PHP, ASP,ASP.NET,JSP, CFML, Python and Ruby.
+
+SSI has a simple syntax: <!--#directive parameter=value parameter=value -->. Directives are placed in HTML comments so that if SSI isn't enabled, users won't see the SSI directives on the page, unless they look at its source.
+
+
+
+
+Client Side Includes are HTML includes achieved on the client-side through use of frames, IFrames, JavaScript, or JavaScript with Ajax requests. These methods suffer from shortcomings not present in server-side includes: they rely on the client's support of their respective technologies and, in the case of frames and iframes, are less accessible.
+
+

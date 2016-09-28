@@ -1,0 +1,16 @@
+Jamendo
+Jamendo is a music platform and community.
+All music on Jamendo is free to download and licensed through one of several Creative Commons licenses or the Free Art License, making it legal to copy and share, as well as to modify and make commercial use of for some, depending on the license. Jamendo allows streaming of all of its thousands of albums in either Ogg Vorbis or MP3 format, and downloads through the BitTorrent and eDonkey networks.
+The name is a portmanteau of two musical terms: "jam" and "crescendo".[1]
+
+There are more than 17,000 albums available for download now on Jamendo. [2]
+Based in Luxembourg, Jamendo is multilingual. While the website was primarily in French at first, there are now complete, official versions in English, German, Italian, Polish, Spanish and Russian available as well (as of November 2008).
+In April 2008, Jamendo launched a special interface for searching for MP3 and Ogg Vorbis torrents.[3]
+
+According to one article on Jamendo's business model,[4] Jamendo's use of voluntary donations represents the first serious attempt for a file sharing site to provide a direct way to pay artists. In January 2007, Jamendo provided an advertising revenue sharing model for artists.[5]
+While sites such as YouTube are still implementing plans to offer artists a share of their advertising revenue, Jamendo claims to let artists keep 50% of the revenue generated and almost 100% of the donations that Jamendo visitors give, go to individual artists.
+
+Jamendo has possibilities of integration within media players. Since the 0.9.6 release, Rhythmbox can browse and play all the Jamendo free (as in freedom) music library, download the albums, and make donations directly from within the application. You can also download and play albums from Jamendo using AmaroK2.[6]
+
+
+

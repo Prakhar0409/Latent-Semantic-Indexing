@@ -1,0 +1,16 @@
+The KMPlayer
+The KMPlayer is a video and audio player for Microsoft Windows which can play a large number of formats such as VCD, DVD, AVI, MKV, Ogg, OGM, 3GP, MPEG-1/2/4, WMV, RealMedia, FLV and QuickTime among others. It handles a wide range of subtitles and allows one to capture audio, video, and screenshots.
+The player provides both internal and external filters with a fully controlled environment in terms of connections to other splitters, decoders, audio/video transform filters and renderers without grappling with the DirectShow merit system. Interestingly, it is said that internal filters are not registered with a user's system to keep it from being messed up with system filters.
+The player can set multifarious audio and video effects, slow down or increase playback speed, select parts of a video as favorites, do various A-B repeats, remap the keys of remote interface for HTPC including overlay screen controls, change a skin dynamically depending on a media type playing, and many more. The KMPlayer is completely customizable thanks to a wide selection of skins[1] and color schemes, and the configuration options are very extensive.[2]
+The "K" of KMP simply indicates the initial character of the original developer's family name (Kang). The full name of KMPlayer is K-Multimedia Player. In March 2008 development has been taken over by Pandora TV, a Korean streaming video company.[2]
+
+
+The KMPlayer includes almost all the essential decoders required for media playback. For formats these decoders support in limited fashion, several types of external decoders can be specified, so that users can specify exactly what types of decoders play virtually any file format supported. Even though the KMPLAYER is based primarily upon DirectShow, it supports WinAmp, Real Media and Quick Time internally. .
+
+
+The KMPlayer supports the following types of winamp v2/v5 plugins: input, DSP/effect, visualization and general-purpose. The path in which these plugins can be found, and their corresponding settings, can be specified .
+
+Gabest, original author of Media Player Classic claimed that The KMPlayer was violating the GPL by using GPLed code written by both him and others in a closed-source program. The authors of the KMPlayer have denied this allegation; they maintain that The KMPlayer did not actually include the mentioned GPL code in the executable, and thus was not breaking any GPL rules.[3][4] Controversially, The KMPlayer was bundled with a GPL component, although when the authors were notified they deleted the GPL breaching part bundled with the program.[5] The KMPlayer is listed on FFmpeg's Hall of Shame indicating that it is violating FFmpeg's license terms by distributing binaries of software under GPL or LGPL without source.[6]
+
+
+

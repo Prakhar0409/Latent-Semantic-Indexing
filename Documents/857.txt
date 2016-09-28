@@ -1,0 +1,18 @@
+Mark Granovetter
+Mark Granovetter is an American sociologist who has created some of the most influential theories in modern sociology since the 1970s. He is best known for his work in social network theory and in economic sociology, particularly his theory on the spread of information in social networks known as "The Strength of Weak Ties" (1973).[1]
+
+Granovetter earned an A.B. at Princeton University and a Ph.D at Harvard University. He is currently the Joan Butler Ford Professor in the School of Humanities and Sciences at Stanford University and was formerly the department chair of sociology. He has previously worked at Northwestern University, the State University of New York at Stony Brook, and Johns Hopkins University.[2]
+
+
+Granovetter's most famous work, "The Strength of Weak Ties", is considered to be one of the most influential sociology papers ever written.[3]
+In marketing or politics, the weak ties enable reaching populations and audiences that are not accessible via strong ties. The concepts of this work were later published in the related monograph "Getting A Job", an adaptation of Granovetter's doctoral dissertation at Harvard University's Department of Social Relations, with the title: "Changing Jobs: Channels of Mobility Information in a Suburban Population" (313 pages).
+
+In the field of economic sociology, Granovetter has been a leader ever since the publication in 1985 of an article that launched "new economic sociology", "Economic Action and Social Structure: The Problem of Embeddedness". This article caused Granovetter to be identified with the concept of "embeddedness", the idea that economic relations between individuals or firms are embedded in actual social networks and do not exist in an abstract idealized market (a concept originally described in Karl Polanyi's book The Great Transformation). He is currently working on a book provisionally called Society and Economy.
+
+Granovetter has also done research on a model of how fads are created. Consider a hypothetical mob assuming that each person's decision whether to riot or not is dependent on what everyone else is doing. Instigators will begin rioting even if no one else is, while others need to see a critical number of trouble makers before they riot, too. This threshold is assumed to be distributed to some probability distribution. The outcomes may diverge largely although the initial condition of threshold may only differ very slightly. This threshold model of social behavior was proposed previously by Thomas Schelling and later popularized by Malcolm Gladwell's book The Tipping Point.
+
+Granovetter's work has influenced some researchers working in the field of capability-based security. Interactions in these systems can be described using "Granovetter diagrams", which illustrate changes in the ties between objects.[4]
+
+
+
+

@@ -1,0 +1,4 @@
+GeeXboX
+GeeXboX is a free Linux distribution providing a media center software suite for personal computers. GeeXboX uses MPlayer for media playback and is implemented as a Live CD. As such, the system does not need to be permanently installed to a hard drive, as most modern operating systems would. Instead, the computer can be booted with the GeeXboX CD when media playback is desired. This is a reasonable approach for those who do not need media playback services while performing other tasks with the same computer, for users who wish to repurpose older computers as media centers, and for those seeking a free alternative to Windows XP Media Center Edition. An unofficial port of GeeXboX also runs on the Wii.
+GeeXboX comes with a utility called generator, which allows the user to customize the GeeXboX discs. The following options are configurable:
+

@@ -1,0 +1,17 @@
+Deixis
+In pragmatics and linguistics, deixis (Ancient Greek: δειξις, display, demonstration, or reference, the meaning "point of reference" in contemporary linguistics having been taken over from Chrysippus[1]) is collectively the orientational features of human languages to have reference to points in time, space, and the speaking event between interlocutors. A word that depends on deictic clues is called a deictic or a deictic word. Deictic words are bound to a context — either a linguistic or extralinguistic context — for their interpretation.
+Some English deictic words include, for example, the following:
+The origo is the context from which the reference is made—in other words, the viewpoint that must be understood in order to interpret the utterance. (If Tom is speaking and he says "I", he refers to himself, but if he is listening to Betty and she says "I", then the origo is with Betty and the reference is to her.)
+
+
+It is common for languages to show at least a two-way referential distinction in their deictic system: proximal, i.e. near or closer to the speaker, and distal, i.e. far from the speaker and/or closer to the addressee. English exemplifies this with such pairs as this and that, here and there, etc. In other languages, the distinction is three-way: proximal, i.e. near the speaker, medial, i.e. near the addressee, and distal, i.e. far from both. This is the case in a few Romance languages and in Korean, Japanese, Thai, Filipino and Turkish.
+
+
+Spatial deictics are often reused as anaphoric pro-forms that stand for phrases or propositions (that is, items of discourse, not items of the outside reality). Consider the following statement:
+In the above example, this ice is not near the speaker in the physical sense, but the deictic does not refer to real ice. This ice refers to the phrase ice hidden in unexplored places, which is conceptually near the speaker in the discourse flow.
+
+Pronouns are generally considered to be deictics, but a finer distinction is often made between personal pronouns such as I, you, and it (commonly referred to as personal pronouns) and pronouns that refer to places and times such as now, then, here, there. In most texts, the word deictic implies the latter but not necessarily the former. (In philosophical logic, the former and latter are collectively called indexicals.)
+
+
+
+

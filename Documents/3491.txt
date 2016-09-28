@@ -1,0 +1,10 @@
+Metaphone
+Metaphone is a phonetic algorithm, an algorithm for indexing words by their sound, when pronounced in English. The algorithm produces variable length keys as its output, as opposed to Soundex's fixed-length keys. Similar sounding words share the same keys.
+Metaphone was developed by Lawrence Philips as a response to deficiencies in the Soundex algorithm. It is more accurate than Soundex[citation needed] because it uses a larger set of rules for English pronunciation. Metaphone is available as a built-in operator in a number of systems, including later versions of PHP.
+The original author later produced a new version of the algorithm, which he named Double Metaphone, that produces more accurate results than the original algorithm.
+
+From Ruby's Text library:
+
+
+
+

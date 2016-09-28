@@ -1,0 +1,42 @@
+YCbCr
+YCbCr or Y'CbCr is a family of color spaces used as a part of the Color image pipeline in video and digital photography systems. Y' is the luma component and Cb and Cr are the blue-difference and red-difference chroma components. The prime (') on the Y is to distinguish the luma from luminance, meaning that light intensity is non-linearly encoded using gamma.
+Y'CbCr is not an absolute color space, it is a way of encoding RGB information. The actual color displayed depends on the actual RGB colorants used to display the signal. Therefore a value expressed as Y'CbCr is only predictable if standard RGB colorants or an ICC profile are used.
+
+Cathode ray tube displays are driven by red, green, and blue voltage signals, but these RGB signals are not efficient as a representation for storage and transmission, since they have a lot of mutual redundancy.
+YCbCr and Y'CbCr are a practical approximation to color processing and perceptual uniformity, where the Primary colours corresponding roughly to Red, Green and Blue are processed into perceptually meaningful information. By doing this, subsequent image/video processing, transmission and storage can do operations and introduce errors in perceptually meaningful ways. Y'CbCr is used to separate out a luma signal (Y') that can be stored with high resolution or transmitted at high bandwidth, and two chroma components (Cb and Cr) that can be bandwidth-reduced, subsampled, compressed, or otherwise treated separately for improved system efficiency.
+One practical example would be decreasing the bandwidth or resolution allocated to "color" compared to "black and white", since humans are more sensitive to the black-and-white information (see image example to the right).
+
+YCbCr is sometimes abbreviated to YCC. Y'CbCr is often called YPbPr when used for analog component video, although the term Y'CbCr is commonly used for both systems, with or without the prime.
+Y'CbCr is often confused with the YUV color space, and typically the terms YCbCr and YUV are used interchangeably, leading to some confusion; when referring to signals in video or digital form, the term "YUV" mostly means "Y'CbCr".
+
+Y'CbCr signals (prior to scaling and offsets to place the signals into digital form) are called YPbPr, and are created from the corresponding gamma-adjusted RGB (red, green and blue) source using two defined constants Kb and Kr as follows:
+
+
+
+
+
+
+
+where Kb and Kr are ordinarily derived from the definition of the corresponding RGB space. (The equivalent matrix manipulation is often referred to as the "color matrix.")
+Here, the prime (') symbols mean gamma correction is being used; thus R', G' and B' and to nominally range from 0 to 1, with 0 representing the minimum intensity (e.g., for display of the color black) and 1 the maximum (e.g., for display of the color white). The resulting luma (Y) value will then have a nominal range from 0 to 1, and the chroma (Cb and Cr) values will have a nominal range from -0.5 to +0.5. The reverse conversion process can be readily derived by inverting the above equations.
+When representing the signals in digital form, the results are scaled and rounded, and offsets are typically added. For example, the scaling and offset applied to the Y' component per specification (e.g. MPEG-2[1]) results in the value of 16 for black and the value of 235 for white when using an 8-bit representation. The standard has 8-bit digitized versions of Cb and Cr scaled to a different range of 16 to 240. Consequently, rescaling by the fraction (235-16)/(240-16) = 219/224 is sometimes required when doing color matrixing or processing in YCbCr space, resulting in quantization distortions when the subsequent processing is not performed using higher bit depths.
+The scaling that results in the use of a smaller range of digital values than what might appear to be desirable for representation of the nominal range of the input data allows for some "overshoot" and "undershoot" during processing without necessitating undesirable clipping. This "head-room" and "toe-room" has also been proposed to be used for extension of the nominal color gamut.
+The form of Y'CbCr that was defined for standard-definition television use in the ITU-R BT.601 (formerly CCIR 601) standard for use with digital component video is derived from the corresponding RGB space as follows:
+From the above constants and formulas, the following can be derived for ITU-R BT.601:
+Firstly analog YPbPr:
+When this is digitized for 8-bit per sample Y'CbCr:
+If R', G' and B' are given with 8-bit digital precision, then
+This form of Y'CbCr is used primarily for older standard-definition television systems, as it uses an RGB model that fits the phosphor emission characteristics of older CRTs. The inverse transform equivalent to the above is:
+A different form of Y'CbCr is specified in the ITU-R BT.709 standard, primarily for HDTV use. The newer form is also used in some computer-display oriented applications. In this case, the values of Kb and Kr differ, but the formulas for using them are the same. For ITU-R BT.709, the constants are:
+This form of Y'CbCr is based on an RGB model that more closely fits the phosphor emission characteristics of newer CRTs and other modern display equipment.
+Although the above two forms of Y'CbCr are the dominant ones, some other variants exist. For example, the SMPTE 240M standard specifies YCbCr using Kb = 0.087 and Kr = 0.212.
+Note that the definitions of the R', G', and B' signals also differ between BT.709 and BT.601, and differ within BT.601 depending on the type of TV system in use (625-line as in PAL and SECAM or 525-line as in NTSC), and differ further in other specifications. In different designs there are differences in the definitions of the R, G, and B chromaticity coordinates, the reference white point, the supported gamut range, the exact gamma pre-compensation functions for deriving R', G' and B' from R, G, and B, and in the scaling and offsets to be applied during conversion from R'G'B' to Y'CbCr. So proper conversion of Y'CbCr from one form to the other is not just a matter of inverting one matrix and applying the other. In fact, when Y'CbCr is designed ideally, the values of Kb and Kr are derived from the precise specification of the RGB color primary signals, so that the luma (Y') signal corresponds as closely as possible to a gamma-adjusted measurement of luminance (typically based on the CIE 1931 measurements of the response of the human visual system to color stimuli).[2]
+Since the equations defining YCbCr are formed in a way that rotates the entire nominal RGB color cube and scales it to fit within a (larger) YCbCr color cube, there are some points within the YCbCr color cube that cannot be represented in the corresponding RGB domain (at least not within the nominal RGB range). This causes some difficulty in determining how to correctly interpret and display some YCbCr signals.
+JFIF usage of JPEG allows Y'CbCr where Y', Cb and Cr have the full 256 values:[3]
+
+
+XYZ Â· L*a*b* Â· L*u*v* Â· Yuv Â· U*V*W*
+color spaces Â· sRGB Â· Adobe Â· Adobe Wide Gamut Â· ProPhoto Â· scRGB
+YUV (PAL) Â· YDbDr (SECAM) Â· YIQ (NTSC) Â· YCbCr Â· YPbPr Â· xvYCC
+LMS Â· HSL, HSV Â· CMYK Â· Hexachrome Â· RYB Â· Munsell Â· NCS Â· Pantone Â· RAL
+OSA-UCS Â· Coloroid Â· RG Â· Ostwald Â· DIN Â· PCCS Â· ABC Â· DCA Â· JIS Z8102 Â· ISCC-NBS

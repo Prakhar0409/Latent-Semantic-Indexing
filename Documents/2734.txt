@@ -1,0 +1,10 @@
+Fluent interface
+In software engineering, a fluent interface (as first coined by Eric Evans and Martin Fowler) is a way of implementing an object oriented API in a way that provides for more readable code.
+A fluent interface is normally implemented by using method chaining to relay the instruction context of a subsequent call (but a fluent interface entails more than just method chaining [1]). Generally, the context is
+This style is beneficial due to its ability to provide a more fluid feel to the code.
+
+The following example shows a class implementing a non-fluent interface, another class implementing a fluent counterpart of the aforementioned non-fluent interface, and differences in usage. The example is written in C#:
+The following is an example of providing a fluent interface wrapper on top of a more traditional interface in C++:
+Some APIs in Java follows this pratice, like Java Persistence API:
+
+

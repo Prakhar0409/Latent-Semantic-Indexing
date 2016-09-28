@@ -1,0 +1,8 @@
+Perlin noise
+Perlin noise is a procedural texture primitive, used by visual effects artists to increase the appearance of realism in computer graphics. This is a type of Gradient noise. The function has a pseudo-random appearance, yet all of its visual details are the same size (see image). This property allows it to be readily controllable; multiple scaled copies of Perlin noise can be inserted into mathematical expressions to create a great variety of procedural textures. Synthetic texture using Perlin noise is often used in CGI to make computer-generated objects appear more natural, by imitating the controlled random appearance of textures of nature.
+It resulted from the work of Ken Perlin, who developed it while working at Mathematical Applications Group, Inc.. In 1997 he won an Academy Award for Technical Achievement from the Academy of Motion Picture Arts and Sciences for this contribution to the 1982 movie Tron.[1]
+Perlin noise is implemented as a function of either (x,y,z) or (x,y,z,time) which uses interpolation between a set of pre-calculated gradient vectors to construct a value that varies pseudo-randomly over space and/or time. Ken Perlin improved the implementation in 2002, suppressing some visual artifacts (see the external links).
+Perlin noise is widely used in computer graphics for visual effects like fire, smoke, and clouds. It is also frequently used to generate textures when memory is extremely limited, such as in demos, and is increasingly finding use in Graphics Processing Units for real-time graphics in computer games.
+
+
+

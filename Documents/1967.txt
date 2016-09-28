@@ -1,0 +1,6 @@
+Windows Neptune
+Windows Neptune was a beta version of Microsoft Windows that was in development from early 1999 to early 2000. The goal was to create a home user-friendly operating system from the same sources as the NT-based Windows 2000 that was developed for business users, replacing the older DOS-based Windows 9x home user operating systems. After the release of Windows 2000, the Neptune team was combined with the Windows 2000 team to work on Whistler, later released in the fourth quarter of 2001 as Windows XP,[1] and Microsoft released another home user DOS-based operating system called Windows Me.[2]
+
+Some of the changes introduced in the Neptune build, such as the firewall, were later integrated into Windows XP as the Windows Firewall. It experimented with a UI called the Activity Center for task centered operation.
+
+

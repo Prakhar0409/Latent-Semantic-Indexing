@@ -1,0 +1,17 @@
+Decision table
+Decision tables are a precise yet compact way to model complicated logic. Decision tables, like if-then-else and switch-case statements, associate conditions with actions to perform. But, unlike the control structures found in traditional programming languages, decision tables can associate many independent conditions with several actions in an elegant way
+
+Decision tables are typically divided into four quadrants, as shown below.
+Each decision corresponds to a variable, relation or predicate whose possible values are listed among the condition alternatives. Each action is a procedure or operation to perform, and the entries specify whether (or in what order) the action is to be performed for the set of condition alternatives the entry corresponds to. Many decision tables include in their condition alternatives the don't care symbol, a hyphen. Using don't cares can simplify decision tables, especially when a given condition has little influence on the actions to be performed. In some cases, entire conditions thought to be important initially are found to be irrelevant when none of the conditions influence which actions are performed
+Aside from the basic four quadrant structure, decision tables vary widely in the way the condition alternatives and action entries are represented. Some decision tables use simple true/false values to represent the alternatives to a condition (akin to if-then-else), other tables may use numbered alternatives (akin to switch-case), and some tables even use fuzzy logic or probabilistic representations for condition alternatives[citation needed]. In a similar way, action entries can simply represent whether an action is to be performed (check the actions to perform), or in more advanced decision tables, the sequencing of actions to perform (number the actions to perform).
+Decision table can be used if the combination of conditions are given. In decision table conditions are known as causes and serinal numbers of conditions are known as business rule.
+
+The limited-entry decision table is the simplest to describe. The condition alternatives are simple boolean values, and the action entries are check-marks, representing which of the actions in a given column are to be performed.
+A technical support company writes a decision table to diagnose printer problems based upon symptoms described to them over the phone from their clients.
+Of course, this is just a simple example (and it does not necessarily correspond to the reality of printer troubleshooting), but even so, it demonstrates how decision tables can scale to several conditions with many possibilities.
+
+
+Decision tables can, and often are, embedded within computer programs and used to 'drive' the logic of the program. A simple example might be a lookup table containing a range of possible input values and a function pointer to the section of code to process that input.
+Multiple conditions can be coded for in similar manner to encapsulate the entire program logic in the form of an 'executable' decision table or control table.
+
+

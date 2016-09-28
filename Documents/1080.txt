@@ -1,0 +1,64 @@
+Syzygy
+In broadest terms, Syzygy (IPA: /ˈsɪzɪʤi/) is a kind of unity, especially through coordination or alignment, most commonly used in the astronomical and/or astrological sense.[1] Syzygy is derived from the Late Latin syzygia, "conjunction," from the Greek σύζυγος (syzygos).
+Syzygia, adjective of Syzygy, describes the alignment of three or more celestial bodies in the same gravitational system along a plane.
+
+
+In astronomy, a syzygy is the alignment of three or more celestial bodies in the same gravitational system along a straight line. The word is usually used in context with the Sun, Earth, and the Moon or a planet, where the latter is in conjunction or opposition. Solar and lunar eclipses occur at times of syzygy, as do transits and occultations. The term is also applied to each instance of New Moon or Full Moon when Sun and Moon are in conjunction or opposition, even though they are not precisely on one line with the Earth.
+The word 'syzygy' is often loosely used to describe interesting configurations of planets in general. For example, one such case occurred on March 21, 1894 at around 23:00 GMT, when Mercury transited the Sun as seen from Venus, and Mercury and Venus both simultaneously transited the Sun as seen from Saturn. It is also used to describe situations when all the planets are on the same side of the Sun although they are not necessarily found along a straight line, such as on March 10, 1982.
+
+In Gnosticism, a syzygy is a divine active-passive, male-female pair of aeons, complementary to one another rather than oppositional; in their totality they comprise the divine realm of the Pleroma, and in themselves characterise aspects of the unknowable Gnostic God. The term is most common in Valentinianism.
+
+In mathematics, a syzygy is a relation between the generators of a module M. The set of all such relations is called the "first syzygy module of M". A relation between generators of the first syzygy module is called a "second syzygy" of M, and the set of all such relations is called the "second syzygy module of M". Continuing in this way, we get the n-th syzygy module of M by taking the set of all relations between generators of the (n-1)th syzygy module of M. If M is finitely generated over a polynomial ring over a field, this process terminates after a finite number of steps; i.e., eventually there will be no more syzygies (see Hilbert's syzygy theorem). The syzygy modules of M are not unique, for they depend on the choice of generators at each step.
+
+In medicine, the term is used to signify the fusion of some or all of the organs.
+
+Syzygy was the name of the electronic music duo that recorded for Rising High Records and Infonet Records in the 1990s. Dominic Glynn and Justin Mackay produced a hybrid of techno, ambient and electronica culminating in the cult album "Morphic Resonance".
+Syzygy is the name of a composition written by Michael Brecker which can be found on his self-titled album.
+Syzygy is also the name of a 1998 CD made by the band Lynch Mob. It is a project led by former Dokken bandmember and guitar virtuoso George Lynch.
+
+In philosophy, the Russian theologian/philosopher Vladimir Solovyov (1853–1900) used the word "syzygy" to signify "unity-friendship-community," used as either an adjective or a noun, meaning:
+
+In poetry, syzygy is the combination of two metrical feet into a single unit, similar to an elision.
+Consonantal or phonetic syzygy is also similar to the effect of alliteration, where one consonant is used repeatedly throughout a passage, but not necessarily at the beginning of each word.
+
+In psychology, Carl Jung used the term "syzygy" to denote an archetypal pairing of contrasexual opposites, which symbolized the communication of the conscious and unconscious minds: the conjunction of two organisms without the loss of identity.
+
+In zoology, syzygy is
+
+
+Syzygy in books:
+
+Syzygy is the word Rona Lisa Peretti spelled correctly when she won the Putnam Spelling Bee as a child in the musical The 25th Annual Putnam County Spelling Bee.
+
+Circa 1971, Syzygy was used by a candle company in California. (See "Video games", below.)
+
+Syzygy in comic books:
+
+Syzygy is a virtual reality grid operating system for PC clusters, tele-collaboration, and multimedia supercomputing.[2] It was also a project management package available in the early 1990s.
+(See also video games, under "games", below.)
+
+A major plot point in the film Tomb Raider concerns a planetary alignment taking place every 5,000 years, during which a magic item, The Triangle of Light, can be utilized. To preserve a fictional environment, the exact chronology of this alignment is not given except the date of the first phase, May 15.
+The setting for the film Pitch Black is a fictional moon that undergoes a prolonged period of complete solar eclipse every 22 years when it is aligned with its parent planet.
+"SYZYGY" is the title of a 1969 color film short subject produced by the National Council of Churches; approx. run time 15 minutes.
+
+Syzygy is the name of a word puzzle game made by Little Fish Industries.[3] It is also the highest scoring word that can be played in Scrabble without using an a, e, i, o, or u.[citation needed]
+Autumn Nightmares, a supplement for the 2007 role-playing game Changeling: the Lost, by White Wolf, refers to pairs of faerie lords or ladies working in tandem as "syzygies".
+
+Syzygy Engineering was the first choice of name Nolan Bushnell and Ted Dabney had used (in 1971) for their new video game company, which was incorporated as Atari, Inc in 1972. They claimed the name had already been registered by another Californian company (a candle company owned by a hippie commune[4]). The term "Syzygy Engineered" appeared first associated with their Nutting Inc. released Computer Space[5] and later on Atari's first product, the coin-operated Pong game.
+The Syzygy Cult is a freeware development company active during the mid 1990s that developed classic Apple Macintosh games.
+Syzygy computer games:
+Use of syzygy within video game environments:
+The parameter syzygy enables the cheats in the PC version of Avoid the Noid.
+
+Syzygy is the name of the annual meeting of all national branches of City Year, a US volunteer service organization operated under the AmeriCorps umbrella.
+
+"Syzygy" is the name of a 1996 episode of the science fiction mystery TV show The X-Files. The alignment of Mercury, Mars and Uranus happens at the same time several murder cases occur in a small town. FBI agents Scully and Mulder investigate in a climate of fear and mob mentality.
+A skit in a 1997 episode of Saturday Night Live featured "syzygy" as a spelling bee word which is asked to Mary Katherine Gallagher (Molly Shannon) by host Rudolph Giuliani. When she asks for the word's usage in a sentence, Giuliani replies, "Sure. Your spelling bee word is 'syzygy'."
+On the 17 April 2007 episode of The Colbert Report, Stephen Colbert used "syzygy" in its poetic sense – after synecdoche and metonymy – as part of a threat made against actor Sean Penn, in preparation for the next night's "Metaphor Off" between the two.
+
+Syzygy is the name of a winery located in Walla Walla, Washington, United States.
+
+Syzygy is used as a Company name by a number of companies across the world. For example, in Australia Syzygy Corporation, which consists of Syzygy Consulting, Syzygy People and Syzygy Technology. Also in the UK and Germany, Syzygy is a website design agency.
+
+Syzygy is the shortest English word containing three y's. It is also the second-longest common English word containing neither a, e, i, o, nor u, being tied with rhythm. (The longest common word with this characteristic is rhythms, although it is beaten handily by the archaic word twyndyllyngs.) See English words with uncommon properties.
+

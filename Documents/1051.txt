@@ -1,0 +1,17 @@
+Phonetics
+Phonetics (from the Greek: φωνή, phōnē, "sound, voice") is a branch of linguistics that comprises the study of the sounds of human speech.[1] It is concerned with the physical properties of speech sounds (phones), and the processes of their physiological production, auditory reception, and neurophysiological perception.
+Phonetics was studied as early as 2500 years ago in ancient India, with Pāṇini's account of the place and manner of articulation of consonants in his 5th century BC treatise on Sanskrit. The major Indic alphabets today order their consonants according to Pāṇini's classification.
+
+Phonetic transcription is a universal system for transcribing sounds that occur in spoken language. The most widely known system of phonetic transcription, the International Phonetic Alphabet (IPA), uses a one-to-one mapping between phones and written symbols.[2][3] The standardized nature of the IPA enables its users to transcribe accurately and consistently between different languages.[2][4][5] It can also indicate common pronunciations of words (e.g. [ðɪs] for the word "this").
+
+Phonetics as a research discipline has three main branches:
+
+Application of phonetics include:
+
+In contrast to phonetics, phonology is the study of language-specific systems and patterns of sound and gesture, relating such concerns with other levels and aspects of language. While phonology is grounded in phonetics, it has emerged as a distinct area of linguistics, dealing with abstract systems of sounds and gestural units (e.g, phoneme, features, mora, etc.) and their variants (e.g., allophones), the distinctive properties (features) which form the basis of meaningful contrast between these units, and their classification into natural classes based on shared behavior and phonological processes. Phonetics tends to deal more with the physical properties of sounds and the physiological aspects of speech production and perception. It deals less with how sounds are patterned to encode meaning in language (though overlap in theorizing, research and clinical applications are possible).
+
+
+
+O'Grady, William et al (2005). Contemporary Linguistics: An Introduction (5th ed.). Bedford/St. Martin's. ISBN 0312419368.�
+
+

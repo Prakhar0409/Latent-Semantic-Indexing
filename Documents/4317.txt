@@ -1,0 +1,45 @@
+IPsec
+Internet Protocol Security (IPsec) is a suite of protocols for securing Internet Protocol (IP) communications by authenticating and encrypting each IP packet of a data stream. IPsec also includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to be used during the session. IPsec can be used to protect data flows between a pair of hosts (e.g. computer users or servers), between a pair of security gateways (e.g. routers or firewalls), or between a security gateway and a host. [1]
+IPsec is a dual mode, end-to-end, security scheme operating at the Internet Layer of the Internet Protocol Suite, which is approximately Layer 3 in the OSI model. Some other Internet security systems in widespread use, such as SSL, TLS and SSH, operate in the upper layers of these models, SSL VPN being an example. IPsec is more flexible, operating as it does at a lower level in the stack, since it can be used for protecting more traffic (ie, all those above layer 2), because applications need not be designed to use IPsec, whereas the use of TLS/SSL or other higher-layer protocols must be incorporated into the design of applications at that level.
+IPsec is a successor of the ISO standard NLSP (Network Layer Security Protocol). The NLSP protocol was based on the SP3 protocol that was published by NIST, but designed by the Secure Data Network System project of the NSA.
+"IPsec" is officially specified by the Internet Engineering Task Force (IETF), including the capitalization of the term.
+
+The IPsec suite is a framework of open standards. IPsec uses the following protocols to perform various functions: [2] [3]
+
+AH is a member of the IPsec protocol suite. AH is intended to guarantee connectionless integrity and data origin authentication of IP packets. Further, it can optionally protect against replay attacks by using the sliding window technique and discarding old packets. AH protects the IP payload and all header fields of an IP datagram except for mutable fields (i.e. those that might be altered in transit). [6]
+AH operates directly on top of IP, using IP protocol number 51.[8]
+The following AH packet diagram shows how an AH packet is constructed and interpreted: [6] [7]
+Authentication data (variable)
+Field meanings:
+
+ESP is a member of the IPsec protocol suite. It is the portion of IPsec that provides origin authenticity, integrity, and confidentiality protection of packets. ESP also supports encryption-only and authentication-only configurations, but using encryption without authentication is strongly discouraged because it is insecure. [9] [10] [11]. Unlike Authentication Header (AH), ESP does not protect the IP packet header. However, in Tunnel Mode, where the entire original IP packet is encapsulated with a new packet header added, ESP protection is afforded to the whole inner IP packet (including the inner header) while the outer header remains unprotected. ESP operates directly on top of IP, using IP protocol number 50.[8]
+The following ESP packet diagram shows how an ESP packet is constructed and interpreted: [1]
+
+Payload data (variable)
+Authentication Data (variable)
+Field meanings:
+
+The IP security architecture uses the concept of a security association as the basis for building security functions into IP. A security association is simply the bundle of algorithms and parameters (such as keys) that is being used to encrypt and authenticate a particular flow in one direction. Therefore, in normal bi-directional traffic, the flows are secured by a pair of security associations. The actual choice of encryption and authentication algorithms (from a defined list) is left to the IPsec administrator.
+In order to decide what protection is to be provided for an outgoing packet, IPsec uses the Security Parameter Index (SPI), an index to the security association database (SADB), along with the destination address in a packet header, which together uniquely identify a security association for that packet. A similar procedure is performed for an incoming packet, where IPsec gathers decryption and verification keys from the security association database.
+For multicast, a security association is provided for the group, and is duplicated across all authorized receivers of the group. There may be more than one security association for a group, using different SPIs, thereby allowing multiple levels and sets of security within a group. Indeed, each sender can have multiple security associations, allowing authentication, since a receiver can only know that someone knowing the keys sent the data. Note that the relevant standard does not describe how the association is chosen and duplicated across the group; it is assumed that a responsible party will have made the choice.
+
+There are two modes of IPsec operation:
+
+In transport mode, only the payload (the data you transfer) of the IP packet is encrypted and/or authenticated. The routing is intact, since the IP header is neither modified nor encrypted; however, when the authentication header is used, the IP addresses cannot be translated, as this will invalidate the hash value. The transport and application layers are always secured by hash, so they cannot be modified in any way (for example by translating the port numbers). Transport mode is used for host-to-host communications.
+A means to encapsulate IPsec messages for NAT traversal has been defined by RFC documents describing the NAT-T mechanism.
+
+In tunnel mode, the entire IP packet (data and IP header) is encrypted and/or authenticated. It is then encapsulated into a new IP packet with a new IP header. Tunnel mode is used to create Virtual Private Networks for network-to-network communications (e.g. between routers to link sites), host-to-network communications (e.g. remote user access), and host-to-host communications (e.g. private chat).
+
+
+
+Cryptographic algorithms defined for use with IPsec include:
+Refer to RFC 4835 for details.
+
+IPsec support is usually implemented in the kernel with key management and ISAKMP/IKE negotiation carried out from user-space. Existing IPsec implementations often include both. However, as there is a standard interface for key management, it is possible to control one kernel IPsec stack using key management tools from a different implementation.
+Because of this, there is sometimes confusion as to the origins of the IPsec implementation in the Linux kernel. The FreeS/WAN project made the first complete and open source implementation of IPsec for Linux. It consists of a kernel IPsec stack (KLIPS), as well as a key management daemon (pluto) and many shell scripts. The FreeS/WAN project was disbanded in March 2004. Openswan and strongSwan are continuations of FreeS/WAN. The KAME project also implemented complete IPsec support for NetBSD, FreeBSD. Its key management daemon is called racoon. OpenBSD made its own ISAKMP/IKE daemon, simply named isakmpd (which was also ported to other systems, including Linux).
+None of those kernel IPsec stacks were integrated into the Linux kernel. Alexey Kuznetsov and David S. Miller wrote a kernel IPsec implementation from scratch for the Linux kernel around the end of 2002. This stack was subsequently released as part of Linux 2.6, and is referred to variously as "native" or "NETKEY".
+Thus, the current Linux IPsec stack did not originate from the KAME project. Since it supports the standard PF_KEY protocol (RFC 2367) and the native XFRM interface for key management, the Linux IPsec stack can be used in conjunction with either pluto from Openswan/strongSwan, isakmpd from the OpenBSD project, racoon from the KAME project, or without any ISAKMP/IKE daemon (using manual keying).
+The new architectures of network processors, including multi-core processors with integrated encryption engines, suggested some changes in the way the IPsec stacks are designed. A dedicated Fast Path is currently being commonly used to offload IPsec processing (SA, SP lookups, encryption, etc.). These Fast-Path IPsec-stack instances, running on dedicated cores, must be integrated with Linux or RTOS instances, running on other cores, which control them.
+There exist a number of implementations of IPsec and ISAKMP/IKE protocols. These include:
+
+IPsec implementation is a mandatory part of IPv6[12] but is not a required part of IPv4. However, because of the slow uptake of IPv6, IPsec is most commonly used to secure IPv4 traffic. IPsec protocols were originally defined in RFCs 1825 & 1829, published in 1995. In 1998, these documents were made obsolete by RFC 2401 & RFC 2412 (with which they were not compatible) although they were conceptually identical. In addition, a mutual authentication and key exchange protocol Internet Key Exchange (IKE), was defined to create and manage security associations. In December 2005, these RFCs were themse

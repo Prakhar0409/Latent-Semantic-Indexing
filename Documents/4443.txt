@@ -1,0 +1,18 @@
+Bayesian information criterion
+In statistics, the Bayesian information criterion (BIC) or Schwarz Criterion (also SBC, SBIC) is a criterion for model selection among a class of parametric models with different numbers of parameters. Choosing a model to optimize BIC is a form of regularization.
+When estimating model parameters using maximum likelihood estimation, it is possible to increase the likelihood by adding additional parameters, which may result in overfitting. The BIC resolves this problem by introducing a penalty term for the number of parameters in the model. This penalty for additional parameters is stronger than that of the AIC.
+The BIC was developed by Gideon E. Schwarz, who gave a Bayesian argument for adopting it.[1] It is very closely related to the Akaike information criterion.
+
+The BIC is an asymptotic result derived under the assumptions that the data distribution is in the exponential family. Let:
+The formula for the BIC is[2]:
+Under the assumption that the model errors or disturbances are normally distributed, this becomes (up to an additive constant, which depends only on n and not on the model):
+where RSS is the residual sum of squares from the estimated model. Note that the term for  used in this specialization is equal to the rescaled normal loglikelihood up to an additive constant that depends only on n
+Given any two estimated models, the model with the lower value of BIC is the one to be preferred. The BIC is an increasing function of RSS and an increasing function of k. That is, unexplained variation in the dependent variable and the number of explanatory variables increase the value of BIC. Hence, lower BIC implies either fewer explanatory variables, better fit, or both. The BIC penalizes free parameters more strongly than does the Akaike information criterion.
+It is important to keep in mind that the BIC can be used to compare estimated models only when the numerical values of the dependent variable are identical for all estimates being compared. The models being compared need not be nested, unlike the case when models are being compared using an F or likelihood ratio test.
+
+
+BIC has been widely used for model identification in time series and linear regression. It can, however, be applied quite widely to any set of maximum likelihood-based models. However, it should be noted that in many applications (for example, selecting a black body or power law spectrum for an astronomical source), BIC simply reduces to maximum likelihood selection because the number of parameters is equal for the models of interest.
+
+
+
+

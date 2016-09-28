@@ -1,0 +1,11 @@
+SWIG
+SWIG (Simplified Wrapper and Interface Generator) is an open source software tool used to connect programs or libraries written in C/C++ with scripting languages such as Tcl, Perl, Python, Ruby, PHP, Lua, R and other languages like Java, C#, Scheme and Ocaml. Output can also be in the form of XML or Lisp S-expressions.
+
+The aim is to achieve the connection between the programs and the scripting languages with minimal effort: a small number of directives are added to the program's header files, and then the SWIG tool creates source code which provides the glue between C/C++ and the target language. Depending on the language, this glue comes in three forms:
+
+There are two main purposes of embedding a scripting engine into an existing C/C++ program:
+There are several reasons to create dynamic libraries that can be loaded into existing interpreters, including:
+
+SWIG is written in C and C++ and has been publicly available since February 1996. The initial author and main developer was Dave Beazley who developed SWIG while working as a graduate student at Los Alamos National Laboratory and the University of Utah and while on the faculty at the University of Chicago. Development is currently supported by an active group of volunteers led by William Fulton. SWIG has been released under a BSD type license, meaning it can be used, copied, modified and redistributed freely, for commercial and non-commercial purposes.
+
+

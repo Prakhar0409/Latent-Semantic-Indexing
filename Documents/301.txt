@@ -1,0 +1,10 @@
+First-class object
+In computing, a first-class object (also value, entity, and citizen), in the context of a particular programming language, is an entity which can be used in programs without restriction (when compared to other kinds of objects in the same language). In computer science the term reification is used when referring to the process (technique, mechanism) of making something a first-class object.
+The term was coined by Christopher Strachey in the context of “functions as first-class citizens” in the mid-1960s.[1].
+
+Depending on the language, this can imply:
+For example, in C and C++, it is not possible to create new functions at runtime (although see anonymous lambda bindings in the Boost library), whereas other kinds of objects can be created at runtime. As a result, functions in C are not first-class objects; instead, they are sometimes called second-class objects because they can still be manipulated in most of the above fashions (via function pointers). Similarly, strings are not first class objects in FORTRAN 66 because it is not possible to assign them to variables (unlike, for example, numbers).
+In Smalltalk, functions (methods) are first class objects, just like Smalltalk classes. Since Smalltalk Operators (+, -) are methods, they are also objects.
+In virtually all languages, values of the simplest data types, including integers and floating-point numbers, are first-class objects. In many older languages, arrays were not first-class: they could not be assigned as objects; only their elements could be directly manipulated. Few languages support continuations and GOTO-labels as first-class objects, though arguably they don't support them as objects at all. Closures were previously also rarely supported as first-class values, although this is common in recent languages.
+
+

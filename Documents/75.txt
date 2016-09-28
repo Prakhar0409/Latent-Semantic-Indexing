@@ -1,0 +1,37 @@
+Behavior Driven Development
+Behavior Driven Development (or BDD) is an Agile software development technique that encourages collaboration between developers, QA and non-technical or business participants in a software project. It was originally conceived in 2003 by Dan North [1] as a response to Test Driven Development, and has evolved over the last few years.
+The focus of BDD is the language and interactions used in the process of software development. Behavior-driven developers use their native language in combination with the ubiquitous language of Domain Driven Design to describe the purpose and benefit of their code. This allows the developers to focus on why the code should be created, rather than the technical details, and minimizes translation between the technical language in which the code is written and the domain language spoken by the business, users, stakeholders, project management etc.
+Dan North created a story-level BDD framework for Ruby called rbehave which was later integrated into the RSpec project. He also worked with David Chelimsky and Aslak Hellesøy and others to develop RSpec and also to write "The RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends". The first story-based framework in RSpec was later replaced by Cucumber mainly developed by Aslak Hellesøy.
+
+The practices of BDD include:
+
+BDD is driven by Business Value; that is, the benefit to the business which accrues once the application is in production. The only way in which this benefit can be realized is through the User Interface(s) to the application, usually (but not always) a GUI.
+In the same way, each piece of code, starting with the UI, can be considered a stakeholder of the other modules of code which it uses. Each element of code provides some aspect of behavior which, in collaboration with the other elements, provides the application behavior.
+The first piece of production code that BDD developers implement is the UI. Developers can then benefit from quick feedback as to whether the UI looks and behaves appropriately. Through code, and using principles of good design and refactoring, developers discover collaborators of the UI, and of every unit of code thereafter. This helps them adhere to the principle of YAGNI, since each piece of production code is required either by the business, or by another piece of code already written.
+
+The requirements of a retail application might be, "Refunded or replaced items should be returned to stock."
+In BDD, a developer or QA might clarify the requirements by breaking this down into specific examples, eg.
+
+
+Each scenario is an exemplar, designed to illustrate a specific aspect of behavior of the application.
+When discussing the scenarios, participants question whether the outcomes described always result from those events occurring in the given context. This can help to uncover further scenarios which clarify the requirements. For instance, a domain expert noticing that refunded items are not always returned to stock might reword the requirements as "Refunded or replaced items should be returned to stock unless faulty."
+This in turn helps participants to pin down the scope of requirements, which leads to better estimates of how long those requirements will take to implement.
+The words Given, When and Then are often used to help drive out the scenarios, but are not mandated.
+These scenarios can also be automated, if an appropriate tool exists to allow automation at the UI level. If no such tool exists then it may be possible to automate at the next level in, ie: if an MVC design pattern has been used, the level of the Controller.
+
+The same principles of examples, using contexts, events and outcomes can be used to drive development at a unit level. For instance, the following examples describe an aspect of behavior of a list:
+Example 1: New lists are empty
+Example 2: Lists with things in them are not empty.
+Both these examples are required to describe the behavior of the
+method, and to derive the benefit of the method. These examples can be automated using TDD frameworks. In BDD these examples are usually encapsulated in a single test method, with the name of the method being a complete description of the behavior.
+For instance, using Java and JUnit 4, the above examples might become:
+Sometimes the difference between the context, events and outcomes may be made more explicit. For instance:
+However the example is phrased, the effect should be that of describing the behavior of the code in question. For instance, from the examples above one can derive:
+The description is useful if the test fails, and provides documentation of the code's behavior to anyone interested in Lists or WindowControls. Once the examples have been written they are then run and the code implemented to make them work in the same way as TDD.
+
+Because of the outside-in nature of BDD, developers will often find themselves trying to use units of code which don't yet exist. When this happens, an object which is simpler than the desired code, and provides the same interface but predictable behaviour, can be injected into the code which needs it.
+These objects can either be created by hand, or created using a mocking framework such as Moq, NMock, Rhino Mocks, JMock or EasyMock.
+BDD proponents claim that the use of "should" and "ensureThat" in BDD examples encourages developers to question whether the responsibilities they're assigning to their classes are appropriate, or whether they can be delegated or moved to another class entirely. Questioning responsibilities in this way, and using mocks to fulfill the required roles of collaborating classes, encourages the use of Role-based Interfaces. It also helps to keep the classes small and loosely coupled.
+
+
+

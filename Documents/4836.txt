@@ -1,0 +1,4 @@
+Precalculus
+In American mathematics education, precalculus, an advanced form of secondary school algebra, is a foundational mathematical discipline. It is also called introduction to Analysis. In many schools, Pre-Calculus is actually two separate courses: Algebra and Trigonometry. Pre-Calculus does not prepare students for Calculus as Pre-Algebra prepares students for Algebra 1. While Pre-Algebra teaches students many different fundamental algebra topics, Pre-Calculus does not involve calculus, but explores topics that will be applied in calculus.
+In detail, precalculus deals with:
+

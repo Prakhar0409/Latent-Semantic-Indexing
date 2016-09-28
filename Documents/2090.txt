@@ -1,0 +1,49 @@
+Elastic collision
+An elastic collision is a collision in which the total kinetic energy of the colliding bodies after collision is equal to their total kinetic energy before collision. Elastic collisions occur only if there is no net conversion of kinetic energy into other forms. During the collision kinetic energy is first converted to potential energy associated with a repulsive force between the particles (when the particles move against this force, i.e. the angle between the force and the relative velocity is obtuse), then this potential energy is converted back to kinetic energy (when the particles move with this force, i.e. the angle between the force and the relative velocity is acute).
+The collisions of atoms are elastic collisions (Rutherford backscattering is one example).
+The molecules — as distinct from atoms — of a gas or liquid rarely experience perfectly elastic collisions because kinetic energy is exchanged between the molecules’ translational motion and their internal degrees of freedom with each collision. At any one instant, half the collisions are, to a varying extent, inelastic collisions (the pair possesses less kinetic energy in their translational motions after the collision than before), and half could be described as “super-elastic” (possessing more kinetic energy after the collision than before). Averaged across the entire sample, molecular collisions can be regarded as essentially elastic as long as black-body photons are not permitted to carry away energy from the system.
+In the case of macroscopic bodies, elastic collisions are an ideal never fully realized, but approximated by the interactions of objects such as billiard balls.
+When considering energies, possible rotational energy before and/or after a collision may also play a role.
+
+
+Consider two particles, denoted by subscripts 1 and 2. Let m be the mass, u be the velocity before collision and v be the velocity after collision. Prime denotes velocity and mass after the collision takes place.
+Total kinetic energy is conserved throughout the collision, as is momentum, hence the equality in the resulting equations. The basic formula for one-dimensional Newtonian equations, regardless of angle or final velocity is represented as follows:
+Total kinetic energy is the same before and after the collision, hence:
+Total momentum remains constant throughout the collision:
+These equations may be solved directly to find  and . However, the algebra can get messy. A cleaner solution is to first change the frame of reference such that either  or  appears to be 0. The final velocities in the new frame of reference can then be determined followed by a conversion back to the original frame of reference to reach the same final result. Once either  or  is determined the other may be found by symmetry.
+Solving these simultaneous equations we get:
+OR
+The latter is the trivial solution, corresponding to the case that no collision has taken place (yet).
+For example:
+After collision:
+Property:
+Derivation: Using the kinetic energy we can write
+Rearrange momentum equation:
+Dividing kinetic energy equation by the momentum equation we get:
+As can be expected, the solution is invariant under adding a constant to all velocities, which is like using a frame of reference with constant translational velocity.
+The velocity of the center of mass does not change by the collision:
+The center of mass at time  before the collision and at time  after the collision is given by two equations:
+Hence, the velocities of the center of mass before and after the collision are:
+The numerator of  is the total momentum before the collsion, and numerator of  is the total momentum after the collsion. Since momentum is conserved, we have .
+With respect to the center of mass both velocities are reversed by the collision: in the case of particles of different mass, a heavy particle moves slowly toward the center of mass, and bounces back with the same low speed, and a light particle moves fast toward the center of mass, and bounces back with the same high speed.
+From the equations for  and  above we see that in the case of a large , the value of  is small if the masses are approximately the same: hitting a much lighter particle does not change the velocity much, hitting a much heavier particle causes the fast particle to bounce back with high speed.
+Therefore a neutron moderator (a medium which slows down fast neutrons, thereby turning them into thermal neutrons capable of sustaining a chain reaction) is a material full of atoms with light nuclei (with the additional property that they do not easily absorb neutrons): the lightest nuclei have about the same mass as a neutron.
+
+According to Special Relativity,
+Where p denotes momentum of any massive particle, v denotes velocity, c denotes the speed of light.
+in the center of momentum frame where the total momentum equals zero,
+Where m1 represents the rest mass of the first colliding body, m2 represents the rest mass of the second colliding body, u1 represents the initial velocity of the first collidng body, u2 represents the initial velocity of the second colliding body, v1 represents the velocity after collision of the first colliding body, v2 represents the velocity after collision of the second colliding body, p1 denotes the momentum of the first colliding body, p2 denotes the momentum of the second colliding body and c denotes the speed of light in vacuum, E denotes the total energy of the system (i.e. the sum of rest masses and kinetic energies of the colliding bodies).
+Since the total energy and momentum of the system are conserved and the rest mass of the colliding body do not change, it is shown that the momentum of the colliding body is decided by the rest masses of the colliding bodies, total energy and the total momentum. The magnitude of the momentum of the colliding body does not change after collision but the direction of movement is opposite relative to the center of momentum frame.
+Classical Mechanics is only a good approximation. It will give accurate results when it deals with the object which is macroscopic and running with much lower speed than the speed of light. Beyond the classical limits, it will give a wrong result. Total momentum of the two colliding bodies is frame-dependent. In the center of momentum frame, according to Classical Mechanics,
+It is shown that u1 = − v1 remains true in relativistic calculation despite other differences. One of the postulates in Special Relativity states that the Laws of Physics should be invariant in all inertial frames of reference. That is, if total momentum is conserved in a particular inertial frame of reference, total momentum will also be conserved in any inertial frame of reference, although the amount of total momentum is frame-dependent. Therefore, by transforming from an inertial frame of reference to another, we will be able to get the desired results. In a particular frame of reference where the total momentum could be any,
+We can look at the two moving bodies as one system of which the total momentum is pT, the total energy is E and its velocity vc is the velocity of its center of mass. Relative to the center of momentum frame the total momentum equals zero. It can be shown that vc is given by:
+Now the velocities before the collision in the center of momentum frame u1' and u2' are:
+When u1 < < c and u2 < < c,
+Therefore, the classical calculation only holds true when the speed of both colliding bodies is much lower than the speed of light (about 300 million m/s).
+
+For the case of two colliding bodies in two-dimensions, the overall velocity of each body must be split into two perpendicular velocities: one tangent to the common normal surfaces of the colliding bodies at the point of contact, the other along the line of collision. Since the collision only imparts force along the line of collision, the velocities that are tangent to the point of collision do not change. The velocities along the line of collision can then be used in the same equations as a one-dimensional collision. The final velocities can then be calculated from the two new component velocities and will depend on the point of collision. Studies of two-dimensional collisions are conducted for many bodies in the framework of a two-dimensional gas.
+In a center of momentum frame at any time the velocities of the two bodies are in opposite directions, with magnitudes inversely proportional to the masses. In an elastic collision these magnitudes do not change. The directions may change depending on the shapes of the bodies and the point of impact. For example, in the case of spheres the angle depends on the distance between the (parallel) paths of the centers of the two bodies. Any non-zero change of direction is possible: if this distance is zero the velocities are reversed in the collision; if it is close to the sum of the radii of the spheres the two bodies are only slightly deflected.
+
+
+Elastic collision in one dimension in special relativity
+

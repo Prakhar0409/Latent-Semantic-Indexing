@@ -1,0 +1,66 @@
+Doomsday rule
+The Doomsday rule or Doomsday algorithm is a way of calculating the day of the week of a given date. It provides a perpetual calendar since the Gregorian calendar moves in cycles of 400 years.
+The algorithm for mental calculation was invented by John Conway.[1] It takes advantage of the fact that within any calendar year, the days of 4/4, 6/6, 8/8, 10/10, 12/12, and the last day of February always occur on the same day of the week—the so-called "doomsday" (and furthermore that other months have "doomsday" on the pairs 5/9 and 9/5 as well as 7/11 and 11/7, which can be remembered using a simple mnemonic). This applies to both the Gregorian calendar A.D. and the Julian calendar, but note that for the Julian calendar the Doomsday of a year is a weekday that is usually different from that for the Gregorian calendar.
+The algorithm has three steps: finding the anchor day for the century (usually called the century day), finding a year's Doomsday, and finding the day of week of the day in question.
+This algorithm involves treating days of the week like numbers mod 7, so John Conway suggests thinking of the days of the week as Noneday, Oneday, Twosday, Treblesday, Foursday, Fiveday, and Six-a-day.
+
+We first take the anchor day for the century. For the purposes of the Doomsday rule, a century starts with a 00 year and ends with a 99 year. The following table shows the anchor day of centuries 1800–1899, 1900–1999, 2000–2099 and 2100–2199.
+Since in the Gregorian calendar there are 146097 days, or exactly 20871 seven-day weeks, in 400 years, the anchor day repeats every four centuries. For example, the anchor day of 1700–1799 is the same as the anchor day of 2100–2199, i.e. Sunday.
+
+Next, we find the year's Doomsday. To accomplish that according to Conway:
+For the twentieth-century year 1966, for example:
+As described in bullet 4, above, this is equivalent to:
+So Doomsday in 1966 fell on Monday.
+Similarly, Doomsday in 2005 is on a Monday:
+
+The doomsday calculation is effectively calculating the number of days between any given date in the base year and the same date in the current year, then taking the remainder modulo 7. When both dates come after the leap day (if any), the difference is just 365y plus y/4 (rounded down). But 365 equals 52*7+1, so after taking the remainder we get just
+This gives a simpler formula if one is comfortable dividing large values of y by both 4 and 7. For example, we can compute , which gives the same answer as in the example above.
+Where 12 comes in is that the pattern of  almost repeats every 12 years. After 12 years, we get (12 + 12/4) mod 7 = 15 mod 7 = 1. If we replace y by y mod 12, we are throwing this extra day away; but adding back in  compensates for this error, giving the final formula.
+
+One can easily find the day of the week of a given calendar date from a nearby Doomsday.
+The following dates all occur on Doomsday for any given Gregorian or Julian year:
+The dates listed above were chosen to be easy to remember; the ones for even months are simply doubles, 4/4, 6/6, 8/8, 10/10, and 12/12. Four of the odd month dates (5/9, 9/5, 7/11, and 11/7) are recalled using the mnemonic "I work from 9 to 5 at the 7-11."
+For dates in March, March 7 falls on Doomsday, but the pseudodate "March 0" is easier to remember, as it is necessarily the same as the last day of February.
+Doomsday is directly related to weekdays of dates in the period from March through February of the next year. For January and February of the same year, common years and leap years have to be distinguished.
+
+* In leap years the nth Doomsday is in ISO week n. In common years the day after the nth Doomsday is in week n. Thus in a common year the week number on the Doomsday itself is one less if it is a Sunday, i.e., in a common year starting on Friday.
+
+For computer use the following formulas for the Doomsday of a year are convenient.
+For the Gregorian calendar:
+For the Julian calendar:
+The formulas apply also for the proleptic Gregorian calendar and the proleptic Julian calendar. They use the floor function and astronomical year numbering for years BC.
+For comparison, see the calculation of a Julian day number.
+
+The full 400-year cycle of Doomsdays is given in the following table. The centuries are for the Gregorian and proleptic Gregorian calendar, unless marked with a J for Julian (for the latter not all centuries are shown, for the missing ones it is easy to interpolate). The Gregorian leap years are highlighted.
+Negative years use astronomical year numbering. Year 25BC is -24, shown in the column of -100J (proleptic Julian) or -100 (proleptic Gregorian), at the row 76.
+Frequency in the 400-year cycle (leap years are widened again):
+Adding common and leap years:
+A leap year with Monday as Doomsday means that Sunday is one of 97 days skipped in the 497-day sequence. Thus the total number of years with Sunday as Doomsday is 71 minus the number of leap years with Monday as Doomsday, etc. Since Monday as Doomsday is skipped across 29 February 2000 and the pattern of leap days is symmetric about that leap day, the frequencies of Doomsdays per weekday (adding common and leap years) are symmetric about Monday. The frequencies of Doomsdays of leap years per weekday are symmetric about the Doomsday of 2000, Tuesday.
+The frequency of a particular date being on a particular weekday can easily be derived from the above (for a date from 1 January - 28 February, relate it to the Doomsday of the previous year).
+For example, 28 February is one day after Doomsday of the previous year, so it is 58 times each on Tuesday, Thursday and Sunday, etc. 29 February is Doomsday of a leap year, so it is 15 times each on Monday and Wednesday, etc.
+
+Regarding the frequency of Doomsdays in a Julian 28-year cycle, there are 1 leap year and 3 common years for every weekday, the latter 6, 17 and 23 years after the former (so with intervals of 6, 11, 6, and 5 years; not evenly distributed because after 12 years the day is skipped in the sequence of Doomsdays).[citation needed] The same cycle applies for any given date from 1 March falling on a particular weekday.
+For any given date up to 28 February falling on a particular weekday, the 3 common years are 5, 11, and 22 years after the leap year, so with intervals of 5, 6, 11, and 6 years. Thus the cycle is the same, but with the 5-year interval after instead of before the leap year.
+Thus, for any date except 29 February, the intervals between common years falling on a particular weekday are 6, 11, 11. See e.g. at the bottom of the page Common year starting on Monday the years in the range 1906–2091.
+For 29 February falling on a particular weekday, there is just one in every 28 years, and it is of course a leap year.
+
+Doomsday for the current year (2009) is Saturday, and for some other contemporary years:
+
+Doomsday is related to the dominical letter of the year as follows.
+
+
+Suppose you want to know the day of the week of September 18, 1985. You begin with the century day, Wednesday. To this, we'll add three things, called a, b, and c above:
+This yields 8, which is equivalent to 1 mod 7. Thus, Doomsday in 1985 was a Thursday. We now compare September 18 to a nearby Doomsday. Since September 5 is a Doomsday, we see that the 18th is 13 past a Doomsday, which is equivalent to -1 mod 7. Thus, we take one away from Thursday to find that September 18, 1985 was a Wednesday.
+
+Suppose you want to know which day of the week Christmas Day of 2006 was. In the year 2006, Doomsday was Tuesday. (The century's anchor day was Tuesday, and 2006's Doomsday was seven days beyond and was a Tuesday.) This means that December 12, 2006 was a Tuesday. December 25, being thirteen days afterwards, fell on a Monday.
+
+Suppose that you want to find the day of week that the September 11, 2001 attacks on the World Trade Center occurred. The anchor was Tuesday, and Doomsday for that year is one day beyond which is Wednesday. September 5 was a Doomsday, and September 11, six days later, fell on a Tuesday.
+
+Suppose that you want to find the day of week that the American Civil War broke out at Fort Sumter, which was April 12, 1861. The anchor day for the century was 99 days after Thursday, or, in other words, Friday (calculated as (19+1)*5+floor(19/4); or just look at the chart, above, which lists the century's anchor days). The digits 61 gave a displacement of six days so Doomsday was Thursday. Therefore, April 4 was Thursday so April 12, eight days later, was a Friday.
+
+The Gregorian calendar accurately lines up with astronomical events such as solstices. In 1582 this modification of the Julian calendar was first instituted. In order to correct for calendar drift, 10 days were skipped, so Doomsday moved back 10 days (i.e. 3 days): Thursday 4 October (Julian, Doomsday is Wednesday) was followed by Friday 15 October (Gregorian, Doomsday is Sunday). The table includes Julian calendar years, but the algorithm is for the Gregorian and proleptic Gregorian calendar only.
+Note that the Gregorian calendar was not adopted simultaneously in all countries, so for many centuries, different regions used different dates for the same day. More information can be found in the Gregorian Calendar article.
+
+Calendars:
+
+

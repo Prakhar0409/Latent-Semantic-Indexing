@@ -1,0 +1,11 @@
+Content management system
+A content management system (CMS) is a computer application used to create, edit, manage, search and publish various kinds of digital media and electronic text.[1]
+CMSs are frequently used for storing, controlling, versioning, and publishing industry-specific documentation such as news articles, operators' manuals, technical manuals, sales guides, and marketing brochures. The content managed may include computer files, image media, audio files, video files, electronic documents, and Web content. These concepts represent integrated and interdependent layers. There are various nomenclatures known in this area: Web Content Management, Digital Asset Management, Digital Records Management, Electronic Content Management and so on. The bottom line for these systems is managing content and publishing, with a workflow if required.
+A CMS may support the following features:
+There are three main categories of CMS, with their respective domains of use:
+
+An enterprise content management (ECM) system is concerned with content, documents, details and records related to the organizational processes of an enterprise. The purpose is to manage the organization's unstructured information content, with all its diversity of format and location.
+
+A 'web content management' (WCM) system is a CMS designed to simplify the publication of Web content to Web sites, in particular allowing content creators to submit content without requiring technical knowledge of HTML or the uploading of files.
+
+

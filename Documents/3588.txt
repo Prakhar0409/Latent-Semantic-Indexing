@@ -1,0 +1,32 @@
+Null modem
+Null modem is a communication method to connect two DTEs (computer, terminal, printer etc.) directly using a RS-232 serial cable. The RS-232 standard is asymmetrical as to the definitions of the two ends of the communications link so it assumes that one end is a DTE and the other is a DCE e.g. a modem. With a null modem connection the transmit and receive lines are crosslinked. Depending on the purpose, sometimes also one or more handshake lines are crosslinked. Several wiring layouts are in use because the null modem connection is not covered by a standard.
+
+Originally, the RS-232 standard was developed and used for teletype machines which could communicate with each other over phone lines. Each teletype would be physically connected to its modem via an RS-232 connection and the modems could call each other to establish a remote connection between the teletypes. If a user wished to connect two teletypes directly without modems (null modem) then they would crosslink the connections. The term null modem may also refer to the cable or adaptor itself as well as the connection method.
+
+A null modem cable is an RS-232 serial cable where the transmit and receive lines are crosslinked. In some cables there are also handshake lines crosslinked. In many situations a straight through serial cable is used, together with a null modem adapter. The adapter contains the necessary crosslinks between the signals.
+
+This is one very common mapping which will work with software that relies on proper assertion of the CD signal.
+Here is another pin connection diagram for a null modem:
+
+
+The original application of a null modem was to connect two teletype terminals directly without using modems. As the RS-232 standard was adopted by other types of equipment, designers needed to decide whether their devices would have DTE-like or DCE-like interfaces. When an application required that two DTE's (or two DCE's) needed to communicate with each other, then a null modem was necessary.
+Null modems are commonly used for file transfer between computers, or remote operation. Under the Microsoft Windows operating system, the direct cable connection can be used over a null modem connection. The later versions of MS-DOS were shipped with the InterLnk program. Both pieces of software allow the mapping of a hard disk on one computer as a network drive on the other computer. No Ethernet hardware (such as a network interface card or a modem) is required for this.
+The popularity and availability of faster information exchange systems such as Ethernet made the use of null-modem cables less common. Nowadays, such a cable can still be useful to kernel hackers though, since it allows the user to remotely debug a kernel with a minimum of device drivers and code (a serial driver mainly consists of two FIFO buffers and an interrupt service routine). ddb or KGDB can be used to remotely debug BSD systems, for instance. This can also provide a serial console through which the in-kernel debugger can be dropped to in case of kernel panics, in which case the local monitor and keyboard may not be usable anymore (the X11 server reserves those resources if a GUI is used, and dropping to the debugger in the case of a panic won't free them).
+
+
+Connecting two DTE devices together requires a null modem that acts as a DCE between the devices by swapping the corresponding signals (TD-RD, DTR-DSR, and RTS-CTS). This can be done with a separate device and two cables, or using a cable wired to do this. If devices require Carrier Detect, it can be simulated by connecting DSR and DCD internally in the connector, thus obtaining CD from the remote DTR signal. One feature of the Yost standard is that a null modem cable is a "rollover cable" that just reverses pins 1 through 8 on one end to 8 through 1 on the other end.
+
+The most simplistic type of serial cable has no hardware handshaking. This cable has only the data and signal ground wires connected. All of the other pins have no connection. With this type of cable flow control has to be implemented in the software. The use of this cable is restricted to data-traffic only on its cross connected Rx and Tx lines. This cable can also be used in devices that do not need or make use of modem control signals.
+
+Because of the compatibility issues and potential problems with a simple null modem cable, a solution was developed to trick the software into thinking there was handshaking available. However, the cable pin out merely loops back and does not physically support the hardware flow control.
+This cable could be used with more software but it had no actual enhancements over its predecessor. The software would work thinking it had hardware flow control but could suddenly stop when higher speeds were reached and with no identifiable reason.
+
+In this cable the flow control lines are still looped back to the device. However, they are done so in a way that still permits Request To Send (RTS) and Clear To Send (CTS) flow control but has no actual functionality. The only way the flow control signal would reach the other device is if the opposite device checked for a Carrier Detect (CD) signal (at pin 1 on a DE-9 cable and pin 8 on a DB-25 cable). As a result only specially designed software could make use of this partial handshaking. Software flow control still worked with this cable.
+
+This cable is the most expensive of the serial cables because it has full wiring and pin-outs. This cable is incompatible with the previous types of cables' hardware flow control, due to a crossing of its RTS/CTS pins. With suitable software, the cable is capable of much higher speeds than its predecessors. It also supports software flow control.
+
+A virtual null modem is a communication method to connect two computer applications directly using a virtual serial port. Unlike a null modem cable, a virtual null modem is a software solution which emulates a hardware null modem within the computer. All features of a hardware null modem are available in a virtual null modem as well. There are some advantages to this:
+For instance, DOSBox has allowed older DOS games to use virtual null modems.
+Another common example consists of unix pseudo terminals (pty) which present a standard tty interface to user applications, including virtual serial controls. Two such ptys may easily be linked together by an application to form a virtual null-modem communication path.
+
+

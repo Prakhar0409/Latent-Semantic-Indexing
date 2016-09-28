@@ -1,0 +1,13 @@
+x264
+x264 is a free software library for encoding H.264/MPEG-4 AVC video streams. The code is developed by Laurent Aimar, Loren Merritt, Eric Petit (OS X), Min Chen (vfw/asm), Justin Clay (vfw), Måns Rullgård, Radek Czyz, Christian Heine (asm), Alex Izvorski, and Alex Wright. It is released under the terms of the GNU General Public License.
+
+Several graphical user interfaces have been made for the command line version, including Staxrip, MeGUI, AutoAC and a x264CLI GUI (requires .NET (1.1) framework).
+
+As of August 2008, x264 implements more features than any other H.264 encoder.
+
+x264 has won awards in the following codec comparisons:
+
+
+
+
+

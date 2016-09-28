@@ -1,0 +1,61 @@
+Extensible Firmware Interface
+The Extensible Firmware Interface (EFI) is a specification that defines a software interface between an operating system and platform firmware. EFI is intended as a significantly improved replacement of the old legacy BIOS firmware interface historically used by all IBM PC-compatible personal computers.[1] The EFI specification was originally developed by Intel, and is now managed by the Unified EFI Forum and is officially known as Unified EFI (UEFI).
+
+The original motivation for EFI came during early development of the first Intel-HP Itanium systems in the mid-1990s. PC BIOS limitations (16-bit processor mode, 1 MB addressable space, PC AT hardware dependencies, etc.) were seen as clearly unacceptable for the larger server platforms Itanium was targeting. The initial effort to address these concerns was initially called Intel Boot Initiative and was later renamed to EFI.[2]
+EFI specification 1.02 was released by Intel on December 12, 2000. (Version 1.01 was the original issue; it had incorrect legal and trademark information and was quickly withdrawn.[3])
+EFI specification 1.10 was released by Intel on December 1, 2002. It included the EFI driver model as well as several minor enhancements to 1.02.
+In 2005, Intel contributed this specification to the UEFI Forum, who is now responsible for its development[4] and promotion. EFI was renamed to Unified EFI (UEFI) to reflect this; most documentation uses both terms interchangeably.
+The UEFI Forum released version 2.1 of the UEFI specification on January 7, 2007; as of March 2007, it is the latest publicly available specification. It added and improved cryptography, network authentication, and the User Interface Architecture (Human Interface Infrastructure in UEFI).
+
+The interface defined by the EFI specification includes data tables that contain platform information, and boot and runtime services that are available to the OS loader and OS.
+Some existing enhancements to PC BIOS, such as the Advanced Configuration and Power Interface (ACPI) and System Management BIOS (SMBIOS), are also present in EFI, as they do not rely on a 16-bit runtime interface.
+
+EFI defines boot services, which include text and graphical console support on various devices, bus, block and file services, and runtime services, such as date, time and NVRAM services.
+
+EFI defines protocol. A protocol is a set of software interfaces used for communication between two binary modules. All EFI drivers must provide services to others via protocols.
+
+In addition to standard architecture-specific device drivers, the EFI specification provides for a processor-independent device driver environment, called EFI Byte Code or EBC. System firmware is required by the UEFI specification to carry an interpreter for any EBC images that reside in or are loaded into the environment. In that sense, EBC is similar to Open Firmware, the hardware-independent firmware used in PowerPC-based Apple Macintosh and Sun Microsystems SPARC computers, amongst others.
+Some architecture-specific (non-EBC) EFI device driver types can have interfaces for use from the operating system. This allows the OS to rely on EFI for basic graphics and network support until OS specific drivers are loaded.
+
+An EFI boot manager is also used to select and load the operating system, removing the need for a dedicated boot loader mechanism (the OS boot loader is an EFI application).
+
+In addition to the standard PC disk partition scheme, Master boot record (MBR), EFI adds support for a new partitioning scheme: GUID Partition Table (GPT). GPT does not suffer from many of the limitations of MBR, in particular limits on number and size of disk partitions (up to 4 partitions per disk, up to 2TB per partition). The EFI specification does not include a description for a file system; implementations of EFI typically support FAT32 as their file system.[5]
+
+The EFI community has created an open source shell environment;[6] rather than booting directly into a full OS, on some implementations, the user can boot to the EFI shell. The shell is an EFI application; it can reside directly within the platform ROM, or on a device for which the drivers are in ROM.
+The shell can be used to execute other EFI applications, such as setup, OS install, diagnostic or configuration utilities, and system flash updates; it can also be used to play CDs or DVDs without having to boot to a complete operating system, provided that an EFI application with the appropriate features is written. Shell commands also make it possible to copy or move files and directories between supported file systems. Drivers can be loaded and unloaded, and a complete TCP/IP stack can also be used from within the shell.
+The EFI shell supports scripting through .nsh files, a type of batch file.
+Shell command names are often inherited from the DOS command line interpreter COMMAND.COM or the Unix shell. The shell can be viewed as a functional replacement for the DOS command line interface and the BIOS text user interface.
+Currently the shell is mainly used for development purposes. Most of the EFI-enabled products don't include the shell binary.
+
+Extensions to EFI can be loaded from virtually any non-volatile storage device attached to the computer. For example, an original equipment manufacturer (OEM) can sell systems with an EFI partition on the hard drive, which would add additional functions to the standard EFI firmware stored on the motherboard’s ROM.
+
+
+The Intel Platform Innovation Framework for EFI (also known as “the Framework”) is a set of specifications developed by Intel in conjunction with EFI. While EFI specifies the OS-to-firmware interface, the Framework specifies the structure used to build the firmware beneath the OS-to-firmware interface.
+In particular, the Framework includes all the steps needed to initialize the platform after power-on. These inner workings of firmware are not defined as part of the EFI specification, but some are part of the Platform Initialization Specification developed by UEFI. The Framework has been tested on Intel XScale, Intel Itanium and IA32 platforms.
+Compatibility with x86 operating systems that require “legacy BIOS” interfaces to operate is handled through a compatibility support module (CSM). The CSM includes a 16-bit binary (CSM16) supplied by a BIOS vendor and a “thunk” layer to connect CSM16 to the Framework.
+Intel developed a reference codebase for the Framework, codenamed “Tiano”. Tiano is a complete, legacy-free firmware implementation that includes support for EFI. Tiano does not include the 16-bit portion of the CSM, but provides the interfaces required to add one supplied by a BIOS vendor. Intel does not make the complete Tiano implementation available to end-users.
+A portion of the Tiano codebase (“the Foundation”) has been released as open source to the TianoCore project as the EFI Developer Kit (EDK). This implementation covers EFI and some hardware initialization code, but does not constitute feature-complete firmware by itself. Several licenses have been used for this code, including the BSD license and the Eclipse Public License.
+Products based on EFI, UEFI & the Framework specifications are available through independent BIOS vendors, such as Phoenix Technologies, American Megatrends (AMI) and Insyde Software. Some vendor implementations are entirely based on the Tiano implementation, while others are designed to be specification compliant without relying on Intel’s reference implementation.[7]
+
+Intel’s first Itanium workstations and servers, released in 2000, supported EFI 1.02.
+Hewlett-Packard’s first Itanium 2 systems, released in 2002, supported EFI 1.10; they were able to boot Windows, Linux, FreeBSD and HP-UX; OpenVMS added support in June, 2003.
+All Itanium or Itanium 2 systems must ship with EFI compliant firmware in order to comply with all DIG64 specifications.
+In November 2003, Gateway introduced the Gateway 610 Media Center, the first x86 Windows-based computer system to use firmware based on the Framework, Insyde Software's InsydeH2O. It still relied on a legacy BIOS implemented as a compatibility support module (CSM) to boot Windows.
+In January 2006, Apple Inc. shipped its first Intel-based Macintosh computers. These systems use EFI and the Framework instead of Open Firmware, which had been used on its previous PowerPC-based systems.[8] On April 5, 2006, Apple first released Boot Camp, which produces a Windows drivers disk and a non-destructive partitioning tool to allow the installation of Windows XP or Vista without requiring a reinstallation of Mac OS X. A firmware update was also released that added legacy BIOS support to its EFI implementation. Subsequent Macintosh models shipped with the newer firmware. Now all current Macintosh systems are also able to boot legacy BIOS Operating Systems such as Windows XP and Vista. (With the exception of the Xserve platform)
+The grand majority of Intel motherboards ship with Framework-based firmware. During 2005, more than one million Intel systems shipped with the Framework.[9] New mobile, desktop and server products, using the Framework, started shipping in 2006. For instance, all boards that use the Intel 945 chipset series use the Framework. However, the production firmware usually does not include EFI support, and is limited to legacy BIOS.[10]
+Since 2005, EFI has also been implemented on non-PC architectures, such as embedded systems based on XScale cores.[11]
+The EDK includes an NT32 target, which allows EFI firmware and EFI applications to run within a Windows application. But there no hardware direct access allowed by EDK NT32. It means only a subset of EFI application and drivers can be executed at EDK NT32 target.
+In 2007 HP released the 8000 series multifunction printers with EFI compliant firmware.[12]
+In 2007, a Chinese computer company named Great Wall Computer,.Co released its first EFI enabled desktop. It offers a bios level finger print solution and a graphic bios setup based on EFI. Intel showed this system during the first key note speech at IDF 2007 in Beijing.
+In 2008, many more x64 systems have transitioned to use the UEFI technology. While some of these systems still only support booting the BIOS-based OSes via CSM, other systems started to support booting UEFI-based OSes. For example, IBM x3450 server, MSI motherboards with ClickBIOS, all HP EliteBook Notebook and Tablet PCs, newer HP Compaq Notebook PCs (e.g., 6730b, 6735b, etc.). It is projected that by late 2009 or early 2010, more than 50% of the shipping x86-64 units will be UEFI based.
+
+An operating system that supports boot from (U)EFI is called (U)EFI-aware OS defined by (U)EFI spec. Here term boot from (U)EFI means directly boot system using (U)EFI OS loader stored at any of the storage device. The default location for OS loader is \EFI\BOOT\[architecture name]\boot[architecture name].efi. Here architecture name can be IA32, X64, IA64 and other options. Some OS vendors may have their own OS loader. They may also change the default boot location.
+
+
+EFI supports graphical menus and features, such as is implemented on Aptio or Great Wall UEFI.[18]
+There are two protocols defined by EFI spec can be used for graphics output. The first one is UGA, which stands for Universal Graphic Adapters. The second one is GOP, which stands for Graphic Output Protocol. The two are similar. UGA is only supported at EFI 1.1 or older specs. EFI does not define how a system should look. This depends fully on the implementation by BIOS vendors. Currently most EFI enabled machines only have a legacy BIOS-like UI.
+
+EFI has been criticized for bringing more complexity to the system, without bringing significant advantages[19] and disabling fully open-source BIOS replacements like OpenBIOS and Coreboot.[20]
+
+
+

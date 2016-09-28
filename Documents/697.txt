@@ -1,0 +1,20 @@
+dcraw
+dcraw is an open source computer program which is able to read numerous raw image formats, typically produced by high-end digital cameras. dcraw converts these images into the standard PPM and TIFF image formats. This conversion is sometimes referred to as developing a raw image (by analogy with the process of film development) since it renders raw image sensor data (a "digital negative") into a viewable form.
+
+While most camera manufacturers supply raw image decoding software for their cameras, this software is almost always proprietary, and often becomes unsupported when a camera model is discontinued. The file formats themselves are often undocumented, and several manufacturers have gone so far as to encrypt all or part of the data in their raw image format, in an attempt to prevent third-party software from accessing it.[1]
+Given this ever-expanding plethora of raw image formats, and uncertain and inconsistent support for them by the manufacturers, many photographers worry that their valuable raw images may become unreadable as the applications and operating systems required become obsolete.[2]
+In contrast to proprietary decoding software, dcraw strives for simplicity, portability, and consistency, as expressed by its author:
+dcraw's open source nature is crucial in assuring this universality: even if its author loses interest in developing the software, or in supporting a particular model of camera, interested users are free to extend it. This helps ensure that it will be possible to decode supported raw image formats far into the future, even after the cameras that produced them are obsolete.
+
+dcraw is written by Dave Coffin in portable ANSI C. Because many raw image formats are specific to one make or model of camera, dcraw is frequently updated to support new models.
+For many proprietary raw image formats, dcraw's source code (based largely on reverse-engineering) is the best—or only—publicly-available documentation. dcraw currently supports the raw formats of several hundred cameras (including intentionally obfuscated formats).
+dcraw is built around the Unix philosophy. The program is a command line tool which takes a list of raw image files to process, along with any image adjustment options desired. This makes dcraw easy to use from shell scripts. dcraw also serves as the basis for numerous high-level raw image-processing applications (such as viewers and converters), both free and open source software as well as proprietary software.
+
+Several GUI front-ends for dcraw are available. These applications use dcraw as a back-end to do the actual processing of raw images, but present a graphical interface with which to adjust the image processing options.
+Unix-like operating systems:
+Mac OS X:
+Microsoft Windows:
+
+
+
+Interviews:

@@ -1,0 +1,22 @@
+Propositional calculus
+In logic and mathematics, a propositional calculus or logic (also a sentential calculus) is a formal system in which formulae representing propositions can be formed by combining atomic propositions using logical connectives, and a system of formal proof rules allows certain formulae to be established as theorems.
+
+In general terms, a calculus is a formal system that consists of a set of syntactic expressions (well-formed formulæ or wffs), a distinguished subset of these expressions (axioms), plus a set of formal rules that define a specific binary relation, intended to be interpreted as logical equivalence, on the space of expressions.
+When the formal system is intended to be a logical system, the expressions are meant to be interpreted as statements, and the rules, known as inference rules, are typically intended to be truth-preserving. In this setting, the rules (which may include axioms) can then be used to derive ("infer") formulæ representing true statements from given formulæ representing true statements.
+The set of axioms may be empty, a nonempty finite set, a countably infinite set, or be given by axiom schemata. A formal grammar recursively defines the expressions and well-formed formulæ (wffs) of the language. In addition a semantics may be given which defines truth and valuations (or interpretations).
+The language of a propositional calculus consists of (1) a set of primitive symbols, variously referred to as atomic formulae, placeholders, proposition letters, or variables, and (2) a set of operator symbols, variously interpreted as logical operators or logical connectives. A well-formed formula (wff) is any atomic formula or any formula that can be built up from atomic formulæ by means of operator symbols according to the rules of the grammar.
+
+The following outlines a standard propositional calculus. Many different formulations exist which are all more or less equivalent but differ in the details of (1) their language, that is, the particular collection of primitive symbols and operator symbols, (2) the set of axioms, or distinguished formulæ, and (3) the set of inference rules.
+
+A propositional calculus is a formal system , whose formulæ are constructed in the following manner:
+
+Let , where  are defined as follows:
+
+Let , where  are defined as follows:
+In the following example of a propositional calculus, the transformation rules are intended to be interpreted as the inference rules of a so-called natural deduction system. The particular system presented here has no initial points, which means that its interpretation for logical applications derives its theorems from an empty axiom set.
+Our propositional calculus has ten inference rules. These rules allow us to derive other true formulae given a set of formulae that are assumed to be true. The first nine simply state that we can infer certain wffs from other wffs. The last rule however uses hypothetical reasoning in the sense that in the premise of the rule we temporarily assume an (unproven) hypothesis to be part of the set of inferred formulae to see if we can infer a certain other formula. Since the first nine rules don't do this they are usually described as non-hypothetical rules, and the last one as a hypothetical rule.
+
+
+One of the main uses of a propositional calculus, when interpreted for logical applications, is to determine relations of logical equivalence between propositional formulæ. These relationships are determined by means of the available transformation rules, sequences of which are called derivations or proofs.
+In the discussion to follow, a proof is presented as a sequence of numbered lines, with each line consisting of a single formula followed by a reason or justification for introducing that formula. Each premise of the argument, that is, an assumption introduced as an hypothesis of the argument, is listed at the beginning of the sequence and is marked as a "premise" in lieu of other justification. The conclusion is listed on the last line. A proof is complete if every line follows from the previous ones by the correct application of a transformation rule. (For a contrasting approach, see proof-trees).
+

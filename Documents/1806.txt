@@ -1,0 +1,26 @@
+Multi-agent system
+A multi-agent system (MAS) is a system composed of multiple interacting intelligent agents. Multi-agent systems can be used to solve problems which are difficult or impossible for an individual agent or monolithic system to solve. Examples of problems which are appropriate to multi-agent systems research include online trading,[1] disaster response,[2] and modelling social structures.[3]
+
+The agents in a multi-agent system have several important characteristics:[4]
+Typically multi-agent systems research refers to software agents. However, the agents in a multi-agent system could equally well be robots, humans or human teams. A multi-agent system may contain combined human-agent teams.
+Multi-agent systems can manifest self-organization and complex behaviors even when the individual strategies of all their agents are simple.
+Agents can share knowledge using any agreed language, within the constraints of the system's communication protocol. Example languages are Knowledge Query Manipulation Language (KQML) or FIPA's Agent Communication Language (ACL).
+
+
+Many MAS systems are implemented in computer simulations, stepping the system through discrete "time steps". The MAS components communicate typically using a weighted request matrix, e.g.
+and a weighted response matrix, e.g.
+A challenge-response-contract scheme is common in MAS systems, where
+also considering other components, evolving "contracts", and the restriction sets of the component algorithms.
+Another paradigm commonly used with MAS systems is the pheromone, where components "leave" information for other components "next in line" or "in the vicinity". These "pheromones" may "evaporate" with time, that is their values may decrease (or increase) with time.
+
+MAS systems, also referred to as "self-organized systems", tend to find the best solution for their problems "without intervention". There is high similarity here to physical phenomena, such as energy minimizing, where physical objects tend to reach the lowest energy possible, within the physical constrained world. For example: many of the cars entering a metropolis in the morning, will be available for leaving that same metropolis in the evening.
+The main feature which is achieved when developing MAS systems, if they work, is flexibility, since a MAS system can be added to, modified and reconstructed, without the need for detailed rewriting of the application. These systems also tend to be rapidly self-recovering and failure proof, usually due to the heavy redundancy of components and the self managed features, referred to, above.
+
+The study of multi-agent systems is concerned with the development and analysis of sophisticated artificial intelligence problem solving and control architectures for multiple-agent systems. Topics of research in MAS include:
+
+While ad hoc multi-agent systems are often created from scratch by researchers and developers, some frameworks have arisen that implement common standards (such as the FIPA agent system platforms and communication languages). These frameworks save developers time and also aid in the standardization of MAS development. Examples of such frameworks are:
+
+Multi-agent systems are applied in the real world to graphical applications such as computer games. Agent systems have been used in films.[6] They are also used for coordinated defence systems. Other applications include transportation, logistics, graphics, GIS as well as in many other fields. It is widely being advocated for use in networking and mobile technologies, to achieve automatic and dynamic load balancing, high scalability, and self-healing networks.
+
+
+

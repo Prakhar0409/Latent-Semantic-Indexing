@@ -1,0 +1,47 @@
+Second Reality
+Second Reality is a demo created by Future Crew for the Assembly '93 demoparty. In the PC demo competition, Second Reality placed first with its demonstration of 2D and 3D rendering. The demo was released to the public in October 1993. It is considered to be one of the best demos created during the early 1990s on the PC. Slashdot voted it one of the "Top 10 Hacks of All Time". [1]
+
+The effects produced by the demo exceeded what were widely believed to be the limits of PC hardware in 1993. Many techniques used by other demos, including Future Crew's own earlier work, were refined and reused in Second Reality. The demo had a soundtrack of Trance music composed by Skaven and Purple Motion using ScreamTracker 3. The degree of synchronization of the visuals with the music was highly impressive for its time.
+
+First the introduction plays, demonstrating text rendering on a background. After that is done several ships appear and fly away from the camera, demonstrating 3D rendering. After some distance the ships explode, sending out a shockwave (reminiscent of the Praxis explosion effect seen in the film "Star Trek VI"). The screen fades to display an anthropomorphic creature, at which point Purple Motion's main musical score for the demo begins. The image then flattens and falls horizontally to become a 3D, polygonal checkerboard.
+
+The music has now finished its introductory notes at this point and the first melody starts. Next a glenz (additively blended) polyhedron appears and bounces on the checkered surface, in perfect timing with the orchestra hits in the score, demonstrating 3D rendering and realtime mesh deformation. After a while another larger polyhedron appears and the smaller polyhedron begins bouncing inside the larger.
+
+The next scene is a winding, fluid tunnel built up by discrete points that move towards the camera. This creates a feeling of rushing through the tunnel for the viewer.
+
+The tunnel fades out into some oscillating circles which soon fade into the next scene.
+
+A scene that could be described as a light show. The scenes consist of multiple moiré patterns interacting. Moiré patterns were quite popular in demos of that time.
+
+Next an image of a creature rolls in from the right, and fades away. Some leaves and water are displayed, along with text characters floating downstream. The text says "Another way to scroll" and is an example of a scroller, which was present in most demos of the time.
+
+After the text has floated by, again the scene changes to display something that resembles an evil looking human head with a pentagram engraved on his forehead. A sphere comes down from the top left corner simulating the below surface being refracted through a magnifying sphere. This is where the soundtrack utters the cult phrase "I am not an atomic playboy", quoting Vice Admiral William H.P. Blandy's remarks before the Bikini nuclear test. The sphere vanishes down in the lower right corner and the camera begins to spin while zooming in and out to reveal a repeating pattern of heads, demonstrating a technique known as rotozooming. The camera then falls down and bounces back up on the surface twice, after which the scene again fades out.
+
+When the image fades in, the camera is placed close to a surface changing texture every time. This is a continuation of their work in Unreal where they first introduced the 'unreal' plasma effect.
+
+After a few surfaces have been displayed, a cube comes up that has these animated surfaces attached and spins around while translating towards and from the camera.
+
+After a while this scene fades and many small vector balls fall onto the screen and begin bouncing off the ground and morphing into various spiral patterns. (Because of a bug, this part will crash if the demo is installed in a directory with the complete path length exceeding 30 characters).
+
+Again there is a fadeout and a fade in, this time we are looking at a scene with two spheres, and a sword starts translating towards the camera. The spheres will display a reflection of the sword as well as a reflection of the aforementioned reflection in the other sphere. The scene was rendered using Future Crew's homemade raytracing software.
+
+As the scene changes again, this time image rendered will be of a surface changing shape, similar to that of water. This scene is rendered using a Voxel landscape rendering technique.
+
+After this, an image will fall in from above, picturing a rider on what appears to be yet another fantasy creature. Contrary to what the text says, this image was not drawn by the group members, it was available at the time in several image-art CDs. The image will hit the ground and bounce up while behaving like jelly.
+
+In the next scene, a craft reminiscent of the TIE/Advanced fighter from Star Wars: A New Hope flies around in a large 3D city, leaving it and heading up right over the text "Future Crew". This was later redone in the Final Reality demo by some of the previous members of Future Crew working for Remedy Entertainment. Flat shading is used for the buildings and Gouraud shading for the smooth trees and lettering at the end.
+
+The image fades out and the final scene fades in, an image of two nuts with the text "Future Crew" written on them.
+
+The demo can be started with a single character command line argument "2" through "5" to start from any of the later four parts.
+For another part that its introductory text calls "just an experiment" start the demo with a command line argument of "u". The screen will start filling with ever more stars warping towards the screen.
+
+While the demo code remains freely available on numerous Internet sites, it is difficult or impossible to run Second Reality directly on a modern PC. The demo used its own memory manager which accessed the MMU directly in a way which is not compatible with modern operating systems, accessed video and sound hardware directly (using its own built-in device drivers), and many of the timings in the demo do not scale up to modern CPU speeds.
+To run this demo on a modern machine running Windows or Linux, one can use DOSBox. DOSBox is even capable of emulating the exotic video modes and the Gravis Ultrasound preferred by Second Reality.
+The demo runs best on an Intel 80486 PC with a Gravis Ultrasound or a Sound Blaster Pro (or register-compatible clone).
+
+The legendary state of this demo inspired a lot of people to do their own remixes of the show. The most popular ones are the following:
+
+
+
+Video capture of Second Reality at YouTube

@@ -1,0 +1,10 @@
+Vishing
+Vishing is the criminal practice of using social engineering over the telephone system, most often using features facilitated by Voice over IP (VoIP), to gain access to private personal and financial information from the public for the purpose of financial reward. The term is a combination of "voice" and phishing. Vishing exploits the public's trust in landline telephone services, which have traditionally terminated in physical locations which are known to the telephone company, and associated with a bill-payer. The victim is often unaware that VoIP makes formerly difficult-to-abuse tools/features of caller ID spoofing, complex automated systems (IVR), low cost, and anonymity for the bill-payer widely available. Vishing is typically used to steal credit card numbers or other information used in identity theft schemes from individuals.
+Vishing is very hard for legal authorities to monitor or trace. To protect themselves, consumers are advised to be highly suspicious when receiving messages directing them to call and provide credit card or bank numbers. Rather than provide any information, the consumer is advised to contact their bank or credit card company directly to verify the validity of the message.[citation needed]
+There is technology that monitors all PSTN based traffic and can identify vishing attempts as a result of patterns and anomalies in call activity. One example is a multiple calls from a limited set of skype numbers to call centers.
+
+(In a common variation, an email "phish" is sent instead of war-dialing - the victim is instructed to call the following phone number immediately and credit card or bank account information is gathered)
+
+
+
+

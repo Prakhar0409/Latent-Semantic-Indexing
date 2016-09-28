@@ -1,0 +1,74 @@
+Municipal bond
+Bond market
+Fixed income
+Corporate bond
+Government bond
+Municipal bond
+Bond valuation
+High-yield debt
+Stock market
+Stock
+Preferred stock
+Common stock
+Registered share
+Voting share
+Stock exchange
+Foreign exchange market
+Derivatives market
+Credit derivative
+Hybrid security
+Options
+Futures
+Forwards
+Swaps
+Other Markets
+Commodity market
+Money market
+OTC market
+Real estate market
+Spot market
+Finance series
+Financial market
+Financial market participants
+Corporate finance
+Personal finance
+Public finance
+Banks and Banking
+Financial regulation
+A municipal bond is a bond issued by a city or other local government, or their agencies. Potential issuers of municipal bonds include cities, counties, redevelopment agencies, school districts, publicly owned airports and seaports, and any other governmental entity (or group of governments) below the state level. Municipal bonds may be general obligations of the issuer or secured by specified revenues. Interest income received by holders of municipal bonds is often exempt from the federal income tax and from the income tax of the state in which they are issued, although municipal bonds issued for certain purposes may not be tax exempt.
+
+
+Municipal bonds are issued by states, cities, and counties, or their agencies (the municipal issuer) to raise funds. The methods end traces of issuing debt are governed by an extensive system of laws and regulations, which vary by state. Bonds bear interest at either a fixed or variable rate of interest, which can be subject to a cap known as the maximum legal limit. If a bond measure is proposed in a local county election, a Tax Rate Statement may be provided to voters, detailing best estimates of the tax rate required to levy and fund the bond.
+The issuer of a municipal bond receives a cash payment at the time of issuance in exchange for a promise to repay the investors who provide the cash payment (the bond holder) over time. Repayment periods can be as short as a few months (although this is rare) to 20, 30, or 40 years, or even longer.
+The issuer typically uses proceeds from a bond sale to pay for capital projects or for other purposes it cannot or does not desire to pay for immediately with funds on hand. Tax regulations governing municipal bonds generally require all money raised by a bond sale to be spent on one-time capital projects within three to five years of issuance.[1] Certain exceptions permit the issuance of bonds to fund other items, including ongoing operations and maintenance expenses, the purchase of single-family and multi-family mortgages, and the funding of student loans, among many other things.
+Because of the special tax-exempt status of most municipal bonds, investors usually accept lower interest payments than on other types of borrowing (assuming comparable risk). This makes the issuance of bonds an attractive source of financing to many municipal entities, as the borrowing rate available in the open market is frequently lower than what is available through other borrowing channels.
+Municipal bonds are one of several ways states, cities and counties can issue debt. Other mechanisms include certificates of participation and lease-buyback agreements. While these methods of borrowing differ in legal structure, they are similar to the municipal bonds described in this article..
+
+Municipal bond holders may purchase bonds either directly from the issuer at the time of issuance (on the primary market), or from other bond holders at some time after issuance (on the secondary market). In exchange for an upfront investment of capital, the bond holder receives payments over time composed of interest on the invested principal, and a return of the invested principal itself (see bond).
+Repayment schedules differ with the type of bond issued. Municipal bonds typically pay interest semi-annually. Shorter term bonds generally pay interest only until maturity; longer term bonds generally are amortized through annual principal payments. Longer and shorter term bonds are often combined together in a single issue that requires the issuer to make approximately level annual payments of interest and principal. Certain bonds, known as zero coupon or capital appreciation bonds, accrue interest until maturity at which time both interest and principal become due.
+
+
+One of the primary reasons municipal bonds are considered separately from other types of bonds is their special ability to provide tax-exempt income. Interest paid by the issuer to bond holders is often exempt from all federal taxes, as well as state or local taxes depending on the state in which the issuer is located, subject to certain restrictions. Bonds issued for certain purposes are subject to the alternative minimum tax.
+The type of project or projects that are funded by a bond affects the taxability of income received on the bonds held by bond holders. Interest earnings on bonds that fund projects that are constructed for the public good are generally exempt from federal income tax, while interest earnings on bonds issued to fund projects partly or wholly benefiting only private parties, sometimes referred to as private activity bonds, may be subject to federal income tax.
+The laws governing the taxability of municipal bond income are complex; however, bonds are typically certified by a law firm as either tax-exempt (federal and/or state income tax) or taxable before they are offered to the market. Purchasers of municipal bonds should be aware that not all municipal bonds are tax-exempt.
+
+The risk ("security") of a municipal bond is a measure of how likely the issuer is to make all payments, on time and in full, as promised in the agreement between the issuer and bond holder (the "bond documents"). Different types of bonds are secured by various types of repayment sources, based on the promises made in the bond documents:
+In addition, there are several other types of municipal bonds with different promises of security.
+The probability of repayment as promised is often determined by an independent reviewer, or "rating agency". The three main rating agencies for municipal bonds in the United States are Standard & Poor's, Moody's, and Fitch. These agencies can be hired by the issuer to assign a bond rating, which is valuable information to potential bond holders that helps sell bonds on the primary market.
+
+Key information about new issues of municipal bonds (including, among other things, the security pledged for repayment of the bonds, the terms of payment of interest and principal of the bonds, the tax-exempt status of the bonds, and material financial and operating information about the issuer of the bonds) typically is found in the issuer's official statement. Official statements generally are available at no charge from the Electronic Municipal Market Access system (EMMA) at http://emma.msrb.org operated by the Municipal Securities Rulemaking Board (MSRB). For most municipal bonds issued in recent years, the issuer is also obligated to provide continuing disclosure to the marketplace, including annual financial information and notices of the occurrence of certain material events (including notices of defaults, rating downgrades, events of taxability, etc.).
+
+Because municipal bonds are most often tax-exempt, comparing the coupon rates of municipal bonds to corporate or other taxable bonds can be misleading. Taxes reduce the net income on taxable bonds, meaning that a tax-exempt municipal bond has a higher after-tax yield than a corporate bond with the same coupon rate.
+This relationship can be demonstrated mathematically, as follows:
+where
+For example if rc = 10% and t = 38%, then
+A municipal bond that pays 6.2% therefore generates equal interest income after taxes as a corporate bond that pays 10% (assuming all else is equal).
+Alternatively, one can calculate the taxable equivalent yield of a municipal bond and compare it to the yield of a corporate bond as follows:
+Because longer maturity municipal bonds tend to offer significantly higher after-tax yields than corporate bonds with the same credit rating and maturity, investors in higher tax brackets may be motivated to arbitrage municipal bonds against corporate bonds using a strategy called municipal bond arbitrage.
+Some municipal bonds are insured by monoline insurers that take on the credit risk of these bonds for a small fee.
+
+The municipal bond market was affected by the subprime mortgage crisis. During the crisis, monoline insurers that insured municipal bonds incurred heavy losses on the collateralized debt obligations (CDOs) and other structured financial products that they also insured. Consequently, the credit ratings of these monoline insurers were called into question, and the prices of municipal bonds fell.
+
+The historical default rate for municipal bonds is lower than that of corporate bonds. The Municipal Bond Fairness Act (HR 6308)[2], introduced September 9 2008, included the following table giving bond default rates up to 2007 for municipal versus corporate bonds by rating and rating agency.
+
+

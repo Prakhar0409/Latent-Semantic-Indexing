@@ -1,0 +1,23 @@
+Trusted Computer System Evaluation Criteria
+Trusted Computer System Evaluation Criteria (TCSEC) is a United States Government Department of Defense (DoD) standard that sets basic requirements for assessing the effectiveness of computer security controls built into a computer system. The TCSEC was used to evaluate, classify and select computer systems being considered for the processing, storage and retrieval of sensitive or classified information.
+The TCSEC, frequently referred to as the Orange Book, is the centerpiece of the DoD Rainbow Series publications. Initially issued in 1983 by the National Computer Security Center (NCSC), an arm of the National Security Agency, and then updated in 1985, TCSEC was replaced by the Common Criteria international standard originally published in 2005.
+
+
+The security policy must be explicit, well-defined and enforced by the computer system. There are two basic security policies:
+
+Individual accountability regardless of policy must be enforced. A secure means must exist to ensure the access of an authorized and competent agent which can then evaluate the accountability information within a reasonable amount of time and without undue difficulty. There are three requirements under the accountability objective:
+
+The computer system must contain hardware/software mechanisms that can be independently evaluated to provide sufficient assurance that the system enforces the above requirements. By extension, assurance must include a guarantee that the trusted portion of the system works only as intended. To accomplish these objectives, two types of assurance are needed with their respective elements:
+
+Within each class there is additional documentation set which addresses the development, deployment and management of the system rather than its capabilities. This documentation includes:
+
+The TCSEC defines four divisions: D, C, B and A where division A has the highest security. Each division represents a significant difference in the trust an individual or organization can place on the evaluated system. Additionally divisions C, B and A are broken into a series of hierarchical subdivisions called classes: C1, C2, B1, B2, B3 and A1.
+Each division and class expands or modifies as indicated the requirements of the immediately prior division or class.
+
+
+
+
+
+Army Regulation 380-19 is an example of a guide to determining which system class should be used in a given situation.
+
+

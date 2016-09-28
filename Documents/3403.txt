@@ -1,0 +1,22 @@
+Bitfrost
+Bitfrost is the security design specification for the OLPC XO, a low cost laptop intended for children in developing countries and developed by the One Laptop Per Child (OLPC) project. Bitfrost's main architect is Ivan Krstić[1]. The first public specification was made available in February 2007.
+
+
+No passwords are required to access or use the computer.
+
+Every program, when first installed, requests certain bundles of rights, for instance "accessing the camera", or "accessing the internet". The system keeps track of these rights, and the program is later executed in an environment which makes only the requested resources available. The implementation is not specified by Bitfrost, but dynamic creation of security contexts is required. The first implementation was based on vserver, the second and current implementation is based on user IDs and group IDs (/etc/password is edited when an activity is started), and a future implementation might involve SE Linux or some other technology.
+By default, the system denies certain combinations of rights; for instance, a program would not be granted both the right to access the camera and to access the internet. Anybody can write and distribute programs that request allowable right combinations. Programs that require normally unapproved right combinations need a cryptographic signature by some authority. The laptop's user can use the built-in security panel to grant additional rights to any application.
+
+The users can modify the laptop's operating system, a special version of Fedora Linux running the new Sugar graphical user interface and operating on top of Open Firmware[2]. The original system remains available in the background and can be restored.
+By acquiring a developer key from a central location, a user may even modify the background copy of the system and many aspects of the BIOS. Such a developer key is only given out after a waiting period (so that theft of the machine can be reported in time) and is only valid for one particular machine.
+
+The laptops request a new "lease" from a central network server once a day. These leases come with an expiry time (typically a month), and the laptop stops functioning if all its leases have expired. Leases can also be given out from local school servers or via a portable USB device. Laptops that have been registered as stolen cannot acquire a new lease.
+The deploying country decides whether this lease system is used and sets the lease expiry time.
+
+The laptop's built-in camera and microphone are hard-wired to LEDs, so that the user always knows when they are operating. This cannot be switched off by software.
+
+Len Sassaman, a computer security researcher at the Catholic University of Leuven in Belgium and his colleague Meredith Patterson at the University of Iowa in Iowa City claim that the Bitfrost system has inadvertently become a possible tool for unscrupulous governments or government agencies to definitively trace the source of digital information and communications that originated on the laptops[3]. This is a potentially serious issue as many of the countries which have the laptops have governments with questionable human rights records.
+
+
+
+

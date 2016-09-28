@@ -1,0 +1,18 @@
+Vignetting
+In photography and optics, vignetting (vin-ye-ting) is a reduction of an image's brightness or saturation at the periphery compared to the image center. A similar effect occurs when filming projected images or movies off a projection screen, the so-called hotspot, defining a cheap home-movie look where no proper telecine is used.
+Although vignetting is normally unintended and undesired, it is sometimes purposely introduced for creative effect, such as to draw attention to the center of the frame. A photographer may deliberately choose a lens which is known to produce vignetting. It can also be produced with the use of special filters or post-processing procedures.
+
+There are several causes of vignetting. Sidney F. Ray[1] distinguishes the following types:
+A fourth cause is unique to digital imaging:
+
+Mechanical vignetting occurs when light beams emanating from object points located off-axis are partially blocked by external objects such as thick or stacked filters, secondary lenses, and improper lens hoods. The corner darkening can be gradual or abrupt, depending on the lens aperture. Complete blackening is possible with mechanical vignetting.
+
+This type of vignetting is caused by the physical dimensions of a multiple element lens. Rear elements are shaded by elements in front of them, which reduces the effective lens opening for off-axis incident light. The result is a gradual decrease of the light intensity towards the image periphery. Optical vignetting is sensitive to the aperture and can be completely cured by increasing the aperture of the lens by 2-3 stops.
+
+Unlike the previous types, natural vignetting (also known as natural illumination falloff) is not due to the blocking of light rays. The falloff is approximated by the cos4 or "cosine fourth" law of illumination falloff. Here, the light falloff is proportional to the fourth power of the cosine of the angle at which the light impinges on the film or sensor array. Wideangle rangefinder designs and the lens designs used in compact cameras are particularly prone to natural vignetting. Telephoto lenses, retrofocus wideangle lenses used on SLR cameras, and telecentric designs in general are less troubled by natural vignetting. A gradual grey filter or postprocessing techniques may be used to compensate for natural vignetting, as it cannot be cured by stopping down the lens.
+
+Pixel vignetting only affects digital cameras and is caused by angle-dependence of the digital sensors. Light incident on the sensor at a right angle produces a stronger signal than light hitting it at an oblique angle. Most digital cameras use built-in image processing to compensate for optical vignetting and pixel vignetting when converting raw sensor data to standard image formats such as JPEG or TIFF. The use of microlenses over the image sensor can also reduce the effect of pixel vignetting.
+
+For artistic effect, vignetting is sometimes applied to an otherwise un-vignetted photograph and can be achieved by burning the outer edges of the photograph (with film stock) or using digital imaging techniques, such as masking darkened edges.
+In digital imaging, this technique is used to create a more film-like appearance in the picture.
+

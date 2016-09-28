@@ -1,0 +1,35 @@
+Flash Video
+Flash Video is a file format used to deliver video over the Internet using Adobe Flash Player (initially produced by Macromedia) versions 6–10. Until version 9 update 2 of the Flash Player, Flash Video referred to a proprietary file format, having the extension FLV. The most recent public release of Flash Player supports H.264 video and HE-AAC audio. Flash Video content may also be embedded within SWF files. Notable users of the Flash Video format include YouTube, Google Video, Yahoo! Video, Reuters.com, metacafe, and many other news providers.
+The format has quickly established itself as the format of choice for embedded video on the web. For instance, the standards documentation for BBC Online deprecates the use of other formats previously in use on its sites[1] such as RealVideo or WMV.
+Flash Video is viewable on most operating systems, via the widely available Adobe Flash Player and web browser plugin, or one of several third-party programs such as MPlayer, VLC media player, Quicktime, or any player which uses DirectShow filters (such as ALLPlayer, Media Player Classic, Windows Media Player, and Windows Media Center) when the ffdshow filter is installed.
+Though the container format itself is open, the codecs used with it are patented.
+
+The Adobe Flash Player is a multimedia and application player originally developed by Macromedia and acquired by Adobe Systems. It plays SWF files which can be created by the Adobe Flash authoring tool, Adobe Flex, or a number of other Adobe Systems and third party tools. It has support for a scripting language called ActionScript, which can be used to display Flash Video from an SWF file. Because the Flash Player runs as a browser plug-in, it is possible to embed Flash Video in web pages and view the video within a web browser.
+
+Commonly, Flash Video files contain video bit streams which are a variant of the H.263 video standard, under the name of Sorenson Spark. Flash Player 8 and newer revisions support the playback of On2 TrueMotion VP6 video bit streams. On2 VP6 can provide a higher visual quality than Sorenson Spark, especially when using lower bit rates. On the other hand it is computationally more complex and therefore will not run as well on certain older system configurations. Flash Player 9 Update 3 includes support for H.264 video standard (also known as MPEG-4 part 10, or AVC) which is even more computationally demanding, but offers significantly better quality/bitrate ratio.
+The Flash Video file format supports two versions of a so called 'screenshare' codec which is an encoding format designed for screencasts. Both these formats are bitmap tile based, can be lossy by reducing color depths and are compressed using zlib. The second version is only playable in Flash Player 8 and newer.
+Support for encoding Flash Video files is provided by an encoding tool included with Adobe's Flash Professional and Creative Suite products, On2's Flix encoding tools, Sorenson Squeeze, FFmpeg and other third party tools.
+Audio in Flash Video files is usually encoded as MP3. However, audio in Flash Video files recorded from the user's microphone use the proprietary Nellymoser codec. FLV files also support uncompressed audio or ADPCM format audio. Recent versions of Flash Player 9 support AAC (HE-AAC/AAC SBR, AAC Main Profile, and AAC-LC).[2]
+Since Flash Player 9 Update 3 Flash Video also supports the MPEG-4 international standard. [3] Specifically, Flash Player will have support for video compressed in H.264 (MPEG-4 Part 10), audio compressed using AAC (MPEG-4 Part 3), the MP4, M4V, M4A, 3GP and MOV multimedia container formats (MPEG-4 Part 14), 3GPP Timed Text specification (MPEG-4 Part 17) which is a standardized subtitle format and partial parsing support for the 'ilst' atom which is the ID3 equivalent iTunes uses to store metadata.
+A Flash Player 9 update including a new MP4 H.264 component was released on December 3, 2007.[4]
+
+Because of restrictions in the .flv format, Adobe Systems has created new file formats listed below. Flash player does not check the extension of the file, but rather looks inside the file to detect which format it is.[3]
+
+
+An FLV player is a type of media player that is used for playing flash video from PC as well as from Internet websites. An FLV player can be used standalone, without the need of the Adobe Flash authoring or developmental tools.
+The following players support FLV files in their default installations:
+
+
+
+
+
+If ffdshow DirectShow codecs are installed on a Windows system, other software applications may also be able to play flv files:
+
+
+
+Flash Video is often delivered via an embedded Flash file, though there are various stream recorders available.
+
+Flash Video files can be delivered in several different ways:
+
+
+

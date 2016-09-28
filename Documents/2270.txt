@@ -1,0 +1,13 @@
+Alpine (e-mail client)
+Alpine is a free software e-mail client developed at the University of Washington.
+Alpine 1.0 was publicly released on December 20, 2007.
+Alpine is a rewrite of the Pine Message System that adds support for Unicode and other features. Alpine is meant to be suitable for both inexperienced email users and the most demanding of power users. Alpine is developed at the University of Washington, as was Pine before it. Alpine can be learned by exploration and the use of context-sensitive help. The user interface can be customized.
+
+Alpine is licensed under the Apache License, version 2. November 29, 2006 saw the first public alpha release,[1][2] which forms a new approach since the alpha test of Pine was always non-public.
+
+Linus Torvalds, the primary force behind the development of Linux, has stated in an interview published by the Lifehacker weblog on 31 January 2008 that he uses Alpine as his email client.[3]
+
+On 4 August 2008 the University of Washington Alpine team announced[4] that after one more release, incorporating Web Alpine 2.0, they would "shift our effort from direct development into more of a consultation and coordination role to help integrate contributions from the community."
+
+
+

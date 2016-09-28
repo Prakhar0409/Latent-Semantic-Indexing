@@ -1,0 +1,20 @@
+Recursive descent parser
+A recursive descent parser is a top-down parser built from a set of mutually-recursive procedures (or a non-recursive equivalent) where each such procedure usually implements one of the production rules of the grammar. Thus the structure of the resulting program closely mirrors that of the grammar it recognizes.
+A predictive parser is a recursive descent parser that does not require backtracking. Predictive parsing is possible only for the class of LL(k) grammars, which are the context-free grammars for which there exists some positive integer k that allows a recursive descent parser to decide which production to use by examining only the next k tokens of input. (The LL(k) grammars therefore exclude all ambiguous grammars, as well as all grammars that contain left recursion. Any context-free grammar can be transformed into an equivalent grammar that has no left recursion, but removal of left recursion does not always yield an LL(k) grammar.) A predictive parser runs in linear time.
+Recursive descent with backup is a technique that determines which production to use by trying each production in turn. Recursive descent with backup is not limited to LL(k) grammars, but is not guaranteed to terminate unless the grammar is LL(k). Even when they terminate, parsers that use recursive descent with backup may require exponential time.
+Although predictive parsers are widely used, programmers often prefer to create LR or LALR parsers via parser generators without transforming the grammar into LL(k) form.
+Some authors define recursive descent parsers as the predictive parsers. Other authors use the term more broadly, to include backed-up recursive descent.[citation needed]
+
+The following EBNF-like grammar (for Niklaus Wirth's PL/0 programming language, from Algorithms + Data Structures = Programs) is in LL(1) form (for simplicity, ident and number are assumed to be terminals):
+Terminals are expressed in quotes (except for ident and number). Each nonterminal is defined by a rule in the grammar.
+
+What follows is an implementation of a recursive descent parser for the above language in C. The parser reads in source code, and exits with an error message if the code fails to parse, exiting silently if the code parses correctly.
+Notice how closely the predictive parser below mirrors the grammar above. There is a procedure for each nonterminal in the grammar. Parsing descends in a top-down manner, until the final nonterminal has been processed. The program fragment depends on a global variable, sym, which contains the next symbol from the input, and the function getsym, which updates sym when called.
+The implementations of the functions getsym and error are omitted for simplicity.
+
+Recursive descent parsers are particularly easy to implement in functional languages such as Haskell or ML.[citation needed]
+See Functional Pearls: Monadic Parsing in Haskell
+
+
+This article was originally based on material from the Free On-line Dictionary of Computing, which is licensed under the GFDL.
+

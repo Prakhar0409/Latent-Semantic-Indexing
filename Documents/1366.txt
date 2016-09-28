@@ -1,0 +1,38 @@
+Cost of capital
+The cost of capital is an expected return that the provider of capital plans to earn on their investment.
+
+Capital (money) used for funding a business should earn returns for the capital providers who risk their capital. For an investment to be worthwhile, the expected return on capital must be greater than the cost of capital. In other words, the risk-adjusted return on capital (that is, incorporating not just the projected returns, but the probabilities of those projections) must be higher than the cost of capital.
+The cost of debt is relatively simple to calculate, as it is composed of the rate of interest paid. In practice, the interest-rate paid by the company will include the risk-free rate plus a risk component, which itself incorporates a probable rate of default (and amount of recovery given default). For companies with similar risk or credit ratings, the interest rate is largely exogenous.
+Cost of equity is more challenging to calculate as equity does not pay a set return to its investors. Similar to the cost of debt, the cost of equity is broadly defined as the risk-weighted projected return required by investors, where the return is largely unknown. The cost of equity is therefore inferred by comparing the investment to other investments with similar risk profiles to determine the "market" cost of equity.
+The cost of capital is often used as the discount rate, the rate at which projected cash flow will be discounted to give a present value or net present value.
+
+The cost of debt is computed by taking the rate on a risk free bond whose duration matches the term structure of the corporate debt, then adding a default premium. This default premium will rise as the amount of debt increases (since the risk rises as the amount of debt rises). Since in most cases debt expense is a deductible expense, the cost of debt is computed as an after tax cost to make it comparable with the cost of equity (earnings are after-tax as well). Thus, for profitable firms, debt is discounted by the tax rate. Basically this is used for large corporations only.
+The formula can be written as i(1 − T), where i is the interest rate, and T the corporate tax rate.
+
+Cost of equity = Risk free rate of return + Premium expected for risk
+
+The expected return can be calculated as the "dividend capitalization model", which is (dividend per share / price per share) + growth rate of dividends (that is, dividend yield + growth rate of dividends).
+
+The capital asset pricing model (CAPM) is used in finance to determine a theoretically appropriate price of an asset such as a security. The expected return on equity according to the capital asset pricing model. The market risk is normally characterized by the β parameter. Thus, the investors would expect (or demand) to receive:
+
+Where:
+In writing:
+
+The models states that investors will expect a return that is the risk-free return plus the security's sensitivity to market risk times the market risk premium.
+The risk free rate is taken from the lowest yielding bonds in the particular market, such as government bonds.
+The risk premium varies over time and place, but in some developed countries during the twentieth century it has averaged around 5%. The equity market real capital gain return has been about the same as annual real GDP growth. The capital gains on the Dow Jones Industrial Average have been 1.6% per year over the period 1910-2005. [1] The dividends have increased the total "real" return on average equity to the double, about 3.2%.
+The sensitivity to market risk (β) is unique for each firm and depends on everything from management to its business and capital structure. This value cannot be known "ex ante" (beforehand), but can be estimated from ex post (past) returns and past experience with similar firms.
+Note that retained earnings are a component of equity, and therefore the cost of retained earnings is equal to the cost of equity. Dividends (earnings that are paid to investors and not retained) are a component of the return on capital to equity holders, and influence the cost of capital through that mechanism.
+
+The Weighted Average Cost of Capital (WACC) is used in finance to measure a firm's cost of capital.
+The total capital for a firm is the value of its equity (for a firm without outstanding warrants and options, this is the same as the company's market capitalization) plus the cost of its debt (the cost of debt should be continually updated as the cost of debt changes as a result of interest rate changes). Notice that the "equity" in the debt to equity ratio is the market value of all equity, not the shareholders' equity on the balance sheet.To calculate the firm’s weighted cost of capital, we must first calculate the costs of the individual financing sources: Cost of Debt Cost of Preference Capital Cost of Equity Capital
+
+Calculation of WACC is an iterative procedure which requires estimation of the fair market value of equity capital. [1]
+
+Because of tax advantages on debt issuance, it will be cheaper to issue debt rather than new equity (this is only true for profitable firms, tax breaks are available only to profitable firms). At some point, however, the cost of issuing new debt will be greater than the cost of issuing new equity. This is because adding debt increases the default risk - and thus the interest rate that the company must pay in order to borrow money. By utilizing too much debt in its capital structure, this increased default risk can also drive up the costs for other sources (such as retained earnings and preferred stock) as well. Management must identify the "optimal mix" of financing – the capital structure where the cost of capital is minimized so that the firm's value can be maximized.
+The Thomson Financial league tables show that global debt issuance exceeds equity issuance with a 90 to 10 margin.
+
+If there were no tax advantages for issuing debt, and equity could be freely issued, Miller and Modigliani showed that, under certain assumptions, the value of a leveraged firm and the value of an unleveraged firm should be the same. Their paper is foundational in modern corporate finance.
+
+
+

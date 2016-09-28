@@ -1,0 +1,28 @@
+Fear, uncertainty and doubt
+Fear, uncertainty and doubt (FUD) is a tactic of rhetoric and fallacy used in sales, marketing, public relations,[1][2] politics and propaganda. FUD is generally a strategic attempt to influence public perception by disseminating negative information designed to undermine the credibility of their beliefs. An individual firm, for example, might use FUD to invite unfavorable opinions and speculation about a competitor's product; to increase the general estimation of switching costs among current customers; or to maintain leverage over a current business partner who could potentially become a rival. FUD techniques may be crude and simple. Alternatively they may be very subtle, employing an indirect approach.
+The term originated to describe disinformation tactics in the computer hardware industry and has since been used more broadly.[3] FUD is a manifestation of the appeal to fear.
+
+FUD was first defined (circa 1975) by Gene Amdahl after he left IBM to found his own company, Amdahl Corp.: "FUD is the fear, uncertainty, and doubt that IBM sales people instill in the minds of potential customers who might be considering Amdahl products."[4] The term has also been attributed to veteran Morgan Stanley computer analyst Ulrich Weil, though it had already been used in other contexts as far back as the 1920s.[5][6]
+As Eric S. Raymond writes:[7]
+By spreading questionable information about the drawbacks of less well known products, an established company can discourage decision-makers from choosing those products over its wares, regardless of the relative technical merits. This is a recognized phenomenon, epitomized by the traditional axiom of purchasing agents that "nobody ever got fired for buying IBM equipment". The result is that many companies' IT departments buy software that they know to be technically inferior because upper management is more likely to recognize the brand.
+
+Although once it was usually attributed to IBM, in the 1990s and later the term became most often associated with industry giant Microsoft. Said Roger Irwin:[8]
+The leaked internal Microsoft "Halloween documents" stated "OSS is long-term credible … [therefore] FUD tactics cannot be used to combat it."[9], in fact Open source (OSS) and the GNU/Linux community in particular are widely perceived as frequent targets of Microsoft FUD:
+
+The SCO Group's 2003 lawsuit against IBM, claiming $5 billion in intellectual property infringements by the free software community, is an example of FUD. IBM argued in its counterclaim, that SCO is spreading "fear, uncertainty, and doubt".[12]
+Magistrate Judge Wells wrote (and Judge Kimball concurred) in her order limiting SCO's claims: "The court finds SCO’s arguments unpersuasive. SCO’s arguments are akin to SCO telling IBM, 'sorry we are not going to tell you what you did wrong because you already know...' SCO was required to disclose in detail what it feels IBM misappropriated... the court finds it inexcusable that SCO is... not placing all the details on the table. Certainly if an individual were stopped and accused of shoplifting after walking out of Neiman Marcus they would expect to be eventually told what they allegedly stole. It would be absurd for an officer to tell the accused that 'you know what you stole I’m not telling.' Or, to simply hand the accused individual a catalog of Neiman Marcus’ entire inventory and say 'it’s in there somewhere, you figure it out.' "[13]
+Darl McBride, President and CEO of SCO, made the following statements as part of what was felt by many in the Linux user community[who?] to be a FUD campaign.
+The campaign evidently worked, as SCO stock skyrocketed from under $3 a share to over $20 in a matter of weeks in 2003. (It later dropped to around[15] $1.20—then crashed to under 50 cents on August 13, 2007 in the aftermath of a ruling that Novell owns the UNIX copyrights). [16]
+
+Video game console manufacturers in console wars use FUD to promote their systems and convince consumers which console is better. A classic was a SEGA marketing campaign with the slogan "Genesis does what Nintendon't".[17]
+In recent years, Microsoft and Sony have become major FUD-spreaders in the gaming press attacking each other with impact and misleading declarations about market scenario, hardware reliability and sales.[18][19]
+
+FUD is also widely recognized as a tactic used to promote the sale or implementation of security products and measures. The drawback to the FUD tactic in this context is that, when the stated or implied threats fail to materialize over time, the customer or decision-maker frequently reacts by withdrawing budgeting or support from future security initiatives.[20]
+
+FUD is now often used in non-computer contexts with the same meaning. For example, in politics one side can accuse the other of using FUD to obscure the issues. For example, critics of George W. Bush accused Bush's supporters, most notably the Swift Boat Veterans For Truth, of using a FUD-based campaign in the 2004 U.S. presidential election.[21]
+According to some commentators, examples of political FUD are: “domino theory,” "electronic Pearl Harbor," “weapons of mass destruction”[22], "global warming" and "great depression 2.0".
+The FUD tactic was infamously used by Caltex Australia in 2003. According to an internal memo, which was subsequently leaked, they wished to use FUD to destabilise franchisee confidence, and thus get a better deal for Caltex. This memo was used as an example of unconscionable behaviour in a Senate inquiry. Senior management claimed that it was contrary to, and did not reflect company principles. [23]
+
+
+
+This article is based in part on the Jargon File, which is in the public domain.

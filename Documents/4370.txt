@@ -1,0 +1,43 @@
+Synchronized Multimedia Integration Language
+SMIL (pronounced /ˈsmaɪl/ "smile"), the Synchronized Multimedia Integration Language, is a W3C recommended XML markup language for describing multimedia presentations. It defines markup for timing, layout, animations, visual transitions, and media embedding, among other things. SMIL allows the presentation of media items such as text, images, video, and audio, as well as links to other SMIL presentations, and files from multiple web servers. SMIL markup is written in XML, and has similarities to HTML.
+
+As of 2008[update] the current W3C Recommendation for SMIL is SMIL 3.0
+
+SMIL 1.0 became a W3C Recommendation in June 1998.
+
+SMIL 2.0 became a W3C Recommendation in August 2001. SMIL 2.0 introduced a modular language structure that facilitated integration of SMIL semantics into other XML-based languages. Basic animation and timing modules were integrated into Scalable Vector Graphics (SVG) and the SMIL modules formed a basis for Timed-Text. The modular structure made it possible to define the standard SMIL language profile and the XHTML+SMIL language profile with common syntax and standard semantics.
+
+SMIL 2.1 became a W3C Recommendation in December 2005. SMIL 2.1 includes a small number of extensions based on practical experience gathered using SMIL in the Multimedia Messaging System on mobile phones.
+
+SMIL 3.0 became a W3C Recommendation in December 2008. It was first submitted as a W3C Working draft on December 21, 2006[1]. The last draft revision was released on October 6, 2008.[2][3]
+
+A SMIL document is similar in structure to an HTML document in that they are typically divided between an optional <head> section and a required <body> section. The <head> section contains layout and metadata information. The <body> section contains the timing information, and is generally composed of combinations of three main tags - sequential ("<seq>", simple playlists), parallel ("<par>", multi-zone/multi-layer playback) and exclusive ("<excl>", event-triggered interrupts). SMIL refers to media objects by URLs, allowing them to be shared between presentations and stored on different servers for load balancing. The language can also associate different media objects with different bandwidth requirements.
+For playback scheduling, SMIL supports ISO-8601 wallclock() date/time specification to define begin/end events for playlists.
+
+SMIL files take either a .smi or .smil file extension. However, SAMI files also use .smi, which creates some ambiguity at first glance. As a result, SMIL files commonly use the .smil file extension to avoid confusion.
+
+
+SMIL is one of two means by which SVG animation can be achieved (the other being JavaScript, which also offers better user interface capabilities than SMIL).
+
+While RSS and Atom are web syndication methods, with the former being more popular as a syndication method for podcasts, SMIL is potentially useful as a script or playlist that can tie sequential pieces of multimedia together and can then be syndicated through RSS or Atom[4][5]. In addition, the combination of multimedia-laden .smil files with RSS or Atom syndication would be useful for accessibility to audio-enabled podcasts by the deaf through Timed Text closed captions[6], and can also turn multimedia into hypermedia that can be hyperlinked to other linkable audio and video multimedia[7][8].
+
+VoiceXML can be combined with SMIL to provide a sequential reading of several pre-provided pages or slides in a voice browser, while combining SMIL with MusicXML would allow for the creation of infinitely-recombinable sequences of music sheets. Combining SMIL+VoiceXML or SMIL+MusicXML with RSS or Atom could be useful in the creation of an audible pseudo-podcast with embedded hyperlinks, while combining SMIL+SVG with VoiceXML and/or MusicXML would be useful in the creation of an automatically audio-enabled vector graphics animation with embedded hyperlinks.
+
+SMIL is anticipated for use within TEI documents.[9].
+
+SMIL is being implemented on handheld and mobile devices and has also spawned the subset known as Multimedia Messaging Service (MMS) which is a video and picture equivalent of SMS. MMS is also jokingly called "Mini-Me SMIL" by multimedia technicians in the mobile content industry.
+SMIL is also one of the underlying technologies used by HD DVD for advanced interactivity.
+The field of Digital Signage is embracing SMIL as a means of controlling dynamic advertising in public areas[10].
+The internet video site Hulu uses SMIL as part of its media playing technology.
+
+
+In order to view a SMIL presentation, a client will need to have a SMIL player installed on his/her computer. Currently, Apple's Quicktime player, Windows Media Player (WMP) and RealNetworks RealPlayer are among the most popular media players.
+It would be convenient to be able to show these SMIL files natively in web browser, eliminating the requirement of a separate SMIL player or plug-in. Currently, Microsoft's Internet Explorer has limited support for SMIL features. The open-source Mozilla project is slowly incorporating SMIL and other XML-related technologies such as SVG and MathML into their browsers, but progress is slow. It is possible they are waiting for these XML-based languages to mature.
+
+Media player boxes based on dedicated 1080p decoder chips such as the Sigma Designs 8634 processor are getting SMIL players embedded in them.
+
+As mentioned, SMIL is not yet native to web browsers, so in order to put SMIL in a web page, one must embed it and open it in a plug-in such as Apple Quicktime or Microsoft's Windows Media Player.
+
+
+
+

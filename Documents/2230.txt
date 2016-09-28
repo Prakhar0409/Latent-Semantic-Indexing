@@ -1,0 +1,29 @@
+State diagram
+A state diagram is a type of diagram used in computer science and related fields to describe the behavior of systems. State diagrams require that the system described is composed of a finite number of states; sometimes, this is indeed the case, while at other times this is a reasonable abstraction. There are many forms of state diagrams, which differ slightly and have different semantics.
+
+State diagrams are used to describe the behavior of a system. State diagrams can describe the possible states of an object as events occur. Each diagram usually represents objects of a single class and track the different states of its objects through the system.[1]
+State diagram can be used to graphically represent finite state machines. This was introduced by Taylor Booth in his 1967 book "Sequential Machines and Automata Theory". Another possible representation is the State transition table.
+
+A classic form of a state diagram for a finite state machine is a directed graph with the following elements:[2][3]
+The output function Ï‰ represents the mapping of input symbols into output symbols, denoted mathematically as Ï‰ : Î£ Ã— Qâ†’ Z.
+For a deterministic finite state machine (DFA), nondeterministic finite state machine (NFA), generalized nondeterministic finite state machine (GNFA), or Moore machine, the input is denoted on each edge. For a Mealy machine, input and output are signified on each edge, separated with a slash "/": "1/0" denotes the state change upon encountering the symbol "1" causing the symbol "0" to be output. For a Moore machine the state's output is usually written inside the state's circle, also separated from the state's designator with a slash "/". There are also variants that combine these two notations.
+For example, if a state has a number of outputs (e.g. "a= motor counter-clockwise=1, b= caution light inactive=0") the diagram should reflect this : e.g. "q5/1,0" designates state q5 with outputs a=1, b=0. This designator will be written inside the state's circle.
+
+S1 and S2 are states and S1 is an accepting state. Each edge is labeled with the input. This example shows an acceptor for strings over {0,1} that contain an even number of zeros.
+
+S0, S1, and S2 are states. Each edge is labeled with "j / k" where j is the input and k is the output.
+
+Harel statecharts[5] are gaining widespread usage since a variant has become part of the Unified Modeling Language. The diagram type allows the modeling of superstates, concurrent states, and activities as part of a state.
+Classic state diagrams require the creation of distinct nodes for every valid combination of parameters that define the state. This can lead to a very large number of nodes and transitions between nodes for all but the simplest of systems. This complexity reduces the readability of the state diagram. With Harel statecharts it is possible to model multiple cross-functional state diagrams within the statechart. Each of these cross-functional state machines can transition internally without affecting the other state machines in the statechart. The current state of each cross-functional state machine in the statechart defines the state of the system. The Harel statechart equivalent to a state diagram but it improves the readability of the resulting diagram.
+
+The Unified Modeling Language (UML) state diagram is essentially a Harel statechart with standardized notation[6], which can describe many systems, from computer programs to business processes. The following are the basic notational elements that can be used to make up a diagram:
+According to Pilone[7], the only predefined guard condition is ELSE. No other examples are provided within that publication.
+
+An interesting extension is to allow arcs to flow from any number of states to any number of states. This only makes sense if the system is allowed to be in multiple states at once, which implies that an individual state only describes a condition or other partial aspect of the overall, global state. The resulting formalism is known as a Petri net.
+Another extension allows the integration of flowcharts within Harel statecharts. This extension supports the development of software that is both event driven and workflow driven.
+
+
+
+Structure: Actor â€¢ Attribute â€¢ Artifact â€¢ Class â€¢ Component â€¢ Interface â€¢ Object â€¢ Package
+Behavior: Activity â€¢ Event â€¢ Message â€¢ Method â€¢ State â€¢ Use case
+Relationships: Aggregation â€¢ Association â€¢ Composition â€¢ Dependency â€¢ Generalization (or Inheritance)

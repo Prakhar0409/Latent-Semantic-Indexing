@@ -1,0 +1,28 @@
+6to4
+6to4 (sometimes written 6 to 4) is a system that allows IPv6 packets to be transmitted over an IPv4 network (generally the IPv4 internet) without the need to configure explicit tunnels. Routing conventions are also in place that allow 6to4 hosts to communicate with hosts on the IPv6 internet. It is typically used when an end-site or end-user wants to connect to the IPv6 Internet using their existing IPv4 connection.
+Since IPv6 is not required to be configured or supported on any nearby networking devices relative to the host, 6to4 is especially relevant during the initial phases of deployment to full, native IPv6 connectivity. However, it is intended only as transition mechanism and is not meant to be used permanently.
+6to4 may be used by an individual host, or by a local IPv6 network. When used by an individual host, that host must have IPv4 connectivity and a global IPv4 address, and the host is responsible for encapsulation of outgoing IPv6 packets and decapsulation of incoming 6to4 packets. Many host operating systems implement this encapsulation and decapsulation via a 6to4 pseudo-interface.
+When 6to4 is used by a local network, the entire local network needs only a single IPv4 address. Within that network, hosts learn their IPv6 addresses and routing using ordinary router discovery protocols, just as on a native IPv6 network.
+6to4 does not facilitate interoperation between IPv4-only hosts and IPv6-only hosts.
+
+6to4 performs three functions:
+
+For any 32-bit global IPv4 address that is assigned to a host, a 48-bit 6to4 IPv6 prefix can be constructed for use by that host (and if applicable the network behind it) by prepending 2002 (hex) to the IPv4 address. IPv4 addresses use dot-decimal notation while IPv6 addresses use hexadecimal notation. Thus for the global IPv4 address 192.0.2.42, the corresponding 6to4 prefix would be 2002:c000:022a::/48. This gives a prefix length of 48 bits, which leaves room for a 16-bit subnet field and a 64 bit host address within the subnet.
+Any IPv6 address that begins with the 2002::/16 prefix is known of as a 6to4 address, as opposed to a native IPv6 address which does not use that prefix.
+
+6to4 embeds an IPv6 packet in the payload portion of an IPv4 packet with protocol type 41. To send an IPv6 packet over an IPv4 network to a 6to4 destination address, an IPv4 header with protocol type 41 is prepended to the IPv6 packet. The IPv4 destination address for the prepended packet header is derived from the IPv6 destination address of the inner packet, by extracting the 32 bits immediately following the IPv6 destination address's 2002:: prefix. The IPv4 source address in the prepended packet header is the IPv4 address of the host or router which is sending the packet over IPv4. The resulting IPv4 packet is then routed to its IPv4 destination address just like any other IPv4 packet.
+
+To allow hosts and networks using 6to4 addresses to exchange traffic with hosts using "native" IPv6 addresses, "relay routers" have been established. A relay router connects to an IPv4 network and an IPv6 network. 6to4 packets arriving on an IPv4 interface will have their IPv6 payloads routed to the IPv6 network, while packets arriving on the IPv6 interface with a destination address prefix of 2002::/16 will be encapsulated and forwarded over the IPv4 network.
+To allow a 6to4 router to communicate with the native IPv6 Internet, it must have its IPv6 default gateway set to a 6to4 address which contains the IPv4 address of a 6to4 relay router. To avoid the need for users to set this up manually, the 6to4 relay anycast address of 192.88.99.1 (which when wrapped in 6to4 with the subnet and hosts fields zero becomes 2002:c058:6301::, but as of July 2008 6to4 users still must access this gateway by the address ::192.88.99.1 from the deprecated prefix ::/96 - contrary to RFC ) has been allocated for the purpose of sending packets to a relay router. For routing reasons the whole of 192.88.99.0/24 has been allocated for routes pointed at 6to4 relay routers that use the anycast IP. Providers willing to provide 6to4 service to their clients or peers should advertise the anycast prefix like any other IP prefix, and route the prefix to their 6to4 relay.
+Packets from the IPv6 Internet to 6to4 systems must be sent to a 6to4 relay router by normal IPv6 routing methods. The specification states that such relay routers must only advertise 2002::/16 and not subdivisions of it to prevent IPv4 routes polluting the routing tables of IPv6 routers. From here they can then be sent over the IPv4 Internet to the destination.
+
+When a site using 6to4 has a fixed global IPv4 address, its 6to4 IPv6 prefix is also fixed. It is then possible to request reverse DNS delegation for an individual 6to4 48-bits prefix inside the 2.0.0.2.ip6.arpa DNS zone from the Number Resource Organization at [1] . The process is entirely automatic.
+
+According to RFC 3964, 6to4 routers and relays should ensure that:
+
+
+
+
+
+
+

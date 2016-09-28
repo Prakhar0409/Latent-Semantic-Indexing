@@ -1,0 +1,22 @@
+OpenEXR
+OpenEXR is a high dynamic range imaging image file format, released as an open standard along with a set of software tools created by Industrial Light and Magic (ILM), released under a free software license similar to the BSD license.
+It is notable for supporting 16-bits-per-channel floating point values (half precision), with a sign bit, five bits of exponent, and a ten-bit mantissa. This allows a dynamic range of over thirty stops of exposure.
+Both lossless and lossy compression of high dynamic range data is also supported.[1]
+
+For a full technical introduction of OpenEXR, please see the Technical Introduction available on the OpenEXR.org website. [1]
+OpenEXR, or simply EXR for short, is a deep raster format developed by ILM and very broadly used in the computer-graphics industry, both visual effects and animation.
+OpenEXR's multi-resolution and arbitrary channel format makes it appealing for compositing. OpenEXR alleviates several painful elements of the compositing process. Since it can store arbitrary channels, specular, diffuse, alpha, RGB, normals, and various other types of channels in one file, it takes away the need to store this information in separate files. The multi-channel concept also reduces the necessity to "bake" in the before mentioned data to the final image. If a compositer is not happy with the current level of specularity, he or she can adjust that specific channel.
+OpenEXR's API makes tools development a relative ease for developers. Since there are almost never two production pipelines that are the same, custom tools always need to be developed to address problems in the production process, e. g. to address image manipulation issue. OpenEXR's library allows quick and easy access to the image's attributes such as tiles and channels.
+
+OpenEXR was created by ILM in 1999 and released to the public in 2003.
+OpenEXR is directly supported by Artizen HDR, Combustion, Flame 2008, Smoke 2008, Blender, LuxRender, Indigo, CinePaint, Cinelerra, Houdini, Lightwave, modo, After Effects 7 Professional, V-Ray, Mental Ray, PRMan, Rendition, Digital Fusion, Nuke, IRIDAS FrameCycler, IRIDAS SpeedGrade, Toxik, Shake, Photoshop CS2, CINEMA 4D, Animation:Master, Pixel Image Editor, Tweak RV, Bryce and Synfig. It is also supported by the Cg programming language and Mac OS X since version 10.4.
+
+There are 3 general types of lossless compression built into OpenEXR, with two different methods of Zip compressing. For most images without a lot of grain, the two Zip compression methods seem to work best, while the PIZ compression algorithm is better suited to grainy images. The following options are available:
+
+From OpenEXR.org's Technical Introduction:
+The ILM OpenEXR file format was designed and implemented by Florian Kainz, Wojciech Jarosz, and Rod Bogart. The PIZ compression scheme is based on an algorithm by Christian Rouet. Josh Pines helped extend the PIZ algorithm for 16-bit and found optimizations for the float-to-half conversions. Drew Hess packaged and adapted ILM's internal source code for public release and maintains the OpenEXR software distribution. The PXR24 compression method is based on an algorithm written by Loren Carpenter at Pixar Animation Studios.
+
+The OpenEXR library is developed in C++ and is available in source format as well as compiled format for Windows, Mac OS X and Linux. Careful attention was taken to ensure that OpenEXR easily compiles on almost any platform that supports C++.
+As of version 1.3.0, released on June 8, 2006, support for multithreaded reading and writing was added to OpenEXR. Multithreaded reading and writing offers a higher performance gain for systems that have multiple cores or CPUs. OpenEXR handles reading and writing by a means of a thread pool.
+
+

@@ -1,0 +1,19 @@
+Broadband
+The term broadband can have different meanings in different contexts. The term's meaning has undergone substantial shifts.
+
+Broadband in telecommunications refers to a signaling method that includes or handles a relatively wide range of frequencies, which may be divided into channels or frequency bins. Broadband is always a relative term, understood according to its context. The wider the bandwidth, the greater the information-carrying capacity. In radio, for example, a very narrow-band signal will carry Morse code; a broader band will carry speech; a still broader band is required to carry music without losing the high audio frequencies required for realistic sound reproduction. A television antenna described as "normal" may be capable of receiving a certain range of channels; one described as "broadband" will receive more channels. In data communications an analogue modem will transmit a bandwidth of 56 kilobits per seconds (kbit/s) over a telephone line; over the same telephone line a bandwidth of several megabits per second can be handled by ADSL, which is described as broadband (relative to a modem over a telephone line, although much less than can be achieved over a fibre optic circuit).
+
+Broadband in data can refer to broadband networks or broadband Internet and may have the same meaning as above, so that data transmission over a fiber optic cable would be referred to as broadband as compared to a telephone modem operating at 56,000 bits per second.
+However, broadband in data communications is frequently used in a more technical sense to refer to data transmission where multiple pieces of data are sent simultaneously to increase the effective rate of transmission, regardless of data signaling rate. In network engineering this term is used for methods where two or more signals share a medium.[1]
+
+The various forms of digital subscriber line (DSL) services are broadband in the sense that digital information is sent over a high-bandwidth channel above the baseband voice channel on a single pair of wires.[1]
+
+A baseband transmission sends one type of signal using a medium's full bandwidth, as in 100BASE-T Ethernet. Ethernet, however, is the common interface to broadband modems such as DSL data links, and has a high data rate itself, so is sometimes referred to as broadband. Ethernet provided over cable modem is a common alternative to DSL.
+
+Power lines have also been used for various types of data communication. Although some systems for remote control are based on narrowband signaling, modern high-speed systems use broadband signaling to achieve very high data rates. One example is the ITU-T G.hn standard, which provides a way to create a high-speed (up to 1 Gigabit/s) Local area network using existing home wiring (including power lines, but also phone lines and coaxial cables).
+
+Broadband in analog video distribution is traditionally used to refer to systems such as cable television, where the individual channels are modulated on carriers at fixed frequencies.[2] In this context, baseband is the term's antonym, referring to a single channel of analog video, typically in composite form with an audio subcarrier.[3] The act of demodulating converts broadband video to baseband video.
+However, broadband video in the context of streaming Internet video has come to mean video files that have bitrates high enough to require broadband Internet access in order to view them.
+Broadband video is also sometimes used to describe IPTV Video on demand.[4]
+
+

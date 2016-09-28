@@ -1,0 +1,21 @@
+BPEL4People
+BPEL4People is the WS-BPEL Extension for People as proposed in a joint white paper by IBM and SAP in July 2005.
+
+In June 2007, Active Endpoints, Adobe, BEA, IBM, Oracle and SAP published the BPEL4People and WS-HumanTask specifications as a follow-up to the whitepaper, describing how human interaction in BPEL processes can be performed.
+
+
+(Posted February 2009) The OASIS WS-BPEL Extension for People (BPEL4People) TC is working on standardizing the BPEL4People and WS-HumanTask specifications.
+
+The BPEL language specifies the behavior of business processes as long as the activities of the processes are Web services. Human interactions are not in its domain. Despite wide acceptance of Web services in distributed business applications, the absence of human interactions is a significant gap for many real-world business processes.
+To fill this gap, BPEL4People extends BPEL from orchestration of Web services alone to orchestration of role-based human activities as well.
+
+Within the context of a business process BPEL4People
+by extending BPEL with additional independent syntax and semantic.
+The WS-HumanTask specification introduces the definition of human tasks and notifications, including their properties, behavior and a set of operations used to manipulate human tasks. A coordination protocol is introduced in order to control autonomy and life cycle of service-enabled human tasks in an interoperable manner.
+The BPEL4People specification introduces a WS-BPEL extension to address human interactions in WS-BPEL as a first-class citizen. It defines a new type of basic activity which uses human tasks as an implementation, and allows specifying tasks local to a process or use tasks defined outside of the process definition. This extension is based on the WS-HumanTask specification.
+
+
+
+
+
+

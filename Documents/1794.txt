@@ -1,0 +1,47 @@
+REBOL
+REBOL is a cross-platform[n 1] data exchange language and a multi-paradigm programming language originally designed by Carl Sassenrath for network communications and distributed computing. The name REBOL pronounced ['reb-ol] stands for "Relative Expression Based Object Language".
+REBOL introduces the concept of dialecting: small, optimized, domain-specific languages for code and data[1][2], which is also the most notable property of the language according to its designer
+—[3]
+REBOL has been used to program Internet applications (both client- and server-side), database applications, utilities and multimedia applications[1][4][5].
+
+First released in 1997, REBOL was designed over a 20 year period by Carl Sassenrath, the architect and primary developer of AmigaOS, based on his study of denotational semantics and using concepts from the Lisp, Forth, Logo, and Self programming languages.
+REBOL/Command, which added strong encryption and ODBC access, was released in September 2000.
+REBOL/View was released in April 2001, adding graphical capabilities on top of the core language.
+REBOL/IOS, an extensible collaboration environment built with REBOL was released in August 2001.
+REBOL/SDK, providing a choice of kernels to bind against, as well as a preprocessor, was released in December 2002.
+REBOL 3, the newest version of the REBOL interpreter, is currently in development. Alpha versions are being released publicly since January 2008.
+
+REBOL dialects are micro-languages optimized for a specific purpose. Dialects can be used to define business rules, graphical user interfaces or sequences of screens during the installation of a program. Users can define their own dialects, reusing any existing REBOL word and giving it a specific meaning in that dialect[5]. Dialects are interpreted by functions processing REBOL blocks in a specific way[n 2].
+An example of REBOL's dialecting abilities can be seen with the word return. In the data exchange dialect return is just a word not having any specific meaning. In the do dialect, return is a global variable referring to a native function passing back a function result value[6]. In the visual interface dialect (VID), return is a keyword causing the layout engine to simulate a carriage return, moving the "rendering pen" down to the beginning of the next line[2].
+REBOL interpreter with graphical capabilities has to understand and interpret a bunch of dialects to accomplish its task. The table below lists the most important ones in order of significance
+
+REBOL syntax is free-form, not requiring specific positioning. However, indentation is recommended to better convey the structure of the text to human readers.
+Syntactic properties of different dialects may differ. The common platform for all REBOL dialects is the data exchange dialect; other dialects are usually derived from it. In addition to being the common platform for all dialects, the data exchange dialect is directly used to represent data and metadata, populate data structures, send data over Internet, and save them in data storage.
+Differing from C or other programming languages the data exchange dialect does not consist of declarations, statements, expressions or keywords. A valid data exchange dialect text stream is a tree data structure consisting of blocks[n 4] (the root block is implicit, subblocks are delimited by square brackets), parens[n 5] (delimited by round brackets), strings[n 6] (delimited by double quotes or curly brackets suitable for multi-line strings), url's, e-mail addresses, files, paths or other composite values.
+Blocks as well as parens may contain other composite values (a block may contain subblocks, parens, strings, ...) or scalar values like words[n 7], set-words (words suffixed by the colon), get-words (words prefixed by the colon), lit-words (words prefixed by the apostrophe), numbers, money, characters[n 6], etc., separated by whitespace.
+Comments may appear following the semicolon until the end of the line. Multi-line comments or comments not ignored by the lexical parser can be written using "ordinary" datatypes like multi-line strings[6].
+
+Blocks containing domain-specific language can be submitted as arguments to specific evaluator functions.
+
+The most frequently used evaluator is the do function. It is used by default to interpret the text inputted to the interpreter console.
+The do dialect interpreted by the do function, is an expression-oriented sublanguage of the data exchange dialect. The main semantic unit of the language is expression. As opposed to imperative programming languages descending from ALGOL, the do dialect has neither keywords, nor statements.
+Words are used as case-insensitive variables. The result, i.e. the evaluation of a word is returned, when a word is encountered by the do function. The set-word form of a word can be used for assignment. While not having statements, assignment, together with functions with side-effects can be used for imperative programming[6].
+Subblocks of the root block are not interpreted by the do function, unless submitted as arguments to evaluating function. This property is used to define data blocks and for structured programming by submitting blocks as arguments to control functions like if, either, loop, etc[1].
+A specific problem worth noting is, that blocks, assigned to variables, are not copied. Instead, a reference is provided. To make a copy, the block has to be passed to the copy function[6].
+The do function normally follows a prefix style of evaluation, where a function processes the arguments that follow it. However, infix evaluation using infix operators exists too. Infix evaluation takes precedence over the prefix evaluation. For example,
+returns 1, since the infix addition takes precedence over the computation of the absolute value. When evaluating infix expressions, the order of evaluation is left to right, no operator takes precedence over another. For example,
+returns 20, while an evaluation giving precedence to multiplication would yield 14. All operators have prefix versions. Do usually evaluates arguments before passing them to a function. So, the below expression:
+first reads http://en.wikipedia.org/wiki/REBOL and then passes the result to the print function. Parentheses can be used to change the order of evaluation. Using prefix notation the usage of parentheses in expressions can be avoided[n 8].
+The simple precedence rules are both an advantage
+as well as a disadvantage[1]
+
+The parse function is preferably used to analyse and interpret dialects. It does so by matching parse expressions at run time.
+Parse expressions are written in the parse dialect, which, like the do dialect, is an expression-oriented sublanguage of the data exchange dialect. The parse dialect is compatible with the parsing expression grammar (PEG)[n 9]. Unlike the do dialect, the parse dialect uses keywords representing operators and the most important nonterminals, infix parsing operators don't have prefix equivalents and use precedence rules (sequence has higher precedence than choice).
+Actions can be included to be taken during the parsing process as well and the parse function can be used to process blocks or strings[n 9]. At the string parsing level parse has to handle the "low level" parsing, taking into account characters and delimiters. Block parsing is higher level, handling the scanning at the level of REBOL values[1].
+
+The major REBOL interpreter is a non-free software[7] available in several editions (/Core, /View, /Command, /SDK and /IOS). Parts of the interpreter are open source, though. Example: the REBOL desktop is an open source part of the REBOL/View interpreter linking the REBOL community on the Internet. Both REBOL/Core and REBOL/View have been made available for producing distributable commercial applications at no charge[7]. The runtime environment is currently stored in a single executable file. REBOL/Core, the console edition, is about 300kB and REBOL/View, the graphical user interface edition, is about 650kB in size. REBOL/View provides platform-independent graphics and sound access, and comes with its own windowing toolkit and extensible set of styles (UI widgets). Extended editions, such as REBOL/Command or REBOL/SDK require a paid license; they add features like ODBC data access, and the option to create standalone executable files.
+The following free software alternatives exist:
+
+
+
+

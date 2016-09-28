@@ -1,0 +1,68 @@
+Speciation
+Adaptation
+Genetic drift
+Gene flow
+Mutation
+Natural selection
+Speciation
+Evidence
+Evolutionary history of life
+History
+Modern synthesis
+Social effect
+Theory and fact
+Objections / Controversy
+Cladistics
+Ecological genetics
+Evolutionary development
+Human evolution
+Molecular evolution
+Phylogenetics
+Population genetics
+Speciation is the evolutionary process by which new biological species arise. The biologist Orator F. Cook seems to have been the first to coin the term 'speciation' for the splitting of lineages or 'cladogenesis,' as opposed to 'anagenesis' or 'phyletic evolution' occurring within lineages.[1][2] Whether speciation is achieved normally via genetic drift or natural selection is the subject of much ongoing discussion. There are four geographic modes of speciation in nature, based on the extent to which speciating populations are geographically isolated from one another: allopatric, peripatric, parapatric, and sympatric. Speciation may also be induced artificially, through animal husbandry or laboratory experiments. Observed examples of each kind of speciation are provided throughout.[3]
+
+All forms of natural speciation have taken place over the course of evolution, though it still remains a subject of debate as to the relative importance of each mechanism in driving biodiversity.[4]
+A good example of natural speciation is observed repeatedly in the three-spined stickleback, a marine fish which frequently undergoes parapatric speciation into new freshwater colonies at the mouths of rivers. Over typically 10,000 generations, the stickleback may lose their pelvic hind fins, gain tougher bony armor in their scales, and lighten in color as they adapt to life in fresh water.[5]
+There is debate as to the rate at which speciation events occur over geologic time. While some evolutionary biologists claim that speciation events have remained relatively constant over time, some palaeontologists such as Niles Eldredge and Stephen Jay Gould have argued that species usually remain unchanged over long stretches of time, and that speciation occurs only over relatively brief intervals, a view known as punctuated equilibrium.
+
+During allopatric speciation, a population splits into two geographically isolated allopatric populations (for example, by habitat fragmentation due to geographical change such as mountain building or social change such as emigration). The isolated populations then undergo genotypic and/or phenotypic divergence as they (a) become subjected to dissimilar selective pressures or (b) they independently undergo genetic drift. When the populations come back into contact, they have evolved such that they are reproductively isolated and are no longer capable of exchanging genes.
+Island genetics, the tendency of small, isolated genetic pools to produce unusual traits, has been observed in many circumstances, including insular dwarfism and the radical changes among certain famous island chains, like Komodo and Galápagos, the latter having given rise to the modern expression of evolutionary theory, after being observed by Charles Darwin. Perhaps the most famous example of allopatric speciation is Darwin's Galápagos Finches.
+
+In peripatric speciation, new species are formed in isolated, small peripheral populations which are prevented from exchanging genes with the main population. It is related to the concept of a founder effect, since small populations often undergo bottlenecks. Genetic drift is often proposed to play a significant role in peripatric speciation.
+The London Underground mosquito is a variant of the mosquito Culex pipiens which entered in the London Underground in the nineteenth century. Evidence for its speciation include genetic divergence, behavioral differences, and difficulty in mating.[6]
+
+In parapatric speciation, the zones of two diverging populations are separate but do overlap. There is only partial separation afforded by geography, so individuals of each species may come in contact or cross the barrier from time to time, but reduced fitness of the heterozygote leads to selection for behaviours or mechanisms which prevent breeding between the two species.
+Ecologists refer to parapatric and peripatric speciation in terms of ecological niches. A niche must be available in order for a new species to be successful.
+
+In sympatric speciation, species diverge while inhabiting the same place. Often cited examples of sympatric speciation are found in insects which become dependent on different host plants in the same area. However, the existence of sympatric speciation as a mechanism of speciation is still hotly contested. People have argued that the evidences of sympatric speciation are in fact examples of micro-allopatric, or heteropatric speciation. The most widely accepted example of sympatric speciation is that of the cichlids of Lake Nabugabo in East Africa, which is thought to be due to sexual selection. Sympatric speciation refers to the formation of two or more descendant species from a single ancestral species all occupying the same geographic location.
+Until recently, there has a been a dearth of hard evidence that supports this form of speciation, with a general feeling that interbreeding would soon eliminate any genetic differences that might appear. But there has been at least one recent study that suggests that sympatric speciation has occurred in Tennessee cave salamanders.[7]
+The three-spined sticklebacks, freshwater fishes, that have been studied by Dolph Schluter (who received his Ph.D. for his work on Darwin's finches with Peter Grant) and his current colleagues in British Columbia, provide an intriguing example that is best explained by sympatric speciation. They have found:
+Sympatric speciation driven by ecological factors may also account for the extraordinary diversity of crustaceans living in the depths of Siberia's Lake Baikal.
+
+Polyploidy is a mechanism often attributed to causing some speciation events in sympatry. Not all polyploids are reproductively isolated from their parental plants, so an increase in chromosome number may not result in the complete cessation of gene flow between the incipient polyploids and their parental diploids (see also hybrid speciation).
+Polyploidy is observed in many species of both plants and animals. In fact, it has been proposed that all of the existing plants and most of the animals are polyploids or have undergone an event of polyploidization in their evolutionary history. However, reproduction is often by parthenogenesis since polyploid animals are often sterile. Rare instances of polyploid mammals are known, but most often result in prenatal death.
+
+See Hybrid speciation section under the Genetics heading below.
+
+Reinforcement is the process by which natural selection increases reproductive isolation.[8] It may occur after two populations of the same species are separated and then come back into contact. If their reproductive isolation was complete, then they will have already developed into two separate incompatible species. If their reproductive isolation is incomplete, then further mating between the populations will produce hybrids, which may or may not be fertile. If the hybrids are infertile, or fertile but less fit than their ancestors, then there will be no further reproductive isolation and speciation has essentially occurred (e.g., as in horses and donkeys.) The reasoning behind this is that if the parents of the hybrid offspring each have naturally selected traits for their own certain environments, the hybrid offspring will bear traits from both, therefore would not fit either ecological niche as well as the parents did. The low fitness of the hybrids would cause selection to favor assortative mating, which would control hybridization. This is sometimes called the Wallace effect after the evolutionary biologist Alfred Russel Wallace who suggested in the late 19th century that it might be an important factor in speciation.[9] If the hybrid offspring are more fit than their ancestors, then the populations will merge back into the same species within the area they are in contact.
+Reinforcement is required for both parapatric and sympatric speciation. Without reinforcement, the geographic area of contact between different forms of the same species, called their "hybrid zone," will not develop into a boundary between the different species. Hybrid zones are regions where diverged populations meet and interbreed. Hybrid offspring are very common in these regions, which are usually created by diverged species coming into secondary contact. Without reinforcement the two species would have uncontrollable inbreeding. Reinforcement may be induced in artificial selection experiments as described below.
+
+New species have been created by domesticated animal husbandry, but the initial dates and methods of the initiation of such species are not clear. For example, domestic sheep were created by hybridisation, and no longer produce viable offspring with Ovis orientalis, one species from which they are descended.[10] Domestic cattle, on the other hand, can be considered the same species as several varieties of wild ox, gaur, yak, etc., as they readily produce fertile offspring with them.[11]
+The best-documented creations of new species in the laboratory were performed in the late 1980s. William Rice and G.W. Salt bred fruit flies, Drosophila melanogaster, using a maze with three different choices of habitat such as light/dark and wet/dry. Each generation was placed into the maze, and the groups of flies which came out of two of the eight exits were set apart to breed with each other in their respective groups. After thirty-five generations, the two groups and their offspring were isolated reproductively because of their strong habitat preferences: they mated only within the areas they preferred, and so did not mate with flies that preferred the other areas.[12] The history of such attempts is described in Rice and Hostert (1993).[13]
+Diane Dodd was also able to show how mating preferences can develop from reproductive isolation in Drosophila pseudoobscura fruit flies after only eight generations using different food types, starch and maltose.[14]
+
+Dodd's experiment has been easy for many others to replicate, including with other kinds of fruit flies and foods.[15]
+
+Few speciation genes have been found. They usually involve the reinforcement process of late stages of speciation. In 2008 a speciation gene causing reproductive isolation was reported.[16] It causes hybrid sterility between related subspecies.
+
+Hybridization between two different species sometimes leads to a distinct phenotype. This phenotype can also be fitter than the parental lineage and as such natural selection may then favor these individuals. Eventually, if reproductive isolation is achieved, it may lead to a separate species. However, reproductive isolation between hybrids and their parents is particularly difficult to achieve and thus hybrid speciation is considered an extremely rare event. The Mariana Mallard arose from hybrid speciation.
+Hybridization without change in chromosome number is called homoploid hybrid speciation. It is considered very rare but has been shown in Heliconius butterflies [17] and sunflowers. Polyploid speciation, which involves changes in chromosome number, is a more common phenomenon, especially in plant species.
+
+Theodosius Dobzhansky, who studied fruit flies in the early days of genetic research in 1930s, speculated that parts of chromosomes that switch from one location to another might cause a species to split into two different species. He mapped out how it might be possible for sections of chromosomes to relocate themselves in a genome. Those mobile sections can cause sterility in inter-species hybrids, which can act as a speciation pressure. In theory, his idea was sound, but scientists long debated whether it actually happened in nature. Eventually a competing theory involving the gradual accumulation of mutations was shown to occur in nature so often that geneticists largely dismissed the moving gene hypothesis.[18]
+However, 2006 research shows that jumping of a gene from one chromosome to another can contribute to the birth of new species.[19] This validates the reproductive isolation mechanism, a key component of speciation.[20]
+
+Interspersed repetitive DNA sequences function as isolating mechanisms. These repeats protect newly evolving gene sequences from being overwritten by gene conversion, due to the creation of non-homologies between otherwise homologous DNA sequences. The non-homologies create barriers to gene conversion. This barrier allows nascent novel genes to evolve without being overwritten by the progenitors of these genes. This uncoupling allows the evolution of new genes, both within gene families and also allelic forms of a gene. The importance is that this allows the splitting of a gene pool without requiring physical isolation of the organisms harboring those gene sequences.
+
+Humans have genetic similarities with chimpanzees and gorillas, suggesting common ancestors. Analysis of genetic drift and recombination using a Markov model suggests humans and chimpanzees speciated apart 4.1 million years ago.[21]
+
+

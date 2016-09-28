@@ -1,0 +1,30 @@
+HP-UX
+HP-UX 11i (Hewlett Packard UniX) is Hewlett-Packard's proprietary implementation of the Unix operating system, based on System V (initially System III). It runs on the HP 9000 PA-RISC-based range of processors and HP Integrity Intel's Itanium-based systems, and was also available for later Apollo/Domain systems. Earlier versions also ran on the HP 9000 Series 200, 300, and 400 computer systems based on the Motorola 68000 series of processors, as well as the HP 9000 Series 500 computers based on HP's proprietary FOCUS processor architecture.
+HP-UX was the first Unix to use access control lists for file access permissions rather than the standard Unix permissions system. HP-UX was also among the first Unix systems to include a built-in logical volume manager. HP has had a long partnership with Veritas Software, and uses VxFS as the primary file system. HP-UX is currently credited with leadership in integrated mission-critical virtualization[1] , observed performance, high availability and manageability.[2]
+In 2008, the current shipping release is HP-UX 11i v3 with Update 3 (0809).
+
+Since about 2000, the focus of HP-UX has increasingly been on enhanced reliability, security, and partitioning. The reliability is provided through clustering technology and application failover on a system outage, as well as error monitoring and correction. HP-UX 11i offers a common root disk for its clustered file system. HP provides HP Serviceguard as the clustering solution for HP-UX 11i, as well as for Linux.
+Security features have significantly increased with 11i v2, with the addition of kernel-based intrusion detection, strong random number generation, stack buffer overflow protection, security partitioning, role-based access management, and various open source security tools. The system partitioning (virtualization) ranges from hardware partitions to isolated OS virtual partitions, and most recently the Virtual Server Environment (VSE).
+HP-UX 11i v3 scales as follows:
+With the acquisition of Compaq in 2001, HP obtained another Unix-based system, the Tru64 for AlphaServer hardware platform. HP continues to sell Tru64 UNIX, together with TruCluster software, but discontinued AlphaServer manufacturing in 2007.
+
+Prior to the release of HP-UX version 11.11, HP used a decimal version numbering scheme with the first number giving the major release and the number following the decimal showing the minor release. With 11.11, HP made a marketing decision to name their releases 11i followed by a v(decimal-number) for the version. The i was intended to indicate the OS is Internet-enabled, but the effective result was a dual version-numbering scheme. The name change was apparently made to pay homage to the World War I Armistice anniversary,[citation needed] which occurs on 11.11 in nations that use decimal dates.
+
+
+The first version of HP-UX was 1.0, built about 1983. It started out based on System III Unix, and later on System V.
+The first HP-UX, for the FOCUS systems (Series 500s), had a kernel written in MODCAL, a modified Pascal with extensions for low-level programming. Pascal/MODCAL was in vogue at HP for operating system work in the early-to-mid 1980s. This kernel in turn was hosted on top of another lower-level kernel called SUNOS (no relation to Sun Microsystems' SunOS) and emulated a file system similar to UFS on top of an HP-peculiar filesystem called Structured Directory Format (which led to curious features like . and .. not actually existing in a directory as opened and read). The userland was a mix of AT&T, UCB, and HP sources.
+The series 200/300 history also started out claiming System III and later System V. The HP-UX ROMs for the HP Integral PC had two versions: 1.0 which was System III based and 5.0 which was System V based.
+HP announced its Precision Architecture in the second half of 1986, for two hardware lines: the HP3000 series 930 which had an equivalent HP9000 series 840, and the HP3000 series 950 which also had an HP9000 series 8xx equivalent. Unlike later PA-RISC systems, in the 3000/930 and 9000/840, the PA-RISC processor was spread across several boards of TTL.
+At the time, HP did not have shippable quantities of hardware, but did have some installed at third-party developers sites. It was another year before MPE/XL was ready for its 1.0 release to customers, and in that time the HP9000 series 840 had shipped with HP-UX and the HP3000 series 930 had been dropped from the price list, not being enough faster than a classic HP3000 series 70 running a similar workload.
+When it came time to do a Unix for the first PA-RISC systems (Series 800), at least the kernel was based on 4BSD but then worked over to make it behave more like System V and other HP-UXs. BSD-isms gradually got put back into it over the late 1980s and 1990s. That is, HP started a fresh port of Unix and then layered the old code and APIs on top.
+The last release for the series 500 was 5.2.
+Series 200 and Series 800 HP-UXs started with versions 1.0 and later got version number bumps up to other ports' version numbers as they became more compatible with those ports. So s200 went from 2.x to 5.0 when it got demand paging and more compatible with s500 5.0, and PA-RISC went from 3.1 to 7.0 when its userland was being built from common sources used in 7.0 on the s300.
+By HP-UX 7 even the series 300 port was feeling somewhat BSDish, including the BSD Fast File System and a filesystem with long filenames.
+Kernel had common source (across series 700/800 at least, maybe s300/400 too) in 8.0.
+
+HP sells HP-UX 11i in Operating Environments (OEs). OEs are HP-tested and integrated operating system plus application bundles designed to simplify installation and maintenance while providing the functionality needed for the system's purpose.
+In 2008, HP introduced new OEs for HP-UX 11i v3 to align application bundles with today's typical systems' use. OEs for HP-UX 11i v2 remain unchanged. The following lists the currently available HP-UX 11i v3 OEs:
+Solutions for wide-area disaster recovery and the compiler bundle are sold separately.
+
+
+

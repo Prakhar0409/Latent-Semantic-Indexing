@@ -1,0 +1,17 @@
+Revision Control System
+The Revision Control System (RCS) is a software implementation of revision control that automates the storing, retrieval, logging, identification, and merging of revisions. RCS is useful for text that is revised frequently, for example programs, documentation, procedural graphics, papers, and form letters. RCS is also capable of handling binary files, though with reduced efficiency and efficacy. Revisions are stored with the aid of the diff utility.
+
+RCS was initially developed in the 1980s by Walter F. Tichy while he was at Purdue University as a free and more evolved alternative to the then-popular Source Code Control System (SCCS). It is now part of the GNU Project but is still maintained by Purdue University.
+
+RCS operates only on single files, has no way of working with an entire project. Although it provides branching for individual files, the version syntax is cumbersome. Instead of using branches, many teams just use the built-in locking mechanism and work on a single head branch.
+
+
+A simple system called CVS was developed capable of dealing with RCS files en masse, and this was the next natural step of evolution of this concept, as it “transcends but includes” elements of its predecessor. CVS was originally a set of scripts which used RCS programs to manage the files. It no longer does that, rather it operates directly on the files itself.
+
+A later higher-level system PRCS[1] uses RCS-like files but was never simply a wrapper. In contrast to CVS, PRCS improves the delta compression of the RCS files using Xdelta.
+
+In single-user scenarios, such as server configuration files or automation scripts, RCS may still be the preferred revision control tool as it is simple and no central repository needs to be accessible for it to save revisions. This makes it a more reliable tool when the system is in dire maintenance conditions. Additionally, the saved backup files are easily visible to the administration so the operation is straightforward. However, there are no built-in tamper protection mechanisms (that is, users who can use the RCS tools to version a file also, by design, are able to directly manipulate the corresponding version control file) and this is leading some security conscious administrators to consider client/server version control systems that restrict users' ability to alter the version control files.
+
+Some wiki engines, including TWiki, use RCS for storing page revisions.
+
+

@@ -1,0 +1,94 @@
+Collective investment scheme
+A collective investment scheme is a way of investing money with other people to participate in a wider range of investments than those feasible for most individual investors, and to share the costs of doing so.
+Terminology varies with country but collective investment schemes are often referred to as investment funds, managed funds, mutual funds or simply funds (note: mutual fund has a specific meaning in the US). Around the world large markets have developed around collective investment and these account for a substantial portion of all trading on major stock exchanges.
+Collective investments are promoted with a wide range of investment aims either targeting specific geographic regions (e.g. Emerging Europe) or specified themes (e.g. Technology). Depending on the country there is normally a bias towards the domestic market to reflect national self-interest as perceived by policy makers, familiarity and the lack of currency risk. Funds are often selected on the basis of these specified investment aims, their past investment performance and other factors such as fees.
+
+Collective investment schemes
+Credit Unions
+Insurance companies
+Investment banks
+Pension funds
+Prime Brokers
+Trusts
+Finance series
+Financial market
+Participants
+Corporate finance
+Personal finance
+Public finance
+Banks and Banking
+Financial regulation
+
+Collective investment schemes may be formed under company law, by legal trust or by statute. The nature of the scheme and its limitations are often linked to its constitutional nature and the associated tax rules for the type of structure within a given jurisdiction.
+Typically there is:
+Please see below for general information on specific forms of scheme in different jurisdictions.
+
+The Net Asset Value or NAV is the value of a scheme's assets less the value of its liabilities. The method for calculating this varies between scheme types and jurisdiction and can be subject to complex regulation.
+
+An open-end fund is equitably divided into shares which vary in price in direct proportion to the variation in value of the fund's net asset value. Each time money is invested, new shares or units are created to match the prevailing share price; each time shares are redeemed, the assets sold match the prevailing share price. In this way there is no supply or demand created for shares and they remain a direct reflection of the underlying assets.
+
+A closed-end fund issues a limited number of shares (or units) in an initial public offering (or IPO). The shares are then traded on an exchange or directly through the fund manager to create a secondary market subject to market forces. If demand for the shares is high, they may trade at a premium to net asset value. If demand is low they may trade at a discount to net asset value. Further share (or unit) offerings may be made by the scheme if demand is high although this may affect the share price.
+The added element of market forces tends to amplify the performance of the fund increasing investment risk through increased volatility.
+
+Some collective investment schemes have the power to borrow money to make further investments; a process known as gearing or leverage. If markets are growing rapidly this can allow the scheme to take advantage of the growth to a greater extent than if only the subscribed contributions were invested. However this premise only works if the cost of the borrowing is less than the increased growth achieved. If the borrowing costs are more than the growth achieved a net loss is achieved.
+This can greatly increase the investment risk of the fund by increased volatility and exposure to increased capital risk.
+Gearing was a major contributory factor in the collapse of the split capital investment trust debacle in the UK in 2002.[1][2][3]
+
+Collective investment schemes vary in availability depending on their intended investor base.
+
+Some schemes are designed to have a limited term with enforced redemption of shares or units on a specified date.
+
+Many collective investment schemes split the fund into multiple classes of shares or units. The underlying assets of each class are effectively pooled for the purposes of investment management, but classes typically differ in the fees and expenses paid out of the fund's assets.
+These differences are supposed to reflect different costs involved in servicing investors in various classes; for example:
+In some cases, by aggregating regular investments by many individuals, a retirement plan (such as a 401(k) plan) may qualify to purchase "institutional" shares (and gain the benefit of their typically-lower expense ratios) even though no members of the plan would qualify individually.
+
+
+One of the main advantages of collective investment is the reduction in investment risk (capital risk) by diversification. An investment in a single equity may do well, but it may collapse for investment or other reasons (e.g., Marconi, Enron). If your money is invested in such a failed holding you could lose your capital. By investing in a range of equities (or other securities) the capital risk is reduced.
+This investment principle is often referred to as spreading risk.
+Collective investments by their nature tend to invest in a range of individual securities. However, if the securities are all in a similar type of asset class or market sector then there is a systematic risk that all the shares could be affected by adverse market changes. To avoid this systematic risk investment managers may diversify into different non-perfectly-correlated asset classes. For example, investors might hold their assets in equal parts in equities and fixed income securities.
+
+If one investor were to buy a large number of direct investments, the amount they would be able to invest in each holding is likely to be small. Dealing costs are normally based on the number and size of each transaction, therefore the overall dealing costs would take a large chunk out of the capital (affecting future profits). Pooling money with that of other investors gives the advantage of buying in bulk, making dealing costs an insignificant part of the investment.
+
+
+The fund manager managing the investment decisions on behalf of the investors will of course expect remuneration. This is often taken directly from the fund assets as a fixed percentage each year or sometimes a variable (performance based) fee. If the investor managed their own investments, this cost would be avoided.
+Often the cost of advice given by a stock broker or financial adviser is built into the scheme. Often referred to as commission or load (in the U.S.) this charge may be applied at the start of the plan or as an ongoing percentage of the fund value each year. While this cost will diminish your returns it could be argued that it reflects a separate payment for an advice service rather than a detrimental feature of collective investment schemes. Indeed it is often possible to purchase units or shares directly from the providers without bearing this cost.
+
+Although the investor can choose the type of fund to invest in, they have no control over the choice of individual holdings that make up the fund.
+
+If the investor holds shares directly, they may be entitled to shareholders' perks (for example, discounts on the company's products) and the right to attend the company's annual general meeting and vote on important matters. Investors in a collective investment scheme often have none of the rights connected with individual investments within the fund.
+
+
+Each fund has a defined investment goal to describe the remit of the investment manager and to help investors decide if the fund is right for them. The investment aims will typically fall into the broad categories of Income (value) investment or Growth investment. Income or value based investment tends to select stocks with strong income streams, often more established businesses. Growth investment selects stocks that tend to reinvest their income to generate growth. Each strategy has its critics and proponents; some prefer a blend approach using aspects of each.
+Funds are often distinguished by asset-based categories such as equity, bonds, property, etc.
+Also, perhaps most commonly funds are divided by their geographic markets or themes.
+Examples
+In most instances whatever the investment aim the fund manager will select an appropriate index or combination of indices to measure its performance against; e.g. FTSE 100. This becomes the benchmark to measure success or failure against.
+
+The aim of most funds is to make money by investing in assets to obtain a real return (i.e. better than inflation).
+The methods used to make your investment vary and two opposing views exist.
+Active management - Active managers believe that by selectively buying within a Financial market that it is possible to outperform the market as a whole. Therefore they employ dynamic portfolio strategies buying and selling investments with changing market conditions.
+Passive management - Passive managers believe that it is impossible to predict which individual holdings or section of the market will perform better than another therefore their portfolio strategy is determined at outset of the fund and not varied thereafter. Many passive funds are index trackers where the fund tries to mirror the market as a whole. Another example of passive management is the "buy and hold" method used by many traditional Unit Investment Trusts where the portfolio is fixed from outset.
+An example of active management success
+
+When analysing investment performance, statistical measures are often used to compare 'funds'. These statistical measures are often reduced to a single figure representing an aspect of past performance:
+
+Depending on the nature of the investment, the type of 'investment' risk will vary.
+A common concern with any investment is that you may lose the money you invest - your capital. This risk is therefore often referred to as capital risk.
+If the assets you invest in are held in another currency there is a risk that currency movements alone may affect the value. This is referred to as currency risk.
+Many forms of investment may not be readily salable on the open market (e.g. commercial property) or the market has a small capacity and investments may take time to sell. Assets that are easily sold are termed liquid therefore this type of risk is termed liquidity risk.
+
+
+There may be an initial charge levied on the purchase of units or shares this covers dealing costs, and commissions paid to intermediaries or salespeople. Typically this fee is a percentage of the investment. Some schemes waive the initial charge and apply an exit charge instead. This may be graduated disappearing after a number of years.
+The scheme will charge an annual management charge or AMC to cover the cost of administering the scheme and remunerating the investment manager. This may be a flat rate based on the value of the assets or a performance related fee based on a predefined target being achieved.
+Different unit/share classes may have different combinations of fees/charges.
+
+Open-ended schemes are either dual priced or single priced.
+Dual priced schemes have a buying (offer) price and selling or (bid) price. The buying price is higher than the selling price, this difference is known as the spread or bid-offer spread. The difference is typically 5% and may be varied by the scheme manager to reflect changes in the market; the amount of variation may be limited by the schemes rules or regulatory rules. The difference between the buying and selling price includes initial charge for entering the fund.
+The internal workings of a fund are more complicated that this description suggests. The manager sets a price for creation of units/shares and for cancellation. There is a differential between the cancellation and bid prices, and the creation and offer prices. The additional units are created are place in the managers box for future purchasers. When heavy selling occurs units are liquidated from the managers box to protect the existing investors from the increased dealing costs. Adjusting the bid/offer prices closer to the cancellation/creation prices allows the manager to protect the interest of the existing investors in changing market conditions[4].
+Most unit trusts are dual priced.
+Single priced schemes notionally have a single price for units/shares and this price is the same if buying or selling. As single prices scheme can't adjust the difference between the buying and selling price to allow for market conditions another mechanism the dilution levy exists. SICAVs, OEICs and U.S. mutual funds are single priced.
+A dilution levy can be charged at the discretion of the fund manager, to offset the cost of market transactions resulting from large un-matched buy or sell orders. For example if the volume of purchases outweigh the volume of sales in a particular trading period the fund manager will have to go to the market to buy more of the assets underlying the fund, incurring a brokerage fee in the process and having an adverse affect on the fund as a whole ("diluting" the fund). The same is the case with large sell orders. A dilution levy is therefore applied where appropriate and paid for by the investor in order that large single transactions do not reduce the value of the fund as a whole.[5]
+
+
+(Click here for US SEC description of investment company types).
+

@@ -1,0 +1,24 @@
+Java Media Framework
+The Java Media Framework (JMF) is a Java library that enables audio, video and other time-based media to be added to Java applications and applets. This optional package, which can capture, play, stream, and transcode multiple media formats, extends the Java Platform, Standard Edition (Java SE) and allows development of cross-platform multimedia applications.
+
+An initial, playback-only version of JMF was developed by Sun Microsystems, Silicon Graphics, and Intel, and released as JMF 1.0 in 1997. JMF 2.0, developed by Sun and IBM, came out in 1999 and added capture, streaming, pluggable codecs, and transcoding. JMF is branded as part of Sun's "Desktop" technology of J2SE opposed to the Java server-side and client-side application frameworks. The notable exceptions are Java applets and Java Web Start, which have access to the full JMF in the web browser's or appletviewer's underlying JRE.[1][2]
+JMF 2.0 originally shipped with an MP3 decoder and encoder. This was removed in 2002, and a new MP3 playback-only plug-in was posted in 2004.
+JMF binaries are available under a custom license, and the source is available under the SCSL.
+The current version ships with four JAR (file format) files, and shell scripts to launch four JMF-based applications:
+JMF is available in an all-Java version and as platform-specific "performance packs", which can contain native-code players for the platform, and/or hooks into a multimedia engine specific to that platform. JMF 2.0 offers performance packs for Linux, Solaris and Windows (on SPARC).[1]
+
+JMF abstracts the media it works with into DataSources (for media being read into JMF) and DataSinks (for data being exported out). It does not afford the developer significant access to the particulars of any given format; rather, media is represented as sources (themselves obtained from URL's) that can be read in and played, processed, and exported (though not all codecs support processing and transcoding).
+A Manager class offers static methods that are the primary point-of-contact with JMF for applications.
+
+Many JMF developers have complained that the JMF implementation supplied in up-to-date JRE's supports relatively few up-to-date codecs and formats. Its all-Java version, for example, cannot play MPEG-2, MPEG-4, Windows Media, RealMedia, most QuickTime movies, Flash content newer than Flash 2, and needs a plug-in to play the ubiquitous MP3 format.[3] While the performance packs offer the ability to use the native platform's media library, they're only offered for Linux, Solaris and Windows. In particular, MS Windows-based JMF developers new to JMF often expect support for some newer formats on all platforms when such formats are only, in fact, supported on MS Windows.
+While JMF is considered a very useful framework, the freely-available implementation provided by Sun is suffering from a lack of updates and maintenance. JMF does not get much maintenance effort from Sun; the API has not been enhanced since 1999, and the last news item on JMF's home page was posted in November 2004. While JMF is built for extensibility, there are few such third-party extensions. Furthermore, content editing functionality in JMF is effectively non-existent. You can do simple recording and playback for audio and video, but the implementation provided by Sun can do little else.[4]
+Platforms beyond those that Sun provides support to are left to their corresponding JRE vendors.[5] While Sun still provides a forum for discussion of its implementation, there have been several efforts to implement open-source alternatives.[6][7][8][9][10]
+
+Depending on a developer's needs, several other libraries may be more suitable than JMF. These include:
+
+The following example shows an AWT file-selection dialog, and attempts to load and play the media file selected by the user.
+Much of the example is involved with the building of the AWT GUI. Only two lines touch JMF. Manager.createRealizedPlayer() implicitly creates a DataSource from a URL representation of the file, creates a Player, and realizes it, meaning that all resources necessary for playback are allocated and initialized. The getVisualComponent() asks the Player for an AWT Component suitable for use in a GUI. If a control component were desired, it would be obtained with getControlPanelComponent() and added to the GUI separately. Note that the developer is not concerned with the format of the media - this code works equally well for any media format that JMF can import and read.
+
+Many users have reported difficulty in using JMF in applications through webstart to write media to the local disk. This is not necessarily a difficult task, just a very specific process:
+
+

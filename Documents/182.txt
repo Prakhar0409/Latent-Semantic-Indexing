@@ -1,0 +1,17 @@
+Point of interest
+A point of interest, or POI, is a specific point location that someone may find useful or interesting. An example is a point on the Earth representing the location of the Space Needle, or a point on Mars representing the location of the mountain, Olympus Mons.
+The term is widely used in cartography, especially in electronic variants including GIS, and GPS navigation software. In this area the location of this point is called a waypoint.
+A GPS point of interest consists at the very minimum of the latitude and longitude of the POI, although a name or description for the POI is usually included too. Other information such as altitude or a telephone number might also be attached. GPS applications typically use icons to represent different categories of POI on a map graphically.[1]
+
+Digital maps for modern GPS devices typically include a basic selection of POI for the map area.[2]
+However websites exist that specialize in the collection, verification, management and distribution of POI which end-users can load onto their devices to replace or supplement the existing POI. [3] While some of these websites are generic, and will collect and categorize POI for any interest, others are more specialized in a particular category (such as speed cameras) or GPS device (e.g. TomTom/Garmin). End-users also have the ability to create their own custom collections.
+Commercial POI collections, especially those that ship with digital maps, or that are sold on a subscription basis are usually protected by copyright. However there are also many websites from which royalty-free POI collections can be obtained.
+
+The applications for POI are extensive. As GPS-enabled devices as well as software applications that use digital maps become more available, so too the applications for POI are also expanding. Newer digital cameras for example can automatically tag a photograph using Exif with the GPS location where a picture was taken; these pictures can then be overlaid as POI on a digital map or satellite image such as Google Earth and shared.
+
+There are many different file formats used to store point of interest data, even where the same underlying WGS84 system is used. Some of the reasons for there being so many variations to store the same data include:
+The following are some of the file formats used by different vendors and devices to exchange POI (and in some cases, also navigation tracks):
+Third party and vendor-supplied utilities are available to convert point of interest data between different formats to allow them to be exchanged between otherwise incompatible GPS devices or systems.[4] Furthermore, many applications will support the generic ASCII text file format, although this format is more prone to error due to its loose structure as well as the many ways in which GPS co-ordinates can be represented (e.g. decimal vs degrees/minutes/seconds)
+
+
+

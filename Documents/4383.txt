@@ -1,0 +1,41 @@
+Knight's tour
+The Knight's Tour is a mathematical problem involving a knight on a chessboard. The knight is placed on the empty board and, moving according to the rules of chess, must visit each square exactly once. A knight's tour is called a closed tour if the knight ends on a square attacking the square from which it began (so that it may tour the board again immediately with the same path). Otherwise the tour is open. The exact number of open tours is still unknown. Creating a program to solve the knight's tour is a common problem given to computer science students.[1]
+The knight's tour problem is an ancient problem dating back to as far as the 9th century.
+
+The knight's tour problem is an instance of the more general Hamiltonian path problem in graph theory. The problem of finding a closed knight's tour is similarly an instance of the hamiltonian cycle problem. Note however that, unlike the general Hamiltonian path problem, the knight's tour problem can be solved in linear time.[2]
+
+On an 8 × 8 board, there are exactly 26,534,728,821,064 (directed, i.e. two tours along the same path that travel in opposite directions are counted separately) closed tours.[3][4][5] The number of undirected closed tours is half this number, since every tour can be traced in reverse. There are 9,862 undirected closed tours on a 6 × 6 board.[6] No closed tours exist for smaller boards (this is a corollary of the following theorem).
+
+For any m × n board with m less than or equal to n, a closed knight's tour is always possible unless one or more of these three conditions are true:
+
+One can show that condition 1 prohibits closed tours by a simple argument based on parity and coloring. For the standard black-and-white coloring of the chessboard, the knight must move either from a black square to a white square or from a white square to a black square. Thus in a closed tour the knight must visit the same number of white squares as black squares, and the number of squares visited in total must therefore be even. But if m and n are both odd, the total number of squares is odd. (For example, in a 5 × 5 checkerboard there are 13 of one color and 12 of the other.) Therefore closed tours do not exist. Open tours may still exist.
+
+Condition 2 states that when the shorter side is of length 1, 2, or 4, no closed tour is possible.
+When m = 1 or 2, no closed tour is possible because the knight would not be able to reach every square (with the exception of the trivial case 1 × 1). It can be shown that a 4 × n board cannot have a closed tour either, by using a coloring argument.
+Start by assuming that a 4 × n board has a closed knight's tour. Let A1 be the set of all squares that would be black and A2 all the squares that would be white, if they were colored according to the alternating black-and-white checkerboard scheme. Consider the figure at right. Define B1 to be the set of green squares and B2 as the set of red squares. There are an equal number of red squares as green squares. Note that from a square in B1 the knight must next jump to a square in B2. And since the knight must visit every square once, when the knight is on a square in B2 it must move to a square in B1 next (otherwise the knight will need to travel to two squares in B1 later).
+If we follow the hypothetical knight's tour we will find a contradiction.
+It follows that set A1 has the same elements as set B1, and set A2 has the same elements as set B2. But this is obviously not true, as the red and green pattern shown above is not the same as a checkerboard pattern; the set of red squares is not the same as the set of black squares (or white, for that matter).
+So our above assumption was false and there are no closed knight's tours for and 4 × n board, for any n.
+
+Condition 3 may be proved using casework. Attempting to construct a closed knight's tour on a 3 by 4, 3 by 6, or 3 by 8 will lead to definite failure. 3 by n boards with n not equal to 4, 6, or 8 can be shown to have closed tours by induction (a repeating pattern).
+
+Simply proving the above three conditions does not prove the theorem; it is still required to prove that all rectangular boards that do not fall in one of the above three categories have closed knight's tours. [7]
+
+Algorithms other than the simple brute-force search to find knight's tour solutions are discussed below.
+
+The Knight's Tour problem also lends itself to being solved by a neural network implementation.[8] The network is set up such that every legal knight's move is represented by a neuron, and each neuron is initialized randomly to be either "active" or "inactive" (output of 1 or 0), with 1 implying that the neuron is part of the final solution. Each neuron also has a state function (described below) which is initialized to 0.
+When the network is allowed to run, each neuron can change its state and output based on the states and outputs of its neighbors (adjacent knight's moves) according to the following transition rules:
+where t represents discrete intervals of time, U(Ni,j) is the state of the neuron connecting square i to square j, V(Ni,j) is the output of the neuron from i to j, and G(Ni,j) is the set of neighbors of the neuron.
+Although divergent cases are possible, the network should eventually converge, which occurs when no neuron changes its state from time t to t + 1. When the network converges, a solution is found. The solution found by the network will be either a knight's tour, or a series of two or more independent knight's tours within the same board.
+
+Warnsdorff's algorithm is a heuristic method for solving the knight's tour, based on the rule of choosing the square among those immediately accessible by the knight move that would give the fewest possible knight's moves following the move to that square. In graph-theoretic terms, each move is made to the adjacent vertex with the least degree. (Pohl has devised a rule for breaking ties.) This algorithm may also more generally be applied to any graph. Although the Hamiltonian path problem is NP-hard in general, on many graphs that occur in practice this heuristic is able to successfully locate a solution in linear time.[9] The knight's tour is a special case.[10]
+The algorithm was first described in "Des Rösselsprungs einfachste und allgemeinste Lösung" by H. C. Warnsdorff in 1823.[11]
+
+Warnsdorff’s algorithm will do for any initial position of the knight on the board. All the possible squares which may be reached in one move from this position are located, and the number of moves that the knight would be able to make from each of these squares is found. [12] Then, the algorithm dictates that the knight move to the square that has the least number of possible following moves. The process is then repeated until each square has been visited.[13][14]
+
+Some definitions:
+Algorithm:
+
+The following C code solves the Knight's Tour problem starting from a random position on a 10x10 chess board.
+
+In java the above code looks like this:

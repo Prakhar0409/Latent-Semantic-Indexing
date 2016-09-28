@@ -1,0 +1,6 @@
+WS-Management
+WS-Management is a specification of a SOAP-based protocol for the management of servers, devices, applications and more. The specification is based on DMTF open standards and Internet standards for Web Services and was published in March, 2005 by a group of companies, including AMD, Dell, Intel, Microsoft, Sun Microsystems and others.
+WS-Management provides a common way for systems to access and exchange management information across the IT infrastructure. The specification is quite rich, supporting much more than get/set of simple variables, and in that it is closer to WBEM or Netconf than to SNMP. A mapping of the DMTF-originated Common Information Model into WS-Management was also defined.
+
+
+

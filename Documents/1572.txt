@@ -1,0 +1,18 @@
+CCNA
+CCNA is the acronym for the Cisco Certified Network Associate certification from Cisco. In speech and in writing, this certification is properly referred to by the initials CCNA rather than the full name.
+CCNA certification is a first-level Cisco Career certification and indicates a foundation in and apprentice knowledge of networking. CCNA certification validates the ability to install, configure, operate, and troubleshoot medium-size routed and switched networks, including implementation and verification of connections to remote sites in a WAN. To become Cisco certified, a passing score on the 640-802 exam must be achieved.
+
+Three CCNA concentrations were added in October 2008.[1] These associate-level concentrations confirm an individual's specialized skills in voice, security, and wireless.
+CCNA Voice: Cisco Certified Network Associate with a Concentration in Voice CCNA Voice Training: IIUC
+CCNA Voice Exam: 640-460 IIUC
+This exam validates IP telephony installation, configuration, and maintenance skills on IP Telephony enterprises that use Cisco Unified Communications Manager Express, Cisco Unity Express, and the UC500 Smart Business Communications System.
+CCNA Wireless: Cisco Certified Network Associate with a Concentration in Wireless Networks CCNA Wireless Training: IUWNE
+CCNA Wireless Exam:640-721
+The exam tests a candidate's knowledge of installing, configuring, operating, and troubleshooting small to medium-size WLANs.
+CCNA Security: Cisco Certified Network Associate with a Concentration in Network Security CCNA Security Training:IINS
+CCNA Security Exam: 640-553
+This exam tests competency in the technologies that Cisco uses in its security infrastructure, such as securing Cisco routers and switches. Includes installation, troubleshooting and monitoring of network devices to maintain integrity and confidentiality.
+
+CCNA certifications are valid for three years. To recertify you must pass one of the following exams:
+
+

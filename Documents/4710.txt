@@ -1,0 +1,11 @@
+Wirth's law
+Wirth's law in computing is the adage made popular by Niklaus Wirth in 1995: [1]
+Wirth attributed the saying to Martin Reiser, who, in the preface to his book on the Oberon System, wrote The hope is that the progress in hardware will cure all software ills. However, a critical observer may observe that software manages to outgrow hardware in size and sluggishness.[3]
+Computer hardware has become faster over time, and some of that development is quantified by Moore's law; Wirth's law points out that this does not imply that work is actually getting done faster.
+
+Gates' Law is a variant on Wirth's Law.[4] It is a humorous and ironic observation that the speed of commercial software generally slows by fifty percent every 18 months thereby negating all the benefits of Moore's Law. This could occur for a variety of reasons: "featuritis", "code cruft", programmer laziness, or a management turnover whose design philosophy does not coincide with the previous manager.[5]
+Gates' Law is born of the frustration that many users feel due to the apparent tendency of commercial software to become slower with each successive incremental version, such that buying new hardware upgrades sounds like a reasonable idea.
+Though the law's name refers to Bill Gates, Gates did not formulate or express it. Rather, the name refers to a perceived tendency of Microsoft products to slow down with each new feature or patch. This perception is reinforced by the perceived benefit that buying new hardware typically means buying a new copy of the current Microsoft operating system and Microsoft applications, referring to planned obsolescence.
+
+
+

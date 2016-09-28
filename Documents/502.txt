@@ -1,0 +1,16 @@
+Segmentation fault
+A segmentation fault (often shortened to segfault) is a particular error condition that can occur during the operation of computer software. A segmentation fault occurs when a program attempts to access a memory location that it is not allowed to access, or attempts to access a memory location in a way that is not allowed (for example, attempting to write to a read-only location, or to overwrite part of the operating system). Systems based on processors like the Motorola 68000 tend to refer to these events as address or bus errors.
+Segmentation is one approach to memory management and protection in the operating system. It has been superseded by paging for most purposes, but much of the terminology of segmentation is still used, "segmentation fault" being an example. Some operating systems still have segmentation at some logical level although paging is used as the main memory management policy.
+On Unix-like operating systems, a process that accesses invalid memory receives the SIGSEGV signal. On Microsoft Windows, a process that accesses invalid memory receives the STATUS_ACCESS_VIOLATION exception, and usually a window asking the user to send an error report to Microsoft appears.
+
+Here is an example of ANSI C code that should create a segmentation fault on platforms with memory protection:
+When the program containing this code is compiled, the string "hello world" is placed in the section of the program binary marked as read-only; when loaded, the operating system places it with other strings and constant data in a read-only segment of memory. When executed, a variable, s, is set to point to the string's location, and an attempt is made to write an H character through the variable into the memory, causing a segmentation fault. Compiling such a program with a compiler that does not check for the assignment of read-only locations at compile time, and running it on a Unix-like operating system produces the following runtime error:
+Backtrace from gdb:
+The conditions under which segmentation violations occur and how they manifest themselves are specific to an operating system.
+On Windows machines the "read/write" operations on hard-coded text string are available. System does not see anything wrong within the above code. Just the first letter of a text string "hello world" is replaced with another letter 'H' (for both C & C++). No memory violation occurs. But, if you start to move the 's' pointer forward (like using s++ directive inside a loop) and you pass over the final NULL value, that ends up each text string (including "Hello World"), then if you try to write another letter, you should receive the "Segmentation fault error". (If the system detects it - mine didn't.)
+(Used Borland's Free Command Line Tools for tests.)
+Because a very common program error is a null pointer dereference (a read or write through the null pointer, a null pointer, used in C to mean "pointer to no object" and as an error indicator), most operating systems map the null pointer's address such that accessing it causes a segmentation fault.
+This sample code creates a null pointer, and tries to assign a value to its non-existent target. Doing so causes a segmentation fault at runtime on many compilers.
+Another way to cause a segmentation fault is to recurse without a base case, which causes a stack overflow:
+
+

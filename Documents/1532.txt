@@ -1,0 +1,18 @@
+Green threads
+In computer programming, green threads are threads that are scheduled by a Virtual Machine (VM) instead of natively by the underlying operating system. Green threads emulate multithreaded environments without relying on any native OS capabilities. Green threads are managed in user space instead of kernel space, enabling them to work in environments that do not have native thread support.
+
+On a multi-core processor, native thread implementations can assign work to multiple processors, whereas green thread implementations cannot[dubious – discuss]. In such an environment, native threads have a sizable advantage. On the other hand, if the VM runs multi-threaded it can use multiple OS threads for its green threads[dubious – discuss]. Green threads can be started much faster on some VMs. On uniprocessor computers, however, the most efficient model has not yet been clearly determined. [1] Benchmarks on computers running the Linux kernel have shown that:
+Also, a green thread may block all other threads if performing a blocking I/O operation. To avoid that problem, green threads must use asynchronous I/O operations, and that added complexity does increase latency, as well as development time and difficulty.
+Being created at the user space level, green threads are lighter than native threads, but as they implement a form of cooperative multitasking, bugs in threaded programs can bring them to a halt.
+
+In Java 1.1, green threads were the only threading model used by the JVM[dubious – discuss]. As green threads have some limitations compared to native threads, subsequent Java versions dropped them in favor of native threads.
+An exception to this is the Squawk virtual machine, which is a mixture between an operating system for low-power devices and a Java virtual machine. It uses green threads in order to keep the native code to an absolute minimum and to support the migration of its isolates.
+
+There are some other virtual machine languages that still implement equivalents of green threads instead of native threads. For example�:
+The Erlang virtual machine has what might be called 'green processes' - they are like operating system processes (they do not share state like threads do) but are implemented within the Erlang Run Time System (erts). These are sometimes (erroneously) cited as 'green threads'.
+In the case of GHC Haskell, a context switch occurs at the first allocation after a configurable timeout. GHC threads are also potentially run on one or more OS threads during their lifetime (there is a many-to-many relationship between GHC threads and OS threads), allowing for parallelism on symmetric multiprocessing machines, while not creating more costly OS threads than is necessary to run on the available number of cores.
+The Smalltalk virtual machines do not count evaluation steps; however, the VM can still preempt the executing thread on external signals (such as expiring timers, or I/O becoming available). Certain Smalltalk implementations, e.g. QKS Smalltalk, do count evaluation steps, support green threads and prevent priority inversion. In most Smalltalk environments, a high-priority process that wakes up regularly will effectively implement time-sharing preemption:
+Most green thread implementations do not have any support for preventing priority inversion.
+
+
+

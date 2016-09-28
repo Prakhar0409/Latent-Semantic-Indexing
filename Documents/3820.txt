@@ -1,0 +1,42 @@
+Netstat
+netstat (network statistics) is a command-line tool that displays network connections (both incoming and outgoing), routing tables, and a number of network interface statistics. It is available on Unix, Unix-like, and Windows NT-based operating systems.
+It is used for finding problems in the network and to determine the amount of traffic on the network as a performance measurement.[1]
+
+Parameters used with this command must be prefixed with a hyphen (-) rather than a slash (/).
+-a : Displays all active TCP connections and the TCP and UDP ports on which the computer is listening.
+-b : Displays the binary (executable) program's name involved in creating each connection or listening port. (Windows XP, 2003 Server only (not Microsoft Windows 2000 or other non-Windows operating systems))
+-e : Displays ethernet statistics, such as the number of bytes and packets sent and received. This parameter can be combined with -s.
+-f : Displays fully qualified domain names <FQDN> for foreign addresses.(not available under Windows)
+-i : Displays network interfaces and their statistics (not available under Windows)
+-n : Displays active TCP connections, however, addresses and port numbers are expressed numerically and no attempt is made to determine names.
+-o : Displays active TCP connections and includes the process ID (PID) for each connection. You can find the application based on the PID on the Processes tab in Windows Task Manager. This parameter can be combined with -a, -n, and -p. This parameter is available on Microsoft Windows XP, 2003 Server (not Microsoft Windows 2000)).
+-p Windows: Protocol : Shows connections for the protocol specified by Protocol. In this case, the Protocol can be tcp, udp, tcpv6, or udpv6. If this parameter is used with -s to display statistics by protocol, Protocol can be tcp, udp, icmp, ip, tcpv6, udpv6, icmpv6, or ipv6.
+-p Linux: Process : Show which processes are using which sockets (similar to -b under Windows) (you must be root to do this)
+-P Solaris: Protocol : Shows connections for the protocol specified by Protocol. In this case, the Protocol can be ip, ipv6, icmp, icmpv6, igmp, udp, tcp, or rawip.
+-r : Displays the contents of the IP routing table. (This is equivalent to the route print command under Windows.)
+-s : Displays statistics by protocol. By default, statistics are shown for the TCP, UDP, ICMP, and IP protocols. If the IPv6 protocol for Windows XP is installed, statistics are shown for the TCP over IPv6, UDP over IPv6, ICMPv6, and IPv6 protocols. The -p parameter can be used to specify a set of protocols.
+-v : When used in conjunction with -b it will display the sequence of components involved in creating the connection or listening port for all executables.
+Interval : Redisplays the selected information every Interval seconds. Press CTRL+C to stop the redisplay. If this parameter is omitted, netstat prints the selected information only once.
+/? : Displays help at the command prompt. (only on Windows)
+
+Netstat provides statistics for the following:
+
+To display the statistics for only the TCP or UDP protocols, type one of the following commands:
+netstat -s -p tcp
+netstat -s -p udp
+To display active TCP connections and the process IDs every 5 seconds, type the following command (works on Microsoft XP and 2003 only):
+netstat -o 5
+Mac OS X version
+netstat -w 5
+To display active TCP connections and the process IDs using numerical form, type the following command (works on Microsoft XP and 2003 only):
+netstat -n -o
+
+Some versions of netstat lack explicit field delimiters in their printf-generated output, leading to numeric fields running together and thus corrupting the output data.
+
+Under Linux, raw data can often be obtained from the /proc/net/dev to work around the printf output corruption arising in netstat's network interface statistics summary, netstat -i, until such time as the problem is corrected.
+On the Windows platform, netstat information can be retrieved by calling the GetTcpTable and GetUdpTable functions in the IP Helper API, or IPHLPAPI.DLL. Information returned includes local and remote IP addresses, local and remote ports, and (for GetTcpTable) TCP status codes. In addition to the command-line netstat.exe tool that ships with Windows, there are GUI-based netstat programs available.
+On the Windows platform, this command is available only if the Internet Protocol (TCP/IP) protocol is installed as a component in the properties of a network adapter in Network Connections.
+With Mac OS X 10.5, the /Applications/Utilities folder contains a network utility called: Network Utility, see tab Netstat for these stats presented in a gui application, along with Ping, Lookup, Traceroute, Whois, Finger and Port Scan.
+
+
+

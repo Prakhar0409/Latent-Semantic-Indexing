@@ -1,0 +1,10 @@
+PDF417
+PDF417 is a stacked linear bar code symbol used in a variety of applications, primarily transport, identification cards, and inventory management. PDF stands for Portable Data File. The PDF417 symbology was invented by Dr. Ynjiun P. Wang at Symbol Technologies in 1991, and has spawned an Open Source decoder project[1] together with an Open Source encoder[2]. Another full-featured encoder is barcode4j[3].
+
+In addition to features typical of two dimensional bar codes, PDF417's capabilities include:
+
+The PDF417 bar code (also called a symbol) consists of 3 to 90 rows, each of which is like a small linear bar code. Each row has:
+Along with Data Matrix, this symbology can be used to generate postage accepted by the United States Postal Service. PDF417 is also selected by the airline industry's Bar Coded Boarding Pass standard (BCBP) as the 2D bar code symbology for paper boarding passes. PDF417 is the standard selected by the Department of Homeland Security as the machine readable zone technology for RealID compliant driver licenses and state issued identification cards.
+
+Note that although it is in the public domain, a fee is charged to purchase the standard.
+

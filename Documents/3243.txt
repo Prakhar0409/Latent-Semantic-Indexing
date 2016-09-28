@@ -1,0 +1,87 @@
+LR parser
+In computer science, an LR parser is a parser for context-free grammars that reads input from Left to right and produces a Rightmost derivation. The term LR(k) parser is also used; here the k refers to the number of unconsumed "look ahead" input symbols that are used in making parsing decisions. Usually k is 1 and is often omitted. A context-free grammar is called LR(k) if there exists an LR(k) parser for it.
+An LR parser is said to perform bottom-up parsing because it attempts to deduce the top level grammar productions by building up from the leaves.
+A deterministic context-free language is a language for which some LR(k) grammar exists. Every LR(k) grammar for k > 1 can be mechanically transformed into an LR(1) grammar for the same language, while an LR(0) grammar for the same language may not exist; the LR(0) languages are a proper subset of the deterministic ones.
+Many programming languages are described by a grammar that is LR(1), or close to being so, and for this reason LR parsers are often used by compilers to perform syntax analysis of source code.
+In typical usage an "LR parser" means a particular parser capable of recognizing a particular language specified by a context free grammar. It is common, however, to use the term to mean a driver program that can be supplied with a suitable table to produce a wide number of different particular LR parsers. However, these programs are more accurately called parser generators.
+LR parsing can be generalized to arbitrary context-free language parsing without a performance penalty on LR(k) grammars. However, most programming languages are designed to be expressed with LR(k) grammars, (where k is a small constant, usually 1), since parsing of non-LR(k) grammars is an order of magnitude more expensive (cubic instead of quadratic in the input length). One notable exception is C++.
+Compared to LL parsing, LR parsing can not only handle a larger range of languages, but is also better at error reporting: it detects syntactic errors (that is, when the input does not conform to the grammar) as soon as possible. This is in contrast to an LL(k) (or even worse, an LL(*) parser) which may defer error detection to a different branch of the grammar due to backtracking, often making errors harder to localize across disjunctions with long common prefixes.
+LR parsers are difficult to produce by hand; they are usually constructed by a parser generator or a compiler-compiler. Depending on how the parsing table is generated, these parsers can be called simple LR parsers (SLR), look-ahead LR parsers (LALR), or canonical LR parsers. These types of parsers can deal with increasingly large sets of grammars; LALR parsers can deal with more grammars than SLR. Canonical LR parsers work on more grammars than LALR parsers.
+
+Conceptually, an LR Parser is a recursive program that can be proven correct by direct computation, and can be implemented more efficiently (in time) as a recursive ascent parser, a set of mutually-recursive functions for every grammar, much like a recursive descent parser. Conventionally, however, LR parsers are presented and implemented as table-based stack machines in which the call stack of the underlying recursive program is explicitly manipulated.
+A table-driven bottom-up parser can be schematically presented as in Figure 1. The following describes a rightmost derivation by this parser.
+
+The parser is a state machine. It consists of:
+
+Since the LR parser reads input from left to right but needs to produce a rightmost derivation, it uses reductions, instead of derivations to process input. That is, the algorithm works by creating a "leftmost reduction" of the input. The end result, when reversed, will be a rightmost derivation.
+The LR parsing algorithm works as follows:
+
+To explain its workings we will use the following small grammar whose start symbol is E:
+and parse the following input:
+
+The two LR(0) parsing tables for this grammar look as follows:
+The action table is indexed by a state of the parser and a terminal (including a special terminal $ that indicates the end of the input stream) and contains three types of actions:
+The goto table is indexed by a state of the parser and a nonterminal and simply indicates what the next state of the parser will be if it has recognized a certain nonterminal.
+
+The table below illustrates each step in the process. Here the state refers to the element at the top of the stack (the right-most element), and the next action is determined by referring to the action table above. Also note that a $ is appended to the input string to denote the end of the stream.
+
+The parser starts out with the stack containing just the initial state ('0'):
+The first symbol from the input string that the parser sees is '1'. In order to find out what the next action is (shift, reduce, accept or error), the action table is indexed with the current state (remember that the "current state" is just whatever is on the top of the stack), which in this case is 0, and the current input symbol, which is '1'. The action table specifies a shift to state 2, and so state 2 is pushed onto the stack (again, remember that all the state information is in the stack, so "shifting to state 2" is the same thing as pushing 2 onto the stack). The resulting stack is
+where the top of the stack is 2. For the sake of explanation we also show the symbol (e.g., '1', B) that caused the transition to the next state, although strictly speaking it is not part of the stack.
+In state 2 the action table says that regardless of what terminal we see on the input stream, we should do a reduction with grammar rule 5. If the table is correct, this means that the parser has just recognized the right-hand side of rule 5, which is indeed the case. In this case we write 5 to the output stream, pop one state from the stack (since the right-hand side of the rule has one symbol), and push on the stack the state from the cell in the goto table for state 0 and B, i.e., state 4. The resulting stack is:
+However, in state 4 the action table says we should now do a reduction with rule 3. So we write 3 to the output stream, pop one state from the stack, and find the new state in the goto table for state 0 and E, which is state 3. The resulting stack:
+The next terminal that the parser sees is a '+' and according to the action table it should then go to state 6:
+Note that the resulting stack can be interpreted as the history of a finite state automaton that has just read a nonterminal E followed by a terminal '+'. The transition table of this automaton is defined by the shift actions in the action table and the goto actions in the goto table.
+The next terminal is now '1' and this means that we perform a shift and go to state 2:
+Just as the previous '1' this one is reduced to B giving the following stack:
+Again note that the stack corresponds with a list of states of a finite automaton that has read a nonterminal E, followed by a '+' and then a nonterminal B. In state 8 we always perform a reduce with rule 2. Note that the top 3 states on the stack correspond with the 3 symbols in the right-hand side of rule 2.
+Finally, we read a '$' from the input stream which means that according to the action table (the current state is 3) the parser accepts the input string. The rule numbers that will then have been written to the output stream will be [5, 3, 5, 2] which is indeed a rightmost derivation of the string "1 + 1" in reverse.
+
+
+The construction of these parsing tables is based on the notion of LR(0) items (simply called items here) which are grammar rules with a special dot added somewhere in the right-hand side. For example the rule E → E + B has the following four corresponding items:
+Rules of the form A → ε have only a single item A → •. These rules will be used to denote that state of the parser. The item E → E • + B, for example, indicates that the parser has recognized a string corresponding with E on the input stream and now expects to read a '+' followed by another string corresponding with B.
+
+It is usually not possible to characterize the state of the parser with a single item because it may not know in advance which rule it is going to use for reduction. For example if there is also a rule E → E * B then the items E → E • + B and E → E • * B will both apply after a string corresponding with E has been read. Therefore we will characterize the state of the parser by a set of items, in this case the set { E → E • + B, E → E • * B }.
+
+An item with a dot in front of a nonterminal, such as E → E + • B, indicates that the parser expects to parse the nonterminal B next. To ensure the item set contains all possible rules the parser may be in the midst of parsing, it must include all items describing how B itself will be parsed. This means that if there are rules such as B → 1 and B → 0 then the item set must also include the items B → • 1 and B → • 0. In general this can be formulated as follows:
+Any set of items can be extended such that it satisfies this rule: simply continue to add the appropriate items until all nonterminals preceded by dots are accounted for. The minimal extension is called the closure of an item set and written as clos(I) where I is an item set. It is these closed item sets that we will take as the states of the parser, although only the ones that are actually reachable from the begin state will be included in the tables.
+
+Before we start determining the transitions between the different states, the grammar is always augmented with an extra rule
+where S is a new start symbol and E the old start symbol. The parser will use this rule for reduction exactly when it has accepted the input string.
+For our example we will take the same grammar as before and augment it:
+It is for this augmented grammar that we will determine the item sets and the transitions between them.
+
+
+The first step of constructing the tables consists of determining the transitions between the closed item sets. These transitions will be determined as if we are considering a finite automaton that can read terminals as well as nonterminals. The begin state of this automaton is always the closure of the first item of the added rule: S → • E:
+
+The boldfaced "+" in front of an item indicates the items that were added for the closure (not to be confused with the mathematical '+' operator which is a terminal). The original items without a "+" are called the kernel of the item set.
+Starting at the begin state (S0) we will now determine all the states that can be reached from this state. The possible transitions for an item set can be found by looking at the symbols (terminals and nonterminals) we find right after the dots; in the case of item set 0 these are the terminals '0' and '1' and the nonterminal E and B. To find the item set that a symbol x leads to we follow the following procedure:
+For the terminal '0' this results in:
+and for the terminal '1' in:
+and for the nonterminal E in:
+and for the nonterminal B in:
+Note that the closure does not add new items in all cases. We continue this process until no more new item sets are found. For the item sets 1, 2, and 4 there will be no transitions since the dot is not in front of any symbol. For item set 3 we see that the dot is in front of the terminals '*' and '+'. For '*' the transition goes to:
+and for '+' the transition goes to:
+For item set 5 we have to consider the terminals '0' and '1' and the nonterminal B. For the terminals we see that the resulting closed item sets are equal to the already found item sets 1 and 2, respectively. For the nonterminal B the transition goes to:
+For item set 6 we also have to consider the terminal '0' and '1' and the nonterminal B. As before, the resulting item sets for the terminals are equal to the already found item sets 1 and 2. For the nonterminal B the transition goes to:
+These final item sets have no symbols beyond their dots so no more new item sets are added and we are finished. The finite automaton, with item sets as its states is shown below
+The transition table for the automaton now looks as follows:
+
+From this table and the found item sets we construct the action and goto table as follows:
+The reader may verify that this results indeed in the action and goto table that were presented earlier on.
+
+Note that only step 4 of the above procedure produces reduce actions, and so all reduce actions must occupy an entire table row, causing the reduction to occur regardless of the next symbol in the input stream. This is why these are LR(0) parse tables: they don't do any lookahead (that is, they look ahead zero symbols) before deciding which reduction to perform. A grammar that needs lookahead to disambiguate reductions would require a parse table row containing different reduce actions in different columns, and the above procedure is not capable of creating such rows.
+Refinements to the LR(0) table construction procedure (such as SLR and LALR) are capable of constructing reduce actions that do not occupy entire rows. Therefore, they are capable of parsing more grammars than LR(0) parsers.
+
+The automaton is constructed in such a way that it is guaranteed to be deterministic. However, when reduce actions are added to the action table it can happen that the same cell is filled with a reduce action and a shift action (a shift-reduce conflict) or with two different reduce actions (a reduce-reduce conflict). However, it can be shown that when this happens the grammar is not an LR(0) grammar.
+A small example of a non-LR(0) grammar with a shift-reduce conflict is:
+One of the item sets we then find is:
+There is a shift-reduce conflict in this item set because in the cell in the action table for this item set and the terminal '1' there will be both a shift action to state 1 and a reduce action with rule 2.
+A small example of a non-LR(0) grammar with a reduce-reduce conflict is:
+In this case we obtain the following item set:
+There is a reduce-reduce conflict in this item set because in the cells in the action table for this item set there will be both a reduce action for rule 3 and one for rule 4.
+Both examples above can be solved by letting the parser use the follow set (see LL parser) of a nonterminal A to decide if it is going to use one of As rules for a reduction; it will only use the rule A → w for a reduction if the next symbol on the input stream is in the follow set of A. This solution results in so-called Simple LR parsers.
+
+
+
+

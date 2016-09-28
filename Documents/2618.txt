@@ -1,0 +1,24 @@
+Hero of Alexandria
+Hero (or Heron) of Alexandria (Greek: Ἥρων ὁ Ἀλεξανδρεύς) (c. 10–70 AD). was an ancient Greek mathematician who was a resident of a Roman province (Ptolemaic Egypt); he was also an engineer who was active in his hometown of Alexandria. He is considered the greatest experimenter of antiquity[1] and his work is representative of the Hellenistic scientific tradition.[2]
+Among his most famous inventions were the first documented steam-powered device, the aeolipile, and a windwheel, constituting one of the earliest instances of wind harnessing.[3][4] He is said to have been a follower of the Atomists. Some of his ideas were derived from the works of Ctesibius.
+
+Due to strong Babylonian influence in Hero's work, it was once speculated by a minority of scholars that Hero may have been a Greek of Egyptian or Phoenician origin,[5] but the modern scholarly consensus is that he was a pure Greek.[6][1][7] The historian of mathematics C. B. Boyer explains that Hero's identification as an Egyptian or a Phoenician was largely due to the strong Babylonian influence on his work. However at least from the days of Alexander the Great to the close of the classical world, there undoubtedly was much intercommunication between Greece and Mesopotamia, and it seems to be clear that the Babylonian arithmetic and algebraic geometry continued to exert considerable influence in the Hellenistic world.[6]
+
+A number of references mention dates around 150 BC, but these are inconsistent with the dates of his publications and inventions. This may be due to a misinterpretation of the phrase "first century" or because Hero was a common name.
+It is almost certain that Hero taught at the Musaeum which included the famous Library of Alexandria, because most of his writings appear as lecture notes for courses in mathematics, mechanics, physics and pneumatics. Although the field was not formalized until the 20th century, it is thought that the work of Hero, his "programmable" automated devices in particular, represents some of the first formal research into cybernetics.[8]
+
+
+Heron described a method of iteratively computing the square root.[11] It is also called the Babylonian method, because the Babylonians also knew of it before Heron wrote it down. Today, though, his name is most closely associated with Heron's Formula for finding the area of a triangle from its side lengths.
+
+The most comprehensive edition of Hero's works was published in 5 volumes in Leipzig by the publishing house Teubner in 1903.
+Works known to be written by Heron:
+Works which have sometimes been attributed to Hero, but are now thought to have most likely been written by someone else:[13]
+Works which are preserved only in fragments:
+Latest paper on Hero:
+
+A 2007 The History Channel television show Ancient Discoveries includes recreations of most of Heron's devices.
+A 2008 The History Channel television show Ancient Discoveries - "Ancient New York" includes a short recreation of a fountain device that made water flow uphill.
+A 1979 Soviet animated short film focuses on Heron's invention of the aeolipile.[14]
+
+
+

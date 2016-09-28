@@ -1,0 +1,42 @@
+Metathesis (linguistics)
+Metathesis (IPA: /məˈtæθəsɨs/) (from Greek μετάθεσις) is a sound change that alters the order of phonemes in a word. The most common instance of metathesis is the reversal of the order of two adjacent phonemes, such as "comfterble" for comfortable (in rhotic dialects such as American English). Many languages have words that show this phenomenon, and some use it as a regular part of their grammar (e.g. Fur). The process of metathesis has altered the shape of many familiar words in the English language, too. What is sound before and after metathesis depends on assumption of language ancestry if protowords cannot be attested.
+
+Dionysius of Halicarnassus was a historian and scholar in rhetoric living in 1st century BC Greece. He analysed classical texts and applied several revisions to make them sound more eloquent. One of the methods he used was re-writing documents on a mainly grammatical level: changing word and sentence orders would make texts more fluent and 'natural', he suggested. He called this way of re-writing μετάθεσις (metathesis).
+
+Metathesis is responsible for the most common types of speech errors, such as children acquiring spaghetti as pasghetti. The pronunciation of ask as /ˈæks/ goes back to Old English days, when ascian and axian/acsian were both in use. Some other frequent English pronunciations that display metathesis are:
+The process has shaped many English words historically. Bird in English was once bryd, horse was hros, wasp is also recorded as wæps and hasp, hæps. The discrepancy between the spelling of iron and the usual pronunciation (/ˈaɪ.ərn/, as if spelled "eyern") is the result of metathesis.
+Metathesis is also a common feature of the West Country dialects.
+
+
+Old Spanish showed occasional metathesis when phonemes not conforming to the usual euphonic constraints were joined. This happened, for example, when a clitic pronoun was attached to a verb ending: it is attested that forms like dejadle "leave [plural] him" were often metathesized to dejalde (the phoneme cluster /dl/ is not allowed anywhere else in Spanish). Milagro "miracle" is a metathesized derivation from Latin miraculum, which also shows typical intervocalic voicing and syncope.
+Lunfardo, an argot of Spanish from Buenos Aires, is fond of vesre, a form of intentional metathesis that involves changes in the order of whole syllables as well as individual phonemes (vesre is the inverted form of revés "back, backwards"). Gacería, an argot of Castile, also incorporates words formed through metathesis (brica for "criba", for example).
+Some frequently heard pronunciations in Spanish that display metathesis are:
+
+Modern French makes extensive use of metathesis through a pattern of informal speech called verlan. In verlan new words are created from existing words by reversing the order of phonemes. Verlanization is applied mostly to two-syllable words and the new words that are created are typically considerably less formal than the originals. The process often involves considerably more changes than simple metathesis of two phonemes but this forms the basis for verlan as a linguistic phenomenon.
+A few well known examples are:
+Some words were metathesized more than once:
+
+In Navajo, verbs have (often multiple) morphemes prefixed onto the verb stem. These prefixes are added to the verb stem in a set order in a prefix positional template. Although prefixes are generally found in a specific position, some prefixes change order by the process of metathesis.
+For example, prefix 'a- (3i object pronoun) usually occurs before di-, as in
+However, when 'a- occurs with the prefixes di- and ni-, the 'a- metathesizes with di-, leading to an order of di- + 'a- + ni-, as in
+instead of the expected *adinisbąąs ('a-di-ni-sh-ł-bąąs) (note also that 'a- is reduced to '-).
+
+In Straits Saanich metathesis is used as a grammatical device to indicate "actual" aspect. The actual aspect is most often translated into English as a be ... -ing progressive. The actual aspect is derived from the "nonactual" verb form by a CV → VC metathesis process (i.e. consonant metathesizes with vowel).
+See Montler (1986), Thompson & Thompson (1969) for more information.
+
+In Hebrew the verb conjugation (binyan) hiṯpaʿʿēl (התפעל) undergoes metathesis if the first consonant of the root is an alveolar or postalveolar fricative. Namely, the pattern hiṯ1a22ē3 (where the numbers signify the root consonants) becomes hi1ta22ē3. Examples:
+
+In case of a very narrow range of Hungarian nouns, metathesis occurs before accusative case ending, possessive suffixes, and in plural:
+Note that in all the examples above, the consonant h is transposed to the end of the stem.
+
+From a comparative study of Dravidian vocabularies, one can observe that the retroflex consonants (ʈ, ɖ, ɳ, ɭ, ɻ) and the liquids of the alveolar series (r, ɾ, l) do not occur initially in common Dravidian etyma, but Telugu has words with these consonants at the initial position. It was shown that the etyma underwent a metathesis in Telugu, when the root word originally consisted of an initial vowel followed by one of the above consonants. When this pattern is followed by a consonantal derivative, metathesis has occurred in the phonemes of the root-syllable with the doubling of the suffix consonant (if it had been single); when a vowel derivative follows, metathesis has occurred in the phonemes of the root syllable attended by a contraction of the vowels of root and (derivative) suffix syllables.[2] These statements and the resulting sequences of vowel contraction may be summed up as follows:
+Type 1: V1C1-C² > C1V1-C²C²
+Type 2: V1C1-V²- > C1V1-
+Examples:
+
+In ASL, several signs which have a pre-specified initial and final location can have the order of these two locations reversed in contexts which seem to be purely phonological. For example the sign DEAF, prototypically made with the '1' handshape making contact first with the cheek and then moving to contact the jaw (as in the sentence FATHER DEAF) can have these locations reversed if the preceding sign, when part of the same constituent, has a final location more proximal to the jaw (as in the sentence MOTHER DEAF). Both forms of the sign DEAF are acceptable to native signers. (This information has not been cited. Use with caution. Please, refer to Linguistics of American Sign Language: An Introduction (1995, pp. 43–44), C. Valli & C. Lucas, Gallaudet University Press.)
+
+In the Hollow Pursuits episode of Star Trek: The Next Generation, Lt. Commander Data explains the meaning of metathesis after Captain Picard mistakenly calls Lt. Barclay "Mr. Broccoli". After Barclay leaves, Data says to the captain, "metathesis is one of the most common of pronunciation errors, sir; a reversal of vowel and consonant; 'barc' to broc'...". Data mispronounces the word, stressing the third rather than the second syllable.
+
+
+

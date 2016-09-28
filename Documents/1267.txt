@@ -1,0 +1,21 @@
+Adventure Game Studio
+Adventure Game Studio (acronym AGS) is a freeware tool that can be used to create graphical adventure games. It is aimed at intermediate-level game designers, and combines an Integrated development environment (IDE) for setting up most aspects of the game with a scripting language to process the game logic.
+
+Adventure Game Studio was created by British programmer Chris Jones. AGS was originally released in 1997 as an MS-DOS program entitled "Adventure Creator". This early version had extremely limited functionality and was unable to create anything but the simplest of games, but the concept of an adventure game-making toolkit started to attract interest.[citation needed] As a result, the application was re-written during the summer of 1999 and released in September of that year under the name "Adventure Game Studio."
+Jones was inspired by the apparent simplicity of Sierra On-Line's adventure game interface, specifically as showcased in Space Quest IV: Roger Wilco and the Time Rippers.[1] The first version of Adventure Creator allowed users to create only low-res, keyboard controlled games.
+Initially only small tests and demo games were created with AGS, and most of the "more ambitious" projects were cancelled. As a result of the lack of completed games and engine features the user base was small, but the community grew slowly. Game developers started requesting more features so that they could create more complex games. Gradually as these requests were implemented, AGS became a more capable toolkit and it was finally possible to create high quality games with it.
+After a long period of slow activity, Lassi Quest was released as the first complete AGS game in late 1999. It was not until the Larry Vales and Rob Blanc games had been released in 2000-2001, that the engine gained widespread popularity[2]. There is now an active community containing thousands of members, and a large output of completed games of all sizes.
+AGS itself continues to be added to and improved upon, with the Version 3.0 release in January 2008 including a complete rewrite of the editor using the .NET Framework, and an update to the game engine to support 3D hardware acceleration.
+
+The editor and runtime engine are currently designed for Windows operating systems, though Mac OS and Linux ports of the engine were also available, they are currently discontinued. Prior to AGS 2.7, a DOS engine was also available; this has since been discontinued. It is not yet possible to run the editor to create games on operating systems other than Windows without an emulator or API wrapper like WINE.
+AGS can create games with a graphical range from 256 colours and a resolution of 320x200 (games with more "classic" looks) to true colour games with a resolution of up to 1024x768 (games with more "modern" looks) and an alpha channel. The higher the resolution, the more demanding a game is on computer resources, resulting in the need for a faster computer.
+
+Thousands of games have been produced in the years since AGS was first released. These vary extensively in quality, from short 'test games' to full-length professional-quality games. It has even been used to create arcade and board games.
+The AGS Games Page has a complete list.
+One of the more popular ways to create a full-length game is to take an old adventure and to update it, either by simply creating a point-and-click interface or by completely overhauling the graphics. AGD Interactive and Infamous Adventures (remaking and updating the King's Quest series and other Sierra releases) and LucasFan Games (similarly with LucasArts adventure games) are three of the leading creators of these updated classics.
+
+The AGS community is based on the AGS Forum and the AGS Internet Relay Chat channel. There have now been IRL meetings of the community each summer for some years, known as Mittens. There is also an ongoing blog covering the latest goings on in AGS development, games and community. The community runs several competitions to create games, art, writing and music, and the annual AGS awards to honour the best of the year.
+
+
+
+

@@ -1,0 +1,27 @@
+Eliyahu M. Goldratt
+Eliyahu Moshe Goldratt (born August 15, 1948) is an Israeli physicist who became a business management guru.[1][2] He is the originator of the Optimized Production Technology, the Theory of Constraints (TOC), the Thinking Processes, Drum-Buffer-Rope, Critical Chain Project Management (CCPM) and other TOC derived tools.
+He has authored several business novels and non-fiction works, mainly on the Theory of Constraints.
+
+Born in Israel into a rabbinic family Goldratt went on to become a physicist. He obtained his Bachelor of Science degree from Tel Aviv University and his Masters of Science, and Doctorate of Philosophy from Bar-Ilan University.
+
+
+After some experience helping Israeli manufacturers, Goldratt left the academic world to join a company called Creative Output. The company developed and sold a software package, the Optimized Production Technology (OPT). OPT was billed as the first software to provide finite capacity scheduling for production environments. This software and the principles behind it were analyzed by a number of major publications[3]
+Goldratt was actively involved in many controversies such as Cost Accounting x Throughput Accounting[4] and culminated in the publication of A Town Without Walls[5].
+Within the company Goldratt noticed elements that made him uncomfortable[6] several software implementations did not come close to their estimated potential. After some work Goldratt discovered that the habits, and assumptions (paradigms) of employees and managers prior to using the software were still prominent and negatively influenced results after implementation[6].
+His answer was the book The Goal that took 13 months to write. After completion the book was not well received by the company staff and by large publishers [6]. Finally, with help from Larry Gadd the owner of North River Press, the book was published and became a great success[7]. After a while Goldratt noticed that many implementations were conducted using the Book but not the software. This caused further stress in the company and Goldratt tried to capture the essence of how to implement the solution directly in what is now known as Drum-Buffer-Rope method. He published The Race to explain some of the concepts he was working on, and developed a course to teach people how to manage their production using a computer simulation game.
+Goldratt tried to move the company down the path of "consulting", trying to help people rethink the way they did things, but Creative Output's declining revenues and Goldratt involvement with anything but the sales of OPT software convinced the shareholders to fire Goldratt (and afterward his closer collaborators).
+
+After leaving Creative Output circa 1985 Goldratt created the Avraham Y Goldratt Institute or AGI (named after his father) to promote the Theory of Constraints and help it be implemented worldwide.
+During the time of the AGI Goldratt got deeply involved with the further development of TOC, mainly the Thinking Processes (and launched it publicly in 1991), Critical Chain Project Management and other applications. His concepts influenced applications outside manufacturing and supply management, including the field of sales process engineering[8].
+The AGI had many success stories[9], but in the late 1990s Goldratt noticed the rate of TOC adoption was nowhere close to what he aspired to, and decided to put all knowledge developed in the AGI into the public domain. This was not accepted by the other partners and so Goldratt left the institute to create an organization that would achieve his ambitions using lessons learned from his experiences.
+
+From the beginning of the 2000s Goldratt created the self-funded Goldratt Group and launched the Viable Vision initiative.
+He continues the development of TOC both in the Goldratt Group and in active support for other developments like TOC for Education[10], TOC in Healthcare, TOC for the Individual (in the continuity of the Odyssey program and the publishing of The Choice).
+
+Known for his direct style and perfectionism, Goldratt produced many works. Some of the more noteworthy are:
+
+
+
+
+
+

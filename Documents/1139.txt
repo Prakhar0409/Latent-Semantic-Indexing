@@ -1,0 +1,14 @@
+Schlieren photography
+Schlieren photography is a visual process that is used to photograph the flow of fluids of varying density. Invented by the German physicist August Toepler in 1864 to study supersonic motion, it is widely used in aeronautical engineering to photograph the flow of air around objects. Its role is changing due to the increasing use of computational fluid dynamics, where the same principle is used to display the computed results as flow images.
+
+The basic optical schlieren system uses light from a single collimated source shining on, or from behind, a target object. Variations in refractive index caused by density gradients in the fluid distort the collimated light beam. This distortion creates a spatial variation in the intensity of the light, which can be visualised directly with a shadowgraph system.
+In schlieren photography, the collimated light is focused with a lens, and a knife-edge is placed at the focal point, positioned to block about half the light. In flow of uniform density this will simply make the photograph half as bright. However in flow with density variations the distorted beam focuses imperfectly, and parts which have focussed in an area covered by the knife-edge are blocked. The result is a set of lighter and darker patches corresponding to positive and negative fluid density gradients in the direction normal to the knife-edge. When a knife-edge is used, the system is generally referred to as a schlieren system, which measures the first derivative of density in the direction of the knife-edge. If a knife-edge is not used, the system is generally referred to as a shadowgraph system, which measures the second derivative of density
+If the fluid flow is uniform the image will be steady, but any turbulence will cause scintillation, the shimmering effect that can be seen on hot surfaces on a sunny day. To visualise instantaneous density profiles, a short duration flash (rather than continuous illumination) may be used.
+
+Variations on the optical schlieren method include the replacement of the knife-edge by a colored "bullseye" target, resulting in Rainbow Schlieren which can assist in visualising the flow. The adaptive optics pyramid wavefront sensor is a modified form of schlieren (having two perpendicular knife edges formed by the vertices of a refracting square pyramid).
+Few complete schlieren optical systems are commercially available today, but details of theory and construction are given in Settles' 2001 book.[1] The USSR produced a number of sophisticated schlieren systems based on the Maksutov telescope principle, many of which still survive in the former Soviet Union and China.
+
+The synthetic schlieren method is a technique similar to schlieren photography which makes use of digital photography and image processing rather than optics to visualize the density variations of a fluid.
+
+
+

@@ -1,0 +1,31 @@
+Geolocation software
+In computing, geolocation software is used to deduce the geolocation (geographic location) of another party. For example, on the Internet, one geolocation approach is to identify the subject party's IP address, then determine what country, organization, and/or user the IP address has been assigned to, and finally, guess that party's location. Other methods include examination of a MAC address, image metadata, or credit card information.
+
+There are a number of free and paid subscription geolocation databases, ranging from country level to city (and/or state) level, each with varying claims of accuracy (generally higher at the country level). These databases typically contain IP address data which may be used in firewalls, ad servers, routing, mail systems, web sites, and other automated systems where geolocation may be useful. An alternative to hosting and querying a database is to obtain the country code for a given IP address through a DNSBL style lookup from a remote server.[1]
+The primary source for IP address data comes from the regional Internet registries which allocate and distribute IP addressed amongst organizations located in their respective service regions:
+Secondary sources include:
+Accuracy is improved by:
+
+A distinction can be made between co-operative and oppositional geolocation. In some cases, it is in the interest of users to be accurately located, for example, so that they can be offered information relevant to their location. In other cases, users prefer to not disclose their location for privacy or other reasons.[3]
+Technical measures for ensuring anonymity, such as proxy servers, can be used to circumvent restrictions imposed by geolocation software. Some sites detect the use of proxies and anonymizers, and may either block service or provide non-localized content in response.[4]
+
+Geolocation technology has been under development only since 1999, and the first patents were granted in 2004. The technology is already widely used in multiple industries, including e-retail, banking, media, online gaming and law enforcement, for preventing online fraud, complying with regulations, managing digital rights and serving targeted marketing content and pricing.
+
+Banks, software vendors and other online enterprises are now subject to strict new “Know your customer” laws imposed by the USA PATRIOT Act, the Bank Secrecy Act, the US Treasury Department’s Office of Foreign Assets Control and other regulatory entities in the US and Europe. These laws are designed to prevent money laundering, trafficking with terrorist organizations and trading with banned nations. By identifying where online visitors really are, geolocation can protect banks from participating in the transfer of funds for illicit purposes.
+
+Online retailers and payment processors use geolocation to detect possible credit card fraud by comparing the user’s location to the billing address on the account or the shipping address provided. A mismatch – an order placed from Indonesia on an account number from Indiana, for example – is a strong indicator of potential fraud. Banks can prevent “phishing” attacks, money laundering and other security breaches by determining the user’s location as part of the authentication process.
+Government, law enforcement and corporate security teams use geolocation as an investigatory tool, tracking the Internet routes of online attackers to find the perpetrators and prevent future attacks from the same location.
+
+It has been suggested that legislation should mandate the use of geolocation software, for example for companies distributing pornography considered obscene in some jurisdictions or to enforce international trade agreements. (See geolocation).
+
+Since geolocation software can get the information of user location, companies using geomarketing may provide web content or products that are famous or useful in that location. Advertisements and content on a website may be tailored to provide the information that a certain user wants.
+
+Internet movie vendors and online broadcasters who serve live streaming video of sporting events are permitted to service viewers only in their licensed territories. By geolocating viewers, they can be certain of obeying licensing regulations. Online casinos must also know where their customers are or risk violating national laws against Internet gambling.
+Jim Ramo, chief executive of movie distributor Movielink, said studios were aware of the shortcomings going in and have grown more confident now that the system has been shown to work.[5]
+
+In geo targeting web sites can show different web content based on your geolocation or other information. For example, going to google.com may redirect you to your local (translated) google site like Google Belgium, or it may show a 'Go to Google Belgium'. In various European countries, Google or Yahoo! do not display results which would show negationist websites (see LICRA v. Yahoo!).
+
+Though controversial, some ISPs use geolocation software to help with the prevention of email and website spam. Many countries are known to have loose spam laws, and the use of geolocation software allows ISPs to identify or flag messages and posts from these countries.
+
+
+

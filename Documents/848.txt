@@ -1,0 +1,30 @@
+Linux Mint
+Linux Mint is an operating system for personal computers. While Mint is mostly based on (and compatible with) Ubuntu, the design of the user interface is considerably different. Design differences include:
+Linux Mint is available for download in the form of ISO images, which can be used to create Live CDs or Live USBs. The latter can be created either manually or using UNetbootin.[2]
+
+Like many other Linux distributions, Linux Mint is available in different test versions or "branches". The branch with the newest features, or "unstable branch" of Linux Mint, is called "Romeo". It is not activated by default in Linux Mint releases. Users who wish to get cutting-edge features and help the distribution test new packages can add Romeo to their Advanced Packaging Tool (APT) sources.
+New packages are first released in "Romeo", where they are tested by developers and community members who use it. After a package is found to be stable enough, it is backported to the latest stable release.
+
+Linux Mint comes in many editions, the most common being the main GNOME edition. As well as this, there is a 64-bit, called 'x64 Edition', which is designed to be as similar as possible to the main edition. There is also a universal edition, for users in countries where the codecs distributed in the main edition are not freely available, due to legislature. The universal edition is distributed with no proprietary software included.
+As well as GNOME, Mint is also distibuted with the KDE architecture, and a XFCE version, designed to be less taxing on systems. There is a mini community edition, which uses GNOME and Openbox to provide a lighter, faster mint, for smaller environments, such as netbooks. As well as this, there is a Fluxbox Community Edition, which is an even lighter alternative to GNOME, and can be used on a Live USB.
+
+Linux Mint has its own repositories for Mint specific or Mint customized tools but also uses Ubuntu's repositories for other software.
+
+As of Linux Mint 6 'Felicia', a Windows installer is included as one of the installation methods, based on Wubi for Ubuntu.[3] It works just like Wubi, being activated when the CD is inserted into a computer under Windows providing autorun is enabled.
+
+Originally, Linux Mint didn't follow a predictable release cycle. The project first defined the goals for the next release,[citation needed] and when all the goals are achieved a beta is released and a date is announced for the stable release. Recently however, it has been decided that Linux Mint will correlate with the 6 month Ubuntu release cycle and Linux Mint releases now reach end of life when their corresponding Ubuntu releases do.
+
+
+
+
+
+Linux Mint comes with its own set of tools aimed at making the experience easier for the user.
+Software from the Mint repositories can be installed in Debian and Ubuntu as well through APT.
+
+Linux Mint is based on Ubuntu and the two distributions have much in common. Both distributions use the same software repositories. For instance, release 6 (“Felicia”) uses the package pools of Ubuntu “Intrepid Ibex” (8.10). Most packages are the same on both distributions, and as of Linux Mint 6 'Felicia', each Linux Mint release is based on Ubuntu, whereas before they were based on the previous Linux Mint release.[11]
+Most differences are on the desktop. Linux Mint has a stated focus on elegance, and it includes a number of applications that are not available in Ubuntu (see aforementioned Mint Tools). Support for popular sound and video formats are installed by default in Linux Mint's standard edition, but there is a "patent-friendly" version intended for the U.S & Japanese markets. Visually, the distro has some GTK+ themes not found in Ubuntu, and cowsay is enabled as of Mint 5 for terminal sessions.
+
+One of the main things that Mint is praised for is its user friendliness and out of the box functionality.[12] It is often praised for providing multimedia codecs and flash by default; saving the user from having to install them. It has also been praised for the large variety of mintTools available for it, adding extra functionality via a GUI.[13] Linux Mint consistently ranks highly on DistroWatch, which tracks the popularity of various Linux and BSD distributions based on the number of daily page hits which each distribution generates. As of March 2009, Linux Mint was ranked 3rd.[14]
+Criticisms of Linux Mint are that it does not support enough media formats commonly found on the web, and that it still has some features of Ubuntu that are undesirable, such as the screensavers that come with Ubuntu, which are claimed to be resource hogs.
+
+

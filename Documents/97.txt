@@ -1,0 +1,16 @@
+Sabon
+Sabon is the name of an old style serif typeface designed by the German born typographer and designer Jan Tschichold (1902–1974) in the period 1964–1967. The typeface was released jointly by the Linotype, Monotype, and Stempel type foundries in 1967.
+Design of the roman is based on types by Claude Garamond (c.1480–1561), particularly a specimen printed by the Frankfurt printer Konrad Berner. Berner had married the widow of a fellow printer Jacques Sabon, the source of the face's name. The italics are based on types designed by a contemporary of Garamond's, Robert Grandjon. The typeface is frequently described as a Garamond revival.
+An early first use of Sabon was the setting of the Washburn College Bible in 1973 by the American graphic designer Bradbury Thompson. All books of the King James biblical text were set by hand in a process called thought-unit typography, where Thompson broke the lines at their spoken syntactical breaks.
+Sabon was also used as the typeface in the 1979 Book of Common Prayer of the Episcopal Church (United States), as well as all of that church's secondary liturgical texts (such as the Book of Occasional Services and Lesser Feasts and Fasts).
+
+Jean-François Porchez designed the revival of Sabon known as Sabon Next. Sabon Next is based upon Tschichold's 1967 Sabon design for the Stempel foundry and Porchez' study of original Garamond models. The family consists of 6 weights, without Greek and Cyrillic support. It supports ISO Adobe 2, Adobe CE, Latin Extended characters.
+OpenType features include Small caps (except in Black weight), Ligatures, Special ligatures, Alternates, Caps figures, Oldstyle figures, Tabular figures, Fractions, Superiors, Ornaments, Swash, Proportional Lining figures.
+
+It is a variant of Regular weight Sabon Next designed for 20pt or above.
+
+It is a collection of printers' ornaments and dingbats. The glyphs can also be found in the OpenType Sabon Next (except in Black weights) fonts.
+
+This version of the typeface has single-story versions of the letters A and G and is used in children's books but is very rare.
+
+

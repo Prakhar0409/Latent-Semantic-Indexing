@@ -1,0 +1,52 @@
+Acid
+An acid (often represented by the generic formula HA [H+A−]) is traditionally considered any chemical compound that, when dissolved in water, gives a solution with a hydrogen ion activity greater than in pure water, i.e. a pH less than 7.0. That approximates the modern definition of Johannes Nicolaus Brønsted and Martin Lowry, who independently defined an acid as a compound which donates a hydrogen ion (H+) to another compound (called a base). Common examples include acetic acid (in vinegar) and sulfuric acid (used in car batteries). Acid/base systems are different from redox reactions in that there is no change in oxidation state.
+Chemicals or substances having the property of an acid are said to be acidic (adjective).
+
+The word "acid" comes from the Latin acidus meaning "sour," but in chemistry the term acid has a more specific meaning. There are four common ways to define an acid:
+Although not the most general theory, the Brønsted-Lowry definition is the most widely used definition. The strength of an acid may be understood by this definition by the stability of hydronium and the solvated conjugate base upon dissociation. Increasing or decreasing stability of the conjugate base will increase or decrease the acidity of a compound. This concept of acidity is used frequently for organic acids such as carboxylic acid. The molecular orbital description, where the unfilled proton orbital overlaps with a lone pair, is connected to the Lewis definition.
+
+Brønsted–Lowry acids:
+Acids can be gases, liquids, or solids. Respective examples (at 20 °C and 1 atm) are hydrogen chloride, sulfuric acid and citric acid. Solutions of acids in water are liquids, such as hydrochloric acid - an aqueous solution of hydrogen chloride. At 20 °C and 1 atm, linear carboxylic acids are liquids up to nonanoic acid (nine carbon atoms) and solids beginning from decanoic acid (ten carbon atoms). Aromatic carboxylic acids, the simplest being benzoic acid, are solids.
+Strong acids and some concentrated weak acids are corrosive and can cause severe burns even after short contact. Generally, acid burns on the skin are treated by rinsing the affected area abundantly with running water, followed up with immediate medical attention. Particular acids may also be dangerous for reasons not related to their acidity. Material Safety Data Sheets (MSDS) can be consulted for detailed information on dangers and handling instructions.
+
+In the classical naming system, acids are named according to their anions. That ionic suffix is dropped and replaced with a new suffix (and sometimes prefix), according to the table below. For example, HCl has chloride as its anion, so the -ide suffix makes it take the form hydrochloric acid. In the IUPAC naming system, "aqueous" is simply added to the name of the ionic compound. Thus, for hydrogen chloride, the IUPAC name would be aqueous hydrogen chloride. The prefix "hydro-" is added only if the acid is made up of just hydrogen and one other element.
+Classical naming system:
+
+In water the following equilibrium occurs between a weak acid (HA) and water, which acts as a base:
+HA(aq) + H2O ⇌ H3O+(aq) + A-(aq)
+The acidity constant (or acid dissociation constant) is the equilibrium constant for the reaction of HA with water:
+Strong acids have large Ka values (i.e. the reaction equilibrium lies far to the right; the acid is almost completely dissociated to H3O+ and A-). Strong acids include the heavier hydrohalic acids: hydrochloric acid (HCl), hydrobromic acid (HBr), and hydroiodic acid (HI). (However, hydrofluoric acid, HF, is relatively weak.) For example, the Ka value for hydrochloric acid (HCl) is 107.
+Weak acids have small Ka values (i.e. at equilibrium significant amounts of HA and A− exist together in solution; modest levels of H3O+ are present; the acid is only partially dissociated). For example, the Ka value for acetic acid is 1.8 x 10-5. Most organic acids are weak acids. Oxoacids, which tend to contain central atoms in high oxidation states surrounded by oxygen may be quite strong or weak. Nitric acid, sulfuric acid, and perchloric acid are all strong acids, whereas nitrous acid, sulfurous acid and hypochlorous acid are all weak.
+Note on the terms used:
+
+Monoprotic acids are those acids that are able to donate one proton per molecule during the process of dissociation (sometimes called ionization) as shown below (symbolized by HA):
+Common examples of monoprotic acids in mineral acids include hydrochloric acid (HCl) and nitric acid (HNO3). On the other hand, for organic acids the term mainly indicates the presence of one carboxyl group and sometimes these acids are known as monocarboxylic acid. Examples in organic acids include formic acid (HCOOH), acetic acid (CH3COOH) and benzoic acid (C6H5COOH).
+
+Polyprotic acids are able to donate more than one proton per acid molecule, in contrast to monoprotic acids that only donate one proton per molecule. Specific types of polyprotic acids have more specific names, such as diprotic acid (two potential protons to donate) and triprotic acid (three potential protons to donate).
+A diprotic acid (here symbolized by H2A) can undergo one or two dissociations depending on the pH. Each dissociation has its own dissociation constant, Ka1 and Ka2.
+The first dissociation constant is typically greater than the second; i.e., Ka1 > Ka2. For example, sulfuric acid (H2SO4) can donate one proton to form the bisulfate anion (HSO4−), for which Ka1 is very large; then it can donate a second proton to form the sulfate anion (SO42−), wherein the Ka2 is intermediate strength. The large Ka1 for the first dissociation makes sulfuric a strong acid. In a similar manner, the weak unstable carbonic acid (H2CO3) can lose one proton to form bicarbonate anion (HCO3−) and lose a second to form carbonate anion (CO32−). Both Ka values are small, but Ka1 > Ka2 .
+A triprotic acid (H3A) can undergo one, two, or three dissociations and has three dissociation constants, where Ka1 > Ka2 > Ka3.
+An inorganic example of a triprotic acid is orthophosphoric acid (H3PO4), usually just called phosphoric acid. All three protons can be successively lost to yield H2PO4−, then HPO42−, and finally PO43−, the orthophosphate ion, usually just called phosphate. An organic example of a triprotic acid is citric acid, which can successively lose three protons to finally form the citrate ion. Even though the positions of the protons on the original molecule may be equivalent, the successive Ka values will differ since it is energetically less favorable to lose a proton if the conjugate base is more negatively charged.
+
+Neutralization is the reaction between an acid and a base, producing a salt and neutralized base; for example, hydrochloric acid and sodium hydroxide form sodium chloride and water:
+Neutralization is the basis of titration, where a pH indicator shows equivalence point when the equivalent number of moles of a base have been added to an acid. It is often wrongly assumed that neutralization should result in a solution with pH 7.0, which is only the case with similar acid and base strengths during a reaction.
+Neutralization with a base weaker than the acid results in a weakly acidic salt. An example is the weakly acidic ammonium chloride, which is produced from the strong acid hydrogen chloride and the weak base ammonia. Conversely, neutralizing a weak acid with a strong base gives a weakly basic salt, e.g. sodium fluoride from hydrogen fluoride and sodium hydroxide.
+
+In order to lose a proton, it is necessary that the pH of the system rise above the pKa of the protonated acid. The decreased concentration of H+ in that basic solution shifts the equilibrium towards the conjugate base form (the deprotonated form of the acid). In lower-pH (more acidic) solutions, there is a high enough H+ concentration in the solution to cause the acid to remain in its protonated form, or to protonate its conjugate base (the deprotonated form).
+Solutions of weak acids and salts of their conjugate bases form buffer solutions.
+
+There are numerous uses for acids. Acids are often used to remove rust and other corrosion from metals in a process known as pickling. They may be used as an electrolyte in a wet cell battery, such as sulfuric acid in a car battery.
+Strong acids, sulfuric acid in particular, are widely used in mineral processing. For example, phosphate minerals react with sulfuric acid to produce phosphoric acid for the production of phosphate fertilizers, and zinc is produced by dissolving zinc oxide into sulfuric acid, purifying the solution and electrowinning.
+In the chemical industry, acids react in neutralization reactions to produce salts. For example, nitric acid reacts with ammonia to produce ammonium nitrate, a fertilizer. Additionally, carboxylic acids can be esterified with alcohols, to produce esters.
+Acids are used as catalysts; for example, sulfuric acid is used in very large quantities in the alkylation process to produce gasoline. Strong acids, such as sulfuric, phosphoric and hydrochloric acids also effect dehydration and condensation reactions.
+Acids are used as additives to drinks and foods, as they alter their taste and serve as preservatives. Phosphoric acid, for example, is a component of cola drinks.
+
+In humans and many other animals, hydrochloric acid is a part of the gastric acid secreted within the stomach to help hydrolyze proteins and polysaccharides, as well as converting the inactive pro-enzyme, pepsinogen into the enzyme, pepsin. Some organisms produce acids for defense; for example, ants produce formic acid.
+
+
+
+
+
+
+
+

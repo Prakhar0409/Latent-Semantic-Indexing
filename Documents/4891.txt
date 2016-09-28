@@ -1,0 +1,8 @@
+Metcalfe's law
+Metcalfe's law states that the value of a telecommunications network is proportional to the square of the number of connected users of the system (n2). First formulated in this form by George Gilder in 1993,[1] and attributed to Robert Metcalfe in regard to Ethernet, Metcalfe's law was originally presented, circa 1980, not in term of users, but rather of "compatibly communicating devices" (for example, fax machines).[2]
+Metcalfe's law characterizes many of the network effects of communication technologies and networks such as the Internet, social networking, and the World Wide Web. It is related to the fact that the number of unique connections in a network of a number of nodes (n) can be expressed mathematically as the triangular number n(n âˆ’ 1)/2, which is proportional to n2 asymptotically.
+The law has often been illustrated using the example of fax machines: a single fax machine is useless, but the value of every fax machine increases with the total number of fax machines in the network, because the total number of people with whom each user may send and receive documents increases.
+Metcalfe's law is more of a heuristic or metaphor than an iron-clad empirical rule. In addition to the difficulty of quantifying the "value" of a network, the mathematical justification measures only the potential number of contacts, i.e., the technological side of a network. However the social utility of a network depends upon the number of nodes in contact. For instance, if Chinese and non-Chinese users don't understand each other, the utility of a network of users that speak the other language is near zero, and the law has to be calculated for the two sub-networks separately.
+
+
+

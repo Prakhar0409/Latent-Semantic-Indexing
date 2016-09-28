@@ -1,0 +1,15 @@
+SubStation Alpha
+SubStation Alpha (or Sub Station Alpha), abbreviated SSA, is a subtitle file format created by Kotus (the Research Institute for the Languages of Finland) that allows for more advanced subtitles than the conventional SRT and similar formats. This format can be rendered with VSFilter in conjunction with a DirectShow-aware video player (on Microsoft Windows), or MPlayer with the SSA/ASS library. It is also the name of the popular, now discontinued tool used to edit subtitles.
+This subtitle format is frequently used in anime fansubs, either to overlay subtitles onto video while it is being encoded (hardsubbing), or to store subtitle data alongside video data in a Matroska (MKV) container (softsubbing). Hardsubbing is irreversible but does not require VSFilter or other special resources for playback. Softsubbing allows the end user to choose whether subtitles will be displayed, and makes it possible to include multiple subtitle streams in the same video file.
+The current version of SSA is v4.00.
+There are many freeware and open source subtitling applications that support the SSA format.
+
+A basic SSA subtitle:
+
+If there is only a parameter, brackets are not needed (ex. {\kf89}).
+Two exceptions:
+
+Advanced SubStation Alpha (ASS) is a script for more advanced subtitles than SSA. It is technically SSA v4+. It is able to produce anything from simple texts to manual graphic editing used in karaoke. There are few programs designed to create these scripts. The main feature of ASS is it has more specifications than normal SSA, like in styles programming. For example, the above script changed into ASS:
+
+
+

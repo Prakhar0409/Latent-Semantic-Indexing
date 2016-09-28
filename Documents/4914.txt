@@ -1,0 +1,17 @@
+The Tipping Point
+The Tipping Point: How Little Things Can Make a Big Difference (ISBN 0-316-31696-2) is a book by Malcolm Gladwell, first published by Little Brown in 2000.
+
+Tipping points are "the levels at which the momentum for change becomes unstoppable."[1] Gladwell defines a tipping point as a sociological term: "the moment of critical mass, the threshold, the boiling point."[2] The book seeks to explain and describe the "mysterious" sociological changes that mark everyday life. As Gladwell states, "Ideas and products and messages and behaviors spread like viruses do."[3] The examples of such changes in his book include the rise in popularity and sales of Hush Puppies shoes in the mid-1990s and the precipitous drop in the New York City crime rate after 1990.
+
+Gladwell describes the "three rules of epidemics" (or the three "agents of change") in the tipping points of epidemics.
+
+Gladwell also includes two chapters of case studies, situations in which tipping point concepts were used in specific situations. These situations include the athletic shoe company Airwalk, the diffusion model, how rumors are spread, decreasing the spread of syphilis in Baltimore, teen suicide in Micronesia, and teen smoking in the U.S.
+
+Some of Gladwell's analysis as to why the phenomenon of the "tipping point" occurs is based on the 1967 "Six Degrees of Separation" study by social psychologist Stanley Milgram. Milgram distributed letters to 160 students in Nebraska, with instructions that they be sent to a stockbroker in Boston (not personally known to them) by passing the letters to anyone else that they believed to be socially closer to the target. The study found that it took an average of six links to deliver each letter. Of particular interest to Gladwell was the finding that just three friends of the stockbroker provided the final link for half of the letters that arrived successfully.[15] This gave rise to Gladwell's theory that certain types of people are key to the dissemination of information.
+In 2003, Duncan Watts, a network-theory sociologist at Columbia University, repeated the Milgram study by using a web site to recruit 61,000 people to send messages to 18 targets worldwide.[16] He successfully reproduced Milgram's results (the average length of the chain was approximately six links). However, when he examined the pathways taken, he found that "hubs" (highly connected people) were not crucial. Only 5% of the e-mail messages had passed through one of the hubs.
+Watts pointed out that if it were as simple as finding the individuals that can disseminate information prior to a marketing campaign, advertising agencies would presumably have a far higher success rate than they do. He also stated that Gladwell's theory does not square with much of his research into human social dynamics performed in the last ten years.[17]
+Economist Steven Levitt and Gladwell have a running dispute about whether the fall in New York's crime rate can be attributed to the actions of the police department (as claimed in The Tipping Point). In his book Freakonomics, Levitt attributes the decrease in crime to a decrease in the number of unwanted children because of Roe v. Wade.[18]
+
+
+
+

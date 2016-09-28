@@ -1,0 +1,14 @@
+WAMP
+WAMPs are packages of independently-created programs installed on computers that use a Microsoft Windows operating system. The interaction of these programs enables dynamic web pages to be served over a computer network, such as the internet or a private network.
+"WAMP" is an acronym formed from the initials of the operating system (Windows) and the package's principal components: Apache, MySQL and PHP (or Perl or Python). Apache is a web server, which allows people with web browsers like Internet Explorer or Firefox to connect to a computer and see information there as web pages. MySQL is a database manager (that is, it keeps track of data in a highly organized way). PHP is a scripting language which can manipulate information held in a database and generate web pages afresh each time an element of content is requested from a browser. Other programs may also be included in a package, such as phpMyAdmin which provides a graphical interface for the MySQL database manager, or the alternative scripting languages Python or Perl.
+
+The equivalent installation on a Linux operating system is known as LAMP.
+The equivalent installation on a Mac operating system is known as MAMP.
+The equivalent installation on a Solaris operating system is known as SAMP.
+The equivalent installation on a FreeBSD operating system is known as FAMP.
+
+Apart from the Windows operating system itself, the components of WAMP/LAMP are available as free/open source software. This means that a dynamically-generated web site can be set up without major software purchase or update subscription costs. Many web hosting services take advantage of this by offering pre-installed WAMP/LAMP components among their options.
+Licenses for the various WAMP packages range from freeware to donationware as well as commercial.
+
+Generally, only a user with administrator privileges can install a WAMP package. This means that these packages cannot be installed to a hosted service but only to a computer to which the user has complete access.
+

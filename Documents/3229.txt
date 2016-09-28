@@ -1,0 +1,18 @@
+Tree structure
+A tree structure is a way of representing the hierarchical nature of a structure in a graphical form. It is named a "tree structure" because the graph looks a bit like a tree, even though the tree is generally shown upside down compared with a real tree; that is to say with the root at the top and the leaves at the bottom.
+In graph theory, a tree is a connected acyclic graph (or sometimes, a connected directed acyclic graph in which every vertex has indegree 0 or 1). An acyclic graph which is not necessarily connected is sometimes called a forest (because it consists of trees).
+
+Every finite tree structure has a member that has no superior. This member is called the "root" or root node. It can be thought of as the starting node The converse is not true: infinite tree structures may or may not have a root node.
+The lines connecting elements are called "branches", the elements themselves are called "nodes". Nodes without children are called "end-nodes" or "leaves".
+The names of relationships between nodes are modeled after family relations. In computer science, traditionally only names for male family members had been used. In linguistics, the names of female family members are used. It is said that this was an express countermovement to the traditional naming convention, started by the female students of linguist Noam Chomsky.[citation needed] However, nowadays, in computer science at least, the gender-neutral names "parent" and "child" have largely displaced the older "father" and "son" terminology, although the term "uncle" is still used for other nodes at the same level as the parent.
+In the example, "encyclopedia" is the parent of "science" and "culture", its children. "Art" and "craft" are siblings, and children of "culture".
+Tree structures are used to depict all kinds of taxonomic knowledge, such as family trees, the evolutionary tree, the grammatical structure of a language (the famous example being S → NP VP, meaning a sentence is a noun phrase and a verb phrase), the way web pages are logically ordered in a web site, et cetera.
+In a tree structure there is one and only one path from any point to any other point.
+Tree structures are used extensively in computer science (see Tree (data structure) and telecommunications.)
+
+
+There are many ways of visually representing tree structures. Almost always, these boil down to variations, or combinations, of a few basic styles:
+Identification of some of these basic styles can be found in:
+
+
+

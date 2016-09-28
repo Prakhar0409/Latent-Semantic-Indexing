@@ -1,0 +1,17 @@
+Homoiconicity
+In computer programming, homoiconicity is a property of some programming languages, in which the primary representation of programs is also a data structure in a primitive type of the language itself, from homo meaning the same and icon meaning representation.
+
+The original source is the paper Macro Instruction Extensions of Compiler Languages,[1] according to the early and influential paper TRAC, A Text-Handling Language:[2]
+One of the main design goals was that the input script of TRAC (what is typed in by the user) should be identical to the text which guides the internal action of the TRAC processor. In other words, TRAC procedures should be stored in memory as a string of characters exactly as the user typed them at the keyboard. If the TRAC procedures themselves evolve new procedures, these new procedures should also be stated in the same script. The TRAC processor in its action interprets this script as its program. In other words, the TRAC translator program (the processor) effectively converts the computer into a new computer with a new program language -- the TRAC language. At any time, it should be possible to display program or procedural information in the same form as the TRAC processor will act upon it during its execution. It is desirable that the internal character code representation be identical to, or very similar to, the external code representation. In the present TRAC implementation, the internal character representation is based upon ASCII. Because TRAC procedures and text have the same representation inside and outside the processor, the term homoiconic is applicable, from homo meaning the same, and icon meaning representation.
+[...]
+Following suggestion of McCullough, W. S., based upon terminology due to Peirce, C. S. s McIlroy. M. D., "Macro Instruction Extensions of Compiler Languages," Comm. ACM, p. 214-220; April, 1960.
+Alan Kay used and possibly popularized the term "homoiconic" through his use of the term in his 1969 PhD thesis:[3]
+A notable group of exceptions to all the previous systems are Interactive LISP [...] and TRAC. Both are functionally oriented (one list, the other string), both talk to the user with one language, and both are "homoiconic" in that their internal and external representations are essentially the same. They both have the ability to dynamically create new functions which may then be elaborated at the users's pleasure. Their only great drawback is that programs written in them look like King Burniburiach's letter to the Sumerians done in Babylonian cuniform! [...]
+
+One advantage of homoiconicity is that extending the language with new concepts typically becomes simpler, as data representing code can be passed between the meta and base layer of the program. A typical demonstration of homoiconicity is the meta-circular evaluator.
+
+Languages which are considered to be homoiconic include members of the Lisp family, Nemerle, Curl, REBOL, SNOBOL, XSLT, XQuery, TRAC, Tcl, Io, Ioke, Joy, Factor, Pico, PostScript, Prolog, R, Mathematica and V.
+In Von Neumann architecture systems (including the vast majority of systems today), raw machine code also has this property, the data type being bytes in memory.
+
+
+

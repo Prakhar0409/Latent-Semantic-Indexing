@@ -1,0 +1,24 @@
+TikiWiki
+TikiWiki CMS/Groupware, originally and more commonly known as TikiWiki, is an open source (LGPL) Content Management System (CMS) / Geospatial Content Management System (GeoCMS) / Groupware web application enabling websites and portals on the internet and on intranets and extranets. TikiWiki can be used as a structured wiki, a bug tracking system, a collaboration platform, a knowledge base, a blogging system or an Internet forum. TikiWiki is a customizable modular multi-feature package; each component can be enabled / disabled and customized by the TikiWiki administrator. TikiWiki extends the customization to the user with selectable skins / themes
+The project is hosted on SourceForge, and was the July 2003 Project of the Month.
+
+TikiWiki provides components in these general categories:
+In addition, TikiWiki allows each user to choose from several different pre-defined visual styles/themes/skins. These themes are implemented using CSS and the open source Smarty template engine (which is included in the TikiWiki installation). Additional themes can be created by the TikiWiki administrator for branding or customizing the look of their website, but requires familiarity with CSS and Smarty.
+For more information, see the Features page at doc.tikiwiki.org.
+
+TikiWiki is an international project providing translations of the interface in several languages. The default interface language is English although TikiWiki is designed to support any language encodable with UTF-8. As of 2005-09-29, TikiWiki is fully translated into eight languages and reportedly 90% or more translated into another five languages. There are also partial translations for nine other languages. A list of languages and current translation status is available on the TikiWiki website.
+
+TikiWiki is developed primarily in PHP with some JavaScript code. It makes extensive use of a database, being developed initially using MySQL, but now, via the ADOdb database abstraction library, has support for PostgreSQL, Oracle, Sybase, and Microsoft SQL Server. TikiWiki will run on any server, including Apache and Microsoft's IIS, that provides PHP 4.1 (or later) and one of the supported databases. See the TikiWiki website for specific requirements.
+TikiWiki components use other open source projects, including ADOdb, HawHaw, Graphviz, TouchGraph, phpCAS, FeedCreator, htmlArea, Overlib, PHP Layers Menu, JGraphPad, Morcego, and Mapserver.
+If mapserver is used then TikiWiki becomes a Geospatial Content Management System with maps, location on maps of registered users, geographical images, geographical metadata, and more.
+
+
+TikiWiki is under active development[1] by a large international community of over 300 developers and translators, and is one of the largest open-source teams in the world [2]. Project members have donated the resources and bandwidth required to host the extensive TikiWiki.org website and various subdomains, which exclusively utilizes TikiWiki. The project members refer to this dependence on their own product as "eating their own dogfood, which they have been doing since the early days of the project[3]. TikiWiki community members participate to various related events such as WikiSym and the Libre Software Meeting.
+
+The initial release of TikiWiki, version 0.9 (code named "Spica"), was in October 2002. It was primarily the development of Luis Argerich (Buenos Aires, Argentina), Eduardo Polidor (São Paulo, Brazil), and Garland Foster (Green Bay, WI, United States). Over 300 developers and translators have contributed to TikiWiki since then. The project has been hosted on SourceForge since its inception.
+
+
+The name TikiWiki is written in CamelCase, a common Wiki syntax indicating a hyperlink within the Wiki. It is most likely a compound word combining two Polynesian terms, Tiki and Wiki, to create a self-rhyming name similar to wikiwiki, a common variant of wiki.
+
+
+

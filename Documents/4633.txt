@@ -1,0 +1,49 @@
+Netbook
+A netbook (a portmanteau of the words Internet and notebook) is a class of laptop computer designed for wireless communication and access to the Internet.[1]
+Primarily designed for web browsing and e-mailing, netbooks rely heavily on the Internet for remote access to web-based applications"[2] and are targeted increasingly at cloud computing users who require a less powerful client computer.[3] Netbooks typically run either Windows XP or Linux operating systems[2] rather than more resource-intensive operating systems like Windows Vista.[4] The devices range in size from below 5 inches[5] to over 13,[6] typically weigh 2 to 3 pounds (~1 kg) and are often significantly cheaper than general purpose laptops ($400),[2] with some even in the $50â€“100 range under some circumstances.[7]
+According to Deloitte, as of the start of 2009, the established definition of a netbook was a notebook computer with a low-powered x86-compatible processor (compatible with PC standard software), small screen (no larger than 10 inches), small keyboard, equipped with wireless connectivity, lightweight (under three pounds) and no optical disk drive. Netbooks are typically low cost, relative to other notebooks.[8]
+
+The roots of the netbook can be traced to Psion's discontinued netBook line, the One Laptop Per Child (OLPC) project and the Palm Foleo which were all small, light network-enabled computers,[9][10][11] however the influx of netbooks began in 2007 when Asus unveiled the ASUS Eee PC. Originally designed for emerging markets, the 8.9 Ã— 6.5 in (23 x 17 cm) device weighed about two pounds and featured a 7-inch display, a keyboard approximately 85% the size of a normal keyboard, and a custom version of Linux with a simplified user interface geared towards netbook use.[10] Following the Eee PC, Everex launched its Linux based CloudBook, MSI released the Wind, Dell and HP both released a "Mini" series (the Inspiron Mini and HP Mini), and others soon followed suit. Windows XP based models were also introduced.[10]
+By late 2008, netbooks had begun to take market share away from laptops.[12] It is estimated that almost thirty times more netbooks were sold in 2008 (11.4 million, 70% of which were in Europe[13]) than in 2007 (400,000).[14] For 2009 sales are expected to jump to 35 million, rising to an estimated 139 million in 2013.[15] This trend is reinforced by the rise of web-based applications as well as mobile networking and, according to Wired Magazine, netbooks are evolving into "super-portable laptops for professionals".[16]
+
+At the start of 2009, models based on ARM[17][18] and PowerPC[19] architectures were released, indicating a shift away from Intel processors like the Atom (though some hybrid models contain both Intel and alternative architectures[20]). Models using a MIPS System-on-a-chip (SoC) architecture also appeared around the same time, resulting in very low-cost systems.[21]
+As modern versions of Windows require x86-family microprocessors, it will not run on these netbooks.[22] Linux, however, has fully supported non-x86 architectures such as MIPS, ARM, and PowerPC for many years.
+
+In 1996 Psion started applying for trademarks for a line of netBook products that was later released in 1999[23]. International trademarks were issued (including U.S. Trademark 75,215,401 and Community Trade Mark 000428250) but the models failed to gain popularity[24] and are now discontinued (except for providing accessories, maintenance and support to existing users)[25]. Similar marks were recently rejected by the USPTO citing a "likelihood of confusion" under section 2(d)[26][27][28].
+Despite expert analysis that the mark is "probably generic"[29], Psion Teklogix issued cease and desist letters on 23 December 2008[30][31][32]. This was heavily criticised[33][34][35], prompting the formation of the "Save the Netbooks" grassroots campaign which worked to reverse the Google AdWords ban, cancel the trademark and encourage continued generic use of the term[36]. While preparing a "Petition for Cancellation" of U.S. Trademark 75,215,401 they revealed[37] that Dell had submitted one the day before[38] on the basis of abandonment, genericness and fraud[39]. They later revealed Psion's counter-suit against Intel, filed on 27 February 2009[40].
+It was also revealed around the same time that Intel had also sued Psion Teklogix (US & Canada) and Psion (UK) in the Federal Court on similar grounds[41]. In addition to seeking cancellation of the trademark, Intel sought an order enjoining Psion from asserting any trademark rights in the term "netbook", a declarative judgement regarding their use of the term, attorneys' fees, costs and disbursements and "such other and further relief as the Court deems just and proper"[42].
+Some trademark experts argue that the petition will be upheld[29][43], in which case Psion's trademarks will be "vulnerable to cancellation across the globe"[44].
+
+
+Users typically rely on online applications and services which do not require powerful hardware on the local computer.[45] Netbooks may also forego hard[46] and optical disc drives, instead using solid-state storage devices such as internal solid-state hard drives and SD cards for their small size and weight, robustness, and durability. Software must be downloaded or read from a storage peripheral on machines with no optical drive. All netbooks on the market today support Wi-Fi wireless networking and many can be used on mobile telephone networks with data capability. Mobile data plans are supplied under contract in the same way as mobile telephony[47].
+
+
+ARM is designing and licensing high-performance chips requiring a relatively low power envelope, which would constitute an ideal basis for netbooks, and has touted these as an alternative platform.[48] Despite this, ARM has had very little success in establishing a market for their chips in netbooks, likely because of incompabilities of their ARM architecture to the established x86 software ecosystem (primarily the dominant Microsoft Windows operating system, Linux is fully compatible). Freescale, a manufacturer of ARM chips, has projected that by 2012 half of all netbooks will run on ARM[49] and there has been much speculation as to a version of the upcoming Windows 7 compatible with ARM.[50]
+
+Some Ultra-Low Cost netbooks feature a MIPS CPU.[51]
+
+One report at the end of 2008 suggested the typical netbook featured a 3-lb (1.4 kg) weight, a 9-inch (23 cm) screen, wireless Internet connectivity, Linux or Windows XP, an Intel chip, and a cost of less than US$400.[52]
+
+The x86-compatible VIA Technologies C7 processor is powering netbooks from HP[53] and Samsung.[54] VIA has also designed the Nano, a new x86-64-compatible architecture targeting lower priced, mobile applications like netbooks.
+
+
+As of January 2009, over 90% of netbooks are estimated to ship with Windows XP.[55] Microsoft claim that they "will have high market share on netbooks" at around $35 in licenses per device[56]. Microsoft has extended the availability of Windows XP for ultra-low cost personal computers from June 2008 until June 2010,[57] possibly to keep netbooks from gaining market share at the expense of desktops and "value" laptops[58] and to avoid increased use of Linux installations on netbooks.[59] Microsoft will only allow XP to be installed by the manufacturer on netbooks with no more than 1 GB of RAM, requiring Windows Vista otherwise.[citation needed] It is permissible for a user to purchase and install a copy of Windows XP although the older operating system may not support newer hardware, and could be difficult or impossible to install.[citation needed]
+Microsoft is also testing[60] and has demonstrated[61] a 'Starter' edition of Windows 7 for this class of devices which is limited to three running applications.[62][63] Windows CE has also been used in netbook applications, due to its reduced feature design, that keeps with the design philosophy of netbooks. [64]
+
+As of January 2009, customised Linux distributions are estimated to ship on about 10% of netbooks,[55] making it the second most popular operating system after Windows. As Linux systems normally install software from an Internet software repository, they do not need an optical drive to install software. However, early netbooks like the Eee PC failed to use this benefit by disabling access to the full range of available Linux software.
+
+Google's Linux-based Android operating system, designed for mobile telephone handsets, has been demonstrated on an ASUS Eee PC and its kernel contains policies for mobile internet devices including the original Asus Eee PC 701.[65] ASUS has allocated engineers to develop an Android-based netbook.[66] Freescale have also announced plans for a low-cost ARM-based netbook design, running Android.[67]
+
+Mac OS X has been demonstrated running on various netbooks as a result of the OSx86 project,[68] although this may be in violation of the operating system's End User License Agreement.[69] Apple has complained to sites hosting information on how to install OS X onto non-Apple hardware (including Wired and YouTube) who have redacted and removed content in response.[70] Although Apple has previously taken legal action regarding such installations (see Psystar), a February 2009 federal court ruling may result in the eventual removal of this restriction.[71]
+
+Netbooks have been demonstrated running other operating systems including FreeBSD, OpenBSD and Darwin.[citation needed]
+
+ASUS Eee PC 700
+HP 2133 Mini-Note PC
+MSI Wind
+Acer Aspire One
+Dell Inspiron Mini 9
+Zelybron Micro Nina
+Lenovo IdeaPad S10
+Samsung NC20
+

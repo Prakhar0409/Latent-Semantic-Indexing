@@ -1,0 +1,14 @@
+Base rate fallacy
+The base rate fallacy, also called base rate neglect, is an error that occurs when the conditional probability of some hypothesis H given some evidence E is assessed without taking sufficient account of the "base rate" or "prior probability" of H.
+
+In a city with 100 terrorists and one million non-terrorists there is a surveillance camera with an automatic face recognition software. If the camera sees a known terrorist, it will ring a bell with 99% probability. If the camera sees a non-terrorist, it will trigger the alarm 1% of the time. So, the failure rate of the camera is always 1%.
+Suppose somebody triggers the alarm. What is the chance he/she is really a terrorist?
+Imagine that all 1,000,100 people pass in front of the camera. About 99 of the 100 terrorists will trigger a ring — and so will about 10,000 of the million of nonterrorists. Therefore 10099 people will be rung at, and only 99 of them are terrorists. So, the probability that a person who triggers the alarm is actually a terrorist is 99 in 10,099 (about 1/100).
+Someone making the base rate fallacy, instead of running the numbers as above, would just claim that, as the failure rate of the device is 1 in 100, then the false alarm rate must be 1 in 100 as well, and so, if the device rings at anyone, he/she is 99% sure to be a terrorist.
+The base rate fallacy is only fallacious when non-terrorists outnumber terrorists, or conversely. In a city with about 50% terrorists and about 50% nonterrorists, the real probability of misidentification won't be far from the failure rate of the device.
+
+In some experiments, students were asked to estimate the grade point averages (GPAs) of hypothetical students. When given relevant statistics about GPA distribution, students tended to ignore them if given descriptive information about the particular student, even if the new descriptive information was obviously of little or no relevance to school performance. This finding has been used to argue that interviews are an unnecessary part of the college admissions process because interviewers are unable to pick successful candidates better than basic statistics[who?].
+Psychologists Daniel Kahneman and Amos Tversky attempted to explain this finding in terms of the representativeness heuristic. Richard Nisbett has argued that some attributional biases like the fundamental attribution error are instances of the base rate fallacy: people underutilize "consensus information" (the "base rate") about how others behaved in similar situations and instead prefer simpler dispositional attributions.
+
+
+

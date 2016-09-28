@@ -1,0 +1,42 @@
+Latin conjugation
+Conjugation is the creation of derived forms of a verb from basic forms or principal parts. It may be affected by person, number, gender, tense, mood, voice or other language-specific factors. When, for example, we use a verb to function as the action done by a subject, most languages require conjugating the verb to reflect that meaning. (For more information on conjugation in general, see the article on grammatical conjugation.)
+In Latin, there are four main patterns of conjugation composed of groups of verbs that are conjugated following similar patterns. As in other languages, Latin verbs have an active voice and a passive voice. Furthermore, there exist deponent and semi-deponent Latin verbs (verbs with a passive form but active meaning), as well as defective verbs (verbs with a perfect form but present meaning). Sometimes the verbs of the third conjugation with a present stem on -ǐ are regarded as a separate pattern of conjugation, and are called the fifth conjugation, so that it is said there are five main patterns of conjugation.
+In a dictionary, Latin verbs are always listed with four principal parts which allow the reader to deduce the other conjugated forms of the verbs. These are:
+For simple verb paradigms, see the following pages: Latin 1st conjugation [4], Latin 2nd conjugation [5], Latin 3rd conjugation [6], Latin 4th conjugation [7]
+
+Latin verbs have the following properties.
+
+There exist four important systems of verb inflection. These are the four conjugations. However the grouping in conjugations is based solely on the behaviour of the verb in the present system, and the stems for other forms cannot be inferred from the present stem, which is why one has to know several forms to be able to produce the full range of Latin verbal forms. Most Latin verbs belong to one or other of these conjugations – the most important exception being esse, to be.
+
+The first conjugation is characterized by the vowel ā and can be recognized by the -āre ending of the present active infinitive. The principal parts usually adhere to one of the following patterns.
+
+The second conjugation is characterized by the vowel ē, and can be recognized by the -eō ending of the first person present indicative and the -ēre ending of the present active infinitive.
+1may be fervuī.
+
+The third conjugation is characterized by a short thematic vowel, which alternates between e, i, and u in different environments. Verbs of this conjugation end in an –ere in the present active infinitive. There is no one regular rule for constructing the perfect stem of third-conjugation verbs, but the following patterns are used.
+Intermediate between the third and fourth conjugation are the third-conjugation –iō verbs, discussed below.
+
+The fourth conjugation is characterized by the vowel ī and can be recognized by the -īre ending of the present active infinitive. The fourth conjugation verbs' principal parts generally adhere to the following patterns.
+
+Personal endings are used in all tenses. The present, imperfect, future, pluperfect and future perfect tenses use the same personal endings in the active voice. However, the perfect, pluperfect and future perfect do not have personal endings in the passive voice as these are formed by a participle and part of esse. The perfect tense uses its own personal endings in the active voice.
+
+The tenses of the imperfective aspect, which are the present, imperfect and future tenses, express an action that has (or had) not been completed. The verbs used below for explanation are:
+In all the conjugations except for the third conjugation, the –re is removed from the second principal part (for example, from portāre, portā is formed) to give the present stem, which is used for all of the tenses in the imperfective aspect. In the third conjugation, the -ō ending of the present indicative is dropped in order to obtain the present stem (for example, from regere, take the -ō off of the present indicative, regō, and the present stem is reg).[1] Occasionally, the terminating vowel of the stem is lengthened and/or shortened, and sometimes completely changed. This is especially so in the third conjugation and most conjugations in the subjunctive mood.
+
+The present tense (Latin tempus praesēns) is used to show an uncompleted action that happens in the current time. The present tense does not have a tense sign. Instead, the personal endings are added to the bare present stem. However, in this tense the thematical vowel, most notably the ě in the third conjugation, changes the most frequently.
+
+The indicative present expresses general truths, facts, demands and desires. Most commonly, a verb like portō can be translated as "I carry," "I do carry," or "I am carrying."
+Add the passive endings to form the passive voice. The passive portor can be translated as "I am carried," or "I am being carried."
+Notice that in the second person singular of petere, the thematic vowel is e (peteris, not petiris).
+
+The subjunctive present may be used to assert many things. In general, in independent sentences, it is translated hortatorily (only in the third person plural), jussively and optatively. Portem can be translated as "Let me carry." or "May I carry." Portēmus can be "Let us carry."
+Some alterations have occurred in the vowels from the indicative and subjunctive.
+"We eat caviar" is a helpful mnemonic for remembering this. First conjugation verbs have an "e" in their stem (we), second conjugation verbs have an "-ea" (eat), third conjugation verbs have an "a" (caviar), and fourths have an "ia" (caviar). Other acceptable mnemonics include she reads a diary, he beats a liar, everybody eats apple iambics, or let’s steal a fiat.
+Like the indicative, active personal endings may be replaced by passive personal endings. Porter can be translated as "Let me be carried" or "May I be carried." Hortatorily, Portēmur can be "Let us be carried."
+
+The imperative in the present conveys commands, pleas and recommendations. Portā can be translated as "(You) Carry" or simply, "Carry." The imperative present occurs only in the second person.
+The imperative present of the passive voice is rarely used. Portāminī can be translated as "(You) Be carried" or "Be carried."
+
+The imperfect tense (Latin tempus imperfectum) indicates a perpetual, but incomplete action in the past. It is recognized by the tense signs bǎ and bā in the indicative, and re and rē in the subjunctive.
+
+In the indicative mood, the imperfect simply express an act

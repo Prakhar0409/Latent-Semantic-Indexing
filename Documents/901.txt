@@ -1,0 +1,9 @@
+Turing tarpit
+Turing tarpit is a general term for a programming language designed to be Turing-complete while in some sense simplifying to the greatest extent possible both the syntax and the semantics of the language. Such a language gives up certain practical goals (such as ease of coding, performance, etc.) in favor of others (e.g., proving non-computability of certain functions, illustrating basic principles of programming, providing simple bases for computational models, general amusement, etc.). Thus it is of interest in theoretical computer science. Many esoteric programming languages are also Turing tarpits.
+The term is also applied, on occasion, to the entire field of computer programming. That is, there are many programming problems which are interesting and possible to solve, in theory. However, few of them are easy.
+Originally: "54. Beware of the Turing tar-pit in which everything is possible but nothing of interest is easy." --Alan Perlis, "Epigrams on Programming" [1].
+
+Well-known Turing tarpits include
+There are two sometimes-divergent approaches with which computer scientists struggle when designing a tarpit: one may lean towards fewer instructions, or one may lean towards fewer recognized symbols. Some results of this struggle have been
+
+

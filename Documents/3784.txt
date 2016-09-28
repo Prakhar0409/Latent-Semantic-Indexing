@@ -1,0 +1,50 @@
+GNOME
+GNOME (pronounced /gəˈnəʊm/ in RP or pronounced /gəˈnoʊm/ in the US/Canada)[1] is a desktop environment—the graphical user interface which runs on top of a computer operating system—composed entirely of free software. It is an international project that includes creating software development frameworks, selecting application software for the desktop, and working on the programs which manage application launching, file handling, and window and task management.
+GNOME is part of the GNU Project and can be used with various Unix-like operating systems, most notably those built on top of the Linux kernel and the GNU system, and as part of Java Desktop System in Solaris.
+The name originally stood for GNU Network Object Model Environment.
+
+The GNOME project puts heavy emphasis on simplicity, usability, and making things “just work”. The other aims of the project are:
+
+In 1996, the KDE project was started. KDE was free software from the start, but members of the GNU project were concerned with KDE's dependence on the then non-free Qt widget toolkit. In August 1997, two projects were started in response to this issue: the Harmony toolkit (a free replacement for the Qt libraries) and GNOME (a different desktop not using Qt, but built entirely on top of free software).[4] The initial project leaders for GNOME were Miguel de Icaza and Federico Mena.
+In place of the Qt toolkit, GTK+ was chosen as the base of the GNOME desktop. GTK+ uses the GNU Lesser General Public License (LGPL), a free software license that allows GPL-incompatible software (including proprietary software) to link to it. The GNOME desktop itself is licensed under the LGPL for its libraries, and the GPL for applications that are part of the GNOME project. Having the toolkit and libraries under the LGPL allowed applications written for GNOME to use a much wider set of licenses (including proprietary software licenses).[5]
+In 1998, Qt became open source. While Qt was dual-licensed under both the QPL and the GPL, the freedom to link proprietary software with GTK+ at no charge made it differ from Qt. With Qt licensed under the GPL, the Harmony Project stopped its efforts at the end of 2000, as KDE did not depend on non-free software anymore. In contrast, as of 2009, the development of GNOME has not stopped.
+On March 2009, Qt 4.5 was released, adding another licensing option, the LGPL.
+
+The name “GNOME” was proposed as an acronym of GNU Network Object Model Environment by Elliot Lee, one of the authors of ORBit and the Object Activation Framework.[citation needed] It refers to GNOME’s original intention of creating a distributed object framework similar to Microsoft’s OLE.[6] This no longer reflects the core vision of the GNOME project, and the full expansion of the name is now considered obsolete. As such, some members of the project advocate dropping the acronym and re-naming “GNOME” to “Gnome”.[7]
+
+GNOME 1
+GNOME 2.6
+GNOME 2.20
+GNOME 2.26 (latest)
+
+As with most free software projects, the GNOME project is loosely managed. Discussion chiefly occurs on a number of public mailing lists.[8]
+In August 2000 the GNOME Foundation was set up to deal with administrative tasks and press interest and to act as a contact point for companies interested in developing GNOME software. While not directly involved in technical decisions, the Foundation does coordinate releases and decide which projects will be part of GNOME. Membership is open to anyone who has made a non-trivial contribution to the project.[9] Members of the Foundation elect a board of directors every November, and candidates for the positions must be members themselves.
+Developers and users of GNOME gather at an annual meeting known as GUADEC in order to discuss the current state of the project and its future direction.[10]
+GNOME often incorporates standards from freedesktop.org into itself to allow GNOME applications to appear more integrated into other desktops (and vice versa), and encourages cooperation as well as competition.
+
+GNOME is built from a large number of different projects. A few of the major ones are listed below:
+A number of language bindings are available allowing applications to be written in a variety of programming languages, such as C++ (gtkmm), Java (java-gnome), Ruby (ruby-gnome2), C#, (Gtk#), Python (PyGTK), Perl (gtk2-perl) and many others. The only languages currently used in applications that are part of an official GNOME desktop release are C, C# and Python.[11]
+
+GNOME is designed around the traditional computing desktop metaphor. Its handling of windows, applications and files is similar to that of contemporary desktop operating systems. In its default configuration, the desktop has a launcher menu for quick access to installed programs and file locations; open windows may be accessed by a taskbar along the bottom of the screen and the top-right corner features a notification area for programs to display notices while running in the background. However these features can be moved to almost anywhere the user desires, replaced with other functions or removed altogether.
+GNOME uses Metacity as its default window manager. Users can change the appearance of their desktop through the use of themes, which are sets consisting of an icon set, window manager border and GTK+ theme engine and parameters. Popular GTK+ themes include Bluecurve and Clearlooks (the current default theme).
+GNOME puts emphasis on being easy for everyone to use. The HIG helps guide developers in producing applications which look and behave similarly, in order to provide a cohesive GNOME interface.
+
+Since GNOME v2.0, a key focus of the project has been usability. As a part of this, the GNOME Human Interface Guidelines (HIG) were created, which is an extensive guide for creating quality, consistent and usable GUI programs, covering everything from GUI design to recommended pixel-based layout of widgets.
+During the v2.0 rewrite, many settings were deemed to be of little or no value to the majority of users and were removed. For instance, the preferences section of the Panel were reduced from a dialog of six tabs to one with two tabs. Havoc Pennington summarized the usability work in his 2002 essay "Free Software UI", emphasizing the idea that all preferences have a cost, and it's better to "unbreak the software" than to add a UI preference to do that:[12]
+A traditional free software application is configurable so that it has the union of all features anyone's ever seen in any equivalent application on any other historical platform. Or even configurable to be the union of all applications that anyone's ever seen on any historical platform (Emacs *cough*).
+Does this hurt anything? Yes it does. It turns out that preferences have a cost. Of course, some preferences also have important benefits - and can be crucial interface features. But each one has a price, and you have to carefully consider its value. Many users and developers don't understand this, and end up with a lot of cost and little value for their preferences dollar.
+
+Each of the parts making up the GNOME project has its own version number and release schedule. However, individual module maintainers coordinate their efforts to create a full GNOME stable release on a roughly six-month schedule.
+The releases listed in the table below are classed as stable.
+
+GNOME releases are made to the ftp.gnome.org FTP server[32] in the form of source code with configure scripts, which are compiled by operating system vendors and integrated with the rest of their systems before distribution. Most vendors use only stable and tested versions of GNOME, and provide it in the form of easily installed, pre-compiled packages. The source code of every stable and development version of GNOME is stored in the GNOME Subversion source code repository.[33]
+A number of build-scripts (such as JHBuild or GARNOME) are available to help automate the process of compiling the source code.
+
+There are many sub-projects under the umbrella of the GNOME project, and not all of them are currently included in GNOME releases. Some are considered purely experimental concepts, or for testing ideas that will one day migrate into stable GNOME applications; others are code that is being polished for direct inclusion.
+
+The next version of the desktop environment was officially announced at the 2008 GUADEC conference held in Istanbul in July. Release has been targeted for 2010, in place of version 2.30 of the current branch. Although the desktop will undergo a major revision, changes planned so far are mostly incremental.[34]
+
+GNOME is the default desktop environment for several Linux distributions, most notably Debian, Fedora and Ubuntu.
+For derived and other distributions, see Comparison of Linux distributions.
+
+

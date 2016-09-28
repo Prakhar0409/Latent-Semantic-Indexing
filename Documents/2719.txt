@@ -1,0 +1,18 @@
+Interix
+Interix is the name of an optional, full-featured POSIX and Unix environment subsystem for Microsoft's Windows NT-based operating systems. It is a component of the Services for Unix (SFU) release 3.0 and 3.5 (this last one is distributed free). The most recent releases of Interix, 5.2 and 6.0, are components of the Windows Server 2003 R2 and Windows Vista Enterprise and Ultimate editions under the name SUA [1] (Subsystem for Unix-based Applications).[2]
+
+Like the Microsoft POSIX subsystem in Windows NT, Interix is an implementation of an environment subsystem running atop the Windows kernel. Interix provides numerous open source utilities, much like the cygwin project.
+The complete installation of Interix includes:
+The development environment includes support for C, C++ and Fortran. Threading is supported using the Pthreads model. Additional languages can be obtained (Python, Ruby, Tcl, etc.). The pkgsrc software packaging/build system was ported to work with Interix 3.5, and may work with newer versions (not yet tested).
+Starting with release 5.2 the following capabilities were added:[3]
+With release 6.0 the following new features can be expected:
+Also Interix is slated to be included only with Vista Ultimate and Enterprise (not other Vista editions) from the next version onwards.
+
+This product began to be developed in 1996 under the product name OpenNT by Softway Systems, Inc. before the name was changed to Interix in 1998. The last release by Softway Systems was release 2.2. Softway Systems had virtually completed the next release code-named Firebrand in 1999 which became the basis of Interix 3.0.
+Interix was acquired by Microsoft in 1999. Microsoft continued to distribute Interix 2.2 as a standalone product until 2002.
+Interix release 3.0 was released as component of Services for Unix (SFU) 3.0 in 2002. Interix release 3.5 was released as component of SFU 3.5 in January, 2004.
+Interix became integrated as component of the regular Windows OS distribution[3] as a component of Windows 2003 Server R2 in December, 2005 at release 5.2 and is a component of the Windows Vista release as release 6.0 (RTM November, 2006). Windows Server 2008 and Windows 7 betas presently include SUA 6.1.[4]
+
+
+
+

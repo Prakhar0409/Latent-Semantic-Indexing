@@ -1,0 +1,64 @@
+Meta element
+Meta elements are HTML or XHTML elements used to provide structured metadata about a Web page. Such elements must be placed as tags in the head section of an HTML or XHTML document. Meta elements can be used to specify page description, keywords and any other metadata not provided through the other head elements and attributes.
+The meta element has four valid attributes: content, http-equiv, name and scheme. Of these, only content is a required attribute.
+
+In one form, meta elements can specify HTTP headers which should be sent before the actual content when the HTML page is served from Web server to client. For example:
+This specifies that the page should be served with an HTTP header called 'Content-Type' that has a value 'text/html'. This is a typical use of the meta element, which specifies the document type so a client (browser or otherwise) knows what content type to render.
+In the general form, a meta element specifies name and associated content attributes describing aspects of the HTML page. For example:
+In this example, the meta element identifies itself as containing the 'keywords' relevant to the document, Wikipedia and encyclopedia.
+Meta tags can be used to indicate the location a business serves:
+In this example, geographical information is given according to zip codes.
+
+Meta elements provide information about a given Web page, most often to help search engines categorize them correctly. They are inserted into the HTML document, but are often not directly visible to a user visiting the site.
+They have been the focus of a field of marketing research known as search engine optimization (SEO), where different methods are explored to provide a user's site with a higher ranking on search engines. In the mid to late 1990s, search engines were reliant on meta data to correctly classify a Web page and webmasters quickly learned the commercial significance of having the right meta element, as it frequently led to a high ranking in the search engines — and thus, high traffic to the website.
+As search engine traffic achieved greater significance in online marketing plans, consultants were brought in who were well versed in how search engines perceive a website. These consultants used a variety of techniques (legitimate and otherwise) to improve ranking for their clients.
+Meta elements have significantly less effect on search engine results pages today than they did in the 1990s and their utility has decreased dramatically as search engine robots have become more sophisticated. This is due in part to the nearly infinite re-occurrence (keyword stuffing) of meta elements and/or to attempts by unscrupulous website placement consultants to manipulate (spamdexing) or otherwise circumvent search engine ranking algorithms.
+While search engine optimization can improve search engine ranking, consumers of such services should be careful to employ only reputable providers. Given the extraordinary competition and technological craftsmanship required for top search engine placement, the implication of the term "search engine optimization" has deteriorated over the last decade. Where it once implied bringing a website to the top of a search engine's results page, for the average consumer it now implies a relationship with keyword spamming or optimizing a site's internal search engine for improved performance.
+Major search engine robots are more likely to quantify such extant factors as the volume of incoming links from related websites, quantity and quality of content, technical precision of source code, spelling, functional v. broken hyperlinks, volume and consistency of searches and/or viewer traffic, time within website, page views, revisits, click-throughs, technical user-features, uniqueness, redundancy, relevance, advertising revenue yield, freshness, geography, language and other intrinsic characteristics.
+
+The keywords attribute was popularized by search engines such as Infoseek and AltaVista in 1995, and its popularity quickly grew until it became one of the most commonly used meta elements[1]. By late 1997, however, search engine providers realized that information stored in meta elements, especially the keyword attribute, was often unreliable and misleading, and at worst, used to draw users into spam sites. (Unscrupulous webmasters could easily place false keywords into their meta elements in order to draw people to their site.)
+Search engines began dropping support for metadata provided by the meta element in 1998, and by the early 2000s, most search engines had veered completely away from reliance on meta elements. In July 2002, AltaVista, one of the last major search engines to still offer support, finally stopped considering them[2].
+No consensus exists whether or not the keywords attribute has any effect on ranking at any of the major search engines today. It is speculated that it does, if the keywords used in the meta can also be found in the page copy itself. With respect to Google, thirty-seven leaders in search engine optimization concluded in April 2007 that the relevance of having your keywords in the meta-attribute keywords is little to none[3]. However, the same article also suggests that Yahoo still makes use of the keywords meta tag in some of its rankings. Yahoo itself claims support for the keyword meta tag in conjunction with other factors for improving search rankings.[4]
+
+Unlike the keyword attribute, the description attribute is supported by most major search engines, like Yahoo and Live Search, while Google will fall back on this tag when information about the page itself is requested (e.g. using the related: query). The description attribute provides a concise explanation of a Web page's content. This allows the Web page authors to give a more meaningful description for listings than might be displayed if the search engine was unable to automatically create its own description based on the page content. The description is often, but not always, displayed on search engine results pages, so it can impact click-through rates. Industry commentators have suggested that major search engines also consider keywords located in the description attribute when ranking pages.[5] W3C doesn't specify the size of this description meta tag, but almost all search engines recommend it to be shorter than 200 characters of plain text[citation needed].
+
+The language attribute tells search engines what natural language the website is written in (e.g. English, Urdu or French), as opposed to the coding language (e.g. HTML). It is normally a 2 letter abbreviation for the language name. It is of most use when a website is written in multiple languages and can be included on each page to tell search engines in which language a particular page is written. [6]
+
+The robots attribute controls whether search engine spiders are allowed to index a page, or not, and whether they should follow links from a page, or not. The noindex value prevents a page from being indexed, and nofollow prevents links from being crawled. Other values are available that can influence how a search engine indexes pages, and how those pages appear on the search results. The robots attribute is supported by several major search engines [7]. There are several additional values for the robots meta attribute that are relevant to search engines, such as NOARCHIVE and NOSNIPPET, which are meant to tell search engines what not to do with a Web pages content. [8]. Meta tags are not the best option to prevent search engines from indexing content of your website. A more reliable and efficient method is the use of the Robots.txt file (Robots Exclusion Standard).
+NOINDEX tag tells a search engine not to index a specific page. NOFOLLOW tag tells a search engine not to follow the links on a specific page. NOARCHIVE tag tells a search engine not to store a cached copy of your page. NOSNIPPET tag tells Google not to show a snippet (description) under your a search engine listing, it will also not show a cached link in the search results
+
+
+The search engines Google, Yahoo! and MSN use in some cases the title and abstract of the Open Directory Project (ODP) listing of a Web site for the title and/or description (also called snippet or abstract) in the search engine results pages (SERPS). To give webmasters the option to specify that the ODP content should not be used for listings of their website, Microsoft introduced in May 2006 the new "NOODP" value for the "robots" element of the meta tags [9]. Google followed in July 2006[10] and Yahoo! in October 2006[11].
+The syntax is the same for all search engines who support the tag.
+<META NAME="ROBOTS" CONTENT="NOODP">
+Webmasters can decide if they want to disallow the use of their ODP listing on a per search engine basis
+Google: <META NAME="GOOGLEBOT" CONTENT="NOODP">
+Yahoo! <META NAME="Slurp" CONTENT="NOODP">
+MSN and Live Search: <META NAME="msnbot" CONTENT="NOODP">
+
+Yahoo! also used next to the ODP listing the content from their own Yahoo! directory but introduced in February 2007 a meta tag that provides webmasters with the option to opt-out of this[12].
+Yahoo! Directory titles and abstracts will not be used in search results for their pages if the NOYDIR tag is being added to a Web page.
+<META NAME="ROBOTS" CONTENT="NOYDIR">
+<META NAME="Slurp" CONTENT="NOYDIR">
+
+Yahoo! also introduced in May 2007 the attribute value: class="robots-nocontent".[13] This is not a meta tag, but an attribute and value, which can be used throughout Web page tags where needed. Content of the page where this attribute is being used will be ignored by the Yahoo! crawler and not included in the search engine's index.
+Examples for the use of the robots-nocontent tag:
+<div class="robots-nocontent">excluded content</div>
+<span class="robots-nocontent">excluded content</span>
+<p class="robots-nocontent">excluded content</p>
+
+Google does not use HTML keyword or meta tag elements for indexing. The Director of Research at Google, Monika Henziger, was quoted (in 2002) as saying, "Currently we don't trust metadata because we are afraid of being manipulated." [14]. Other search engines developed techniques to penalize Web sites considered to be "cheating the system". For example, a Web site repeating the same meta keyword several times may have its ranking decreased by a search engine trying to eliminate this practice, though that is unlikely. It is more likely that a search engine will ignore the meta keyword element completely, and most do regardless of how many words used in the element.
+Google does, however, use meta tag elements for displaying site links. The title tags are used to create the link in search results:
+The meta description often appears in Google search results to describe the link:
+
+Meta refresh elements can be used to instruct a Web browser to automatically refresh a Web page after a given time interval. It is also possible to specify an alternative URL and use this technique in order to redirect the user to a different location. Using a meta refresh in this way and solely by itself rarely achieves the desired result. For Internet Explorer's security settings, under the miscellaneous category, meta refresh can be turned off by the user, thereby disabling its redirect ability entirely.
+Many Web design tutorials also point out that client side redirecting tends to interfere with the normal functioning of a Web browser's "back" button. After being redirected, clicking the back button will cause the user to go back to the redirect page, which redirects them again. Some modern browsers seem to overcome this problem however, including Safari, Mozilla Firefox and Opera.
+Auto-redirects via markup (versus server side redirects) are not in compliance with the W3C's - Web Content Accessibility Guidelines (WCAG) 1.0 (guideline 7.5).[15]
+
+Meta elements of the form <meta http-equiv="foo" content="bar"> can be used as alternatives to http headers. For example, <meta http-equiv="expires" content="Wed, 21 Jun 2006 14:25:27 GMT"> would tell the browser that the page "expires" on June 21 2006 at 14:25:27 GMT and that it may safely cache the page until then.
+
+An alternative to meta elements for enhanced subject access within a website is the use of a back-of-book-style index for the website. See examples at the websites of the Australian Society of Indexers and the American Society of Indexers.
+In 1994, ALIWEB, which was likely the first Web search engine, also used an index file to provide the type of information commonly found in meta keywords attributes.
+
+
+

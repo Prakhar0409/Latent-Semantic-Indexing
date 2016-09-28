@@ -1,0 +1,25 @@
+Robert Tappan Morris
+Robert Tappan Morris, also known as rtm, (born November 8, 1965), is an associate professor at Massachusetts Institute of Technology, in the Institute's department of Electrical Engineering and Computer Science.[2] He is best known for creating the Morris Worm in 1988, considered the first computer worm on the Internet.[3] He is the son of Robert Morris, the former chief scientist at the National Computer Security Center, a division of the National Security Agency (NSA).
+
+Morris created the worm while he was a graduate student at Cornell University. The original intent, according to him, was to gauge the size of the Internet. He released the worm from MIT to conceal the fact that it actually originated from Cornell. The worm was designed to count how many machines were connected to the internet. Unknown to Morris, the worm had a design flaw. The worm was programmed to check each computer it found to determine if the infection was already present. However, Morris believed that some administrators might try to defeat his worm by instructing the computer to report a false positive. To compensate for this possibility, Morris directed the worm to copy itself anyway, fourteen percent of the time, no matter the response to the infection-status interrogation. This level of replication proved excessive and the worm spread rapidly, infecting several thousand computers. It was estimated that the cost of "potential loss in productivity" caused by the worm at each system ranged from $200 to more than $53,000. The worm exploited several vulnerabilities to gain entry to targeted systems, including:
+RTM was viewed as a hero in some circles because he exposed a major security flaw in the UNIX system.[citation needed] He served no jail time, and was only sentenced to community service and probation.
+
+1987 - Received his A.B. from Harvard. Came up with the idea for the worm while working on arrays in his computer science class.
+1988 - Released the Morris worm (when he was a graduate student at Cornell)
+1989 - Indicted under the Computer Fraud and Abuse Act of 1986 on July 26, 1989 - the first person to be indicted under this Act.
+1990 - Convicted and sentenced to three years of probation, 400 hours of community service, a fine of $10,050 and the cost of his supervision.
+1995 - Cofounded, with Paul Graham, Viaweb start-up company that made software for building online stores
+1998 - Viaweb sold for $48 million[4] to Yahoo, who renamed the software "Yahoo! Store"
+1999 - Received Ph.D. in Applied Sciences from Harvard
+1999 - Appointed as a professor at MIT.
+2005 - Cofounded with Paul Graham, Y Combinator venture capital firm
+2006 - Awarded tenure[5]
+2006 - Technical advisor for Meraki Networks.[6]
+2008 - With Paul Graham, released the Arc programming language, a Lisp dialect
+His principal research interest is computer network architectures which includes work on distributed hash tables such as Chord and wireless mesh networks such as Roofnet.
+Morris is a longtime friend of Paul Graham. Graham dedicated his book ANSI Common Lisp to him, and named the programming language that generates the online stores' web pages RTML in his honor. Graham also lists Morris as one of his personal heroes saying "he's never wrong."
+
+
+
+
+Hafner, Katie; Markoff, John (1991). Cyberpunk: Outlaws and Hackers on the Computer Frontier. ISBN 0-671-68322-5. 

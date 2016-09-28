@@ -1,0 +1,13 @@
+ISO 3166
+ISO 3166 is a three-part standard published by the International Organization for Standardization (ISO), and defines codes for the names of countries, dependent territories, and special areas of geographical interest, and their principal subdivisions (e.g., provinces or states). The official name is Codes for the representation of names of countries and their subdivisions. It was first published in 1974, and has been modified over the years, with subsequent editions published in 1981, 1988, and 1993. The most recent edition, its fifth, was published between 1997 and 1999.
+
+Since the fifth edition, the standard has been divided into three parts:[1]
+
+The ISO 3166 standard is maintained by the ISO 3166 Maintenance Agency (ISO 3166/MA), located at the ISO central office in Geneva. Originally it was located at the Deutsches Institut für Normung (DIN) in Berlin. Its principal tasks are:[2]
+
+There are ten experts with voting rights on the ISO 3166/MA.[3] Five are representatives of the following national standards organizations:
+The other five are representatives of major UN or other international organizations who are all users of ISO 3166-1:
+There are also associated members but they do not participate in votes.
+
+
+

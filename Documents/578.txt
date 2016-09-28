@@ -1,0 +1,12 @@
+Business Objects (company)
+Business Objects (a.k.a. BO, BOBJ) is a French enterprise software company, specializing in business intelligence (BI). Since 2007 is part of SAP AG. The company claims more than 42,000 customers worldwide. Their flagship product is BusinessObjects XI, with components that provide performance management, planning, reporting, query and analysis, and enterprise information management. Like many enterprise software companies, Business Objects also offers consulting and education services to help customers deploy their business intelligence projects.
+
+Bernard Liautaud, the chairman and chief strategy officer co-founded Business Objects in 1990 together with Denis Payre and was chief executive officer until September 2005. In 1991, the first customer, France Télécom, was signed. The company went public on NASDAQ in September 1994, making it the first French software company listed in the United States.[citation needed] In 2002, the company made Time Magazine Europe's Digital Top 25 of 2002 and were BusinessWeek Europe Stars of Europe.
+On 7 October 2007, SAP AG announced[1] that it will acquire Business Objects for $6.8B. As of 22 January 2008, the corporation is fully operated by SAP; this is seen as part of a growing consolidation trend in the business software industry, with Oracle acquiring Hyperion in 2007 and IBM acquiring Cognos in 2008.
+Business Objects had two headquarters in San Jose, California, and Paris, France despite the fact that the biggest office was in Vancouver, BC. The company's stock is traded on both the Nasdaq and Euronext Paris (BOB) stock exchanges.
+
+
+
+On April 2, 2007 a lawsuit from Informatica (inherited by BOBJ from the purchase of Acta Technologies in 2002) resulted in an award of $25 million in damages to Informatica for patent infringement. The lawsuit related to embedded data flows with one input and one output. Informatica asserted that the ActaWorks product (now sold by BOBJ as part of Data Integrator), infringed several Informatica patents including U.S. Patent Nos. 6,014,670 and 6,339,775, both titled "Apparatus and Method for Performing Data Transformations in Data Warehousing." BOBJ subsequently released a new version of Data Integrator (11.7.2) removing the infringing product capability.[2][3]
+
+

@@ -1,0 +1,57 @@
+Toki Pona
+Toki Pona is a constructed language first published online in mid-2001. It was designed by translator and linguist Sonja Elen Kisa of Toronto.[1][2]
+Toki Pona is a minimal language. Like a pidgin, it focuses on simple concepts and elements that are relatively universal among cultures. Kisa designed Toki Pona to express maximal meaning with minimal complexity. The language has 14 phonemes and 120 root words. It is not designed as an international auxiliary language but is instead inspired by Taoist philosophy, among other things.[3]
+The language is designed to shape the thought processes of its users, in the style of the Sapir-Whorf hypothesis in Zen-like fashion. [A Million Words and Counting: How Global English Is Rewriting the World, Paul J. J. Payack, (C) 2007, p. 194] This goal, together with Toki Pona's deliberately restricted vocabulary, has led some to feel that the language, whose name literally means "simple language", "good language", or "goodspeak", resembles George Orwell's fictional language Newspeak.[4]
+
+Sonja Elen Kisa is a translator (English, French and Esperanto) and linguist living in Toronto, Ontario, Canada[5]. In addition to designing Toki Pona, Kisa has translated parts of the Tao Te Ching into English and Esperanto[6]. She maintains her homepage at www.kisa.ca.
+
+Kisa officially used letters of the Latin alphabet to represent the language,[7] with the values they represent in the IPA: p, t, k, s, m, n, l, j, w, a, e, i, o, and u. (That is, j sounds like English y, and the vowels are like Spanish.)
+Capital letters are only used for personal and place names (see below), not for the first word of a sentence. That is, they mark foreign words, never the 120 Toki Pona roots.[8]
+A few enthusiasts have adapted other scripts for use in Toki Pona: Korean hangul, tengwar, a set of logograms taken from Unicode, and an original abugida.
+
+
+Toki Pona has nine consonants (/p, t, k, s, m, n, l, j, w/) and five vowels (/a, e, i, o, u/). The first syllable of a word is stressed;[9] an initial vowel may be optionally proceeded by a glottal stop.[10] There are no diphthongs or long vowels, no consonant clusters, and no tone.
+
+The statistic vowel spread is fairly typical cross-linguistically. Counting each root once, 32% of vowels are /a/, 25% /i/, /e/ and /o/ a bit over 15% each, and 10% are /u/. 20% of roots are vowel initial. The usage frequency in a 10kB sample of texts was slightly more skewed: 34% /a/, 30% /i/, 15% each /e/ and /o/, and 6% /u/.[11]
+Of the syllable-initial consonants, /l/ is the most common, at 20% total; /k, s, p/ are over 10%, then the nasals /m, n/ (not counting final N), with the least common, at little more than 5% each, being /t, w, j/.
+The high frequency of /l/ and low frequency of /t/ are somewhat unusual among the world's languages. The fact that /l/ occurs in the grammatical particles la, li, ala suggests that its percentage would be even higher in texts; the text-based stats cited above did not specifically consider initial consonants, but indicate that /l/ was about 25%, while /t/ doubled its frequency to just over 10% (/k/, /t/, /m/, /s/, /p/, respectively, ranged over 12% to 9% each, with /n/ unknown, and the semivowels /j/ and /w/ again coming in last at 7% each).
+
+All syllables are of the form (C)V(N), that is, optional consonant + vowel + optional final nasal, or V, CV, VN, CVN. As in most languages, CV is the most common syllable type, at 75% (counting each root once). V and CVN syllables are each around 10%, while only 5 words have VN syllables (for 2% of syllables). In both the dictionary and in texts, the ratio of consonants to vowels is almost exactly one-to-one.
+Most roots (70%) are disyllabic; about 20% are monosyllables and 10% trisyllables. This is a common distribution, and similar to Polynesian.
+
+The following sequences are not allowed: */ji, wu, wo, ti/, nor may a final nasal occur before /m/ or /n/ in the same root.[9] Syllables that aren't word-initial must have an initial consonant,[8] though in roots like ijo (from Esperanto io) and suwi (ultimately from English sweet), that might be considered an orthographic convention, with the effect that glottal stop only marks word boundaries. (The sequences /ij/ and /uw/ are no more easily distinguished from simple /i/ and /u/ than the banned */ji/ and */wu/ are.)
+
+The nasal at the end of a syllable can be pronounced as any nasal consonant, though it is normally assimilated to the following consonant. That is, it typically occurs as an [n] before /t/ or /s/, as an [m] before /p/, as an [ŋ] before /k/, and as an [ɲ] before /j/.
+Because of its small phoneme inventory, Toki Pona allows for quite a lot of allophonic variation. For example, /p t k/ may be pronounced [b d ɡ] as well as [p t k], /s/ as [z] or [ʃ] as well as [s], /l/ as [ɾ] as well as [l], and vowels may be either long or short.[8] Both its sound inventory and phonotactics (patterns of possible sound combinations) are found in the majority of human languages and are therefore readily accessible. For example, */ji, wu, wo/ are also impossible in Korean, which is convenient when writing Toki Pona in hangul, which would have no way of writing such syllables (see below).
+
+Some basic features of Toki Pona's Subject Verb Object syntax are: The word li separates the subject from the predicate;[12] e precedes the direct object;[13] direct object phrases precede prepositional phrases in the predicate;[14] la separates complex adverbs or subclauses from the main sentence.[15]
+The language is simple enough that its syntax can be expressed in ten rules:[16]
+(mi mute and sina mute require li to form a predicate.)
+Some roots are used for grammatical functions (such as those that take part in the rules above), while others have lexical meanings. The lexical roots do not fall into well defined parts of speech; rather, they may generally be used as nouns, verbs, or modifiers, depending on context or their position in a phrase. For example, ona li moku may mean "they ate" or "it is food".
+
+Toki Pona has the basic pronouns mi (first person), sina (second person), and ona (third person).[17]
+Note that the above words do not specify number or gender. Thus, ona can mean "he", "she", "it", or "they". In practice, Toki Pona speakers use the phrase mi mute to mean "we". Although less common, ona mute means "they" and sina mute means "you" (plural).
+Whenever the subject of a sentence is either of the unmodified pronouns mi or sina, then li is not used to separate the subject and predicate.[12]
+
+With such a small root-word vocabulary, Toki Pona relies heavily on noun phrases (compound nouns), where a noun is modified by a following root, to make more complex meanings.[18][2] A typical example is combining jan (person, pronounced "yan") with utala (fight) to make jan utala (soldier, warrior). [See 'modifiers' next.]
+Nouns do not decline according to number.[12] jan can mean "person", "people", or "the human race" depending on context.
+Toki Pona does not use isolated proper nouns; instead, they must modify a preceding noun. (For this reason they are called "proper adjectives"; they are functionally the same as compound nouns.)[4] For example, names of people and places are used as modifiers of the common roots for "person" and "place", e.g. ma Kanata (lit. "Canada country") or jan Lisa (lit. "Lisa person").
+
+Phrases in Toki Pona are head-initial; modifiers always come after the word that they modify.[18] This trait resembles the typical arrangement of adjectives in Spanish and Arabic and contrasts with the typical English structure. Thus a kasi kule, literally "plant of color", always means a kind of plant, the colorful kind (most likely a flower). A kasi kule poki, literally "plant of color of container" can only be the kind of "plant of color" that comes in a container, i.e. a potted flower.
+In the other direction, the English expression "plant pot" refers to a kind of container, so it must be rendered into toki pona with the word meaning "container" at the beginning, i.e. poki kasi (literally "pot of plant"). A "flower pot" would be poki pi kasi kule (literally "pot of flower").
+Order of operations is completely opposite to that of Lojban. In Toki�Pona, "N A1 A2" (where N represents a noun and A1 and A2 represent modifiers) is always understood as ((N A1) A2), that is, an A1 N that is A2: E.g., jan pona lukin = ((jan pona) lukin), a friend watching (jan pona, "friend," literally "good person").
+This can be changed with the particle pi, "of", which groups the following adjectives into a kind of compound adjective that applies to the head noun, which leads to jan pi pona lukin = (jan (pona lukin)), "good-looking person."[19]
+Demonstratives, numerals, and possessive pronouns follow other modifiers.[18]
+
+There is a zero copula.[12]
+Toki Pona does not inflect verbs according to person, tense, mood, or voice.[12] Person is inferred from the subject of the verb; time is inferred from context or a temporal adverb in the sentence. There is no true passive voice in Toki Pona;[citation needed] the closest thing to passivity in Toki Pona is a structure such as "(result) of (subject) is because of (agent)." Alternatively, one could phrase a passive sentence as an active one with the agent subject being unknown.
+Some prepositions can be used as a subclass of main verbs. For example, tawa means "to" as a preposition or "to go" or "to go to" as a verb; lon means "in" or "at" as a preposition or "exist, be in/at" as a verb; kepeken means "with" (in the sense of the instrumental case) as a preposition or "to use" as a verb. lon and tawa (but not kepeken) omit the direct object marker e before their objects: mi tawa tomo mi "I'm going to my house".[14]
+
+The 120-root vocabulary[20] is designed around the principles of living a simple life without the complications of modern civilization.[21]
+Because of the small number of roots in Toki Pona, words from other languages are often translated using two or more roots, e.g. "to teach" by pana e sona, which literally means "to give knowledge".[22] Although Toki Pona is generally said to have only 118 or 120 "words", this is in fact inaccurate, as there are many compound words and set phrases which, as idiomatic expressions, constitute independent lexical entries or lexemes and therefore must be memorized independently.
+
+Toki Pona has five root words for colors: pimeja (black), walo (white), loje (red), jelo (yellow), and laso (blue). Each word represents multiple shades: laso refers to words as light as cornflower blue or as dark as navy blue, even extending into shades of blue-green such as cyan.
+Although the simplified conceptualization of colors tends to exclude a number of colors that are commonly expressed in Western languages, speakers sometimes may combine these five words to make more specific descriptions of certain colors. For instance, "purple" may be represented by combining laso and loje. The phrase laso loje means "a reddish shade of blue" and loje laso means "a bluish shade of red".[23]
+
+Toki Pona has root words for one (wan), two (tu), and many (mute). In addition, ala can mean zero, although its more literal meaning is "no" or "none."[17]
+Toki Ponans express larger numbers additively by using phrases such as tu wan for three, tu tu for four, and so on.[24] This feature was added to make it impractical to communicate large numbers.

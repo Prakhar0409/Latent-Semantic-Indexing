@@ -1,0 +1,34 @@
+Decision tree
+A decision tree (or tree diagram) is a decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. Decision trees are commonly used in operations research, specifically in decision analysis, to help identify a strategy most likely to reach a goal. Another use of description trees is as a descriptive means for calculating conditional probabilities.
+In data mining and machine learning, a decision tree is a predictive model; that is, a mapping from observations about an item to conclusions about its target value. More descriptive names for such tree models are classification tree (discrete outcome) or regression tree (continuous outcome). In these tree structures, leaves represent classifications and branches represent conjunctions of features that lead to those classifications. The machine learning technique for inducing a decision tree from data is called decision tree learning, or (colloquially) decision trees.
+
+In decision analysis, a "decision tree" — and the closely-related influence diagram — is used as a visual and analytical decision support tool, where the expected values (or expected utility) of competing alternatives are calculated.
+Decision trees have traditionally been created manually, as the following example shows:
+
+A decision Tree consists of 3 types of nodes:-
+1. Decision nodes - commonly represented by squares
+2. Chance nodes - represented by circles
+3. End nodes - represented by triangles
+
+Drawn from left to right, a decision tree has only burst nodes (splitting paths) but no sink nodes (converging paths). Therefore, used manually, they can grow very big and are then often hard to draw fully by hand.
+Analysis can take into account the decision maker's (e.g., the company's) preference or utility function, for example:
+
+The basic interpretation in this situation is that the company prefers B's risk and payoffs under realistic risk preference coefficients (greater than $400K -- in that range of risk aversion, the company would need to model a third strategy, "Neither A nor B").
+
+A decision tree can be represented more compactly as an influence diagram, focusing attention on the issues and relationships between events.
+
+
+Decision trees, influence diagrams, utility functions, and other decision analysis tools and methods are taught to undergraduate students in schools of business, health economics, and public health, and are examples of operations research or management science methods.
+
+Three popular rules are applied in the automatic creation of classification trees. The Gini rule splits off a single group of as large a size as possible, whereas the entropy and twoing rules find multiple groups comprising as close to half the samples as possible. Both algorithms proceed recursively down the tree until stopping criteria are met.
+The Gini rule is typically used by programs that build ('induce') decision trees using the CART algorithm. Entropy (or information gain) is used by programs that are based on the C4.5 algorithm. A brief comparison of these two criterion can be seen under Decision tree formulae.
+More information on automatically building ('inducing') decision trees can be found under Decision tree learning.
+
+Amongst decision support tools, decision trees (and influence diagrams) have several advantages:
+Decision trees:
+
+Decision trees can be used to optimize an investment portfolio. The following example shows a portfolio of 7 investment options (projects). The organization has $10,000,000 available for the total investment. Bold lines mark the best selection 1, 3, 5, 6, and 7 which will cost $9,750,000 and create a payoff of 16,175,000. All other combinations would either exceed the budget or yield a lower payoff.[1]
+
+
+
+

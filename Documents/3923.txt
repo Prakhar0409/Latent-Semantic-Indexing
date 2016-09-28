@@ -1,0 +1,90 @@
+Foreign exchange market
+Exchange rates
+Currency band
+Exchange rate
+Exchange rate regime
+Fixed exchange rate
+Floating exchange rate
+Linked exchange rate
+Markets
+Foreign exchange market
+Futures exchange
+Retail forex
+Products
+Currency
+Currency future
+Non-deliverable forward
+Forex swap
+Currency swap
+Foreign exchange option
+See also
+Bureau de change
+The foreign exchange market (currency, forex, or FX) market is where currency trading takes place. It is where banks and other official institutions facilitate the buying and selling of foreign currencies. [1]FX transactions typically involve one party purchasing a quantity of one currency in exchange for paying a quantity of another. The foreign exchange market that we see today started evolving during the 1970s when worldover countries gradually switched to floating exchange rate from their erstwhile exchange rate regime, which remained fixed as per the Bretton Woods system till 1971.
+Now, the FX market is one of the largest and most liquid financial markets in the world, and includes trading between large banks, central banks, currency speculators, corporations, governments, and other institutions. The average daily volume in the global foreign exchange and related markets is continuously growing. Traditional daily turnover was reported to be over US$3.2 trillion in April 2007 by the Bank for International Settlements.[2] Since then, the market has continued to grow. According to Euromoney's annual FX Poll, volumes grew a further 41% between 2007 and 2008.[3]
+The purpose of FX market is to facilitate trade and investment. The need for a foreign exchange market arises because of the presence of multifarious international currencies such as US Dollar, Pound Sterling, etc., and the need for trading in such currencies.
+
+The foreign exchange market is unique because of
+As such, it has been referred to as the market closest to the ideal perfect competition, notwithstanding market manipulation by central banks. According to the Bank for International Settlements,[2] average daily turnover in global foreign exchange markets is estimated at $3.98 trillion. Trading in the world's main financial markets accounted for $3.21 trillion of this. This approximately $3.21 trillion in main foreign exchange market turnover was broken down as follows:
+Of the $3.98 trillion daily global turnover, trading in London accounted for around $1.36 trillion, or 34.1% of the total, making London by far the global center for foreign exchange. In second and third places respectively, trading in New York accounted for 16.6%, and Tokyo accounted for 6.0%. In addition to "traditional" turnover, $2.1 trillion was traded in derivatives. Exchange-traded FX futures contracts were introduced in 1972 at the Chicago Mercantile Exchange and are actively traded relative to most other futures contracts. Several other developed countries also permit the trading of FX derivative products (like currency futures and options on currency futures) on their exchanges. All these developed countries already have fully convertible capital accounts. Most emerging countries do not permit FX derivative products on their exchanges in view of prevalent controls on the capital accounts. However, a few select emerging countries (e.g., Korea, South Africa, India—[1]; [2]) have already successfully experimented with the currency futures exchanges, despite having some controls on the capital account. FX futures volume has grown rapidly in recent years, and accounts for about 7% of the total foreign exchange market volume, according to The Wall Street Journal Europe (5/5/06, p. 20).
+Foreign exchange trading increased by 38% between April 2005 and April 2006 and has more than doubled since 2001. This is largely due to the growing importance of foreign exchange as an asset class and an increase in fund management assets, particularly of hedge funds and pension funds. The diverse selection of execution venues have made it easier for retail traders to trade in the foreign exchange market. In 2006, retail traders constituted over 2% of the whole FX market volumes with an average daily trade volume of over US$50-60 billion (see retail trading platforms).[5] Because foreign exchange is an OTC market where brokers/dealers negotiate directly with one another, there is no central exchange or clearing house. The biggest geographic trading centre is the UK, primarily London, which according to IFSL estimates has increased its share of global turnover in traditional transactions from 31.3% in April 2004 to 34.1% in April 2007. The ten most active traders account for almost 80% of trading volume, according to the 2008 Euromoney FX survey.[3] These large international banks continually provide the market with both bid (buy) and ask (sell) prices. The bid/ask spread is the difference between the price at which a bank or market maker will sell ("ask", or "offer") and the price at which a market-maker will buy ("bid") from a wholesale customer. This spread is minimal for actively traded pairs of currencies, usually 0–3 pips. For example, the bid/ask quote of EUR/USD might be 1.2200/1.2203 on a retail broker. Minimum trading size for most deals is usually 100,000 units of base currency, which is a standard "lot".
+
+These spreads might not apply to retail customers at banks, which will routinely mark up the difference to say 1.2100/1.2300 for transfers, or say 1.2000/1.2400 for banknotes or travelers' checks. Spot prices at market makers vary, but on EUR/USD are usually no more than 3 pips wide (i.e., 0.0003). Competition is greatly increased with larger transactions, and pip spreads shrink on the major pairs to as little as 1 to 2 pips.
+
+Bond market
+Fixed income
+Corporate bond
+Government bond
+Municipal bond
+Bond valuation
+High-yield debt
+Stock market
+Stock
+Preferred stock
+Common stock
+Registered share
+Voting share
+Stock exchange
+Foreign exchange market
+Derivatives market
+Credit derivative
+Hybrid security
+Options
+Futures
+Forwards
+Swaps
+Other Markets
+Commodity market
+Money market
+OTC market
+Real estate market
+Spot market
+Finance series
+Financial market
+Financial market participants
+Corporate finance
+Personal finance
+Public finance
+Banks and Banking
+Financial regulation
+Unlike a stock market, where all participants have access to the same prices, the foreign exchange market is divided into levels of access. At the top is the inter-bank market, which is made up of the largest investment banking firms. Within the inter-bank market, spreads, which are the difference between the bid and ask prices, are razor sharp and usually unavailable, and not known to players outside the inner circle. The difference between the bid and ask prices widens (from 0-1 pip to 1-2 pips for some currencies such as the EUR). This is due to volume. If a trader can guarantee large numbers of transactions for large amounts, they can demand a smaller difference between the bid and ask price, which is referred to as a better spread. The levels of access that make up the foreign exchange market are determined by the size of the “line” (the amount of money with which they are trading). The top-tier inter-bank market accounts for 53% of all transactions. After that there are usually smaller investment banks, followed by large multi-national corporations (which need to hedge risk and pay employees in different countries), large hedge funds, and even some of the retail FX-metal market makers. According to Galati and Melvin, “Pension funds, insurance companies, mutual funds, and other institutional investors have played an increasingly important role in financial markets in general, and in FX markets in particular, since the early 2000s.” (2004) In addition, he notes, “Hedge funds have grown markedly over the 2001–2004 period in terms of both number and overall size” Central banks also participate in the foreign exchange market to align currencies to their economic needs.
+
+The interbank market caters for both the majority of commercial turnover and large amounts of speculative trading every day. A large bank may trade billions of dollars daily. Some of this trading is undertaken on behalf of customers, but much is conducted by proprietary desks, trading for the bank's own account.
+Until recently, foreign exchange brokers did large amounts of business, facilitating interbank trading and matching anonymous counterparts for small fees. Today, however, much of this business has moved on to more efficient electronic systems. The broker squawk box lets traders listen in on ongoing interbank trading and is heard in most trading rooms, but turnover is noticeably smaller than just a few years ago.
+
+An important part of this market comes from the financial activities of companies seeking foreign exchange to pay for goods or services. Commercial companies often trade fairly small amounts compared to those of banks or speculators, and their trades often have little short term impact on market rates. Nevertheless, trade flows are an important factor in the long-term direction of a currency's exchange rate. Some multinational companies can have an unpredictable impact when very large positions are covered due to exposures that are not widely known by other market participants.
+
+National central banks play an important role in the foreign exchange markets. They try to control the money supply, inflation, and/or interest rates and often have official or unofficial target rates for their currencies. They can use their often substantial foreign exchange reserves to stabilize the market. Milton Friedman argued that the best stabilization strategy would be for central banks to buy when the exchange rate is too low, and to sell when the rate is too high—that is, to trade for a profit based on their more precise information. Nevertheless, the effectiveness of central bank "stabilizing speculation" is doubtful because central banks do not go bankrupt if they make large losses, like other traders would, and there is no convincing evidence that they do make a profit trading.
+The mere expectation or rumor of central bank intervention might be enough to stabilize a currency, but aggressive intervention might be used several times each year in countries with a dirty float currency regime. Central banks do not always achieve their objectives. The combined resources of the market can easily overwhelm any central bank.[6] Several scenarios of this nature were seen in the 1992–93 ERM collapse, and in more recent times in Southeast Asia.
+
+About 70% to 90% of the foreign exchange transactions are speculative. In other words, the person or institution that bought or sold the currency has no plan to actually take delivery of the currency in the end; rather, they were solely speculating on the movement of that particular currency. Hedge funds have gained a reputation for aggressive currency speculation since 1996. They control billions of dollars of equity and may borrow billions more, and thus may overwhelm intervention by central banks to support almost any currency, if the economic fundamentals are in the hedge funds' favor.
+
+Investment management firms (who typically manage large accounts on behalf of customers such as pension funds and endowments) use the foreign exchange market to facilitate transactions in foreign securities. For example, an investment manager bearing an international equity portfolio needs to purchase and sell several pairs of foreign currencies to pay for foreign securities purchases.
+Some investment management firms also have more speculative specialist currency overlay operations, which manage clients' currency exposures with the aim of generating profits as well as limiting risk. Whilst the number of this type of specialist firms is quite small, many have a large value of assets under management (AUM), and hence can generate large trades.
+
+There are two types of retail brokers offering the opportunity for speculative trading: retail foreign exchange brokers and market makers. Retail traders (individuals) are a small fraction of this market and may only participate indirectly through brokers or banks. Retail brokers, while largely controlled and regulated by the CFTC and NFA might be subject to foreign exchange scams.[7][8] At present, the NFA and CFTC are imposing stricter requirements, particularly in relation to the amount of Net Capitalization required of its members. As a result many of the smaller, and perhaps questionable brokers are now gone. It is not widely understood that retail brokers and market makers typically trade against their clients and frequently take the other side of their trades. This can often create a potential conflict of interest and give rise to some of the unpleasant experiences some traders have had. A move toward NDD (No Dealing Desk) and STP (Straight Through Processing) has helped to resolve some of these concerns and restore trader confidence, but caution is still advised in ensuring that all is as it is presented.
+
+Non-bank foreign exchange companies offer currency exchange and international payments to private individuals and companies. These are also known as foreign exchange brokers but are distinct in that they do not offer speculative trading but currency exchange with payments. I.e., there is usually a physical delivery of currency to a bank account.
+It is estimated that in the UK, 14% of currency transfers/payments[9] are made via Foreign Exchange Companies.[10] These companies' selling point is usually that they will offer better exchange rates or cheaper payments than the customer's bank. These companies differ from Money Transfer/Remittance Companies in that they generally offer higher-value services.
+
+Money transfer/remittance companies perform high-volume low-value transfers generally by economic migrants back to their home country. In 2007, the Aite Group estimated that there were $369 billion of remittances (an increase of 8% on the previous year). The four largest markets (India, China, Mexico and the Philippines) receive $95 billion. The largest and best known provider is Western Union with 345,000 agents globally.
+

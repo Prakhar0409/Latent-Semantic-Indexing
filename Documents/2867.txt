@@ -1,0 +1,13 @@
+Open Handset Alliance
+The Open Handset Alliance (OHA) is a business alliance of 47 firms including Google, HTC, Intel, Motorola, Qualcomm, Texas Instruments, Samsung, LG, T-Mobile, Nvidia and Wind River Systems to develop open standards for mobile devices.[1]
+
+The OHA was established on 5 November 2007, led by Google with 34 members including mobile handset makers, application developers, some mobile carriers and chip makers.[2] Nokia, AT&T and Verizon Wireless are not members of the alliance. However, Verizon recently expressed a change of heart and a desire to use Android in the future, indicating that it may soon seek to join the Open Handset Alliance.[3] Android, the flagship software of the alliance, is based on an open source license and will compete against other mobile platforms from Apple Inc., Microsoft, Nokia, Palm, Research In Motion and Symbian.
+
+At the same time as the announcement of the formation of the Open Handset Alliance on 5 November, 2007, the OHA also unveiled Android, an open source mobile phone platform based on the Linux operating system.[1] An early look at the SDK was released to developers on 12 November, 2007.[4]
+The first commercially available phone running Android is the T-Mobile G1 (also known as the HTC Dream). It was approved by the FCC on August 18, 2008,[5] and became available on October 22[6]
+
+The members of the Open Handset Alliance are:
+December 9, 2008[8]
+
+
+

@@ -1,0 +1,23 @@
+Forecasting
+Forecasting is the process of estimation in unknown situations. Prediction is a similar, but more general term. Both can refer to estimation of time series, cross-sectional or longitudinal data. Usage can differ between areas of application: for example in hydrology, the terms "forecast" and "forecasting" are sometimes reserved for estimates of values at certain specific future times, while the term "prediction" is used for more general estimates, such as the number of times floods will occur over a long period. Risk and uncertainty are central to forecasting and prediction. Forecasting is used in the practice of Customer Demand Planning in every day business forecasting for manufacturing companies. The discipline of demand planning, also sometimes referred to as supply chain forecasting, embraces both statistical forecasting and a consensus process.
+Forecasting is commonly used in discussion of time-series data.
+
+
+Time series methods use historical data as the basis of estimating future outcomes.
+
+Some forecasting methods use the assumption that it is possible to identify the underlying factors that might influence the variable that is being forecast. For example, sales of umbrellas might be associated with weather conditions. If the causes are understood, projections of the influencing variables can be made and used in the forecast.
+
+Judgmental forecasting methods incorporate intuitive judgements, opinions and subjective probability estimates.
+
+
+The forecast error is the difference between the actual value and the forecast value for the corresponding period.
+
+where E is the forecast error at period t, Y is the actual value at period t, and F is the forecast for period t.
+Measures of aggregate error:
+Please note that business forecasters and practitioners sometimes use different terminology in the industry. They refer to the PMAD as the MAPE, although they compute this volume weighted MAPE. For more information see Calculating Demand Forecast Accuracy
+See also
+
+Forecasting has application in many situations:
+
+
+

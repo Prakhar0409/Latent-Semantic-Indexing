@@ -1,0 +1,11 @@
+Comparison of memory cards
+This table provides summary of comparison of various flash memory cards, as of 2008[update].
+
+
+Note that a memory card's dimensions are determined while holding the card with contact pins facing up. Horizontal measurement is width, vertical measurement is length, depth is thickness. For most cards length is larger than width, although this is not always the case. Also, most cards include a direction arrow to aid insertion; such an arrow should also be facing "up".
+
+note this chart says max 20 MB/s read/write for SDHC but sandisk seems to sell an sdhc card rated 30 MB/s. Please address. http://www.sandisk.com/Products/Item(2687)-SDSDX3-016G-A31-SanDisk_Extreme_III_SDHC_16GB.aspx
+
+
+The following chart gives details on availability of adapters to put a given card (horizontal) in a given slot or device (vertical). This table does not take into account protocol issues in communicating with the device.
+Following labels are used:

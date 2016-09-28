@@ -1,0 +1,47 @@
+Lagrange polynomial
+In numerical analysis, a Lagrange polynomial, named after Joseph Louis Lagrange, is the interpolating polynomial for a given set of data points in the Lagrange form. It was first discovered by Edward Waring in 1779 and later rediscovered by Leonhard Euler in 1783.
+As there is only one interpolation polynomial for a given set of data points it is a bit misleading to call the polynomial the Lagrange interpolation polynomial. The more precise name is the Lagrange form of the interpolation polynomial.
+
+Given a set of k + 1 data points
+where no two xj are the same, the interpolation polynomial in the Lagrange form is a linear combination
+of Lagrange basis polynomials
+
+The function we are looking for has to be a polynomial function L(x) of degree less than or equal to k with
+The Lagrange polynomial is a solution to the interpolation problem.
+As can be seen
+Thus the function L(x) is a polynomial with degree at most k and
+There can be only one solution to the interpolation problem since the difference of two such solutions would be a polynomial with degree at most k and k+1 zeros. This is only possible if the difference is identically zero, so L(x) is the unique polynomial interpolating the given data.
+
+Solving an interpolation problem leads to a problem in linear algebra where we have to solve a matrix. Using a standard monomial basis for our interpolation polynomial we get the very complicated Vandermonde matrix. By choosing another basis, the Lagrange basis, we get the much simpler identity matrix = Î´i,j which we can solve instantly.
+
+Note : "pos" and "val" arrays are of size "degree".
+
+
+Find an interpolation formula for f(x) = tan(x) given this set of known values:
+The basis polynomials are:
+Thus the interpolating polynomial then is
+
+We wish to interpolate Æ’(x) = x2 over the range 1 â‰¤ x â‰¤ 3, given these 3 points:
+The interpolating polynomial is:
+
+We wish to interpolate Æ’(x) = x3 over the range 1 â‰¤ x â‰¤ 3, given these 3 points:
+The interpolating polynomial is:
+
+The Lagrange form of the interpolation polynomial shows the linear character of polynomial interpolation and the uniqueness of the interpolation polynomial. Therefore, it is preferred in proofs and theoretical arguments. But, as can be seen from the construction, each time a node xk changes, all Lagrange basis polynomials have to be recalculated. A better form of the interpolation polynomial for practical (or computational) purposes is the barycentric form of the Lagrange interpolation (see below) or Newton polynomials.
+Lagrange and other interpolation at equally spaced points, as in the example above, yield a polynomial oscillating above and below the true function. This behaviour tends to grow with the number of points, leading to a divergence known as Runge's phenomenon; the problem may be eliminated by choosing interpolation points at Chebyshev nodes.
+The Lagrange basis polynomials can be used in numerical integration to derive the Newtonâ€“Cotes formulas.
+
+Using the quantity
+we can rewrite the Lagrange basis polynomials as
+or, by defining the barycentric weights[1]
+we can simply write
+which is commonly referred to as the first form of the barycentric interpolation formula.
+The advantage of this representation is that the interpolation polynomial may now be evaluated as
+which, if the weights wj have been pre-computed, requires only  operations (evaluating  and the weights wj / (x âˆ’ xj)) as opposed to  for evaluating the Lagrange basis polynomials  individually.
+The barycentric interpolation formula can also easily be updated to incorporate a new node xk + 1 by dividing each of the wj,  by (xj âˆ’ xk + 1) and constructing the new wk + 1 as above.
+We can further simplify the first form by first considering the barycentric interpolation of the constant function :
+Dividing L(x) by g(x) does not modify the interpolation, yet yields
+which is referred to as the second form or true form of the barycentric interpolation formula. This second form has the advantage, that  need not be evaluated for each evaluation of L(x).
+
+
+

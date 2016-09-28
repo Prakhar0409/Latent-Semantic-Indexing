@@ -1,0 +1,56 @@
+Push e-mail
+Push e-mail is used to describe e-mail systems that provide an "always-on" capability, in which new e-mail is instantly and actively transferred (pushed) as it arrives by the mail delivery agent (MDA) (commonly called mail server) to the mail user agent (MUA), also called the e-mail client. E-mail clients include smartphones and, less strictly, IMAP personal computer mail applications.
+
+(Post Office Protocol (POP3) is an example of a polling email delivery protocol.) At login and later at intervals, the Mail User Agent (client) polls the Mail Delivery Agent (server) to see if there is new mail, and if so downloads it to a mailbox on the user's computer. However, outgoing mail is generally pushed directly from the sender to the final Mail Delivery Agent. Extending this push to the last delivery step is what distinguishes push e-mail from polling e-mail systems.
+The reason that polling is often used for the last stage of mail delivery is that, although the server Mail Delivery Agent would normally be permanently connected to the network, it does not necessarily know how to locate the client Mail User Agent, which may only be connected occasionally and also change network address quite often. For example, a user with a laptop on a WiFi connection may be assigned different addresses from the network DHCP server periodically and have no persistent network name. When new mail arrives to the mail server, it does not know what address the client is currently assigned.
+The Internet Message Access Protocol (IMAP) provides support for polling and notifications. When a client receives a notification from a server, the client may choose to fetch the new data from the server. This makes retrieval of new messages more flexible than a purely-push system, because the client can choose whether to download new message data.
+
+Although push e-mail had existed in wired-based systems for many years, one of the first uses of the system with a portable, "always on" wireless device outside of Asia was the BlackBerry service from Research In Motion. In Japan, "push e-mail" has been standard in cell phones since the year 2000[citation needed].
+
+The Apple Inc. iPhone supported Yahoo! push e-mail since the phone's initial release in 2007. The July 2008 release of iPhone OS software brings Microsoft's Exchange ActiveSync platform to Apple's handheld which allows the iPhone to synchronize e-mail, calendars and contacts with a Microsoft Exchange Server, Zimbra or Kerio MailServer. The software update — which adds other features commonly found in enterprise mobile devices — is available through iTunes as a free download for the iPhone and as a paid upgrade for the iPod touch.[1]
+Additionally, at Apple's 2008 Worldwide Developers Conference, MobileMe was introduced as a subscription-based service that stores email, contacts, and calendars on a secure online server — or “cloud” — and pushes this information to various clients including the iPhone, iPod touch, and Mac. [2]
+
+Google's Mobile OS supports Push e-mail[3].
+
+Helio began adding support to its "ultimate inbox" for push e-mail to the Helio Ocean in July 2007 with support for Yahoo! Mail, Windows Live Hotmail, and AOL Mail. On April 23, 2008 push support was added for Gmail, along with automatic notifications for POP and IMAP services.[4]
+
+Mobiquus is a push-mail application for mobile phones that supports java (MIDP 2.0). Users can access their current mail (like gmail, AOL, yahoo or other POP/IMAP services) and allows attachment visualization (images, videos, Word, Powerpoint, PDF, ZIP and RAR), autocomplete and cut&paste on writing emails, take and send photos and email searching.
+
+Some Nokia Symbian S60 models support basic IMAP IDLE functionality with its built-in client.
+
+The Nokia Eseries smartphones and select models of Nseries smartphones support the Mail for Exchange software, which is compatible with Microsoft Exchange Server Active Sync and Direct Push, allowing the Nokia smartphones to receive push email as well as sync contact lists, calendars, and tasks with Exchange servers. Global Address Lookup is also supported, starting with version 2 of the Mail for Exchange software. [5]
+
+Nokia Email [sic] is a push e-mail service and application, that supports most of the popular e-mail providers like Hotmail, Yahoo! Mail, GMail and many more. The service aggregates e-mail on Nokia Email [sic] servers and pushes mail to compliant devices from several different accounts to Nokia Mail users. [6] [7]
+
+Palm Smartphone devices such as the Treo have had IMAP IDLE[1] available through the use of 3rd Party software ChatterEmail as early as 2004. There is no additional server software required.
+Recently SEVEN has released PalmOS-based client. There is also available EAS (Exchange Active Sync) patch for latest PalmOS version which integrate with VersaMail and also ChatterEmail
+
+RIM's BlackBerry uses wireless Mail User Agent devices and a BlackBerry Enterprise Server (BES) attached to a traditional e-mail system. The BES monitors the e-mail server, and when it sees new e-mail for a BlackBerry user, it retrieves (pulls) a copy and then pushes it to the BlackBerry handheld device over the wireless network.
+BlackBerry became very popular, in part because it offers remote users "instant" e-mail; new e-mails appear on the device as soon as they arrive, without the need for any user intervention. The handheld becomes a mobile, dynamically updating, copy of the user's mailbox. As a result of the success of BlackBerry, other manufacturers have developed push e-mail systems for other handheld devices, such as Symbian- and Windows Mobile-based mobile phones. However, IMAP synchronization through BlackBerry Internet Service is not two-way.
+
+SEVEN (aka Seven Networks) provides a push email solution for Android, BREW, J2ME, Palm, Windows Mobile, and Symbian mobile devices. Users can access their corporate email (Microsoft Exchange, IBM Lotus Domino and other POP/IMAP servers) and personal email (including Gmail, Yahoo, Hotmail, AOL) on "over 450 devices" from various manufacturers. The service supports two-way synchronization of calendar and contact information. It is used by various wireless operators for messaging services.
+
+Sony Ericsson Smartphones (M600, P990, W950, P1, W960, G900, G700) as well as some Cybershot phones (K790, K800, K810, K850,C905) feature push e-mail using IMAP IDLE or with the built-in ActiveSync client (developed by Dataviz). Most other Sony Ericsson phones support IMAP IDLE push e-mail quite well (only the inbox however).
+
+Microsoft began offering a simulated push experience with Windows Mobile 2003, and true push technology in 2007 with the release of Windows Mobile 5 AKU2[8] under the name "Direct Push Technology". 'Direct Push' technology is an additional feature added to Microsoft Exchange 2003 with service pack 2 that adds messaging and security features. Exchange Server enabled to push Outlook messaging directly to a phone device running Windows Mobile 5, using a subscriber's existing wireless phone account (instead of the device having to "pull" e-mail from the server). To achieve push mail with other e-mail providers than Exchange, there is a plug-in from Emansio that enables push mail with almost any e-mail provider, e.g. Gmail, AOL etc. Additionally, a free, open-source, executable has been developed to take advantage of the IMAP-IDLE command.
+
+Other open push e-mail solutions available in the market today are NotifyLink, Momail, SEVEN, Visto, Good Technology (part of Motorola) and Vemail.
+Living Push Mail of O3SIS delivers multi-channel push mail experience to almost any mobile device regardless of network or provider by utilising IP-Push, OMA-EMN, SyncML (OMA DS) industry standards, plus MMS real time notification. It supports Windows Mobile and Symbian Smartphones, Blackberry and iPhone as well s a brod range of Sony Ericsson and Nokia devices via OMA EMN standard.
+NotifyLink supports the following backends: Alt-N Technologies, Communigate Pro, Kerio MailServer, Meeting Maker, Microsoft Exchange 2000/03/07, Mirapoint, Novell GroupWise, Oracle, Scalix, Sun Java Communication Suite, and Zimbra, plus other solutions for e-mail only. The supported mobile devices/operating systems include Windows Mobile, BlackBerry, Symbian OS and Palm OS.
+The key benefit of Visto Solution is that it works on any SmartPhone Treo680, 700w, and the new MotoQ. SEVEN supports more than 200 devices, covering devices using Symbian, Palm, Microsoft Mobile, BREW and Java/J2ME.
+Good Technology's Good Mobile Messaging (formerly known as GoodLink) supports Microsoft Exchange 2000, 2003 and 2007 as well as Lotus Notes.
+Visto supports Exchange 5.5/2000/2003, Domino all versions and works with any ISP e-mail.
+SEVEN supports all Exchange and Domino versions plus POP and IMAP.
+Vemail by Voice Genesis is available for standard Verizon Wireless and Alltel feature phones (and some other carriers). The product comes with Alerts that enable a push-like email experience and works with POP, IMAP, free Yahoo Mail, and free Windows Live Hotmail.
+Peek is one other company that provides mobile email for consumers. They have their own device, very much like the Blackberry. They support mostly POP and IMAP, with compatibility to 'Yahoo Mail', 'AOL Mail', 'Hotmail', and 'Gmail'. However, the Peek device is email only and does not provide voice or any other converged services available on cell phones.
+Another company to offer a push e-mail solution is Critical Path, Inc. under the brand name Memova Mobile, the only requirement of this is that the handset have GPRS and MMS capability.
+Most of these non-proprietary solutions are network independent, meaning that as long as a device is GPRS enabled and has an e-mail client, it will have the ability to send/receive e-mails in any country and via any telco that has GPRS on its network. It also means that so long as the device itself is not SIM locked, the constraints of BlackBerry such as Network locking, vendor locking (BlackBerry devices and BlackBerry Connect devices) and GPRS-roaming charges (for non-home access) are not an issue. Pop in a local SIM card in any country the user is in, have the correct APN settings and get your mail at LOCAL rates.
+
+Traditional mobile mail clients may poll for new mail at frequent intervals, with or without downloading the mail to the client, thus providing a similar user experience as push e-mail.
+IMAP in fact allows many notifications to be sent at any time, but not message data. The IDLE command is often used to signal the ability of a client to process notifications sent outside of a command running, which effectively provides a user experience identical to push.
+
+In contrast to traditional e-mail, most of the protocols used in popular current systems are proprietary; for example, BlackBerry uses its own private protocols developed by RIM. Both the Push-IMAP standard and parts of the SyncML standards are attempting to develop more open solutions.
+IETF Lemonade is a set of extensions to IMAP and SMTP to make them more suited to the demands of mobile e-mail. Among the extensions are rapid IMAP resynchronization and a new NOTIFY command in IMAP.
+
+
+

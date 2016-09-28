@@ -1,0 +1,18 @@
+List of file systems
+The following lists identify, characterize and link to more thorough information on computer file systems.
+Many older operating systems support only their one "native" file system, which does not bear any name apart from the name of the operating system itself. Examples of such include the CP/M file system and the Apple DOS file system. These unnamed file systems don't appear in the following list.
+
+Disk file systems are usually stream-oriented. Files in a stream-oriented file system are sequences of bytes, often featuring fully random-access read, write, and modify operations.
+
+These file systems has built in checksumming and either mirroring or parity for extra redundancy on one or several block devices.
+
+Solid state media, like flash memory, are similar to disks in their interfaces, but have different problems. While eliminating seek times, they require special handling such as wear leveling and different error detection and correction algorithms.
+
+In Record-oriented file systems files are stored as a collection of records. They are typically associated with mainframe and minicomputer operating systems. Programs read and write whole records, rather than bytes or arbitrary byte ranges, and can seek to a record boundary but not within records. The more sophisticated record-oriented file systems have more in common with simple databases than with other file systems.
+
+Shared disk file systems (also called shared storage file systems, SAN file system or even cluster file systems) are primarily used in a storage area network where all nodes directly access the block storage where the file system is located. This makes it possible for nodes to fail without affecting access to the file system from the other nodes. Shared disk file systems are normally used in a high-availability cluster together with storage on hardware RAID. Shared disk file systems normally do not scale over 64 or 128 nodes.
+Shared disk file systems may be symmetric where metadata is distributed among the nodes or asymmetric with centralized metadata servers.
+
+Distributed file systems are also called network file systems. Many implementations have been made, they are location dependent and they have access control lists (ACLs), unless otherwise stated below.
+
+Distributed fault tolerant replication of data between nodes (between servers or servers/clients) for high availability and offline (disconnected) operation.

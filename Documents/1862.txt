@@ -1,0 +1,15 @@
+XPath
+XPath, the XML Path Language, is a query language for selecting nodes from an XML document. In addition, XPath may be used to compute values (e.g., strings, numbers, or Boolean values) from the content of an XML document. XPath was defined by the World Wide Web Consortium (W3C).
+
+The XPath language is based on a tree representation of the XML document, and provides the ability to navigate around the tree, selecting nodes by a variety of criteria.[1] In popular use (though not in the official specification), an XPath expression is often referred to simply as an XPath.
+Originally motivated by a desire to provide a common syntax and behavior model between XPointer and XSLT, subsets of the XPath query language are used in other W3C specifications such as XML Schema and XForms.
+
+There are currently two versions in use.
+XPath 1.0 became a Recommendation on 16 November 1999 and is widely implemented and used, either on its own (called via an API from languages such as Java, C# or JavaScript), or embedded in languages such as XSLT or XForms.
+The current version of the language is XPath 2.0, which became a Recommendation on 23 January 2007. A number of implementations exist but are not as widely used as XPath 1.0. The XPath 2.0 language specification is much larger than XPath 1.0 and changes some of the fundamental concepts of the language such as the type system; the language specification is described in a separate article.
+The most notable change is that XPath 2.0 has a much richer type system;[2] Every value is now a sequence (a single atomic value or node is regarded as a sequence of length one). XPath 1.0 node-sets are replaced by node sequences, which may be in any order.
+To support richer type sets, XPath 2.0 offers a greatly expanded set of functions and operators.
+XPath 2.0 is in fact a subset of XQuery 1.0. It offers a for expression which is cut-down version of the "FLWOR" expressions in XQuery. It is possible to describe the language by listing the parts of XQuery that it leaves out: the main examples are the query prolog, element and attribute constructors, the remainder of the "FLWOR" syntax, and the typeswitch expression.
+
+
+

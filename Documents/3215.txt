@@ -1,0 +1,13 @@
+Gravity train
+A gravity train is a theoretical means of transportation intended to go between two points on the surface of a sphere, following a straight tunnel that goes directly from one point to the other through the interior of the sphere.
+In a large body such as a planet, this train could be left to accelerate using just the force of gravity, since, during the first half of the trip (from the point of departure until the middle), the downwards pull towards the center of gravity would pull it towards the destination. During the second half of the trip, the acceleration would be in the opposite direction relative to the trajectory, but (ignoring the effects of friction) the speed acquired before would be enough to cancel this deceleration exactly (so that the train would reach its destination with speed equal to zero).
+
+In reality, there are two reasons gravity trains do not exist. The transit shown in the illustration would pierce the earth's mantle and traverse a region where rock is more fluid than solid. No materials are known that would withstand the tremendous heat and pressure. Secondly, friction losses would be significant. Rolling friction losses could be reduced by using a magnetically levitated train. However, unless all air is evacuated from the tunnel, friction losses due to air resistance would rise with the square of the velocity. Evacuating the atmosphere to make it a vactrain and eliminate drag would require additional power. The concept could work on bodies of mass such as the Moon, as it is solid and without an atmosphere.
+A gravity train can be seen as an extreme version of a roller coaster, with only a downward slope followed by an upward slope. In more technical terms, it is a linear oscillator.
+
+In the 17th century, British scientist Robert Hooke presented the idea of an object accelerating inside a planet in a letter to Isaac Newton. A gravity train project was seriously presented to the Paris Academy of Sciences in the 19th century. The idea was rediscovered in the 1960s when physicist Paul Cooper published a paper in the American Journal of Physics suggesting that gravity trains be considered for a future transportation project.[1]
+
+The gravity train has several curious properties.
+
+
+

@@ -1,0 +1,65 @@
+Visual perception
+Portal â€¢ History
+Areas
+Abnormal
+Biological
+Cognitive
+Developmental
+Experimental
+Evolutionary
+Mathematical
+Neuropsychology
+Personality
+Positive
+Psychophysics
+Social
+Transpersonal
+Clinical
+Educational
+Forensic
+Health
+Industrial
+Organizational
+School
+Sport
+Outline
+Publications
+Topics
+Therapies
+Visual perception is the ability to interpret information from visible light reaching the eye. The resulting perception is also known as eyesight, sight or vision. The various physiological components involved in vision are referred to collectively as the visual system, and are the focus of much research in psychology, cognitive science, neuroscience and molecular biology.
+
+The visual system in humans allows individuals to assimilate information from the environment. The act of seeing starts when the lens of the eye focuses an image of its surroundings onto a light-sensitive membrane in the back of the eye, called the retina. The retina is actually part of the brain that is isolated to serve as a transducer for the conversion of patterns of light into neuronal signals. The lens of the eye focuses light on the photoreceptive cells of the retina, which detect the photons of light and respond by producing neural impulses. These signals are processed in a hierarchical fashion by different parts of the brain, from the retina to the lateral geniculate nucleus, to the primary and secondary visual cortex of the brain.
+
+The major problem in visual perception is that what people see is not simply a translation of retinal stimuli (i.e., the image on the retina). Thus people interested in perception have long struggled to explain what visual processing does to create what we actually see.
+
+There were two major ancient Greek schools, providing a primitive explanation of how vision is carried out in the body.
+The first was the "emission theory" which maintained that vision occurs when rays emanate from the eyes and are intercepted by visual objects. If we saw an object directly it was by 'means of rays' coming out of the eyes and again falling on the object. A refracted image was, however, seen by 'means of rays' as well, which came out of the eyes, traversed through the air, and after refraction, fell on the visible object which was sighted as the result of the movement of the rays from the eye. This theory was championed by scholars like Euclid and Ptolemy and their followers.
+The second school advocated the so called the 'intromission' approach which sees vision as coming from something entering the eyes representative of the object. With its main propagators Aristotle, Galen and their followers, this theory seems to have touched a little sense on what really vision is, but light did not play any role in this theory and it remained only a speculation lacking any experimental foundation.
+Ibn al-Haytham (also known as Alhacen or Alhazen), the "father of optics", was the first to resolve this argument, by refining intromission theory into what is now the modern accepted theory of vision in his influential Book of Optics (1021). He argued that vision is due to light from objects entering the eye, and he developed an early scientific method emphasizing extensive experimentation in order to prove this. He pioneered the scientific study of the psychology of visual perception, being the first scientist to argue that vision occurs in the brain, rather than the eyes. He pointed out that personal experience has an effect on what people see and how they see, and that vision and perception are subjective. He explained possible errors in vision in detail, and as an example, describes how a small child with less experience may have more difficulty interpreting what he/she sees. For a little child however ugly a mother is, it does not matter to it as the definition of beauty is not that well defined for the little child as it is with any other adult. He also gives an example of an adult that can make mistakes in vision because of how one's experience suggests that he/she is seeing one thing, when he/she is really seeing something else. This can be easily related to the famous saying "beauty lies in the eye of the beholder," which is to say that a flower which may appear beautiful to one person may not appeal that much to another.[1] Al-Haytham carried out many investigations and experiments on visual perception, extended the work of Ptolemy on binocular vision, and commented on the anatomical works of Galen.[2][3]
+Leonardo DaVinci,1452-1519, was the first to recognize the special optical qualities of the eye. He wrote "The function of the human eye, ... was described by a large number of authors in a certain way. But I found it to be completely different." His main experimental finding was that there is only a distinct and clear vision at the line of sight, the optical line that ends at the fovea. Although he did not use these words literally he actually is the father of the modern distinction between foveal vision and peripheral vision.
+
+Hermann von Helmholtz is often credited with the first study of visual perception in modern times. Helmholtz examined the human eye and concluded that it was, optically, rather poor. The poor quality information gathered via the eye seemed to him to make vision impossible. He therefore concluded that vision could only be the result of some form of unconscious inferences: a matter of making assumptions and conclusions from incomplete data, based on previous experiences.
+Inference requires prior experience of the world: examples of well-known assumptions - based on visual experience - are:
+The study of visual illusions (cases when the inference process goes wrong) has yielded much insight into what sort of assumptions the visual system makes.
+Another type of the unconscious inference hypothesis (based on probabilities) has recently been revived in so-called Bayesian studies of visual perception. Proponents of this approach consider that the visual system performs some form of Bayesian inference to derive a perception from sensory data. Models based on this idea have been used to describe various visual subsystems, such as the perception of motion or the perception of depth.[5][6]
+
+Gestalt psychologists working primarily in the 1930s and 1940s raised many of the research questions that are studied by vision scientists today.
+The Gestalt Laws of Organization have guided the study of how people perceive visual components as organized patterns or wholes, instead of many different parts. Gestalt is a German word that translates to "configuration or pattern". According to this theory, there are six main factors that determine how we group things according to visual perception: Proximity, Similarity, Closure, Symmetry, Common fate and Continuity.
+One of the reasons why Gestalt laws are often disregarded by cognitive psychologists is their inability to explain the nature of peripheral vision. In Gestalt theory, visual perception only takes place during fixations.
+However, during fixations both the high definition foveal vision at the fixation point and the peripheral vision are functioning. Because of its lack of acuity and relative independence of eye position (due to its extreme wide angle), human vision is an image compressing system.
+While foveal vision is very slow (only 3 to 4 high quality telescopic images per second), peripheral vision is very inaccurate but also very fast (up to 90 images per second - permitting one to see the flicker of the European 50Hz TV images). Elements of the visual field are thus grouped automatically according to laws like Proximity, Similarity, Closure, Symmetry, Common fate and Continuity.
+
+During the 1960s, technical development permitted the continuous registration of eye movements during reading[7] in picture viewing [8] and later in visual problem solving [9] and when headset-cameras became available, also during driving.[10]
+The picture to the left shows what may happen during the first two seconds of visual inspection. While the background is out of focus, representing the peripheral vision, the first eye movement goes to the boots of the man (just because they are very near the starting fixation and have a reasonable contrast).
+The following fixations jump from face to face. They might even permit comparisons between faces.
+It may be concluded that the icon face is a very attractive search icon within the peripheral field of vision. The foveal vision adds detailed information to the peripheral first impression.
+
+The major problem with the Gestalt laws (and the Gestalt school generally) is that they are descriptive not explanatory. For example, one cannot explain how humans see continuous contours by simply stating that the brain "prefers good continuity". Computational models of vision have had more success in explaining visual phenomena and have largely superseded Gestalt theory. More recently, the computational models of visual perception have been developed for Virtual Reality systems - these are closer to real life situation as they account for motion and activities which populate the real world.[11] Regarding Gestalt influence on the study of visual perception, Bruce, Green & Georgeson conclude:
+In the 1980s David Marr developed a multi-level theory of vision, which analysed the process of vision at different levels of abstraction. In order to focus on the understanding of specific problems in vision, he identified (with Tomaso Poggio) three levels of analysis: the computational, algorithmic and implementational levels.
+The computational level addresses, at a high level of abstraction, the problems that the visual system must overcome. The algorithmic level attempts to identify the strategy that may be used to solve these problems. Finally, the implementational level attempts to explain how these problems are overcome in terms of the actual neural activity necessary.
+Marr suggested that it is possible to investigate vision at any of these levels independently. Marr described vision as proceeding from a two-dimensional visual array (on the retina) to a three-dimensional description of the world as output. His stages of vision include:
+
+
+
+
+

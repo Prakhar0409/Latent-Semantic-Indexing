@@ -1,0 +1,38 @@
+Abstract Syntax Notation One
+In telecommunications and computer networking, Abstract Syntax Notation One (ASN.1) is a standard and flexible notation that describes data structures for representing, encoding, transmitting, and decoding data. It provides a set of formal rules for describing the structure of objects that are independent of machine-specific encoding techniques and is a precise, formal notation that removes ambiguities.
+ASN.1 is a joint ISO/IEC and ITU-T standard, originally defined in 1984 as part of CCITT X.409:1984. ASN.1 moved to its own standard, X.208, in 1988 due to wide applicability. The substantially revised 1995 version is covered by the X.680 series. The latest available version is dated 2002, and is backward compatible with the 1995 version.
+
+
+Data structures of FooProtocol defined using the ASN.1 notation:
+This could be a specification published by creators of Foo protocol. ASN.1 does not define conversation flows. This is up to the textual description of the protocol.
+Assuming a message, which complies with Foo protocol and which will be sent to the receiving party. This particular message (PDU) is:
+To send the above message through the network one needs to encode it to a string of bits. ASN.1 defines various algorithms to accomplish that task, called Encoding rules. There are plenty of them; one of the simplest is Distinguished Encoding Rules (DER).
+The Foo protocol specification should explicitly name one set of encoding rules to use, so that users of the Foo protocol know they should use DER.
+
+Below is the data structure shown above encoded in the DER format (all numbers are in hexadecimal):
+(Note DER uses a pattern of tag-length-value triplets)
+So what one actually gets is the string of 21 octets:
+The scope of ASN.1 and DER ends here. It is possible to transmit the encoded message to the party by any means (utilizing TCP or any other protocol). The party should be able to decode the octets back using DER.
+
+Alternatively, it is possible to encode the same ASN.1 data structure with XER (XML Encoding Rules) to achieve greater human readability "over the wire". It would then appear like the following 108 octets:
+
+Alternatively, if Packed Encoding Rules are employed, the following 122 bits (less than 16 octets) will be produced:
+
+As commonly used for defining messages for communication protocols, ASN.1, with its associated encoding rules, results in a binary encoding.
+Other communication protocols, such as Internet protocols HTTP and SMTP, define messages using text tags and values, sometimes based on the Augmented Backus-Naur form (ABNF) notation. The definition also defines the encoding, which is in text.
+There has been much debate over the two approaches, and both have their merits; the ASN.1 approach is believed to be more efficient, and with Packed Encoding Rules, certainly provides a more compact encoding. The textual approach is claimed to be easier to implement (through creation and parsing of text strings) and easier to debug, as one can simply read an encoded message. In the case of the Megaco protocol, consensus between the two points of view was not reached and so two encodings, one based on ASN.1 and one on ABNF, were defined.
+The ASN.1 XML Encoding Rules (XER) attempts to bridge the gap by providing a textual encoding of data structures defined using ASN.1 notation. Generic String Encoding Rules were also defined for the sole purpose of presenting and inputting data to/from a user.
+
+The Encoding Control Notation (ECN) is a notation to specify specific encodings of ASN.1 types. ECN is useful to describe legacy protocols in ASN.1. It is possible to specify only the encoding of some types and then complete with a standard encoding rules (usually unaligned PER).
+
+Information Object Classes is a concept used in ASN.1 to address specification needs similar to the ones addressed by CORBA/IDL specifications.
+
+One may use an ASN compiler which takes as input an ASN.1 specification and generates computer code (for example in the C programming language) for an equivalent representation of the data structures. This computer code, together with supplied run-time libraries, can then convert encoded data structures to and from the computer language representation. Alternatively, one can manually write encoding and decoding routines.
+
+Standards describing the ASN.1 notation:
+Standards describing the ASN.1 encoding rules:
+
+
+
+This article was originally based on material from the Free On-line Dictionary of Computing, which is licensed under the GFDL.
+

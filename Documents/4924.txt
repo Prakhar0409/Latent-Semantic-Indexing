@@ -1,0 +1,6 @@
+Google Base
+Google Base is an online database provided by Google into which any user can add almost any type of content, such as text, images, and structured information in formats like XML, PDF, Excel, RTF, Word Perfect. As of 2008, it is available to the public as a beta version. If Google finds it relevant it may appear on its shopping search engine, Google Maps or even the web search. The piece of content can then be labeled with attributes like the ingredients for a recipe or the camera model for stock photography. As of 2008, the user interface is available in English and German. Because information about the service was leaked before public release, it generated much interest in the information technology community prior to release. Google subsequently responded on their blog with an official statement:
+A major component of Google Base is acting like a online classified ads service, such as Craigslist. However it has also been used for such items as protein structures, current events, real estate, recipes, people profiles, and more.
+Files can be uploaded to the google base servers by browsing your computer or the web, by various ftp methods, or by API coding. Online tools are provided to view the number of downloads of the user's files, and other performance measures.
+
+

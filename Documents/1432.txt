@@ -1,0 +1,121 @@
+Invalid proof
+In mathematics, there are a variety of spurious proofs of obvious contradictions. Although the proofs are flawed, the errors, usually by design, are comparatively subtle. These fallacies are normally regarded as mere curiosities, but can be used to show the importance of rigor in mathematics. Pseudaria, an ancient book of false proofs, is attributed to Euclid.
+This page is an evaluative and critical listing of some of the more common invalid proofs.
+
+
+
+Start with the identity
+Convert both sides of the equation into the vulgar fractions
+Apply square roots on both sides to yield
+Multiply both sides by  to obtain
+Any number's square root squared gives the original number, so
+Q.E.D.
+The proof is invalid because it applies the following principle for square roots incorrectly:
+This is only true when x and y are positive real numbers, which is not the case in the proof above. Thus, the proof is invalid.
+
+By incorrectly manipulating radicals, the following invalid proof is derived:
+Q.E.D.
+The rule  is generally valid only if at least one of the two numbers x or y is positive, which is not the case here. Alternatively, one can view the square root as a 2-valued function over the complex numbers; in this case both sides of the above equation evaluate to {1, -1}.
+
+By crossing into and out of the realm of complex numbers, the following invalid proof is derived:
+Q.E.D.
+The equation abc = (ab)c, when b and/or c are fractions, is generally valid only when a is positive, which is not the case here, leading to an invalid proof.
+Additionally, the last step takes the square root of 1, which, depending on the situation, can be either 1 or -1
+
+Start with the Pythagorean identity
+Raise both sides of the equation to the 3/2 power to obtain
+Let x = π
+Q.E.D.
+In this proof, the fallacy is in the third step, where the rule (ab)c = abc is applied without ensuring that a is positive. Also, in the 4th step, not all possible roots are explored for . Although 1 is an answer, it is not the only answer, as -1 would also work. Throwing out the erroneous 1 answer leaves a correct -1=-1.
+
+Square both sides
+Square-root both sides
+Multiply i to both sides
+Q.E.D.
+The error is in the fourth to fifth step, where it misuses the same square root principle used in Version 1.
+is invalid because the denominator (-1) on the LHS is not a positive real number.
+
+If ab = ac then b = c. Therefore, since 1x = 1y, we may deduce x = y.
+Q.E.D.
+The error in this proof lies in the fact that the stated rule is true only for positive .
+
+Q.E.D.
+The error in this proof lies in the last line, where we are ignoring the other three "fourth roots" of 1, which are -1, i and -i. Seeing as we have squared our figure and then taken roots, we can't always assume that all the roots will be correct. So the correct "fourth roots" are i and -i, which are the imaginary numbers defined to be . This idea is shown in this next invalid proof:
+
+Q.E.D.
+Again, the error is that we have introduced another square root by squaring, then taking roots. The only correct square root of 4 here is -2.
+This is the common fallacy of thinking, but that is only true if . For real numbers, we can only say , the absolute value of x. So, using the correct rule gives the valid
+This is no longer a contradiction since | − 2 | = 2.
+
+
+1. Let a and b be equal non-zero quantities
+2. Multiply through by a
+3. Subtract 
+4. Factor both sides
+5. Divide out 
+6. Observing that 
+7. Combine like terms on the left
+8. Divide by the non-zero b
+Q.E.D.[1]
+The fallacy is in line 5: the progression from line 4 to line 5 involves division by (a − b), which is zero since a equals b. Since division by zero is undefined, the argument is invalid. Deriving that the only possible solution for lines 5, 6, and 7, namely that a = b = 0, this flaw is evident again in line 7, where one must divide by b (0) in order to produce the fallacy (not to mention that the only possible solution denies the original premise that a and b are nonzero). A similar invalid proof would be to say that 2(0) = 1(0) (which is true) therefore, by dividing by zero, 2 = 1. This invalid proof was suggested by Srinivasa Ramanujan[citation needed].
+
+Suppose we have the following system of linear equations:
+Dividing the first equation by c1, we get  Let us now try to solve the system via Cramer's rule:
+Since each column of the coefficient matrix is equal to the resultant column vector, we have
+for all i. Substituting this back into , we get
+Q.E.D.
+This proof is fallacious because Cramer's rule can only be applied to systems with a unique solution; however, all the equations in the system are obviously equivalent, and insufficient to provide a unique solution. The fallacy occurs when we try to divide | Ai | by | A | , as both are equal to 0.
+
+Multiplying any number by 0 gives an answer of zero. For example
+Rearranging the equation gives
+However, by the same reasoning
+and since
+substitution gives
+The same method can be used to show that any number is equal to any other number, and hence all numbers are equal.
+Q.E.D.
+The fallacy is in the incorrect assumption that division by 0 gives a well-defined value.
+
+
+By the common intuitive meaning of multiplication we can see that
+It can also be seen that for a non-zero x
+Now we multiply through by x
+Then we take the derivative with respect to x
+Now we see that the right hand side is x which gives us
+Finally, dividing by our non-zero x we have
+Q.E.D.
+This proof is false because the differentiation is ignoring the 'x' in the subscript (off ). As you are differentiation with respect to x, it clearly cannot be held constant. Once this x is accounted for in the differentiation, using the Liebniz rule, the correct answer is obtained:
+We take the derivative with respect to x
+As expected.
+It is often claimed that the original proof is false because both sides of the equation in line 3 represent an integer, and so after differentiating you should get 0 = 0 (as the derivative of a constant function is 0). This is fundamentally incorrect on several levels. Firstly, a function that is only defined on the integers is *not* necessarily a constant function; secondly, the derivative of such a function is *not* 0, it is undefined (picture a graph of the function; it would consist of 'dots'; so have no meaningful slope); and finally, the equation works perfectly well for non-integer values (for example, ) as evidenced by the fact that, when the differentiation is done correctly, the paradox is eliminated.
+
+Begin with the evaluation of the indefinite integral
+Through integration by parts, let
+Thus,
+Hence, by integration by parts
+Q.E.D.
+The error in this proof lies in an improper use of the integration by parts technique. Upon use of the formula, a constant, C, must be added to the right-hand side of the equation. This is due to the derivation of the integration by parts formula; the derivation involves the integration of an equation and so a constant must be added. In most uses of the integration by parts technique, this initial addition of C is ignored until the end when C is added a second time. However, in this case, the constant must be added immediately because the remaining two integrals cancel each other out.
+In other words, the second to last line is correct (1 added to any antiderivative of 1/x is still an antiderivative of 1/x); but the last line is not. You cannot cancel  because they are not necessarily equal. There are infinitely many antiderivatives of a function, all differing by a constant. In this case, the antiderivatives on both sides differ by 1.
+This problem can be avoided if we use definite integrals (i.e. use bounds). Then in the second to last line, 1 would be evaluated between some bounds, which would always evaluate to 1 - 1 = 0. The remaining definite integrals on both sides would indeed be equal.
+
+Take the statement
+Taking the derivative of each side,
+The derivative of x is 1, and the derivative of 1 is 0. Therefore,
+Q.E.D.
+The error in this proof is it treats x as a variable, and not as a constant as stated with x = 1 in the proof, when taking its derivative. Taking the proper derivative of x yields the correct result, 0 = 0.
+
+
+Start with the addition of an infinite succession of zeros
+Then recognize that 0 = 1 − 1
+Applying the associative law of addition results in
+Of course − 1 + 1 = 0
+And the addition of an infinite string of zeros can be discarded leaving
+Q.E.D.
+The error here is that the associative law cannot be applied freely to an infinite sum unless the sum is absolutely convergent (see also conditionally convergent). Here that sum is 1 − 1 + 1 − 1 + · · ·, a classic divergent series. In this particular argument, the second line gives the sequence of partial sums 0, 0, 0, ... (which converges to 0) while the third line gives the sequence of partial sums 1, 1, 1, ... (which converges to 1), so these expressions need not be equal. This can be seen as a counterexample to generalizing Fubini's theorem and Tonelli's theorem to infinite integrals (sums) over measurable functions taking negative values.
+In fact the associative law for addition just states something about three-term sums: (a + b) + c = a + (b + c). It can easily be shown to imply that for any finite sequence of terms separated by "+" signs, and any two ways to insert parentheses so as to completely determine which are the operands of each "+", the sums have the same value; the proof is by induction on the number of additions involved. In the given "proof" it is in fact not so easy to see how to start applying the basic associative law, but with some effort one can arrange larger and larger initial parts of the first summation to look like the second. However this would take an infinite number of steps to "reach" the second summation completely. So the real error is that the proof compresses infinitely many steps into one, while a mathematical proof must consist of only finitely many steps. To illustrate this, consider the following "proof" of 1 = 0 that only uses convergent infinite sums, and only the law allowing to interchange two consecutive terms in such a sum, which is definitely valid:
+
+Define the constants S and A by
+Therefore
+Adding these two equations gives
+Therefore, the sum of all positive integers are negative.
+The error in this proof is that it assumes that divergent series obey the ordinary laws of arithmetic.
+

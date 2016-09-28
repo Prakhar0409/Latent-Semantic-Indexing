@@ -1,0 +1,33 @@
+Serial Attached SCSI
+In computing, the data-transfer technology Serial Attached SCSI (SAS) moves data to and from computer storage devices such as hard drives and tape drives. SAS depends on a point-to-point serial protocol that replaces the parallel SCSI bus technology that first appeared in the mid 1980s in corporate data centers, and it uses the standard SCSI command set. As of 2009[update] it operates slightly slower than the final parallel SCSI implementation, but in 2009 it will double its present speed to 6 Gbit/s, allowing for much higher speed data transfers than previously available. SAS offers "downwards"-compatibility with second-generation SATA drives. SATA 3.0 Gbit/s drives may be connected to SAS backplanes, but SAS drives may not be connected to SATA backplanes.
+The T10 technical committee of the International Committee for Information Technology Standards (INCITS) develops and maintains the SAS protocol; the SCSI Trade Association (SCSITA) promotes the technology.
+
+A typical Serial Attached SCSI system consists of the following basic components:
+
+A "SAS Domain", an I/O system, consists of a set of SAS devices that communicate with one another by means of a service delivery subsystem. Each SAS device in a SAS domain has a globally unique identifier (assigned by the device manufacturer and similar to an Ethernet device's MAC address) called a World Wide Name (WWN or "SAS address"). The WWN uniquely identifies the device in the SAS domain just as a SCSI ID identifies a device in a parallel SCSI bus. A SAS domain may contain up to a total of 16,256 devices.
+
+
+
+
+The Serial Attached SCSI standard defines several layers (in order from highest to lowest):
+Serial Attached SCSI comprises three transport protocols:
+For the Link and PHY layers, SAS defines its own unique protocol.
+At the physical layer, the SAS standard defines connectors and voltage levels. Although not identical, the physical characteristics of the SAS wiring and signaling resemble those of SATA so closely that it is unlikely that one technology will be faster than the other. SAS and SATA will probably both progress at the same rate to 3.0 Gbit/s, 6.0 Gbit/s, and 12.0 Gbit/s.[original research?]
+
+SAS architecture consists of six layers:
+
+An initiator may connect directly to a target via one or more PHYs (such a connection is called a port whether it uses one or more PHYs, although the term "wide port" is sometimes used for a multi-PHY connection).
+
+The components known as Serial Attached SCSI Expanders (SAS Expanders) facilitate communication between large numbers of SAS devices. Expanders contain two or more external expander-ports. Each expander device contains at least one SAS Management Protocol target port for management and may contain SAS devices itself. For example, an expander may include a Serial SCSI Protocol target port for access to a peripheral device. An expander is not necessary to interface a SAS initiator and target but allows a single initiator to communicate with more SAS/SATA targets. A useful analogy: one can regard an expander as akin to a network switch in a network which allows multiple systems to be connected using a single switch port.
+There are two different types of expander: Edge Expanders and Fanout Expanders.
+[Note that the SAS-2.0 standard has dropped the distinction between fanout expanders and edge expanders, as it has been widely viewed[by whom?] to create unnecessary topological limitations with no realized benefit.]
+Direct routing allows a device to identify devices directly connected to it. Table routing identifies devices connected to the expanders connected to a device's own PHY. Subtractive routing is used when you are not able to find the devices in the sub-branch you belong to. This will pass the request to a different branch altogether.
+Expanders exist to allow more complex interconnect topologies. Expanders assist in link-switching (as opposed to packet-switching) end-devices (initiators or targets). They may locate an end-device either directly (when the end-device is connected to it), via a routing table (a mapping of end-device IDs and the expander the link should be switched to 'downstream' to route towards that ID), or when those methods fail, via subtractive routing: the link is routed to a single expander connected to a subtractive routing port. If there is no expander connected to a subtractive port, the end-device cannot be reached.
+Expanders with no PHYs configured as subtractive act as fanout expanders and can connect to any number of other expanders. Expanders with subtractive PHYs may only connect to two other expanders at a maximum, and in that case they must connect to one expander via a subtractive port and the other via a non-subtractive port.
+There exists one root (the most "upstream") node in a SAS domain. This node is the expander which is not connected to another expander via a subtractive port. Therefore, if a fanout expander exists in the configuration, it must be the domain's root node. The root node knows about all end devices connected to the domain.
+
+The SAS connector is much smaller than traditional parallel SCSI connectors, allowing for the small 2.5-inch (64 mm) drives. SAS currently supports point data transfer speeds up to 3 Gbit/s, but is expected to reach 12 Gbit/s by the year 2012.
+The physical SAS connector comes in several different variants[1]:
+
+
+

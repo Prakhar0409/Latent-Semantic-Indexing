@@ -1,0 +1,57 @@
+Applied behavior analysis
+Applied behavior analysis (ABA) is the science of applying experimentally derived principles of behavior to improve socially significant behavior. ABA takes what we know about behavior and uses it to bring about positive change (Applied). Behaviors are defined in observable and measurable terms in order to assess change over time (Behavior). The behavior is analyzed within the environment to determine what factors are influencing the behavior (Analysis). Applied behavior is the third of the four domains of behavior analysis, the other three being, behaviorism, experimental analysis of behavior and professional practice of behavior analysis. Applied behavior analysis contributes to a full range of areas including: AIDS prevention,[1] conservation of natural resources,[2] education,[3] gerontology,[4] health and exercise,[5] industrial safety,[6] language acquisition,[7] littering,[8] medical procedures,[9] parenting,[10] seatbelt use,[11]severe mental disorders,[12] sports,[13] and zoo management and care of animals.[14] ABA-based interventions have gained recent popularity in the last 20 years related to teaching students with autism spectrum disorders.[15][16]
+
+ABA is defined as the science in which the principles of the analysis of behavior are applied systematically to improve socially significant behavior, and in which experimentation is used to identify the variables responsible for change in behavior.[17]
+Baer, Wolf, and Risley's 1968 article[18] is still used as the standard description of ABA.[19] It describes the seven dimensions of ABA: application; a focus on behavior; the use of analysis; and its technological, conceptually systematic, effective, and general approach.
+
+Baer, Wolf, and Risley's seven dimensions are:
+In 2005, Heward, et al added the following five characteristics:[21]
+
+
+Behavior is the activity of living organisms. Human behavior is the entire gamut of what people do including thinking and feeling.[25] Behavior can be determined by applying the Dead Man's test:
+"If a dead man can do it, it ain't behavior. And if a dead man can't do it, then it is behavior"[26]
+Often, the term behavior is used to reference a larger class of responses that share physical dimensions or function. In this instance, the term response indicates a single instance of that behavior.[27] If a group of responses have the same function, this group can be classified as a response class. Finally, when discussing a person's collection of behavior, repertoire is used. It can either pertain specifically to a set of response classes that are relevant to a particular situation, or it can refer to every behavior that a person can do.
+
+Operant behavior is that which is selected by its consequences. The conditioning of operant behavior is the result of reinforcement and punishment. [28] Operant conditioning applies to voluntary responses, which an organism performs deliberately, to produce a desirable outcome. The term operant emphasizes this point;the organism operates on its environment to produce some desirable result. For example,operant conditioning is at work when we learn that toiling industriously can bring about a raise or that studying hard results in good grade.
+
+All organisms respond in predictable ways to certain stimuli. These stimulus-response relations are called reflexes. The response component of the reflex is called respondent behavior. It is defined as behavior which is elicited by antecedent stimuli. Respondent conditioning (also called Classical Conditioning) is learning in which new stimuli acquire the ability to elicit respondents. This is done through stimulus-stimulus pairing, for example, the stimulus (smell of food) can elicit a person's salivation. By pairing that stimulus (smell) with another stimulus (word "food"), the second stimulus can obtain the function
+
+The environment is the entire constellation of circumstances in which an organism exists.[29] This includes events both inside and outside of an organism, but only real physical events are included. The environment consists of stimuli. A stimulus is an "energy change that affects an organism through its receptor cells."[30]
+A stimulus can be described:
+
+Reinforcement is the most important principle of behavior[31] and a key element of most behavior change programs.[32] It is the process by which behavior is strengthened, if a behavior is followed closely in time by a stimulus and this results in an increase in the future frequency of that behavior. The addition of a stimulus following an event that serves as a reinforcer is termed positive reinforcement. If the removal of an event serves as a reinforcer, this is termed negative reinforcement.[33] There are multiple schedules of reinforcement that effect the future frequency of behavior.
+
+Punishment is a process by which a consequence immediately follows a behavior which decreases the future frequency of that behavior. Like reinforcement, a stimulus can be added (positive punishment) or removed (negative punishment). Broadly, there are three types of punishment: presentation of aversive stimuli, response cost and time out.[34] Punishment in practice can often result in unwanted side effects, and has as such been used only after reinforcement-only procedures have failed to work. Unwanted side effects can include the increase in other unwanted behavior as well as a decrease in desired behaviors.[35] Some other potential unwanted effects include escape and avoidance, emotional behavior, and can result in behavioral contrast.
+
+Extinction is the technical term to describe the procedure of withholding/discontinuing reinforcement of a previously reinforced behavior, resulting in the decrease of that behavior. The behavior is then set to be extinguished (Cooper, et al). Extinction procedures are often preferred over punishment procures that are frequently deemed unethical and in many states prohibited. Nonetheless, extinction procedures must be implemented with utmost care by professionals, as they are generally associated with extinction bursts. An extinction burst is the temporary increase in the frequency, intensity, and/or duration of the behavior targeted for extinction. Other characteristics of an extinction burst include a) extinction-produced aggressionâ€”the occurrence of an emotional response to an extinction procedure often manifested as aggression; and b) extinction-induced response variability - the occurrence of novel behaviors that did not typically occur prior to the extinction procedure. These novel behaviors are a core component of shaping procedures.
+
+In addition to a relation being made between behavior and its consequences, operant conditioning also establishes relations between antecedent conditions and behaviors. This differs from the S-R formulations (If-A-then-B), and replaces it with an AB-because-of-C formulation. In other words, the relation between a behavior(B) and its context(A) is because of consequences (C), more specifically, this relationship between AB because of C indicates that the relationship is established by prior consequences that have occurred in similar contexts.[36] This antecedent-behavior-consequence contingency is termed the three term contingency. A behavior which occurs more frequently in the presence of an antecedent condition than in its absence is called a discriminated operant. The antecedent stimulus is called a discriminative stimulus SD. The fact that the discriminated operant occurs only in the presence of the discriminative stimulus is an illustration of stimulus control.[37]
+
+When measuring behavior, there are both dimensions of behavior and quantifiable measures of behavior. In applied behavior analysis, the quantifiable measures are a derivative of the dimensions. These dimensions are repeatability, temporal extent, and temporal locus.[38]
+
+Response classes occur repeatedly throughout time -- ie how many times the behavior occurs.
+
+This dimension indicates that each instance of behavior occupies some amount of time -- ie how long the behavior occurs.
+
+Each instance of behavior occurs at a specific point in time -- ie when the behavior occurs.
+
+Derivative measures are unrelated to specific dimensions:
+
+
+In applied behavior analysis, all experiments should include the following:[39]
+
+Functional assessment of behavior provides hypotheses about the relationships between specific environmental events and behaviors. Decades of research has established that both desirable and undesirable behaviors are learned through interactions with the social and physical environment. FBA is used to identify the type and source of reinforcement for challenging behaviors as the basis for intervention efforts designed to decrease the occurrence of these behaviors.
+
+The function of a behavior can be thought of as the purpose a behavior serves for a person. Function is identified in an FBA by identifying the type and source if reinforcement for the behavior of interest. Those reinforcers might be positive or negative social reinforcers provided by someone who interacts with the person, or automatic reinforcers produced directly by the behavior itself.[40]
+
+Behaviors may look different but can serve the same function and likewise behavior that looks the same may serve multiple functions. What the behavior looks like often reveals little useful information about the conditions that account for it. However, identifying the conditions that account for a behavior, suggests what conditions need to be altered to change the behavior. Therefore, assessment of function of a behavior can yield useful information with respect to intervention strategies that are likely to be effective.[41]
+
+FBA methods can be classified into three types:
+
+A functional analysis is one in which antecedents and consequences are manipulated to indicate their separate effects on the behavior of interest. This type of arrangement is often called analog because they are not conducted in a naturally occurring context. However, research is indicating that functional analysis done in a natural environment will yield similar or better results[42]
+A functional analysis normally has four conditions (three test conditions and one control):
+Advantages - it has the ability to yield a clear demonstration of the variable(s)that relate to the occurrence of a problem behavior. Serves as the standard of scientific evidence by which other assessment alternative are evaluated, and represents the method most often used in research on the assessment and treatment of problem behavior.[43]
+Limitations - assessment process may temporarily strengthen or increase the undesirable behavior to unacceptable levels or result in the behavior acquiring new functions. Some behaviors may not be amenable to functional analysis (e.g. those that, albeit serious, occur infrequently). Functional analysis conducted in contrived settings may not detect the variable that accounts for the occurrence in the natural environment.
+
+This method uses structured interviews, checklists, rating scales, or questionnaires to obtain information from persons who are familiar with the person exhibiting the behavior to identify possible conditions or events in the natural environment that correlate with the problem behavior. They are called "indirect" because they do not involve direct observation of the behavior, but rather solicit information based on others' recollections of the behavior.[44]
+

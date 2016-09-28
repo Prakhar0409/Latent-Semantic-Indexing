@@ -1,0 +1,10 @@
+TX (handheld)
+The TX is a personal digital assistant produced by Palm, Inc., released in October 2005. It features 802.11b Wi-Fi and Bluetooth wireless connectivity. It is priced at $299 USD. It runs Palm OS Garnet, version 5.4.9. It was announced and released as part of Palm's Fall 2005 product cycle. The $299 price was considered aggressive at release. It largely replaced the earlier, costlier T5. As the company considered the LifeDrive to be a separate category, this made the TX Palm's top-of-the-line PDA. However, as Palm continues shifting to smartphones, this is a dubious distinction.
+The branding and identification of the device has undergone some changes. The handheld is identified as "Palm TX," and not "PalmOne Tungsten TX." After the release of the Lifedrive, the company began to phase out the Tungsten and Zire sub-brands. After the reacquisition of the rights to the Palm name alone (versus 'PalmOne'), the company re-emphasized this identity.
+
+
+Overall, the OS is more stable and in some cases more responsive, as described above.
+The organizer applications have received slight improvements. Each entry in the Contacts application has nine "Custom" fields, up from four in the T5.
+In addition to the basic organizer features, some of the built-in software for the TX includes:
+
+

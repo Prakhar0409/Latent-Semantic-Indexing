@@ -1,0 +1,25 @@
+Digital Signature Algorithm
+The Digital Signature Algorithm (DSA) is a United States Federal Government standard or FIPS for digital signatures. It was proposed by the National Institute of Standards and Technology (NIST) in August 1991 for use in their Digital Signature Standard (DSS), specified in FIPS 186 [1], adopted in 1993. A minor revision was issued in 1996 as FIPS 186-1 [2], and the standard was expanded further in 2000 as FIPS 186-2 [3].
+DSA is covered by U.S. Patent 5,231,668 , filed July 26, 1991, and attributed to David W. Kravitz, a former NSA employee. This patent was given to "The United States of America as represented by the Secretary of Commerce, Washington, D.C." and the NIST has made this patent available world-wide royalty-free. [4] Dr. Claus P. Schnorr claims that his U.S. Patent 4,995,082  covers DSA; this claim is disputed (see minutes of the Sept. 94 meeting of the Computer System Security and Privacy Advisory Board).
+
+Key generation has two phases. The first phase is a choice of algorithm parameters which may be shared between different users of the system:
+The algorithm parameters (p, q, g) may be shared between different users of the system. The second phase computes private and public keys for a single user:
+The forthcoming FIPS 186-3 (available as a draft [5]) uses SHA-224/256/384/512 as the hash function, q of size 224 and 256 bits, and L equal to 2048 and 3072, respectively.
+There exist efficient algorithms for computing the modular exponentiations ha mod p and gx mod p, such as exponentiation by squaring.
+
+The extended Euclidean algorithm can be used to compute the modular inverse k-1 mod q.
+
+DSA is similar to the ElGamal signature scheme.
+
+The signature scheme is correct in the sense that the verifier will always accept genuine signatures. This can be shown as follows:
+First, if g = h(pâ€“1)/q mod p it follows that gq â‰¡ hp-1 â‰¡ 1 (mod p) by Fermat's little theorem. Since g>1 and q is prime, g must have order q.
+The signer computes
+Thus
+Since g has order q we have
+Finally, the correctness of DSA follows from
+
+
+Algorithms: Benaloh | Blum-Goldwasser | Cayleyâ€“Purser | CEILIDH | Cramer-Shoup | Damgaard-Jurik | DH | DSA | EPOC | ECDH | ECDSA | EKE | ElGamal encryption | ElGamal signature scheme | GMR | Goldwasser-Micali | HFE | IES | Lamport | McEliece | Merkle-Hellman | MQV | Naccache-Stern | NTRUEncrypt | NTRUSign | Paillier | Rabin | RSA | Okamoto-Uchiyama | Schnorr | SPEKE | SRP | STS | Three-pass protocol | XTR
+Theory: Discrete logarithm | Elliptic curve cryptography | RSA problem
+Standardization: ANS X9F1 | CRYPTREC | IEEE P1363 | NESSIE | NSA Suite B
+Misc: Digital signature | Fingerprint | PKI | Web of trust | Key size

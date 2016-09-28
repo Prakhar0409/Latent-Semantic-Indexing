@@ -1,0 +1,10 @@
+List of UML tools
+This article lists Unified Modeling Language tools, classified by their proprietary or non-proprietary status.
+
+
+Potential users can freely download versions of most of the following tools; such versions usually impose limits in capability and/or by a time-period.
+
+
+Structure: Actor â€¢ Attribute â€¢ Artifact â€¢ Class â€¢ Component â€¢ Interface â€¢ Object â€¢ Package
+Behavior: Activity â€¢ Event â€¢ Message â€¢ Method â€¢ State â€¢ Use case
+Relationships: Aggregation â€¢ Association â€¢ Composition â€¢ Dependency â€¢ Generalization (or Inheritance)

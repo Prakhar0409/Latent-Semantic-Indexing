@@ -1,0 +1,25 @@
+Books on cryptography
+Books on cryptography have been published sporadically and with highly variable quality for a long time. This is despite the tempting, though superficial, paradox that secrecy is of the essence in sending confidential messages — see Kerckhoffs' principle.
+In contrast, the revolution in cryptography and secure communications of the last 25 years is well covered in the available literature.
+
+An early example of a book about cryptography was a Roman work, now lost and known only by references. Many early cryptographic works were esoteric, mystical, and/or reputation-promoting; cryptography being mysterious, there was much opportunity for such things. At least one work by Trithemius was banned by the Catholic Church and put on the Index Librorum Prohibitorum as being about black magic or witchcraft. Many writers claimed to have invented unbreakable ciphers. None were, though it sometimes took a long while to establish this.
+In the 19th century, the general standard improved somewhat (eg, works by Auguste Kerckhoffs, Friedrich Kasiski, and Étienne Bazeries). Colonel Parker Hitt and William Friedman in the early 20th century also wrote books on cryptography. These authors, and others, mostly abandoned any mystical or magical tone.
+
+With the invention of radio, much of military communications went wireless, allowing the possibility of enemy interception much more readily than tapping into a landline. This increased the need to protect communications. By the end of World War I, cryptography and its literature began to be officially limited. One exception was The American Black Chamber by Herbert Yardley, which gave some insight into American cryptologic success stories, including the Zimmermann telegram and the breaking of Japanese codes during the Washington Naval Conference.
+
+Until the late twentieth century most aspects of modern cryptography were regarded as the special concern of governments and the military, and were protected by custom and, in some cases, by statute. The most significant work to be published on cryptography in this period is undoubtedly David Kahn's The Codebreakers, which was published at a time (mid-1960s) when virtually no information on the modern practice of cryptography was available. Kahn has said that over ninety percent of its content was previously unpublished. The book caused serious concern at the NSA despite its lack of coverage of specific modern cryptographic practice, so much so that after failing to prevent the book being published, NSA staff were informed to not even acknowledge the existence of the book if asked. In the US military, mere possession of a copy by cryptographic personnel was grounds for some considerable suspicion. Perhaps the single greatest importance of the book was the impact it had on the next generation of cryptographers. Whitfield Diffie has made comments in interviews about the effect it had on him.
+
+Since the flourishing of an academic field of cryptography starting in the mid 1970s, there are many books which have since been published on cryptography. Much information that was top secret a half century ago is now available to the public. Principles and techniques of major parts of contemporary cipher design have also in many cases been published. It is unknown (publicly) if the open literature of modern cryptography has caught up with the knowledge of government agencies.
+
+Significant books on cryptography include:
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+AdaBoost
+AdaBoost, short for Adaptive Boosting, is a machine learning algorithm, formulated by Yoav Freund and Robert Schapire. It is a meta-algorithm, and can be used in conjunction with many other learning algorithms to improve their performance. AdaBoost is adaptive in the sense that subsequent classifiers built are tweaked in favor of those instances misclassified by previous classifiers. AdaBoost is sensitive to noisy data and outliers. Otherwise, it is less susceptible to the overfitting problem than most learning algorithms.
+AdaBoost calls a weak classifier repeatedly in a series of rounds . For each call a distribution of weights Dt is updated that indicates the importance of examples in the data set for the classification. On each round, the weights of each incorrectly classified example are increased (or alternatively, the weights of each correctly classified example are decreased), so that the new classifier focuses more on those examples.
+
+Given:  where 
+Initialise 
+For :
+, where 
+
+where Zt is a normalization factor (chosen so that Dt + 1 will be a probability distribution, i.e. sum one over all x).
+Output the final classifier:
+
+The equation to update the distribution Dt is constructed so that:
+
+Thus, after selecting an optimal classifier  for the distribution , the examples  that the classifier  identified correctly are weighted less and those that it identified incorrectly are weighted more. Therefore, when the algorithm is testing the classifiers on the distribution , it will select a classifier that better identifies those examples that the previous classifer missed.
+
+Boosting can be seen as minimization of a convex loss function over a convex set of functions. [1] Specifically, the loss being minimized is the exponential loss
+and we are seeking a function
+
+
+

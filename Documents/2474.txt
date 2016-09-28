@@ -1,0 +1,36 @@
+Cash flow statement
+In financial accounting, a cash flow statement or statement of cash flows is a financial statement that shows a company's flow of cash. The money coming into the business is called cash inflow, and money going out from the business is called cash outflow. The statement shows how changes in balance sheet and income accounts affect cash and cash equivalents, and breaks the analysis down to operating, investing, and financing activities. As an analytical tool, the statement of cash flows is useful in determining the short-term viability of a company, particularly its ability to pay bills. International Accounting Standard 7 (IAS 7), is the International Accounting Standard that deals with cash flow statements. People and groups interested in cash flow statements include:
+
+The cash flow statement was previously known as the statement of changes in financial position or flow of funds statement.[1] The cash flow statement reflects a firm's liquidity or solvency.
+The balance sheet is a snapshot of a firm's financial resources and obligations at a single point in time, and the income statement summarizes a firm's financial transactions over an interval of time. These two financial statements reflect the accrual basis accounting used by firms to match revenues with the expenses associated with generating those revenues. The cash flow statement includes only inflows and outflows of cash and cash equivalents; it excludes transactions that do not directly affect cash receipts and payments. These noncash transactions include depreciation or write-offs on bad debts to name a few.[2] The cash flow statement is a cash basis report on three types of financial activities: operating activities, investing activities, and financing activities. Noncash activities are usually reported in footnotes.
+The cash flow statement is intended to[3]
+The cash flow statement has been adopted as a standard financial statement because it eliminates allocations, which might be derived from different accounting methods, such as various timeframes for depreciating fixed assets.[4]
+
+Cash basis financial statements were common before accrual basis financial statements. The "flow of funds" statements of the past were cash flow statements.
+In the United States in 1971, the Financial Accounting Standards Board (FASB) defined rules that made it mandatory under Generally Accepted Accounting Principles (US GAAP) to report sources and uses of funds, but the definition of "funds" was not clear. "Net working capital" might be cash or might be the difference between current assets and current liabilities. From the late 1970 to the mid-1980s, the FASB discussed the usefulness of predicting future cash flows.[5] In 1987, FASB Statement No. 95 (FAS 95) mandated that firms provide cash flow statements.[6] In 1992, the International Accounting Standards Board issued International Accounting Standard 7 (IAS 7), Cash Flow Statements, which became effective in 1994, mandating that firms provide cash flow statements.[7]
+US GAAP and IAS 7 rules for cash flow statements are similar. Differences include:
+
+The cash flow statement is partitioned into three segments, namely: cash flow resulting from operating activities, cash flow resulting from investing activities, and cash flow resulting from financing activities.
+
+Operating activities include the production, sales and delivery of the company's product as well as collecting payment from its customers. This could include purchasing raw materials, building inventory, advertising, and shipping the product.
+Under IAS 7, operating cash flows include:[12]
+Items which are added back to [or subtracted from, as appropriate] the net income figure (which is found on the Income Statement) to arrive at cash flows from operations generally include:
+
+Examples of Investing activities are
+
+Financing activities include the inflow of cash from investors such as banks and shareholders, as well as the outflow of cash to shareholders as dividends as the company generates income. Other activities which impact the long-term liabilities and equity of the company are also listed in the financing activities section of the cash flow statement.
+Under IAS 7, financing cash flows include:[13]
+Items under the financing activities section include:
+
+Under IAS 7, noncash investing and financing activities are disclosed in footnotes to the financial statements. Under US GAAP, noncash activities may be disclosed in a footnote or within the cash flow statement itself. Noncash financing activities may include[14]
+
+The direct method of preparing a cash flow statement results in a more easily understood report.[15] The indirect method is almost universally used, because FAS 95 requires a supplementary report similar to the indirect method if a company chooses to use the direct method.
+
+The direct method for creating a cash flow statement reports major classes of gross cash receipts and payments. Under IAS 7, dividends received may be reported under operating activities or under investing activities. If taxes paid are directly linked to operating activities, they are reported under operating activities; if the taxes are directly linked to investing activities or financing activities, they are reported under investing or financing activities.
+Sample cash flow statement using the direct method[16]
+
+The indirect method uses net-income as a starting point, makes adjustments for all transactions for non-cash items, then adjusts for all cash-based transactions. An increase in an asset account is subtracted from net income, and an increase in a liability account is added back to net income. This method converts accrual-basis net income (or loss) into cash flow by using a series of additions and deductions.[17]
+
+The following rules are used to make adjustments for changes in current assets and liabilities, operating items not providing or using cash and nonoperating items.[18]
+Citigroup Incorporated cash flow example:[19][20][21]
+

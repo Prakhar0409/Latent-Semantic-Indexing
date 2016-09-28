@@ -1,0 +1,38 @@
+SMPTE time code
+SMPTE timecode is a set of cooperating standards to label individual frames of video or film with a timecode defined by the Society of Motion Picture and Television Engineers in the SMPTE 12M specification. SMPTE revised the standard in 2008, turning it into a two part document: SMPTE 12M-1 and SMPTE 12M-2. Important clarifications and explanations were added in addition.
+Timecodes are added to film, video or audio material, and have also been adapted to synchronize music. They provide a time reference for editing, synchronisation and identification. Timecode is a form of media metadata. The invention of timecode made modern videotape editing possible, and led eventually to the creation of non-linear editing systems.
+
+SMPTE timecodes (pronounced /ˈsɪmtiː/) contain binary coded decimal hour:minute:second:frame identification and 32 bits for use by users. There are also drop-frame and color framing flags and three extra 'binary group flag' bits used for defining the use of the user bits. The formats of other forms SMPTE timecodes are derived from that of the longitudinal timecode.
+Time code can have a multiple number of frame rates: common ones are:
+In general, SMPTE timecode frame rate information is implicit, known from the rate of arrival of the timecode from the medium, or other metadata encoded in the medium. The interpretation of several bits, including the "colour framing" and "drop frame" bits, depends on the underlying data rate. In particular, the drop frame bit is only valid for a nominal frame rate of 30 frame/s: see below for details.
+More complex timecodes such as vertical interval timecode can also include extra information in a variety of encodings.
+
+Timecodes are generated as a continuous stream of sequential data values. In some applications 'wall clock' time is used, in others the time encoded is a notional time. After making a series of recordings, or after crude editing, recorded timecodes may consist of discontinuous segments.
+In general it is not possible to know the LTC of the current frame until the frame has already gone by, by which time it is too late to make the edit. Practical systems watch the ascending sequence of the timecode, and infer the time of the current frame from that.
+As timecodes in analog systems are prone to bit-errors and drop-outs, most timecode processing devices check for internal consistency in the sequence of timecode values, and use simple error correction schemes to correct for short error bursts. As a result, the boundary between discontinuous timecode ranges cannot be determined exactly until several frames of code have been read after the timecode boundary.
+For this reason, most videotape editing attempts to keep the timecode of the recorded material continuous, so that multiple edits may be repeatedly over-recorded onto the same piece of videotape.
+Although it would be possible in all-digital systems to eliminate the flywheel algorithm by adding a frame delay to allow the timecode to be decoded prior to the processing of the frame, this is not done in most practical systems as:
+
+Drop frame timecode dates to a compromise invented when color NTSC video was invented. The NTSC re-designers wanted to retain compatibility with existing monochrome TVs. However, broadcasting color took 0.03 seconds every second to transmit the color information in the signal, or 3.58sec per hour. Technically, the 3.58 MHz (actually 315/88 MHz = 3.57954545 MHz) color subcarrier would absorb common-phase noise from the harmonics of the line scan frequency. Rather than adjusting the audio or chroma subcarriers, they adjusted everything else, including the frame rate, which was set to 30×1.000/1.001 Hz.
+This meant that an "hour of timecode" at a nominal frame rate of 30 frame/s was longer than an hour of wall-clock time by 3.59 seconds, leading to an error of almost a minute and a half over a day. This caused people to make unnecessary mistakes in broadcasting studios and precious advertising dollars could be lost.
+To correct this, drop frame SMPTE timecode was invented. In spite of what the name implies, NO video frames are dropped (skipped) using drop-frame timecode. What's actually being dropped are some of the timecode "labels". In order to make an hour of timecode match an hour on the clock, drop-frame timecode drops frame numbers 0 and 1 of the first second of every minute, and includes them when the number of minutes is divisible by ten. This achieves an "easy-to-track" drop frame rate of 18 frames each ten minutes (18,000 frames @ 30frame/s) and almost perfectly compensates for the difference in rate, leaving a residual timing error of roughly 86.4 milliseconds per day, an error of only 1.0 ppm.
+i.e. - Drop frame TC drops two frames every minute, except every tenth minute, achieving 29.97frame/s.
+Drop frame is usually represented with a semi-colon (;) whereas non-drop is represented with a colon (:)
+
+A colour framing bit is often used to indicate field 1 of the colour frame, so that editing equipment can make sure to edit only on appropriate field boundaries in order to prevent picture corruption.
+
+In studio operations, longitudinal timecode is generated by the studio master sync generator, and distributed from a central point. Central sync generators usually derive their timing from an atomic clock, either using network time, or GPS. Studios usually maintain two or three clocks, and automatically switch over if one fails.
+A recent development is to mount small GPS-synchronized SMPTE timecode generators on each camera, which eliminates the distribution network for portable set-ups and shooting on location.
+Longitudinal SMPTE timecode is widely used to synchronise music. The frame rate used for audio sync is arbitrary, and can be chosen to suit the needs of the production. A frame rate of 24 frame/s is popular because it reduces synchronisation problems with 48 kHz digital audio. SMPTE timecodes are often time code not specified by SMPTE.
+
+
+The basic format is an 80-bit code that gives the time of day to the second, and the frame number within the second.
+The bits of the longitudinal SMPTE code:
+There are thirty-two bits of user data. These are usually used for a reel number and date. They can be anything at all, as long as bits 43 and 59 are set to zero.
+The bits are encoded as biphase. A zero bit has a single transition at the start of the bit period. A one bit has two transitions, at the beginning and middle of the period. This encoding is self-clocking.
+Longitudinal SMPTE timecode should be played back at a middle-level when recorded on an audio track. Too high or too low will both cause distortion.
+
+Longitudinal and vertical-interval timecodes were developed in 1967 by EECO, an electronics company that developed video recorders, and later video production systems. EECO assigned its intellectual property to permit public use.
+
+
+

@@ -1,0 +1,22 @@
+Menger sponge
+In mathematics, the Menger sponge is a fractal curve. It is the universal curve, in that it has topological dimension one, and any other curve (more precisely: any compact metric space of topological dimension 1) is homeomorphic to some subset of it. It is sometimes called the Menger-Sierpinski sponge or the Sierpinski sponge. It is a three-dimensional extension of the Cantor set and Sierpinski carpet. It was first described by Austrian mathematician Karl Menger in 1926 while exploring the concept of topological dimension.
+
+Construction of a Menger sponge can be visualized as follows:
+The second repetition will give you a Level 2 sponge (third image), the third a Level 3 sponge (fourth image), and so on. The Menger sponge itself is the limit of this process after an infinite number of iterations.
+The number of cubes is 20n, with n being the number of iterations performed on the first cube:
+At the first level, no iterations are performed, (200 = 1).
+
+Each face of the Menger sponge is a Sierpinski carpet; furthermore, any intersection of the Menger sponge with a diagonal or medium of the initial cube M0 is a Cantor set.
+The Menger sponge is a closed set; since it is also bounded, the Heine-Borel theorem implies that it is compact. Furthermore, the Menger sponge is uncountable and has Lebesgue measure 0.
+The topological dimension of the Menger sponge is one, the same as any curve. Menger showed, in the 1926 construction, that the sponge is a universal curve, in that any possible one-dimensional curve is homeomorphic to a subset of the Menger sponge, where here a curve means any compact metric space of Lebesgue covering dimension one; this includes trees and graphs with an arbitrary countable number of edges, vertices and closed loops, connected in arbitrary ways.
+In a similar way, the Sierpinski carpet is a universal curve for all curves that can be drawn on the two-dimensional plane. The Menger sponge constructed in three dimensions extends this idea to graphs that are not planar, and might be embedded in any number of dimensions. Thus any geometry of quantum loop gravity can be embedded in a Menger sponge.
+Interestingly, the Menger sponge simultaneously exhibits an infinite surface area and encloses zero volume.
+The sponge has a Hausdorff dimension of (log 20) / (log 3) (approx. 2.726833).
+
+Formally, a Menger sponge can be defined as follows:
+where M0 is the unit cube and
+
+A fictitious version of the Menger Sponge that appeared to have the abilities of controlling the effects of gravity on oneself and capturing ghosts (among other properties) was featured in the 2006 Taiwanese film Gui si (Silk)
+
+
+

@@ -1,0 +1,17 @@
+Glitch
+A glitch is a short-lived fault in a system. The term is particularly common in the computing and electronics industries, and in circuit bending, as well as among players of video games, although it is applied to all types of systems including human organizations and nature. The term derives from the German glitschig, meaning 'slippery', possible entering English through the Yiddish term glitsh. Normally, a glitch occurs once, but can also occur multiple times in a particular software.
+
+An electronics glitch is an electrical pulse of short duration that is usually the result of a fault or design error, particularly in a digital circuit. For example, many electronic components such as flip-flops are triggered by a pulse that must not be shorter than a specified minimum duration, otherwise the component may malfunction. A pulse shorter than the specified minimum is called a glitch. A related concept is the runt pulse, a pulse whose amplitude is smaller than the minimum level specified for correct operation, and a spike, a short pulse similar to a glitch but often caused by ringing or crosstalk.
+A glitch can occur in the presence of race condition in a poorly designed digital logic circuit.
+
+A computer glitch is the failure of a system, usually containing a computing device, to complete its functions or to perform them properly. It frequently refers to an error which is not detected at the time it occurs but shows up later in data errors or incorrect human decisions. While the fault is usually attributed to the computer hardware, this is often not the case since hardware failures rarely go undetected. Other situations which are frequently called computer glitches are:
+An example of a computer glitch was in 2008 that brought down the primary patient application to 17 United States Department of Veterans Affairs medical centers in Northern California. The cause was from a simple change in management procedure that was not properly followed.[1]
+
+Canadian Oxford lists it as a 20th century word of unknown origin. Some reference books, including Random House's American Slang, say it comes from the German word glitschen ("to slip") and the Yiddish word gletshn ("to slide or skid"). Either way it's fairly new. So new, in fact, that on July 23, 1965, Time magazine felt it necessary to define it in an article: "Glitches — a spaceman's word for irritating disturbances."
+
+In video games, a glitch is a programming error which results in behavior not intended by the programmers. Glitches may include incorrectly displayed graphics, collision detection errors, game-freezing or crashes, sound issues, and others. Some glitches are potentially dangerous to the game save data. [2]
+"Glitching" is the practice of a player exploiting faults in a video game's programming to achieve tasks normally impossible if the game's script runs as intended, such as running through walls or defying gravity.
+During quality assurance (such as the role of a game tester for video games), glitches must be located, a report compiled, and then fed back to the programmers.[2]
+Though commonly used by game players and the general public, the term "glitch" is rarely used by game developers, publishers, and QA departments. Instead, the more common term of software bug, or simply "bug", is used by professionals working in the video game industry.[citation needed]
+
+

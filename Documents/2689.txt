@@ -1,0 +1,20 @@
+NMEA 0183
+NMEA 0183 (or NMEA for short) is a combined electrical and data specification for communication between marine electronic devices such as echo sounder, sonars, anemometer (wind speed and direction), gyrocompass, autopilot, GPS receivers and many other types of instruments. It has been defined by, and is controlled by, the U.S.-based National Marine Electronics Association.
+The NMEA 0183 standard uses a simple ASCII, serial communications protocol that defines how data is transmitted in a "sentence" from one "talker" to multiple "listeners" at a time. Through the use of intermediate expanders, a talker can have a unidirectional conversation with a nearly unlimited number of listeners, and using multiplexers, multiple sensors can talk to a single computer port. Third-party switches are available that can establish a primary and secondary talker, with automatic failover if the primary fails.
+At the application layer, the standard also defines the contents of each sentence (message) type so that all listeners can parse messages accurately.
+
+
+AIS units use a default baud rate of 38400.
+
+As an example, a Waypoint arrival alarm has the form:
+where:
+A compound string from the NR203 GPS Receiver containing multiple messages. The actual messages decoded include:
+
+The new standard, NMEA 2000, accommodates several "talkers" at a higher baud rate, without using a central hub.
+The NMEA standard is proprietary and sells for at least US$ 270 as of August 2007. [2] However, much of it has been reverse-engineered from public sources and is available in references like gpsd and Dale DePriest's.
+
+Most GPS manufacturers include special messages to the standard NMEA set in their products for maintenance and diagnostics purposes. These extended messages are not standardized at all and are normally different from vendor to vendor.
+
+
+
+

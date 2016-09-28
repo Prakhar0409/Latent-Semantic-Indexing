@@ -1,0 +1,16 @@
+Ghostscript
+Ghostscript is a suite of software based on an interpreter for Adobe Systems' PostScript and Portable Document Format (PDF) page description languages.
+
+Ghostscript can be used as a raster image processor (RIP) for raster computer printers — for instance, as an input filter of line printer daemon — or as the RIP engine behind PostScript and PDF viewers.
+Ghostscript can also be used as a file format converter, such as PostScript to PDF converter; this is often combined with a PostScript printer driver in "virtual printer" PDF creators.
+As it takes the form of a language interpreter, Ghostscript can also be used as a general purpose programming environment.
+Ghostscript has been ported to many operating systems, including Unix, Linux, Mac OS, OpenVMS, Microsoft Windows, OS/2 and AmigaOS.
+
+Several graphical user interfaces have been written for use with Ghostscript which permit a user to view a PostScript or PDF file on screen, scroll, page forward and backward, and zoom the text as well as print single or multiple pages.
+
+Ghostscript was originally written by L. Peter Deutsch in 1986 for the GNU Project, and released under the GNU General Public License; later, Deutsch formed Aladdin Enterprises to license Ghostscript under a proprietary license. Ghostscript is currently owned by Artifex Software and maintained by Artifex Software employees and the world-wide user community. Current version of Ghostscript is again available under GPL but can be also licensed for use in proprietary projects for a fee.
+
+The GPL version is also used as the basis for a Display Ghostscript, which adds the functionality needed to fully support Display PostScript.
+
+
+

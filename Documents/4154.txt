@@ -1,0 +1,9 @@
+Table of keyboard shortcuts
+In computing, a keyboard shortcut is any of various finite sequences of input on an input device which, when activated, cause a command or function to be invoked by software or the operating system on a computer. Keyboard shortcuts are typically an alternate means for invoking one or more commands that would otherwise be accessible only through navigating one or more levels of a user interface or command console.
+Some keyboard shortcuts require the user to press a single key or a sequence of keys one after the other. Other keyboard shortcuts require pressing and holding several keys simultaneously.
+
+Keyboard shortcuts (or key bindings) are a common aspect of most modern operating systems and associated software applications. Their use is pervasive enough that some users consider them an essential element of their routine interactions with a computer. Whether used as a matter of personal preference or for Adaptive technology, the pervasiveness of common conventions enables the comparison of keyboard shortcuts across different systems. The following sections detail some of these comparisons in widely used operating systems.
+
+
+Many of these commands may be combined with ⇧ Shift to select a region of text. [1]
+

@@ -1,0 +1,18 @@
+Distributed Component Object Model
+Distributed Component Object Model (DCOM) is a proprietary Microsoft technology for communication among software components distributed across networked computers. DCOM, which originally was called "Network OLE", extends Microsoft's COM, and provides the communication substrate under Microsoft's COM+ application server infrastructure. It has been deprecated in favor of Microsoft .NET.
+The addition of the "D" to COM was due to extensive use of DCE/RPC (Distributed Computing Environment/Remote Procedure Calls) – more specifically Microsoft's enhanced version, known as MSRPC.
+In terms of the extensions it added to COM, DCOM had to solve the problems of
+One of the key factors in solving these problems is the use of DCE/RPC as the underlying RPC mechanism behind DCOM. DCE/RPC has strictly defined rules regarding marshalling and who is responsible for freeing memory.
+DCOM was a major competitor to CORBA. Proponents of both of these technologies saw them as one day becoming the model for code and service-reuse over the Internet. However, the difficulties involved in getting either of these technologies to work over Internet firewalls, and on unknown and insecure machines, meant that normal HTTP requests in combination with web browsers won out over both of them. Microsoft, at one point, attempted and failed to head this off by adding an extra http transport to DCE/RPC called ncacn_http (Network Computing Architecture, Connection-based, over HTTP). This was later resurrected to support an Exchange 2003 connection over HTTP.
+
+The Open Group has a DCOM implementation called COMsource. Its source code is available, along with full and complete documentation, sufficient to use and also implement an interoperable version of DCOM. According to that documentation, COMsource comes directly from the Windows NT 4.0 source code, and even includes the source code for a Windows NT Registry Service......
+The Wine Team is also implementing DCOM for binary interoperability purposes; they are not currently interested in the networking side of DCOM, which is provided by MSRPC. They are restricted to implementing NDR (Network Data Representation) through Microsoft's API[citation needed], but are committed to making it as compatible as possible with MSRPC.
+The Samba Team is also implementing DCOM for over-the-wire interoperability purposes: unlike the Wine Team, they are not currently interested in binary-interoperability, as the Samba MSRPC implementation is far from binary-interoperable with Microsoft's MSRPC. Between the two projects, Samba and Wine, tackling interoperability from different angles, a fully interoperable implementation of DCOM should be achievable, eventually.
+j-Interop is an open source (LGPL) implementation of MSRPC purely in Java, supporting DCOM client applications in Java on any platform communicating with DCOM servers.
+J-Integra for COM is a mature commercial pure Java implementation of the DCOM wire protocol allowing access to COM components from Java clients, and Java objects from COM clients.
+EntireX DCOM is a commercial implementation by Software AG for Windows, AIX, HP/UX, Solaris, Linux, AS/400, z/OS, z/VM, and BS2000/OSD.
+
+To access DCOM settings on a computer running Windows 2000, Windows XP and earlier, click Start > Run, and type "dcomcnfg". (Click NO for any warning screens that appear.) To access DCOM settings on a computer running Windows Vista, click Start, type "dcomcnfg", right-click "dcomcnfg.exe" in the list, and click "Run as administrator".
+This opens the Distributed COM Configuration Properties dialog.
+
+

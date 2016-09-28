@@ -1,0 +1,17 @@
+Two factor theory of emotion
+The Two Factor Theory of Emotion is a social psychology theory that views emotion as having two components (factors): physiological arousal and cognition. According to the theory, "cognitions are used to interpret the meaning of physiological reactions to outside events."
+
+Stanley Schachter and Jerome Singer gave 184 college students one of two types of injections: adrenaline (also called epinephrine) or a placebo. All experimental subjects were told that they were given vitamins to test their vision. The adrenaline injection caused a number of effects including increased heart rate, rapid breathing, and increased blood flow to the muscles and brain. The saline injection had no such effects.
+Some subjects were told about the effects of the adrenaline while others were misled and told that it would produce a dull headache and numbness. A third group of subjects received no information at all.
+After the injections the subjects waited in a room with another subject who was actually a confederate of the experimenter. The confederate behaved one of two ways: playful or angry.
+Subjects who were misled or naive about the injection's effects behaved similarly to the confederate, taking cues from the situation to interpret their arousal level to determine their emotional state. Subjects who knew what to expect, on the other hand, did not manifest emotion mirroring the confederate.
+
+Following the implications of their theory Schachter and Singer also provided three important ancillary propositions:
+(1) In the event that an individual has no causal explanation for an arousal state, he or she will label arousal in terms of available cognitions.
+(2) In the event that an individual has appropriate explanation for arousal, alternative cognitive labeling will be unlikely.
+(3) Under identical “cognitive circumstances”, an individual will only respond with emotional experience to the degree that he or she is physiologically excited.
+
+Social Psychologists A. Aron and D. Dutton used a natural setting to induce physiological arousal in their test of the Two Factor Theory of Emotion. In their study, an attractive female experimenter asked male passers-by to complete a brief survey. She intercepted potential subjects either at the end of a bridge or on the bridge itself. The footbridge used was the Capilano Suspension Bridge, a narrow bridge that spans a deep ravine. Following the survey interview, the experimenter gave the subjects her telephone number in case they had further questions. The dependent variable in this experiment was the number of telephone calls received from the subjects after the experiment.
+Male participants were asked to meet an interviewer in the middle of one of two bridges. One was a safe-looking bridge and one looked more dangerous. An attractive female researcher interviewed the male passers-by in the middle of the two bridges. She gave them her telephone number in case they wanted to ask about the results. Men on the less safe-looking bridge were more aroused by the height of the bridge, and were likely to confuse their feelings for being 'lovestruck'. They were then more likely to call her back, looking for a date.
+
+{dr.parul sharma}

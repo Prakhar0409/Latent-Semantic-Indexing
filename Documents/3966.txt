@@ -1,0 +1,12 @@
+Capacity planning
+Capacity planning is the process of determining the production capacity needed by an organization to meet changing demands for its products.[1] In the context of capacity planning, "capacity" is the maximum amount of work that an organization is capable of completing in a given period of time.
+A discrepancy between the capacity of an organization and the demands of its customers results in inefficiency, either in under-utilized resources or unfulfilled customers. The goal of capacity planning is to minimize this discrepancy. Demand for an organization's capacity varies based on changes in production output, such as increasing or decreasing the production quantity of an existing product, or producing new products. Better utilization of existing capacity can be accomplished through improvements in overall equipment effectiveness (OEE). Capacity can be increased through introducing new techniques, equipment and materials, increasing the number of workers or machines, increasing the number of shifts, or acquiring additional production facilities.
+Capacity is calculated: (number of machines or workers) × (number of shifts) × (utilization) × (efficiency).
+The broad classes of capacity planning are lead strategy, lag strategy, and match strategy.
+In the context of systems engineering, capacity planning[2] is used during system design and system performance monitoring.
+
+The relevance of System and Application Capacity Planning has been recently highlighted by the adoption of the ITIL methodology and Real Capacity Issues such as heat and power in data centers. As IT budgets shrink because of market conditions, it is likely that there will be a renewed interest in the methodologies used to achieve real savings.
+
+
+
+

@@ -1,0 +1,19 @@
+Network monitoring
+The term network monitoring describes the use of a system that constantly monitors a computer network for slow or failing components and that notifies the network administrator in case of outages via email, pager or other alarms. It is a subset of the functions involved in network management.
+
+While an intrusion detection system monitors a network for threats from the outside, a network monitoring system monitors the network for problems caused by overloaded and/or crashed servers, network connections or other devices.
+For example, to determine the status of a webserver, monitoring software may periodically send an HTTP request to fetch a page; for email servers, a test message might be sent through SMTP and retrieved by IMAP or POP3.
+Commonly measured metrics are response time and availability (or uptime), although both consistency and reliability metrics are starting to gain popularity. The widespread addition of wan optimization devices is having an adverse effect on most network monitoring tools -- especially when it comes to measuring accurate end to end response time because they limit round trip visibility.[1]
+Status request failures, such as when a connection cannot be established, it times-out, or the document or message cannot be retrieved, usually produce an action from the monitoring system. These actions vary: an alarm may be sent out to the resident (SMS, email,...) sysadmin, automatic failover systems may be activated to remove the troubled server from duty until it can be repaired, etcetera.
+Monitoring the performance of a network uplink is also known as network traffic measurement, and more software is listed there.
+
+Network tomography is an important area of network measurement, which deals with monitoring the health of various links in a network using end-to-end probes sent by agents located at vantage points in the network/Internet.
+
+Route analytics is another important area of network measurement. It includes the methods, systems, algorithms and tools to monitor the routing posture of networks. Incorrect routing or routing issues cause undesirable performance degradation or downtime.
+
+Website monitoring service can check HTTP pages, HTTPS, SNMP, FTP, SMTP, POP3, IMAP, DNS, SSH, TELNET, SSL, TCP, ping and a range of other ports with great variety of check intervals from every 4 hours to every one minute. Typically, most network monitoring services test your server anywhere between once-per hour to once-per-minute.
+
+Network monitoring services usually have a number of servers around the globe - for example in America, Europe, Asia, Australia and other locations. By having multiple servers in different geographic locations, a monitoring service can determine if a Web server is available across different networks worldwide. The more locations used, the more complete is the picture on network availability.
+
+
+

@@ -1,0 +1,17 @@
+Lissajous curve
+In mathematics, a Lissajous curve (Lissajous figure or Bowditch curve) is the graph of the system of parametric equations
+which describes complex harmonic motion. This family of curves was investigated by Nathaniel Bowditch in 1815, and later in more detail by Jules Antoine Lissajous (a French name pronounced /lisaÊ’u/) in 1857.
+The appearance of the figure is highly sensitive to the ratio a/b. For a ratio of 1, the figure is an ellipse, with special cases including circles (A = B, Î´ = Ï€/2 radians) and lines (Î´ = 0). Another simple Lissajous figure is the parabola (a/b = 2, Î´ = Ï€/2). Other ratios produce more complicated curves, which are closed only if a/b is rational. The visual form of these curves is often suggestive of a three-dimensional knot, and indeed many kinds of knots, including those known as Lissajous knots, project to the plane as Lissajous figures.
+Lissajous figures where a = 1, b = N (N is a natural number) and
+are Chebyshev polynomials of the first kind of degree N.
+
+Below are examples of Lissajous figures with Î´ = Ï€/2, an odd natural number a, an even natural number b, and |a âˆ’ b| = 1.
+
+Prior to modern computer graphics, Lissajous curves were typically generated using an oscilloscope (as illustrated). Two phase-shifted sinusoid inputs are applied to the oscilloscope in X-Y mode and the phase relationship between the signals is presented as a Lissajous figure. Lissajous curves can also be traced mechanically by means of a harmonograph.
+In oscilloscope we suppose x is CH1 and y is CH2, A is amplitude of CH1 and B is amplitude of CH2, a is frequency of CH1 and b is frequency of CH2, so a/b is a ratio of frequency of two channels, finally, Î´ is the phase shift of CH1.
+
+When the input to an LTI system is sinusoidal, the output will be sinusoidal with the same frequency, but it may have a different amplitude and some phase shift. Using an oscilloscope which has the ability to plot one signal against another signal (as opposed to one signal against time) produces an ellipse which is a Lissajous figure with of the case a = b in which the eccentricity of the ellipse is a function of the phase shift. The figure below summarizes how the Lissajous figure changes over different phase shifts. The phase shifts are all negative so that delay semantics can be used with a causal LTI system. The arrows show the direction of rotation of the Lissajous figure.
+
+
+
+

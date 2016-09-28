@@ -1,0 +1,37 @@
+Style guide
+A style guide or style manual is a set of standards for design and writing of documents, either for general use or for a specific publication or organization. Style guides are prevalent for general and specialized use, for the general reading and writing audience, and for students and scholars of the various academic disciplines, medicine, journalism, the law, government, business, and industry. Some style guides focus on graphic design, covering such topics as typography and white space. Web site style guides focus on a publication's visual and technical aspects, prose style, best usage, grammar, punctuation, spelling, and fairness.
+Many style guides are revised periodically to accommodate changes in conventions and usage. For example, the stylebook of the Associated Press is updated annually.
+
+Publishers' style guides establish house rules for language use, such as spelling, italics and punctuation; their major purpose is consistency. They are rulebooks for writers, ensuring consistent language. Authors are asked or required to use a style guide in preparing their work for publication; copy editors are charged with enforcing the publishing house's style.
+Academic organization and university style guides are rigorous about documentation formatting style for citations and bibliographies used for preparing term papers for course credit and manuscripts for publication. Professional scholars are advised to follow the style guides of organizations in their disciplines when they submit articles and books to academic journals and academic book publishers in those disciplines for consideration of publication. Once they have accepted work for publication, publishers provide authors with their own guidelines and specifications, which may differ from those required for submission, and editors may assist authors in preparing their work for press.
+Indexing of the published work, which can be a tedious task, can be done by the author, by a professional editorial indexer, or by computer software. If done by the author or close collaborators of the author who are not professional indexers, the work is called "self-indexed".
+
+Some style guides are created for the general public, and may adopt the approaches of publishing houses and newspapers. Others, such as Fowler's Modern English Usage, third edition, report how language is practiced in a given area and outline how phrases, punctuation and grammar are actually used.[citations needed]
+John Updike wrote in The New Yorker on Robert Burchfield's re-writing of Fowler's Modern English Usage: "To Burchfield, the English language is a battlefield upon which he functions as a non-combatant observer."[1] Burchfield responded: "I believe that 'stark preachments' belong to an earlier age of comment on English usage.... Linguistic correctness is perhaps the dominant theme of this book."[1]
+
+Some organizations, other than the aforementioned ones, produce style guides for either internal or external use. For example, communications and public relations departments of business and nonprofit organizations have style guides for their publications (newsletters, news releases, Web sites). Organizations advocating for social minorities sometimes establish what they believe to be fair and correct language treatment of their audiences.
+
+Many publications (notably newspapers) use graphic design style guides to demonstrate the preferred layout and formatting of a published page. They often are extremely detailed in specifying, for example, which fonts and colors to use. Such guides allow a large design team to produce visually consistent work for the organization.
+
+
+Several basic style guides for technical and scientific communication have been defined by international standards organizations. These are often used as elements of and refined in more specialized style guides that are specific to a subject, region or organization. Some examples are:
+
+
+
+
+
+
+
+In the United States, most books found in bookstores and libraries follow the Chicago Manual of Style,[2] while most newspapers base their styles upon the Associated Press Stylebook. A classic style guide for the general public is The Elements of Style, by William Strunk, Jr. and E.B. White.
+
+
+
+
+
+Style guides are particularly important in technical writing projects. Where technical writing is undertaken in a large team or project, it is important that the finished documentation is devoid of any one individual's discernible personal style. A style guide is just one of the tools that can be used to help achieve this along with the use of specific standards, e.g., AECMA S1000D in the aerospace and defense industries. Some disciplines use a style guide published by a professional society, such as the one offered by the American Physical Society or the one from the American Chemical Society referenced below.
+
+
+
+
+
+

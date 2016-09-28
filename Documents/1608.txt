@@ -1,0 +1,31 @@
+User interface
+The user interface (also known as Human Computer Interface or Man-Machine Interface (MMI)) is the aggregate of means by which people—the users—interact with the system—a particular machine, device, computer program or other complex tool. The user interface provides means of:
+
+To work with a system, users have to be able to control the system and assess the state of the system. For example, when driving an automobile, the driver uses the steering wheel to control the direction of the vehicle, and the accelerator pedal, brake pedal and gearstick to control the speed of the vehicle. The driver perceives the position of the vehicle by looking through the windscreen and exact speed of the vehicle by reading the speedometer. The user interface of the automobile is on the whole composed of the instruments the driver can use to accomplish the tasks of driving and maintaining the automobile.
+The term user interface is often used in the context of computer systems and electronic devices. The user interface of a mechanical system, a vehicle or an industrial installation is sometimes referred to as the Human-Machine Interface (HMI). HMI is a modification of the original term MMI (Man-Machine Interface). In practice, the abbreviation MMI is still frequently used although some may claim that MMI stands for something different now. Another abbreviation is HCI, but is more commonly used for Human-computer interaction than Human-computer interface. Other terms used are Operator Interface Console (OIC) and Operator Interface Terminal (OIT).
+However it is abbreviated, the terms refer to the 'layer' that separates a human that is operating a machine from the machine itself.
+In science fiction, HMI is sometimes used to refer to what is better described as direct neural interface. However, this latter usage is seeing increasing application in the real-life use of (medical) prostheses—the artificial extension that replaces a missing body part (e.g., cochlear implants).
+The system may expose several user interfaces to serve different kinds of users. For example, a computerized library database might provide two user interfaces, one for library patrons (limited set of functions, optimized for ease of use) and the other for library personnel (wide set of functions, optimized for efficiency).
+In some circumstance computers might observe the user, and react according to their actions without specific commands. A means of tracking parts of the body is required, and sensors noting the position of the head, direction of gaze and so on have been used experimentally. This is particularly relevant to immersive interfaces.
+
+The design of a user interface affects the amount of effort the user must expend to provide input for the system and to interpret the output of the system, and how much effort it takes to learn how to do this. Usability is the degree to which the design of a particular user interface takes into account the human psychology and physiology of the users, and makes the process of using the system effective, efficient and satisfying.
+Usability is mainly a characteristic of the user interface, but is also associated with the functionalities of the product and the process to design it. It describes how well a product can be used for its intended purpose by its target users with efficiency, effectiveness, and satisfaction, also taking into account the requirements from its context of use.
+
+In computer science and human-computer interaction, the user interface (of a computer program) refers to the graphical, textual and auditory information the program presents to the user, and the control sequences (such as keystrokes with the computer keyboard, movements of the computer mouse, and selections with the touchscreen) the user employs to control the program.
+
+Currently (as of 2009[update]) the following types of user interface are the most common:
+User interfaces that are common in various fields outside desktop computing:
+Other types of user interfaces:
+See also:
+
+The history of user interfaces can be divided into the following phases according to the dominant type of user interface:
+
+A modality is a path of communication employed by the user interface to carry input and output. Examples of modalities:
+The user interface may employ several redundant input modalities and output modalities, allowing the user to choose which ones to use for interaction.
+A mode is a distinct method of operation within a computer program, in which the same input can produce different perceived results depending of the state of the computer program. Heavy use of modes often reduces the usability of a user interface, as the user must expend effort to remember current mode states, and switch between mode states as necessary.
+
+This year ISO has published its standard of ISO/IEC 24752 to specify the technical requirement of IT system.
+
+
+
+

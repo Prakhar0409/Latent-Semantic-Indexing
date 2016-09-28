@@ -1,0 +1,20 @@
+List of fallacies
+This is a list of logical fallacies.
+
+Formal fallacies are arguments that are fallacious due to an error in their form or technical structure.[1] All formal fallacies are specific types of non sequiturs.
+
+Propositional fallacies:
+
+Quantificational fallacies:
+
+Syllogistic fallacies are logical fallacies that occur in syllogisms.
+
+Informal fallacies are arguments that are fallacious for reasons other than structural ("formal") flaws.
+
+Faulty generalizations:
+
+A red herring is an argument, given in response to another argument, which does not address the original issue. See also irrelevant conclusion
+
+
+
+

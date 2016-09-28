@@ -1,0 +1,15 @@
+Toshiba 4S
+The Toshiba 4S (Super Safe, Small and Simple) is a “nuclear battery” reactor design. It requires only minimal staffing.
+
+The plant design is offered by a partnership that includes Toshiba and the Central Research Institute of Electric Power Industry (CRIEPI) of Japan. [1]
+The technical specifications of the 4S reactor are unique in the nuclear industry. The actual reactor would be located in a sealed, cylindrical vault 30 m (98 ft) underground, while the building above ground would be 22 x 16 x 11 m (72 × 52.5 x 36 ft) in size. This power plant is designed to provide 10 Megawatts of electrical power.
+The 4S is a fast neutron reactor. It uses neutron reflector panels around the perimeter to maintain neutron density. These reflector panels replace complicated control rods, yet keep the ability to shut down the nuclear reaction in case of an emergency. Additionally, the Toshiba 4S utilizes liquid sodium as a coolant, allowing the reactor to operate 200 degrees hotter than if it used water. This means that the reactor is depressurized, as water at this temperature would run at thousands of pounds per square inch.
+The reactor is expected to provide electric energy for between 5 and 13 cents/kWh, factoring in only operating costs. On paper, it has been determined that the reactor could run for 30 years without being refueled.
+The Toshiba 4S Nuclear Battery is being proposed as the power source for the Galena Nuclear Power Plant in Galena, Alaska.
+
+Currently Toshiba together with its Westinghouse subsidiary, is in preliminary design review before U.S. NRC. [2] Application for NRC's Final Design Approval (FDA) is currently planned for 2009. Last meeting with NRC took place on August 8, 2008. The NRC's staff met with representatives of Toshiba and Westinghouse for a pre-application presentation of a Phenomena Identification and Ranking Table (PIRT) for the Toshiba 4S (Super-Safe, Small and Simple) reactor.
+
+
+
+
+

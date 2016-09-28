@@ -1,0 +1,4 @@
+MTOM
+MTOM is the W3C Message Transmission Optimization Mechanism, a method of efficiently sending binary data to and from web services. It uses XOP (XML-binary Optimized Packaging) to transmit binary data and is intended to replace both MIME and DIME attachments. Binary content often has to be reencoded to be sent as text data with SOAP messages. MTOM allows more efficient sending of binary data in a SOAP request or response.
+
+

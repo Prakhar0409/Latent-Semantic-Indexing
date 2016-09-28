@@ -1,0 +1,75 @@
+Cisco Career Certifications
+Cisco Career Certifications are IT professional certifications for Cisco products. The tests are administered by Pearson VUE. There are five levels of certification: Entry, Associate, Professional, Expert, and Specialist. For more information on Cisco Certifications, visit the Cisco Learning Network.
+
+
+The table below shows the differents paths and level for the general certification tracks. The specialist certifications are not listed in the table.
+
+
+The first stage of Cisco's certification system is the entry level and begins with CCENT (Cisco Certified Entry Networking Technician) certification as an interim step to CCNA (Cisco Certified Network Associate) and CCDA (Cisco Certified Design Associate) credentials. While the CCENT covers basic networking knowledge, and does not get involved with the more intricate technical aspects of the Cisco security, wireless, or voice curriculum, it does validate the skills essential for entry-level network support positions. CCENT qualified individuals have the knowledge and skill to install, manage, maintain and troubleshoot a small enterprise branch network, including network security.
+
+
+
+
+The CCNA validates the ability to install, configure, operate, and troubleshoot enterprise level router and switched networks. This includes design implementation and verification of connections to remote sites in a WAN. New CCNA training includes basic mitigation of security threats, introduction to wireless networking and Voice.
+
+The CCNA Credential is obtained by passing 640-822 and 640-816 or the single 640-802 composite exam.
+
+Cisco's official CCNA training consists of separate classes for each official course. Both ICND1 and ICND2 are 40 hour classes. Some Cisco Learning Partners also offer the CCNA training as a boot camp, combining both courses in a hands-on training & certification preparation experience.
+Both classes apply towards the combined 640-802 test.
+
+Candidates have the option of gaining the certification by passing two tests (640-822 ICND1 and 640-816 ICND2), or one single test (CCNA 640-802)Composite; the two-test option has the advantage of allowing the candidate to test for the subject matter in one or two sittings.[1]
+
+The certification is valid for three years; at that time a Cisco Certified Network Associate (CCNA) holder must either
+These exams are conducted by authorized test centers at a cost of USD$125 each for the ICND1 or ICND2 exams and, effective 06-23-2008[2], USD$250 for the composite CCNA exam.
+There is also the Cisco Networking Academy, which brings the CCNA and CCNP curricula into traditional educational institutions in more than 150 countries.[3] Students enrolled in Cisco Networking Academy can request exam vouchers that allow them to take the retired exam for an extended period of time.[4]
+
+The CCDA certification indicates an associate knowledge of Cisco network design. Individuals who have earned a CCDA are capable of designing switched or routed networks consisting of LANs, WANs, and various dial services. While a CCNA certification is not required to take the CCDA exam (640-863 DESGN), Cisco recommends being familiar with CCNA-level material, as well as BCMSN-level knowledge of Cisco-based LANs.
+
+CCNA Security Certification meets the needs of IT professionals who are responsible for network security. The CCNA Security certification involves implementing Cisco IOS Network Security. It confirms an individual's skills for job roles such as Network Security Specialists, Security Administrators, and Network Security Support Engineers. This certification validates skills including installation, troubleshooting and monitoring of network devices to maintain integrity, confidentiality and availability of data and devices and develops competency in the technologies that Cisco uses in its security structure. This certification is earned by passing the 640-553 (Implementing Cisco IOS Network Security, or IINS) exam; it currently costs $250 US for the test.
+Students completing the recommended Cisco training will gain an introduction to core security technologies as well as how to develop security policies and mitigate risks. IT organizations that employ CCNA Security-holders will have IT staff that can develop a security infrastructure, recognize threats and vulnerabilities to networks, and mitigate security threats.
+
+The Cisco CCNA Voice certification confirms that you have the required skill set for specialized job roles in voice technologies such as voice technologies administrator, voice engineer, and voice manager. The CCNA Voice certification involves implementing Cisco IOS Unified Communications. It validates skills in VoIP technologies such as IP PBX, IP telephony, handset, call control, and voicemail solutions. Candidates also get exposure to the Cisco Unified Communications architecture and design covering mobility, presence, and TelePresence applications.
+The CCNA Voice Certification enables employers to validate that their staff possess a strong foundation in voice applications and infrastructure concepts; and are capable of performing baseline installation, operating, and maintenance tasks on Cisco VoIP solutions, particularly the Smart Business Communications System from 8-250 lines.
+
+CCNA Wireless recognizes the critical importance of professionals supporting wireless LANs including Networking Associates/Administrators, Wireless Support Specialists and WLAN project managers. The CCNA Wireless certification involves implementing Cisco Unified Wireless Networking Essentials.
+The CCNA Wireless Certification validates candidate's skills in the configuration, implementation and support of wireless LANs, specifically those networks using Cisco equipment. Students completing the recommended Cisco training are provided with information and practice activities to prepare them for configuring, monitoring and troubleshooting basic tasks of a Cisco WLAN in SMB and Enterprise networks. Employers will be able to validate their staff have the skills needed for basic wireless networking on a Cisco WLAN in SMB and enterprise networks after completing certification.
+
+
+The CCNP is considered proof of having the ability to work with medium-sized networks (between 100 and 500 end devices) and with technology such as QoS, broadband, VPNs, and security-minded features. To acquire a CCNP one must possess a CCNA certification first and then pass three or four tests, depending on the path one chooses. The four tests path requires the candidate to pass the following tests:
+The BSCI and BCMSN tests can be taken as one single composite test known as the 642-892 Composite[9] which covers subjects for Building Scalable Cisco Internetworks (BSCI) and Building Cisco Multilayer Switched Networks (BCMSN).
+In order to retain the certification one must either take and pass a 642 (professional) exam or pass one of the CCIE written exams before the Professional certification expires. Additional resources and tools to aid in preparing for the certification are available on the CCNP Prep Center.[10]
+
+The CCDP certification is an advanced network design certification provided by Cisco Systems, Inc. Candidates for the certification are tested for advanced knowledge of Cisco devices and the way to interconnect them. The prerequisite for taking the CCDP is either the CCNA or the CCDA certification. There are two exams in common between the CCNP and CCDP (642-901 BSCI & 642-812 BCMSN) so that person can attain CCDP certification by passing a single test (642-873 ARCH).
+Required Exams:
+OR
+
+The CCIP certification is a professional certification covering the end-to-end protocols used in large scale networks.
+To attain this certification tests must be passed in the areas of routing, BGP, MPLS, Quality of service and the routing exam from the CCNP track (642-901 BSCI).
+
+The CCSP certification is an advanced network security certification. Candidates for the certification are tested for advanced knowledge of various Cisco security products.
+To attain this certification several tests must be passed in the areas of VPN, IDS, PIX firewall, Secure IOS, the Cisco SAFE, as well as having a CCNA or higher level certification (e.g. CCNP or CCIP).
+The common practice is to take four exams, one of which is selected from a list of electives.
+Required Exams:
+And one of the following:
+eligible person shoul quilifier
+
+The CCVP is a certification covering all aspects of IP Telephony/VOIP networks and applications.
+To attain this certification, five tests must be passed in the areas of Quality of service, Cisco VoIP, IP Telephony Troubleshooting, Cisco IP Telephony, and Gateway Gatekeeper.
+
+To recertify any Professional level certification, pass any 642 exam that is part of the professional level curriculum after August 18, 2006, or pass a current CCIE written exam.
+
+The expert-level certification is the Cisco Certified Internetwork Expert (CCIE). It is the highest level of professional certification that Cisco provides. There are five active CCIE tracks, as shown below. As of September 9, 2008 there are 18,840 people with active CCIE certifications in the world.[12].
+Cisco began its CCIE program in 1993[13] originally with a two day lab, later changing it to the one day format used today. Fewer than 3% of Cisco certified individuals attain CCIE certification, and on average will spend thousands of dollars and 18 months studying before passing.[14] Many candidates build mock-labs at home using old Cisco equipment, selling it again to other candidates after passing. Alternatively candidates may rent "rack time" online and practice lab scenarios on Cisco equipment hosted on the Internet for that purpose.
+Cisco refers to the CCIE as the "most respected IT certification",[15] and from 2002 to 2005[16] it was voted as such in CertCities magazine. It has also been voted the most technically advanced IT certification by CertMag,[17] and is generally reported as the highest salaried certification in IT salary surveys.
+The CCIE is comprised of a written exam and a "lab" exam (each in the specific area of the chosen track). The written exam is required to take the lab exam, and has a cost of $315[2] USD per attempt. Upon passing the written exam, the candidate has eighteen months to take the lab exam. If the first attempt is unsuccessful the candidate has three years from the date the written exam was passed to successfully complete the lab. If a candidate does not pass the CCIE lab in that time, they must pass the CCIE written exam again before making additional attempts at the CCIE lab exam. As many attempts can be made to pass the lab exam for up to three years after passing the written, so long as the first attempt is within 18 months. There is a minimum waiting time between attempts of one month.
+The CCIE Lab is currently $1,400 USD[2] per attempt and are offered only at ten Cisco lab exam locations worldwide. The locations are Bangalore; Beijing; Brussels; Dubai; Hong Kong; Research Triangle Park, NC; San Jose, CA; São Paulo; Sydney; and Tokyo. Some CCIE tracks do not have lab exams available at all locations. For example, the Storage Networking lab is available only at the Research Triangle Park, NC and Brussels locations. In addition, according to a survey by Cisco the average cost to prepare for CCIE certification is $9,050 as of April 2006, spent mostly on practice equipment and self study material.[18] This is partially offset by the increased salary the certification commands, which a March 2007 Network World article estimates at 10% - 15% over similarly experienced engineers who do not have a CCIE.[19]
+The lab is an eight hour hands-on exam designed to demonstrate that the candidate not only knows the theory, but is also able to practice it. Many prospective CCIEs need multiple attempts to pass the lab exam.
+There are no formal prerequisites for the CCIE exam, but Cisco recommends one has at least 3–5 years experience in networking before attempting to become a CCIE. CCIE was the first Cisco Certified qualification, and as such there were no other certifications that could be taken prior. The development of the associate and professional certifications was due to recognition of the fact that a CCIE is overkill for many networking personnel, and also for the vast majority of businesses who employ such people, and that certifications needed to be offered at lower levels. Despite the development of the lower certifications, Cisco has chosen not to make them formal requirements for the CCIE certification.
+It is possible to hold multiple CCIE certifications. This is done by passing both the written and the lab exam in a particular track. As of September 9, 2008, there are 1,729 individuals who hold multiple CCIE certifications. Of those, 274 hold three or more CCIE certifications.[20]
+
+Upon successful completion of the hands on lab exam, a new CCIE is awarded a CCIE number. The first CCIE number allocated (in 1993) was 1024, and has increased incrementally from there. A lower number indicates that the CCIE was awarded some time back, a higher number indicated a more recently awarded certification. As of February 2008, the highest CCIE number allocated was just over 20000.
+Number 1024 was allocated to the first CCIE lab location, rather than to an individual, and featured as a plaque at the entrance to the lab. Number 1025 was awarded to Stuart Biggs, who created the first written exam and first lab exam. The first person to pass both CCIE written and lab exams was Terrance Slattery, who was consulting to Cisco at the time when the lab was being devised. Terry Slattery (CCIE 1026) was therefore the first CCIE who passed both exams, and the first CCIE who was not an employee of Cisco.[21] [22]
+Any CCIE who obtains further CCIE certifications, is not awarded any further numbers, the new CCIE certification is awarded under the same number as the original.
+Every two years a CCIE has to take a CCIE written test to retain the certification (known as recertification, or recert). If this is not done, the CCIE is then said to be in suspended status. The CCIE certification is not recognised by Cisco as current at this point. After one further year, if a written test has not been undertaken and passed, the CCIE is then revoked. The CCIE certification can then only be re-gained by taking the written exam and lab exam from scratch.
+
+Routing and Switching is by far the most popular track with 15,852 certified individuals as of September 9, 2008[23]. The certification covers a variety of networking concepts and protocols including but not limited to the following list [24]:

@@ -1,0 +1,50 @@
+Augmented reality
+Augmented reality (AR) is a field of computer research which deals with the combination of real-world and computer-generated data (virtual reality), where computer graphics objects are blended into real footage in real time.
+At present, most AR research is concerned with the use of live video imagery which is digitally processed and "augmented" by the addition of computer-generated graphics. Advanced research includes the use of motion-tracking data, fiducial markers recognition using machine vision, and the construction of controlled environments containing any number of sensors and actuators.
+
+AR is one of the more focused descriptions. It covers a subset of AR's original goal, but it has come to be understood as representing the whole domain of AR: Augmented reality is an environment that includes both virtual reality and real-world elements. For instance, an AR user might wear translucent goggles; through these, he could see the real world, as well as computer-generated images projected on top of that world. Azuma defines an augmented reality system as one that
+
+
+For many of those interested in AR, one of its most important characteristics is the way in which it makes possible a transformation of the focus of interaction. The interactive system is no longer a precise location, but the whole environment; interaction is no longer simply a face-to-screen exchange, but dissolves itself in the surrounding space and objects. Using an information system is no longer exclusively a conscious and intentional act.
+
+A new and major area of current research is into the use of AR outdoors. GPS and orientation sensors enable backpack computing systems to take AR outdoors.
+Early systems have been developed by Steven Feiner at Columbia University (MARS system) and Bruce H. Thomas and Wayne Piekarski in the Wearable Computer Lab[1] at the University of South Australia (Tinmith[2] and ARQuake systems).
+Trimble Navigation, a provider of positioning solutions, has been researching Outdoor AR in collaboration with the Human Interface Technology Laboratory at its New Zealand R&D site in Christchurch. Local network news has reviewed its progress[3][4].
+
+Mobile Augmented Reality, or "mobile AR", is a combination of AR and mobile computing technology on mobile phones. Mobile phone's applications can use both fiduciary marker and markerless video tracking for image registration and insertion of 3d or 2d virtual objects into camera frame. Phone on-line connection in concert with a GPS unit, accelerometer and/or compass could also be used in combination with the camera for image registration.
+Some of the earliest applications emerging in this field are projects such as Enkin and Wikitude on the Google Android platform, Tonchidot's Sekai Camera on the iPhone platform, augmented reality marker-based games on the Nokia S60 platform, and Kweekies by int13.
+
+Mobile Projective Augmented Reality (MPAR) involves use of small hand held projector in combination with camera and/or motion tracker. The virtual scene is projected on real world. The recent trend towards miniaturization of projection technology indicates that soon mobile phone with embedded nano-projectors will be available in consumer market. This will enable new AR based user interfaces that are currently not possible. A demo of possible applications of MPAR was presented by MIT's Fluid Interface group [5].
+
+AR has clear connections with the ubiquitous computing (abbreviated UC) and wearable computers domains. Mark Weiser stated that "embodied virtuality", the original term he used before coining "ubiquitous computing", intended to express the exact opposite to the concept of virtual reality (Mark Weiser's personal communication, Boston, March 1993). The most salient distinction to be made between AR and UC is that UC does not focus on the disappearance of conscious and intentional interaction with an information system as much as AR does: UC systems such as pervasive computing devices usually maintain the notion of explicit and intentional interaction which often blurs in typical AR work such as Ronald Azuma's work. The theory of Humanistic Intelligence (HI), however, also challenges this semiotic notion of signifier and signified. [6] In particular, HI is intelligence that arises from the human being in the feedback loop of a computational process in which the human is inextricably intertwined, and does not typically require conscious thought or effort. In this way, HI, which arises from wearable Computer Mediated Reality, shares a lot in common with AR.
+
+Stereoscopy can also be utilized in Augmented Reality in order to give the illusion of depth to digital 3D images that are projected alongside real-world objects.
+
+
+
+Commonly known examples of AR are the yellow "first down" line seen in television broadcasts of American football games, and the colored trail showing location and direction of the puck in TV broadcasts of hockey games. The real-world elements are the football field and players, and the virtual element is the yellow line, which is drawn over the image by computers in real time. Similarly, rugby fields and cricket pitches are branded by their sponsors using Augmented Reality; giant logos are inserted onto the fields when viewed on television.
+Another type of AR application uses projectors and screens to insert objects into the real environment, enhancing museum exhibitions for example. The difference to a simple TV screen for example, is that these objects are related to the environment of the screen or display, and that they often are interactive as well.
+Many first-person shooter video games simulate the viewpoint of someone using AR systems. In these games the AR can be used to give visual directions to a location, mark the direction and distance of another person who is not in line of sight, give information about equipment such as remaining bullets in a gun, and display a myriad of other images based on whatever the game designers intend.
+Most of the possible applications of AR will, however, need personal display glasses[citation needed].
+In some current applications like in cars or airplanes, this is usually a head-up display integrated into the windshield.
+
+
+
+
+Pop group Duran Duran included interactive AR projections into their stage show during their 2000 Pop Trash concert tour.[7]
+
+The television series Dennō Coil depicts a near-future where children use AR goggles to enhance their environment with games and virtual pets. Ghost in the Shell 2: Innocence gives several examples of augmented reality in use, while Gundam, Gunbuster, Neon Genesis Evangelion, Voices of a Distant Star and Martian Successor Nadesico amongst several others depict 360° augmented reality cockpits that are used to display information. In Serial Experiments Lain, The Wired is overlaid onto the real world via electromagnetic radiation relaying information directly to people's brains, causing people to experience both The Wired and the real world.
+
+In the Star Trek universe, the Jem'Hadar used a sort of augmented display to view the real world and what was outside the ship, integrating with the star ship's main sensors to gain an outside view of the star ship.
+The television series Firefly depicts numerous AR applications, including a real-time medical scanner which allows a doctor to use his hands to manipulate a detailed and labeled projection of a patient's brain.
+The table top role-playing game, Shadowrun, introduced AR into its game world. Most of the characters in the game use viewing devices to interact with the AR world most of the time.
+Cybergeneration, a table top role-playing game by R. Talsorian, includes "virtuality", an augmented reality created through v-trodes, cheap, widely available devices people wear at their temples.
+The books Halting State by Charles Stross and Rainbows End by Vernor Vinge include augmented reality primarily in the form of virtual overlays over the real world. Halting State mentions Copspace, which is used by cops, and the use by gamers to overlay their characters onto themselves during a gaming convention. Rainbows End mentions outdoor overlays based on popular fictional universes from H. P. Lovecraft and Terry Pratchett among others.
+The term "Geohacking" has been coined by William Gibson in his book Spook Country, where artists use a combination of GPS and 3D graphics technology to embed rendered meshes in real world landscapes.
+In the 1993 ABC miniseries Wild Palms, a Scientology-like organization used holographic projectors to overlay virtual reality images over physical reality.
+In The Risen Empire, by Scott Westerfeld, most - if not all - people have their own "synesthesia". An AR menu unique to the user that is projected in front of them, but they can only see their own synesthesia menus. It is controlled by hand gestures, blink patterns, where the user is looking, clicks of the tongue, etc.
+
+At the 2008 LA Auto Show, Nissan unveiled the concept vehicle Cube and presented visitors with a brochure which, when held against a webcam,showed several versions of the vehicle interacting with the brochure. The brochure is also available from the company website http://www.nissanusa.com/cube/.
+On 16 Dec 2008, at a Volvo Ocean Race 2008-2009 event, Volvo Car Malaysia demonstrated the use of this same technology with its media partners a 3D Volvo Open 70 racing yacht. This virtual 3D Volvo Open 70 racing yacht can now be built on their teaser website at: http://www.vcc.com.my/oceanrace/.
+In January 2009 Toyota used Augmented Reality to provide an interactive demo of the new Toyota iQ. The program was created by Inition using their MagicSymbol system and can be downloaded from Toyota's website�: http://www.toyota.co.uk/cgi-bin/toyota/bv/frame_start.jsp?id=iQ_reality
+

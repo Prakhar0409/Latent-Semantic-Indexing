@@ -1,0 +1,83 @@
+PowerBook G4
+The PowerBook G4 is a series of notebook computers that was manufactured, marketed, and sold by Apple Computer, Inc. between 2001 and 2006 as part of its PowerBook line. It uses the PowerPC G4 processor, initially produced by Motorola and later by Freescale, after Motorola spun off its semiconductor business under that name in 2004. The PowerBook G4 had two different designs: one enclosed in a titanium body with a translucent black keyboard and a 15" screen; and another in an aluminium body with an aluminium-colored keyboard, in 12", 15" and 17" sizes.
+Between 2001 and 2003, Apple produced the Titanium PowerBook G4; between 2003 and 2006, the Aluminium models were produced. Both models were hailed for their modern design, long battery life and processing power. When the Aluminium PowerBook G4s were first released in January 2003, however, only 12 and 17 inch models were available. The 15 inch retained the titanium body until September 2003 when a new aluminium 15 inch PowerBook was released. In addition to the change from titanium to aluminium, the new 15 inch model featured a FireWire 800 port, which had been included with the 17 inch model since its debut nine months earlier.
+The PowerBook G4 line was the last generation of the PowerBook series, and was succeeded by the Intel-powered MacBook Pro line in the first half of 2006.
+
+The first generations of the PowerBook G4 were announced at Steve Jobs' keynote at MacWorld Expo in January 2001. They featured a PowerPC G4 processor running at either 400 or 500 MHz. They were just 1 inch (25 mm) thick, 0.7 inches (18 mm) thinner than their predecessor, the PowerBook G3. The PowerBook G4 Titanium also featured a front-mounted slot-loading optical drive into which optical discs (initially DVDs or CDs) could be inserted. The notebook was given the nickname "TiBook", a portmanteau of titanium, the material used for the computer's case, and the brand name PowerBook, Apple's professional-oriented line of laptop computers.
+
+The initial design of the PowerBook G4s was developed by Apple hardware designers Jory Bell, Nick Merz and Danny Delulis. The new design was a sharp departure from the black plastic, curvilinear PowerBook G3 models that preceded it, more modernist than ergonomic. Apple's industrial design, headed by British designer Jonathan Ive, was to continue toward simple, elegant, and minimalistic designsâ€”the TiBook laid the groundwork for the Aluminium PowerBook G4, the Power Mac G5, the flat-screen iMac, the Xserve and the Mac mini.
+
+The hinges on the Titanium PowerBook display are notorious for breaking under typical use. Usually the hinge (which is shaped like an 'L') will break just to the left of where it attaches to the lower case on the right hinge, and just to the right on the left hinge (where the right hinge is on the right side of the computer when the optical drive is facing you). At least one manufacturer began producing sturdier replacement hinges to address this problem, though actually performing the repair is difficult as the display bezel is glued together. In addition some discolouration, bubbling or peeling of paint on the outer bezel occurred, notably around the area where the palm would rest whilst using the trackpad. This appeared on early models but not on later Titanium PowerBooks.
+
+The video cable is routed around the left side hinge. This and heavy use will cause the cable to weaken. Many owners have reported display problems like, lines, jumbled screen. Few have replaced just the video cable to successfully resolve their problem. There is also a backlit cable that will fail. Try replacing those before buying expensive LCDs.
+
+
+In 2003 Apple introduced a new line of PowerBook G4s with 12- 15 and 17-inch screens and aluminium cases (prompting the new moniker "AlBook"). The new notebooks not only brought a different design to the PowerBook G4 line but also laid down the foundation for Appleâ€™s notebook design for the next five years, replaced initially in January 2008 by the MacBook Air and the subsequent MacBook and MacBook Pro redesigns in October. The 15" Titanium was still available until September 16 2003 when the Aluminium model replaced it. Notably, the 12" model brought a welcome return to the Apple subnotebook configuration, conspicuously lacking in their product line since the discontinuation of the PowerBook 2400 in 1998. While the Titanium PowerBook G4s were capable of running Mac OS 9 or Mac OS X operating systems, the Aluminium PowerBook G4s could only boot in Mac OS X from startup. Both series of machines could run Mac OS 9 in Classic mode from within Mac OS X.
+
+The Aluminium PowerBook G4 was designed by Apple's VP of Industrial Design Jonathan Ive, and used a radically different design from the preceding Titanium models. The most obvious change was the use of Aluminium, not Titanium, to manufacture the body. The keyboard, which was originally black, was changed to match the color of the body. Additionally, the aluminum keyboard was backlit on the 17" model and on one of the 15" models. The design was considered superior to most other notebooks when it debuted in 2003, and consequently it made the PowerBook G4 one of the most desirable notebooks on the market. The external design of Apple's professional laptops continued to remain similar to the aluminium Powerbook G4 until the Spotlight on Notebooks event on 14 October 2008.
+
+People have experienced failure of the lower memory slot, with the typical repair being the replacement of the logic board. Apple had started a Repair Extension Program concerning the issue,[3] but it has been noted that some models displaying the issue have not been included.
+Apple have previously had an Repair Extension Program to fix the "white spot" issue on its 15" PB displays.[4]
+There has also been a rash of reports concerning sudden and pervasive sleeping of 1.5 and 1.67 GHz models.[5][6][7] Symptoms will include the PowerBook suddenly entering sleep mode, no matter the battery level or if plugged into the mains. One cause is the ambient light sensing, and associated instruction set coding, with possible keyboard backlight and sleep light issues accompanying the so-called "narcolepsy". Another cause is the trackpad heat sensor monitoring the trackpad; system logs report "Power Management received emergency overtemp signal. Going to sleep.".[citation needed]
+To correct this, service groups will often replace the motherboard or power converter, but the actual fix (depending on the model) for the first cause is to replace or remove the left or right ambient light sensors; and for the second cause, disconnect, remove, or replace the heat sensor, or the entire top case which holds the trackpad heat sensor. Alternatively, there are reports which detail success in removing certain sensor kernel extensions or rebuilding the kernel using the Darwin Open Source project after commenting out the relevant sleepSystem() call; though permanent solution of the sleep issue in this manner is little documented.[8]
+The 1.67 GHz model may suffer from manufacturing or design defects in its display. Initial reports pointed to this only being a problem with type M9689 17" PowerBooks introduced in Q2 2005, but then this problem was also seen in displays replaced by Apple Service Providers in this period (e.g. because of the bright spots issue). The devices were the last 17" models shipped with the matte 1440x900 pixel low resolution display. After many months of usage, the displays may show permanently shining lines of various colors stretching vertically across the LCD. Often this will start with 1 pixel wide vertical lines being "stuck" in an "always-on" mode. Various sites have been set up documenting this issue.[9][10] and a campaign seeks to get Apple to acknowledge that a defect exists. Posts regarding this in Apple forums have been heavily censored. No official word from Apple on the issue.
+
+
+The PowerPC G5, which powers Apple's now-discontinued Power Mac G5 and iMac G5 computers, proved to be too power-hungry and heat-intensive to use in laptops.[21] This, along with the stalling development of the G5, is said to be one of the main reasons for Apple's transition from PowerPC to Intel processors. It should also be noted that development of x86-based Mac OS X had been occurring for some 8+ years before its release to the public.[21] On January 10, 2006, Apple released its first Intel-based laptop, the 15" MacBook Pro. A 17" version of the MacBook Pro followed on April 24, 2006. The 12" PowerBook G4 and the G4 iBook were discontinued and replaced by the 13.3" MacBook which was released on May 16, 2006, ending the whole PowerBook line. However, an immediate replacement for the 12" subnotebook form factor was not immediately forthcoming. Apple's current subnotebook offering is the MacBook Air, released in 2008.
+Apple CEO Steve Jobs noted during the introduction of the MacBook Pro that Apple wants the word "Mac" in the name of all its Mac hardware products. Consequently, the trademark name "PowerBook" was retired in early 2006 despite the G4 version still on support.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

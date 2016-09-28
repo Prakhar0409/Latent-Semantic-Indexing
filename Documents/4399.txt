@@ -1,0 +1,35 @@
+Sound pressure
+Sound pressure is the local pressure deviation from the ambient (average, or equilibrium) pressure caused by a sound wave. Sound pressure can be measured using a microphone in air and a hydrophone in water. The SI unit for sound pressure is the pascal (symbol: Pa). The instantaneous sound pressure is the deviation from the local ambient pressure p0 caused by a sound wave at a given location and given instant in time. The effective sound pressure is the root mean square of the instantaneous sound pressure over a given interval of time (or space). In a sound wave, the complementary variable to sound pressure is the acoustic particle velocity. For small amplitudes, sound pressure and particle velocity are linearly related and their ratio is the acoustic impedance. The acoustic impedance depends on both the characteristics of the wave and the medium. The local instantaneous sound intensity is the product of the sound pressure and the acoustic particle velocity and is, therefore, a vector quantity.
+The sound pressure deviation (instantaneous acoustic pressure) p is
+where
+The entire pressure ptotal is
+where
+
+Sound pressure level (SPL) or sound level Lp is a logarithmic measure of the rms sound pressure of a sound relative to a reference value. It is measured in decibels (dB).
+where pref is the reference sound pressure and prms is the rms sound pressure being measured.[1]
+Sometimes variants are used such as dB (SPL), dBSPL, or dBSPL. These variants are not permitted by SI.[2]
+The unit dB (SPL) is often abbreviated to just "dB", which gives some the erroneous notion that a dB is an absolute unit by itself.[contradiction]
+The commonly used reference sound pressure in air is pref = 20 µPa (rms), which is usually considered the threshold of human hearing (roughly the sound of a mosquito flying 3 m away). When dealing with hearing, the perceived loudness of a sound correlates roughly logarithmically to its sound pressure. See also Weber-Fechner law. Most measurements of audio equipment will be made relative to this level, meaning 1 pascal will equal 94 dB of sound pressure.
+In other media, such as underwater, a reference level of 1 µPa is more often used.[3]
+These references are defined in ANSI S1.1-1994.[4]
+The human ear is a sound pressure sensitive detector. It does not have a flat spectral response, so the sound pressure is often frequency weighted such that the measured level will match the perceived level. When weighted in this way the measurement is referred to as a sound level. The International Electrotechnical Commission (IEC) has defined several weighting schemes. A-weighting attempts to match the response of the human ear to pure tones, while C-weighting is used to measure peak sound levels.[5] If the (unweighted) SPL is desired, many instruments allow a "flat" or unweighted measurement to be made. See also Weighting filter.
+When measuring the sound created by an object, it is important to measure the distance from the object as well, since the SPL decreases in distance from a point source with 1/r (and not with 1/r2, like sound intensity). It often varies in direction from the source, as well, so many measurements may be necessary, depending on the situation. An obvious example of a source that varies in level in different directions is a bullhorn.
+Sound pressure p in N/m² or Pa is
+where
+Sound pressure p is connected to particle displacement (or particle amplitude) ξ, in m, by
+Sound pressure p is
+normally in units of N/m² = Pa.
+where:
+The distance law for the sound pressure p is inverse-proportional to the distance r of a punctual sound source.
+The assumption of 1/r² with the square is here wrong. That is only correct for sound intensity.
+Note: The often used term "intensity of sound pressure" is not correct. Use "magnitude", "strength", "amplitude", or "level" instead. "Sound intensity" is sound power per unit area, while "pressure" is a measure of force per unit area. Intensity is not equivalent to pressure.
+Hence 
+
+Sound pressure in air:
+Sound pressure in water:
+The formula for the sum of the sound pressure levels of n incoherent radiating sources is
+From the formula of the sound pressure level we find
+This inserted in the formula for the sound pressure level to calculate the sum level shows
+
+
+

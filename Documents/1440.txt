@@ -1,0 +1,37 @@
+Twelve leverage points
+
+The twelve leverage points to intervene in a system were proposed by Donella Meadows, a scientist and system analyst focused on environmental limits to economic growth. The leverage points, first published in 1997, were inspired by her attendance at a North American Free Trade Agreement (NAFTA) meeting in the early 1990s where she realized that a very large new system was being proposed but the mechanisms to manage it were ineffective.
+Meadows, who worked in the field of systems analysis, proposed a scale of places to intervene in a system. Awareness and manipulation of these levers is an aspect of self-organization and can lead to collective intelligence.
+Her observations are often cited in energy economics, green economics and human development theory.
+She started with the observation that there are levers, or places within a complex system (such as a firm, a city, an economy, a living being, an ecosystem, an ecoregion) where a "small shift in one thing can produce big changes in everything" (compare: constraint in the sense of Theory of Constraints).
+She claimed we need to know about these shifts, where they are and how to use them. She said most people know where these points are instinctively, but tend to adjust them in the wrong direction. This understanding would help solve global problems such as unemployment, hunger, economic stagnation, pollution, resources depletion, and conservation issues.
+Meadows started with a 9-point list of such places, and expanded it to a list of twelve leverage points with explanation and examples, for systems in general.
+She describes a system as being in a certain state, and containing a stock, with inflows (amounts coming into the system) and outflows (amounts going out of the system). At a given time, the system is in a certain perceived state. There may also be a goal for the system to be in a certain state. The difference between the current state and the goal is the discrepancy.
+
+
+Parameters are points of lowest leverage effects. Though they are the most clearly perceived among all leverages, they rarely change behaviors and therefore have little long-term effect.
+
+A buffer's ability to stabilize a system is important when the stock amount is much higher than the potential amount of inflows or outflows. In the lake, the water is the buffer: if there's a lot more of it than inflow/outflow, the system stays stable.
+Buffers can improve a system, but they are often physical entities whose size is critical and can't be changed easily.
+
+A system's structure may have enormous effect on operations, but may be difficult or prohibitively expensive to change. Fluctuations, limitations, and bottlenecks may be easier to address.
+
+Information received too quickly or too late can cause over- or underreaction, even oscillations.
+
+A negative feedback loop slows down a process, tending to promote stability (stagnation). The loop will keep the stock near the goal, thanks to parameters, accuracy and speed of information feedback, and size of correcting flows.
+
+A positive feedback loop speeds up a process. Meadows indicates that in most cases, it is preferable to slow down a positive loop, rather than speeding up a negative one.
+
+Information flow is neither a parameter, nor a reinforcing or slowing loop, but a loop that delivers new information. It is cheaper and easier than changing structure.
+
+Pay attention to rules, and to who makes them.
+
+Self-organization describes a system's ability to change itself by creating new structures, adding new negative and positive feedback loops, promoting new information flows, or making new rules.
+
+Changes every item listed above: parameters, feedback loops, information and self-organisation.
+
+A society paradigm is an idea, an unstated assumption that everyone shares, thoughts, or states of thoughts that are sources of systems. Paradigms are very hard to change, but there are no limits to paradigm change. Meadows indicates paradigms might be changed by repeatedly and consistently pointing out anomalies and failures to those with open minds.
+
+Transcending paradigms may go beyond challenging fundamental assumptions, into the realm of changing the values and priorities that lead to the assumptions, and being able to choose among value sets at will.
+
+

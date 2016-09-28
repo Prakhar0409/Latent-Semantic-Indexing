@@ -1,0 +1,16 @@
+Business intelligence
+Business intelligence (BI) refers to skills, technologies, applications and practices used to help a business acquire a better understanding of its commercial context. Business intelligence may also refer to the collected information itself.
+BI applications provide historical, current, and predictive views of business operations. Common functions of business intelligence applications are reporting, OLAP, analytics, data mining, business performance management, benchmarks, text mining, and predictive analytics.
+Business intelligence often aims to support better business decision-making.[1] Thus a BI system can be called a decision support system (DSS).[2]
+
+In a 1958 article, IBM researcher Hans Peter Luhn used the term business intelligence. He defined intelligence as:[1] "the ability to apprehend the interrelationships of presented facts in such a way as to guide action towards a desired goal."
+In 1989 Howard Dresner (later a Gartner Group analyst) proposed BI as an umbrella term to describe "concepts and methods to improve business decision making by using fact-based support systems."[2] It was not until the late 1990s that this usage was widespread.
+
+Often BI applications use data gathered from a data warehouse or a data mart. However, not all data warehouses are used for business intelligence nor do all business intelligence applications require a data warehouse.
+
+The term business intelligence is often used as a synonym for competitive intelligence.
+
+A 2009 Gartner Group paper predicted these developments in business intelligence market .[3]
+
+
+

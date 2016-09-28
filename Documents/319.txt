@@ -1,0 +1,24 @@
+Glycolysis
+Glycolysis (from glycose, an older term[1] for glucose + -lysis degradation) is the metabolic pathway that converts glucose, C6H12O6, into pyruvate, C3H5O3-. The free energy released in this process is used to form the high energy compounds, ATP (adenosine triphosphate) and NADH (reduced nicotinamide adenine dinucleotide).
+Glycolysis is a sequence of ten reactions involving ten intermediate compounds (one of the steps involves two intermediates). The intermediates provide entry points to glycolysis. For example, most monosaccharides, such as fructose, glucose, and galactose, can be converted to one of these intermediates. The intermediates may also be directly useful. For example, the intermediate dihydroxyacetone phosphate is a source of the glycerol that combines with fatty acids to form fat.
+Glycolysis is thought to be the archetype of a universal metabolic pathway. It occurs, with variations, in nearly all organisms, both aerobic and anaerobic. The wide occurrence of glycolysis indicates that it is one of the most ancient known metabolic pathways.[2]
+The most common type of glycolysis is the Embden-Meyerhof pathway, which was first discovered by Gustav Embden and Otto Meyerhof. Glycolysis also refers to other pathways, such as the Entner-Doudoroff Pathway. However, the discussion here will be limited to the Embden-Meyerhof pathway l.
+
+The overall reaction of glycolysis is:
+For simple anaerobic fermentations, the metabolism of one molecule of glucose to two molecules of pyruvate has a net yield of two molecules of ATP. Most cells will then carry out further reactions to 'repay' the used NAD+ and produce a final product of ethanol or lactic acid. Many bacteria use inorganic compounds as hydrogen acceptors to regenerate the NAD+.
+Cells performing aerobic respiration synthesize much more ATP, but not as part of glycolysis. These further aerobic reactions use pyruvate and NADH + H+ from glycolysis. Eukaryotic aerobic respiration produces approximately 34 additional molecules of ATP for each glucose molecule, however most of these are produced by a vastly different mechanism to the substrate-level phosphorylation in glycolysis.
+The lower energy production, per glucose, of anaerobic respiration relative to aerobic respiration, results in greater flux through the pathway under hypoxic (low-oxygen) conditions, unless alternative sources of anaerobically-oxidizable substrates, such as fatty acids, are found.
+
+In 1860 Louis Pasteur discovered that microorganisms are responsible for fermentation. In 1897 Eduard Buchner found that extracts of certain cells can cause fermentation. In 1905 Arthur Harden and William Young determined that a heat-sensitive high-molecular-weight subcellular fraction (the enzymes) and a heat-insensitive low-molecular-weight cytoplasm fraction (ADP, ATP and NAD+ and other cofactors) are required together for fermentation to proceed. The details of the pathway were eventually determined by 1940, with a major input from Otto Meyerhof and some years later by Luis Leloir. The biggest difficulties in determining the intricacies of the pathway were due to the very short lifetime and low steady-state concentrations of the intermediates of the fast glycolytic reactions.
+
+
+The first five steps are regarded as the preparatory (or investment) phase since they consume energy to convert the glucose into two three-carbon sugar phosphates (G3P).
+In animals, an isozyme of hexokinase called glucokinase is also used in the liver, which has a much lower affinity for glucose (Km in the vicinity of normal glycemia), and differs in regulatory properties. The different substrate affinity and alternate regulation of this enzyme are a reflection of the role of the liver in maintaining blood sugar levels.
+Cofactors: Mg2+
+
+The change in structure is an isomerization, in which the G6P has been converted to F6P. The reaction requires an enzyme, phosphohexose isomerase, to proceed. This reaction is freely reversible under normal cell conditions. However, it is often driven forward because of a low concentration of F6P, which is constantly consumed during the next step of glycolysis. Under conditions of high F6P concentration this reaction readily runs in reverse. This phenomenon can be explained through Le Chatelier's Principle.
+
+The same reaction can also be catalysed by pyrophosphate dependent phosphofructokinase (PFP or PPi-PFK), which is found in most plants, some bacteria, archea and protists but not in animals. This enzyme uses pyrophosphate (PPi) as a phosphate donor instead of ATP. It is a reversible reaction, increasing the flexibility of glycolytic metabolism.[3] A rarer ADP-dependent PFK enzyme variant has been identified in archaean species.[4]
+Cofactors: Mg2+
+
+

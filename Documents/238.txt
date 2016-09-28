@@ -1,0 +1,19 @@
+Multidimensional Expressions
+Multidimensional Expressions (MDX) is a query language for OLAP databases, much like SQL is a query language for relational databases. It is also a calculation language, with syntax similar to spreadsheet formulas.
+
+The MultiDimensional eXpressions (MDX) language provides a specialized syntax for querying and manipulating the multidimensional data stored in OLAP cubes.[1] While it is possible to translate some of these into traditional SQL, it would frequently require the synthesis of clumsy SQL expressions even for very simple MDX expressions. MDX has been embraced by wide majority of OLAP vendors and has become the de facto standard for OLAP systems.
+
+MDX was first introduced as part of the OLE DB for OLAP specification in 1997 from Microsoft. It was invented by the group of SQL Server engineers including Mosha Pasumansky. The specification was quickly followed by commercial release of Microsoft OLAP Services 7.0 in 1998 and later by Microsoft Analysis Services. The latest version of the OLE DB for OLAP specification was issued by Microsoft in 1999.
+While it was not an open standard, but rather a Microsoft owned specification, it was adopted by the wide range of OLAP vendors. This included both vendors on the server side such as Applix, Microstrategy, SAS, SAP, Whitelight, NCR and vendors on the client side such as Panorama Software, Proclarity, AppSource, Cognos, Business Objects, Brio Technology, Crystal Reports, Microsoft Excel, Microsoft Reporting Services, etc.
+With the invention of XML for Analysis, which standardized MDX as a query language, even more companies- such as Hyperion Solutions- began supporting MDX.
+The XML for Analysis specification referred back to the OLE DB for OLAP specification for details on the MDX Query Language. In Analysis Services 2005, Microsoft has added some MDX Query Language extensions like subselects. Products like Microsoft Excel 2007 have started to use these new MDX Query Language extensions.
+
+In 2001 the XMLA Council released the XML for Analysis standard, which included mdXML as a query language. In the current XMLA 1.1 specification, mdXML is essentially MDX wrapped in the XML <Statement> tag.
+
+There are six primary data types in MDX
+
+The following example, adapted from the SQL Server 2000 Books Online, shows a basic MDX query that uses the SELECT statement. This query returns a result set that contains the 2002 and 2003 store sales amounts for stores in the state of California.
+In this example, the query defines the following result set information:
+Note: You can specify up to 128 query axes in an MDX query.
+
+

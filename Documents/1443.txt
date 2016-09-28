@@ -1,0 +1,28 @@
+Digital humanities
+The digital humanities, also known as humanities computing, is a field of study, research, teaching, and invention concerned with the intersection of computing and the disciplines of the humanities. It is methodological by nature and interdisciplinary in scope. It involves investigation, analysis, synthesis and presentation of knowledge using computational media. It studies how these media affect the disciplines in which they are used, and what these disciplines have to contribute to our knowledge of computing. Academic departments of the digital humanities typically include technical practitioners as well as traditionally trained scholars with experience or expertise in digital media. Such departments tend to be heavily involved in collaborative research projects with colleagues in other departments.
+The interdisciplinary position of the digital humanities is comparable to that of comparative literature in relation to literary studies. It involves experts in both research and teaching; in all of the traditional arts and humanities disciplines (history, philosophy, linguistics, literature, art, archaeology, and music of many cultures, for example); specialists in electronic publication and computational analysis, in project design and visualisation, in data archiving and retrieval.
+
+The goal of many researchers in the digital humanities is to begin to integrate technology into their scholarly activities,[citation needed] such as the use of text-analytic techniques; GIS; commons-based peer collaboration; interactive games and multimedia in the research and teaching of history, philosophy, literature, religious studies or sociology. It is defined epistemologically by two questions: how we know what we somehow know, and (to quote Lisa Samuels), how we imagine what we do not know. It is defined methodologically by the belief that means of knowledge-making, dispersal, and collection are common among the disciplines that make up the liberal arts. John Unsworth defines these common activities as: discovering, annotating, comparing, referring, sampling, illustrating and representing. Willard McCarty argues that in principle all of these are manifested computationally by modelling, which (to use Clifford Geertz's distinction) moves between models of pre-existing objects and models for that which is imagined.[1]
+Most researchers across the disciplines agree with Fr Roberto Busa's argument that the primary effect of computing is not to accelerate the pace of humanities research, but rather to provide new ways of approach and new paradigms for the enduring problems in the study of human cultural artifacts.[2]
+
+Another way to view the digital humanities is to see it as the study of how new technology affects the concept of knowledge itself. Databases and programming languages privilege certain ways of processing knowledge that can be studied hermeneutically or phenomenologically. Importance is determined by those with access to the new tools and skill sets, and the power to declare what is knowledge is itself an important topic of study. The process of digitising an academic research project itself casts a new light on the subject matter, even making new kinds of data available or radically changing the nature of the research itself.
+
+One of the goals of the digital humanities is to understand scholarly documents as more than texts and papers. This includes the integration of multimedia, metadata and dynamic environments. A dynamic scholarly document would no longer resemble a linear narrative. An example of this is The Valley of the Shadow project at the University of Virginia or the Vectors Journal of Culture and Technology in a Dynamic Vernacular at University of Southern California.
+At present formal academic recognition of digital work in the humanities remains somewhat problematic. Socially this has to do with the slow pace of institutional change. Intellectually it has to do with the curious, poorly understood nature of non-verbal knowledge-bearing objects, or what Davis Baird has called thing knowledge. Curatorially it raises the serious problem of how such knowledge-bearing objects are to be preserved for the long term. Culturally it runs afoul of the low status commonly given to works of popular culture -- multimedia, documentaries, interactive games and other visual media -- which tend to be dismissed as entertainment. The increasing volume of important scholarship in the digital humanities suggests, however, that recognition is unavoidable and that serious attention is urgently needed to the understanding and preserving of these digital objects of knowledge.
+
+One major theme of the digital humanities, regardless of whether it is approached as lens or tool, is technology's effects upon and uses for the expression of semantic versus syntactic knowledge. This is expressed in the seeming dichotomy between techne and poiesis, and the secondary dichotomy between the allopoietic and autopoietic.
+Another theme is the focus of patterns and the interactions of dynamic elements rather than of specific actors and actions.
+Both of these can be seen in the works of McLuhan.
+
+Because of the interactive and academic nature of digital scholarship, scholars are particularly concerned with open standards and with generic, durable solutions to academic needs of the community. Rather than relying on a proprietary tool, for example, or writing a specialised program for a particular task in a single project, the Digital Humanities draws on the existing body of expertise on the topic, on tools that have been made freely available and customizable, to build solutions that can be repurposed and in turn shared with the open source community.
+
+
+
+
+
+
+
+
+
+
+

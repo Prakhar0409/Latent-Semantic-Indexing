@@ -1,0 +1,29 @@
+Observer pattern
+The observer pattern (a subset of the asynchronous publish/subscribe pattern) is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems.
+
+The participants of the pattern are detailed below. Member functions are listed with bullets.
+
+This abstract class provides an interface for attaching and detaching observers. Subject class also holds a private list of observers. Contains these functions (methods):
+The Attach function has an observer as argument. This may be either a virtual function of the observer class (Update in this description) or a function pointer (more generally a function object or functor) in a non object oriented setting.
+
+The class provides the state of interest to observers. It also sends a notification to all observers, by calling the Notify function in its superclass or base class (i.e., in the Subject class). Contains this function:
+
+This class defines an updating interface for all observers, to receive update notification from the subject. The Observer class is used as an abstract class to implement concrete observers. Contains this function:
+
+This class maintains a reference with the ConcreteSubject, to receive the state of the subject when a notification is received. Contains this function:
+Each concrete observer implements the update function and as a consequence defines its own behavior when the notification occurs.
+When a change occurs to the (concrete) subject, it sends a notification to all observers, by calling the Notify function. The Notify function then calls the Update function of all attached (concrete) observers. The Notify and Update functions may have parameters indicating what kind of change has occurred to the subject. This allows for optimizations in the observer (only updating those parts that changed).
+
+The observer pattern is also very often associated with the model-view-controller (MVC) paradigm. In MVC, the observer pattern is used to create a loose coupling between the model and the view. Typically, a modification in the model triggers the notification of model observers which are actually the views.
+An example is Java Swing, in which the model is expected to issue change notifications to the views via the PropertyChangeNotification infrastructure. Model classes are Java beans that behave as the subject, described above. View classes are associated with some visible item on the GUI and behave as the observers, described above. As the application runs, changes are made to the model. The user sees these changes because the views are updated accordingly.
+
+
+The observer pattern in Python:
+The observer pattern can be implemented more succinctly in Python using function decorators.
+
+Below is an example that takes keyboard input and treats each input line as an event. The example is built upon the library classes java.util.Observer and java.util.Observable. When a string is supplied from System.in, the method notifyObserver is then called, in order to notify all observers of the event's occurrence, in the form of an invocation of their 'update' methods - in our example, ResponseHandler.update(...).
+The file myapp.java contains a main() method that might be used in order to run the code.
+
+C# and the other .NET Framework languages do not typically require a full implementation of the Observer pattern using interfaces and concrete objects. Here is an example of using them, however.
+
+The alternative to using concrete and abstract observers and publishers in C# and other .NET Framework languages, such as Visual Basic, is to use events. The event model is supported via delegates that define the method signature that should be used to capture events. Consequently, delegates provide the mediation otherwise provided by the abstract observer, the methods themselves provide the concrete observer, the concrete subject is the class defining the event, and the subject is the event system built into the base class library. It is the preferred method of accomplishing the Observer pattern in .NET applications.

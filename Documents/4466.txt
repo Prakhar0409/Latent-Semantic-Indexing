@@ -1,0 +1,25 @@
+Carbon cycle
+The carbon cycle is the biogeochemical cycle by which carbon is exchanged among the biosphere, pedosphere, geosphere, hydrosphere, and atmosphere of the Earth.
+The carbon cycle is usually thought of as four major reservoirs of carbon interconnected by pathways of exchange. These reservoirs are:
+The annual movements of carbon, the carbon exchanges between reservoirs, occur because of various chemical, physical, geological, and biological processes. The ocean contains the largest active pool of carbon near the surface of the Earth, but the deep ocean part of this pool does not rapidly exchange with the atmosphere.
+The global carbon budget is the balance of the exchanges (incomes and losses) of carbon between the carbon reservoirs or between one specific loop (e.g., atmosphere ↔ biosphere) of the carbon cycle. An examination of the carbon budget of a pool or reservoir can provide information about whether the pool or reservoir is functioning as a source or sink for carbon dioxide.
+
+Carbon exists in the Earth's atmosphere primarily as the gas carbon dioxide (CO2). Although it is a small percentage of the atmosphere (approximately 0.04% on a molar basis, and increasing), it plays an important role in supporting life. Other gases containing carbon in the atmosphere are methane and chlorofluorocarbons (the latter is entirely anthropogenic). The overall atmospheric concentration of these greenhouse gases has been increasing in recent decades, cot carbon dioxide into carbohydrates, releasing oxygen in the process. This process is most prolific in relatively new forests where tree growth is still rapid. The effect is strongest in deciduous forests during spring leafing out. This is visible as an annual signal in the Keeling curve of measured CO2 concentration. Northern hemisphere spring predominates, as there is far more land in temperate latitudes in that hemisphere than in the southern.
+Carbon is released into the atmosphere in several ways:
+
+
+Around 10 gigatons of carbon are present in the biosphere. Carbon is an essential part of life on Earth. It plays an important role in the structure, biochemistry, and nutrition of all living cells.
+Carbon storage in the biosphere is influenced by a number of processes on different time-scales: while net primary productivity follows a diurnal and seasonal cycle, carbon can be stored up to several hundreds of years in trees and up to thousands of years in soils. Changes in those long term carbon pools (e.g. through de- or afforestation or through temperature-related changes in soil respiration) may thus affect global climate change.
+
+The oceans contain around 36,000 gigatonnes of carbon, mostly in the form of bicarbonate ion (over 90%, with most of the remainder being carbonate). Extreme storms such as hurricanes and typhoons bury a lot of carbon, because they wash away so much sediment. For instance, a team reported in the July 2008 issue of the journal Geology that a single typhoon in Taiwan buries as much carbon in the ocean -- in the form of sediment -- as all the other rains in that country all year long combined.[4] Inorganic carbon, that is carbon compounds with no carbon-carbon or carbon-hydrogen bonds, is important in its reactions within water. This carbon exchange becomes important in controlling pH in the ocean and can also vary as a source or sink for carbon. Carbon is readily exchanged between the atmosphere and ocean. In regions of oceanic upwelling, carbon is released to the atmosphere. Conversely, regions of downwelling transfer carbon (CO2) from the atmosphere to the ocean. When CO2 enters the ocean, it participates in a series of reactions which are locally in equilibrium:
+Solution:
+Conversion to carbonic acid:
+First ionization:
+Second ionization:
+This set of reactions, each of which has its own equilibrium coefficient determines the form that inorganic carbon takes in the oceans[5]. The coefficients, which have been determined empirically for ocean water, are themselves functions of temperature, pressure, and the presence of other ions (especially borate). In the ocean the equilibria strongly favor bicarbonate. Since this ion is three steps removed from atmospheric CO2, the level of inorganic carbon storage in the ocean does not have a proportion of unity to the atmospheric partial pressure of CO2. The factor for the ocean is about ten: that is, for a 10% increase in atmospheric CO2, oceanic storage (in equilibrium) increases by about 1%, with the exact factor dependent on local conditions. This buffer factor is often called the "Revelle Factor", after Roger Revelle.
+In the oceans, bicarbonate can combine with calcium to form limestone (calcium carbonate, CaCO3, with silica), which precipitates to the ocean floor. Limestone is the largest reservoir of carbon in the carbon cycle. The calcium comes from the weathering of calcium-silicate rocks, which causes the silicon in the rocks to combine with oxygen to form sand or quartz (silicon dioxide), leaving calcium ions available to form limestone[6].
+
+
+
+
+

@@ -1,0 +1,43 @@
+Extreme Programming
+Extreme Programming (XP) is a software engineering methodology (and a form of agile software development)[1][2][3] prescribing a set of daily stakeholder practices that embody and encourage particular XP values (below). Proponents believe that exercising these practices—traditional software engineering practices taken to so-called "extreme" levels—leads to a development process that is more responsive to customer needs ("agile") than traditional methods, while creating software of better quality.[2][3][4]
+Proponents of Extreme Programming and agile methodologies in general regard ongoing changes to requirements as a natural, inescapable and desirable aspect of software development projects; they believe that adaptability to changing requirements at any point during the project life is a more realistic and better approach than attempting to define all requirements at the beginning of a project and then expending effort to control changes to the requirements.
+However, XP has been noted for several potential drawbacks,[5] as compared to more document-based methodologies, including problems with unstable requirements, no documented compromises of user conflicts, and lack of an overall design spec or document (see below: Controversial aspects).
+
+Extreme Programming was created by Kent Beck during his work on the Chrysler Comprehensive Compensation System (C3) payroll project.[5] Beck became the C3 project leader in March 1996 and began to refine the development method used in the project and wrote a book on the method (in October 1999, Extreme Programming Explained was published).[5] Chrysler cancelled the C3 project in February 2000.[6]
+Although Extreme Programming itself is relatively new, many of its practices have been around for some time; the methodology, after all, takes "best practices" to extreme levels. For example, the "practice of test-first development, planning and writing tests before each micro-increment" was used as early as NASA's Project Mercury, in the early 1960s (Larman 2003). Refactoring, modularity, bottom-up and incremental design were described by Leo Brodie in his book published in 1984[7].
+
+Most software development in the 1990s was shaped by two major influences: internally, object-oriented programming replaced procedural programming as the programming paradigm favored by some in the industry; externally, the rise of the Internet and the dot-com boom emphasized speed-to-market and company-growth as competitive business factors. Rapidly-changing requirements demanded shorter product life-cycles, and were often incompatible with traditional methods of software development.
+The Chrysler Comprehensive Compensation System was started in order to determine the best way to use object technologies, using the payroll systems at Chrysler as the object of research, with Smalltalk as the language and GemStone as the data access layer. They brought in Kent Beck,[5] a prominent Smalltalk practitioner, to do performance tuning on the system, but his role expanded as he noted several issues they were having with their development process. He took this opportunity to propose and implement some changes in their practices based on his work with his frequent collaborator, Ward Cunningham.
+Beck invited Ron Jeffries to the project to help develop and refine these methods. Jeffries thereafter acted as a coach to instill the practices as habits in the C3 team.
+Information about the principles and practices behind XP was disseminated to the wider world through discussions on the original Wiki, Cunningham's WikiWikiWeb. Various contributors discussed and expanded upon the ideas, and some spin-off methodologies resulted (see agile software development). Also, XP concepts have been explained, for several years, using a hyper-text system map on the XP website at "www.extremeprogramming.org" circa 1999 (website XPorg).
+Beck edited a series of books on XP, beginning with his own "Extreme Programming Explained (1999, ISBN 0-201-61641-6)", spreading his ideas to a much larger, yet very receptive, audience. Authors in the series went through various aspects attending XP and its practices, even a book critical of the practices.
+
+XP created quite a buzz in the late 1990s and early 2000s, seeing adoption in a number of environments radically different from its origins.
+The high discipline required by the original practices often went by the wayside, causing some of these practices that were thought too rigid to be deprecated or left undone on individual sites. Agile development practices have not stood still, and XP is still evolving, assimilating more lessons from experiences in the field. In the second edition of Extreme Programming Explained, Beck added more values and practices and differentiated between primary and corollary practices.
+
+
+"Extreme Programming Explained" describes Extreme Programming as being:
+The main aim of XP is to reduce the cost of change. In traditional system development methods (such as SSADM) the requirements for the system are determined at the beginning of the development project and often fixed from that point on. This means that the cost of changing the requirements at a later stage (a common feature of software engineering projects) will be high.
+XP sets out to reduce the cost of change by introducing basic values, principles and practices. By applying XP, a system development project should be more flexible with respect to changes.
+
+XP describes four basic activities that are performed within the software development process.
+
+Extreme Programming initially recognized four values in 1999. A new value was added in the second edition of Extreme Programming Explained. The five values are:
+Adopting four earlier values led to respect gained from others in the team. Nobody on the team should feel unappreciated or ignored. This ensures high level of motivation and encourages loyalty toward the team, and the goal of the project. This value is very dependent upon the other values, and is very much oriented toward people in a team.
+
+The first version of XP rules was proposed by Ken HAuer[8] in XP/Agile Universe 2003. In short, he said: XP's values make it agile. XP's practices do not define XP; XP is defined by its rules. Because defining XP by the practices has at least two problems:
+He finally concluded that we should not define XP merely by its values or its practices. We should define XP by its rules. Ken Auer in his version of XP Rules defined two categories of rules in Rules of Engagement which dictate the environment in which software development can take place effectively. They then discuss the Rules of Play which define the minute-by-minute activities and rules within the framework of the Rules of Engagement.
+After Ken Auer, in APSO workshop at ICSE 2008 Conference, Mehdi Mirakhorli proposed the new version of XP Rules, he had provided some changes in the first version of XP Rules. Because he believed that the rules must satisfy the essence of agility and XP. When you choose rules for defining XP, you should be independent of any practices as much as possible. With regard to Ken’s results and according to his experiences he propose a more precise and comprehensive definition for the rules of engagement and play.
+
+In Mehdi Mirakhorli literature "Rules of Engagement" are those that make you agile, these rules are similar to agile principles:
+
+Rules of play that make XP unique are defined below; these rules are based on XP’s values: Communication, Simplicity, Feedback, Courage.
+
+The principles that form the basis of XP are based on the values just described and are intended to foster decisions in a system development project. The principles are intended to be more concrete than the values and more easily translated to guidance in a practical situation.
+
+Extreme Programming has been described as having 12 practices, grouped into four areas:
+Fine scale feedback
+Continuous process
+Shared understanding
+Programmer welfare
+

@@ -1,0 +1,23 @@
+Boson
+In particle physics, bosons are particles which obey Bose-Einstein statistics; they are named after Satyendra Nath Bose and Albert Einstein. In contrast to fermions, which obey Fermi-Dirac statistics, several bosons can occupy the same quantum state. Thus, bosons with the same energy can occupy the same place in space. Therefore bosons are often force carrier particles while fermions are usually associated with matter, though the distinction between the two concepts is not clear cut in quantum physics.
+Bosons may be either elementary, like the photon, or composite, like mesons. All observed bosons have integer spin, as opposed to fermions, which have half-integer spin. This is in accordance with the spin-statistics theorem which states that in any reasonable relativistic quantum field theory, particles with integer spin are bosons, while particles with half-integer spin are fermions.
+While most bosons are composite particles, in the Standard Model, there are five bosons which are elementary:
+Unlike the gauge bosons, the Higgs boson has not yet been observed experimentally.[1]
+Composite bosons are important in superfluidity and other applications of Bose-Einstein condensates.
+
+By definition, bosons are particles which obey Bose-Einstein statistics: when one swaps two bosons, the wavefunction of the system is unchanged.[2] Fermions, on the other hand, obey Fermi-Dirac statistics and the Pauli exclusion principle: two fermions cannot occupy the same quantum state as each other, resulting in a "rigidity" or "stiffness" of matter which includes fermions. Thus fermions are sometimes said to be the constituents of matter, while bosons are said to be the particles that transmit interactions (force carriers), or the constituents of radiation. The quantum fields of bosons are bosonic fields, obeying canonical commutation relations.
+The properties of lasers and masers, superfluid helium-4 and Bose–Einstein condensates are all consequences of statistics of bosons. Another result is that the spectrum of a photon gas in thermal equilibrium is a Planck spectrum, one example of which is black-body radiation; another is the thermal radiation of the opaque early Universe seen today as microwave background radiation. Interaction of virtual bosons with real fermions are called fundamental interactions, and these result in all forces we know. The bosons involved in these interactions are called gauge bosons.
+All known elementary and composite particles are bosons or fermions, depending on their spin: particles with half-integer spin are fermions; particles with integer spin are bosons. In the framework of nonrelativistic quantum mechanics, this is a purely empirical observation. However, in relativistic quantum field theory, the spin-statistics theorem shows that half-integer spin particles cannot be bosons and integer spin particles cannot be fermions.[3]
+In large systems, the difference between bosonic and fermionic statistics is only apparent at large densities—when their wave functions overlap. At low densities, both types of statistics are well approximated by Maxwell-Boltzmann statistics, which is described by classical mechanics.
+
+All observed elementary particles are either fermions or bosons. The observed elementary bosons are all gauge bosons: photons, W and Z bosons and gluons.
+In addition, the standard model postulates the existence of Higgs bosons, which give other particles their mass via the Higgs mechanism.
+Finally, many approaches to quantum gravity postulate a force carrier for gravity, the graviton, which is a boson of spin 2.
+
+Composite particles (such as hadrons, nuclei, and atoms) can be bosons or fermions depending on their constituents. More precisely, because of the relation between spin and statistics, a particle containing an even number of fermions is a boson, since it has integer spin.
+Examples include the following:
+The number of bosons within a composite particle made up of simple particles bound with a potential has no effect on whether it is a boson or a fermion.
+Fermionic or bosonic behavior of a composite particle (or system) is only seen at large (compared to size of the system) distance. At proximity, where spatial structure begins to be important, a composite particle (or system) behaves according to its constituent makeup. For example, two atoms of helium-4 cannot share the same space if it is comparable by size to the size of the inner structure of the helium atom itself (~10−10�m)—despite bosonic properties of the helium-4 atoms. Thus, liquid helium has finite density comparable to the density of ordinary liquid matter.
+
+
+

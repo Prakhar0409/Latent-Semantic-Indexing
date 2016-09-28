@@ -1,0 +1,13 @@
+Unison (file synchronizer)
+Unison is a file synchronization program. It is used for synchronizing files between two directories, either on one computer, or between a computer and another storage device (e.g. another computer, or a removable disc). It runs on Unix-like operating systems (including Linux, Mac OS X, and Solaris), as well as on Windows.
+
+Unison allows the same version of files to be maintained on multiple computing devices. In other words, when two devices are synchronized, the user can be sure that the most current version of a file is available on both devices, regardless of where it was last modified.
+File synchronization tools such as Unison are similar to version control tools (CVS, Subversion, etc.), distributed filesystems (Coda, etc.), and mirroring utilities (rsync, etc.), in that all these attempt to keep sets of files synchronized. However file synchronization tools can deal with modifications to both versions of the directory structure, without the overhead of version control.
+
+Unison is no longer under active development. The original developers are focusing on a project called 'Harmony', which they consider a natural progression from Unison, that can synchronize any hierarchical structure expressed in XML. However support is provided by third parties for specific operating systems.
+The latest stable version, as of January 2008, is 2.27.57 (available as source code). For binary stable versions, the following are available:
+
+When synchronizing data between different computer systems, Unison has significant problems if the file names contain accented or international characters. When viewing lists of compared files with the GUI, selections can be made only one line at a time; compare to Irfanview's capability of multiple left/right, select/de-select, etc.
+
+
+

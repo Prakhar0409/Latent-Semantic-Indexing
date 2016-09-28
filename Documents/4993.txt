@@ -1,0 +1,24 @@
+Enthymeme
+An enthymeme (Greek: ἐνθύμημα, enthýmēma), in its modern sense, is an informally stated syllogism (a three-part deductive argument) with an unstated assumption that must be true for the premises to lead to the conclusion. In an enthymeme, part of the argument is missing because it is assumed. In a broader usage, the term "enthymeme" is sometimes used to describe an incomplete argument of forms other than the syllogism.[1] For Aristotle, who defined it in his Rhetoric, an enthymeme was a "rhetorical syllogism" which was based on probable opinions, thus distinguishing it from a scientific syllogism. It aimed at persuasion whilst scientific syllogism aimed at demonstration [2].
+
+The following quotation is an example of an enthymeme (used for humorous effect).
+"There is no law against composing music when one has no ideas whatsoever. The music of Wagner, therefore, is perfectly legal." —Mark Twain.
+The three parts:
+
+First example: Socrates is mortal because he's human.
+The complete syllogism would be the classic:
+Second example: "The glove doesn't fit [the defendant], so you must acquit."
+This argument is based on one used by Johnnie Cochran in his defense of O.J. Simpson.
+The complete syllogism would be:
+Stating the argument in this extended form suggests the argument is incomplete. For example, one might be more likely to ask if the glove might have shrunk, ask how "fit" is determined, or ask about the meaning of the expression the glove: What do you mean the glove?. The presence of the definite article the suggests that there is a definite descriptor phrase with the same meaning in this context. Examples of such phrases could be
+For some definite descriptor phrases, the major premise of the above syllogism is suspect.
+Hidden premises are often an effective way to obscure a questionable or fallacious premise in reasoning. Typically fallacies of presumption (fallacies based on mistaken assumptions, such as ad hominem or two wrongs make a right) are attracted to enthymeme.
+
+Advertisers rarely draw out the links between the images they show and the product they wish to sell. There is no logical connection between a beautiful woman draped across the hood of a red sports car and the value of the car itself, but the advertiser implies a premise that there is. If the advertiser instead simply stated, "Buy this car and you will have more sexual satisfaction" it would be easier to reject as a premise.
+To use another example, advertisers often show examples of people enjoying their product. They never actually state that the viewer should purchase the product or service that is bringing the people such enjoyment, nor that doing so will inevitably cause enjoyment; they are implied major premises.
+
+Enthymemes are generally used for two reasons:
+An example of the second reason would be, "Of course she is dumb, she is a woman." The implied premise is "All women are dumb," which can easily be proven false by proving that at least one woman is not "dumb," so the premise is left out in the hopes that the listener might not realize what was implied. When used in daily conversation, the implied premise is usually less obvious.
+
+
+

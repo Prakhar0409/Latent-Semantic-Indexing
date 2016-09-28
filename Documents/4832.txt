@@ -1,0 +1,14 @@
+Uniform Resource Name
+A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI) that uses the urn scheme, and does not imply availability of the identified resource. Both URNs (names) and URLs (locators) are URIs, and a particular URI may be a name and a locator at the same time.
+The Functional Requirements for Uniform Resource Names are described in RFC 1737. The URNs are part of a larger Internet information architecture which is composed of URNs, Uniform Resource Characteristics (URCs), and Uniform Resource Locators (URLs). Each plays a specific role:
+RFC 2141 ("URN Syntax") says:
+It is worth noting that, as stated in RFC 3986 ("Uniform Resource Identifier Generic Syntax"),
+
+RFC 2141 (dated May 1997 and still classified as needing requests discussion and suggestions for improvements) describe in BNF the syntax of URNs as:
+
+A URN is like a person's name, while a URL is like their street address. The URN defines something's identity, while the URL provides a method for finding something. Essentially, "what" vs. "where".
+URNs are often compared to the ISBN system for uniquely identifying books (and in fact you can encode an ISBN as a URN). Having a book's unique identifier lets you discuss the book, such as whether you've read it, enjoyed it, etc. To actually read the book, however, you need its location (e.g., "on the bedside table"). So URNs and URLs are often complementary; for example, you might discuss an RFC using both concepts: "you can find urn:ietf:rfc:3187 (URN) over at http://tools.ietf.org/html/rfc3187.html (URL)."
+
+The following are examples for "non-standard" URNs, i.e. identifiers that don't use officially registered namespaces and thus are invalid URNs in terms of RFC 2141 (URN Syntax) and RFC 3406 (Uniform Resource Names (URN) Namespace Definition Mechanisms).
+
+

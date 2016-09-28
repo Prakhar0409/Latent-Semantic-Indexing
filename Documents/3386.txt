@@ -1,0 +1,5 @@
+Reverse proxy
+A reverse proxy or surrogate is a proxy server that is installed within the neighborhood of one or more servers. Typically, reverse proxies are used in front of Web servers. All connections coming from the Internet addressed to one of the Web servers are routed through the proxy server, which may either deal with the request itself or pass the request wholly or partially to the main web servers.
+A reverse proxy dispatches in-bound network traffic to a set of servers, presenting a single interface to the caller. For example, a reverse proxy could be used for load balancing a cluster of web servers. In contrast, a forward proxy acts as a proxy for out-bound traffic. For example, an ISP may use a proxy to forward HTTP traffic from its clients to external web servers on the internet; it may also cache the results to improve performance.
+There are several reasons for installing reverse proxy servers:
+

@@ -1,0 +1,12 @@
+Microsoft Bob
+Microsoft Bob was a Microsoft software product, released in March 1995, which provided a new, nontechnical interface to desktop computing operations. Despite its ambitious nature, Bob was one of Microsoft's more visible product failures. Microsoft's Steve Ballmer named Bob as "one project we had undertaken ... where we decided that we have not succeeded and let's stop".[1]
+
+Microsoft Bob was designed for Windows 3.1x and Windows 95 and intended to be a user-friendly interface for Microsoft Windows, supplanting the Program Manager. At one point, the project was managed by Melinda French, who at the time was Bill Gates' girlfriend (the two later married).[2] At the time French left Microsoft, she was Product Unit Manager for a group which included Bob and three other Microsoft titles. The project leader for Bob was Karen Fries, a Microsoft researcher. Microsoft originally owned the domain name bob.com, but traded it to Bob Kerstein for the windows2000.com domain name.[3]
+
+Bob included various office suite programs such as a finance application and a word processor. The user interface was designed to be helpful to novice computer users, but many saw its methods of assistance as too cartoon-like and involved. Each action, such as creating a new text document, featured the step-by-step tutorials no matter how many times the user had been through the process. Users were assisted by cartoon characters whose appearance was usually vaguely related to the task. These characteristics earned Bob the 7th place in PC World Magazine's list of the 25 worst products of all time[4] and worst product of the decade by CNET.com.[5]
+
+Despite being discontinued before Windows98 was released, Microsoft Bob continued to be widely panned in reviews and popular media.[6]
+Additionally, some designs of the Bob cartoons are still used in other Microsoft products:
+
+
+

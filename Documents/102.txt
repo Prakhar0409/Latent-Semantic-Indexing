@@ -1,0 +1,14 @@
+Law of the instrument
+The concept known as the law of the instrument, Maslow's hammer, or a golden hammer is an over-reliance on a familiar tool; as Abraham Maslow said in 1962, "When the only tool you have is a hammer, it is tempting to treat everything as if it were a nail."[1]
+
+The sentiment that people look for cure-alls, and over-use familiar tools, is likely traditional; see panacea. Likewise, the use of a hammer and nail as imagery are likely as old as hammers and nails, or even the use of rocks as tools, which the hammer evokes.
+Abraham Kaplan in 1964 phrased the concept as a law:[2] "I call it the law of the instrument, and it may be formulated as follows: Give a small boy a hammer, and he will find that everything he encounters needs pounding."
+Maslow's hammer, popularly phrased as "if all you have is a hammer, everything looks like a nail" and variants thereof, is due to Abraham Maslow in 1962 and 1966.[1]
+The hammer and nail metaphor may not be original to Kaplan or Maslow, and has been attributed to Mark Twain.[3]
+It has also been called the law of the hammer,[4] attributed both to Maslow[5] and to Kaplan.[6]
+The notion of a golden hammer, "a familiar technology or concept applied obsessively to many software problems," has been introduced into the information technology literature in 1998 as an anti-pattern: a programming practice to be avoided.[7]
+
+Other forms of narrow-minded instrumentalism include: déformation professionnelle, a French term for "looking at things from the point of view of one's profession", and regulatory capture, the tendency for regulators to look at things from the point of view of the profession they are regulating.
+The opposite of using a golden hammer would be using the "right tool for the job".
+
+

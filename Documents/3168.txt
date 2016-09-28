@@ -1,0 +1,8 @@
+RapidMiner
+RapidMiner (formerly YALE (Yet Another Learning Environment)) is an environment for machine learning and data mining experiments. It allows experiments to be made up of a large number of arbitrarily nestable operators, described in XML files which can easily be created with RapidMiner's graphical user interface. Applications of RapidMiner cover both research and real-world data mining tasks.
+The initial version has been developed by the Artificial Intelligence Unit of University of Dortmund since 2001. It is distributed under a GNU license, and has been hosted by SourceForge since 2004.
+RapidMiner provides more than 500 operators for all main machine learning procedures, including input and output, and data preprocessing and visualization. It is written in the Java programming language and therefore can work on all popular operating systems. It also integrates all learning schemes and attribute evaluators of the Weka learning environment.
+
+Some properties of RapidMiner are:
+
+

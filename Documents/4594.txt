@@ -1,0 +1,90 @@
+Bayes' theorem
+In probability theory, Bayes' theorem (often called Bayes' law after Rev Thomas Bayes) relates the conditional and marginal probabilities of two random events. It is often used to compute posterior probabilities given observations. For example, a patient may be observed to have certain symptoms. Bayes' theorem can be used to compute the probability that a proposed diagnosis is correct, given that observation. (See example 2)
+As a formal theorem, Bayes' theorem is valid in all common interpretations of probability. However, it plays a central role in the debate around the foundations of statistics: frequentist and Bayesian interpretations disagree about the ways in which probabilities should be assigned in applications. Frequentists assign probabilities to random events according to their frequencies of occurrence or to subsets of populations as proportions of the whole, while Bayesians describe probabilities in terms of beliefs and degrees of uncertainty. The articles on Bayesian probability and frequentist probability discuss these debates in greater detail.
+
+Bayes' theorem relates the conditional and marginal probabilities of events A and B, where B has a non-vanishing probability:
+Each term in Bayes' theorem has a conventional name:
+Intuitively, Bayes' theorem in this form describes the way in which one's beliefs about observing 'A' are updated by having observed 'B'.
+
+Suppose there is a co-ed school having 60% boys and 40% girls as students. The girl students wear trousers or skirts in equal numbers; the boys all wear trousers. An observer sees a (random) student from a distance; all they can see is that this student is wearing trousers. What is the probability this student is a girl? The correct answer can be computed using Bayes' theorem.
+The event A is that the student observed is a girl, and the event B is that the student observed is wearing trousers. To compute P(A|B), we first need to know:
+Given all this information, the probability of the observer having spotted a girl given that the observed student is wearing trousers can be computed by substituting these values in the formula:
+Another, essentially equivalent way of obtaining the same result is as follows. Assume, for concreteness, that there are 100 students, 60 boys and 40 girls. Among these, 60 boys and 20 girls wear trousers. All together there are 80 trouser-wearers, of which 20 are girls. Therefore the chance that a random trouser-wearer is a girl equals 20/80 = 0.25.
+It is often helpful when calculating conditional probabilities to create a simple table containing the number of occurrences of each outcome, or the relative frequencies of each outcome, for each of the independent variables. The table below illustrates the use of this method for the above girl-or-boy example
+
+To derive the theorem, we start from the definition of conditional probability. The probability of event A given event B is
+Equivalently, the probability of event B given event A is
+Rearranging and combining these two equations, we find
+This lemma is sometimes called the product rule for probabilities. Dividing both sides by P(B), provided that it is non-zero, we obtain Bayes' theorem:
+
+Bayes' theorem is often completed by noting that, according to the Law of total probability,
+where AC is the complementary event of A (often called "not A"). So the theorem can be restated as the following formula
+More generally, where {Ai} forms a partition of the event space,
+for any Ai in the partition.
+
+Bayes' theorem can also be written neatly in terms of a likelihood ratio Î› and odds O as
+where O(A|B) are the odds of A given B,
+O(A) are the odds of A by itself
+and Î›(A|B) is the likelihood ratio.
+
+There is also a version of Bayes' theorem for continuous distributions. It is somewhat harder to derive, since probability densities are not probabilities, so Bayes' theorem has to be established by a limit process; see Papoulis (citation below), Section 7.3 for an elementary derivation.
+Bayes originally used the proposition to find a continuous posterior distribution given discrete observations.
+Bayes' theorem for probability densities is formally similar to the theorem for probabilities:
+There is an analogous statement of the law of total probability, which is used in the denominator:
+As in the discrete case, the terms have standard names.
+is the joint density function of X and Y,
+is the posterior probability density function of X given Y = y,
+is (as a function of x) the likelihood function of X given Y = y, and
+and
+are the marginal probability density functions of X and Y respectively, where Æ’X(x) is the prior probability density function of X.
+
+Given two absolutely continuous probability measures PËœQ on the probability space  and a sigma-algebra , the abstract Bayes theorem for a -measurable random variable X becomes
+Proof :
+by definition of conditional probability,
+
+We further have that
+Hence,
+Summarizing, we obtain the desired result.
+This formulation is used in Kalman filtering to find Zakai equations. It is also used in financial mathematics for change of numeraire techniques.
+
+Theorems analogous to Bayes' theorem hold in problems with more than two variables. For example:
+This can be derived in a few steps from Bayes' theorem and the definition of conditional probability:
+Similarly,
+which can be regarded as a conditional Bayes' Theorem, and can be derived by as follows:
+A general strategy is to work with a decomposition of the joint probability, and to marginalize (integrate) over the variables that are not of interest. Depending on the form of the decomposition, it may be possible to prove that some integrals must be 1, and thus they fall out of the decomposition; exploiting this property can reduce the computations very substantially. A Bayesian network, for example, specifies a factorization of a joint distribution of several variables in which the conditional probability of any one variable given the remaining ones takes a particularly simple form (see Markov blanket).
+
+
+Bayes' theorem is useful in evaluating the result of drug tests. Suppose a certain drug test is 99% sensitive and 99% specific, that is, the test will correctly identify a drug user as testing positive 99% of the time, and will correctly identify a non-user as testing negative 99% of the time. This would seem to be a relatively accurate test, but Bayes' theorem will reveal a potential flaw. Let's assume a corporation decides to test its employees for opium use, and 0.5% of the employees use the drug. We want to know the probability that, given a positive drug test, an employee is actually a drug user. Let "D" be the event of being a drug user and "N" indicate being a non-user. Let "+" be the event of a positive drug test. We need to know the following:
+Given this information, we can compute the posterior probability P(D|+) of an employee who tested positive actually being a drug user:
+Despite the apparently high accuracy of the test, the probability that an employee who tested positive actually did use drugs is only about 33%, so it is actually more likely that the employee is not a drug user. The rarer the condition for which we are testing, the greater the percentage of positive tests that will be false positives.
+
+Applications of Bayes' theorem often assume the philosophy underlying Bayesian probability that uncertainty and degrees of belief can be measured as probabilities. One such example follows. For additional worked out examples, including simpler examples, please see the article on the examples of Bayesian inference.
+We describe the marginal probability distribution of a variable A as the prior probability distribution or simply the 'prior'. The conditional distribution of A given the "data" B is the posterior probability distribution or just the 'posterior'.
+Suppose we wish to know about the proportion r of voters in a large population who will vote "yes" in a referendum. Let n be the number of voters in a random sample (chosen with replacement, so that we have statistical independence) and let m be the number of voters in that random sample who will vote "yes". Suppose that we observe n = 10 voters and m = 7 say they will vote yes. From Bayes' theorem we can calculate the probability distribution function for r using
+From this we see that from the prior probability density function f(r) and the likelihood function L(r) = f(m = 7|r, n = 10), we can compute the posterior probability density function f(r|n = 10, m = 7).
+The prior probability density function f(r) summarizes what we know about the distribution of r in the absence of any observation. We provisionally assume in this case that the prior distribution of r is uniform over the interval [0, 1]. That is, f(r) = 1. If some additional background information is found, we should modify the prior accordingly. However before we have any observations, all outcomes are equally likely.
+Under the assumption of random sampling, choosing voters is just like choosing balls from an urn. The likelihood function L(r) = P(m = 7|r, n = 10,) for such a problem is just the probability of 7 successes in 10 trials for a binomial distribution.
+As with the prior, the likelihood is open to revision -- more complex assumptions will yield more complex likelihood functions. Maintaining the current assumptions, we compute the normalizing factor,
+and the posterior distribution for r is then
+for r between 0 and 1, inclusive.
+One may be interested in the probability that more than half the voters will vote "yes". The prior probability that more than half the voters will vote "yes" is 1/2, by the symmetry of the uniform distribution. In comparison, the posterior probability that more than half the voters will vote "yes", i.e., the conditional probability given the outcome of the opinion poll â€“ that seven of the 10 voters questioned will vote "yes" â€“ is
+which is about an "89% chance".
+
+We are presented with three doors to choose - red, green, and blue - one of which has a prize hidden behind it. We choose the red door. The presenter, who knows where the prize is, opens the blue door and reveals that there is no prize behind it. He then asks if we wish to change our mind about our initial selection of red. Will changing our mind at this point improve our chances of winning the prize?
+You might think that, with two doors left unopened, you have a 50:50 chance with either door, and so there is no point in changing doors. However, this is not the case. Let us call the situation that the prize is behind a given door Ar, Ag, and Ab.
+To start with, , and to make things simpler we shall assume that we have already picked the red door.
+Let us call B "the presenter opens the blue door". Without any prior knowledge, we would assign this a probability of 50%.
+Thus,
+So, we should always choose the green door.
+Note how this depends on the value of P(B). Another way of looking at the apparent inconsistency is that, when you chose the first door, you had a 1/3 chance of being right. When the second door was removed from the list of possibilities, this left the last door with a 2/3 chance of being right.
+
+An investigation by a statistics professor (Stigler 1983) suggests that Bayes' theorem was discovered by Nicholas Saunderson some time before Bayes. However, this interpretation is argued against in (Edwards 1986).
+Bayes' theorem is named after the Reverend Thomas Bayes (1702â€“1761), who studied how to compute a distribution for the parameter of a binomial distribution (to use modern terminology). His friend, Richard Price, edited and presented the work in 1763, after Bayes' death, as An Essay towards solving a Problem in the Doctrine of Chances. Pierre-Simon Laplace replicated and extended these results in an essay of 1774, apparently unaware of Bayes' work.
+One of Bayes' results (Proposition 5) gives a simple description of conditional probability, and shows that it can be expressed independently of the order in which things occur:
+Note that the expression says nothing about the order in which the events occurred; it measures correlation, not causation. His preliminary results, in particular Propositions 3, 4, and 5, imply the result now called Bayes' Theorem (as described above), but it does not appear that Bayes himself emphasized or focused on that result
+Bayes' main result (Proposition 9 in the essay) is the following: assuming a uniform distribution for the prior distribution of the binomial parameter p, the probability that p is between two values a and b is
+where m is the number of observed successes and n the number of observed failures.
+What is "Bayesian" about Proposition 9 is that Bayes presented it as a probability for the parameter p. So, one can compute probability for an experimental outcome, but also for the parameter which governs it, and the same algebra is used to make inferences of either kind.
+Bayes states his question in a way that might make the idea of assigning a probability distribution to a parameter palatable to a frequentist. He supposes that a billiard ball is thrown at random onto a billiard table, and that the probabilities p and q are the probabilities that subsequent billiard balls will fall above or below the first ball.
+Stephen Fienberg [1] describes the evolution of the field from "inverse probability" at the time of Bayes and Laplace, and even of Harold Jeffreys (1939) to "Bayesian" in the 1950's. The irony is that this label was introduced by R.A. Fisher in a derogatory sense. So, historically, Bayes was not a "Bayesian". It is actually unclear whether or not he was a Bayesian in the modern sense of the term, i.e. whether or not he was interested in inference or merely in probability: the 1763 essay is more of a probability paper.
+

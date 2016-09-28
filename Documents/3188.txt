@@ -1,0 +1,22 @@
+Internationalization and localization
+In computing, internationalization and localization (also spelled internationalisation and localisation, see spelling differences) are means of adapting computer software to different languages and regional differences. Internationalization is the process of designing a software application so that it can be adapted to various languages and regions without engineering changes. Localization is the process of adapting software for a specific region or language by adding locale-specific components and translating text.
+Due to their length, the terms are frequently abbreviated to the numeronyms i18n (where 18 stands for the number of letters between the i and the n in internationalization, a usage coined at DEC in the 1970s or 80s[1]) and L10n respectively. The capital L on L10n helps to distinguish it from the lowercase i in i18n.
+Some companies, like Microsoft and IBM, use the term globalization for the combination of internationalization and localization.[2][3] Globalization can also be abbreviated to g11n.[4]
+This term is also known as Native Language Support or NLS.
+
+Focal points of internationalization and localization efforts include:
+The distinction between internationalization and localization is subtle but important. Internationalization is the adaptation of products for potential use virtually everywhere, while localization is the addition of special features for use in a specific locale. Internationalization is done once per product, while localization is done once for each combination of product and locale. The processes are complementary, and must be combined to lead to the objective of a system that works globally. Subjects unique to localization include:
+
+The current prevailing practice is for applications to place text in resource strings which are loaded during program execution as needed. These strings, stored in resource files, are relatively easy to translate. Programs are often built to reference resource libraries depending on the selected locale data. One software library that aids this is gettext.
+Thus to get an application to support multiple languages one would design the application to select the relevant language resource file at runtime. Resource files are translated to the required languages. This method tends to be application-specific and at best, vendor-specific. The code required to manage date entry verification and many other locale-sensitive data types also must support differing locale requirements. Modern development systems and operating systems include sophisticated libraries for international support of these types.
+
+While translating existing text to other languages may seem easy, it is more difficult to maintain the parallel versions of texts throughout the life of the product. For instance, if a message displayed to the user is modified, all of the translated versions must be changed. This in turn results in somewhat longer development cycle.
+Many localization issues (e.g. writing direction, text sorting) require more profound changes in the software than text translation. For example, OpenOffice.Org achieves this with compilation switches.
+To some degree (e.g. for Quality assurance), the development team needs someone who understands foreign languages and cultures and has a technical background. In large societies with one dominant language/culture, it may be difficult to find such a person.
+
+In a commercial setting, the benefit from localization is access to more markets. Some argue that the commercial case to localize products into multiple languages is very obvious, and that all is needed is a budgetary commitment from the producer to finance the considerable costs. It costs more to produce products for international markets, but in an increasingly global economy, supporting only one language/market is scarcely an option. Still, proprietary software localization is impacted by economically viability and usually lacks the ability for end users and volunteers to self-localize as is often the case in open-source environments.
+Since open source software can generally be freely modified and redistributed, it is more prone to internationalization. The KDE project, for example, has been translated into over 100 languages.[6]
+
+
+
+

@@ -1,0 +1,52 @@
+Cognitive neuroscience
+Portal�• History
+Areas
+Abnormal
+Biological
+Cognitive
+Developmental
+Experimental
+Evolutionary
+Mathematical
+Neuropsychology
+Personality
+Positive
+Psychophysics
+Social
+Transpersonal
+Clinical
+Educational
+Forensic
+Health
+Industrial
+Organizational
+School
+Sport
+Outline
+Publications
+Topics
+Therapies
+Cognitive neuroscience is an academic field concerned with the scientific study of biological substrate underlying cognition, with a specific focus on the neural substrates of mental processes and their behavioral manifestations. It addresses the questions of how psychological/cognitive functions are produced by the neural circuitry. Cognitive neuroscience is a branch of both psychology and neuroscience, unifying and overlapping with several sub-disciplines such as cognitive psychology, psychobiology and neurobiology. Before the advent of fMRI, cognitive neuroscience was called cognitive psychophysiology. Cognitive neuroscientists have a background in experimental psychology or neurobiology, but may spring from disciplines such as psychiatry, neurology, physics, linguistics and mathematics.
+Methods employed in cognitive neuroscience include experimental paradigms from psychophysics and cognitive psychology, functional neuroimaging, electrophysiological studies of neural systems and, increasingly, cognitive genomics and behavioral genetics. Clinical studies of patients with cognitive deficits constitute an important aspect of cognitive neuroscience. The main theoretical approaches are computational neuroscience and the more traditional, descriptive cognitive psychology theories such as psychometrics.
+
+
+The first roots of cognitive neuroscience lie in phrenology, which was a pseudoscientific theory that claimed that behavior could be determined by the shape of the scalp. In the early 19th century, Franz Joseph Gall and J. G. Spurzheim believed that the human brain was localized into approximately 35 different sections. In his book, The Anatomy and Physiology of the Nervous System in General, and of the Brain in Particular, Gall claimed that a larger bump in one of these areas meant that that area of the brain was used more frequently by that person. This theory gained significant public attention, leading to the publication of phrenology journals and the creation of phrenometers, which measured the bumps on a human subject's head.
+
+Pierre Flourens, a French experimental psychologist, was one of many scientists that challenged the views of the phrenologists. Through his study of living rabbits and pigeons, he discovered that lesions to particular areas of the brain produced no discernible change in behavior. He proposed the theory that the brain is an aggregate field, meaning that different areas of the brain participated in behavior.
+
+Studies performed in Europe by scientists such as John Hughlings Jackson caused the localizationist view to re-emerge as the primary view of behavior. Jackson studied patients with brain damage, particularly those with epilepsy. He discovered that the epileptic patients often made the same clonic and tonic movements of muscle during their seizures, leading Jackson to believe that they must be occurring in the same place every time. Jackson proposed a topographic map of the brain, which was critical to future understanding of the brain lobes.
+In 1861, French neurologist Paul Broca came across a man who was able to understand language but unable to speak. The man could only produce the sound "tan". It was later discovered that the man had damage to an area of his left frontal lobe now known as Broca's area. Carl Wernicke, a German neurologist, found a similar patient, except that this patient could speak fluently but non-sensibly. The patient had been the victim of a stroke, and could not understand spoken or written language. This patient had a lesion in the area where the left parietal and temporal lobes meet, now known as Wernicke's area. These cases strongly supported the localizationists views, because a lesion caused a specific behavioral change in both of these patients.
+In 1870, German physicians Eduard Hitzig and Gustav Fritsch published their findings about the behavior of animals. Hitzig and Fritsch ran an electrical current through the cerebral cortex of a dog, causing the dog to produce characteristic movements based on where the current was applied. Since different areas produced different movements, the physicians concluded that behavior was rooted at the cellular level. German neuroanatomist Korbinian Brodmann used tissue staining techniques developed by Franz Nissl to see the different types of cells in the brain. Though this study, Brodmann concluded in 1909 that the human brain consisted of fifty-two distinct areas, now named Brodmann areas. Many of Brodmann's distinctions were very accurate, such as differentiating Brodmann area 17 from Brodmann area 18.
+
+In the early 20th century, Santiago Ramón y Cajal and Camillo Golgi began working on the structure of the neuron. Golgi developed a silver staining method that could entirely stain several cells in a particular area, leading him to believe that neurons were directly connected with each other in one cytoplasm. Cajal challenged this view after staining areas of the brain that had less myelin and discovering that neurons were discrete cells. Cajal also discovered that cells transmit electrical signals down the neuron in one direction only. Both Golgi and Cajal won a Nobel Prize in Physiology or Medicine in 1906 for this work on the neuron doctrine.
+
+On September 11, 1956, a large-scale meeting of cognitivists took place at the Massachusetts Institute of Technology. George A. Miller presented his "The Magical Number Seven, Plus or Minus Two" paper while Noam Chomsky and Newell & Simon presented their findings on computer science. Ulric Neisser commented on many of the findings at this meeting in his 1967 book Cognitive Psychology. The term "psychology" had been waning in the 1950s and 1960s, causing the field to be referred to as "cognitive science". Behavioralists such as Miller began to focus on the representation of language rather than general behavior. David Marr's proposal of the hierarchical representation of memory caused many psychologists to embrace the idea that mental skills required significant processing in the brain, including algorithms.
+
+A large portion of current research in cognitive neuroscience involves doing experiments that would previously have been described as cognitive psychology, but doing them using fMRI scanners to locate the brain regions involved. Topics that have been investigated in this way include:
+
+Experimental methods of specific psychology fields include:
+Cognitive neuroscience was called cognitive psychophysiology before the advent of functional MRI. Cognitive psychophysiology research mainly used EEG and other electrophysiological methods. The 1980s brought new instruments to Cognitive psychophysiology, including:
+
+
+
+

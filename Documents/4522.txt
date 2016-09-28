@@ -1,0 +1,21 @@
+TurboGears
+TurboGears is a Python web application framework consisting of several underlying components such as MochiKit, SQLObject, CherryPy and Kid.
+TurboGears was created in 2005 by Kevin Dangoor as the framework behind the as yet unreleased Zesty News product. When he released it as an open source framework in the end of September 2005, it received more than 30,000 screencast downloads in the first 3 months.[citation needed]
+TurboGears is designed around the model-view-controller architecture, much like Struts or Ruby on Rails, designed to make rapid web application development in Python easier and more maintainable.
+
+TurboGears components are as follows:
+
+Templating languages other than Kid can be used through a plugin system. Plugins currently exist for Genshi, Cheetah, Django templates, Mako, and Jinja. Several template engines can be used in the same application.
+
+January 2007 Kevin Dangoor retired as project leader and Alberto Valverde managed the project as his successor,[1] but subsequently stepped down due to other personal commitments. Alberto is still involved in the TurboGears community through his ToscaWidgets project. The TurboGears project is now managed jointly by a group of about half a dozen core developers under the leadership of Mark Ramm (as the TurboGears 2 development lead) and Florent Aide (as the Turbogears 1.x release manager).
+In June 2007 the community began experiments to put the TurboGears API on top of components and protocols used in Pylons and there was speculation that the two frameworks may finally be merging.[2] However, the official TurboGears 2 documentation states that this is unlikely to happen, due to the "different, but compatible priorities"[3] of both projects.
+As of Fall 2008, TurboGears has a large and healthy community with over 3000 users on the TurboGears mailing list, a book from Prentice Hall published in Nov. '06, and a number of open source and proprietary TurboGears applications deployed to the real world. The development progresses at a moderate but steady pace and was also newly fueled by a successful participation of the project as a Google Summer of Code mentoring organization in 2008. TurboGears 1.1 is well underway, with several beta releases in 2008, and TurboGears 2 entered the release candidate phase as of March 2009[update].
+
+Development currently happens in two main branches:
+TurboGears 1.1 will be a newer version of TurboGears 1.0, which continues to support exactly the same API. The main difference between 1.0 and 1.1 will be the choice of default templating engine and default ORM, i.e. it aims to replace SQLObject with SQLAlchemy and Kid with Genshi. The 1.1 branch is regarded as an intermediate step towards the Pylons-based 2.0 version. Recently, however, there has been made good progress to adapt the 1.x code-base to CherryPy 3.0 and a new 1.5 branch, which is currently in alpha-state, has been created.
+A stable version of TurboGears 2 is expected to be released in the first quarter 2009.
+
+Ramm, M (Nov 7, 2006). Rapid Web Applications with TurboGears, Prentice Hall. ISBN 0132433885
+
+
+

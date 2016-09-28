@@ -1,0 +1,8 @@
+Ghostzilla
+Ghostzilla was an open source web browser for Microsoft Windows based on the Gecko HTML renderer used by Mozilla. It runs the browser inside the window space of another application e.g. in Microsoft Outlook, where the page was then made to look like the content one would expect in an email, leaving any passers-by with the impression the person was reading e-mail. [1]
+Originally launched as a shareware project of price $19.95, the project went freeware and then opensource.
+From May 2004 until January 2005, the project was removed from the website, due to a copyright claim from Mozilla. It later returned with code directly dervied from Mozilla open source, excluding the core proprietary library used to create minimal pages and desaturated colors. It also comes with warnings about the potential for misuse. As of February 2007, the site has been suspended and is no longer available.
+As of October 2008, users of Mozilla Firefox have the option of installing a free addon called Ghostfox, which aims to mimic the behaviour of Ghostzilla in Firefox.
+
+
+

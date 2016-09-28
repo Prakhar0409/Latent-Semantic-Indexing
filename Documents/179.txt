@@ -1,0 +1,27 @@
+Vimeo
+
+Screenshot of vimeo.com home page
+Vimeo is a video-centric social network site (owned by IAC/InterActiveCorp) which launched in November 2004. The site supports embedding, sharing, video storage, and allows user-commenting on each video page. Users must register to upload content. Registered users may also create a profile and upload small user pictures as their avatars, comment and "like" videos.
+Vimeo does not allow commercial videos, gaming videos[1], pornography, or anything not created by the user to be hosted on the site.[2] Vimeo has gained a reputation as catering to a high end, artistic crowd because of its higher bitrate, resolution, and relative HD support.[3]
+
+The name "Vimeo" was created by co-founder Jakob Lodwick. It is an anagram of "movie" and is also a play on the word "video," inserting the word "me" as a reference to the site's dedication to user-made films exclusively.
+
+As of March 2009, Vimeo has over 1.3M members and an average of more than 13,000 new videos uploaded daily.[4] Roughly 10% of uploads are in HD.[citation needed]
+
+Vimeo has helped to offload traffic from Improv Everywhere's servers after new pranks are announced, and continues to host most of their videos.[5] Vimeo was also the original location of Noah Kalina's "everyday" video[1], a popular viral video. Comedians Kristen Schaal, Reggie Watts, and Weird Al Yankovic[6] use Vimeo to promote their content. Popular internet series Jake and Amir use Vimeo as its host as well. In June and July 2008, several Muppets including Beaker, Gonzo and Sam Eagle uploaded videos to the site[citation needed].
+Numerous popular musicians use Vimeo, including Kanye West[7], Nine Inch Nails[8], Moby[9], Lykke Li[10], Röyksopp[11] and Devin the Dude[12].
+The Barack Obama White House posts high-definition versions of its broadcasts to Vimeo.[13]
+The Disposable Film Festival, a San Francisco-based film festival that celebrates new media filmmaking, hosts its videos exclusively on Vimeo.
+
+On October 17, 2007, Vimeo announced support for High Definition playback in 1280x720 (720p), becoming the first video sharing site to support consumer HD. Uploaded HD videos are automatically converted into 720/24p Flash video. In March 2008 Vimeo upgraded their HD video service to support video frame rates up to 30 frame/s, but Adobe Flash player's lack of full graphical acceleration on some platforms resulted in bad performance for many users. Consequently, Vimeo reverted to their previous limitation of 24 frame/s only a month later. Non-HD videos do re-encode at a maximum of 30 frame/s and they also have significantly higher bitrates than other competing video sharing sites. Non-Plus users can upload up to 500 MB of videos per week, and up to 1 HD video per week (additional HD videos uploaded within the same week are re-encoded only in SD).
+Vimeo uses a variant of FFmpeg to read the uploaded videos and feed them to their encoder. FFmpeg gives Vimeo the ability to support most kinds of videos (including HDV), except some intermediate-grade codecs and the popular AVCHD.
+
+On October 16 2008 Vimeo unveiled its $60-per-year 'Vimeo Plus' package, which allows users to enjoy additional weekly uploads (up to 5 GB), unlimited HD videos, unlimited creation of channels, groups and albums, no ads, HD embeds, 2-pass video re-encoding that results in higher quality, priority encoding, and more. The arrival of Vimeo Plus also meant the downgrade of the free version, which up to that point also enjoyed unlimited HD re-encodings per week and unlimited creation of groups/albums/channels. This created some tension within the community.[14]
+
+On July 21, 2008, Vimeo announced that they were no longer going to allow gaming videos because:
+"Gaming videos are by nature significantly larger and longer than any other genre on Vimeo. Over these last few months they have been the single biggest reasons for our transcoder wait times."[1]
+--Blake Whitman, Community Director
+Pre-existing gaming videos were deleted on September 1, 2008. All new uploads are currently subject to this rule.
+
+
+

@@ -1,0 +1,16 @@
+Delegate (.NET)
+
+A delegate is a form of type-safe function pointer used by the .NET Framework. Delegates specify a method to call and optionally an object to call the method on. They are used, among other things, to implement callbacks and event listeners.
+
+Code to define a delegate:
+Code to define a method which takes an instantiated delegate as it's argument:
+The implemented method which runs when the delegate is called:
+Code to call the SendMessage method, passing an instantiated delegate as an argument:
+
+Although internal implementations may vary, delegate instances can be thought of as a tuple of an object and a method pointer and a reference (possibly null) to another delegate. Hence a reference to one delegate is possibly a reference to multiple delegates. When the first delegate has finished, if its chain reference is not null, the next will be invoked, and so on until the list is complete. This pattern allows an event to have overhead scaling easily from that of a single reference up to dispatch to a list of delegates, and is widely used in the .NET Framework.
+
+Performance of delegates used to be much slower than a virtual or interface method call (6 to 8 times slower in Microsoft's 2003 benchmarks),[1] but it is now about the same as interface calls.[2] This means there is a small added overhead compared to direct method invocations.
+Delegates are a variation of closures.
+
+
+

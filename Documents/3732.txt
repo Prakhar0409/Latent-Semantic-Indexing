@@ -1,0 +1,14 @@
+Vertical market
+A vertical market is a group of similar businesses and customers which engage in trade based on specific and specialized needs. Often, participants in a vertical market are very limited to a subset of a larger industry (a niche market). An example of this sort of market is the market for point-of-sale terminals, which are often designed specifically for similar customers and are not available for purchase to the general public. Vertical marketing can be witnessed at trade shows.
+
+The activities of participants within any given vertical market are typically similar in that they aim at solving the same or similar problems. These markets are typically competitive, due to the overlapping focuses of the products and services that are provided to the customers.
+The single defining characteristic of the participants in a vertical market is competition within a well-defined segment.
+Horizontal market participants often attempt to meet enough of the different needs of vertical markets to gain a presence in the vertical market. Their similar products/services tend to be less of a fit but also less expensive than specialized, vertical participant solutions.
+Vertical market software is software aimed at addressing the needs of any given business within a discernible vertical market. An example could be software that manages services in hotels - amenities solutions.
+
+A vertical market is a market which meets the needs of a particular industry: for example, a piece of equipment used only by semiconductor manufacturers. It is also known as a niche market.[1]
+A horizontal market is a market which meets a given need of a wide variety of industries, rather than a specific one: for example, word processing software.[2] On occasion a horizontal market can be highly specialized at the same time, for instance consider the market for converting mainframe databases developed with the tools of a particular company. The market for such a database conversion service might involve many vertical markets (aerospace, manufacturing, banking, etc) but nevertheless be labeled "niche" if the database technology is technically obsolete and no longer mainstream.
+
+Some common examples of vertical markets:
+
+

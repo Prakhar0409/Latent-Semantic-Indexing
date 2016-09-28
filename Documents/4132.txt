@@ -1,0 +1,18 @@
+List of network protocols
+This is an incomplete list of network protocols, categorized by their nearest OSI model layers. Many of these protocols, however, are originally based on the Internet Protocol Suite (TCP/IP) and other models and often do not fit neatly into OSI layers.
+
+
+
+
+
+
+
+
+
+
+
+and secure versions of the above (HTTPS, etc.)
+
+
+
+

@@ -1,0 +1,28 @@
+DIN 1451
+DIN 1451 is a realist sans-serif typeface widely used standard typeface for traffic, administration and business applications.
+It has been defined by the German standards body Deutsches Institut für Normung since 1936.
+
+The DIN 1451 typeface is very legible and easy to reproduce. Both a medium and a narrow version are defined today; an older broad version is no longer used but may still be encountered on some very old road signs in Germany. The typeface has gained popularity due to its wide exposure and has been also used by non-governmental organisations and businesses. For graphic design and desktop publishing, FontShop offers an extended version of this typeface called FF DIN.
+The origins of this typeface go back to the "IV 44" type sheet defined by the Prussian rail network in 1906 for use on its trains. A number of glyphs have changed since then, in particular "t", "6" and "9".
+The article series "The history of the design of a contemporary typeface" provides more information about the origins of the typeface.
+It is a widely used standard typeface for traffic, administration and business applications. In particular, DIN 1451 is the typeface commonly used on road and railway signage in Germany and a number of other countries. It was also used for many years on German car number plates, until it was replaced there in November 2000 by FE-Schrift, a font especially designed for number plates that is optimized for better tamper resistance and easier automatic character recognition.
+
+It consists of DIN 1451 MittelSchrift and the consensed DIN 1451 EngSchrift fonts.
+OpenType version supports ISO Adobe 2, Adobe CE, Latin Extended character sets. OpenType features include alternates.
+
+It is a version of DIN 1451 MittelSchrift supporting ISO Adobe 2, Adobe CE, Latin Extended, Greek, Cyrillic character sets.
+
+It is a variant based on DIN 1451 Engschrift and Mittelschrift, designed by Akira Kobayashi of Linotype. Changes include fixing inconsistencies in the old fonts, rounded corners at terminals to emulate the machine cuts of the original fonts, altered terminal angles to reproduce the machine cuts of DIN 1451.
+The family includes 21 fonts in 7 weights and 2 widths, with complementary italics for the widest width fonts. It supports ISO-Adobe, Adobe CE, Latin Extended character sets. OpenType features include small caps (lightest 4 weights roman fonts only), old style figures, subscript/superscript, alternates.
+Alternates include:
+
+It is a rounded variant of the font family.
+The family includes 4 fonts in 4 weights and 1 width, with no italics. OpenType features include old style figures, subscript/superscript, alternates.
+
+
+
+
+The series of articles "The history of the design of a contemporary typeface" in which Albert-Jan Pool published many of his findings on the history of the typefaces of DIN 1451 is a vault of references on this subject. The series was published in the e-magazine 'Encore', issues 13-15, 17-18. These are direct links to the articles.
+
+This is an updated version of the series of articles in Encore Magazine that were published in 2004–2005.
+

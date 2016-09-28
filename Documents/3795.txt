@@ -1,0 +1,20 @@
+Heritrix
+Heritrix is the Internet Archive’s web crawler which was specially designed for web archiving. It is open-source and written in Java. The main interface is accessible using a web browser, and there is a command-line tool that can optionally be used to initiate crawls.
+Heritrix was developed jointly by Internet Archive and the Nordic national libraries on specifications written in early 2003. The first official release was in January 2004, and it has been continually improved by members of the Internet Archive and other interested third parties.
+
+A number of organizations and national libraries are using Heritrix, among them:
+
+Heritrix by default stores the web resources it crawls in an Arc file. The Arc file format has been used by the Internet Archive since 1996 to store their web archives. Heritrix can also be configured to store files in a directory format similar to the Wget crawler that uses the URL to name the directory and filename of each resource.
+An Arc file stores multiple archived resources in a single file in order to avoid managing a large number of small files. The file consists of a sequence of URL records, each with a header containing metadata about how the resource was requested followed by the HTTP header and the response. Arc files range between 100 to 600 MB.
+Example:
+
+Heritrix includes a command-line tool called arcreader which can be used to extract the contents of an Arc file. The following command lists all the URLs and metadata stored in the given Arc file (in CDX format):
+The following command extracts hello.html from the above example assuming the record starts at offset 140:
+Other tools:
+
+Heritrix comes with several command-line tools:
+
+
+
+Tools by Internet Archive:
+Links to related tools:

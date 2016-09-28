@@ -1,0 +1,34 @@
+Security
+Security is the degree of protection against danger, loss, and criminals. Individuals or actions that encroach upon the condition of protection are responsible for a "breach of security."
+Security has to be compared and contrasted with other related concepts: Safety, continuity, reliability. The key difference between security and reliability is that security must take into account the actions of people attempting to cause destruction.
+
+The definition of security provided by the Institute for Security and Open Methodologies (ISECOM) in the OSSTMM 3 is geared towards operations and how we interact with security. It states security is:
+The definition given in a UN study, in 1986, is interesting as a contribution to the understanding of the concept of security, “Security is a state at which countries think that there is no danger of military attack, political pressure, or economic coercion, so that they can develop and progress freely.
+
+It is very often true that people's perception of security is not directly related to actual security. For example, a fear of flying is much more common than a fear of driving; however, driving is generally a much more dangerous form of transport.
+The tool may be mistaken for the effect, for example when multiple computer security programs interfere with each other, the user assumes the computer is secure when actual security has vanished.
+Another side of this is a phenomenon called security theatre where ineffective security measures such as screening of airline passengers based on static databases are introduced with little real increase in security or even, according to the critics of one such measure - Computer Assisted Passenger Prescreening System - with an actual decrease in real security.
+Conversely, if it is perceived that there is security then there will be an increase in actual security, even if the perception of security is mistaken. Sometimes a sign may warn that video surveillance is covering an area, and even if there is no actual visual surveillance then some malicious agents will be deterred by the belief that there may be.
+Also, often when there is actual security present in an area, such as video surveillance, an alarm system in a home, or an anti-theft system in a car such as a LoJack, signs advertising this security will increase its effectiveness, protecting the value of the secured vehicle or area itself.
+Since some intruders will decide not to attempt to break into such areas or vehicles, there can actually be less damage to windows in addition to protection of valuable objects inside. Without such advertisement, a car-thief might, for example, approach a car, break the window, and then flee in response to an alarm being triggered. Either way, perhaps the car itself and the objects inside aren't stolen, but with perceived security even the windows of the car have a lower chance of being damaged, increasing the financial security of its owner(s).
+However, the non-profit, security research group, ISECOM, has determined that such signs may actually increase the violence, daring, and desperation of an intruder [2] This claim shows that perceived security works mostly on the provider and is not security at all [3].
+It is important, however, for signs advertising security not to give clues as to how to subvert that security, for example in the case where a home burglar might be more likely to break into a certain home if he or she is able to learn beforehand which company makes its security system.
+
+There is an immense literature on the analysis and categorisation of security. Part of the reason for this is that, in most security systems, the "weakest link in the chain" is the most important. The situation is asymmetric since the defender must cover all points of attack while the attacker need only identify a single weak point upon which to concentrate.
+
+IT realm
+Physical realm
+Political
+Monetary
+
+Certain concepts recur throughout different fields of security:
+
+In the corporate world, various aspects of security were historically addressed separately - notably by distinct and often noncommunicating departments for IT security, physical security, and fraud prevention. Today there is a greater recognition of the interconnected nature of security requirements, an approach variously known as holistic security, "all hazards" management, and other terms.
+Inciting factors in the convergence of security disciplines include the development of digital video surveillance technologies (see Professional video over IP) and the digitization and networking of physical control systems (see SCADA)[5][6]. Greater interdisciplinary cooperation is further evidenced by the February 2005 creation of the Alliance for Enterprise Security Risk Management, a joint venture including leading associations in security (ASIS), information security (ISSA, the Information Systems Security Association), and IT audit (ISACA, the Information Systems Audit and Control Association)[7].
+
+
+
+
+Concepts
+Branches
+

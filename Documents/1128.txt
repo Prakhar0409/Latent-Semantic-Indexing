@@ -1,0 +1,3 @@
+List of software development philosophies
+This is an incomplete list of approaches, styles, and philosophies in software development.
+

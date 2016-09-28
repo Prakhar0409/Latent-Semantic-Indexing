@@ -1,0 +1,30 @@
+Citation
+A citation is a reference to a published or unpublished source (not always the original source). A bibliographic citation is a reference to a book, article, web page, or other published item. Citations should supply sufficient detail to identify the item uniquely.[1] Different citation systems and styles are used in scientific citation, legal citation, prior art, and the arts and the humanities.
+A citation number, used in some citation systems, is a number or symbol added inline and usually in superscript, to refer readers to a footnote or endnote that cites the source. In other citation systems, an inline parenthetical reference is used rather than a citation number, with limited information such as the author's last name, year of publication, and page number referenced; a full identification of the source will then appear in an appended bibliography.
+
+Citation content can vary depending on the type of source and may include:
+
+Along with information such as author(s), date of publication, title and page numbers, citations may also include unique identifiers depending on the type of work being referred to.
+
+Broadly speaking, there are two citation systems:[5][6][7]
+
+Note systems involve the use of sequential numbers in the text which refer to either footnotes (notes at the end of the page) or endnotes (a note on a separate page at the end of the paper) which gives the source detail. The notes system may or may not require a full bibliography, depending on whether the writer has used a full note form or a shortened note form.
+For example, an excerpt from the text of a paper using a notes system without a full bibliography could look like this:
+The note, located either at the foot of the page (footnote) or at the end of the paper (endnote) would look like this:
+In a paper which contains a full bibliography, the shortened note could look like this:
+and the bibliography entry, which would be required with a shortened note, would look like this:
+
+Citation styles can be broadly divided into styles common to the Humanities and the Sciences, though there is considerable overlap. Some style guides, such as the Chicago Manual of Style, are quite flexible and cover both parenthetical and note citation systems.[7] Others, such as MLA and APA styles, specify formats within the context of a single citation system.[6] These may be referred to as citation formats as well as citation styles.[8][9][10] The various guides thus specify order of appearance, for example, of publication date, title, and page numbers following the author name, in addition to conventions of punctuation, use of italics, emphasis, parenthesis, quotation marks, etc, particular to their style.
+A number of organizations have created styles to fit their needs, consequently a number of different guides exist. Individual publishers often have their own in-house variations as well, and some works are so long established as to have their own citation methods too: Stephanus pagination for Plato; Bekker numbers for Aristotle; citing the Bible by book, chapter and verse; or Shakespeare notation by play, act and scene.
+Some examples of style guides include:
+
+
+
+
+
+Faulty citations include omissions of relevant papers, incorrect references, and quotation errors that misreport findings. This greatly impedes the growth of scientific knowledge because authors who fail to correctly report relevant studies are passing on false information to their readers. Furthermore, these papers are considered to be legitimate academic sources and thus more likely to be cited themselves by other papers in the future. Hence, this creates a snowball effect often leading to the proliferation of false information.[19]
+Research has shown that authors often overlook relevant research. This often occurs because they search for evidence only within their own discipline. In a study on escalation bias, papers that supported commonly-held beliefs were cited nine times more frequently than those that conflicted with common beliefs.[20]
+Research done on this subject by marketing professor J. Scott Armstrong suggests that to prevent faulty citations, authors should use the verification of citations procedure - meaning they should attempt to contact original authors to ensure that they properly cite any studies they rely on to support their main findings. Furthermore, journal editors should require authors to confirm that they have read the papers that they have cited and that they have made reasonable attempts to verify citations. This will help to reduce errors in the reference list, reduce the number of spurious references, and reduce the likelihood of overlooking relevant studies. Once a paper has been published, journals should make it easy for researchers to post relevant studies that have been overlooked. These procedures should help to ensure that new studies build properly on prior research.[21] There are now services which help check references such as WriteCheck which aim to identify unoriginal content in student work using powerful plagiarism detection databases.
+
+
+

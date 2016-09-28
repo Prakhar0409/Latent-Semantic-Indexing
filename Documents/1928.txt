@@ -1,0 +1,64 @@
+Viscosity
+Viscosity is a measure of the resistance of a fluid which is being deformed by either shear stress or extensional stress. In everyday terms (and for fluids only), viscosity is "thickness". Thus, water is "thin", having a lower viscosity, while honey is "thick" having a higher viscosity. Viscosity describes a fluid's internal resistance to flow and may be thought of as a measure of fluid friction. For example, high-viscosity magma will create a tall, steep stratovolcano, because it cannot flow far before it cools, while low-viscosity lava will create a wide, shallow-sloped shield volcano. [1] All real fluids (except superfluids) have some resistance to stress, but a fluid which has no resistance to shear stress is known as an ideal fluid or inviscid fluid. The study of viscosity is known as rheology.
+
+The word "viscosity" derives from the Latin word "viscum" for mistletoe. A viscous glue was made from mistletoe berries and used for lime-twigs to catch birds.[2]
+
+When looking at a value for viscosity, the number that one most often sees is the coefficient of viscosity. There are several different viscosity coefficients depending on the nature of applied stress and nature of the fluid. They are introduced in the main books on hydrodynamics[3][4] and rheology.[5]
+Shear viscosity and dynamic viscosity are much better known than the others. That is why they are often referred to as simply viscosity. Simply put, this quantity is the ratio between the pressure exerted on the surface of a fluid, in the lateral or horizontal direction, to the change in velocity of the fluid as you move down in the fluid (this is what is referred to as a velocity gradient). For example, at room temperature, water has a nominal viscosity of 1.0 × 10-3 Pa∙s and motor oil has a nominal apparent viscosity of 250 × 10-3 Pa∙s.[6]
+
+In general, in any flow, layers move at different velocities and the fluid's viscosity arises from the shear stress between the layers that ultimately opposes any applied force.
+Isaac Newton postulated that, for straight, parallel and uniform flow, the shear stress, τ, between layers is proportional to the velocity gradient, ∂u/∂y, in the direction perpendicular to the layers.
+Here, the constant μ is known as the coefficient of viscosity, the viscosity, the dynamic viscosity, or the Newtonian viscosity. Many fluids, such as water and most gases, satisfy Newton's criterion and are known as Newtonian fluids. Non-Newtonian fluids exhibit a more complicated relationship between shear stress and velocity gradient than simple linearity.
+The relationship between the shear stress and the velocity gradient can also be obtained by considering two plates closely spaced apart at a distance y, and separated by a homogeneous substance. Assuming that the plates are very large, with a large area A, such that edge effects may be ignored, and that the lower plate is fixed, let a force F be applied to the upper plate. If this force causes the substance between the plates to undergo shear flow (as opposed to just shearing elastically until the shear stress in the substance balances the applied force), the substance is called a fluid. The applied force is proportional to the area and velocity of the plate and inversely proportional to the distance between the plates. Combining these three relations results in the equation F = μ(Au / y), where μ is the proportionality factor called the dynamic viscosity (also called absolute viscosity, or simply viscosity). The equation can be expressed in terms of shear stress; τ = F / A = μ(u / y). The rate of shear deformation is u / y and can be also written as a shear velocity, du/dy. Hence, through this method, the relation between the shear stress and the velocity gradient can be obtained.
+James Clerk Maxwell called viscosity fugitive elasticity because of the analogy that elastic deformation opposes shear stress in solids, while in viscous fluids, shear stress is opposed by rate of deformation.
+
+Dynamic viscosity is measured with various types of rheometer. Close temperature control of the fluid is essential to accurate measurements, particularly in materials like lubricants, whose viscosity can double with a change of only 5 °C. For some fluids, it is a constant over a wide range of shear rates. These are Newtonian fluids.
+The fluids without a constant viscosity are called Non-Newtonian fluids. Their viscosity cannot be described by a single number. Non-Newtonian fluids exhibit a variety of different correlations between shear stress and shear rate.
+One of the most common instruments for measuring kinematic viscosity is the glass capillary viscometer.
+In paint industries, viscosity is commonly measured with a Zahn cup, in which the efflux time is determined and given to customers. The efflux time can also be converted to kinematic viscosities (cSt) through the conversion equations.
+A Ford viscosity cup measures the rate of flow of a liquid. This, under ideal conditions, is proportional to the kinematic viscosity.
+Also used in paint, a Stormer viscometer uses load-based rotation in order to determine viscosity. The viscosity is reported in Krebs units (KU), which are unique to Stormer viscometers.
+Vibrating viscometers can also be used to measure viscosity. These models such as the Dynatrol use vibration rather than rotation to measure viscosity.
+Extensional viscosity can be measured with various rheometers that apply extensional stress
+Volume viscosity can be measured with acoustic rheometer.
+
+
+The usual symbol for dynamic viscosity used by mechanical and chemical engineers — as well as fluid dynamicists — is the Greek letter mu (μ)[8][9][10][11]. The symbol η is also used by chemists and IUPAC[12]. The SI physical unit of dynamic viscosity is the pascal-second (Pa·s), which is identical to kg·m−1·s−1. If a fluid with a viscosity of one Pa·s is placed between two plates, and one plate is pushed sideways with a shear stress of one pascal, it moves a distance equal to the thickness of the layer between the plates in one second.
+The cgs physical unit for dynamic viscosity is the poise[13] (P), named after Jean Louis Marie Poiseuille. It is more commonly expressed, particularly in ASTM standards, as centipoise (cP). Water at 20 °C has a viscosity of 1.0020 cP.
+The relation between poise and pascal-seconds is:
+The name 'poiseuille' (Pl) was proposed for this unit (after Jean Louis Marie Poiseuille who formulated Poiseuille's law of viscous flow), but not accepted internationally.[citation needed] Care must be taken in not confusing the poiseuille with the poise named after the same person.
+
+In many situations, we are concerned with the ratio of the viscous force to the inertial force, the latter characterised by the fluid density ρ. This ratio is characterised by the kinematic viscosity (Greek letter nu, ν), defined as follows:
+where μ is the dynamic viscosity (Pa·s) and ρ is the density (kg/m3), and ν is the kinematic viscosity (m2/s).
+The cgs physical unit for kinematic viscosity is the stokes (St), named after George Gabriel Stokes. It is sometimes expressed in terms of centistokes (cSt or ctsk). In U.S. usage, stoke is sometimes used as the singular form.
+The kinematic viscosity is sometimes referred to as diffusivity of momentum, because it is comparable to and has the same unit (m2s−1) as diffusivity of heat and diffusivity of mass. It is therefore used in dimensionless numbers which compare the ratio of the diffusivities.
+
+At one time the petroleum industry relied on measuring kinematic viscosity by means of the Saybolt viscometer, and expressing kinematic viscosity in units of Saybolt Universal seconds (SUS).[14] Other abbreviations such as SSU (Saybolt Seconds Universal) or SUV (Saybolt Universal Viscosity) are sometimes used. Kinematic viscosity in centistoke can be converted from SUS according to the arithmetic and the reference table provided in ASTM D 2161. It can also be converted in computerized method, or vice versa.[15]
+
+In relation to diffusion, the kinematic viscosity provides a better understanding of the behavior of mass transport of a dilute species. Viscosity is related to shear stress and the rate of shear in a fluid, which illustrates its dependence on the mean free path, λ, of the diffusing particles.
+From fluid mechanics, shear stress, τ, is the rate of change of velocity with distance perpendicular to the direction of movement.
+Interpreting shear stress as the time rate of change of momentum,p, per unit area (rate of momentum flux) of an arbitrary control surface gives
+Further manipulation will show
+where
+
+Conversion between kinematic and dynamic viscosity is given by νρ = μ.
+For example,
+
+Because of its density of ρ = 1 g/cm3 (varies slightly with temperature), and its dynamic viscosity is near 1 mPa·s (see Viscosity of water section), the viscosity values of water are, to rough precision, all powers of ten:
+Dynamic viscosity:
+Kinematic viscosity:
+
+The viscosity of a system is determined by how molecules constituting the system interact. There are no simple but correct expressions for the viscosity of a fluid. The simplest exact expressions are the Green-Kubo relations for the linear shear viscosity or the Transient Time Correlation Function expressions derived by Evans and Morriss in 1985. Although these expressions are each exact in order to calculate the viscosity of a dense fluid, using these relations requires the use of molecular dynamics computer simulations.
+
+Viscosity in gases arises principally from the molecular diffusion that transports momentum between layers of flow. The kinetic theory of gases allows accurate prediction of the behavior of gaseous viscosity.
+Within the regime where the theory is applicable:
+James Clerk Maxwell published a famous paper in 1866 using the kinetic theory of gases to study gaseous viscosity.[17]
+
+Sutherland's formula can be used to derive the dynamic viscosity of an ideal gas as a function of the temperature:
+where:
+Valid for temperatures between 0 < T < 555 K with an error due to pressure less than 10% below 3.45 MPa
+Sutherland's constant and reference temperature for some gases
+[K]
+[K]
+[10-6�Pa�s]
+See also 

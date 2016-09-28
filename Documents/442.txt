@@ -1,0 +1,59 @@
+NetBeans
+NetBeans refers to both a platform for the development of applications for the network (using Java, JavaScript, PHP, Python, Ruby, Groovy, C, and C++), and an integrated development environment (IDE) developed using the NetBeans Platform.
+The NetBeans Platform allows applications to be developed from a set of modular software components called modules. A module is a Java archive file that contains Java classes written to interact with the NetBeans Open APIs and a manifest file that identifies it as a module. Applications built on modules can be extended by adding new modules. Since modules can be developed independently, applications based on the NetBeans platform can be extended by third party developers.[1]
+
+
+NetBeans began in 1997 as Xelfi[2][3], a student project under the guidance of the Faculty of Mathematics and Physics at Charles University in Prague. Roman Stanek later formed a company around the project and produced commercial versions of the NetBeans IDE until it was bought by Sun Microsystems in 1999. Sun open-sourced the NetBeans IDE in June of the following year. The NetBeans community has since continued to grow, thanks to individuals and companies using and contributing to the project.[4]
+
+NetBeans IDE 6.1 extended the existing Java EE features (including Java Persistence support, EJB 3 and JAX-WS). Additionally, the NetBeans Enterprise Pack supports development of Java EE 5 enterprise applications, including SOA visual design tools, XML schema tools, web services orchestration (for BPEL), and UML modeling. The NetBeans C/C++ Pack supports C/C++ projects.
+NetBeans IDE 6.0 builds upon the previous version 5.5.1, which introduced comprehensive support for developing IDE modules and rich client applications based on the NetBeans platform, a new GUI builder (formerly known as "Project Matisse"), new and redesigned CVS support, Weblogic 9 and JBoss 4 support, and many editor enhancements. NetBeans 6.0 is being delivered as part of the Ubuntu 8.04 and the Debian Linux distributions[5].
+The current version is NetBeans IDE 6.5.1, which was released in March 2009. NetBeans has won several awards for the Developer.com products of the year awards 2009[6]: Development Tool, Development Utilities, Wireless / Mobile, Java Tool, and Open Source.
+
+The NetBeans Platform is a reusable framework for simplifying the development of other desktop applications. When an application based on the NetBeans Platform is run, the platform's Main class is executed. Available modules are located, placed in an in-memory registry, and the modules' startup tasks are executed. Generally, a module's code is loaded into memory only as it is needed.
+Applications can install modules dynamically. Any application can include the Update Center module to allow users of the application to download digitally-signed upgrades and new features directly into the running application. Reinstalling an upgrade or a new release does not force users to download the entire application again.
+The platform offers services common to desktop applications, allowing developers to focus on the logic specific to their application. Among the features of the platform are:
+
+The NetBeans IDE is an open-source integrated development environment written entirely in Java using the NetBeans Platform. NetBeans IDE supports development of all Java application types (Java SE, web, EJB and mobile applications) out of the box. Among other features are an Ant-based project system, version control and refactoring.
+Modularity: All the functions of the IDE are provided by modules. Each module provides a well defined function, such as support for the Java language, editing, or support for the CVS versioning system, and SVN. NetBeans contains all the modules needed for Java development in a single download, allowing the user to start working immediately. Modules also allow NetBeans to be extended. New features, such as support for other programming languages, can be added by installing additional modules. For instance, Sun Studio, Sun Java Studio Enterprise, and Sun Java Studio Creator from Sun Microsystems are all based on the NetBeans IDE.
+License: From July 2006 through 2007, NetBeans IDE was licensed under Sun's Common Development and Distribution License (CDDL), a license based on the Mozilla Public License (MPL). In October 2007, Sun announced that NetBeans would henceforth be offered under a dual license of the CDDL and the GPL version 2 licenses, with the GPL linking exception for GNU Classpath[7]
+
+These modules are part of the core NetBeans IDE.
+
+The NetBeans Profiler[8] is a tool for the monitoring of Java applications: It helps you find memory leaks and optimize speed. Formerly downloaded separately, it is integrated into the core IDE since version 6.0.
+The Profiler is based on a Sun Laboratories research project that was named JFluid. That research uncovered specific techniques that can be used to lower the overhead of profiling a Java application. One of those techniques is dynamic bytecode instrumentation, which is particularly useful for profiling large Java applications. Using dynamic bytecode instrumentation and additional algorithms, the NetBeans Profiler is able to obtain runtime information on applications that are too large or complex for other profilers. NetBeans also support Profiling Points that let you profile precise points of execution and measure execution time.
+
+Formerly known as project Matisse, the GUI design-tool enables developers to prototype and design Swing GUIs by dragging and positioning GUI components [9].
+The GUI builder has also built-in support for JSR 296 (Swing Application Framework), and JSR 295 (Beans Binding technology).
+
+NetBeans JavaScript Editor provides extended support for Javascript and CSS[10][11].
+Features comprise:
+
+Users can choose to download NetBeans IDE bundles tailored to specific development needs. Users can also download and install all other features at a later date directly through the NetBeans IDE.
+
+The NetBeans IDE Bundle for Web & Java EE[12] provides tools for building all Java EE components, including Enterprise Java Beans (EJBs), web pages, servlets, and web services.
+The bundle also includes an easy and intuitive drag and drop interface for developers to create rich UIs for web development. These components are based on JSF and help in easy development for user interfaces. This visual web pack is considered to be a much better and improved version with a lot of good features compared to the previous releases of Sun Java Studio Creator.
+The source code for the UI component set is also open source and available for download at: https://woodstock.dev.java.net/
+
+The NetBeans IDE Bundle for Ruby[13] includes a Ruby editor (with code completion), debugger, and full support for Rails. Includes the JRuby runtime. Supports Ruby and JRuby, as well as Rails for these two implementations of Ruby [1] [2].
+The bundle for Ruby includes:
+It is also possible to create directly Ruby projects or Ruby on Rails projects, using the reference Ruby implementation, or using JRuby (the Java implementation of Ruby).
+
+The NetBeans IDE Bundle for Mobility [3] is a tool for developing applications that run on mobile devices; generally mobile phones, but this also includes entry-level PDAs, among others.
+The Mobility Pack can be used to write, test, and debug applications for the Java ME platform technology-enabled mobile devices. It integrates support for the Mobile Information Device Profile (MIDP) 2.0, the Connected Limited Device Configuration (CLDC) 1.1, and Connected Device Configuration (CDC). One can easily integrate third-party emulators for a robust testing environment. Currently, the pack is available as two separate clusters, one covering CDC and the other, CLDC devices.
+
+The NetBeans IDE Bundle for C/C++[14] adds support for C/C++ developers to NetBeans IDE 5.5.
+This pack lets C/C++ developers use their specified set of compilers and tools in conjunction with NetBeans IDE to build native applications for e.g. MS Windows, Mac OS X, Linux, and Solaris. The pack makes the editor language-aware for C/C++, and provides project templates, a dynamic class browser, make file support, and debugger functionality. Developers can also extend the pack with their own additional functionalities. The NetBeans C/C++ bundle does not include a C/C++ compiler. However, Sun Microsystems has a page with instructions on how to install a free GNU C/C++ Compiler.
+
+On August 18, 2008, Sun Microsystems released Netbeans 6.5 Beta, with support for PHP editing and debugging. On October 29, this was updated to RC1.
+
+A NetBeans IDE Bundle is also available for JavaFX since NetBeans 6.5[15]. It provides a JavaFX editor and allow to preview and profile JavaFX Desktop or Mobile applications.
+
+Sun Microsystems also releases a Version of NetBeans that include all of the features of the above bundles. This Includes:
+
+Sun Microsystems used to offer a free DVD-ROM which included all of the components needed to run NetBeans. However, the DVD is no longer available, as Sun is evaluating more efficient ways of distributing the software, which is to include an ISO of the DVD available for download.[16]
+
+Apart from the above mentioned, a NetBeans IDE Bundle is also available for Python. NetBeans for Python is available as an "early access" download in an IDE bundle form and as a plugin for any NetBeans 6.5 IDE bundle as well.
+
+As of January 2007, Simplified Chinese, Traditional Chinese, German, Japanese, Portuguese (Brazil) and Spanish language packs are available for Netbeans 5.5.1.[4]
+Albanian, Azerbaijani, Czech, Dutch, French, Greek, Indonesian, Italian and Swedish language packs are in progress.
+

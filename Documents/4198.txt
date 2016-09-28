@@ -1,0 +1,18 @@
+Havok (software)
+Havok Physics is a physics engine developed by Irish company Havok. It is designed for computer and video games by allowing interaction between objects or other characters in real-time and by giving objects physics-based qualities in three dimensions. By using dynamical simulation, Havok allows for more lifelike worlds and animation, such as ragdoll physics or intelligence in massive falling things. The company has also released a Havok Animation. Havok was purchased by Intel in 2007.
+In 2008, Havok was honored at the 59th Annual Technology & Engineering Emmy Awards for advancing the development of physics engines in electronic entertainment.
+
+Version 1.0 of the Havok SDK was unveiled at the Game Developers Conference (GDC) in 2000. It has since evolved into a number of products, mainly Havok version 5 released in September 2007. The source code for the engine is distributed after licensing, and is currently known to work on Microsoft Windows, Xbox and Xbox 360, Nintendo's GameCube and Wii, Sony's PlayStation 2, PlayStation 3 and PlayStation Portable, and on Linux. The engine itself is written in C/C++, and remains fairly portable to any system with a compatible C or C++ compiler.
+
+Since the SDK's launch in 2000, it has been used in over 150 video and computer games. Those games have primarily been in the first-person shooter genre (the physics engine in Valve Corporation's Source engine uses a heavily modified version of Havok), however it has seen some use in other genres, such as in the Cyan Worlds' adventure game Uru: Ages Beyond Myst; THQ/Relic Entertainment's real-time strategy game, Company of Heroes; MotorStorm; MotorStorm: Pacific Rift; Killzone 2; Madworld; Soulcalibur IV; Destroy All Humans! and Destroy All Humans! 2; Sonic the Hedgehog (2006 Game); Max Payne 2: The Fall of Max Payne; Sonic Unleashed; The Elder Scrolls IV: Oblivion; Saints Row; Halo 3; Saints Row 2; Banjo-Kazooie: Nuts & Bolts; Crackdown; Nintendo's Super Smash Bros. Brawl[3]; Ensemble Studios' Age of Empires III; Timeshift; and Blizzard Entertainment's StarCraft II and Diablo III[4].
+More recently it has been used in Fallout 3, an RPG developed by Bethesda Softworks. F.E.A.R. 2 also employs the Havok engine.
+Havok can also be found in Autodesk Media & Entertainment's 3ds max as a bundled plug-in called reactor. A plugin for Autodesk Media & Entertainment's Maya animation software and an xtra for Adobe Director's Shockwave are also available.
+Havok is also used in the Second Life virtual world, with all physics handled by its online simulator servers, rather than by the users' client computers. An upgrade to Havok version 4 was released in April 2008.
+In August of 2008, Second Life resident Emilin Nakamori constructed a functioning pendulum clock escapement in SL, demonstrating that the Havok 4 simulated physics environment was sufficiently realistic to allow "physical" mechanisms to function by interacting with that environment.[5]
+
+The company was developing a specialized version of Havok Physics called Havok FX that made use of ATI and NVIDIA GPUs for physics simulations,[6] but may have been canceled.
+
+In 2008 Havok released two new games middleware products, Cloth and Destruction. Cloth deals with efficient simulation of character garments and soft bodies. Destruction provides tools for creation of destructable and deformable rigid body environments.
+
+
+

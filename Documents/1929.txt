@@ -1,0 +1,16 @@
+Connexions
+Connexions is a global repository of educational content that can be adapted and updated by new authors. Originating at Rice University, the whole collection is available free of charge, and students and learners can explore all the content.
+Connexions is pioneering, along with other projects such as MIT OpenCourseWare and the Public Library of Science, the idea of open educational resources — that scholarly and educational content can and should be shared, re-used and recombined, interconnected and continually enriched.
+
+Connexions contains educational materials at all levels — from children to college students to professionals — organized in small modules that can be connected into larger courses. Material is authored by people from all walks of life. A large amount of content is created by university professors, but the collection also contains very popular music content created by a part-time music teacher.
+Connexions popular material is translated into many languages, aided by the open-content licensing.
+
+To ensure the legal reusability of content, Connexions requires authors to license materials they publish under the Creative Commons Attribution License [1] (presently, version 2.0). Under this license, the author retains the right to be credited (attributed) wherever the content is reused. The author grants others the right to copy, distribute, and display the work, and to derive works based on it, as long as the author is credited.
+
+
+Three key factors enable the collaborative environment in Connexions:
+
+The Connexions project was started in 1999 and initially supported by individuals and Rice University. That support has been substantially supplemented by grants from the William and Flora Hewlett Foundation.
+
+
+

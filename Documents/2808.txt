@@ -1,0 +1,22 @@
+Meta-Object Facility
+The Meta-Object Facility (MOF) is an Object Management Group (OMG) standard for model-driven engineering. The official reference page may be found at OMG's website. [1]
+
+MOF originated in the Unified Modeling Language (UML); the OMG was in need of a metamodeling architecture to define the UML. MOF is designed as a four-layered architecture. It provides a meta-meta model at the top layer, called the M3 layer. This M3-model is the language used by MOF to build metamodels, called M2-models. The most prominent example of a Layer 2 MOF model is the UML metamodel, the model that describes the UML itself. These M2-models describe elements of the M1-layer, and thus M1-models. These would be, for example, models written in UML. The last layer is the M0-layer or data layer. It is used to describe real-world objects.
+Beyond the M3-model, MOF describes the means to create and manipulate models and metamodels by defining CORBA interfaces that describe those operations. Because of the similarities between the MOF M3-model and UML structure models, MOF metamodels are usually modeled as UML class diagrams. A supporting standard of MOF is XMI, which defines an XML-based exchange format for models on the M3-, M2-, or M1-Layer.
+
+MOF is a closed metamodeling architecture; it defines an M3-model, which conforms to itself. MOF allows a strict meta-modelling architecture; every model element on every layer is strictly in correspondence with a model element of the layer above. MOF only provides a means to define the structure, or abstract syntax of a language or of data. For defining metamodels, MOF plays exactly the role that EBNF plays for defining programming language grammars. MOF is a Domain Specific Language (DSL) used to define metamodels, just as EBNF is a DSL for defining grammars. Similarly to EBNF, MOF could be defined in MOF.
+In short MOF uses the notion of MOF::Classes (not to be confused with UML::Classes), as known from object orientation, to define concepts (model elements) on a metalayer. MOF may be used to define object-oriented metamodels (as UML for example) as well as non object-oriented metamodels (as a Petri net or a Web Service metamodel).
+As of May 2006, the OMG has defined two variants of MOF:
+In June 2006, a request for proposal was issued by OMG for a third variant, SMOF (Semantic MOF).
+The variant ECore that has been defined in the Eclipse Modeling Framework is more or less aligned on OMG's EMOF.
+Another related standard is OCL, which describes a formal language that can be used to define model constraints in terms of predicate logic.
+A very important new standard is QVT which introduces means to query, view and transform MOF-based models (cf. the sections on Model Transformation Languages for further information).
+
+MOF is now an international standard:
+MOF can be viewed as a standard to write metamodels, for example in order to model the abstract syntax of Domain Specific Languages. Kermeta is an extension to MOF allowing executable actions to be attached to EMOF meta-models, hence making it possible to also model a DSL operational semantics and readily obtain an interpreter for it.
+JMI defines a Java API for manipulating MOF models.
+OMG's MOF is not to be confused with the Managed Object Format (MOF) defined by the Distributed Management Task Force (DMTF) in section 3 of the Common Information Model (CIM) Infrastructure Specification[2].
+
+
+
+

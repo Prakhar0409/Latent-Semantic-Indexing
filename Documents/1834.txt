@@ -1,0 +1,12 @@
+Ubiquity (Firefox)
+Ubiquity, an Add-on for Mozilla Firefox, is a collection of quick and easy natural-language-derived commands that act as mashups of web services, thus allowing users to get information and relate the same to current and other webpages. It also allows web users to create new commands without requiring much technical background.[2]
+
+Ubiquity's main goal is to take a disjointed web and bring everything the user needs to them. This is accomplished through a command-line-like interface which is based on natural language commands. These commands are supplied both by Mozilla and by individual users. Commands are written in JavaScript or Python and either directly typed into the command editor that comes with Ubiquity or subscribed to. Commands to which a user subscribes are automatically updated when the author updates the code.[3] At the moment there is no limit as to what these commands can do, which means a large security risk. One of the future functionalities planned for Ubiquity is a trust network that allows users to evaluate the trustworthiness of a particular command before subscribing to it.[4] Ubiquity will allow users to insert maps anywhere, translate on-page, highlight any code, and many other features.[5]
+
+The architectural design for Ubiquity 0.1.3 was focused on separating functions into well defined objects. The browser window functionality was separated into per-window and global objects. The per-window command manager object mediated between the context menu, command entry and natural-language parser objects and the commands themselves. The global objects marshall application-wide services such as built-in command feeds. [6] Efforts to localize Ubiquity into different languages is also underway.[7]
+
+The design goals for Ubiquity 0.2 focus on making it easier to experiment with new UIs and more security.[8]
+
+
+
+

@@ -1,0 +1,12 @@
+CMDB
+A configuration management database (CMDB) is a repository of information related to all the components of an information system. Although repositories similar to CMDBs have been used by IT departments for many years, the term CMDB stems from ITIL (Information Technology Infrastructure Library). In the ITIL context, a CMDB represents the authorized configuration of the significant components of the IT environment. A key goal of a CMDB is to help an organization understand the relationships between these components and track their configuration. The CMDB is a fundamental component of the ITIL framework's Configuration Management process. CMDB implementations often involve integration with other systems, such as Asset Management Systems. These integrations may make use of either a real-time, federated design or an ETL (extract, transform, load) solution.
+
+The CMDB records (configuration items or "CIs") contain details about the important attributes and relationships between CIs. Configuration managers usually describe CIs using three configurable attributes:
+Configuration Items can describe a single file or an entire IT system depending on the needs of the organization. High level CI details are easier and cheaper to maintain but limit the ability of the system to support other functional areas.
+A key factor to success in implementing a CMDB is the ability to automatically discover information about the CIs (auto-discovery) and track changes as they happen. (The CMDB must be accurate, since incorrect CI details can lead to incorrect decisions.)
+CMDBs contain metadata, and thus the concept overlaps with that of a metadata repository which are both used in running large IT organizations. Configuration management addresses how the data is to be kept up to date, which has historically been a weakness of metadata repositories.
+The data maintained within the CMDB is key to the support of other ITIL functional areas including Service Delivery, Change, Release, Test, Problem and Incident Management. The CMDB enables understanding of relationships between CIs and will describe the potential impact of (1) planned changes to CIs and (2) IT incidents (system errors).
+
+
+
+

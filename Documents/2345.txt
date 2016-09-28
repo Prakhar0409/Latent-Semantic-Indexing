@@ -1,0 +1,11 @@
+Google hacking
+Google hacking is a term that refers to the act of creating complex search engine queries in order to filter through large amounts of search results for information related to computer security. In its malicious format it can be used to detect websites that are vulnerable to numerous exploits and vulnerabilities as well as locate private, sensitive information about others, such as credit card numbers, social security numbers, and passwords. This filtering is performed by using advanced Google operators [1], [2]. While Google was the original tool of the Google hackers, many of the tactics and operators can be used on other search engines, such as MSN Search and Yahoo.
+
+Google Hacking involves using Google operators to locate specific strings of text within search results. Some of the more popular examples are using Google to find specific versions of vulnerable Web applications. The following search query would locate all web pages that have that particular text contained within them. It is normal for default installations of applications to include their running version in every page they serve, e.g. "Powered by XOOPS 2.2.3 Final"
+The following search query will locate all websites that have the words "admbook" and "version" in the title of the website. It also checks to ensure that the web page being accessed is a PHP file.
+Another technique is searching for insecure coding practices in the public code indexed by Google Code Search or other source code search engines.
+One can even retrieve the Username & Password list from Microsoft FrontPage Servers by inputing the given microscript in Google search field: -
+"#-Frontpage-" inurl:administrators.pwd
+Devices connected to the Internet can be found. A search string such as inurl:"ViewerFrame?Mode=" will find public web cameras.
+
+

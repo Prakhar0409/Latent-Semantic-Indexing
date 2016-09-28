@@ -1,0 +1,8 @@
+Location-based media
+Location-based media (LBM) delivers multimedia directly to the user of a mobile device dependent upon their location. Location information determined by means such as mobile phone tracking can be used to customize media content presented on the device. The term was jointly coined at the 2004 Consumer Electronics Show by Tom Brammar, the then Chief Executive of Node, and Martin Hill an original founder of Symbian, and wireless pioneer.
+For example: Media content is managed and organised externally of the device on a standard desktop or laptop. The device then downloads this formatted content with GPS coordinated triggers applied to each media sequence. As the location-aware device enters the selected area, satellites trigger the assigned media, designed to be of optimal relevance to the user and their surroundings.
+Location based media allows for the enhancement of any given environment offering explanation, analysis and detailed commentary on what the user is looking at through a combination of video, audio, images and text. The location-aware device can deliver interpretation of cities, parklands, heritage sites, sporting events or any other environment where location based media is required.
+The content production and pre-production are integral to the overall experience that is created and must have been performed with ultimate consideration of the location and the users position within that location. The media offers a depth to the environment beyond that which is immediately apparent, allowing revelations about background, history and current topical feeds.
+Live updates to the Portable Media Players PMP content mean that attendance at sporting events can converge with traditional broadcast media coverage.
+
+

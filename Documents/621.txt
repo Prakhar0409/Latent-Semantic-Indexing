@@ -1,0 +1,30 @@
+Sorites paradox
+The Sorites paradox (σωρός (sōros) being Greek for "heap" and σωρίτης (sōritēs) the adjective) is a paradox that arises from vague predicates. The paradox of the heap is an example of this paradox which arises when one considers a heap of sand, from which grains are individually removed. Is it still a heap when only one grain remains? If not, when did it change from a heap to a non-heap?
+
+
+The name 'Sorites' derives from the Greek word for heap. The paradox is so-named because of its original characterization, attributed to Eubulides of Miletus. The paradox goes as follows: consider a heap of sand from which grains are individually removed. One might construct the argument, using premises, as follows:
+Repeated applications of Premise 2 (each time starting with one less number of grains), eventually forces one to accept the conclusion that a heap may be composed of just one grain of sand (and if you follow premise 2 again, composed of no grains at all!).
+On the face of it, there are some ways to avoid this conclusion. One may object to the first premise by denying 1,000,000 grains of sand makes a heap. But 1,000,000 is just an arbitrarily large number, and the argument will go through with any such number. So the response must deny outright that there are such things as heaps. Peter Unger defends this solution. Alternatively, one may object to the second premise by stating that it is not true for all collections of grains that removing one grain from it still makes a heap. Or one may accept the conclusion by insisting that a heap of sand can be composed of just one grain (or zero grains).
+
+This paradox can be reconstructed for a variety of predicates, for example, with "tall", "rich", "old", "blue" and so on. Bertrand Russell argues, in his paper titled 'Vagueness', that all of natural language, even logical connectives, are vague; most views do not go that far, but it is certainly an open question.
+
+
+A common first response to the paradox is to call any set of grains that has more than a certain number of grains in it a heap. If one were to set the "fixed boundary" at, say, 10,000 grains then one would claim that for fewer than 10,000, it's not a heap; for 10,000 or more, then it is a heap.
+However, such solutions are unsatisfactory as there seems little significance to the difference between 9,999 grains and 10,001 grains. The boundary, wherever it may be set, remains as arbitrary and so its precision is misleading. It is objectionable on both philosophical and linguistic grounds: the former on account of its arbitrariness, and the latter on the ground that it is simply not how we use natural language.
+
+Timothy Williamson and Roy Sorensen hold an approach that there are fixed boundaries but that they are necessarily unknowable.
+
+Supervaluationism is a semantics for dealing with irreferential singular terms and vagueness. Consider the sentence 'Pegasus likes licorice' in which the name 'Pegasus' fails to refer. What should its truth value be? There is nothing in the myth that would justify any assignment of values to it. On the other hand, consider 'Pegasus likes licorice or Pegasus doesn't like licorice' which is an instance of the valid schema 'p ∨ ~p' (i.e. 'p or not-p'). Shouldn't it be true regardless of whether or not its disjuncts have a truth value? According to supervaluationism, it should be.
+Precisely, let v be a classical valuation defined on every atomic sentence of the language L, and let At(x) be the number of distinct atomic sentences in x. Then there are at most 2^At(x) classical valuations defined on every sentence x. A supervaluation V is a function from sentences to truth values such that, x is super-true (i.e. V(x)=True) if and only if v(x)=True for every v; likewise for super-false. Otherwise, V(x) is undefined—i.e. exactly when there are two valuations v and v* such that v(x)=True and v*(x)=False.
+For example, let Lp be the formal translation of 'Pegasus likes licorice'. Then there are exactly two classical valuations v and v* on Lp, viz. v(Lp)=True and v*(Lp)=False. So Lp is neither super-true nor super-false. See Fine (1975) and Wikipedia entry on supervaluationism.
+
+Another approach is to use a multi-valued logic. Instead of two logical states, heap and not-heap, a three value system can be used, for example heap, unsure and not-heap. However, three valued systems do not truly resolve the paradox as there is still a dividing line between heap and unsure and also between unsure and not-heap. The third truth-value can be understood either as a truth gap or as a truth glut. Fuzzy logic offers a continuous spectrum of logical states represented in the interval of real numbers [0,1] --- it is a many-valued logic with infinitely-many truth-values. Fuzzy hedges are used to divide the continuum into regions corresponding to classes like definitely heap, mostly heap, partly heap, slightly heap, and not heap.
+
+Another approach is to use hysteresis—that is, knowledge of what the collection of sand started as. Equivalent amounts of sand may be called heaps or not based on how they got there. If a large heap (indisputably described as a heap) is slowly diminished, it preserves its "heap status" even as the actual amount of sand is reduced to a small number of grains.[1]
+
+One can establish the meaning of the word "heap" by appealing to group consensus. This approach claims that a collection of grains is as much a "heap" as the proportion of people in a group who believe it to be so. In other words, the probability that any collection is a heap is the expected value of the distribution of the group's views.
+A group may decide that:
+Between the two extremes, individual members of the group may disagree with each other over whether any particular collection can be labelled a "heap". The collection can then not be definitively claimed to be a "heap" or "not a heap", but rather it has a certain probability of being a heap.
+
+
+

@@ -1,0 +1,10 @@
+SageTV
+SageTV Media Center is a proprietary, commercial digital video recording (DVR) software package for Mac OS X, Windows and Linux. It requires that the host PC have a hardware based TV tuner card. The SageTV software has an integrated Electronic Programming Guide (EPG) that is updated via the Internet. The program provides a television interface for DVR, music, and photos on Windows and Linux. SageTV Media Center typically records in standard MPEG2, making it possible to transfer recordings to laptops or other devices. It also has a built-in conversion feature to transcode files into other formats compatible with iPod, PSP, cell phones and other portable devices.
+A "lite" version is commonly shipped as part of an OEM software bundle. Both the lite and regular versions offer a Java API.
+SageTV Placeshifter allows the user to watch TV from any high speed internet connection, similar to the Slingbox. As of Version 6, the SageTV Placeshifter is available for Windows, Linux and Macintosh platforms. The SageTV Media Extender set-top allows other TVs to connect to SageTV over a home network. There is also the ability to use the Hauppauge MediaMVP with SageTV by purchasing a MediaMVP Client License.
+
+SageTV Media Center for Linux is compatible with most major Linux distributions. Information on a Gentoo distribution tuned for Media Center usage is available from the SageTV website. It runs on low cost PC and consumer electronics hardware including embedded processors (embedded only available for OEMs).
+
+SageTV software also includes a SageTV Studio Development GUI that allows the customization of the user interface and development of add-ons. The company provides documentation so that these customizations can use a Java API. Built-in EPG support is available only for North America; however, the developer community has developed plug-ins that allow unsupported regions to access EPG info through sources such as XMLTV and ICETV in Australia. Additionally, there are Netflix, IMDB, and commercial skipping plugins.
+
+

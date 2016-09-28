@@ -1,0 +1,14 @@
+Crystal Reports
+Crystal Reports is a business intelligence application used to design and generate reports from a wide range of data sources. Several other applications, such as Microsoft Visual Studio, bundle an OEM version of Crystal Reports as a general purpose reporting tool. Crystal Reports became the de facto report writer when Microsoft released it with Visual Basic.
+
+The product was originally created by Crystal Services Inc., which produced versions 1.0 through 3.0. The company was subsequently acquired by Seagate Software, which later renamed itself Crystal Decisions, and produced versions 4.0 through 9.0. Crystal Decisions was acquired in December 2003 by Business Objects, which has so far produced versions 10, 11 (XI) and the current version 12 (2008). Business Objects was acquired by SAP on October 08, 2007.
+
+
+Users install Crystal Reports on a computer and use it to select specific rows and columns from a table of compatible data (see "Supported data sources" below). Users can then arrange the data on the report in the format needed. Once the report layout is complete it is saved as a file with the extension RPT. A report can be rerun anytime by reopening the RPT file and 'refreshing' the data. If the source data has been updated then the refreshed report will reflect those updates. The report can then be previewed on the screen, printed onto paper or exported to one of several different file formats such as PDF, Excel, text, CSV or other.
+Report formats can vary from a simple column of values to layouts featuring pie charts, bar charts, cross-tab summary tables and nested subreports. Crystal Reports is designed for "presentation quality" reports so there are many options for enhanced formatting.
+
+Accessible data sources include the following:
+
+Crystal Reports comes integrated with Visual Studio. Crystal Reports allows Java developers to build applications with Crystal Reports components.
+
+

@@ -1,0 +1,6 @@
+List of integrals of exponential functions
+The following is a list of integrals (antiderivative functions) of exponential functions. For a complete list of Integral functions, please see the list of integrals.
+Note that x can be substituted for u, or any other variable, so long as the differential matches.
+
+
+

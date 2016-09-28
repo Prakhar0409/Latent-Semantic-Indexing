@@ -1,0 +1,21 @@
+GNU Lesser General Public License
+The GNU Lesser General Public License (formerly the GNU Library General Public License) or LGPL is a free software license published by the Free Software Foundation (FSF). It was designed as a compromise between the strong-copyleft GNU General Public License or GPL and permissive licenses such as the BSD licenses and the MIT License. The GNU Lesser General Public License was written in 1991 (and updated in 1999, and again in 2007) by Richard Stallman, with legal advice from Eben Moglen.
+The LGPL places copyleft restrictions on the program itself but does not apply these restrictions to other software that merely links with the program. There are, however, certain other restrictions on this software.
+The LGPL is primarily used for software libraries, although it is also used by some stand-alone applications, most notably Mozilla and OpenOffice.org.
+
+The main difference between the GPL and the LGPL is that the latter can be linked to (in the case of a library, 'used by') a non-(L)GPLed program, which may be free software or proprietary software.[1] This non-(L)GPLed program can then be distributed under any chosen terms if it is not a derivative work. If it is a derivative work, then the terms must allow "modification for the customer's own use and reverse engineering for debugging such modifications." Whether a work that uses an LGPL program is a derivative work or not is a legal issue. A standalone executable that dynamically links to a library is generally accepted as not being a derivative work. It would be considered a "work that uses the library" and paragraph 5 of the LGPL applies.
+Essentially, it must be possible for the software to be linked with a newer version of the LGPL-covered program. The most commonly used method for doing so is to use "a suitable shared library mechanism for linking". Alternatively, a statically linked library is allowed if either source code or linkable object files are provided.
+One feature of the LGPL is that one can convert any LGPLed piece of software into a GPLed piece of software (section 3 of the license). This feature is useful for direct reuse of LGPLed code in GPLed libraries and applications, or if one wants to create a version of the code that software companies cannot use in proprietary software products.
+
+The former name of "GNU Library General Public License" gave some people the impression that the FSF wanted all libraries to use the LGPL and all programs to use the GPL. In February 1999 Richard Stallman wrote the essay Why you shouldn't use the Lesser GPL for your next library explaining why this was not the case, and that one should not necessarily use the LGPL for libraries:
+Contrary to popular impression, however, this does not mean that the FSF deprecates the LGPL, but merely says that it should not be used for all libraries — the same essay goes on to say:
+Indeed, Stallman and the FSF sometimes advocate licenses even less restrictive than the LGPL as a matter of strategy (to maximize the freedom of users). A prominent example was Stallman's endorsement of the use of a BSD-style license by the Vorbis project for its libraries.[2]
+
+The license uses terminology which is mainly intended for applications written in the C programming language or its family. Franz Inc. published its own preamble to the license to clarify terminology in the Lisp programming language context. LGPL with this preamble is sometimes referred as LLGPL.[3]
+In addition, Ada has a special feature, generics, that may use the MGPL license.
+
+Some concern has arisen about the suitability of object-oriented classes in LGPL'd software being inherited by non-(L)GPL code. Generally, these concerns are unfounded, and clarification is given on the official GNU website:
+
+
+
+

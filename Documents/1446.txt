@@ -1,0 +1,66 @@
+Norepinephrine
+L: 216.5–218 °C (decomp.)
+D/L: 191 °C (decomp.)
+Norepinephrine (INN) (abbreviated norepi or NE) or noradrenaline (BAN) (abbreviated NA or NAd) is a catecholamine with dual roles as a hormone and a neurotransmitter.[2]
+As a stress hormone, norepinephrine affects parts of the brain where attention and responding actions are controlled. Along with epinephrine, norepinephrine also underlies the fight-or-flight response, directly increasing heart rate, triggering the release of glucose from energy stores, and increasing blood flow to skeletal muscle.
+However, when norepinephrine acts as a drug it will increase blood pressure by its prominent increasing effects on the vascular tone from α-adrenergic receptor activation. The resulting increase in vascular resistance triggers a compensatory reflex that overcomes its direct stimulatory effects on the heart, called the baroreceptor reflex, which results in a drop in heart rate called reflex bradycardia.
+Norepinephrine is synthesized from dopamine by dopamine β-hydroxylase.[3] It is released from the adrenal medulla into the blood as a hormone, and is also a neurotransmitter in the central nervous system and sympathetic nervous system where it is released from noradrenergic neurons. The actions of norepinephrine are carried out via the binding to adrenergic receptors.
+
+Norepinephrine is released when a host of physiological changes are activated by a stressful event.
+In the brain, this is caused in part by activation of an area of the brain stem called the locus ceruleus. This nucleus is the origin of most norepinephrine pathways in the brain. Noradrenergic neurons project bilaterally (send signals to both sides of the brain) from the locus ceruleus along distinct pathways to many locations, including the cerebral cortex, limbic system, and the spinal cord, forming a neurotransmitter system.
+Norepinephrine is also released from postganglionic neurons of the sympathetic nervous system, to transmit the fight-or-flight response in each tissue respectively. The adrenal medulla can also be counted to such postganglionic nerve cells, although they release norepinephrine into the blood.
+
+The noradrenergic neurons in the brain form a neurotransmitter system, that, when activated, exerts effects on large areas of the brain. The effects are alertness and arousal, and influences on the reward system.
+Anatomically, the noradrenergic neurons originate both in the locus ceruleus and the lateral tegmental field. The axons of the neurons in the locus ceruleus act on adrenergic receptors in:
+On the other hand, axons of neurons of the lateral tegmental field act on adrenergic receptors in hypothalamus, for example.
+This structure explains some of the clinical uses of norepinephrine, since a modification of the system affects large areas of the brain.
+
+Norepinephrine is synthesized from tyrosine as a precursor, and packed into synaptic vesicles. It performs its action by being released into the synaptic cleft, where it acts on adrenergic receptors, followed by the signal termination, either by degradation of norepinephrine, or by uptake by surrounding cells.
+
+Norepinephrine is synthesized by a series of enzymatic steps in the adrenal medulla from the amino acid tyrosine:
+Tyrosine
+Levodopa
+Dopamine
+Norepinephrine
+
+Between the decarboxylation and the final β-oxidation, norepinephrine is transported into synaptic vesicles. This is accomplished by vesicular monoamine transporter (VMAT) in the lipid bilayer. This transporter has equal affinity for norepinephrine, epinephrine and isoprenaline.[4]
+
+To perform its functions, norepinephrine needs to be released from synaptic vesicles. Many substances modulate this release, some inhibiting it and some stimulating it.
+For instance, there are inhibitory α2 adrenergic receptors presynaptically, that gives negative feedback on release by homotropic modulation.
+
+Norepinephrine performs its actions on the target cell by binding to and activating adrenergic receptors. Unlike epinephrine, which activates all adrenergic receptors (α1 α2 β1 β2), norepinephrine activates all but β2 receptors. The target cell expression of different types of receptors determines the ultimate cellular effect, and thus norepinephrine has different actions on different cell types.
+
+Signal termination is both a result of degradation and reuptake.
+
+In mammals, norepinephrine is rapidly degraded to various metabolites. The principal metabolites are:
+VMA and MOPEG are the two major urinary metabolites of catecholamine metabolism.
+
+Uptake is either done presynaptically (uptake 1) or by non-neuronal cells in the vicinity (uptake 2).
+
+
+Norepinephrine may be used for the indications attention-deficit/hyperactivity disorder, depression and hypotension. Norepinephrine, as with other catecholamines, itself cannot cross the blood-brain barrier, so drugs such as amphetamines are necessary to increase brain levels.
+
+Norepinephrine, along with dopamine, has come to be recognized as playing a large role in attention and focus. For people with ADD/ADHD, psychostimulant medications such as methylphenidate (Ritalin/Concerta), dextroamphetamine (Dexedrine), and Adderall (a mixture of dextroamphetamine and racemic amphetamine salts) are prescribed to help increase levels of norepinephrine and dopamine. Atomoxetine (Strattera) is a selective norepinephrine reuptake inhibitor, and is a unique ADD/ADHD medication, as it affects only norepinephrine, rather than dopamine. As a result, Strattera has a lower abuse potential. However, it may not be as effective as the psychostimulants are with many people who have ADD/ADHD. Consulting with a physician or nurse practitioner is needed to find the appropriate medication and dosage. (Other SNRIs, currently approved as antidepressants, have also been used off-label for treatment of ADD/ADHD.)
+
+Differences in the norepinephrine system are implicated in depression. Serotonin-norepinephrine reuptake inhibitors are antidepressants that treat depression by increasing the amount of serotonin and norepinephrine available to postsynaptic cells in the brain. There is some recent evidence implying that SNRIs may also increase dopamine transmission.[citation needed] This is because SNRIs work by inhibiting reuptake, i.e. preventing the serotonin and norepinephrine transporters from taking their respective neurotransmitters back to their storage vesicles for later use. If the norepinephrine transporter normally recycles some dopamine too, then SNRIs will also enhance dopaminergic transmission. Therefore, the antidepressant effects associated with increasing norepinephrine levels may also be partly or largely due to the concurrent increase in dopamine (particularly in the prefrontal cortex of the brain).
+Tricyclic antidepressants (TCAs) increase norepinephrine activity as well. Most of them also increase serotonin activity, but tend to have side effects due to the nonspecific activation of histamine and acetylcholine receptors. Side effects include tiredness, increased hunger, dry mouth, and blurred vision. For this reason, they have largely been replaced by newer selective reuptake drugs such as fluoxetine (Prozac).
+
+Norepinephrine is also used as a vasopressor medication (for example, brand name Levophed) for patients with critical hypotension. It is given intravenously and acts on both alpha-1 and alpha-2 adrenergic receptors to cause vasoconstriction. Its effects are often limited to the increasing of blood pressure through agonist activity on alpha-1 and alpha-2 receptors and causing a resultant increase in peripheral vascular resistance. At high doses, and especially when it is combined with other vasopressors, it can lead to limb ischemia and limb death. Thus, in many nursing and paramedic schools, the phrase "Levophed'll leave them dead" is used. Norepinephrine is mainly used to treat patients in vasodilatory shock states such as septic shock and neurogenic shock and has shown a survival benefit over dopamine.
+
+Different medications affecting norepinephrine function have their targets at different points in the mechanism, from synthesis to signal termination.
+
+α-methyltyrosine is a substance that intervenes in norepinephrine synthesis by substituting tyrosine for tyrosine hydroxylase, and blocking this enzyme.
+
+This transportation can be inhibited by reserpine and tetrabenazine.[4]
+
+
+Examples include alpha blockers for the α-receptors, and beta blockers for the β-receptors.
+
+
+Inhibitors[4] of uptake 1 include:
+Inhibitors[4] of uptake 2 include:
+
+Norepinephrine is a catecholamine and a phenethylamine. The natural stereoisomer is L-(−)-(R)-norepinephrine. The prefix nor-, is derived from the German abbreviation for "N ohne Radikal" (N, the symbol for nitrogen, without radical),[9] referring to the absence of the methyl functional group at the nitrogen atom of epinephrine.
+
+Protein from such sources as meat, nuts and egg whites are broken down by the digestive system into amino acids such as l-tyrosine, a precursor to dopamine, which is in itself a precursor of norepinephrine. Similarly, l-tryptophan from protein is needed for serotonin production.
+Banana peels contain significant amounts of norepinephrine and dopamine.

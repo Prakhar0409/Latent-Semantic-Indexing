@@ -1,0 +1,19 @@
+pastebin
+A pastebin, also known as a nopaste, is a web application which allows its users to upload snippets of text, usually samples of source code, for public viewing. It is very popular in IRC channels where pasting large amounts of text is considered bad etiquette. A vast number of pastebins exist on the Internet, suiting a number of different needs and provided features tailored towards the crowd they focus on most.
+
+Pastebins, similar to the ones referenced from this article, have been around since at least 2002.[1][2] Pastebin.com is one of the earliest public pastebins and has spawned a large number of direct descendants based on its open source PHP code[citation needed]. Pastebin.com is said to be [3] inspired from another basic PHP code sharing application called Paste.[4]
+Over time, many of the public pastebins have become specialized and targeted at a single group of users[5]. This benefits the users by letting them share code or text in a consistent and clean manner. In many cases, pastes made to pastebins are kept for a long period of time. These archives may provide an ongoing and growing resource to users that have similar problems or questions[citation needed].
+
+Although there are literally thousands of pastebins available, most share a common set of features. They may appear different or target a different user base, but at the core, they take an upload or text paste and provide a sharable HTTP URL which contains the body of text.
+A pastebin often has the capability to format and syntax highlighting the text for easier viewing. Throughout the years, the number of languages and formatting styles has grown quickly as the Pastebin user base has grown and their needs have fanned out. A well-known highlighting software package called GeSHi supports the most common pastebins[citation needed].
+Some of the newer pastebins provide features for comparing two or more pastes, synchronous notifications through IRC or Jabber, paste histories, encryption, password protection and virtual subdomains[6].
+
+Due to the nature of allowing anyone to post any text and making it publicly available, there have been a number of instances where a phishing scam or identity theft form was immediately submitted to a pastebin. There have also been reports of worms or trojans being downloaded from pastebins through their raw download facilities[citation needed]. It has also become more common to list personal information and user accounts anonymously to a pastebin, including lists of passwords to systems, private servers, or web accounts. Unfortunately, these are difficult abuses to prevent since the nature of the text being uploaded looks very similar in patterns to that of every other paste on the pastebin[citation needed].
+Spam is also a large problem. For the same reasons that open up the pastebins to abuse, they are easy to spam. The spam robots or spammers involved in this sort of activity may not realize that most pastebins do not allow search engines to index their pages or even follow the links. This causes an extra burden on the services to provide filtering of pastes which would not accomplish the intended goal. To protect against spam, some pastebins have implemented CAPTCHAs[citation needed].
+
+There are some pastebins[7] which exist specifically to surpass character limitations of microblogging services like Twitter. The idea is to save a large piece of text in a pastebin and post the URL and text excerpt to the Twitter service.[8]
+
+There are specialized pastebins to assist programmers with debugging, testing and simulation.[9] Using these systems, a user is able to paste a program component to the website, which will then compile or execute the software. The results of execution or compilation, such as errors, are then stored and provided to the user.
+
+
+

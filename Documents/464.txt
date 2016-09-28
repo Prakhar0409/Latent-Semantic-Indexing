@@ -1,0 +1,70 @@
+Serial Peripheral Interface Bus
+The Serial Peripheral Interface Bus or SPI (often pronounced "es-pē-ī" [IPA: ɛs pi: 'aɪ] or "spy" [IPA: spaɪ]) bus is a synchronous serial data link standard named by Motorola that operates in full duplex mode. Devices communicate in master/slave mode where the master device initiates the data frame. Multiple slave devices are allowed with individual slave select (chip select) lines. Sometimes SPI is called a "four wire" serial bus, contrasting with three, two, and one wire serial buses.
+
+The SPI bus specifies four logic signals.
+Alternative naming conventions are also widely used:
+The SDI/SDO (DI/DO, SI/SO) convention requires that SDO on the master be connected to SDI on the slave, and vice-versa. Chip select polarity is rarely active high, although some notations (such as SS or CS instead of nSS or nCS) suggest otherwise.
+
+The SPI bus can operate with a single master device and with one or more slave devices.
+If a single slave device is used, the SS pin may be fixed to logic low if the slave permits it. Some slaves require the falling edge (high->low transition) of the slave select to initiate an action such as the MAX1242 by Maxim, an ADC, that starts conversion on said transition. With multiple slave devices, an independent SS signal is required from the master for each slave device.
+Most slave devices have tri-state outputs so their MISO signal becomes high impedance ("disconnected") when the device is not selected. Devices without tristate outputs can't share SPI bus segments with other devices; only one such slave could talk to the master, and only its chipselect could be activated.
+
+To begin a communication, the master first configures the clock, using a frequency less than or equal to the maximum frequency the slave device supports. Such frequencies are commonly in the range of 1-70 MHz.
+The master then pulls the slave select low for the desired chip. If a waiting period is required (such as for analog-to-digital conversion) then the master must wait for at least that period of time before starting to issue clock cycles.
+During each SPI clock cycle, a full duplex data transmission occurs:
+Not all transmissions require all four of these operations to be meaningful but they do happen.
+Transmissions normally involve two shift registers of some given word size, such as eight bits, one in the master and one in the slave; they are connected in a ring. Data is usually shifted out with the most significant bit first, while shifting a new least significant bit into the same register. After that register has been shifted out, the master and slave have exchanged register values. Then each device takes that value and does something with it, such as writing it to memory. If there is more data to exchange, the shift registers are loaded with new data and the process repeats.
+Transmissions may involve any number of clock cycles. When there is no more data to be transmitted, the master stops toggling its clock. Normally, it then deselects the slave.
+Transmissions often consist of 8-bit words, and a master can initiate multiple such transmissions if it wishes/needs. However, other word sizes are also common, such as 16-bit words for touchscreen controllers or audio codecs, like the TSC2101 from Texas Instruments; or 12-bit words for many digital-to-analog or analog-to-digital converters.
+Every slave on the bus that hasn't been activated using its slave select line must disregard the input clock and MOSI signals, and must not drive MISO. The master selects only one slave at a time.
+
+In addition to setting the clock frequency, the master must also configure the clock polarity and phase with respect to the data. Freescale's SPI Block Guide [1] names these two options as CPOL and CPHA respectively, and most vendors have adopted that convention.
+The timing diagram is shown to the right. The timing is further described below and applies to both the master and the slave device.
+That is, CPHA=0 means sample on the leading (first) clock edge, while CPHA=1 means sample on the trailing (second) clock edge, regardless of whether that clock edge is rising or falling. Note that with CPHA=0, the data must be stable for a half cycle before the first clock cycle. For all CPOL and CPHA modes, the initial clock value must be stable before the chip select line goes active.
+Also, note that "data are read" in this document more typically means "data may be read". The MOSI and MISO signals are usually stable (at their reception points) for the half cycle until the next clock transition. SPI master and slave devices may well sample data at different points in that half cycle.
+This adds more flexibility to the communication channel between the master and slave.
+One product using a different naming convention is the TI MSP430, which uses the name UCCKPL instead of CPOL, and its UCCKPH is the inverse of CPHA. There are other examples, so if you are connecting two chips together you should look at the initial clock value and which edge is used for sampling, then make sure you're using the right settings.
+
+The combinations of polarity and phases are often referred to as modes which are commonly numbered according to the following convention, with CPOL as the high order bit and CPHA as the low order bit:
+Another commonly used notation represents the mode as a (CPOL,CPHA) tuple, e.g. the value '(0,1)' would indicate CPOL=0 and CPHA=1.
+
+In the independent slave configuration, there is an independent slave select line for each slave. This is the way SPI is normally used. Since the MISO pins of the slaves are connected together, they are required to be tri-state pins.
+
+Some products with SPI bus are designed to be capable of being connected in a daisy chain configuration, the first slave output being connected to the second slave input, etc. The SPI port of each slave is designed to send out during the second group of clock pulses an exact copy of what it received during the first group of clock pulses. The whole chain acts as an SPI communication shift register; daisy chaining is often done with shift registers to provide a bank of inputs or outputs through SPI. Such a feature only requires a single SS line from the master, rather than a separate SS line for each slave.[2]
+Applications (discussed later) that require a daisy chain configuration include SGPIO and JTAG.
+
+Some slave devices are designed to ignore any SPI communications in which the number of clock pulses is greater than specified. Others don't care, ignoring extra inputs and continuing to shift the same output bit. It is common for different devices to use SPI communications with different lengths, as, for example, when SPI is used to access the scan chain of a digital IC by issuing a command word of one size (perhaps 32 bits) and then getting a response of a different size (perhaps 153 bits, one for each pin in that scan chain).
+
+SPI devices sometimes use another signal line to send an interrupt signal to a host CPU. Examples include pen-down interrupts from touchscreen sensors, thermal limit alerts from temperature sensors, alarms issued by real time clock chips, SDIO, and headset jack insertions from the sound codec in a cell phone. Interrupts are not covered by the SPI standard; their usage is neither forbidden nor specified by the standard.
+
+An example of Bit-banging the SPI protocol, as a SPI master not as a SPI slave, is included below in the C programming language, with CPOL=0, CPHA=0, and eight bits per transfer. Because this is CPOL=0, the clock must be pulled low before the chipselect is activated. The chipselect line must be activated, which normally means being toggled low, for the peripheral before the start of the transfer, and then deactivated afterwards. Most peripherals allow or require several transfers while the select line is low; this routine might be called several times before deselecting the chip.
+
+
+
+
+The board real estate savings compared to a parallel I/O bus are significant, and have earned SPI a solid role in embedded systems. That's true for most System-on-a-chip processors, both with higher end 32-bit processors such as those using ARM or MIPS and with other microcontrollers such as the AVR, PIC and MSP430. These chips usually include SPI controllers capable of running in either master or slave mode.
+Chip or FPGA based designs sometimes use SPI to communicate between internal components; on-chip real estate can be as costly as its on-board cousin.
+The full-duplex capability makes SPI very simple and efficient for single master/single slave applications. Some devices use the full-duplex mode to implement an efficient, high-speed data stream for applications such as digital audio, digital signal processing, or telecommunications channels, but most off-the-shelf chips stick to half-duplex request/response protocols.
+SPI is used to talk to a variety of peripherals, such as:
+For high performance systems, FPGAs sometimes use SPI to interface as a slave to a host, as a master to sensors, or for flash memory used to bootstrap if they are SRAM-based.
+JTAG is essentially an application stack for SPI, using different signal names: TCK not SCK, TDI not MOSI, TDO not MISO, TMS not nCS. It defines a state machine, protocol messages, a core command set, the ability to daisy-chain devices in a "scan chain", and how vendors define new commands. The devices in a scan chain are initially treated as a single device, and transitions on TMS update the state machine; once the individual devices are identified, commands may be issued which affect only one device in that scan chain. Different vendors use different JTAG connectors. Bit strings used in JTAG are often long and not multiples of 8 bit words; for example, a boundary scan reports signal state on each of several hundred pins.
+SGPIO is essentially another (incompatible) application stack for SPI designed for particular backplane management activities. SGPIO uses 3 bit messages.
+
+The SPI bus is a sort of de facto standard, rather than one agreed by any international committee.
+However, that lack of standardization is reflected in a wide variety of protocol options. Different word sizes are common. Every device defines its own protocol, including whether or not it supports commands at all. Some devices are transmit-only; others are receive-only. Chip selects are sometimes active-high rather than active-low. Some protocols send the least significant bit first.
+Some devices even have minor variances from the CPOL/CPHA modes described above. Sending data from slave to master may use the opposite clock edge as master to slave. Devices often require extra clock idle time before the first clock or after the last one, or between a command and its response. Some devices have two clocks, one to "capture" or "display" data, and another to clock it into the device. Many of these "capture clocks" run from the SS line.
+Some devices require an additional handshake signal from slave to master, indicating when data are ready. This leads to a "five wire" protocol instead of the usual four. Such a "ready" or "enable" signal is often active-low, and needs to be enabled at key points such as after commands or between words. Without such a signal, data transfer rates may need to be slowed down significantly, or protocols may need to have "dummy bytes" inserted, to accommodate the worst case for the slave response time. Examples include initiating an ADC conversion, addressing the right page of flash memory, and processing enough of a command that device firmware can load the first word of the response.
+Many SPI chips only support messages that are multiples of 8 bits. Such chips can not interoperate with the JTAG or SGPIO prototols, or any other protocol that requires messages that are not multiples of 8 bits.
+There are even hardware-level differences. Some chips combine MOSI and MISO into a single data line (SI/SO); this is sometimes called "3-Wire" signaling (in contrast to normal "4-wire" SPI). Anyone needing an external connector for SPI defines their own. Signal levels depend entirely on the chips involved.
+Some devices provide an additional signal for flow control: the device must signal "ready" after a command is issued, before the host starts clocking in response data. (Most SPI masters don't support that signal directly, and instead rely on fixed delays.)
+
+When developing or troubleshooting systems using SPI, visibility at the level of hardware signals can be important.
+
+There are a number of hardware solutions to give desktop PCs, running Linux, Mac or Windows SPI master and/or slave capabilities.
+
+SPI Protocol Analyzers are tools which sample an SPI bus and decode the electrical signals to provide a higher level view of the data being transmitted on the bus. Some SPI protocol analyzers are built into oscilloscopes while others are stand-alone devices.
+
+
+The queued serial peripheral interface (QSPI) is one type of SPI controller, not another bus type. It uses a data queue with programmable queue pointers that allow some data transfers without CPU intervention[3]. It also has a wrap-around mode that allows continuous transfers to and from the queue with no CPU intervention. As a result, the peripherals appear to the CPU as memory-mapped parallel devices. This feature is useful in applications such as control of an A/D converter. Other programmable features in QSPI are chip selects and transfer length/delay.
+SPI controllers from different vendors support different feature sets; such DMA queues are not uncommon, although they may be associated with separate DMA engines rather than the SPI controller itself[4]. Most SPI master controllers integrate support for up to four chipselects[5], although some require chipselects to be managed separately through GPIO lines.
+

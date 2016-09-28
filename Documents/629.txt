@@ -1,0 +1,20 @@
+LOLCODE
+LOLCODE is an esoteric programming language inspired by the language expressed in examples of the lolcat Internet meme.[1] The language was created in 2007 by Adam Lindsay, researcher at the Computing Department of Lancaster University.[2]
+The language is not clearly defined in terms of operator priorities and correct syntax, but several functioning interpreters and compilers already exist. The language has been proven Turing-complete by the implementation of a Brainfuck interpreter.[3]
+
+LOLCODE is written in heavily compressed (shortened) English Internet slang, and a person who understands this slang can often understand a LOLCODE program without prior experience. Here follows a Hello world program and a simple program to output a file to a monitor. Highly accessible, similar code was printed in the Houston Chronicle.[1]
+Example 1:
+Example 2:
+In this example, commands to open a file (PLZ OPEN FILE "NAME"? — "Please try to open a file?"), and error handling (AWSUM THX — "Awesome, thanks!", and O NOES — "Oh no!") are introduced.
+Other commands include I HAS A variable for declaring variables, LOL variable R value ("laughter [at] variable [is/are/being] value") for assigning them, sending error messages to the front end via INVISIBLE instead of VISIBLE, and BTW ("by the way") to denote a comment, making the parser ignore the rest of the line. Loops are created with IM IN YR label (from an internet meme "I'm in your ___"), and ended with KTHX ("okay-thanks!"). Loops lack counters or conditions, and thus do not cease inherently. They must be manually broken with the GTFO (deprecated in favor of ENUF – "enough" in Leetspeak) [6] command. Loops can also be ended with the conditional IZ command:
+Example 3:
+This simple program displays the numbers 1–10 and terminates (as of specification 1.0). The same program as of specification 1.2 is (assuming VAR starts at 0):
+
+The first[7] LOLCODE implemenation was a PHP parser[8] written by Jeff Jones. The parser's website was also the first website using LOL Code as an actual web scripting language. Being open source with a BSD style license, it has been forked and used by multiple websites to implement LOLCODE scripting. The winning Pecha Kucha presentation[9] at PHP Works[10] 2008 was about this parser.
+There is a .NET compiler for LOLCODE written by Nick Johnson,[11] and featured in Microsoft developer training seminars, TechEd 2007 Conference (Australia).[12][13][14]
+PL/LOLCODE, a project headed by Josh Tolley, makes LOLCODE available as a server-side programming language inside PostgreSQL.[15]
+Microsoft Dynamic Language Runtime has an implementation of LOLCODE for testing purposes.[16]
+A JavaScript interpreter is also available [17]
+There is also a LOLCODE compiler included with the Parrot virtual machine as one of the languages demonstrating the use of Parrot's compiler tools.
+
+

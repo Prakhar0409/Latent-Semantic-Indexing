@@ -1,0 +1,28 @@
+libavcodec
+libavcodec is a free software/open source LGPL-licensed library of codecs for encoding and decoding video and audio data[1]. It is part of the FFmpeg project.[2]
+libavcodec is an integral part of many open-source multimedia applications and frameworks. The popular MPlayer, xine and VLC media players use it as their main, built-in decoding engine that enables playback of many audio and video formats on all supported platforms. It is also used by the ffdshow tryouts decoder as its primary decoding library. The GStreamer FFmpeg plugin[3] can be used for video playback of popular but patented formats like MPEG-2 (DVD video), MPEG-4 ASP and H.264, or proprietary formats like Windows Media Video, VP6 or RealVideo. libavcodec is also used in video editing and transcoding applications like Avidemux, MEncoder or Kdenlive for both decoding and encoding.
+
+libavcodec includes video decoders and encoders for the following formats:[4]
+
+libavcodec includes decoders and encoders for the following formats:[5]
+
+
+
+
+
+
+See also Comparison of video editing software
+
+
+
+
+
+
+
+
+
+
+
+
+
+

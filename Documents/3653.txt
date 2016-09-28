@@ -1,0 +1,52 @@
+Order of operations
+In algebra and computer programming, when a number or expression is both preceded and followed by an operator such as minus or times, a rule is needed to specify which operator should be applied first; this rule is known as a precedence rule, or more informally order of operation. From the earliest use of mathematical notation[citation needed], multiplication took precedence over addition, whichever side of a number it appeared on. Thus 3 + 4 Ã— 5 = 5 Ã— 4 + 3 = 23. When exponents were first introduced, in the 16th and 17th centuries, exponents took precedence over both addition and multiplication, and could be placed only as a superscript to the right of their base. Thus 3 + 5 2 = 28 and 3 Ã— 5 2 = 75. To change the order of operations, a vinculum (an overline or underline) was originally used. Today one uses parentheses (). Thus, if one wants to force addition to precede multiplication, one writes (3 + 4) Ã— 5 = 35.
+
+The standard order of operations, or precedence, is expressed in the following chart.
+In the absence of parentheses, horizontal fraction lines, a bar over a radicand, or other symbols of grouping, do all exponents and roots first. Stacked exponents must be done from the top down. After taking all exponents and roots, then do all multiplication and division. Finally, do all addition and subtraction.
+It is helpful to treat division as multiplication by the reciprocal and subtraction as addition of the opposite. Thus 3/4 = 3 Ã· 4 = 3 â€¢ Â¼ and 3 âˆ’ 4 = 3 + (âˆ’4), that is, the sum of positive three and negative four.
+If an expression involves parentheses, then do the arithmetic inside the innermost pair of parentheses first and work outward. Root symbols have a bar (called vinculum) over the radicand which acts as a symbol of grouping: . A horizontal fractional line also acts as a symbol of grouping: .
+The order in which the unary operator âˆ’ (usually read "minus") acts is often problematical. In written or printed mathematics, âˆ’ 32 = âˆ’ (32) = âˆ’ 9, but in some applications and programming languages, notably the application Microsoft Office Excel and the programming language bc, unary operators have a higher priority than binary operators, that is, the unary minus (negation) has higher precedence than exponentiation, so in those languages âˆ’ 32 = ( âˆ’ 3)2 = 9, . [3].
+
+
+In the United States, the acronym PEMDAS (for Parentheses, Exponentiation, Multiplication/Division, Addition/Subtraction) is used as a mnemonic, sometimes expressed as the sentence "Please Excuse My Dear Aunt Sally" or one of many other variations. Many such acronyms exist in other English speaking countries, where Parentheses may be called Brackets, and Exponentiation may be called Indices, Powers or Orders. Also, as Multiplication and Division are of equal precedence, M and D may be interchanged; and Of (see example 3, above) is equivalent to Multiplication. With respect to the latter operators, it is usually best to simply work from left to right. This also applies to Addition and Subtraction on most occasions. Thus, we also have BEDMAS, BIDMAS, BIMDAS, BIODMAS, BODMAS, BOMDAS and BPODMAS.
+However, all these mnemonics are misleading if the user is not aware that multiplication and division are of equal precedence, as are addition and subtraction. Using any of the above rules in the order addition first, subtraction afterward would give the wrong answer to
+The correct answer is 9, which is best understood by thinking of the problem as the sum of positive ten, negative three, and positive two.
+It is usual, wherever one needs to calculate operations of equal precedence to work from left to right. The following rules of thumb are useful:
+First: perform any calculations inside parentheses (brackets)
+Second: Next perform all multiplication and division, working from left to right
+Third: Lastly perform all addition and subtraction, working from left to right
+However, with experience, the commutative law, associative law, and distributive law allow shortcuts. For example,
+is much easier when worked from right to left, where here the answer is 34.
+
+
+When restricted to using a straight text editor, parentheses (or more generally "grouping symbols") must be used generously to make up for the lack of graphics, like square root symbols. Here are some rules for doing so:
+1) Whenever there is a fraction formed with a slash, put the numerator (the number on top of the fraction) in one set of parentheses, and the denominator (the number on the bottom of the fraction) in another set of parentheses. This is not required for fractions formed with underlines:
+2) Whenever there is an exponent using the caret (^) symbol, put the base in one set of parentheses, and the exponent in another set of parentheses:
+3) Whenever there is a trig function, put the argument of the function, typically shown in bold and/or italics, in parentheses:
+4) The rule for trig functions also applies to any other function, such as square root. That is, the argument of the function should be contained in parentheses:
+5) An exception to the rules requiring parentheses applies when only one character is present. While correct either way, it is more readable if parentheses around a single character are omitted:
+Calculators generally require parentheses around the argument of any function. Printed or handwritten expressions sometimes omit the parentheses, provided the argument is a single character. Thus, a calculator or computer program requires:
+while a printed text may have:
+6) Whenever anything can be interpreted multiple ways, put the part to be done first in parentheses, to make it clear.
+7) One may alternate use of the different grouping symbols (parentheses, brackets, and braces) to make expressions more readable. For example:
+is more readable than:
+Note that certain applications, like computer programming, will restrict one to certain grouping symbols.
+
+In the case of a factorial in an expression, it is evaluated before exponents and roots, unless grouping symbols dictate otherwise. When new operations are defined, they are generally presumed to take precedence over other operations, unless overridden by grouping symbols.
+Sometimes a dash or a heavy dot is used as a multiplication sign which has higher precedence than division. For example, , J / kg-K, and  are all equivalent.
+
+Different calculators follow different orders of operations. Cheaper calculators without a stack work left to right without any priority given to different operators, for example giving
+while more sophisticated calculators will use a more standard priority, for example giving
+The Microsoft Calculator program uses the former in its standard view and the latter in its scientific view.
+The "cheap" calculator expects two operands and an operator. When the next operator is pressed, the expression is immediately evaluated and the answer becomes the left hand of the next operator. Advanced calculators allow entry of the whole expression, grouped as necessary, and only evaluates when the user uses the equals sign.
+Calculators may associate exponents to the left or to the right depending on the model. For example, the expression  on the TI-92 and TI-30XII (both Texas Instruments calculators) associates two different ways:
+The TI-92 associates to the right, that is
+whereas, the TI-30XII associates to the left, that is
+An expression like 1/2x is interpreted as 1/(2x) by TI-82, but as (1/2)x by TI-83. While the first interpretation may be expected by some users, only the latter is in agreement with the standard rules stated above.
+
+Many programming languages use precedence levels that conform to the order commonly used in mathematics, though some, such as APL, have no operator precedence rules (in APL evaluation is strictly right to left).
+The logical bitwise operators in C (and all programming languages that borrowed precedence rules from C, for example, C++, Perl and PHP) have a precedence level that the author of the language considers to be less than ideal.[2] The relative precedence levels of operators found in many C-style languages is as follows:
+Examples:
+
+
+

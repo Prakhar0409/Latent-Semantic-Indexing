@@ -1,0 +1,7 @@
+Netvibes
+Netvibes is a multi-lingual Ajax-based personalized start page much like Pageflakes, My Yahoo!, iGoogle, and Microsoft Live. It is organized into tabs, with each tab containing user-defined modules. Built-in Netvibes modules include an RSS/Atom feed reader, local weather forecasts, a calendar supporting iCal, bookmarks, notes, to-do lists, multiple searches, support for POP3, IMAP4 email as well as several webmail providers including Gmail, Yahoo Mail, Hotmail, and AOL Mail, Box.net web storage, Delicious, Meebo, Flickr photos, podcast support with a built in audio player, and several others. A page can be personalized further through the use of existing themes or by creating your own theme. Customized tabs, feeds and modules can be shared with others individually or via the Netvibes Ecosystem.[1] For privacy reasons, only modules with publicly available content can be shared. [2]
+The Netvibes Ecosystem is a collection of user submitted modules/widgets built using Netvibes Universal Widget API (UWA), feeds, podcasts, events, tabs, and "universes". A "universe" is a publicly viewable customized page of another entity. [3]
+The company was founded by Tariq Krim (French) and Florent Frémont in 2005.[4]
+
+
+

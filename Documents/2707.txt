@@ -1,0 +1,13 @@
+RFM
+On Wikipedia, RFM may refer to Wikipedia:Requests for mediation. For other uses, see RFM (disambiguation).
+RFM is a method used for analyzing customer behavior and defining market segments. It is commonly used in database marketing and direct marketing and has received particular attention in retail.
+RFM stands for
+To create an RFM analysis, one creates categories for each attribute. For instance, the Recency attribute might be broken into three categories: customers with purchases within the last 90 days; between 91 and 365 days; and longer than 365 days. Such categories may be arrived at by applying business rules, or using a data mining technique, such as CHAID, to find meaningful breaks.
+Once each of the attributes has appropriate categories defined, segments are created from the intersection of the values. If there were three categories for each attribute, then the resulting matrix would have twenty-seven possible combinations (one well-known commercial approach uses five bins per attributes, which yields 125 segments). Companies may also decide to collapse certain subsegments, if the gradations appear too small to be useful. The resulting segments can be ordered from most valuable (highest recency, frequency, and value) to least valuable (lowest recency, frequency, and marketing). Identifying the most valuable RFM segments can capitalize on chance relationships in the data used for this analysis. For this reason, it is highly recommended that another set of data be used to validate the results of the RFM segmentation process.
+Advocates of this technique point out that it has the virtue of simplicity: no specialized statistical software is required, and the results are readily understood by business people. In the absence of other targeting techniques, it can provide a lift in response rates for promotions.
+
+Critics take issue on several points. First, the method is descriptive only, and does not provide a mechanism to forecast behavior as a predictive model might. Second, when used to target customers for promotion, it assumes that customers are likely to continue behaving in the same manner. Finally, when used as the primary targeting method, it may lead to overmarketing to the most attractive RFM segments and to neglect of other segments that would be profitable if developed properly.
+
+RFD - Recency, Frequency, Duration is a modified version of RFM analysis that can be used to analyze consumer behavior of viewership/readership/surfing oriented business products. (For example, amount of time spent by surfers on Wikipedia)
+
+RFM Whitepaper

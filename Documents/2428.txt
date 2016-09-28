@@ -1,0 +1,69 @@
+Attention
+Attention is the cognitive process of selectively concentrating on one aspect of the environment while ignoring other things. Examples include listening carefully to what someone is saying while ignoring other conversations in a room (the cocktail party effect) or listening to a cell phone conversation while driving a car.[1] Attention is one of the most intensely studied topics within psychology and cognitive neuroscience.
+William James, in his monumental Principles of Psychology (1890), remarked:
+
+
+
+In James' time, the method more commonly used to study attention was introspection. However, as early as 1858, Franciscus Donders used mental chronometry to study attention and it was considered a major field of intellectual inquiry by such diverse authors as Sigmund Freud, Walter Benjamin, and Max Nordau. One major debate in this period was whether it was possible to attend to two things at once (split attention). Walter Benjamin described this experience as "reception in a state of distraction." This disagreement could only be resolved through experimentation.
+
+In the 1950s, research psychologists renewed their interest in attention when the dominant epistemology shifted from positivism (i.e., behaviorism) to realism during what has come to be known as the "cognitive revolution" [3] The cognitive revolution admitted unobservable cognitive processes like attention as legitimate objects of scientific study.
+Colin Cherry and Donald Broadbent, among others, performed experiments on dichotic listening. In a typical experiment, subjects would use a set of headphones to listen to two streams of words in different ears and selectively attend to one stream. After the task, the experimenter would question the subjects about the content of the unattended stream.[citation needed]
+During this period, the major debate was between early-selection models and late-selection models. In the early selection models (first proposed by Donald Broadbent and Anne Treisman), attention shuts down or attenuates processing in the unattended ear before the mind can analyze its semantic content. In the late selection models (first proposed by J. Anthony Deutsch and Diana Deutsch), the content in both ears is analyzed semantically, but the words in the unattended ear cannot access consciousness.[4] This debate has still not been resolved.[not specific enough to� verify]
+Anne Treisman developed the highly influential feature integration theory[5]. According to this model, attention binds different features of an object (e.g., color and shape) into consciously experienced wholes. Although this model has received much criticism, it is still widely accepted or held up with modifications as in Jeremy Wolfe's Guided Search Theory.[6]
+In the 1960s, Robert Wurtz at the National Institutes of Health began recording electrical signals from the brains of macaques who were trained to perform attentional tasks. These experiments showed for the first time that there was a direct neural correlate of a mental process (namely, enhanced firing in the superior colliculus).[citation needed]
+In the 1990s, psychologists began using PET and later fMRI to image the brain in attentive tasks. Because of the highly expensive equipment that was generally only available in hospitals, psychologists sought for cooperation with neurologists. Pioneers of brain imaging studies of selective attention are psychologist Michael I. Posner (then already renown for his seminal work on visual selective attention) and neurologist Marcus Raichle.[citation needed] Their results soon sparked interest from the entire neuroscience community in these psychological studies, which had until then focused on monkey brains. With the development of these technological innovations neuroscientists became interested in this type of research that combines sophisticated experimental paradigms from cognitive psychology with these new brain imaging techniques. Although the older technique of EEG had long been to study the brain activity underlying selective attention by cognitive psychophysiologists, the ability of the newer techniques to actually measure precisely localized activity inside the brain generated renewed interest by a wider community of researchers. The results of these experiments have shown a broad agreement with the psychological, psychophysiological and monkey literature.[citation needed]
+
+[improper synthesis?]
+Attention remains a major area of investigation within education, psychology and neuroscience. Many of the major debates of James' time remain unresolved. For example, although most scientists accept that attention can be split, strong proof has remained elusive. And there is still no widely accepted definition of attention more concrete than that given in the James quote above. This lack of progress has led many observers to speculate that attention refers to many separate processes without a common mechanism.
+Areas of active investigation involve determining the source of the signals that generate attention, the effects of these signals on the tuning properties of sensory neurons, and the relationship between attention and other cognitive processes like working memory. A relatively new body of research is investigating the phenomenon of traumatic brain injuries and their effects on attention. TBIs are a fairly common occurrence in a significant segment of the population and often result in diminished attention.
+Brain-computer interface
+Traumatic brain injury
+Brain regions • Clinical neuropsychology
+Cognitive neuroscience • Human brain
+Neuroanatomy • Neurophysiology
+Phrenology • Misconceptions
+arousal • attention
+consciousness • decision making
+executive functions • natural language
+learning • memory
+motor coordination • sensory perception
+planning • problem solving • thought
+Arthur L. Benton • David Bohm
+António Damásio • Phineas Gage
+Norman Geschwind • Elkhonon Goldberg
+Patricia Goldman Rakic • Pasko Rakic
+Donald O. Hebb • Kenneth Heilman
+Edith Kaplan • Muriel Lezak
+Benjamin Libet • Rodolfo Llinás
+Alexander Luria • Brenda Milner
+Karl H. Pribram • Oliver Sacks
+Roger W. Sperry • H. M. • K. C.
+Bender-Gestalt Test
+Benton Visual Retention Test
+Clinical Dementia Rating
+Continuous Performance Task
+Glasgow Coma Scale
+Hayling and Brixton tests
+Johari window • Lexical decision task
+Mini-mental state examination
+Stroop effect
+Wechsler Adult Intelligence Scale
+Wisconsin card sorting
+
+As is frequently the case, clinical models of attention differ from investigation models. One of the most used models for the evaluation of attention in patients with very different neurologic pathologies is the model of Sohlberg and Mateer.[7] This hierarchic model is based in the recovering of attention processes of brain damage patients after coma. Five different kinds of activities of growing difficulty are described in the model; connecting with the activities that patients could do as their recovering process advanced.
+This model has been shown to be very useful in evaluating attention in very different pathologies, correlates strongly with daily difficulties and is especially helpful in designing stimulation programmes such as APT (attention process training), a rehabilitation programme for neurologic patients of the same authors.
+
+Attention may be differentiated according to its status as 'overt' versus 'covert' [8]. Overt attention is the act of directing sense organs towards a stimulus source. Covert attention is the act of mentally focusing on one of several possible sensory stimuli. Covert attention is thought to be a neural process that enhances the signal from a particular part of the sensory panorama.
+There are studies that suggest the mechanisms of overt and covert attention may not be as separate as previously believed. Though humans and primates can look in one direction but attend in another, there may be an underlying neural circuitry that links shifts in covert attention to plans to shift gaze. For example, if individuals attend to the right hand corner field of view, movement of the eyes in that direction may have to be actively suppressed.
+The current view is that visual covert attention is a mechanism for quickly scanning the field of view for interesting locations. This shift in covert attention is linked to eye movement circuitry that sets up a slower saccade to that location.
+
+Inevitably situations arise where it is advantageous to have cognition independent of incoming sensory data or motor responses. There is a general consensus in psychology that there is an executive system based in the frontal cortex that controls our thoughts and actions to produce coherent behavior. This function is often referred to as executive function, executive attention, or cognitive control.[9]
+No exact definition has been agreed upon. However, typical descriptions involve maintaining behavioral goals, and using these goals as a basis for choosing what aspects of the environment to attend to and which action to select.
+
+Most experiments show that one neural correlate of attention is enhanced firing. If a neuron has a certain response to a stimulus when the animal is not attending to the stimulus, then when the animal does attend to the stimulus, the neuron's response will be enhanced even if the physical characteristics of the stimulus remain the same.
+In a recent review, Knudsen[10] describes a more general model which identifies four core processes of attention, with working memory at the center:
+Neurally, at different hierarchical levels spatial maps can enhance or inhibit activity in sensory areas, and induce orienting behaviors like eye movement.
+
+Research has shown that the inability to pay attention often leads to boredom, rather than the other way around .[12] For example, in one study people were asked to read something while a TV was playing quietly in the background. These people usually said that what they were reading was boring, whereas people who had a silent background found what they were reading to be stimulating. The third group had the TV playing loudly in the background, and this group identified the TV as the source of distraction, and thus were unable to say whether the reading material was boring or stimulating.
+
+

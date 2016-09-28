@@ -1,0 +1,17 @@
+RJ11, RJ14, RJ25
+RJ11 is a physical interface often used for terminating telephone wires. It is probably the most familiar of the registered jacks, being used for single line POTS telephone jacks in most homes across the world.
+RJ14 is similar, but for two lines, and RJ25 is for three lines. RJ61 is a similar registered jack for four lines. The telephone line cord and its plug are more often a true RJ11 with only two conductors.
+
+All of these registered jacks are described as containing a number of potential contact "positions" and the actual number of contacts installed within these positions. RJ11, RJ14, and RJ25 all use the same six-position modular connector, thus are physically identical except for the different number of contacts (two, four and six respectively).
+
+Cables sold as RJ11 are nearly always 6P4C (six position, four conductor), with four wires running to a central junction box. Two of its six possible contact positions connect tip and ring and the other two conductors are then unused. 6P2C and 6P6C can also be found in stores.
+The conductors other than the two central tip and ring conductors are in practice used for various things such as a ground for selective ringers, low voltage power for a dial light, or for 'anti-tinkle' circuitry to prevent pulse dialing phones from ringing the bell on other extensions. With tone dialing anti-tinkle measures are not required.
+
+In the powered version, Pins 2 and 5 (black and yellow) may carry low voltage AC or DC power. While the phone line itself (tip and ring) supplies enough power for most telephone terminals, old telephone terminals with incandescent lights in them (such as the classic Western Electric Princess and Trimline telephones) need more power than the phone line can supply. Typically, the power on Pins 2 and 5 comes from a transformer plugged into a wall near one jack, supplying power to all of the jacks in the house. Trimline and Princess phone dial lights are rated at 6.3 volts and the transformer output is typically around 5 volts, providing a long service life for the incandescent lamps.
+
+The multi-conductor cables attached to RJ11 connectors usually have colored sheaths.
+While the old solid color code was well established for pairs 1 and 2, there are several conflicting conventions for pair 3. The colors shown above were taken from a vendor of "silver satin" flat 8-conductor phone cable that claims to be standard. Other 6 pair solid (old) bellwire cables may substitute white for orange. At least one other vendor of flat 8-conductor cable uses the sequence blue, orange, black, red, green, yellow, brown and white/slate.
+Holding the connector in your hand tab side down with the cable opening toward you, the pins are numbered 1-6, left to right.
+In modern structured wiring Cat5e or Cat6 is commonly used in homes and buildings. The Cat 5e and Cat 6 data lines are often used for both voice or data. The color codes above are the standard and defined within wiring guides.
+
+

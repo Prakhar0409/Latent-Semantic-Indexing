@@ -1,0 +1,47 @@
+Picasa
+Picasa is a software application for organizing and editing digital photos, originally created by Idealab and owned by Google since 2004.[1] "Picasa" is a blend of the name of Spanish painter Pablo Picasso, the phrase mi casa for "my house" and "pic" for pictures (personalized art).[1][2] In July 2004, Google acquired Picasa and began offering Picasa for free download.[1][2] At the time of the acquisition, the company's management team consisted of Lars Perkins as CEO, Mike Herf as CTO, and Dan Engel as VP Market Development.
+Native applications for Windows XP, Windows Vista, and Mac OS X are available through Google Labs. For Windows 98 and Windows Me, only an older version is available. There is also an iPhoto plugin or a stand-alone program for uploading photos available for Mac OS X 10.4 and later.
+Picasa is also available for Linux (through customized win32 builds bundled with Wine software). However, these builds do not run natively, instead utilizing wine's compatibility layer. As a result, Picasa for Linux has a comparably limited feature set, and several features are effectively incomplete. In addition, the Picasa Linux interface is restricted to Wine's theme, which by default gives Picasa a dark gray interface, clashing with Picasa's default colors. Strictly speaking, Picasa is not available natively for Linux, yet Google states on the Picasa website that Picasa is "Linux compatible".
+
+
+For organizing photos, Picasa has file importing and tracking features, as well as tags and collections for further sorting. It also offers several basic photo editing functions, including color enhancement, red eye reduction and cropping. Other features include slide shows, printing and image timelines. Images can also be prepared for external use, such as for e-mailing or printing, by reducing file size and setting up page layouts. There is also integration with online photo printing services.
+
+Picasa uses picasa.ini files to keep track of keywords for each image. In addition to this, Picasa attaches IPTC keyword data to JPEG files, but not to any other file format. Keywords attached to JPEG files in Picasa can be read by other image library software like Adobe (Photoshop, Album and Bridge), digiKam and iPhoto.
+According to the Picasa Readme, Picasa can parse XMP data. However, it cannot search local files for existing XMP keywords.
+
+Picasa has a search bar that is always visible when viewing the library. Searches are live in that displayed items are filtered as you type.
+When a word is typed into the search bar, an image will be displayed if that word is all or part of a keyword, or part of the file name. If the search word is part of a folder name, all images in that folder are also displayed (but not necessarily images in subfolders, unless the word also exists in a keyword or filename.)
+Picasa also supports boolean operators for searching in much the same way as Google's web search. All search terms are required by default (as with the operator "AND"), and images tagged with specified keywords can be excluded by using the hyphen (as in the boolean operator "NOT"). For example, searching for family children -friends will cause Picasa to display all images with the keywords family and children, but which do not include the keyword friends.
+
+Picasa has no separate view window. There is only an "edit view" with a viewing area. Fullscreen view is available in slideshow mode, by holding down the ctrl+alt keys while in "edit view", or by pressing the Alt Gr key. This feature is also available through the context menu of Windows Explorer, and provides a way to start the Picasa editor as well.
+
+In Picasa 2 and later versions, changes to pictures made in Picasa overwrite the original file, but a backup version of the original is saved in a hidden folder named "Originals" in the same folder as the original picture.
+In Picasa 3, changes to pictures made in Picasa are saved to a hidden file in the same folder as the original picture. Viewing the photo in Picasa or using the Picasa Photo Viewer would reapply modifications. Viewing through other programs such as Windows XP's Photo and Fax Viewer would display the original image.
+In previous versions all changes to a picture (but not the picture itself) were stored in a separate file, and the original image file was left untouched. When the image was opened in Picasa the software would reapply the modifications; opening the photo with any other program displayed the original version.
+
+On 15 August 2006, Google announced it had acquired Neven Vision whose technology can be used to search for features within photos such as people or buildings. Google applied this technology for face recognition and this functionality was launched on Picasa Web Albums on 2 September 2008.[3]
+Neven Vision incorporates several patents[4] specifically centered around face recognition from digital photo and video images. Neven Vision's technology was among the top finishers in both the FERET 1997 and FRVT 2002 independent tests comparing the world's best face recognition technologies.
+
+
+Picasa Web Albums (PWA) is a photo-sharing web application from Google, often compared to programs like Flickr.
+It allows users with accounts at Google to store and share 1 GB of photos for free. Users can purchase more storage space, which can be shared between Google services.[5]
+Users may upload pictures through a variety of ways; via the PWA web interface on supported browsers[6], Picasa 2.5.0 or later[7] on Microsoft Windows, using the Exporter for iPhoto, the Aperture to Picasa Web Albums plug-in, Uploader on Mac OS X,[8] or F-Spot on Linux. In both paid and free accounts, the actual resolution of the photo is maintained (even though a smaller resolution photo may be displayed by the web interface), and the original photo can be downloaded.
+PWA uses an "unlisted number" approach for URLs for private photo albums. This allows a user to email a private album's URL to anyone s/he wants; the recipient can view the album without having to create a user account - this is done via an "authentication key" that's needed to be appended to the URL for the album to be shown. The Picasa help files say that private albums are not searchable by anyone except the user.
+On October 11, 2006, the "Test" name was removed, in favour of purely Picasa Web Albums.
+No ads are shown on Picasa Web Albums, in either free or paid accounts. The Terms of Service[9] permit Google to use the uploaded photos to display on the website or via RSS feeds, and also for promoting Google services royalty-free.
+Picasa Web Albums was first leaked on June 6, 2006.[10] When introduced, it came with 250 MB free space. On March 7, 2007, it was upgraded to 1 GB.
+
+Hello by Google's Picasa was a free computer program that allowed users to send images across the Internet and publish them to their blogs. It was similar to an instant messaging program because it allowed users to send text, but Hello focused on digital photographs.[11] Users can opt to view the same pictures as their friends in real-time. One of the advantages claimed at the website is that photos could be shared through firewalls.
+Hello's unique and very popular Bloggerbot IM service was canceled at the end of 2006, and users are instructed to try the Picasa 'Blog This' functionality for uploading pictures to their blogs. According to the official website,[11] hello project was shut down on June 11, 2008.
+
+Picasa wordpress widget is a wordpress plugin which allows users to publish random photos from picasa albums on their blogs.
+
+
+There are no versions of Picasa for Windows 95 or NT. The latest version offered for Windows 98/ME is 2.0.0 (build 18.84).[12][13] The latest version offered for Windows 2000 is 2.7 (build 37.64).[12][14] Newer versions are for Windows XP and Vista only.
+
+
+On January 5, 2009, Google released a beta version of Picasa for Mac (Intel-based Macs only). Also, a plugin is available for iPhoto to upload to the Picasa Web Albums hosting service. There is also a standalone Picasa Web Albums uploading tools for OS X 10.4 or later.[21]
+
+
+
+

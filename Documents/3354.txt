@@ -1,0 +1,27 @@
+Income statement
+Income statement, also called profit and loss statement (P&L), is a company's financial statement that indicates how the revenue (money received from the sale of products and services before expenses are taken out, also known as the "top line") is transformed into the net income (the result after all revenues and expenses have been accounted for, also known as the "bottom line"). The purpose of the income statement is to show managers and investors whether the company made or lost money during the period being reported.
+The important thing to remember about an income statement is that it represents a period of time. This contrasts with the balance sheet, which represents a single moment in time.
+Charitable organizations that are required to publish financial statements do not produce an income statement. Instead, they produce a similar statement that reflects funding sources compared against program expenses, administrative costs, and other operating commitments.
+
+Income statements should help investors and creditors determine the past performance of the enterprise, predict future performance, and assess the capability of generating future cash flows.
+However, information of an income statement has several limitations:
+See also: Creative accounting
+
+
+
+
+
+They are reported separately because this way users can better predict future cash flows - irregular items most likely won't happen next year. These are reported net of taxes.
+
+Because of its importance, earnings per share (EPS) are required to be disclosed on the face of the income statement. A company which reports any of the irregular items must also report EPS for these items either in the statement or in the notes.
+
+There are two forms of EPS reported:
+
+
+
+The term "top line" refers to the total revenues or sales mentioned in the income statement. This refers to the fact that the total revenues collected by a company appears at the top of the income statement.
+
+"Bottom line" is the net income that is calculated after subtracting the expenses from revenue. Since this forms the last line of the income statement, it is informally called "bottom line". It is important to investors as it represents the profit for the year attributable to the shareholders.
+
+
+

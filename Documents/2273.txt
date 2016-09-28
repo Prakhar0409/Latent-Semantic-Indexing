@@ -1,0 +1,28 @@
+Single sign-on
+Single sign-on (SSO) is a property of access control of multiple, related, but independent software systems. With this property a user logs in once and gains access to all systems without being prompted to log in again at each of them. Single sign-off is the reverse property whereby a single action of signing out terminates access to multiple software systems.
+As different applications and resources support different authentication mechanisms, single sign-on has to internally translate to and store different credentials compared to what is used for initial authentication.
+
+Benefits of single sign-on include:
+SSO uses centralized authentication servers that all other applications and systems utilize for authentication purposes, and combines this with techniques to ensure that users do not actively have to enter their credentials more than once.
+
+The term enterprise reduced sign-on is preferred by some authors who believe single sign-on to be impossible in real use cases.
+As single sign-on provides access to many resources once the user is initially authenticated ("keys to the castle"), it increases the negative impact in case the credentials are available to other persons and misused. Therefore, single sign-on requires an increased focus on the protection of the user credentials, and should ideally be combined with strong authentication methods, e.g., smart cards[3].
+
+
+Windows environment - Windows login fetches TGT. Active directory-aware apps fetch service tickets, so user is not prompted to re-authenticate.
+UNIX/Linux environment - Login via Kerberos PAM modules fetches TGT. Kerberized client applications such as Evolution, Firefox, and SVN use service tickets, so user is not prompted to re-authenticate.
+
+Initial sign on prompts the user for smart card. Additional software applications also use the smart card, without prompting the user to re-enter credentials. Smart card-based single sign-on can either use certificates or passwords stored on the smart card
+
+Also referred to as One-time password Token. Two-factor authentication with OTP tokens [4] follows industry best practices for authenticating users[5]. This OTP token method is more secure and effective at prohibiting unauthorized access than other authentication methods.[6]
+
+Integrated Windows Authentication is a term associated with Microsoft products and refers to the SPNEGO, Kerberos, and NTLMSSP authentication protocols with respect to SSPI functionality introduced with Microsoft Windows 2000 and included with later Windows NT-based operating systems. The term is used more commonly for the automatically authenticated connections between Microsoft Internet Information Services and Internet Explorer. Cross-platform Active Directory integration vendors such as Centrify Corporation have extended the Integrated Windows Authentication paradigm to UNIX, Linux and Mac systems.
+
+
+Single sign on requires that users literally sign in once to establish their credentials. Systems which require the user to log in multiple times to the same identity are inherently not single sign on. For example, an environment where users are prompted to log in to their desktop, then log in to their email using the same credentials, is not single sign on. Shared authentication schemes like OpenID, which require additional sign-on for each web site, are also not single sign on.
+
+Enterprise single sign-on (E-SSO) systems are designed to minimize the number of times that a user must type their ID and password to sign into multiple applications. The E-SSO solution automatically logs users in, and acts as a password filler where automatic login is not possible. Each client is typically given a token that handles the authentication, on other E-SSO solutions each client has E-SSO software stored on their computer to handle the authentication. On the server side is usually an E-SSO authentication server that is implemented into the enterprise network.
+
+
+
+

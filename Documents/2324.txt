@@ -1,0 +1,26 @@
+Kerberos (protocol)
+Kerberos is a computer network authentication protocol, which allows individuals communicating over a non-secure network to prove their identity to one another in a secure manner. It is also a suite of free software published by Massachusetts Institute of Technology (MIT) that implements this protocol. Its designers aimed primarily at a client-server model, and it provides mutual authentication — both the user and the server verify each other's identity. Kerberos protocol messages are protected against eavesdropping and replay attacks.
+Kerberos builds on symmetric key cryptography and requires a trusted third party. Extensions to Kerberos can provide for the use of public-key cryptography during certain phases of authentication.
+
+MIT developed Kerberos to protect network services provided by Project Athena. The protocol was named after the Greek mythological character Kerberos (or Cerberus), known in Greek mythology as being the monstrous three-headed guard dog of Hades. Several versions of the protocol exist; versions 1–3 occurred only internally at MIT.
+Steve Miller and Clifford Neuman, the primary designers of Kerberos version 4, published that version in the late 1980s, although they had targeted it primarily for Project Athena.
+Version 5, designed by John Kohl and Clifford Neuman, appeared as RFC 1510 in 1993 (made obsolete by RFC 4120 in 2005), with the intention of overcoming the limitations and security problems of version 4.
+MIT makes an implementation of Kerberos freely available, under copyright permissions similar to those used for BSD. In 2007, MIT formed the Kerberos Consortium along with some of the major vendors and users of Kerberos such as Sun Microsystems, Apple, Google, Microsoft, Centrify Corporation, etc., to foster continued development.
+Authorities in the United States classified Kerberos as a munition and banned its export because it used the DES encryption algorithm (with 56-bit keys). A non-US Kerberos 4 implementation, KTH-KRB developed at the Royal Institute of Technology in Sweden, made the system available outside the US before the US changed its cryptography export regulations (circa 2000). The Swedish implementation was based on a version called eBones. eBones was based on the exported MIT Bones release (stripped of both the encryption functions and the calls to them) based on version Kerberos 4 patch-level 9. This somewhat limited Kerberos was called the eBones release. A Kerberos version 5 implementation, Heimdal, was released by basically the same group of people releasing KTH-KRB.
+As of 2005[update], the IETF Kerberos working group is updating the specifications [2]. Recent updates include:
+
+Kerberos uses as its basis the symmetric Needham-Schroeder protocol. It makes use of a trusted third party, termed a key distribution center (KDC), which consists of two logically separate parts: an Authentication Server (AS) and a Ticket Granting Server (TGS). Kerberos works on the basis of "tickets" which serve to prove the identity of users.
+The KDC maintains a database of secret keys; each entity on the network — whether a client or a server — shares a secret key known only to itself and to the KDC. Knowledge of this key serves to prove an entity's identity. For communication between two entities, the KDC generates a session key which they can use to secure their interactions.
+
+The security of the protocol relies heavily on participants maintaining loosely synchronized time and on short-lived assertions of authenticity called Kerberos tickets.
+What follows is a simplified description of the protocol. The following abbreviations will be used:
+The client authenticates to the AS once using a long-term shared secret (e.g. a password) and receives a TGT from the AS. Later, when the client wants to contact some SS, it can (re)use this ticket to get additional tickets for SS without resorting to using the shared secret. These tickets can be used to prove authentication to SS.
+The phases are detailed below.
+
+
+
+
+
+
+
+

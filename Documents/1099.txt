@@ -1,0 +1,13 @@
+Scoop (software)
+Scoop is a content management system (CMS) originally developed by Rusty Foster. Scoop's focus is on collaborative publishing, and its feature set is geared toward encouraging user contributions and participation. Scoop is written in Perl and runs via mod_perl on Apache web servers with a MySQL database backend. Distributed under the GNU General Public License, Scoop is free software. As of 2007[update], the current stable version of Scoop is 1.1.8.
+
+Scoop was originally developed for use on Kuro5hin and was designed to allow user submissions of content much like Slash, another somewhat similar CMS. But where Slash and its flagship site, Slashdot, relied on a small group of editors to decide what content was actually published, Kuro5hin and Scoop aimed to allow moderation by the users themselves. Scoop's solution was to introduce a "moderation queue" where submitted stories would be visible to registered users, and where users could vote on whether a story should be published; a story which garners enough positive votes to cross a (configurable) "posting threshold" will become publicly visible, and a story which collects too many negative votes will be deleted.
+Scoop takes the same broad, collaborative approach to comment moderation as well; where other systems only allow a particular group of superusers to moderate comments, or allocate temporary moderation privileges among users, Scoop allows all registered users to moderate comments.
+Scoop is configurable, allowing nearly any feature to be activated or deactivated; and extensible, new features can be written in Perl and integrated into Scoop as "boxes" which are stored in the database and editable from Scoop's web-based administration interface or from a specialized "boxtool".
+Although Scoop was originally designed and deployed for kuro5hin, it has since been put into much broader use. Although many Scoop-powered sites today are oriented toward political discussion (for example, the American left-wing on-line community Daily Kos is a prominent Scoop site), Scoop can be found in use in a variety of areas, but improvements to the software appear to have ceased in 2006. Specialized Scoop hosting is available from a number of companies.
+
+Scoop's has a story- and comment-moderation system, a and other features are available. For users, Scoop offers a number of features:
+For site administrators, Scoop is customizable; Scoop can be configured to use any, all or none of the following features:
+
+
+

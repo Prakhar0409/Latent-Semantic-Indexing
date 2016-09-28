@@ -1,0 +1,65 @@
+XSLT elements
+This article lists some of the elements used in XSLT.
+
+If “select” is specified, only the templates that specify a “match” that fits the selected node or attribute type will be applied. If “mode” is specified, only the templates that have the same “mode” and have an appropriate “match” will be applied
+Can contain any number of xsl:sort and xsl:with-param children
+xsl:choose
+No attributes
+Contains xsl:when blocks and up to one xsl:otherwise block
+…
+</xsl:choose>
+xsl:for-each
+“select” designates the match criteria
+Can contain any XML
+
+…
+</xsl:for-each>
+xsl:if
+“test” specifies criteria for entering the if
+Can contain any XML
+…
+</xsl:if>
+xsl:otherwise
+Can contain any XML
+…
+</xsl:otherwise>
+xsl:stylesheet
+“version” specifies which XSLT version is being used “xmlns:xsl” specifies the URL of that standard
+… </xsl:stylesheet>
+xsl:template
+“match” is when the template should be used.
+“name” gives the template a name which xsl:call-templates etc can use to call this template.
+Can contain any XML
+…
+</xsl:template>
+xsl:variable
+“name” is the variable name. It can be referred to later with “$name” “select” is the value of the variable
+no children
+xsl:when
+“test” specifies criteria for entering the if
+Can contain any XML
+…
+</xsl:when>
+
+
+name matches the name in xsl-template
+children are xsl:with-param
+href is the URI of the file
+No children
+method designates what kind of data is returned
+omit-xml-declaration indicates if the initial xml tag should be included.
+encoding designates how the data is returned.
+No children
+No children
+No children
+select specifies the variable
+No children
+name specifies the parameter name.
+select specifies the parameter value
+No children
+Client-side XSLT can be implemented in a browser by adding a line like the following to the source XML file, right after the root XML tag. <?xml-stylesheet type="text/xsl" href="family.xsl"?>
+This is described on the page http://www.xml.com/pub/a/2000/10/25/msie/index.html
+
+
+The following functions can occur in many XSLT attributes, such as xsl:value-of.select and xsl:for-each.select.
+

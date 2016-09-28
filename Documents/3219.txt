@@ -1,0 +1,26 @@
+Apache Tomcat
+Apache Tomcat is a servlet container developed by the Apache Software Foundation (ASF). Tomcat implements the Java Servlet and the JavaServer Pages (JSP) specifications from Sun Microsystems, and provides a "pure Java" HTTP web server environment for Java code to run.
+Tomcat should not be confused with the Apache web server, which is a C implementation of an HTTP web server; these two web servers are not bundled together. Apache Tomcat includes tools for configuration and management, but can also be configured by editing XML configuration files.
+
+Members of the ASF and independent volunteers develop and maintain Tomcat. Users have free access to the source code and to the binary form of Tomcat under the Apache License. The initial Tomcat release appeared with versions 3.0.x (previous releases were Sun internal releases, and were not publicly released). Tomcat 6.0.18 is the latest production quality release of the 6.0.x trunk (the branch for the 2.5 servlet specification), as of 2008.[1][2]
+
+Tomcat version 4.x was released with Jasper (a redesigned JSP engine), Catalina (a redesigned servlet container) and Coyote (an HTTP connector).
+
+Catalina is Tomcat's servlet container. Catalina implements Sun Microsystems' specifications for servlet and JavaServer Pages (JSP). The architect for Catalina was Craig McClanahan.
+
+Coyote is Tomcat's HTTP Connector component that supports the HTTP 1.1 protocol for the web server or application container. Coyote listens for incoming connections on a specific TCP port on the server and forwards the request to the Tomcat Engine to process the request and send back a response to the requesting client.
+
+Jasper is Tomcat's JSP Engine. Tomcat 5.x uses Jasper 2, which is an implementation of the Sun Microsystems's JavaServer Pages 2.0 specification. Jasper parses JSP files to compile them into Java code as servlets (that can be handled by Catalina). At runtime, Jasper is able to automatically detect JSP file changes and recompile them.
+
+From Jasper to Jasper 2, important features were added :
+
+An overview of the different versions can be found on the Apache website.[2]
+
+
+
+
+Tomcat started off as a servlet reference implementation by James Duncan Davidson, a software architect at Sun Microsystems. He later helped make the project open source and played a key role in its donation by Sun to the Apache Software Foundation. The Apache Ant software build automation tool was developed as a side-effect of the creation of Tomcat as an open source project.[3]
+Davidson had initially hoped that the project would become open sourced and, since many open source projects had O'Reilly books associated with them featuring an animal on the cover, he wanted to name the project after an animal.[3] He came up with Tomcat since he reasoned the animal represented something that could fend for itself. Although the tomcat was already in use for another O'Reilly title, his wish to see an animal cover eventually came true when O'Reilly published their Tomcat book with a snow leopard on the cover.[4]
+
+
+

@@ -1,0 +1,14 @@
+APML
+APML (Attention Profiling Mark-up Language) is an XML-based format for capturing a person's interests and dislikes.
+
+APML allows people to share their own personal attention profile in much the same way that OPML allows the exchange of reading lists between news readers. The idea behind APML is to compress all forms of attention data (such as data available in Attention.xml, and more generally for all digital traces) into a portable file format containing a description of the user's rated interests.
+
+The APML Workgroup is tasked with maintaining and refining the APML specification. The APML Workgroup is made up of industry experts and leaders and was founded by Chris Saad and Ashley Angell[1].
+The workgroup allows public recommendations and input, and actively evangelises the public’s “Attention Rights”. The workgroup also adheres to the principals of Media 2.0 Best Practices.
+
+Services that have adopted APML
+
+
+Example taken from the APML wikisite.
+
+

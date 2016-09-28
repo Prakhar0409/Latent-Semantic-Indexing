@@ -1,0 +1,30 @@
+Lotus Agenda
+Agenda is a DOS-based personal information manager, designed by Mitch Kapor, Ed Belove and Jerry Kaplan, and marketed by Lotus Software.
+Lotus Agenda is a "free-form" information manager: the information need not be structured at all before it is entered into the database. A phrase such as "See Wendy on Tuesday 3pm" can be entered as is without any pre-processing.
+Its distinguishing feature was the ability to allow users to input data before the creation of database tables, giving the program flexibility to accommodate the myriad pieces of information a person may need to keep track of.
+The program was an attempt to create a "spreadsheet" for words. The computing industry was at first quite taken by its audacious goal and the power it brought to users as they were given a tool that allowed them to structure "real life" information in any way they wished.
+Its flexibility proved to be its Achilles heel. New users confronted with so much flexibility were often overpowered by the steep learning curve required to use the program. Attempts to overcome this through packaging pre-built databases with the program were insufficient to lift sales to adequate levels. In the end only several hundred thousand copies were sold.
+The program reached version 2.0b. Instead of porting Agenda to Windows, Lotus stopped development on this program and introduced a new PIM, Lotus Organizer, that uses the paper-based organizer metaphor, in its place.
+
+The following jargon is used to describe Agenda's concepts:
+An "Item" is a piece of free-form text
+A "Category" is a way of organizing information and was the original smart folder concept used by Microsoft Outlook 2003 and by the Spotlight utility in Mac OS X v10.4. Items can be automatically or manually assigned (linked) to one or more Categories.
+Categories can be organized hierarchically and viewed as a tree network. "Parent" categories could inherit assignments from "child" categories. Agenda performs automatic categorization after it learns your associations. For example, if you link Project A to Mary, then every time you enter an item about Project A, the item is automatically assigned to Mary.
+The information is presented in "views": in effect spreadsheet-like grids with items forming the rows and categories forming the columns. Users can create as many views as they like, selecting columns to include and how to sort the items. For example, you can create a People view that displays items sorted by the people to whom they are assigned and columns such as Project Name, Status and Due Date.
+"Conditions" and "actions" allow users to set up assignment rules.
+Once an item is entered, the program can interpret the text to assign it to various categories. In every database a "When" category is included automatically so that if a date is embedded within the text, it is interpreted and an assignment is made. For example, the item "See Wendy on Tuesday 3pm" is automatically assigned to the following Tuesday at 3pm. If a category "Wendy" had also been created then an assignment could also have been made as well. You create a Wendy category by adding a Column called People and typing Wendy as a column entry. Then any time you type Wendy in any item, that item is also assigned to the Wendy category without your needing to make the assignment in a people column (and even if the view in which you enter the new item about Wendy does not include a People column).
+This gives the user a quick ability to find every item that has an association to Wendy.
+The program can be used for:
+
+Agenda has some novel technical features. Most notably, database views support item addition and modification, which means that Agenda must infer item attributes from the view. For example, if a view contains the category Home, and the user creates an item "paint bathroom" in this view, then Agenda attaches the Home attribute to the item. In some cases, assignment cannot be exactly determined and Agenda uses a set of heuristics to make reasonable assignment choices.
+Agenda's designers described these core concepts in a 1990 CACM paper [1], and patented some of its internal data structures [2].
+
+The program has been released as freeware. It can be downloaded from the links below.
+Lotus Agenda can still be used on Windows 3.x/9x/ME/2000/XP computers and there are still many active users around the world (see the Pimlist email list on Yahoo groups).
+It suffers from:
+On August 7th, 2006, Wired carried a report that Lotus Agenda was being redeveloped as a FOSS application, named Chandler. The program is available for Macintosh, Linux, Windows, and web browsers.
+A FOSS application named Beeswax is currently in development that was inspired by Lotus Agenda, and allows similar functionality. http://waxandwane.org/beeswax/beeswax.html
+
+
+
+

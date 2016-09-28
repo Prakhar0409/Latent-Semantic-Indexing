@@ -1,0 +1,23 @@
+Unobtrusive JavaScript
+"Unobtrusive JavaScript" is an emerging technique in the JavaScript programming language, as used on the World Wide Web. Though the term is not formally defined, its basic principles are generally understood to include:
+
+JavaScript has long had a reputation as a clumsy, hackish language unsuitable for serious application development[citation needed]. This has been largely due to inconsistent implementations of the language itself and the Document Object Model in various browsers, and the widespread use of buggy cut-and-paste code. Runtime errors were so common (and so difficult to debug) that few programmers even tried to fix them, as long as the script behaved more or less the way it was supposed to[citation needed]; scripts often failed completely in some browsers.
+The recent emergence of standardized browsers, JavaScript frameworks and high-quality debugging tools have made organized, scalable JavaScript code possible, and the emergence of AJAX and Web 2.0 interfaces has made it essential.
+Whereas JavaScript was once reserved for relatively simple and non-critical tasks such as form validation and decorative novelties, it is now being used to write large, complex codebases that are often part of a site's core functionality. Runtime errors and unpredictable behavior are no longer minor annoyances; they are fatal flaws.
+Unobtrusive JavaScript can be seen as part of the larger Web standards movement; much as the demand for cross-browser compatibility has driven the increasing emphasis on standardized markup and style, the increasing demand for rich Internet applications is driving the movement toward the more robust methods of unobtrusive JavaScript. The term was invented in 2002 by Stuart Langridge.[3]
+
+Traditionally, JavaScript often was placed inline together with an HTML document's markup. For example, the following is a typical implementation of JavaScript form validation when written inline:
+However, the purpose of markup is to describe a document's structure, not its programmatic behavior. Combining the two negatively impacts a site's maintainability for the same reason that combining content and presentation does: if a site contains hundreds of such date fields, adding the appropriate onchange attribute for each one (and modifying them later, if necessary) can be a labor-intensive process.
+The unobtrusive solution is to register the necessary event handlers programmatically, rather than inline. This is commonly achieved by assigning a particular CSS selector to all elements which need to be acted upon by the script:
+The script can then look for all input elements with the name date, and set them up accordingly:
+Using native JavaScript:
+The following script is specific to the jQuery JavaScript library:
+Because the intended purpose of the name attribute is to describe the semantic role of an element, this approach is consistent with modern standards-based markup practices.
+The following script is specific to the MooTools JavaScript library:
+
+This can be achieved by making sure links and forms can be resolved properly and rely not solely on Ajax. In JavaScript, e.g. a form submission can be halted by using "return false". If nothing goes wrong, Ajax code will be executed and the form submission will be skipped. If any problems occur with the user agent’s Ajax support or if the user does not have JavaScript enabled, the form will be submitted and the traditional version of the action will be performed.[4]
+
+Though the essence of unobtrusive JavaScript is the concept of a separate behavior layer, advocates of the paradigm generally subscribe to a number of related principles, such as:
+
+
+

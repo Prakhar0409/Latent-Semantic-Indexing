@@ -1,0 +1,19 @@
+Doctrine (PHP)
+Doctrine or phpDoctrine is an object-relational mapper (ORM) for PHP 5.2.3+ that sits on top of a database abstraction layer. It allows easy access to all types of databases, such as MySQL, through the use of PHP objects.
+
+Doctrine follows the active record pattern for working with data, where a class corresponds with a database table. For instance, if a programmer wanted to create a new "User" object in a database, he/she would no longer need to write SQL queries, but instead could use the following PHP code:
+Object-related functionality can be added to the objects themselves, instead of being spread around the application. This can improve the ease of maintenance of the software project.
+
+A praised feature of Doctrine[who?] is the low level of configuration that is needed to start a project. Doctrine can generate object classes from an existing database, and the programmer can then specify relations and add custom functionality to the generated classes. There is no need to generate or maintain complex XML database schemas, as seen in many other frameworks.[citation needed]
+Another key feature of Doctrine is the ability to optionally write database queries in an OO (object oriented) SQL dialect called DQL (Doctrine Query Language) inspired by Hibernate's HQL. Alternately, the Doctrine_Query class allows one to construct queries through a fluent interface. These interfaces provide developers with powerful alternatives to SQL which maintain flexibility and still allow for switching of database back-ends, without requiring any code duplication.
+Writing queries explicitly however is not always necessary, as Doctrine performs joins and fetches related objects automatically. Small projects can be easily constructed without writing queries.
+Other notable features of Doctrine are:
+
+Doctrine was started by Konsta Vesterinen, also known as zYne-. It was April 13 2006 when the first commit was made in the svn repository[1]. As the project became more mature, the adoption began to pick up. Before long, the community was active and development was receiving regular contributions, among others from the Google Summer of Code project.
+Doctrine 1.0.0 was released on September 1, 2008. [2]
+
+Doctrine has been influenced by dozens of projects and many different people. The largest influences have been the Java ORM Hibernate and ActiveRecord from Ruby on Rails. Both of these ORM solutions have implemented a fully featured solution in the Java and Ruby languages. The purpose of the Doctrine project is to build an equally powerful solution for the PHP language.
+
+
+
+

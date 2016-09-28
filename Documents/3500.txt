@@ -1,0 +1,27 @@
+MHTML
+MHTML, short for MIME HTML, is a web page archive format used to bind resources which are typically represented by external links (such as images, Flash animations, Java applets, audio files) together with HTML code into a single file. The content of an MHTML file is encoded as if it were an HTML email message, using the MIME type multipart/related. The first of the file is normally encoded HTML; subsequent parts are additional resources identified by their original URLs and encoded in base64. This format is sometimes referred to as MHT, after the suffix .mht given to such files by default when created by Microsoft Word, Internet Explorer or Opera. MHTML is a proposed standard, circulated in a revised edition in 1999 as RFC 2557.
+
+Few browsers support this format, and the process for saving a web page along with its resources as an MHTML file is not standardized across those browsers that do. Due to this, a web page saved as an MHTML file using one browser may render differently on another.
+
+The .mht format was introduced in 1999 with Internet Explorer 5.[1] Saving in this format allows users to save a web page and its resources as a single MHTML file called a "Web Archive", where all images and linked files will be saved as a single entity. It may, however, be unable to save certain complex web pages correctly, especially those containing scripts.
+
+Support for saving a web page with its resources as an MHTML file was made available in the Opera 9.0 web browser since the weekly build 8265 (released on March 10, 2006). In Opera 9.50 the default saving format for "Save as" function is MHTML. In Opera 9.50 it is possible to save web pages in following formats: only in HTML, in HTML with pictures saved in separate folders, in plain text (TXT), and in MHTML.
+
+Mozilla Firefox 3 and earlier versions do not include support for saving or opening web pages as MHTML files; there is, however, source code available for viewing MHTML files within the related Thunderbird project. This is filed as unsolved bug 18764 within the Firefox project since 1999.
+UnMHT is an extension which can write and open .mht files. Since version 5.0.0 it offers partial support for MHT files exported from MS PowerPoint.
+Mozilla Archive Format is another extension that can write and open .mht files as well as its own "MAFF" format. The MHT files it generates are not fully compatible with Microsoft's products.[2]
+
+As of version 3.1.1 (released 2008-05-28), Apple Inc.'s Safari web browser does not support the MHTML format. Instead, it saves web pages in the webarchive format, which were directory bundles pre-3.0, but are now single file outputs.
+There is a UnMHT port for Safari available[3] based on SIMBL[4] and GreaseKit.[5]
+
+As of version 3.5.7 (released 2007-05-02), KDE's Konqueror web browser does not support MHTML files. However, it does include a feature for saving web pages as single files ("web archives", file extension .war) which are actually gzipped tarballs. (but there is a side project mhtconv that allows to use MHTML with Konqueror for both 3.x and 4.x KDE branches)
+
+NetFront 3.4 (on devices such as the Sony Ericsson K850) can view and save MHTML files.
+
+All versions of Microsoft Word since Word 2002 can open and save MHTML documents.[6][7] A converter is available from Microsoft to enable Word 2000 to open,[8] and an add-on to allow it to save,[9] MHTML files.
+MHTML is also supported by Microsoft Word Viewer 2003, Microsoft Office Access 2003, Excel 2003, OneNote 2003, and PowerPoint 2003.[10][11] Surprisingly, current versions of Microsoft's mainstream HTML editor products, such as Microsoft FrontPage and Microsoft Expression Web are unable to understand and parse MHTML format. They can only be forced to open MHTML files and display their contents as simple text.[12][13][14] Microsoft SharePoint Designer 2007 has been reported to handle MHT files correctly.
+Opera also supports editing and saving of both HTML and MHTML files in it's source viewer.[15]
+On the Linux platform a utility called kmhtConvert is available to convert MHTML files to the KDE Web Archive format.[16]
+
+
+

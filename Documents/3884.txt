@@ -1,0 +1,14 @@
+Singularity (operating system)
+Singularity is an experimental operating system being built by Microsoft Research since 2003. It is intended as a highly-dependable OS in which the kernel, device drivers, and applications are all written in managed code.
+
+The lowest-level x86 interrupt dispatch code is written in assembly language and C. Once this code has done its job, it invokes the kernel, whose runtime and garbage collector are written in Sing# (an extended version of Spec#, itself an extension of C#) and runs in unsafe mode. The hardware abstraction layer is written in C++ and runs in safe mode. There is also some C code to handle debugging. The computer's BIOS is invoked during the 16-bit real mode bootstrap stage; once in 32-bit mode, Singularity never invokes the BIOS again, but invokes device drivers written in Sing#. During installation, Common Intermediate Language (CIL) opcodes are compiled into x86 opcodes using the Bartok compiler.
+
+Singularity is a microkernel operating system. Unlike most historical microkernels, its components execute in the same address space (process), which contains "software-isolated processes" (SIPs). Each SIP has its own data and code layout, and is independent from other SIPs. These SIPs behave like normal processes, but avoid the cost of task-switches.
+Protection in this system is provided by a set of rules called invariants that are verified by static analysis. For example, in the memory-invariant states there must be no cross-references (or memory pointers) between two SIPs; communication between SIPs occurs via higher-order communication channels managed by the operating system. Invariants are checked during installation of the application. (In Singularity, installation is managed by the operating system).
+Most of the invariants rely on the use of safer memory-managed languages, such as Sing#, which have a garbage collector, allow no arbitrary pointers, and allow code to be verified to meet a certain policy.
+
+Singularity 1.0 was completed in 2007. A Singularity Research Development Kit (RDK) has been released under a Shared Source license that permits academic non-commercial use and is available from CodePlex. Version 1.1 was released in March 2007 and version 2.0 was released in November 14, 2008; the system is currently undergoing ongoing incremental development.[1]
+
+
+Cosmos is an operating system project implemented completely in CIL compliant languages - http://www.gocosmos.org/index.en.aspx
+

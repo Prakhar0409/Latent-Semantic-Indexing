@@ -1,0 +1,32 @@
+blip.tv
+blip.tv is a hosting, distribution and advertising platform for creators of Web shows. blip.tv provides content creators with free hosting, support for a variety of video formats, distribution using technologies like RSS and an opt-in advertising program with a 50/50 revenue share.
+
+blip.tv was founded in May 2005 by Mike Hudack (CEO), Dina Kaplan (COO), Justin Day (CTO), Jared Klett and Charles Hope. The founders "bootstrapped" the company for the first year of its operation. The company formally announced it had received angel funding in July 2006 but did not reveal its investors or the amount of its funding [1]. The company had made it clear prior to July 2006 that they had been funded.
+The company maintains offices in New York City's SoHo neighborhood. It is now backed by Ambient Sound Invetments and Bain Capital Ventures.
+
+blip.tv has grown out of the "videoblogging community" and concentrates its sales, marketing and technology efforts on serving this community. The founders have often talked about how they focus on content creators making "serialized content" or "shows" rather than "viral video" or "friends and family" video. "The blip.tv formula purposefully does not emulate the YouTube viral video sharing and friends and family video hosting model", ZDNet blogger Donna Bogatin wrote [2].
+
+Bloggers also report on other aspects of blip.tv's philosophy, including its ideal of placing video content creators "in control at all times." This leads to a large array of options and controls in blip.tv's user "dashboard," including less popular video formats such as Ogg. The company's distribution options, advertising options and video format choices are all subject to user control.
+The company tends to explain this as being about "individual empowerment,"[3] both in terms of user control over their actual media and in the sense that blip.tv's users are "doing an end run around the [broadcast] networks."[2]
+
+blip.tv's terms of service state that uploaders to the service retain all copyrights of their videos. By uploading the videos, the creator gives blip.tv a revocable right to host and distribute the video on the user's behalf, but that right can be revoked by the content creator by deleting the video from the service. That said, the video remains on blip.tv's servers after deletion (but unavailable to the outside world). Users must e-mail blip.tv support to request complete video removal.
+In addition to the base license users give to blip.tv by uploading their work, users can also choose from a number of Creative Commons licenses to apply to their videos. Creative Commons search uses blip.tv for its video search platform.
+
+In general, blip.tv is an open platform. It offers direct download links for all videos it hosts, including videos that it has transcoded (i.e. Flash videos). In addition to offering direct downloads of videos from its Web interface, blip.tv also offers RSS feeds which include "enclosures" for all video formats. The blip.tv Web site supports a number of open metadata standards, including microformats, RSS, Atom and JSON.
+The blip.tv Flash player does not include a blip.tv logo, and the Flash video content can be easily and seamlessly separated from the blip.tv Flash player without the use of special software.
+
+blip.tv is designed for prosumer video producers, particularly those creating "episodic content." It therefore offers many options, sometimes in an overwhelming manner.
+
+blip.tv makes all uploaded video files available on its destination site and on a video blog it creates for all users, found at [username].blip.tv. Videos are available for viewing immediately after uploading in both of these interfaces.
+blip.tv also offers copy and paste HTML for placing videos on other Web sites, a feature it calls "cross-posting" to automatically syndicate videos to other Web sites, and RSS feeds for the syndication of user videos to aggregators. Options include an "inline player" (similar to other video services), a "thumbnail flipper" (which displays first a thumbnail that turns into a video player) and a "pop-up player".
+Videos uploaded to blip.tv can be automatically syndicated to AOL Video, MSN Video and Live.com, TiVo, Verizon FiOS, Facebook, iTunes and other platforms. Blog software is supported as well, including Movable Type, WordPress and Blogger. Users can set up cross-posting in their blip.tv preferences by sharing information about the platform they want to publish to. Once the video is uploaded, software runs in the background to publish the video to the destinations.
+blip.tv can automatically upload videos to the Internet Archive for users who have both blip.tv accounts and Internet Archive accounts. The premise behind this feature is that it allows users to feel safe that their video will be available for the long-term, even if blip.tv's servers experience problems or the company goes out of business.
+blip.tv offers every user RSS feeds of their videos. The RSS feeds include enclosures to allow software programs like iTunes to automatically download and play the videos. blip.tv's RSS feeds also use Media RSS to include information about other versions of the video, including the Flash version.
+
+blip.tv allows users to opt into its advertising program, which is divided into two strata. For "high-end" content producers (as arbitrarily determined by blip.tv) the company will sell sponsorships in cooperation with the content producer. These sponsorships may include product endorsement, host statements or product placement.
+For all other content producers, blip.tv offers an "advertising marketplace" which allows users to opt into specific advertising formats and advertising partners. Options include pre-roll, post-roll, overlays and player-adjacent advertisements.
+All revenue from advertising is split 50/50 between content producers and blip.tv. Users can opt in and out of advertisements at any time.
+
+As of July 29, 2007, blip.tv was blocked by the Chinese Government and is unavailable to Chinese mainland users.[4]
+
+

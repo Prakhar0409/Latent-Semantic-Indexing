@@ -1,0 +1,69 @@
+ISO 15504
+ISO/IEC 15504 also known as SPICE (Software Process Improvement and Capability Determination) is a "framework for the assessment of processes" developed by the Joint Technical Subcommittee between ISO (International Organization for Standardization) and IEC (International Electrotechnical Commission).
+ISO/IEC 15504 initially was derived from process lifecycle standard ISO 12207 and the ideas of many maturity models like Bootstrap, Trillium and the CMM.
+
+ISO/IEC 15504 is an international standard. ISO/IEC 15504 is concerned about the many national maturity model proposals and establishes an international standard in this area. ISO/IEC 15504 presents a reference model as an international reference.
+ISO/IEC 15504 is the reference model for the maturity models (consisting of capability levels which in turn consist of the process attributes and further consist of generic practices) against which the assessors can place the evidence that they collect during their assessment, so that the assessors can give an overall determination of the organisation's capabilities for delivering products (software, systems, IT services).[1]
+ISO/IEC 15504 has been developed by the Joint Technical Subcommittee between ISO (International Organization for Standardization) and IEC (International Electrotechnical Committee).
+
+The Technical Report (TR) document for ISO/IEC TR 15504 was divided into 9 parts. The initial International Standard was recreated in 5 parts. This was proposed from Japan when the TRs were published at 1997.
+The International Standard (IS) version of ISO/IEC 15504 now comprises 6 parts. The 7th part is currently in an advanced Final Draft Standard form[2] and work has started on part 8.
+Part 1 of ISO/IEC TR 15504 explains the concepts and gives an overview of the framework.
+Nationality of editors of ISO/IEC 15504 5 parts are below.
+
+ISO/IEC 15504 contains a reference model. The reference model defines a process dimension and a capability dimension.
+The process dimension in the reference model is not the subject of part 2 of ISO/IEC 15504, but part 2 refers to external process lifecycle standards including ISO/IEC 12207 and ISO/IEC 15288.[3] The standard defines means to verify conformity of reference models.[4]
+
+The process dimension defines processes divided into the five process categories of:
+With new parts being published, the process categories will expand, particularly for IT service process categories and enterprise process categories.
+
+For each process, ISO/IEC 15504 defines a capability level on the following scale:[1]
+The capability of processes is measured using process attributes. The international standard defines nine process attributes:
+Each process attribute consists of one or more generic practices, which are further elaborated into practice indicators to aid assessment performance.
+Each process attribute is assessed on a four-point (N-P-L-F) rating scale:
+The rating is based upon evidence collected against the practice indicators, which demonstrate fulfillment of the process attribute.[5]
+
+ISO/IEC 15504 provides a guide for performing an assessment.[6]
+This includes:
+
+Performing assessments is the subject of parts 2 and 3 of ISO/IEC 15504.[7] Part 2 is the normative part and part 3 gives a guidance to fulfill the requirements in part 2.
+One of the requirements is to use a conformant assessment method for the assessment process. The actual method is not specified in the standard although the standard places requirements on the method, method developers and assessors using the method.[8] The standard provides general guidance to assessors and this must be supplemented by undergoing formal training and detailed guidance during initial assessments.
+The assessment process can be generalized as the following steps:
+An assessor can collect data on a process by various means, including interviews with persons performing the process, collecting documents and quality records, and collecting statistical process data. The assessor validates this data to ensure it is accurate and completely covers the assessment scope. The assessor assesses this data (using their expert judgment) against a process's base practices and the capability dimension's generic practices in the process rating step. Process rating requires some exercising of expert judgment on the part of the assessor and this is the reason that there are requirements on assessor qualifications and competency. The process rating is then presented as a preliminary finding to the sponsor (and preferably also to the persons assessed) to ensure that they agree that the assessment is accurate. In a few cases, there may be feedback requiring further assessment before a final process rating is made.[9]
+
+The process assessment model (PAM) is the detailed model that is used for an actual assessment. This is an elaboration of the process reference model (PRM) provided by the process lifecycle standards.[10]
+The process assessment model (PAM) in part 5 is based on the process reference model (PRM) for software: ISO/IEC 12207.[11]
+The process assessment model in part 6 is based on the process reference model for systems: ISO/IEC 15288.[12]
+The standard allows other models to be used instead, if they meet ISO/IEC 15504's criteria, which include a defined community of interest and meeting the requirements for content (i.e. process purpose, process outcomes and assessment indicators).
+
+There exist several assessment tools. The simplest comprise paper-based tools that are manually used. In general, they are laid out to incorporate the assessment model indicators, including the base practice indicators and generic practice indicators. Assessors write down the assessment results and notes supporting the assessment judgment.
+There are a limited number of computer based tools that present the indicators and allow users to enter the assessment judgment and notes in formatted screens, as well as automate the collated assessment result (i.e. the process attribute ratings) and creating reports.
+
+For a successful assessment, the assessor must have a suitable level of the relevant skills and experience.
+These skills include:
+The competency of assessors is the subject of part 3 of ISO/IEC 15504.
+In summary, the ISO/IEC 15504 specific training and experience for assessors comprise:
+
+ISO/IEC 15504 can be used in two contexts:
+
+ISO/IEC 15504 can be used to perform process improvement within a technology organization.[13] Process improvement is always difficult, and initiatives often fail, so it is important to understand the initial baseline level (process capability level), and to assess the situation after an improvement project. ISO 15504 provides a standard for assessing the organization's capacity to deliver at each of these stages.
+In particular, the reference framework of ISO/IEC 15504 provides a structure for defining objectives, which facilitates specific programs to achieve these objectives.
+Process improvement is the subject of part 4 of ISO/IEC 15504. It specifies requirements for improvement programmes and provides guidance on planning and executing improvements, including a description of an eight step improvement programme. Following this improvement programme is not mandatory and several alternative improvement programmes exist.[9]
+
+An organization considering outsourcing software development needs to have a good understanding of the capability of potential suppliers to deliver.
+ISO/IEC 15504 (Part 4) can also be used to inform supplier selection decisions. The ISO/IEC 15504 framework provides a framework for assessing proposed suppliers, as assessed either by the organization itself, or by an independent assessor.[14]
+The organization can determine a target capability for suppliers, based on the organization's needs, and then assess suppliers against a set of target process profiles that specify this target capability. Part 4 of the ISO/IEC 15504 specifies the high level requirements and an initiative has been started to create an extended part of the standard covering target process profiles. Target process profiles are particularly important in contexts where the organization (for example, a government department) is required to accept the cheapest qualifying vendor. This also enables suppliers to identify gaps between their current capability and the level required by a potential customer, and to undertake improvement to achieve the contract requirements (i.e. become qualified). Work on extending the value of capability determination includes a method called Practical Process Profiles - which uses risk as the determining factor in setting target process profiles.[9] Combining risk and processes promotes improvement with active risk reduction, hence reducing the likelihood of problems occurring.
+
+A working group was formed in 1993 to draft the international standard and used the acronym, SPICE. SPICE initially stood for "Software Process Improvement and Capability Evaluation", but French concerns over the meaning of the last word meant that SPICE now means "Software Process Improvement and Capability Determination".
+Even though the formal ISO standards number, ISO 15504, is now the correct reference, SPICE is still used for the user group of the standard, and the title for the annual conference. The first SPICE was held in Limerick, Ireland in 2000, "SPICE 2003" was hosted by ESA in Netherlands, "SPICE 2004" was hosted in Portugal, "SPICE 2005" in Austria, "SPICE 2006" in Luxembourg, "SPICE 2007" in South Korea and "SPICE 2008" in Nuremberg, Germany.
+The first versions of the standard were focused exclusively on software development processes. This was expanded to cover all related processes in a software business, for example, project management, configuration management, quality assurance, and so on. The list of processes covered, grew to cover six business areas:
+In a major revision to the draft standard in 2004, the process reference model was removed and is now related to the ISO 12207 (Software Lifecycle Processes). The issued standard now specifies the measurement framework and can use different process reference models. There are five general and industry models in use.
+Part 5 specifies software process assessment and part 6 specifies system process assessment.
+The latest work in the ISO standards working group includes creation of a maturity model, which is planned to become ISO/IEC 15504 part 7.
+
+ISO/IEC 15504 has been successful as:
+On the other hand, ISO/IEC 15504 has not yet been as successful as the CMMI. This has been for several reasons:
+Like the CMM, ISO/IEC 15504 was created in a development context, making it difficult to apply in a service management context. But work has started to develop an ITIL-based process reference model that can serve as a basis for a process assessment model. This is planned to become part 8 to the standard. In addition there are methods available that adapt its use to various contexts.
+
+
+

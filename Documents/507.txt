@@ -1,0 +1,15 @@
+Logical Unit Number
+In computer storage, a logical unit number or LUN is simply the number assigned to a logical unit. A logical unit is a SCSI protocol entity, the only one which may be addressed by the actual input/output (I/O) operations. Each SCSI target provides one or more logical units, and does not perform I/O as itself, but only on behalf of a specific logical unit.
+
+To provide a practical example, a typical disk array has multiple physical SCSI ports, each with one SCSI target address assigned. Then the disk array is formatted as a RAID and then this RAID is partitioned into several separate storage volumes. To represent each volume, a SCSI target is configured to provide a LUN. Each SCSI target may provide multiple LUNs and thus represent multiple volumes, which does not mean that those volumes are concatenated.
+Another example is a single disk drive with one physical SCSI port. It usually provides just a single target, which in turn usually provides just a single LUN numbered zero. This LUN represents the entire storage of the disk drive.
+
+The term LUN is applicable not only to traditional parallel SCSI, but also to its descendants, like Fibre Channel Protocol (FCP), iSCSI, HyperSCSI, and others.
+
+From the computer perspective, SCSI LUN is only a part of the full SCSI address. The full device's address is made from the:
+In the Unix family of operating systems, these IDs are often combined into a single "name". For example, /dev/dsk/c1t2d3s4 would refer to controller 1, target 2, disk 3, slice 4. Presently Solaris, HP-UX, NCR, and others continue to use "cXtXdXsX" nomenclature, while AIX has abandoned it in favor of more familiar names.
+
+The term logical unit number also applies to an input/output access channel within certain programming languages.
+For example, in FORTRAN, some input/output statements such as the READ or WRITE statements contain an ordered pair of numbers which identify the LUN of the file or other data source or destination, and (usually) also, the FORMAT of the data to be read or written, as in this example:
+WRITE (5,32)
+where 5 is the LUN of the target file or device, and 32 is the label of the FORMAT statement for the write. 

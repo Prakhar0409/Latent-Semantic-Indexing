@@ -1,0 +1,39 @@
+Rapid application development
+Rapid application development (RAD) refers to a software development life cycle designed to give much faster development and higher quality results than the traditional life cycle. [1]
+
+Rapid application development is a software development methodology, which involves iterative development and the construction of prototypes. It is a merger of various structured techniques, especially the data driven Information Engineering with prototyping techniques to accelerate software systems development.[2]
+RAD calls for the interactive use of structured techniques and prototyping to define user's requirements and design the final system. Using structured techniques the developer first builds preliminary data models and business process models of the business requirements. Prototyping then helps the analyst and users to verify those requirements and to formally refine the data and process models. The cycle of models, then prototypes, then models, then prototypes and so forth on, ultimately results in a combined business requirements and technical design statement to be used for constructing new systems.[2]
+RAD approaches may entail compromises in functionality and performance in exchange for enabling faster development and facilitating application maintenance.
+
+Rapid application development is a term originally used to describe a software development process introduced by James Martin in 1991. Martin's methodology involves iterative development and the construction of prototypes. More recently, the term and its acronym have come to be used in a broader, generic sense that encompasses a variety of techniques aimed at speeding application development, such as the use of web application frameworks and other types of software frameworks.
+Rapid Application Development was a response to non-agile processes developed in the 1970s and 1980s, such as the Structured Systems Analysis and Design Method and other Waterfall models. One problem with previous methodologies was that applications took so long to build that requirements had changed before the system was complete, resulting in inadequate or even unusable systems. Another problem was the assumption that a methodical requirements analysis phase alone would identify all the critical requirements. Ample evidence attests to the fact that this is seldom the case, even for projects with highly experienced professionals at all levels.
+Starting with the ideas of Brian Gallagher, Alex Balchin, Barry Boehm and Scott Shultz, James Martin developed the Rapid Application Development approach during the 1980s at IBM and finally formalized it by publishing a book in 1991, Rapid Application Development.
+
+The shift from traditional session-based client\server development to open sessionless and collaborative development like Web 2.0 has increased the need for faster iterations through the phases of the SDLC.[3] This coupled with the growing utilization of open source frameworks and products in core commercial development has, for many developers, rekindled interest in finding a silver bullet RAD methodology.
+Although all RAD methodologies strongly embrace object-oriented programming, foster software re-use, small team structure and distributed system development, most RAD practitioners recognize that ultimately, there is no single “rapid” methodology that can provide an order of magnitude improvement over any other development methodology.
+All flavors of RAD have the potential for providing a good framework for faster product development with improved code quality, but successful implementation and benefits often hinge on project type, schedule, software release cycle and corporate culture. It may also be of interest that some of the largest software vendors such as Microsoft[4] and IBM[5] do not extensively utilize RAD in the development of their flagship products and for the most part, they still primarily rely on traditional waterfall methodologies with some degree of spiraling.[6]
+In selecting the most appropriate RAD methodology, the pros and cons of each should be evaluated and matched to the development environment, culture and technology.[7] The following table contains a high-level summary of some of the major flavors of RAD and their relative strengths and weakness.
+Agile software development
+Minimizes feature creep by developing in short intervals resulting in miniature software projects and releasing the product in mini-increments.
+Short iteration may not add enough functionality leading to significant delays in final iterations. Since Agile emphasizes real-time communication (preferably face-to-face), utilizing it is problematic for large multi-team distributed system development. Agile methods produce very little written documentation and require a significant amount of post project documentation.
+Extreme Programming (XP)
+Lowers the cost of changes through quick spirals of new requirements. Most of the design activity takes place incrementally and on the fly.
+Programmers are required to work in pairs (which may be difficult for some developers). There is no up-front “detailed design” which could result in more re-design effort in the long run. The business champion attached to the project full time can potentially become a single point-of-failure for the project and a major source of stress for the team.
+Joint Application Development (JAD)
+Captures the voice of the customer by involving him in the design and development of the application through a series of collaborative workshops called JAD sessions.
+The client may create an unrealistic product vision and request extensive gold-plating leading the team to over- or under-develop functionality.
+Lean software development (LD)
+Creation of minimalist solutions (i.e. needs determine technology) and delivering less functionality earlier (as per the paradigm that 80% today is better than 100% tomorrow).
+Product may lose its competitive edge because of insufficient core functionality and may exhibit poor overall quality.
+Rapid Application Development (RAD)
+Dependency on strong cohesive teams and individual commitment to the project. Success depends on disciplined developers and their exceptional technical skills and ability to “turn on a dime”. Decision making relies on the feature functionality team and a communal decision making process with lesser degree of centralized PM and engineering authority.
+SCRUM
+Improvement in productivity in teams previously paralyzed by heavy “process”, ability to prioritize work, utilization of backlog for completing items in a series of short iterations or sprints, daily measured progress and communications.
+Reliance on facilitation by a master who may lack the political clout to remove impediments and deliver the sprint goal. Due to its reliance on self organizing teams and the rejection of the traditional centralized "process control", internal power struggles may paralyze the team.
+Table1: Pros and Cons of various RAD flavors
+
+
+Since rapid application development is an iterative and incremental process, it can lead to a succession of prototypes that never culminate in a satisfactory production application. Such failures may be avoided if the application development tools are robust, flexible, and put to proper use. This is addressed in methods such as the 2080 Development method or other post-agile variants.
+
+
+

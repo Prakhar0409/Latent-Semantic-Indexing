@@ -1,0 +1,24 @@
+Joost
+Joost (IPA: /dʒuːst/, like "juiced") is an Internet TV service, created by Niklas Zennström and Janus Friis (founders of Skype and Kazaa). During 2007-8 Joost used peer-to-peer TV technology to distribute content to their Mozilla-based desktop player; in late 2008 this was migrated to use a Flash-based Web player instead.
+Joost began development in 2006. Working under the code name "The Venice Project", Zennström and Friis assembled teams of some 150 software developers in about six cities around the world, including New York, London, Leiden and Toulouse. According to Zennström at a 25 July 2007 press conference about Skype held in Tallinn, Estonia, Joost had signed up more than a million beta testers, and its launch was scheduled for the end of 2007.[1]
+The teams are currently in negotiations with FOX networks. It has signed up with Warner Music, Indianapolis Motor Speedway Productions (Indianapolis 500, IndyCar Series) and production company Endemol for the beta.[2] In February 2007, Viacom entered into a deal with the company to distribute content from its media properties, including MTV Networks, BET and film studio Paramount Pictures.
+
+The program is based on P2PTV technology and is expected to deliver (relaying) near-TV resolution images. It turns a PC into an instant on-demand TV without any need for additional set top box. News updates, discussion forums, show ratings, and multi-user chat sessions (often linked to the active stream/channel) are made possible through the use of semi-transparent widget overlays.
+The current version of the software is based on XULRunner and the audio management re-uses the ZAP Media Kit. The peer to peer layer comes from the Joltid company, which also provided the peer to peer layer of Skype. The video playback utilizes the CoreCodec, CoreAVC H.264 video decoder.
+Joost soft launched its Widget API on August 29, 2007 under a non-copyleft open source license and encourages third party developers to create tools for its TV 2.0 platform.
+
+
+As co-owners of Skype, Friis and Zennström received part of a $2.6 billion cash payment when eBay acquired Skype in 2005, which easily covered the development and marketing cost of their Joost venture. Just a week after launching the service, the founders announced that they had raised an additional $45 million. Sequoia Capital, which backed Yahoo, Google and YouTube; Index Ventures, an early investor in Skype; Li Ka-shing, the Hong Kong tycoon; and CBS, the US media group, have all taken “small minority” stakes in the start-up. Viacom is also understood to be among the partners, although the nature of its backing has not been disclosed.
+
+As opposed to streaming technology in which all clients get the feed from the server, P2P TV technology differs in the sense that the servers serve only a handful of clients; each of the clients in turn propagate the stream to more downstream clients and so on. This moves the distribution costs from the channel owner to the user.
+The Joost service is ad-supported, with advertising analogous to that shown on traditional TV, according to former CEO Fredrik de Wahl.[3] Joost has 40 advertisers, including Sony Pictures, BMW, and Sprite.[4] Aside from injected video-advertisements, it serves additional interactive advertisements via overlays and short pop-ups that are clickable.
+
+On December 17, 2008, Joost sent an email to its customers explaining that the project was moving to a website-only model, and that the Joost application would stop working Friday, December 19.[5]
+
+Viacom, Inc., and Joost entered into a content provider agreement for the Joost platform on February 20, 2007. Under the agreement, divisions of Viacom (including MTV Networks, BET Networks and Paramount Pictures) will license their "television and theatrical programing" to Joost.[6] This came shortly after Viacom requested 100,000 potentially infringing videos to be removed from YouTube.com, which showed a preference by Viacom for the Joost platform over YouTube.[7]
+Joost also currently has licensing agreements in place with Ministry of Sound TV, Aardman Animation, Warner Music, the production company Endemol, Fremantle Media, RDF Media, Diversion Media,[8] CBS[9] and CenterStaging's rehearsals.com.[10] On May 1, 2007, Joost signed a deal to distribute NHL content, including full game replays of the Stanley Cup Finals, and vintage games.[11]
+Much of the content on Joost is restricted to users in the United States of America, due to international licensing arrangements.
+In 2009, Joost entered into an agreement with Viz Media to begin the ongoing Japanese releases of Naruto Shippuden on a weekly basis, with free fansubbing of the show (excluding the songs). This new development caused the top fansubbing group to voluntarily drop it.
+
+
+

@@ -1,0 +1,65 @@
+Bond (finance)
+
+Bond market
+Stock (Equities) Market
+Forex market
+Derivatives market
+Commodity market
+Money market
+Spot (cash) Market
+OTC market
+Real Estate market
+Private equity
+Investors
+Speculators
+Institutional Investors
+Structured finance
+Capital budgeting
+Financial risk management
+Mergers and Acquisitions
+Accounting
+Financial Statements
+Auditing
+Credit rating agency
+Leveraged buyout
+Venture capital
+Credit and Debt
+Employment contract
+Retirement
+Financial planning
+Tax
+Fractional-reserve banking
+Central Bank
+List of banks
+Deposits
+Loan
+Money supply
+Finance designations
+Accounting scandals
+Stock market bubble
+Recession
+Stock market crash
+History of private equity
+In finance, a bond is a debt security, in which the authorized issuer owes the holders a debt and, depending on the terms of the bond, is obliged to pay interest (the coupon) and/or to repay the principal at a later date, termed maturity. It is a formal contract to repay borrowed money with interest at fixed intervals.[1]
+Thus a bond is like a loan: the issuer is the borrower, the bond holder is the lender, and the coupon is the interest. Bonds provide the borrower with external funds to finance long-term investments, or, in the case of government bonds, to finance current expenditure. Certificates of deposit (CDs) or commercial paper are considered to be money market instruments and not bonds.
+Bonds and stocks are both securities, but the major difference between the two is that stock-holders are the owners of the company (i.e., they have an equity stake), whereas bond holders are lenders to the issuers. Another difference is that bonds usually have a defined term, or maturity, after which the bond is redeemed, whereas stocks may be outstanding indefinitely. An exception is a consol bond, which is a perpetuity (i.e., bond with no maturity).
+
+Bonds are issued by public authorities, credit institutions, companies and supranational institutions in the primary markets. The most common process of issuing bonds is through underwriting. In underwriting, one or more securities firms or banks, forming a syndicate, buy an entire issue of bonds from an issuer and re-sell them to investors. The security firm takes the risk of being unable to sell on the issue to end investors. However government bonds are instead typically auctioned.
+
+The most important features of a bond are:
+
+
+Some companies, banks, governments, and other sovereign entities may decide to issue bonds in foreign currencies as it may appear to be more stable and predictable than their domestic currency. Issuing bonds denominated in foreign currencies also gives issuers the ability to access investment capital available in foreign markets. The proceeds from the issuance of these bonds can be used by companies to break into foreign markets, or can be converted into the issuing company's local currency to be used on existing operations. Foreign issuer bonds can also be used to hedge foreign exchange rate risk. Some of these bonds are called by their nicknames, such as the "samurai bond."
+
+The interest rate that the issuer of a bond must pay is influenced by a variety of factors, such as current market interest rates, the length of the term and the creditworthiness of the issuer.
+These factors are likely to change over time, so the market price of a bond will vary after it is issued. This price is expressed as a percentage of nominal value. Bonds are not necessarily issued at par (100% of face value, corresponding to a price of 100), but bond prices converge to par when they approach maturity (if the market expects the maturity payment to be made in full and on time) as this is the price the issuer will pay to redeem the bond. At other times, prices can be above par (bond is priced at greater than 100), which is called trading at a premium, or below par (bond is priced at less than 100), which is called trading at a discount. Most government bonds are denominated in units of $1000, if in the United States, or in units of Â£100, if in the United Kingdom. Hence, a deep discount US bond, selling at a price of 75.26, indicates a selling price of $752.60 per bond sold. (Often, in the US, bond prices are quoted in points and thirty-seconds of a point, rather than in decimal form.) Some short-term bonds, such as the U.S. Treasury Bill, are always issued at a discount, and pay par amount at maturity rather than paying coupons. This is called a discount bond.
+The market price of a bond is the present value of all expected future interest and principal payments of the bond discounted at the bond's redemption yield, or rate of return. That relationship defines the redemption yield on the bond, which represents the current market interest rate for bonds with similar characteristics. The yield and price of a bond are inversely related so that when market interest rates rise, bond prices fall and vice versa. Thus the redemption yield could be considered to be made up of two parts: the current yield (see below) and the expected capital gain or loss: roughly the current yield plus the capital gain (negative for loss) per year until redemption.
+The market price of a bond may include the accrued interest since the last coupon date. (Some bond markets include accrued interest in the trading price and others add it on explicitly after trading.) The price including accrued interest is known as the "full" or "dirty price". (See also Accrual bond.) The price excluding accrued interest is known as the "flat" or "clean price".
+The interest rate adjusted for (divided by) the current price of the bond is called the current yield (this is the nominal yield multiplied by the par value and divided by the price).
+The relationship between yield and maturity for otherwise identical bonds is called a yield curve.
+Bonds markets, unlike stock or share markets, often do not have a centralized exchange or trading system. Rather, in most developed bond markets such as the U.S., Japan and western Europe, bonds trade in decentralized, dealer-based over-the-counter markets. In such a market, market liquidity is provided by dealers and other market participants committing risk capital to trading activity. In the bond market, when an investor buys or sells a bond, the counterparty to the trade is almost always a bank or securities firm acting as a dealer. In some cases, when a dealer buys a bond from an investor, the dealer carries the bond "in inventory." The dealer's position is then subject to risks of price fluctuation. In other cases, the dealer immediately resells the bond to another investor.
+Bond markets can also differ from stock markets in that, in some markets, investors sometimes do not pay brokerage commissions to dealers with whom they buy or sell bonds. Rather, the dealers earn revenue by means of the spread, or difference, between the price at which the dealer buys a bond from one investor -- the "bid" price -- and the price at which he or she sells the same bond to another investor--the "ask" or "offer" price. The bid/offer spread represents the total transaction cost associated with transferring a bond from one investor to another.
+
+Bonds are bought and traded mostly by institutions like pension funds, insurance companies and banks. Most individuals who want to own bonds do so through bond funds. Still, in the U.S., nearly 10% of all bonds outstanding are held directly by households.
+Sometimes, bond markets rise (while yields fall) when stock markets fall. More relevantly, the volatility of bonds (especially short and medium dated bonds) is lower than that of shares. Thus bonds are generally viewed as safer investments than stocks, but this perception is only partially correct. Bonds do suffer from less day-to-day volatility than stocks, and bonds' interest payments are often higher than the general level of dividend payments. Bonds are liquid  â€“ it is fairly easy to sell one's bond investments, though not nearly as easy as it is to sell stocks  â€“ and the comparative certainty of a fixed interest payment twice per year is attractive. Bondholders also enjoy a measure of legal protection: under the law of most countries, if a company goes bankrupt, its bondholders will often receive some money back (the recovery amount), whereas the company's stock often ends up valueless. However, bonds can also be risky:
+Price changes in a bond will also immediately affect mutual funds that hold these bonds. If the value of the bonds held in a trading portfolio has fallen over the day, the value of the portfolio will also have fallen. This can be damaging for professional investors such as banks, insurance companies, pension funds and asset managers (irrespective of whether the value is immediately "marked to market" or not). If there is any chance a holder of individual bonds may need to sell his bonds and "cash out", interest rate risk could become a real problem. (Conv

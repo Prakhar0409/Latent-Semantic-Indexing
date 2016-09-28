@@ -1,0 +1,11 @@
+Mobipocket
+Mobipocket SA is a French company incorporated in March 2000 which produces Mobipocket Reader software, a universal reader for PDAs. The Mobipocket software package is free and consists of various publishing and reading tools for PDA, Smartphones, cellular phones and e-book devices (Symbian, Windows Mobile, Palm OS, Java ME, BlackBerry, Psion, Kindle and iLiad). An alpha release of the java-based version of the mobipocket reader was made available for cellphones on June 30, 2008.[1]
+Mobipocket.com was bought by Amazon.com in 2005.[2] Amazon's acquisition was believed to be a result of Adobe's announcement that it would no longer sell its eBook packaging and serving software.[3]
+The software provides:
+Depending on the device, different functions are available. Those are usually managing of books and their metadata, assigning books to arbitrary categories, auto-scroll, rotate by 90°/180°, bookmarks, custom hyperlinks within one or between different documents, highlighting, comments and by sketches. When transferring documents to other device types, functions that are not supported on the device will be ignored but the information one is reading will not be altered or deleted.
+There is a reader software version for personal computers running on Microsoft Windows. It allows you to import different file formats, among them HTML, PDF, OEB , CHM , TXT and Microsoft Office formats. Unencrypted Mobipocket books can be read on Mac OS X and the iPhone using Lexcycle Stanza, a third-party program.
+A user can thus create documents in the Mobipocket-format (.PRC)[4] and use personal comments, bookmarks and so on on all devices supporting those features.
+Note that there is no way to print or export the text itself nor the personalized additions[5] without manually selecting, copying and pasting them piece by piece. According to Mobipocket support a print function will be released soon; an export feature is planned but not yet in an advanced stage as consultation with publishers continues.[citation needed]
+
+
+

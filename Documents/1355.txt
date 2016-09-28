@@ -1,0 +1,25 @@
+iMovie
+iMovie is a video editing software application which allows Mac users to edit their own home movies. It was originally released by Apple in 1999 as a Mac OS 8 application bundled with the first FireWire-enabled Macintosh model[1]. Since version 3, iMovie has been a Mac OS X only application bundled in the iLife suite of Macintosh applications.[2]
+iMovie imports video footage to the Mac using the FireWire interface on most MiniDV format digital video cameras. From there, the user can edit the video clips, add titles, and add music. Effects include basic color correction and video enhancement tools, and transitions such as fade-in, fade-out, and slides.
+
+Major new features and enhancements compared to iMovie 3 and its predecessors:[3]
+Other features include (also in earlier versions):
+
+iMovie HD includes support for HDV (720p and 1080i) and integration with the rest of the iLife suite, with toolbox buttons allowing the importing of images from iPhoto, music from iTunes and the setting of chapter markers ready for exporting to iDVD.
+iMovie HD 5, imports mjpeg files as dv by default, which introduces noise; mjpeg files are cryptically lumped with "isight" files in this version.
+Another new feature is 'Magic iMovie', which attempts to automate the whole process of video editing, by allowing a common transition to be added between scenes, a music track to be synchronised with the video and a DVD to be created with the accompanying iDVD software
+
+iMovie 6 was released in January 2006 as part of the iLife '06 suite. It is integrated with iPhoto, iTunes, iDVD, GarageBand and iWeb. New features include:
+
+iMovie '08 (7.0) was released in August 2007 as a part of the iLife '08 suite. iMovie '08 was a complete redesign and rewrite of iMovie.
+New features added include:
+According to Apple's system requirements iMovie '08 requires at least a PowerPC G5 1.9GHz or an Intel Processor. G4s are not supported, though Apple sold its last G4-based Computers (iBook G4) 14 months before the release of iLife '08. However, a system hack enables iMovie 7.1 or higher to run on a PowerPC G4.[4]
+
+iMovie 08 was criticised due to a drastic abandonment of some iMovie HD 6 features. New York Times reviewer David Pogue said "iMovie ‘08 is an utter bafflement...[it] is incapable of the more sophisticated editing that the old iMovie made so enjoyable...All visual effects are gone—even basic options like slow motion, reverse motion, fast motion, and black-and-white. And you can’t have more than one project open at a time."[5]
+Features removed included the classic timeline, the ability to create DVD chapter markers, support for plugins, and in-timeline audio adjustment and control. Most surprisingly, iMovie '08 imports a much more limited set of video codecs and metadata formats than previous versions of iMovie or today's QuickTime Player. For example, QuickTime Player can be extended to support the FLIP Video 3ivx MPEG-4 codec, but iMovie cannot. Limited import formats also excludes the DV format for storing raw format. As a result, all resulting videos have lossy compression[clarification needed] applied and there is no facility for managing full format video. The peculiar lack of QuickTime support means QuickTime Pro can edit a far larger range of video than iMovie '08. Some users[who?] have also complained of iMovie 08 being slower and less polished than iMovie 06, and taking a long time to render clips and thumbnails.
+Responding to criticism[citation needed], Apple released iMovie HD 6 as a free download to those who had purchased iMovie '08.[6] In response to the new iMovie, Apple reduced the $299 price tag for Final Cut Express to $199,[citation needed] along with removing the iMovie HD 6 download in late January 2009.[7] Several of the features removed from iMovie '06 have been restored into iMovie '09.
+
+iMovie '09 was released January 2009 as part of the iLife '09 package. It introduced some new features and restored some features from previous versions of iMovie, including basic video effects (such as fast/slow motion and aged film) and image stabilization as well as travel map functions for marking locations where a video was shot. It also improved audio editing and added full iDVD support which was unavailable in iMovie '08.
+
+
+

@@ -1,0 +1,16 @@
+XAMPP
+XAMPP is a free and open source cross-platform web server package, consisting mainly of the Apache HTTP Server, MySQL database, and interpreters for scripts written in the PHP and Perl programming languages.
+
+XAMPP's name is an acronym for:
+The program is released under the terms of the GNU General Public License and acts as a free web server capable of serving dynamic pages. XAMPP is available for Microsoft Windows, Linux, Solaris, and Mac OS X, and is mainly used for web development projects.
+
+XAMPP requires only one zip, tar or exe file to be downloaded and run, and little or no configuration of the various components that make up the web server is required. XAMPP is regularly updated to incorporate the latest releases of Apache/MySQL/PHP and Perl. It also comes with a number of other modules including OpenSSL and phpMyAdmin.
+Because its user interface is considered simple to use, it is sometimes called the "lazy man's WAMP/LAMP installation".[citation needed]
+Installing XAMPP takes less time than installing each of its components separately. Self-contained, multiple instances of XAMPP can exist on a single computer, and any given instance can be copied from one computer to another.
+It is offered in both a full, standard version and a smaller version (known as XAMPP Lite). Add-on extension modules also are available.
+
+Officially, XAMPP's designers intended it for use only as a development tool, to allow website designers and programmers to test their work on their own computers without any access to the Internet. To make this as easy as possible, many important security features are disabled by default.[1] In practice, however, XAMPP is sometimes used to actually serve web pages on the World Wide Web. A special tool is provided to password-protect the most important parts of the package.
+XAMPP also provides support for creating and manipulating databases in MySQL and SQLite among others.
+
+
+

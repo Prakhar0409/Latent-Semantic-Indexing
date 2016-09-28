@@ -1,0 +1,29 @@
+Web content management system
+A web content management system (WCMS or Web CMS) is content management system (CMS) software, usually implemented as a Web application, for creating and managing HTML content. It is used to manage and control a large, dynamic collection of Web material (HTML documents and their associated images). A WCMS facilitates content creation, content control, editing, and many essential Web maintenance functions.
+Usually the software provides authoring (and other) tools designed to allow users with little or no knowledge of programming languages or markup languages to create and manage content with relative ease of use.
+Most systems use a database to store content, metadata, and/or artifacts that might be needed by the system. Content is frequently, but not universally, stored as XML, to facilitate reuse and enable flexible presentation options.[1][2]
+A presentation layer displays the content to regular Web-site visitors based on a set of templates. The templates are sometimes XSLT files.[3]
+Administration is typically done through browser-based interfaces, but some systems require the use of a fat client.
+Unlike Web-site builders like Microsoft FrontPage or Adobe Dreamweaver, a WCMS allows non-technical users to make changes to an existing website with little or no training. A WCMS typically requires an experienced coder to set up and add features, but is primarily a Web-site maintenance tool for non-technical administrators.
+
+A WCMS is a software system used to manage and control a large, dynamic collection of Web material (HTML documents and their associated images). A CMS facilitates document control, auditing, editing, and timeline management. A WCMS provides the following key features:
+
+There are three major types of WCMS: offline processing, online processing, and hybrid systems. These terms describe the deployment pattern for the WCMS in terms of when presentation templates are applied to render Web pages from structured content. Seth Gottlieb has used the terms 'baking', 'frying', and 'parbaking' to describe the three alternatives.[5]
+
+These systems pre-process all content, applying templates before publication to generate Web pages. Vignette CMS and Bricolage are examples of this type of system. Since pre-processing systems do not require a server to apply the templates at request time, they may also exist purely as design-time tools; Adobe Contribute is an example of this approach.
+
+These systems apply templates on-demand. HTML may be generated when a user visits the page, or pulled from a cache. Hosted CMSs are provided by such SaaS developers as AspireCMS, Bravenet, UcoZ, Freewebs and Crownpeak.
+Some of the better known open source systems that produce pages on demand include Concrete5, Mambo, Joomla!, Drupal, TYPO3, Zikula and Plone, etc...
+DotNetNuke is a partially open source CMS that runs on asp.net and is free to download and install. DNN produces pages on demand but levels and types of caching can be set. There are also many additional "modules" that can be purchased or installed for free to extend the functionality of DNN as needed, many of which create data and content dynamically.
+Most Web application frameworks perform template processing in this way, but they do not necessarily incorporate content management features. Wikis, e.g. MediaWiki and TWiki generally follow an online model (with varying degrees of caching), but generally do not provide document workflow.
+
+Some systems combine the offline and online approaches. Some systems write out executable code (e.g. JSP, ASP, PHP,ColdFusion,Perl pages) rather than just static HTML, so that the CMS itself does not need to be deployed on every Web server. Other hybrids, such as Blosxom, are capable of operating in either an online or offline mode.[6]
+
+
+Web Content Management Systems began to be formally developed as a commercial software products in the mid nineties. In the mid 2000s, the web content management market became a fragmented market as a plethora of new providers emerged to complement the traditional vendors. These Web Content Management systems are typically broken down into several groups:
+Software as a Service: AspireCMS, Clickability, Knivis, Crownpeak, Hot Banana and others
+Enterprise: Sitecore, FatWire, Vignette, Interwoven, Documentum, MySource Matrix (Squiz), Alfresco, Oracle, IBM Web Content Management, SDL Tridion and others
+Mid-market: Microsoft SharePoint, Kentico, Goss Interactive, Contrexx, Ektron, PaperThin, Ingeniux, Terapad, Cascade Server,Logical CMS and others
+Open source: Magnolia, Plone, Joomla, Drupal, Alfresco, Sensenet 6.0, MiaCMS, MMBase, TYPO3, MySource Matrix (Squiz), WordPress
+
+

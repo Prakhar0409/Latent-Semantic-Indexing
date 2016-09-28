@@ -1,0 +1,14 @@
+Delicious Library
+Delicious Library is a media cataloguing application for Mac OS X, developed by Delicious Monster. The software allows users to manage their collections of books, movies, CDs and video games by entering them manually or by using a Bluetooth scanner, an iSight camera, or a USB-keyboard-type barcode scanner (such as a modified CueCat).
+Released in November 2004, Delicious Library sold $250,000 in its first month.[1]
+Delicious Library 2 was released officially on May 27, 2008, although the final version was available from March 25.
+
+Delicious Library was applauded for its user interface, which inspired the movement among developers known as the Delicious Generation. It was also acclaimed for several features, including:
+
+
+There are several ways to enter a media item into Delicious Library. The user can:
+The CueCat barcode scanner was not made to be used with programs like Delicious Library, although there is a way to make it work. This method transforms CueCat into a device that simply reads the barcode, types it into the screen in the same format as a keyboard types, and then clicks the enter button.
+
+
+
+

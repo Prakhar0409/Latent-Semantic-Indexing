@@ -1,0 +1,19 @@
+Dirac (codec)
+Dirac is an open and royalty-free video codec developed by the BBC. It aims to provide high-quality video compression from web video up to HD[1], and as such competes with existing formats such as H.264 and WMV. Dirac was used internally by the BBC to transmit HDTV pictures at the Beijing Olympics in 2008[2][3][4].
+The specification was finalised on 21 January 2008, and further developments will only be bug fixes and constraints[5]. Version 1.0.0 of the reference implementation (known as dirac-research) was released on 17 September 2008 [6]
+An intra-frame only subset of the Dirac specification, known as Dirac Pro, is being considered for standardisation as SMPTE VC-2[7].
+The codec is named in honour of the British scientist Paul Dirac.
+
+Similar to common video codecs such as the ISO/IEC Moving Picture Experts Group (MPEG)'s MPEG-4 Part 2 or Microsoft's WMV 7, it can compress any size of picture from low-resolution QCIF (176x144 pixels) to HDTV (1920x1080) and beyond. However, it promises significant savings in data rate and improvements in quality over these codecs, by some claims even superior to those promised by the latest generation of codecs such as H.264/MPEG-4 AVC or SMPTE's VC-1 (which is based on Microsoft's WMV 9). Dirac's implementors make the preliminary claim of "a two-fold reduction in bit rate over MPEG-2 for high definition video"[8], an estimate which would put the design in about the same class of compression capability as the latest standardization efforts of H.264/MPEG-4 AVC and VC-1. MPEG-2 is the previous generation video codec used in the standard DVD format today.
+Dirac employs wavelet compression, instead of the discrete cosine transforms used in most older codecs (such as H.264/MPEG-4 AVC or SMPTE's VC-1). Dirac is one of several projects attempting to apply wavelets to video compression. Others include Rududu, Snow, RedCode and Tarkin. Wavelet compression has already proven its viability in the JPEG 2000 compression standard for photographic images.
+
+Two software implementations of the specification currently exist. The first is the BBC's reference implementation, formerly just called 'Dirac' but renamed 'dirac-research' to avoid confusion. It is written in C++ and released under the Mozilla Public License, GNU GPL 2 and GNU LGPL free software licenses. Version 1.0.0 of this implementation was released on 17 September 2008.
+A second implementation called "Schrödinger" was funded by the BBC and aims to provide high-performance, portable version of the codec whilst remaining 100% bitstream compatible. Schrödinger is written in ANSI C and released under the same licenses as dirac-research, as well as the highly-permissive MIT License. The Schrödinger project also provides GStreamer plugins to enable the library to be used with that framework. On 22 February 2008, Schrödinger 1.0.0 was released. This release was able to decode HD720/25p in real-time on a Core Duo laptop.
+While the official FAQ does not mention on the encoding difference between them, Schrödinger's developer David Schleef[9] said in his blog that "you either get slow and good (dirac-research) or fast and crappy (Schrödinger)."[10]
+The BBC does not own any patents on Dirac. They previously had some patent applications with plans to irrevocably grant a royalty-free licence for their Dirac-related patents to everyone, but they let the applications lapse. In addition, the developers will try to ensure that Dirac does not infringe any third party patents, enabling the public to use Dirac for any imaginable purpose.[11]
+
+As of November 2008, Dirac video playback is supported by VLC media player (version 0.9.2 or newer), and by applications using the GStreamer framework (such as Totem and Banshee). Support has also been added to FFmpeg.[12]
+Applications which can encode to Dirac include MediaCoder, LiVES and OggConvert.
+
+
+

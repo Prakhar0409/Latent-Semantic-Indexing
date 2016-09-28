@@ -1,0 +1,52 @@
+OpenMP
+The OpenMP (Open Multi-Processing) is an application programming interface (API) that supports multi-platform shared memory multiprocessing programming in C, C++ and Fortran on many architectures, including Unix and Microsoft Windows platforms. It consists of a set of compiler directives, library routines, and environment variables that influence run-time behavior.
+Jointly defined by a group of major computer hardware and software vendors, OpenMP is a portable, scalable model that gives programmers a simple and flexible interface for developing parallel applications for platforms ranging from the desktop to the supercomputer.
+An application built with the hybrid model of parallel programming can run on a computer cluster using both OpenMP and Message Passing Interface (MPI).
+
+OpenMP is an implementation of multithreading, a method of parallelization whereby the master "thread" (a series of instructions executed consecutively) "forks" a specified number of slave "threads" and a task is divided among them. The threads then run concurrently, with the runtime environment allocating threads to different processors.
+The section of code that is meant to run in parallel is marked accordingly, with a preprocessor directive that will cause the threads to form before the section is executed. Each thread has an "id" attached to it which can be obtained using a function (called omp_get_thread_num() in C/C++ and OMP_GET_THREAD_NUM() in Fortran). The thread id is an integer, and the master thread has an id of "0". After the execution of the parallelized code, the threads "join" back into the master thread, which continues onward to the end of the program.
+By default, each thread executes the parallelized section of code independently. "Work-sharing constructs" can be used to divide a task among the threads so that each thread executes its allocated part of the code. Both Task parallelism and Data parallelism can be achieved using OpenMP in this way.
+The runtime environment allocates threads to processors depending on usage, machine load and other factors. The number of threads can be assigned by the runtime environment based on environment variables or in code using functions. The OpenMP functions are included in a header file labelled "omp.h" in C/C++.
+
+The OpenMP Architecture Review Board (ARB) published its first API specifications, OpenMP for Fortran 1.0, in October 1997. October the following year they released the C/C++ standard. 2000 saw version 2.0 of the Fortran specifications with version 2.0 of the C/C++ specifications being released in 2002. Version 2.5 is a combined C/C++/Fortran specification that was released in 2005.
+Version 3.0, released in May, 2008, is the current version of the API specifications. Included in the new features in 3.0 is the concept of tasks and the task construct. These new features are summarized in Appendix F of the OpenMP 3.0 specifications.
+
+The core elements of OpenMP are the constructs for thread creation, work load distribution (work sharing), data environment management, thread synchronization, user level runtime routines and environment variables.
+A compiler directive in C/C++ is called a pragma (pragmatic information). It is a preprocessor directive, thus it is declared with a hash (#). Compiler directives specific to OpenMP in C/C++ are written in codes as follows:
+The OpenMP specific pragmas are listed below:
+
+omp parallel. It is used to fork additional threads to carry out the work enclosed in the construct in parallel. The original process will be denoted as master thread with thread ID 0.
+Example: Display "Hello, world" using multiple threads.
+
+used to specify how to assign independent work to one or all of the threads.
+Example: initialize the value of a large array in parallel, using each thread to do a portion of the work
+
+Since OpenMP is a shared memory programming model, most variables in OpenMP code are visible to all threads by default. But sometimes private variables are necessary to avoid race condition and there is a need to pass values between the sequential part and the parallel region (the code block executed in parallel), so data environment management is introduced as data clauses by appending them to the OpenMP directive. The different types of clauses are
+
+
+
+
+
+
+
+
+
+Used to modify/check the number of threads, detect if the execution context is in a parallel region, how many processors in current system, set/unset locks, timing functions, etc.
+
+A method to alter the execution features of OpenMP applications. Used to control loop iterations scheduling, default number of threads, etc. For example OMP_NUM_THREADS is used to specify number of threads for an application.
+
+In this section, some sample programs are provided to illustrate the concepts explained above.
+
+This is the most basic program, one that prints "hello world".
+
+
+
+
+
+The application of some OpenMP clauses are illustrated in the simple examples in this section. The piece of code below updates the elements of an array "b" by performing a simple operation on the elements of an array "a". The parallelization is done by the OpenMP directive "#pragma". The scheduling of tasks is dynamic. Notice how the iteration counters "j" and "k" have to be made private, whereas the primary iteration counter "i" is private by default. The task of running through "i" is divided among multiple threads, and each thread creates its own versions of "j" and "k" in its execution stack, thus doing the full task allocated to it and updating the allocated part of the array "b" at the same time as the other threads.
+The next piece of code is a common usage of the "reduction" clause to calculate reduced sums. Here, we add up all the elements of an array "a" with an "i" dependent weight using a for-loop which we parallelize using OpenMP directives and reduction clause. The scheduling is kept static.
+
+OpenMP has been implemented in many commercial compilers. For instance, Visual C++ 2005 supports it (in its Professional and Team System editions [1]), and so do the Intel compilers for their x86 and IPF product series. Sun Studio compilers and tools support the latest OpenMP specifications with productivity enhancements for Solaris OS (UltraSPARC and x86/x64) and Linux platforms. The Fortran, C and C++ compilers from The Portland Group also support OpenMP 2.5. GCC has also supported OpenMP since version 4.2.
+A few compilers have early implementation for OpenMP 3.0, including
+
+Pros

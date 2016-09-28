@@ -1,0 +1,16 @@
+WiTricity
+WiTricity, a portmanteau for wireless electricity, is a term which describes wireless energy transfer, the ability to provide electrical energy to remote objects without wires. Though the concept has been discussed for some time (and was first demonstrated by Nikola Tesla in 1893), the term WiTricity was coined in 2005 by Dave Gerding and later used for a project led by Prof. Marin Soljačić in 2007.[1][2]
+
+
+WiTricity is based on strong coupling between electromagnetic resonant objects to transfer energy wirelessly between them. The system consists of transmitters and receivers that contain magnetic loop antennas critically tuned to the same frequency. Due to operating in the electromagnetic near-field, the receiving devices must be no more than about a quarter wavelength from the transmitter (which is a few meters at the frequency used by the example system). In their first paper, the group also simulated GHz dielectric resonators.
+Unlike the far field wireless power transmission systems based on traveling EM waves, WiTricity employs near field inductive coupling through magnetic fields,[clarification needed] which interact far more weakly with surrounding objects, including biological tissue. In particular, it is based on using 'strongly-coupled' resonances to achieve a high power-transmission efficiency. Aristeidis Karalis, referring to the team's experimental demonstration, says that "the usual non-resonant magnetic induction would be almost 1 million times less efficient in this particular system".[2] The researchers suggest that the exposure levels will be below the threshold for FCC safety regulations, and the radiated-power levels will also comply with the FCC radio interference regulations.
+It is not known exactly why this technology had not been developed. Researchers attribute it to various reasons ranging from the limitations of well-known physical laws, to simply a lack of need. Only recently have modern consumers obtained a high number of portable electronic devices which currently require batteries and plug-in chargers.[2]
+
+The MIT researchers successfully demonstrated the ability to power a 60-watt light bulb wirelessly, using two copper coils of 60�cm (24in) diameter that were 2m (7ft) away, at roughly 45% efficiency.[3] The coils were designed to resonate together at 10MHz and were oriented along the same axis. One was connected inductively to a power source, and the other one to a bulb. The setup powered the bulb on, even when the direct line of sight was blocked using a wooden panel.
+
+This technology can potentially be used in a large variety of applications, including consumer, industrial, medical and military. Its aim is to reduce our dependence on batteries.
+Further applications for this technology include transmission of information — it would not interfere with radio waves and thus could be used as a cheap and efficient communication device without requiring a license or a government permit.
+
+
+
+

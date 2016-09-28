@@ -1,0 +1,10 @@
+Promiscuous mode
+In computing, promiscuous mode or promisc mode is a configuration of a network card that makes the card pass all traffic it receives to the central processing unit rather than just packets addressed to it — a feature normally used for packet sniffing.
+Each packet includes the hardware (Media Access Control) address. When a network card receives a packet, it normally drops it unless the packet is addressed to that card. In promiscuous mode, however, the card allows all packets through, thus allowing the computer to read packets intended for other machines or network devices.
+Many operating systems require superuser privileges to enable promiscuous mode. A non-routing node in promiscuous mode can generally only monitor traffic to and from other nodes within the same collision domain (for Ethernet and Wireless LAN) or ring (for Token ring or FDDI). Computers attached to the same network hub satisfy this requirement, which is why network switches are used to combat malicious use of promiscuous mode. A router may monitor all traffic that it routes.
+Promiscuous mode is often used to diagnose network connectivity issues. There are programs that make use of this feature to show the user all the data being transferred over the network. Some protocols like FTP and Telnet transfer data and passwords in clear text, without encryption, and network scanners can see this data. Therefore, computer users are encouraged to stay away from insecure protocols like telnet and use more secure ones such as SSH.
+
+As promiscuous mode can be used in a malicious way to sniff on a network, one might be interested in detecting network devices that are in promiscuous mode. There are basically two methods to do this:
+Promiscuous mode is heavily used by malicious applications which initially do the root compromise and then start doing ARP spoofing along with IP spoofing. To do ARP spoofing, the NIC must be kept in promiscuous mode. Hence detecting machines in promiscuous mode with no valid reason is an important issue in order to deal with ARP spoofing.
+
+

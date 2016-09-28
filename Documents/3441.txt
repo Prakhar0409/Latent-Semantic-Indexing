@@ -1,0 +1,22 @@
+Sun SPOT
+Sun SPOT (Sun Small Programmable Object Technology) is a wireless sensor network (WSN) mote (an electronic communication device meant to be the size of a particle of dust) developed by Sun Microsystems. The device is built upon the IEEE 802.15.4 standard. Unlike other available mote systems, the Sun SPOT is built on the Squawk Java Virtual Machine.
+
+The completely assembled device should be able to fit in the palm of your hand.
+
+
+
+
+The motes communicate using the IEEE 802.15.4 standard including the base-station approach to sensor networking. The SPOT supports the IEEE 802.15.4 MAC layer, on top of which e.g. Zigbee can be built.
+
+Sun Labs has reported highly optimized implementations of RSA and Elliptic Curve Cryptography (ECC) that can be used on small embedded devices.
+
+The device's use of Java device drivers is particularly remarkable as Java is known for its ability to be hardware-independent. Sun SPOT uses a small J2ME (Squawk [1]) which runs directly on the processor without an OS. Both the Squawk VM and the Sun SPOT code are open source [2]
+
+Standard Java IDEs (e.g. NetBeans) can be used to create SunSPOT applications.
+The management and deployment of application will be through "SPOTWorld".
+
+The first limited-production run of Sun SPOT development kits were released April 2, 2007, after months of delays. This introduction kit includes two Sun SPOT demo sensor boards, a Sun SPOT base station, the software development tools, and a USB cable. The software is compatible with Windows XP, Mac OS X 10.4, and most common Linux distributions. It is unknown if any ZigBee-compliant stack code has been made available but on the CD some demo codes are provided.
+The entire project, hardware, operating environment, Java virtual machine, drivers and applications, is available as open source. [1]
+
+
+

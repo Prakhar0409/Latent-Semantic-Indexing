@@ -1,0 +1,18 @@
+Chinese measure word
+In the modern Chinese languages, measure words or classifiers (traditional Chinese: 量詞; simplified Chinese: 量词; pinyin: liàngcí; Cantonese (Yale): leung4 chi4) are used along with numerals to define the quantity of a given object or objects, or with "this"/"that" to identify specific objects.
+In Chinese, a simple numeral cannot quantify a noun by itself; instead, the language relies on what are known as measure words or, to a lesser extent, classifiers. There are two types of such classifiers, nominal and verbal, with the latter being used in quantifying verbs and the amount of time which they take precedence. English also has its share of classifiers, however these are generally understood to be extraneous and ultimately construe the object in question with greater detail. As an example, in the English phrase "a stretch of sand", the word "stretch" is needed to disambiguate whether the sand is actually one grain or an entire beach's worth. Therefore, "stretch" serves to further specify the quantity of sand. We can also speak of "a bucketful of sand", "a grain of sand" or "a ton of sand". Other examples are the word "slice" as in "a slice of bread" and "glass" as in "a glass of water". Contrast these phrases with "a sand", "a bread", and "a water".
+It should be noted that the usage of measure words in Chinese is strictly mandatory, that is, they must be used so long as a quantifying numeral or a pronoun is present (a definite article like English "the" does not exist as such in Chinese). In contrast with the English language wherein "a flock of birds" is roughly equivalent to "some birds", in Chinese only "一群鳥" (一群鸟) is possible. Likewise, "a bird" should be translated into "一隻鳥" (一只鸟); it is as though English speakers were forced to say "an instance of bird".
+Usage also depends on personal preference and dialects. For example, some people use 三部車; (三部车) and others use 三台車 (三台车) to mean three cars. Still others use 三輛車 (三辆车) or in Cantonese 三架車 (三架车), with all of these measure words serving the same purpose.
+Some measure words are true units, which all languages must have in order to measure things, e.g. kilometres. These are displayed first, then other nominal classifiers, and finally verbal classifiers.
+In the following tables, the first column contains the traditional version of the classifier's character, the second contains the simplified version where it differs, the third contains the pronunciation given in Hanyu Pinyin, the fourth contains the pronunciation given in Cantonese romanization (Yale), and the fifth explains the word's principal uses. Quotation marks surround the literal meaning of the measure word.
+
+
+Column key:
+British inch
+
+Column key: Trad. is Traditional, Simp. shows changes made for the simplified variant (if any).
+
+Column key: Trad. is Traditional, Simp. shows changes made for the simplified variant (if any).
+
+In modern colloquial speech of certain Chinese dialects, 俩 (liǎ) is sometimes used instead of 两个 (liǎng ge), thereby assuming the identity of a measure word meaning "two of (such and such)". The same holds true for 仨 (sā), three (items of a general nature).
+

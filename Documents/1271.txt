@@ -1,0 +1,82 @@
+Day count convention
+In finance, a day count convention determines how interest accrues over time for a variety of investments, including bonds, notes, loans, medium-term notes, swaps, and FRAs. This includes the amount transferred on interest payment dates, but also the calculation of accrued interest for dates between payments. When a security such as a bond is sold between interest payment dates, the seller is eligible to some fraction of the coupon amount.
+It is used in many other formulae in financial mathematics as well.
+
+The need for day count conventions is a direct consequence of interest-earning investments. Different conventions were developed to address often conflicting requirements, including ease of calculation, constancy of time period (day, month, or year) and the needs of the Accounting department. This development occurred long before the advent of computers.
+There is no central authority defining day count conventions, so there is no standard terminology. Certain terms, such as "30/360", "Actual/Actual", and "money market basis" must be understood in the context of the particular market.
+The conventions have evolved, and this is particularly true since the mid-1990s. Part of it has simply been providing for additional cases [1] or clarification. [2]
+There has also been a move towards convergence in the marketplace, which has resulted in the number of conventions in use being reduced. Much of this has been driven by the introduction of the euro. [3]
+
+For all conventions, the Interest is calculated as:
+
+All conventions of this class calculate the Factor as:
+They calculate the CouponFactor as:
+This is the same as the Factor calculation, with Date2 replaced by Date3. In the case that it is a regular coupon period, this is equivalent to:
+The conventions are distinguished by the manner in which they adjust Date1 and/or Date2 for the end of the month. Each convention has a set of rules directing the adjustments.
+Treating a month as 30 days and a year as 360 days was devised for its ease of calculation by hand compared with manually calculating the actual days between two dates. Also, because 360 is highly factorable, payment frequencies of semi-annual and quarterly and monthly will be 180, 90, and 30 days of a 360 day year, meaning the payment amount will not change between payment periods.
+
+Date adjustment rules:
+This convention is used for US corporate bonds and many US agency issues. It is most commonly referred to as "30/360", but the term "30/360" may also refer to any of the other conventions of this class, depending on the context.
+Other names:
+Sources:
+
+Date adjustment rules:
+Other names:
+Sources:
+
+Date adjustment rules:
+Other names:
+Sources:
+
+Date adjustment rules:
+Sources:
+
+The conventions of this class calculate the number of days between two dates (e.g., between Date1 and Date2) as the Julian difference. This is the function Days(StartDate, EndDate).
+The conventions are distinguished primarily by the amount of the CouponRate they assign to each day of the accrual period.
+
+Formulas:
+For regular coupon periods:
+For irregular coupon periods, the period has to be divided into one or more quasi-coupon periods (also called notional periods) that match the normal frequency of payment dates. The interest in each such period (or partial period) is then computed, and then the amounts are summed over the number of quasi-coupon periods. For details, see (Mayle 1993) or the SWX references (Accrued Interest Calculator and Accrued Interest & Yield Calculations and Determination of Holiday Calendars).
+This method insures that all coupon payments are always for the same amount.
+It also insures that all days in a coupon period are valued equally. However, the coupon periods themselves may be of different lengths; in the case of semi-annual payment on a 365 day year, one period can be 182 days and the other 183 days. In that case, all the days in one period will be valued 1/182nd of the payment amount and all the days in the other period will be valued 1/183rd of the payment amount.
+This is the convention used for US Treasury bonds and notes, among other securities.
+Other names:
+Sources:
+
+Formulas:
+This convention accounts for days in the period based on the portion in a leap year and the portion in a non-leap year. The days in the numerators are calculated on a Julian day difference basis. In this convention the first day of the period is included and the last day is excluded.
+The CouponFactor uses the same formula, replacing Date2 by Date3. In general, coupon payments will vary from period to period, due to the differing number of days in the periods. The formula applies to both regular and irregular coupon periods.
+Other names:
+Sources:
+
+Formulas:
+Each month is treated normally and the year is assumed to be 365 days. For example, in a period from February 1, 2005 to April 1, 2005, the Factor is considered to be 59 days divided by 365.
+The CouponFactor uses the same formula, replacing Date2 by Date3. In general, coupon payments will vary from period to period, due to the differing number of days in the periods. The formula applies to both regular and irregular coupon periods.
+Other names:
+Sources:
+
+Formulas:
+This convention is used in money markets for short-term lending of currencies, including the US dollar and Euro, and is applied in ESCB monetary policy operations. It is the convention used with Repurchase agreements. Each month is treated normally and the year is assumed to be 360 days. For example, in a period from February 1, 2005 to April 1, 2005, the Factor is 59 days divided by 360 days.
+The CouponFactor uses the same formula, replacing Date2 by Date3. In general, coupon payments will vary from period to period, due to the differing number of days in the periods. The formula applies to both regular and irregular coupon periods.
+Other names:
+Sources:
+
+Formulas:
+This convention requires a set of rules in order to determine the days in the year (DiY).
+The CouponFactor uses the same formula, replacing Date2 by Date3. In general, coupon payments will vary from period to period, due to the differing number of days in the periods. The formula applies to both regular and irregular coupon periods.
+Other names:
+Sources:
+
+Formulas:
+“Actual/Actual AFB/FBF Master Agreement” has the DiY equal to 365 (if the calculation period does not contain 29th February) or 366 (if 29 February falls within the Calculation Period or Compounding Period). If the Calculation Period or Compounding Period is a term of more than one year, the basis shall be calculated as follows:
+When counting backwards for this purpose, if the last day of the relevant period is 28th February, the full year should be counted back to the previous 28th February unless 29th February exists, in which case, 29th February should be used.
+Sources:
+
+
+The 30/360 methods assume every month has 30 days and each year has 360 days. The 30/360 calculation is listed on standard loan constant charts and is typically used by a calculator or computer in determining mortgage payments.
+The Actual/360 method calls for the borrower to pay interest for the actual number of days in a month. This effectively means that the borrower is paying interest for 5 or 6 additional days a year as compared to the 30/360 day count convention. Spreads and rates on Actual/360 transactions are typically lower, e.g., 9 basis points. Since monthly loan payments are the same for both methods and since the investor is being paid for an additional 5 or 6 days of interest with the Actual/360 year base, the loan’s principal is reduced at a slightly lower rate. This leaves the loan balance 1-2% higher than a 30/360 10-year loan with the same payment.
+
+Date rolling (business date) conventions are a common practice to adjust non-business days into business days.
+
+
+

@@ -1,0 +1,44 @@
+Product life cycle management
+Product Life Cycle Management is the succession of strategies used by management as a product goes through its product life cycle. The conditions in which a product is sold changes over time and must be managed as it moves through its succession of stages.
+
+The product life cycle goes through many phases, involves many professional disciplines, and requires many skills, tools and processes. Product life cycle (PLC) has to do with the life of a product in the market with respect to business/commercial costs and sales measures; whereas product lifecycle management (PLM) has more to do with managing descriptions and properties of a product through its development and useful life, mainly from a business/engineering point of view. To say that a product has a life cycle is to assert four things: 1) that products have a limited life, 2) product sales pass through distinct stages, each posing different challenges, opportunities, and problems to the seller, 3) profits rise and fall at different stages of product life cycle, and 4) products require different marketing, financial, manufacturing, purchasing, and human resource strategies in each life cycle stage.
+The different stages in a product life cycle are:
+1.Market introduction stage
+I:* costs are high
+II:* slow sales volumes to start
+III:* little or no competition - competitive manufacturers watch for acceptance/segment growth losses
+IV:* demand has to be created
+V:* customers have to be prompted to try the product
+2.Growth stage
+I:* costs reduced due to economies of scale
+II:* sales volume increases significantly
+III:* profitability begins to rise
+IV:* public awareness increases
+V:* competition begins to increase with a few new players in establishing market
+VI:* increased competition leads to price decreases
+3.Mature stage
+I:* Costs are lowered as a result of production volumes increasing and experience curve effects
+II:* sales volume peaks and market saturation is reached
+III:* increase in competitors entering the market
+IV:* prices tend to drop due to the proliferation of competing products
+V:* brand differentiation and feature diversification is emphasized to maintain or increase market share
+VI:* Industrial profits go down
+4.Saturation and decline stage
+I:* costs become counter-optimal
+II:* sales volume decline or stabilize
+III:* prices, profitability diminish
+IV:* profit becomes more a challenge of production/distribution efficiency than increased sales
+
+
+A "micro-market" can be used to describe a Walkman, more portable, as well as individually and privately recordable; and then Compact Discs ("CDs") brought increased capacity and CD-R offered individual private recording...and so the process goes. The below section on the "technology lifecycle" is a most appropriate concept in this context.[clarification needed] Most of the context is not in English so you may need a translator.[clarification needed]
+In short, termination is not always the end of the cycle; it can be the end of a micro-entrant within the grander scope of a macro-environment. The auto industry, fast-food industry, petro-chemical industry, are just a few that demonstrate a macro-environment that overall has not terminated even while micro-entrants over time have come and gone.
+
+It is claimed that every product has a life cycle. It is launched, it grows, and at some point, may die. A fair comment is that - at least in the short term - not all products or services die. Jeans may die, but clothes probably will not. Legal services or medical services may die, but depending on the social and political climate, probably will not.
+Even though its validity is questionable, it can offer a useful 'model' for managers to keep at the back of their mind. Indeed, if their products are in the introductory or growth phases, or in that of decline, it perhaps should be at the front of their mind; for the predominant features of these phases may be those revolving around such life and death. Between these two extremes, it is salutary for them to have that vision of mortality in front of them.
+However, the most important aspect of product life-cycles is that, even under normal conditions, to all practical intents and purposes they often do not exist (hence, there needs to be more emphasis on model/reality mappings). In most markets the majority of the major brands have held their position for at least two decades. The dominant product life-cycle, that of the brand leaders which almost monopolize many markets, is therefore one of continuity.
+In the criticism of the product life cycle, Dhalla & Yuspeh state:
+...clearly, the PLC is a dependent variable which is determined by market actions; it is not an independent variable to which companies should adapt their marketing programs. Marketing management itself can alter the shape and duration of a brand's life cycle.[1]
+Thus, the life cycle may be useful as a description, but not as a predictor; and usually should be firmly under the control of the marketer. The important point is that in many markets the product or brand life cycle is significantly longer than the planning cycle of the organisations involved. Thus, it offers little practical value for most marketers. Even if the PLC (and the related PLM support) exists for them, their plans will be based just upon that piece of the curve where they currently reside (most probably in the 'mature' stage); and their view of that part of it will almost certainly be 'linear' (and limited), and will not encompass the whole range from growth to decline.
+
+
+

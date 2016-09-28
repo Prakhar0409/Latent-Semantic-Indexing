@@ -1,0 +1,43 @@
+Rules of Go
+Game specifics
+History & Culture
+Players & Organisations
+Computers & Mathematics
+This is an in-depth discussion of the rules of go.
+There has been a certain amount of variation in the rules of go over time, and from place to place. This article discusses those sets of rules broadly similar to the ones currently in use in East Asia. (Traditional Himalayan variants, including Tibetan go, differ more markedly and are discussed instead in the article Go variants.) Even among these, there is a degree of variation.
+Notably, Chinese and Japanese rules differ in a number of respects. The most significant of these is the scoring method, together with attendant differences in the manner of ending the game.[1]
+While differences between sets of rules may have moderate strategic consequences on occasion, they do not change the character of the game. The different sets of rules usually lead to the same game result,[2] so long as the players make minor adjustments near the end of the game.
+This article first presents a simple set of rules which are, except for wording, identical to those usually referred to as the Tromp-Taylor Rules,[3] themselves close in most essential respects to the Chinese rules. These rules are then discussed at length, in a way that does not assume prior knowledge of go on the part of the reader. The discussion is for the most part applicable to all sets of rules, with exceptions noted. Later sections of the article address major areas of variation in the rules of go, and individual sets of rules.
+
+A set of rules suitable for beginners is presented here. In some respects, these differ from the rules most commonly used. However, the basic rules are simply stated, and provide a convenient basis on which to discuss differences in rule sets. The rules are studied more fully in #Explanation of the basic rules below.
+Two statements of the same basic rules, differing only in wording, are given here. The first is a concise one due to James Davies. The second is a formulation of the basic rules used for expository purposes in this article.
+Except for terminology, the basic rules are identical to the Logical Rules first proposed in their current form in September 1996 by John Tromp and Bill Taylor.[4][5] They are also quite close to the Simplified Ing Rules of the European Go Federation, the only exception being the method of ending the game.
+
+These rules appear in "The Rules and Elements of Go" by James Davies.[6] They assume familiarity with the equipment used to play go, for which one may refer to Elements of the game below.
+Notes: The words move and territory are used differently here than elsewhere in this article; play and area, respectively, are used instead. A clarification to Rule 5 is added in parentheses.
+These rules rely on common sense to make notions such as "connected group" and "surround" precise. What is here called a "solidly connected group of stones" is also called a chain.
+
+The basic rules are here formulated in a more detailed way in order to ease their presentation in the section #Explanation of the basic rules below. (Each rule and definition links to a detailed explanation in that section.)
+An optional rule prohibiting suicide is included as Rule 7A.
+Players and equipment
+Positions
+Play
+End
+
+The essential features of these basic rules relative to other rule sets are summarized here. Each of the differences is discussed in greater detail in a later section of the article.
+What variation exists among rule sets concerns primarily Rules 7A, 8, 9 and 10.
+
+The object of the game of go is, in rough terms, to control more territory at the end of the game than one's opponent does.
+
+
+Rule 1. Go is a game between two players, called Black and White.
+The choice of black or white is traditionally done by chance between players of even strength. The method of selection is called nigiri. One player, let's call him/her Player A, takes a handful of stones; Player B then places either one or two stones on the board, indicating "even" or "odd." Player A counts the number stones in his/her hand to determine whether there is an odd or even number. If the number stones matches the other player's selection of "even" or "odd," Player A will play the black stones; if not, he/she will take the white stones.
+When players are of different strengths, the weaker player takes black. Black may also pre-place several handicap stones before play begins, to compensate for the difference in strength (see below).
+
+Rule 2. Go is played on a plane grid of 19 horizontal and 19 vertical lines, called a board.
+Definition: A point on the board where a horizontal line meets a vertical line is called an intersection. Two intersections are said to be adjacent if they are distinct and connected by a horizontal or vertical line with no other intersections between them.
+The condition that the intersections be "distinct" is included to ensure that an intersection is not considered to be adjacent to itself.
+Intersections are also called points.
+There are 361 points on a regular 19 × 19 board.
+For simplicity, we will illustrate the rules mostly using 5 × 5 boards.
+Each of the following diagrams shows two points on a 5 × 5 board:

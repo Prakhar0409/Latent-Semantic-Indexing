@@ -1,0 +1,12 @@
+Short message service center
+A Short Message Service Center (SMSC) is a network element in the mobile telephone network which delivers SMS messages.
+
+When a user sends a text message (SMS message) to another user, the message gets stored in the SMSC which delivers it to the destination user when they are available. This is a store and forward option.
+
+Some notable SMSC vendors include
+
+As SMSCs have been around about 10-15 years, many telcos want to integrate messaging infrastructures to IP networks that are designed to carry messaging traffic. [1] Also, mobile operators are looking to reduce costs and improve their networks' quality in order to maintain customer satisfaction and reduce churn. As a result, mobile messaging infrastructure companies including Airwide Solutions and Comverse Technology are providing platforms that will have more efficient messaging delivery and capacity services with SMS routers that some SMSCs were unsuitable to deliver including group distribution lists, copying, forwarding and archiving messages, and extras, such as antispam functionality. [2]
+
+Some of the widely recognized solutions that have been implemented through SMSCs are applications such as tele-voting and sports alerts. Tele-voting has been most popularly linked with American Idol and similar competitions around the world. American Idol, as one example, has seen more than sixty million votes cast via SMS[citation needed]. As it becomes increasingly popular, so has the demand from mobile operators for more SMSCs and efficient delivery during peak traffic periods has been a growing concern for mobile operators and their infrastructure providers. Often, operators are not purchasing SMSCs large enough to handle the amounts of traffic that arrive in such a limited amount of time. In fact, on June 9, 2007, riots broke out in Calcutta, India as a result of SMS text votes failing to be counted in the "Indian Idol" competition, thus taking the title from what the rioters believed to be the winner.[3] The director of the Asia-Pacific region at Airwide Solutions, discussing the issue of dealing with peak usage versus 'baseline' usage, claimed that operators who can handle, for example, up to 10,000 messages per second at peak times would buy SMSCs costing about $10 million, but for large periods of time, usage will never be near that peak and sit unutilized, prompting many smaller operators to see purchasing a smaller capacity SMSC as a cost-saving measure.
+
+

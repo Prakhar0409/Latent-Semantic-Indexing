@@ -1,0 +1,20 @@
+Web Proxy Autodiscovery Protocol
+The Web Proxy Autodiscovery Protocol (WPAD) is a method used by clients to locate a proxy auto-config file automatically and use this to configure the browser's web proxy settings.
+WPAD was created by Microsoft and first included with Internet Explorer 5.0; this implementation is commonly referred to by the name "Autoproxy".[1] It was submitted to the IETF for standardization in 1999,[2] but the draft expired and no standardization activity has occurred since. Nevertheless, Internet Explorer and other major browsers such as Mozilla Firefox retain this functionality.
+
+In order for all browsers in an organization to be supplied the same proxy policy, without configuring each browser manually, both the below technologies are required:
+The WPAD standard defines two alternative methods the system administrator can use to publish the location of the proxy configuration file, using the Dynamic Host Configuration Protocol (DHCP) or the Domain Name System (DNS):
+Before fetching its first page, a web browser implementing this method sends the local DHCP server a DHCPINFORM query, and uses the URL from the WPAD option in the server's reply. If the DHCP server does not provide the desired information, DNS is used. If, for example, the network name of the user's computer is pc.department.branch.example.com, the browser will try the following URLs in turn until it finds a proxy configuration file within the domain of the client:
+(Note: These are examples and may not be live URLs.)
+
+DNS lookup removes the first part of the domain name (presumably the client identifier) and replaces it with wpad. Then, it "moves up" in the hierarchy by removing more parts of the domain name, until it finds a WPAD PAC file or leaves the current organisation.
+
+In order for WPAD to work, a few requirements have to be met:
+
+While greatly simplifying configuration of one organisation's web browsers, the WPAD protocol has to be used with care: simple mistakes can open doors for attackers to change what appears on a users browser:
+Through the WPAD file, the attacker can point users browsers to their own proxies and intercept and modify all of WWW traffic. Although a simplistic fix for Windows WPAD handling was applied in 2005, it only fixed the problem for the .com domain. A presentation at Kiwicon showed that the rest of the world was still critically vulnerable to this security hole, with a sample domain registered in New Zealand for testing purposes receiving proxy requests from all over the country at the rate of several a second.
+Thus, an administration should make sure that a user can trust all the DHCP servers in an organisation and that all possible wpad domains for the organisation are under control. Furthermore, if there's no wpad domain configured for an organisation, a user will go to whatever external location has the next wpad site in the domain hierarchy and use that for its configuration. This allows whoever registers the wpad subdomain in a particular country to perform a man-in-the-middle attack on large portions of that country's internet traffic by setting themselves as a proxy for all traffic or sites of interest.
+On top of these traps, the WPAD method fetches a JavaScript file and executes it on all users browsers, even when they have disabled JavaScript for viewing web pages.
+
+
+

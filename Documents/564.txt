@@ -1,0 +1,58 @@
+Pentax K mount
+The Pentax K mount, sometimes referred to as the "PK mount", is a lens mount standard for mounting interchangeable photographic lenses to 35 mm single-lens reflex (SLR) cameras. It was created by Pentax in 1975,[1] and has been used by all Pentax 35 mm and digital SLRs since. A number of other manufacturers have also produced many K-mount lenses and K-mount cameras.
+
+The Pentax K mount has undergone a number of evolutions over the years as new functionality has been added. In general, the term K mount may refer to the original K mount, or to all its variations.
+
+The original K mount is a simple bayonet connection with three tabs. It was introduced with the K series of cameras. The lens is locked into the camera with an approx. 70Â° clockwise turn (when looking at the front of the camera).
+The only linkage with the camera is mechanical and involves the aperture. A slot between two of the bayonet tabs on the lens allows the stop-down coupler from the camera to sense the aperture setting on the lens and adjust the light meter display accordingly. Opposite this is the diaphragm release from the lens which extends into the camera body and holds open the spring loaded diaphragm of the lens. When setting up a shot this keeps the diaphragm fully open. When the shutter is released, so is this lever. It allows the diaphragm to close to the desired setting while the film is being exposed, and opens it again after the shutter closes.
+Both of these linkages are of course arranged so that they are aligned and spring-loaded by the act of inserting the lens and turning it until it locks.
+Bodies equipped with the original K mount include the K series, the M series except the ME F, and the LX. Lenses that support it include those labelled 'SMC Pentax' and 'SMC Pentax-M'. These K mount bodies cannot use lenses that lack an aperture ring, such as FAJ or DA.
+K-mount lenses can be used on all Pentax bodies, but can only be used in stopped down mode with "crippled" KAF mount bodies (see below).
+
+The KF mount was Pentax's first attempt at an autofocus system. This autofocus system used sensors in the camera body and a motor in the lens. The two were connected via five new electrical contacts on the bayonet mount itself. One permitted the lens to turn on the camera's metering and focus sensors, two focused the lens (towards and away from infinity) and two appear to have been unused and may have been reserved for future functionality.
+The KF mount was largely a failure. Only one camera and one lens ever used this mount, the Pentax ME F and SMC Pentax-AF 35-70/2.8. The lens was somewhat large and cumbersome[1] since it had to enclose both the focusing motor (with gears) and batteries to power it. KF and the ME-F are similar in many ways to the system used by Canon in the ill fated Canon T80, introduced several years later.
+The ME F can use all Pentax K-mount lenses except for FAJ lenses, which lack an aperture ring. The 35-70 mm lens can be used on all other Pentax K-mount bodies in manual focus mode, but it must be used stopped down on "crippled" KAF bodies.
+
+The KA mount is derived from the original K mount. It allows the lens' aperture to be set by the body, and thus permits shutter priority and program auto exposure modes. It was introduced in 1983, and is supported by A-series and P-series bodies; Pentax lenses that support it are marked 'SMC Pentax-A'. It is completely backward-compatible with the original K mount.
+The aperture on the lens is set from the body by the same stop-down lever found on the original K mount, but on KA lenses this lever is proportional to the area of the aperture opening, rather than the diameter as on previous lenses. This allows the body to easily set a specific aperture, since the relationship to F stops is linear. The lenses add an 'A' setting on the aperture dial, which gives the body control of the aperture. Other, numeric settings are used for manual aperture modesâ€”aperture priority and full manual mode.
+Six electrical contacts are added to the bayonet ring. One is slightly recessed and allows the lens to indicate whether the aperture ring is set at 'A' or not. If it is, a pin on the lens extends slightly and makes contact, while if the lens is at any other setting the pin is retracted and does not make contact. The other five contacts are used to encode the lens' aperture range. Each contact on the lens is either conducting or non-conducting, providing a binary 1 or 0, respectively. Two contacts encode the lens' minimum apertureâ€”f/16, f/22, f/32 or f/45; although no Pentax K-mount lens has ever had an f/16 minimum aperture, OEM lenses often have. The other three contacts encode the lens' maximum aperture; their meaning is dependent on the minimum aperture indicated by the lens.
+
+The KAF mount was Pentax's second and much improved attempt at adding auto-focus to lenses. It adds a small drive shaft to the KA mount, allowing the body to adjust the focus of the lens. This makes the lenses less bulky than the earlier KF mount, which had both a motor and batteries inside the lens.
+It also adds a seventh electrical contact, this one carrying digital information from the lens to the camera. It carries the following information: focal length, distance to the subject, exact absolute f-stop value, and lens size. This information is used to make better exposure decisions, along with the multi-segmented metering that was introduced in cameras using the KAF mount.
+
+The KAF2 mount is the same as the KAF mount except that it adds two extra contacts to the inside of the mounting ring for power zooming, and transmits modulation transfer function (MTF) data through the digital seventh contact. On the K10D digital SLR model (and later models like K100D Super, K20D and K200D) the two power contacts can also power Supersonic Drive Motor lenses.
+
+The KA2 is identical to KAF, but lacks the autofocus drive shaft. Another way of looking at it is that it adds the seventh contact for digital information to the KA mount.
+
+The "crippled" KAF mount is used on the MZ-30/ZX-30, MZ-50/ZX-50, MZ-60/ZX-60, the *ist series and the K100D/K110D. The only difference between the regular KAF mount and the crippled version is the removal of the mechanical stop-down coupler/indicator. The result is that most of these bodies can only correctly use lenses which have an "A" setting on the aperture ring or "crippled" KAF lenses. With a K/M (also known as "pre-A") lens, the body cannot tell what aperture the lens is set to with the "crippled" mount. The *ist series and K series digital cameras have a work-around which allows K/M lenses to be used in full manual exposure mode by simply pressing the AE-Lock button to stop down the lens and take a meter reading. The onbody flash only fires at full power, making it difficult with pre-A lenses (a Flash Guide Number calculation is required). This lens mount includes DA and FA-J series lenses.
+
+The "crippled" KAF2 mount is found on Pentax DSLRs released beginning with the K10D/K100D Super. It supports the extra features of the KAF2 mount including the two power contacts for the lens. Power zoom is supported (not full support and only in K10D), as well as lenses with focus motors. Such lenses support Supersonic Drive Motor (SDM), allowing for quieter autofocus. Like the "crippled" KAF mount, it does not have a mechanical stop-down coupler/indicator and thus can only use stop-down metering on pre-A lenses.
+
+The R-K mount is a variation on the original K mount by Ricoh. It supports Ricoh's own implementation of shutter priority and auto exposure modes, similar to the KA mount but much simpler. The only addition to the original K mount is a small pin at the bottom which tells the body when the aperture ring has been set to the "P" setting (similar to the "A" setting on Pentax KA lenses).
+The R-K mount is used on Rikenon P lenses, Ricoh bodies that include the letter 'P' in their model number, and some non-Ricoh lenses. It is compatible with all other K-mount cameras and lenses when in manual or aperture-priority exposure modes, however the extra pin needs to be removed for safe use on autofocus Pentax cameras.
+
+
+Pentax supplies adaptors to fit M42 screw-mount lenses, as do several third-party manufacturers. The M42 screw-mount system was used by Pentax prior to the introduction of the K mount, and many old M42 lenses have a modern-day cult reputation, including the Pentax Takumar range. Some manufacturers, including Carl Zeiss AG, still make lenses in the M42 mount. Pentax cameras have the right focal distant to accept old M42 lenses without optical correction, a property shared with digital SLRs made by Canon, Olympus, Sony, Sigma, and other companies, but significantly not Nikon.
+
+Optically corrected adapter to use Nikon AIS AI lenses on k-mount.
+
+Adapter for Voigtlander Bessamatic Retina lenses, Voigtlander Bessamatic, Voigtlander Ultramatic, Kodak Retina SLR, or Kodak iiis lenses.
+
+There is also some Petri adapter to k mount but those do not allow to focus to infinity due to the different flange-to-film-plane distance.
+
+Pentax made adapters for its medium-format lenses to use on the k-mount, both the 645 and. 6x7, and for the Hasselblad Bayonet type. Also there is a Pentacon-Six (Kiev88 CM) adapter still in production and a Shift Adapter to use Pentacon lenses as shift lens.
+
+Mount for Telescopes and generic optics.
+
+
+Manual focus
+Auto focus
+A lot of Sears cameras were made by Ricoh and use the Pentax K mount. Some are simply rebadged Ricoh models, while others are quite different.
+
+
+
+Angenieux is the best lens manufacturer in France, it is mainly known for its movie equipment than for photographic lenses, but it has built some of the best optics for Leica, Nikon, Canon and a few k mount lenses. Their production is limited, but their quality is among the best.
+
+Beroflex seems to have been a German commercial firm of photographic lenses, not too much information is available yet but it looks like provided German designed lens made overseas by Japanese companies like Soligor.
+
+Carl Zeiss Jena history can be found on the article on Wikipedia for Zeiss, here is the list of the known lenses on k mount for it. Quality of the optics seem to be out of question, although some other dislike its plastic bodies. Made in the former German Democratic Republic its import into the US was forbidden, hence most of the used lenses come from Europe, Asia and Australia.

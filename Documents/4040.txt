@@ -1,0 +1,91 @@
+NX bit
+The NX bit, which stands for No eXecute, is a technology used in CPUs to segregate areas of memory for use by either storage of processor instructions (or code) or for storage of data, a feature normally only found in Harvard architecture processors. However, the NX bit is being increasingly used in conventional von Neumann architecture processors, for security reasons.
+An operating system with support for the NX bit may mark certain areas of memory as non-executable. The processor will then refuse to execute any code residing in these areas of memory. The general technique, known as executable space protection, is used to prevent certain types of malicious software from taking over computers by inserting their code into another program's data storage area and running their own code from within this section; this is known as a buffer overflow attack.
+Intel markets the feature as the XD bit, for eXecute Disable. AMD uses the name Enhanced Virus Protection.
+
+x86 processors, since the 80286, included a similar capability implemented at the segment level. However, current operating systems implementing the flat memory model, do not use this capability. Therefore, Intel introduced a fresh marketing ploy by providing NX, a mechanism that can control execution per page rather than per whole segment.
+The page-level mechanism has been around for years in various other processor architectures such as Sun's SPARC, Alpha, and IBM's PowerPC. Intel implemented a similar feature in its Itanium (Merced) processor—having IA-64 architecture—in 2001, but did not bring it to the more popular x86 processor families (Pentium, Celeron, Xeon, etc). In x86 architecture it was implemented by AMD, as NX bit, for use by its AMD64 line of processors, such as the Athlon 64 and Opteron. The term NX bit seems to have now become commonly used to generically describe similar technologies in other processors[citation needed].
+After AMD's decision to include this functionality in its AMD64 instruction set, Intel implemented a similar feature in x86 processors beginning with the Pentium 4 processors based on later iterations of the Prescott core.
+The NX bit specifically refers to bit number 63 (i.e. the most significant bit) of a 64-bit entry in the page table. If this bit is set to 0, then code can be executed from that page; if set to 1, code cannot be executed from that page, and anything residing there is assumed to be data. Also note that it is used only with Physical Address Extension (PAE) page table format, because the x86's original 32-bit page table format obviously has no bit 63.
+A similar functionality was introduced in the Burroughs 5000 in 1961, and retained in its successors at least through 2006. In its implementation of tagged architecture, each word of memory had an associated, hidden tag bit designating it code or data. Thus, user programs cannot write or even read a program word, and data words cannot be executed.
+
+Prior to the onset of this feature within the hardware, various operating systems attempted to emulate this feature through software, such as W^X or Exec Shield. They are described later in this article.
+An operating system with the ability to emulate and/or take advantage of an NX bit may prevent the stack and heap memory areas from being executable, and may prevent executable memory from being writable. This helps to prevent certain buffer overflow exploits from succeeding, particularly those that inject and execute code, such as the Sasser and Blaster worms. These attacks rely on some part of memory, usually the stack, to be both writable and executable; if it is not, the attack fails.
+
+Many operating systems implement or have an available NX policy, and some implement or have available NX emulation. Here is a list of such systems in alphabetical order, each with technologies ordered from newest to oldest.
+
+Initial PG_NX support first appeared in FreeBSD -CURRENT on June 8, 2004 and is a part of FreeBSD since 5.3 release.
+
+Linux kernel currently supports standard hardware NX on CPUs that support it, such as the current 64-bit CPUs of AMD, Intel, Transmeta and VIA.
+The support for this feature in the 64-bit mode on x86_64 CPUs was added in 2004 by Andi Kleen, and later the same year, Ingo Molnar added support for the NX bit in 32-bit mode on 64-bit CPUs. These features have been in the stable Linux kernel since release 2.6.8 in August 2004.
+The availability of the NX bit on 32-bit x86 kernels, which may run on both 32-bit x86 CPUs and 64-bit x86 compatible CPUs, is significant because a 32-bit x86 kernel would not normally expect the NX bit that an AMD64 or IA-64 supplies; the NX enabler patch assures that these kernels will attempt to use the NX bit if present.
+Some desktop Linux distributions such as Fedora Core 6, Ubuntu and openSUSE do not enable the HIGHMEM64 option, which is required to gain access to the NX bit in 32-bit mode, in their default kernel; this is because the PAE mode that is required to use the NX bit causes pre-Pentium Pro (including Pentium MMX) and Celeron M and Pentium M processors without NX support to fail to boot. Other processors that do not support PAE are AMD K6 and earlier, Transmeta Crusoe, VIA C3 and earlier, and Geode GX and LX. VMware versions older than 4.0, Parallels versions older than 4.0, and Microsoft Virtual PC and Virtual Server does not support PAE on the guest. Fedora Core 6 does provide a kernel-PAE package which supports PAE and NX though.
+Non-execute functionality has also been present for other non-x86 processors supporting this functionality for many releases.
+
+Red Hat kernel developer Ingo Molnar released a Linux kernel patch named Exec Shield to approximate and use NX functionality on 32-bit x86 CPUs.
+The Exec Shield patch was released to the Linux kernel mailing list on May 2, 2003. It was rejected for merging with the base kernel because it involved some intrusive changes to core code in order to handle the complex parts of the emulation trick.
+
+The PaX NX technology can emulate an NX bit or NX functionality, or use a hardware NX bit. PaX works on x86 CPUs that do not have the NX bit, such as 32-bit x86.
+The PaX project originated October 1, 2000. It was later ported to 2.6, and is at the time of this writing still in active development.
+The Linux kernel still does not ship with PaX (as of March, 2008); the patch must be merged manually.
+
+Mac OS X for Intel supports the NX bit and PAE on all CPUs supported by Apple (from 10.4.4 – the first Intel release – onwards).
+
+Starting with Windows XP Service Pack 2 and Windows Server 2003 Service Pack 1, the NX features were implemented for the first time on the x86 architecture.
+Microsoft Windows uses NX protection on critical Windows services exclusively by default. Under Windows XP or Server 2003, the feature is called Data Execution Prevention (abbreviated DEP), and it can be configured through the advanced tab of "System" properties. If the x86 processor supports this feature in hardware, then the NX features are turned on automatically in Windows XP/Server 2003 by default. If the feature is not supported by the x86 processor, then no protection is given.
+"Software DEP" is unrelated to the NX bit, and is what Microsoft calls their enforcement of Safe Structured Exception Handling. Software DEP/SafeSEH checks when an exception is thrown to make sure that the exception is registered in a function table for the application, and requires the program to be built with it.
+Early implementations of DEP provided no address space layout randomization (ASLR), which allowed potential return-to-libc attacks that could have been feasibly used to disable DEP during an attack. The PaX documentation elaborates on why ASLR is necessary; a proof-of-concept was produced detailing a method by which DEP could be circumvented in the absence of ASLR. It may be possible to develop a successful attack if the address of prepared data such as corrupted images or MP3s can be known by the attacker. Microsoft added ASLR functionality in Windows Vista and Windows Server 2008 to address this avenue of attack.
+Outside of the x86 sphere, a version of NX also exists for Intel's IA-64 which is implemented in Windows on that architecture.
+
+As of NetBSD 2.0 and later (December 9, 2004), architectures which support it have non-executable stack and heap.
+Those which have per-page granularity consist of: amd64, sparc64, sparc (sun4m, sun4d), powerpc (ibm4xx), alpha, sh5, hppa.
+Those which can only support these with region granularity are: powerpc (eg. macppc), i386.
+Other architectures do not benefit from non-executable stack or heap, NetBSD not by default using any software emulation to offer these features.
+
+
+A technology in the OpenBSD operating system, known as W^X, currently takes advantage of the NX bit in the AMD64 port. OpenBSD also supports W^X on some CPUs without an NX bit.
+W^X makes use of the NX bit on Alpha, AMD64, HPPA, and SPARC processors. Intel 64 processors may or may not be supported, depending on hardware[1]. Intel added the NX (called XD by Intel) support to its later chips.
+OpenBSD 3.3 shipped May 1, 2003, and was the first operating system to include W^X.
+
+Solaris has supported globally disabling stack execution on SPARC processors since Solaris 2.6 (1997); in Solaris 9 (2002), support for disabling stack execution on a per-executable basis was added.
+As of Solaris 10 (2005), NX protection is automatically enabled by default on x86 processors that support this feature. Exceptions are made for the 32-bit legacy ABI's treatment of a program's stack segment. The vast majority of programs will work without changes. However, if a program fails, the protection may be disabled via the enforce-prot-exec EEPROM option. Sun recommends that failures should be reported as program bugs.[citation needed]
+
+Here, features of the NX technologies will be compared and contrasted.
+Generally, NX bit emulation is available only on x86 CPUs. The sections within dealing with emulation are concerned only with x86 CPUs unless otherwise stated.
+While it has been proven that some NX bit emulation methods incur an extremely low overhead, it has also been proven that such methods can become inaccurate. On the other hand, other methods may incur an extremely high overhead and be absolutely accurate. No method has been discovered as of yet without a significant trade-off, whether in processing power, accuracy, or virtual memory space.
+
+Overhead is the amount of extra CPU processing power that is required for each technology to function. It is important because technologies which somehow emulate or supply an NX bit will usually impose a measurable overhead; while using a hardware supplied NX bit will impose no measurable overhead. All technologies create overhead due to the extra programming logic that must be created to control the state of the NX bit for various areas of memory; however, evaluation usually handled by the CPU itself when a hardware NX bit exists, and thus produces no overhead.
+On CPUs supplying a hardware NX bit, none of the listed technologies imposes any significant measurable overhead unless explicitly noted.
+
+Exec Shield's legacy CPU support approximates (Ingo Molnar's word for it) NX emulation by tracking the upper code segment limit. This imposes only a few cycles of overhead during context switches, which is for all intents and purposes immeasurable.
+
+PaX supplies two methods of NX bit emulation, called SEGMEXEC and PAGEEXEC.
+The SEGMEXEC method imposes a measurable but low overhead, typically less than 1%. This is a constant scalar incurred due to the virtual memory mirroring used. SEGMEXEC also has the effect of halving the task's virtual address space, allowing the task to access less memory than it normally could. This is not a problem until the task requires access to more than half the normal address space, which is rare. SEGMEXEC does not cause programs to use more system memory (i.e. RAM); it only restricts how much they can access. On 32-bit CPUs, this becomes 1.5 GiB rather than 3 GiB.
+PaX supplies a method similar to Exec Shield's approximation in the PAGEEXEC as a speedup; however, when higher memory is marked executable, this method loses its protections. In these cases, PaX falls back to the older, variable overhead method used by PAGEEXEC to protect pages below the CS limit, which may become a quite high overhead operation in certain memory access patterns.
+When the PAGEEXEC method is used on a CPU supplying a hardware NX bit, the hardware NX bit is used; no emulation is used, thus no significant overhead is incurred.
+
+Some technologies approximately emulate (or approximate) an NX bit on CPUs which do not support them. Others strictly emulate an NX bit for these CPUs, but decrease performance or virtual memory space significantly. Here, these methods will be compared for accuracy.
+All technologies listed here are 100% accurate in the presence of a hardware NX bit, unless otherwise stated.
+
+For legacy CPUs without an NX bit, Exec Shield fails to protect pages below the code segment limit; an mprotect() call to mark higher memory, such as the stack, executable will mark all memory below that limit executable as well. Thus, in these situations, Exec Shield's schemes fails. This is the cost of Exec Shield's low overhead (see above).
+
+SEGMEXEC does not rely on such volatile systems as that used in Exec Shield, and thus does not encounter conditions in which finegrained NX bit emulation cannot be enforced; it does, however, have the halving of virtual address space mentioned above.
+PAGEEXEC will fall back to the original PAGEEXEC method used before the speed-up when data pages exist below the upper code segment limit. In both cases, PaX' emulation remains 100% accurate; no pages will become executable unless the operating system explicitly makes them as such.
+It is also interesting to note that PaX supplies mprotect() restrictions to prevent programs from marking memory in ways which produce memory useful for a potential exploit. This policy causes certain applications to cease to function; but can be disabled for affected programs.
+
+Some technologies allow executable programs to be marked so that the operating system knows to relax the restrictions imposed by the NX technology for that particular program. Various systems provide various controls; such controls are described here.
+
+Exec Shield supplies executable markings. Exec Shield only checks for two ELF header markings, which dictate whether the stack or heap needs to be executable. These are called PT_GNU_STACK and PT_GNU_HEAP, respectively. Exec Shield allows these controls to be set for both binary executables and for libraries; if an executable loads a library requiring a given restriction relaxed, the executable will inherit that marking and have that restriction relaxed.
+
+PaX supplies fine-grained control over protections. It allows individual control over the following functions of the technology for each binary executable:
+See the PaX article for more details about these restrictions.
+PaX completely ignores both PT_GNU_STACK and PT_GNU_HEAP. There was a point in time when PaX had a configuration option to honor these settings; that option has henceforth been intentionally removed for security reasons, as it was deemed not useful. The same results of PT_GNU_STACK can normally be attained by disabling mprotect() restrictions, as the program will normally mprotect() the stack on load. This may not always be true; for situations where this fails, simply disabling both PAGEEXEC and SEGMEXEC will effectively remove all executable space restrictions, giving the task the same protections on its executable space as a non-PaX system.
+
+When NX is supported, it is enabled by default. Windows allows programs to control which pages disallow execution through its API as well as through the section headers in a PE file.
+In the API, runtime access to the NX bit is exposed through the Win32 API calls VirtualAlloc[Ex] and VirtualProtect[Ex]. In these functions, a page protection setting is specified by the programmer. Each page may be individually flagged as executable or non-executable. Despite the lack of previous x86 hardware support, both executable and non-executable page settings have been provided since the beginning. On pre-NX CPUs, the presence of the 'executable' attribute has no effect. It was documented as if it did function, and, as a result, most programmers used it properly.
+In the PE file format, each section can specify its executability. The execution flag has existed since the beginning of the format; standard linkers have always used this flag correctly, even long before the NX bit.
+Because of these things, Windows is able to enforce the NX bit on old programs. Assuming the programmer complied with "best practices", applications should work correctly now that NX is actually enforced. Only in a few cases have there been problems; Microsoft's own .NET Runtime had problems with the NX bit and was updated.
+
+In Microsoft's Xbox, although the CPU does not have the NX bit, newer versions of the XDK set the code segment limit to the beginning of the kernel's .data section (no code should be after this point in normal circumstances). This was probably in response to the 007: Agent Under Fire saved game exploit[citation needed]; however, this change does not fix the problem, as the memory from which the payload executes is well below the beginning of the kernel's .data section.
+Starting with version 51xx, this change was also implemented into the kernel of new Xboxes. This broke the techniques old exploits used to become a TSR; new versions were quickly released supporting this new version because the fundamental exploit was unaffected.
+

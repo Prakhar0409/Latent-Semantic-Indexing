@@ -1,0 +1,12 @@
+HyperWRT
+
+HyperWRT is a GPL firmware project for the Linksys WRT54G and WRT54GS wireless routers based on the stock Linksys firmware. The original goal of the HyperWRT project was to add a set of features—such as power boost—to the latest Linux-based Linksys firmware, extending its possibilities but staying close to the official firmware. Over time, it has continued to be updated with newer Linksys firmware, and added many more features typically found in enterprise routing equipment.
+The original HyperWRT project was started in 2004 by Timothy Jans (aka Avenger 2.0), with continued development into early 2005. Another programmer called Rupan then continued HyperWRT development by integrating newer Linksys code as it was released.
+Later in 2005, two developers called tofu and Thibor picked up HyperWRT development with HyperWRT +tofu for the WRT54G and HyperWRT Thibor for the WRT54GS. Both developers frequently collaborated and added features from each other's releases, and both developed WRTSL54GS versions of their firmware. After February 2006, tofu discontinued development and his code was incorporated into HyperWRT Thibor. HyperWRT Thibor15c is the most current version of HyperWRT and is compatible with the WRT54G (v1-v4), WRT54GL (v1-v1.1), WRT54GS (v1-v4), and WRTSL54GS.
+Like most other third-party firmware, HyperWRT is not compatible with the most recent WRT54G v5.0 ("CDFB" serial number prefix) and WRT54GS v5.0 ("CGN7" serial number prefix). These model versions do not run Linux, and the size of their flash memory has been reduced to 2MB.
+
+
+
+
+
+

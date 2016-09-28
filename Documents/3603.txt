@@ -1,0 +1,42 @@
+Governance
+Governance relates to decisions that define expectations, grant power, or verify performance. It consists either of a separate process or of a specific part of management or leadership processes. Sometimes people set up a government to administer these processes and systems.
+In the case of a business or of a non-profit organisation, governance relates to consistent management, cohesive policies, processes and decision-rights for a given area of responsibility. For example, managing at a corporate level might involve evolving policies on privacy, on internal investment, and on the use of data.
+
+The word governance derives from the Greek verb κυβερνάω [kubernáo] which means to steer and was used for the first time in a metaphorical sense by Plato. It then passed on to Latin and then on to many languages.[1]
+
+As a process, governance may operate in an organization of any size: from a single human being to all of humanity; and it may function for any purpose, good or evil, for profit or not. A reasonable or rational purpose of governance might aim to assure, (sometimes on behalf of others) that an organization produces a worthwhile pattern of good results while avoiding an undesirable pattern of bad circumstances.
+Perhaps the moral and natural purpose of governance consists of assuring, on behalf of those governed, a worthy pattern of good while avoiding an undesirable pattern of bad. The ideal purpose, obviously, would assure a perfect pattern of good with no bad. A government, comprises a set of inter-related positions that govern and that use or exercise power, particularly coercive power.
+A good government, following this line of thought, could consist of a set of inter-related positions exercising coercive power that assures, on behalf of those governed, a worthwhile pattern of good results while avoiding an undesirable pattern of bad circumstances, by making decisions that define expectations, grant power, and verify performance.
+Politics provides a means by which the governance process operates. For example, people may choose expectations by way of political activity; they may grant power through political action, and they may judge performance through political behavior.
+Conceiving of governance in this way, one can apply the concept to states, to corporations, to non-profits, to NGOs, to partnerships and other associations, to project-teams, and to any number of humans engaged in some purposeful activity.
+
+The World Bank defines governance as
+The Worldwide Governance Indicators project of the World Bank defines governance as
+An alternate definition sees governance as
+English-speakers sometimes erroneously confuse the term governance with the term government.
+According to the UNDP's Regional Project on Local Governance for Latin America:
+Governance has been defined as the rules of the political system to solve conflicts between actors and adopt decision (legality). It has also been used to describe the "proper functioning of institutions and their acceptance by the public" (legitimacy). And it has been used to invoke the efficacy of government and the achievement of consensus by democratic means (participation).[citation needed]
+
+Some suggest[citation needed] making a clear distinction between the concepts of governance and of politics. Politics involves processes by which a group of people with initially divergent opinions or interests reach collective decisions generally regarded as binding on the group, and enforced as common policy. Governance, on the other hand, conveys the administrative and process-oriented elements of governing rather than its antagonistic ones. Such an argument continues to assume the possibility of the traditional separation between "politics" and "administration". Contemporary governance practice and theory sometimes questions this distinction, premising that both "governance" and "politics" involve aspects of power.
+In general terms, governance occurs in three broad ways:
+These modes of governance often appear in terms of hierarchy, markets, and networks.
+
+Corporate organizations often use the word governance to describe both:
+
+A fair governance implies that mechanisms function in a way that allows the executives (the "agents") to respect the rights and interests of the stakeholders (the "principals"), in a spirit of democracy.
+
+
+In contrast to the traditional meaning of "governance", some authors like James Rosenau[citation needed] have used the term "global governance" to denote the regulation of interdependent relations in the absence of an overarching political authority. The best example of this in the international system or relationships between independent states. The term can however apply wherever a group of free equals need to form a regular relationship.
+
+See the main article at corporate governance.
+Corporate governance consists of the set of processes, customs, policies, laws and institutions affecting the way people direct, administer or control a corporation. Corporate governance also includes the relationships among the many players involved (the stakeholders) and the corporate goals. The principal players include the shareholders, management, and the board of directors. Other stakeholders include employees, suppliers, customers, banks and other lenders, regulators, the environment and the community at large.
+The first documented use of the word "corporate governance" is by Richard Eells (1960, pg. 108) to denote "the structure and functioning of the corporate polity". The "corporate government" concept itself is older and was already used in finance textbooks at the beginning of the 20th century (Becht, Bolton, Röell 2004). These origins support a multiple constituency (stakeholder) definition of corporate governance.
+
+The term governance as used in industry (especially in the information technology (IT) sector) describes the processes that need to exist for a successful project.
+
+
+Over the last decade, several efforts have been conducted in the research and international development community in order to assess and measure the quality of governance of countries all around the world.
+One of these efforts to create an internationally comparable measure of governance is the Worldwide Governance Indicators project, developed by members of the World Bank and the World Bank Institute. The project reports aggregate and individual indicators for more than 200 countries for six dimensions of governance: voice and accountability, political stability and lack of violence, government effectiveness, regulatory quality, rule of law, control of corruption.
+To complement the macro-level cross-country Worldwide Governance Indicators, the World Bank Institute developed the World Bank Governance Surveys, which are a country level governance assessment tools that operate at the micro or sub-national level and use information gathered from a country’s own citizens, business people and public sector workers to diagnose governance vulnerabilities and suggest concrete approaches for fighting corruption.
+
+

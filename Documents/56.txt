@@ -1,0 +1,23 @@
+Google Apps
+Google Apps is a service from Google for using custom domain names with several Google products. It features several Web applications with similar functionality to traditional office suites, including: Gmail, Google Calendar, Talk, Docs and Sites.
+The Standard Edition is free and offers the same amount of storage as regular Gmail accounts.[1] The Premier Edition, which offers 25 GB of e-mail storage, is 50 USD, 40 EUR, or 25 GBP, per year, per account. The Education Edition, which is free, combines features from the Standard and Premier editions.
+
+In February 2006, Google created Gmail For Your Domain with an invitation-only beta, which allowed Gmail to be used with a custom domain name. It featured 2GB of e-mail storage, and many of the standard Gmail features.
+In August 2006, Google expanded on this service and developed Google Apps For Your Domain, incorporating more recent Google services, including Google Calendar, Google Talk, and Google Page Creator. Later, Google added a "Start Page" to all accounts, which is based on their iGoogle service.
+In October 2006, Google allowed educational institutions to sign-up for the service as well, which was retitled Google Apps For Education. A large implementation of Google Apps is at Lakehead University in Ontario, Canada, where 38,000 users have Gmail and in-browser IM capabilities.[2]
+On February 22, 2007, Google launched a Premier Edition for enterprise, as well as making registration public for all Google Apps services. At the same time, all products were unified, and the online control panel was redesigned.
+In June 2007, email migration from IMAP email services was added to Google Apps.[3]
+On October 3, 2007, Google announced that "security, compliance, policy management, and message recovery services" from recently-acquired Postini will be integrated into Google Apps Premier Edition.[4][5]
+On October 12, 2007, Google announced that e-mail storage for domains using Google Apps would be increasing. Premier Edition accounts now have 25GB of space each (previously 10GB). Standard and Education Edition accounts will mirror the Gmail counter (previously 2GB, over 7GB as of August 2008).[1]
+On February 28, 2008, Google announced that Google Sites will be available to domains hosted by Google Apps. Google Sites allows collaborative editing of web sites and permits users to upload images and videos to their site.[6]
+In September 2008 Google Page Creator and file uploader was removed as an available service for new Google Apps applicants.
+On December 1, 2008, Google removed the Start Page option for new Google Apps accounts. They are apparently trying to transition new users to using sites instead.
+On January 14, 2009, Google removed the ability to add additional users to Standard Edition domains and limited new standard edition domains to 50 users (a reduction from the previous 200).
+On January 29 2009, Google added Google Apps to the Google Labs suite. This allows users to add gadgets to their inbox such as 'Offline', 'Tasks', and 'Vacation Time!'.[7]
+On April 1 2009, Google added theme support to the mail interface[8][9].
+
+Differences between editions:[10]
+
+
+
+

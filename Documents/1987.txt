@@ -1,0 +1,13 @@
+Parallels Workstation
+Parallels Workstation is the first commercial software product released by Parallels, Inc., a developer of desktop and server virtualization software. The Workstation software consists of a virtual machine suite for Intel x86-compatible computers (running Microsoft Windows or Linux) (for Mac version, see Parallels Desktop for Mac) which allows the simultaneous creation and execution of multiple x86 virtual computers. The product is distributed as a download package.
+
+Like other virtualization software, Parallels Workstation uses hypervisor technology, which is a thin software layer between Primary OS and host computer. The hypervisor directly controls some of the host machine's hardware resources and provides an interface to it for both virtual machine monitors and primary OS. This allows virtualization software to reduce overhead. Parallels Workstation's hypervisor also supports hardware virtualization technologies like Intel VT and AMD-v.
+
+Parallels Workstation is a hardware emulation virtualization software, in which a virtual machine engine enables each virtual machine to work with its own processor, RAM, floppy drive, CD drive, I/O devices, and hard disk – everything a physical computer contains. Parallels Workstation virtualizes all devices within the virtual environment, including the video adapter, network adapter, and hard disk adapters. It also provides pass-through drivers for parallel port and USB devices.
+Because all guest virtual machines use the same hardware drivers irrespective of the actual hardware on the host computer, virtual machine instances are highly portable between computers. For example, a running virtual machine can be stopped, copied to another physical computer, and restarted.
+Parallels Workstation is able to virtualize a full set of standard PC hardware, including:[1]
+
+Known limitations of Parallels Workstation, as of March 2008[update], include the following:
+
+
+

@@ -1,0 +1,84 @@
+RLC circuit
+An RLC circuit (also known as a resonant circuit, tuned circuit, or LCR circuit) is an electrical circuit consisting of a resistor (R), an inductor (L), and a capacitor (C), connected in series or in parallel. This configuration forms a harmonic oscillator.
+Tuned circuits have many applications particularly for oscillating circuits and in radio and communication engineering. They can be used to select a certain narrow range of frequencies from the total spectrum of ambient radio waves. For example, AM/FM radios with analog tuners typically use an RLC circuit to tune a radio frequency. Most commonly a variable capacitor is attached to the tuning knob, which allows you to change the value of C in the circuit and tune to stations on different frequencies.
+An RLC circuit is called a second-order circuit as any voltage or current in the circuit can be described by a second-order differential equation for circuit analysis.
+
+Every RLC circuit consists of two components: a power source and resonator. There are two types of power sources – Thévenin and Norton. Likewise, there are two types of resonators – series LC and parallel LC. As a result, there are four configurations of RLC circuits:
+It is relatively easy to show that each of the two series configurations can be transformed into the other using elementary network transformations – specifically, by transforming the Thévenin power source to the equivalent Norton power source, or vice versa. Likewise, each of the two parallel configurations can be transformed into the other using the same network transformations. Finally, the Series/Thévenin and the Parallel/Norton configurations are dual circuits of one another. Likewise, the Series/Norton and the Parallel/Thévenin configurations are also dual circuits.
+
+The expressions for the bandwidth in the series and parallel configuration are inverses of each other. This is particularly useful for determining whether a series or parallel configuration is to be used for a particular circuit design. However, in circuit analysis, usually the reciprocal of the latter two variables is used to characterize the system instead. They are known as the resonant frequency and the Q factor respectively.
+
+There are two fundamental parameters that describe the behavior of RLC circuits: the resonant frequency and the attenuation (or, alternatively, the damping factor). In addition, other parameters derived from these first two are discussed below.
+
+The undamped resonant frequency of an RLC circuit (in radians per second) is given by
+In the more familiar unit hertz (or cycles per second), the resonant frequency becomes
+Resonance occurs when the complex impedance ZLC of the LC resonator becomes zero:
+Both of these impedances are functions of angular frequency ω:
+Setting the magnitude of the impedance to be zero at ω = ω0 and using j2 = − 1:
+
+The attenuation α is defined as
+for the series RLC circuit, and
+for the parallel RLC circuit.
+
+
+The damping factor ζ is the ratio of the attenuation α to the resonant frequency ω0�:
+for a series RLC circuit, and:
+for a parallel RLC circuit.
+It is sometimes more convenient to use the damping factor, which is dimensionless, instead of the attenuation factor, which has dimensions of radians per second, to analyze the properties of a resonant circuit.
+
+For applications in oscillator circuits, it is generally desirable to make the attenuation (or equivalently, the damping factor) as small as possible. In practice, this objective requires making the circuit's resistance R as small as physically possible for a series circuit, or alternatively increasing R to as much as as possible for a parallel circuit. In either case, the RLC circuit becomes a good approximation to an ideal LC circuit.
+Alternatively, for applications in bandpass filters, the value of the damping factor is chosen based on the desired bandwidth of the filter. For a wider bandwidth, a larger value of the damping factor is required (and vice versa). In practice, this requires adjusting the relative values of the resistor R and the inductor L in the circuit.
+
+The derived parameters include bandwidth, Q factor, and damped resonance frequency.
+
+The RLC circuit may be used as a bandpass or band-stop filter by replacing R with a receiving device with the same input resistance. In the Series case the bandwidth (in radians per second) is
+Alternatively, the bandwidth in hertz is
+The bandwidth is a measure of the width of the frequency response at the two half-power frequencies. As a result, this measure of bandwidth is sometimes called the full-width at half-power. Since electrical power is proportional to the square of the circuit voltage (or current), the frequency response will drop to  at the half-power frequencies.
+
+The damped resonance frequency can be expressed in terms of the undamped resonance frequency and the damping factor. If the circuit is underdamped, meaning
+or equivalently
+then we can define the damped resonance as
+In an oscillator circuit
+or equivalently
+
+As a result
+See discussion of underdamping, overdamping, and critical damping, below.
+
+
+In this circuit, the three components are all in series with the voltage source.
+Series RLC Circuit notations:
+Given the parameters v, R, L, and C, the solution for the charge, q, can be found using Kirchhoff's voltage law. (KVL) gives
+For a time-changing voltage v(t), this becomes
+Using the relationship between charge and current:
+The above expression can be expressed in terms of charge across the capacitor:
+Dividing by L gives the following second order differential equation:
+We now define two key parameters:
+
+Substituting these parameters into the differential equation, we obtain:
+or
+
+The series RLC can be analyzed in the frequency domain using complex impedance relations. If the voltage source above produces a complex exponential waveform with complex amplitude V(s) and angular frequency s = σ + iω , KVL can be applied:
+where I(s) is the complex current through all components. Solving for I(s):
+And rearranging, we have at
+
+Next, we solve for the complex admittance Y(s):
+Finally, we simplify using parameters α and ωo
+Notice that this expression for Y(s) is the same as the one we found for the Zero State Response.
+
+The zeros of Y(s) are those values of s such that Y(s) = 0:
+The poles of Y(s) are those values of s such that . By the quadratic formula, we find
+Notice that the poles of Y(s) are identical to the roots λ1 and λ2 of the characteristic polynomial.
+
+If we now let s = iω....
+Taking the magnitude of the above equation:
+Next, we find the magnitude of current as a function of ω
+If we choose values where R = 1 ohm, C = 1 farad, L = 1 henry, and V = 1.0 volt, then the graph of magnitude of the current i (in amperes) as a function of ω (in radians per second) is:
+Note that there is a peak at imag(ω) = 1. This is known as the resonant frequency. Solving for this value, we find:
+
+Parallel RLC Circuit notations:
+The complex admittance of this circuit is given by adding up the admittances of the components:
+The change from a series arrangement to a parallel arrangement has some very real consequences for the behaviour. This can be seen by plotting the magnitude of the current . For comparison with the earlier graph we choose values where R = 1 ohm, C = 1 farad, L = 1 henry, and V = 1.0 volt and ω in radians per second:
+There is a minimum in the frequency response at the resonant frequency .
+A parallel RLC circuit is a example of a band-stop circuit response that can be used as a filter to block frequencies at the resonance frequency but allow others to pass.
+
+

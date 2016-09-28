@@ -1,0 +1,14 @@
+strace
+strace is a debugging utility in Linux to monitor the system calls used by a program and all the signals it receives, similar to "truss" utility in other Unix systems. This is made possible by a kernel feature known as ptrace.
+A similar utility is provided by Cygwin.
+
+The most common usage is to start a program using strace, which prints a list of system calls made by the program. This is useful if the program continually crashes, or does not behave as expected; for example using strace may reveal that the program is attempting to access a file which does not exist or cannot be read.
+An alternative application is to use the -p flag to attach to a running process. This is useful if a process has stopped responding, and might reveal, for example, that the process is blocking whilst attempting to make a network connection.
+As strace only details system calls it cannot be used to detect as many problems as a code debugger such as Gdb. It is, however, easier to use than a code debugger, and is an extremely useful tool for system administrators.
+
+The following is an example of typical output of the strace command :
+The above fragment is only a small part of the output of strace when run on the 'ls' command. It shows that the current working directory is opened, inspected and its contents retrieved. The resulting list of filenames is written to standard output.
+
+There are other similar, and sometimes more powerful, instrumentation tools on other platforms.
+
+

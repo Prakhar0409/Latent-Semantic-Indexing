@@ -1,0 +1,9 @@
+Trojan Room coffee pot
+The Trojan Room coffee pot was the inspiration for the world's first webcam. The coffee pot was located in the so-called Trojan Room within the old Computer Laboratory of the University of Cambridge in Cambridge, England. The webcam was created to help people working in other parts of the building avoid pointless trips to the coffee room by providing, on the user's desktop computer, a live 128×128 grayscale picture of the state of the coffee pot.[1][2]
+The camera was installed on a local network in 1991 using a video capture card on an Acorn Archimedes computer. Employing the X Window System protocol, Quentin Stafford-Fraser wrote the client software, and Paul Jardetzky wrote the server. When web browsers gained the ability to display images in March 1993, it was clear this would be an easier way to make the picture available. The camera was connected to the Internet in November 1993 by Daniel Gordon and Martyn Johnson. It therefore became visible to any Internet user and grew into a popular landmark of the early web.
+At 09:54 UTC on August 22, 2001, the camera was finally switched off, and the pot (a German Krups model, actually the fourth or fifth seen online) was auctioned on eBay for £3,350 to Spiegel Online, the Internet version of Der Spiegel magazine. Coverage of the event included front-page mentions in The Times of London and The Washington Post, as well as articles in The Guardian and Wired.[3]
+After being refurbished by employees of Krups free of charge, the pot has been switched on again in the editorial office of Spiegel Online.
+
+
+
+

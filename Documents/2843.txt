@@ -1,0 +1,27 @@
+Google Docs
+Google Docs is a free, Web-based word processor, spreadsheet, presentation, and form application offered by Google. It allows users to create and edit documents online while collaborating in real-time with other users. Google Docs combines the features of two services, Writely and Spreadsheets, which were merged into a single product on October 10, 2006. A third product for presentations, incorporating technology designed by Tonic Systems, was released on September 17, 2007.
+
+Documents, spreadsheets, and presentations can be created within the application itself, imported through the web interface, or sent via email. They can also be saved to the user's computer in a variety of formats. By default, they are saved to the Google servers. Open documents are automatically saved to prevent data loss, and a revision history is automatically kept. Documents can be tagged and archived for organizational purposes.
+Collaboration between users is also a feature of Google Docs. Documents can be shared, opened, and edited by multiple users at the same time. In the case of spreadsheets, users can be notified of changes to any specified regions via e-mail.
+The application supports the ISO standard OpenDocument format. It also includes support for proprietary formats such as .doc and .xls.[2]
+It is also possible to upload and share PDF files.
+
+On March 10, 2009, Google reported that a bug in Google Docs had allowed unintended access to some private documents. It was believed that .05% of documents stored via the service were affected by the bug, which Google reported had been fixed.[3]
+
+Google Docs allows mobile phone users to browse their Google Docs documents in a mobile browser. Users can view documents and view/edit spreadsheets, but not presentations or PDF files.
+A version of Google Docs for the iPhone includes functionality for editing spreadsheets and viewing presentations, along with an interface designed specifically for the device.
+
+There is a limit on how much a user can store on their account, and files may only be uploaded or downloaded one at a time. Documents may not exceed 500k, and each embedded image must not exceed 2MB. Spreadsheets are limited to 256 columns, 200,000 cells, and 99 sheets.[4] A user can have a total of 5,000 documents and presentations, 5,000 images, 1,000 spreadsheets, and 100 PDFs. 11 spreadsheets can be opened at one time. Only presentations under 10MB can be imported.[5] There is no equation editor for documents. User access to Google Docs is currently supported through Mozilla Firefox 2.0.0.10 and newer versions, Microsoft Internet Explorer 7 and 8 beta, Safari 3 and 4 beta, Google Chrome 1.0.154.48, and Opera.
+Certain functions also have limitations, for example IMPORTRANGE() which allows data to be drawn from other spreadsheets, is limited to a maximum of 50 such functions in any one spreadsheet.
+
+Google Docs originated from two separate products, Writely and Google Spreadsheets. Writely was an individual web-based word processor created by the software company Upstartle and launched in August 2005.[6]. Spreadsheets, launched as Google Labs Spreadsheets on June 6, 2006,[7] originated from the acquisition of the XL2Web product developed by 2Web Technologies. Writely's original features included a collaborative text editing suite and access controls. Menus, keyboard shortcuts, and dialog boxes are similar to what users may expect in a desktop word processor such as Microsoft Word or OpenOffice.org Writer.
+On March 9, 2006, Google announced that it had acquired Upstartle.[8] At the time of acquisition, Upstartle had four employees.[9] Writely closed registration to its service until the move to Google servers was complete.[8] In August 2006, Writely sent account invitations to everyone who had requested to be placed on a waiting list, and then became publicly available on August 23. Writely continued to maintain its own user system until September 19, 2006, when it was integrated with Google Accounts.[10]
+Writely originally ran on Microsoft ASP.NET technology which uses Microsoft Windows. Since July 2006, Writely servers appear to be running a Linux-based operating system.[11]
+Meanwhile, Google developed Google Spreadsheets using the technology it had acquired from 2Web Technologies in 2005 and launched Google Labs Spreadsheets[12] [13] on June 6, 2006 as the first public component of what would eventually become Google Docs. It was initially made available to only a limited number of users, on a first-come, first-served basis. The limited test was later replaced with a beta version available to all Google Account holders, around the same time as a press release was issued.[14]
+In February 2007, Google Docs was made available to Google Apps users.
+In June 2007, Google changed the front page to include folders instead of labels, organized in a side bar.
+On September 17, 2007, Google released their presentation program product for Google Docs.[15]
+
+
+
+

@@ -1,0 +1,6 @@
+Comparison of integrated development environments
+The following tables list software packages that are nominal IDEs; standalone tools such as source code editors and GUI builders are not included.
+
+
+
+

@@ -1,0 +1,72 @@
+Futures exchange
+Bond market
+Fixed income
+Corporate bond
+Government bond
+Municipal bond
+Bond valuation
+High-yield debt
+Stock market
+Stock
+Preferred stock
+Common stock
+Registered share
+Voting share
+Stock exchange
+Foreign exchange market
+Derivatives market
+Credit derivative
+Hybrid security
+Options
+Futures
+Forwards
+Swaps
+Other Markets
+Commodity market
+Money market
+OTC market
+Real estate market
+Spot market
+Finance series
+Financial market
+Financial market participants
+Corporate finance
+Personal finance
+Public finance
+Banks and Banking
+Financial regulation
+A futures exchange is a central financial exchange where people can trade standardized futures contracts; that is, a contract to buy specific quantities of a commodity or financial instrument at a specified price with delivery set at a specified time in the future.
+
+The origins of futures trading can be traced to Ancient Greek, in Aristotle's writings. He tells the story of Thales, a poor philosopher from Miletus who developed a "financial device, which involves a principle of universal application." Thales used his skill in forecasting and predicted that the olive harvest would be exceptionally good the next autumn. Confident in his prediction, he made agreements with local olive-press owners to deposit his money with them to guarantee him exclusive use of their olive presses when the harvest was ready. Thales successfully negotiated low prices because the harvest was in the future and no one knew whether the harvest would be plentiful or pathetic and because the olive-press owners were willing to hedge against the possibility of a poor yield. When the harvest-time came, and many presses were wanted all at once and of a sudden, he let them out at any rate which he pleased, and made a large quantity of money.[1]
+The first modern organized futures exchange began in 1710 at the Dojima Rice Exchange in Osaka, Japan.[2]
+The United States followed in the early 1800s. Chicago is located at the base of the Great Lakes, close to the farmlands and cattle country of the U.S. Midwest, making it a natural center for transportation, distribution and trading of agricultural produce. Gluts and shortages of these products caused chaotic fluctuations in price, and this led to the development of a market enabling grain merchants, processors, and agriculture companies to trade in "to arrive" or "cash forward" contracts to insulate them from the risk of adverse price change and enable them to hedge.
+Forward contracts were standard at the time. However, most forward contracts weren't honored by both the buyer and the seller. For instance, if the buyer of a corn forward contract made an agreement to buy corn, and at the time of delivery the price of corn differed dramatically from the original contract price, either the buyer or the seller would back out. Additionally, the forward contracts market was very illiquid and an exchange was needed that would bring together a market to find potential buyers and sellers of a commodity instead of making people bear the burden of finding a buyer or seller.
+In 1848, the Chicago Board of Trade (CBOT – the world's first modern futures exchange) was formed. Trading was originally in forward contracts; the first contract (on corn) was written on March 13, 1851. In 1865, standardized futures contracts were introduced.
+The Chicago Produce Exchange was established in 1874, renamed the Chicago Butter and Egg Board in 1898 and then reorganised into the Chicago Mercantile Exchange (CME) in 1919. In 1972 the International Monetary Market (IMM), a division of the CME, was formed to offer futures contracts in foreign currencies: British pound, Canadian dollar, German mark, Japanese yen, Mexican peso, and Swiss franc.
+In 1881, a regional market was founded in Minneapolis, Minnesota and in 1883 introduced futures for the first time. Trading continuously since then, today the Minneapolis Grain Exchange (MGEX) is the only exchange for hard red spring wheat futures and options.[3]
+Later in the 1970s saw the development of the financial futures contracts, which allowed trading in the future value of interest rates. These (in particular the 90-day Eurodollar contract introduced in 1981) had an enormous impact on the development of the interest rate swap market.
+Today, the futures markets have far outgrown their agricultural origins. With the addition of the New York Mercantile Exchange (NYMEX) the trading and hedging of financial products using futures dwarfs the traditional commodity markets, and plays a major role in the global financial system, trading over 1.5 trillion U.S. dollars per day in 2005.
+The recent history of these exchanges (Aug 2006) finds the Chicago Mercantile Exchange trading more than 70% of its Futures contracts on its "Globex" trading platform and this trend is rising daily. It counts for over 45.5 Billion dollars of nominal trade (over 1 million contracts) every single day in "electronic trading" as opposed to open outcry trading of Futures, Options and Derivatives.
+In June 2001, ICE (IntercontinentalExchange) acquired the International Petroleum Exchange (IPE), now ICE Futures, which operated Europe’s leading open-outcry energy futures exchange. Since 2003, ICE has partnered with the Chicago Climate Exchange (CCX) to host its electronic marketplace. In April 2005, the entire ICE portfolio of energy futures became fully electronic.
+In 2006, the New York Stock Exchange teamed up with the Amsterdam-Brussels-Lisbon-Paris Exchanges "Euronext" electronic exchange to form the first trans-continental Futures and Options Exchange. These two developments as well as the sharp growth of internet Futures trading platforms developed by a number of trading companies clearly points to a race to total internet trading of Futures and Options in the coming years.
+In terms of trading volume, the National Stock Exchange of India in Mumbai is the largest stock futures trading exchange in the world, followed by JSE Limited in Sandton, Gauteng, South Africa [1].
+
+Exchange-traded contracts are standardized by the exchanges where they trade. The contract details what asset is to be bought or sold, and how, when, where and in what quantity it is to be delivered. The terms also specify the currency in which the contract will trade, minimum tick value, and the last trading day and expiry or delivery month. Standardized commodity futures contracts may also contain provisions for adjusting the contracted price based on deviations from the "standard" commodity, for example, a contract might specify delivery of heavier USDA Number 1 oats at par value but permit delivery of Number 2 oats for a certain seller's penalty per bushel.
+Before the market opens on the first day of trading a new futures contract, there is a specification but no actual contracts exist. Futures contracts are not issued like other securities, but are "created" whenever Open interest increases; that is, when one party first buys (goes long) a contract from another party (who goes short). Contracts are also "destroyed" in the opposite manner whenever Open interest decreases because traders resell to reduce their long positions or rebuy to reduce their short positions.
+Speculators on futures price fluctuations who do not intend to make or take ultimate delivery must take care to "zero their positions" prior to the contract's expiry. After expiry, each contract will be settled , either by physical delivery (typically for commodity underlyings) or by a cash settlement (typically for financial underlyings). The contracts ultimately are not between the original buyer and the original seller, but between the holders at expiry and the exchange. Because a contract may pass through many hands after it is created by its initial purchase and sale, or even be liquidated, settling parties do not know with whom they have ultimately traded.
+Compare this with other securities, in which there is a primary market when an issuer issues the security, and a secondary market where the security is later traded independently of the issuer. Legally, the security represents an obligation of the issuer rather than the buyer and seller; even if the issuer buys back some securities, they still exist. Only if they are legally cancelled can they disappear.
+
+The contracts traded on futures exchanges are always standardized. In principle, the parameters to define a contract are endless (see for instance in futures contract). To make sure liquidity is high, there is only a limited number of standardized contracts.
+
+There is usually a division of responsibility between provision of trading facility and settlement of those trades. While derivative exchanges like the CBOE and LIFFE take responsibility for providing efficient, transparent and orderly trading environments, settlement of the resulting trades are usually handled by Clearing Corporations, also known as Clearing Houses, that serve as central counterparties to trades done in the respective exchanges. For instance, the Options Clearing Corporation and the London Clearing House respectively are the clearing corporations for CBOE and LIFFE. A well known exception to this is the case of Chicago Mercantile Exchange, which clears trades by itself.
+
+Derivative contracts are leveraged positions whose value is volatile. They are usually more volatile than their underlying asset. This can lead to situations where one party to a trade loses a big sum of money and is unable to honor its settlement obligation. In a safe trading environment, the parties to a trade need to be assured that their counterparty will honor the trade, no matter how the market has moved. This requirement can lead to messy arrangements like credit assessment, setting of trading limits and so on for each counterparty, and take away most of the advantages of a centralised trading facility. To prevent this, Clearing corporations interpose themselves as counterparties to every trade and extend guarantee that the trade will be settled as originally intended. This action is called Novation. As a result, trading firms take no risk on the actual counterparty to the trade, but on the clearing corporation. The clearing corporation is able to take on this risk by adopting an efficient margining process.
+
+Clearing houses charge two types of margins: the Initial Margin and the Mark-To-Market margin (also referred to as Variation Margin).
+The Initial Margin is the sum of money (or collateral) to be deposited by a firm to the clearing corporation to cover possible future loss in the positions (the set of positions held is also called the portfolio) held by a firm. In the simplest case, this is the dollar figure that answers a question of this nature: What is the likely loss that this firm may incur on its portfolio with a 99% confidence and over a period of 2 days? The clause 'with a 99% confidence' and 'over a period 2 days' is to be interpreted as that number such that the actual portfolio loss over 2 days is expected to exceed the number only 1% of the time, although how they know this is unknown. Several popular methods are used to compute initial margins. They include the CME-owned SPAN (a grid simulation method used by the CME and about 70 other exchanges), STANS (a Monte Carlo simulation based methodology used by the OCC), TIMS (earlier used by the OCC, and still being used by a few other exchanges like the Bursa Malaysia.
+The Mark-to-Market Margin (MTM margin) on the other hand is the margin collected to offset losses (if any) that have already been incurred on the positions held by a firm. This is computed as the difference between the cost of the position held and the current market value of that position. If the resulting amount is a loss, the amount is collected from the firm; else, the amount may be returned to the firm (the case with most clearing houses) or kept in reserve depending on local practice. In either case, the positions are 'marked-to-market' by setting their new cost to the market value used in computing this difference. The positions held by the clients of the exchange are marked-to-market daily and the MTM difference computation for the next day would use the new cost figure in its calculation.
+Clients hold a margin account with the exchange, and every day the swings in the value of their positions is added to or deducted from their margin account. If the margin account gets too low, they have to replenish it. In this way it is highly unlikely that the client will not be able to fulfill his obligations arising from the contracts. As the clearing house is the counterparty to all their trades, they only have to have one margin account. This is in contrast with OTC derivatives, where issues such as margin accounts have to be negotiated with all counterparties.
+
+Each exchange is normally regulated by a national governmental (or semi-governmental) regulatory agency:
+
+

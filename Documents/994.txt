@@ -1,0 +1,22 @@
+Regular language
+In theoretical computer science, a regular language is a formal language (i.e., a possibly infinite set of finite sequences of symbols from a finite alphabet) that satisfies the following equivalent properties:
+
+The collection of regular languages over an alphabet Σ is defined recursively as follows:
+All finite languages are regular. Other typical examples include the language consisting of all strings over the alphabet {a, b} which contain an even number of as, or the language consisting of all strings of the form: several as followed by several bs.
+A simple example of a language that is not regular is the set of strings . Some additional examples are given below.
+
+In computational complexity theory, the complexity class of all regular languages is sometimes referred to as REGULAR or REG and equals DSPACE(O(1)), the decision problems that can be solved in constant space (the space used is independent of the input size). REGULAR ≠ AC0, since it (trivially) contains the parity problem of determining whether the number of 1 bits in the input is even or odd and this problem is not in AC0.[1] On the other hand, it is not known to contain AC0.
+If a language is not regular, it requires a machine with at least Ω(log log n) space to recognize (where n is the input size).[2] In other words, DSPACE(o(log log n)) equals the class of regular languages. In practice, most nonregular problems are solved by machines taking at least logarithmic space.
+
+The regular languages are closed under the following operations: That is, if L and P are regular languages, the following languages are regular as well:
+
+To locate the regular languages in the Chomsky hierarchy, one notices that every regular language is context-free. The converse is not true: for example the language consisting of all strings having the same number of a's as b's is context-free but not regular. To prove that a language such as this is not regular, one uses the Myhill-Nerode theorem or the pumping lemma.
+There are two purely algebraic approaches to define regular languages. If Σ is a finite alphabet and Σ* denotes the free monoid over Σ consisting of all strings over Σ, �f�: Σ* → M is a monoid homomorphism where M is a finite monoid, and S is a subset of M, then the set f�−1(S) is regular. Every regular language arises in this fashion.
+If L is any subset of Σ*, one defines an equivalence relation ~ (called the syntactic relation) on Σ* as follows: u ~ v is defined to mean
+The language L is regular if and only if the number of equivalence classes of ~ is finite (A proof of this is provided in the article on the syntactic monoid). When a language is regular, then the number of equivalence classes is equal to the number of states of the minimal deterministic finite automaton accepting L.
+A similar set of statements can be formulated for a monoid . In this case, equivalence over M leads to the concept of a recognizable language.
+
+A specific subset within the class of regular languages is the finite languages – those containing only a finite number of words. These are obviously regular as one can create a regular expression that is the union of every word in the language, and thus are regular.
+
+
+

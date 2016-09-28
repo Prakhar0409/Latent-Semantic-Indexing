@@ -1,0 +1,54 @@
+Normal distribution
+In probability theory and statistics, the normal distribution or Gaussian distribution is a continuous probability distribution that describes data that clusters around a mean or average. The graph of the associated probability density function is bell-shaped, with a peak at the mean, and is known as the Gaussian function or bell curve.
+The normal distribution can be used to describe, at least approximately, any variable that tends to cluster around the mean. For example, the heights of adult males in the United States are roughly normally distributed, with a mean of about 70 inches. Most men have a height close to the mean, though a small number of outliers have a height significantly above or below the mean. A histogram of male heights will appear similar to a bell curve, with the correspondence becoming closer if more data is used.
+For theoretical reasons (such as the central limit theorem), any variable that is the sum of a large number of independent factors is likely to be normally distributed. For this reason, the normal distribution is used throughout statistics, natural science, and social science[1] as a simple model for complex phenomena. For example, the observational error in an experiment is usually assumed to follow a normal distribution, and the propagation of uncertainty is computed using this assumption.
+The probability density function for a normal distribution is given by the formula
+where μ is the mean, σ is the standard deviation (a measure of the “width” of the bell), and exp denotes the exponential function. For a mean of 0 and a standard deviation of 1, this formula simplifies to
+which is known as the standard normal distribution. When properly scaled and translated, the corresponding cumulative distribution function is known as the error function.
+The Gaussian distribution is named for Carl Friedrich Gauss, who used it to analyze astronomical data[2], and defined the formula for its probability density function.
+
+The normal distribution was first introduced by Abraham de Moivre in an article in the year 1733,[3] which was reprinted in the second edition of his The Doctrine of Chances, 1738 in the context of approximating certain binomial distributions for large n. His result was extended by Laplace in his book Analytical Theory of Probabilities (1812), and is now called the theorem of de Moivre-Laplace.
+Laplace used the normal distribution in the analysis of errors of experiments. The important method of least squares was introduced by Legendre in 1805. Gauss, who claimed to have used the method since 1794, justified it rigorously in 1809 by assuming a normal distribution of the errors. The fact the distribution is sometimes called Gaussian is an example of Stigler's Law.
+The name "bell curve" goes back to Esprit Jouffret who first used the term "bell surface" in 1872 for a bivariate normal with independent components. The name "normal distribution" was coined independently by Charles S. Peirce, Francis Galton and Wilhelm Lexis around 1875.[citation needed] Despite this terminology, other probability distributions may be more appropriate in some contexts; see the discussion of occurrence, below.
+
+There are various ways to characterize a probability distribution. The most visual is the probability density function (PDF). Equivalent ways are the cumulative distribution function, the moments, the cumulants, the characteristic function, the moment-generating function, the cumulant-generating function, and Maxwell's theorem. See probability distribution for a discussion.
+To indicate that a real-valued random variable X is normally distributed with mean μ and variance σ2 ≥ 0, we write
+While it is certainly useful for certain limit theorems (e.g. asymptotic normality of estimators) and for the theory of Gaussian processes to consider the probability distribution concentrated at μ (see Dirac measure) as a distribution with mean μ and variance σ2 = 0, this degenerate case is often excluded from the considerations because no density with respect to the Lebesgue measure exists.
+The normal distribution may also be parameterized using a precision parameter τ, defined as the reciprocal of σ2. This parameterization has an advantage in numerical applications where σ2 is very close to zero and is more convenient to work with in analysis as τ is a natural parameter of the normal distribution.
+
+The continuous probability density function of the normal distribution is the Gaussian function
+where σ > 0 is the standard deviation, the real parameter μ is the expected value, and
+is the density function of the "standard" normal distribution: i.e., the normal distribution with μ = 0 and σ = 1. The integral of  over the real line is equal to one as shown in the Gaussian integral article.
+As a Gaussian function with the denominator of the exponent equal to 2, the standard normal density function  is an eigenfunction of the Fourier transform.
+The probability density function has notable properties including:
+
+The cumulative distribution function (cdf) of a probability distribution, evaluated at a number (lower-case) x, is the probability of the event that a random variable (capital) X with that distribution is less than or equal to x. The cumulative distribution function of the normal distribution is expressed in terms of the density function as follows:
+The standard normal cdf is just the general cdf evaluated with μ = 0 and σ = 1:
+The standard normal cdf can be expressed in terms of a special function called the error function, as
+and the cdf itself can hence be expressed as
+The complement of the standard normal cdf, 1 − Φ(x), is often denoted Q(x), and is sometimes referred to simply as the Q-function, especially in engineering texts.[4][5] This represents the tail probability of the Gaussian distribution. Other definitions of the Q-function, all of which are simple transformations of Φ, are also used occasionally.[6]
+The inverse standard normal cumulative distribution function, or quantile function, can be expressed in terms of the inverse error function:
+and the inverse cumulative distribution function can hence be expressed as
+This quantile function is sometimes called the probit function. There is no elementary primitive for the probit function. This is not to say merely that none is known, but rather that the non-existence of such an elementary primitive has been proven. Several accurate methods exist for approximating the quantile function for the normal distribution - see quantile function for a discussion and references.
+The values Φ(x) may be approximated very accurately by a variety of methods, such as numerical integration, Taylor series, asymptotic series and continued fractions.
+
+For large x the standard normal cdf  is close to 1 and  is close to 0. The elementary bounds
+in terms of the density  are useful.
+Using the substitution v�=�u²/2, the upper bound is derived as follows:
+Similarly, using  and the quotient rule,
+Solving for  provides the lower bound.
+
+
+The moment generating function is defined as the expected value of exp(tX). For a normal distribution, the moment generating function is
+as can be seen by completing the square in the exponent.
+
+The cumulant generating function is the logarithm of the moment generating function: g(t) = μt�+�σ2t2/2. Since this is a quadratic polynomial in t, only the first two cumulants are nonzero.
+
+The characteristic function is defined as the expected value of exp(itX), where i is the imaginary unit. So the characteristic function is obtained by replacing t with it in the moment-generating function.
+For a normal distribution, the characteristic function is [7]
+
+Some properties of the normal distribution:
+
+As a consequence of Property 1, it is possible to relate all normal random variables to the standard normal.
+If X ~ N(μ,σ2), then
+is a standard normal random variable: Z ~ N(0,1). An important consequence is that the cdf of a general normal distribution is therefore

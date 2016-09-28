@@ -1,0 +1,19 @@
+List of WLAN channels
+The List of WLAN channels is the legally allowed IEEE 802.11 or more commonly Wi-Fi Wireless LAN channels.
+The 802.11 workgroup currently documents use in three distinct frequency ranges, 2.4 GHz, 3.6 GHz and 4.9/5.0 GHz bands.[1] Each range is divided into multitude of channels. Countries apply their own regulations to both the allowable channels, allowed users and maximum power levels within these frequency ranges. In some countries, such as the United States, a licensed Amateur Radio operators may use some of the channels at much higher power for long distance wireless access.
+Consult your local authority as these regulations may be out of date as they are subject to change at any time.
+
+There are 14 channels designated in the 2.4 GHz range spaced 5 MHz apart (with the exception of a 12 MHz spacing before Channel 14). As the protocol requires 25 MHz of channel separation, adjacent channels overlap and will interfere with each other.
+Potential Wireless LAN uses of this range are documented by IEEE 802.11 clauses 18 (802.11b), 19 (802.11g) and 20 (802.11n which is still unreleased by the IEEE, but widely available with Wi-Fi Alliance Draft-n equipment). IEEE 802.11 clauses 14 and 15 also specify potential uses of this range, but did not see widespread implementation.
+Countries apply their own regulations to both the allowable channels, allowed users and maximum power levels within this frequency ranges. Consult your local authorities as these regulations may be out of date as they are subject to change at any time. Most of the world will allow the first thirteen channels in the spectrum.
+Note: Earlier, in Spain the only allowable channels were 10-11, and in France 10-13. These restrictions have been removed since, and these countries are currently following the common European policy (channels 1-13).
+
+Except where noted, all information taken from Annex J of IEEE 802.11y-2008
+This range is documented as only being allowed as a licensed band in the United States. Please see IEEE 802.11y for details.
+Countries apply their own regulations to both the allowable channels, allowed users and maximum power levels within this frequency ranges. Consult your local authorities as these regulations may be out of date as they are subject to change at any time.
+
+Except where noted, all information taken from Annex J of IEEE 802.11-2007 + IEEE 802.11k-2008
+Countries apply their own regulations to both the allowable channels, allowed users and maximum power levels within this frequency ranges. Consult your local authorities as these regulations may be out of date as they are subject to change at any time.
+Note: The Japanese channels operating at 10 MHz of bandwidth operate at half the data rate as the channels with 20 MHz of bandwidth for the same modulation scheme.
+
+

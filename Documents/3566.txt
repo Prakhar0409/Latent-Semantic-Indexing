@@ -1,0 +1,27 @@
+Bass diffusion model
+The Bass diffusion model was developed by Frank Bass and describes the process of how new products get adopted as an interaction between users and potential users. It has been described as one of the most famous empirical generalisations in marketing, along with the Dirichlet model of repeat buying and brand choice [1]. The model is widely used in forecasting, especially product forecasting and technology forecasting. Mathematically, the basic Bass diffusion is a Riccati equation with constant coefficients.
+Frank Bass published his paper "A new product growth model for consumer durables" in 1969. [2] Prior to this, Everett Rogers published Diffusion of Innovations, a highly influential work that described the different stages of product adoption. Bass contributed some mathematical ideas to the concept. [3]
+This model has been widely influential in marketing and management science. In 2004 it was selected as one of the ten most frequently cited papers in the 50-year history of Management Science [4]. It was ranked number five, and the only marketing paper in the list. It was subsequently reprinted in the December 2004 issue of Management Science.[4]
+
+Where:
+Sales  is the rate of change of installed base (i.e. adoption)  multiplied by the ultimate market potential :
+The time of peak sales 
+
+The coefficient p is called the coefficient of innovation, external influence or advertising effect. The coefficient q is called the coefficient of imitation, internal influence or word-of-mouth effect.
+Typical values of p and q:[5]
+ 
+
+
+Bass found that his model fit the data for almost all product introductions, despite a wide range of managerial decision variable, e.g. pricing and advertising. This means that decision variable can shift the Bass curve in time, but that the shape of the curve is always similar.
+Although many extensions of the model have been proposed, only one of these reduces to the Bass model under ordinary circumstances.[4]. This model was developed in 1994 by Frank Bass, Trichy Krishnan and Dipak Jain:
+where  is a function of percentage change in price and other variables
+
+Technology products succeed one another in generations. Norton and Bass extended the model in 1987 for sales of products with continuous repeat purchasing. The formulation for three generations is as follows:[4]
+where
+It has been found that the p and q terms are generally the same between successive generations.
+
+There are two special cases of the Bass diffusion model.
+The Bass model is a special case of the Gamma/shifted Gompertz distribution (G/SG).
+Use in online social networks The rapid, recent (as of early 2007) growth in online social networks (and other virtual communities) has led to an increased use of the Bass diffusion model. The Bass diffusion model is used to estimate the size and growth rate of these social networks.
+
+

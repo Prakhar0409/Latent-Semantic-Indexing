@@ -1,0 +1,34 @@
+Modelica
+Modelica is an object-oriented, declarative, multi-domain modeling language for component-oriented modeling of complex systems, e.g., systems containing mechanical, electrical, electronic, hydraulic, thermal, control, electric power or process-oriented subcomponents. The free Modelica language[1] is developed by the non-profit Modelica Association[2]. The Modelica Association also develops the free Modelica Standard Library[3] that contains about 780 generic model components and 550 functions in various domains, as of version 3.0[1].
+
+While Modelica resembles object-oriented programming languages, such as C++ or Java, it differs in two important respects. First, Modelica is a modeling language rather than a true programming language. Modelica classes are not compiled, in the usual sense, but are translated into objects which are then exercised by a simulation engine. The simulation engine is not specified by the language, although certain required capabilities are outlined.
+Second, although classes may contain algorithmic components similar to statements or blocks in programming languages, their primary content is a set of equations. In contrast to a typical assignment statement, such as
+where the left-hand side of the statement is assigned a value calculated from the expression on the right-hand side, an equation may have expressions on both its right- and left-hand sides, for example,
+Equations do not describe assignment but equality. In Modelica terms, equations have no pre-defined causality. The simulation engine may (and usually must) manipulate the equations symbolically to determine their order of execution and which components in the equation are inputs and which are outputs.
+
+Commercial front-ends for Modelica include Dymola[4] from the Swedish company Dynasim AB (now part of Dassault Systemes), MathModelica System Designer from the Swedish company MathCore AB, SimulationX[5] from the German company ITI GmbH, LMS Imagine.Lab AMESim[6] from LMS International and MapleSim[7] from the Canadian company Maplesoft. Dassault Systemes selected Modelica for their product CATIA[8] (CATIA is one of the major CAD systems).
+The goal of the OpenModelica project[9] is to create complete Modelica modeling, compilation and simulation environment based on free software distributed in source code form intended for research purposes.
+The free simulation environment Scicos uses a subset of Modelica for component modeling. Support for a larger part of the Modelica language is currently under development.
+
+The following code fragment shows a very simple example of a first order system ():
+Interesting things to note about this example are the 'parameter' qualifier, which indicates that a given variable is time-invariant and the 'der' operator, which represents (symbolically) the time derivative of a variable. Also worth noting are the documentation strings that can be associated with declarations and equations.
+The main application area of Modelica is the modeling of physical systems. The most basic structuring concepts are shown at hand of simple examples from the electrical domain:
+
+Modelica has the 4 built-in types Real, Integer, Boolean, String. Typically, user-defined types are derived, to associate physical quantity, unit, nominal values and other attributes:
+
+The interaction of a component to other components is defined by physical ports, called connectors, e.g., an electrical pin is defined as:
+When drawing connection lines between ports, the meaning is that corresponding connector variables without the "flow" prefix are identical (here: "v") and that corresponding connector variables with the "flow" prefix (here: "i") are defined by a zero-sum equation (the sum of all corresponding "flow" variables is zero). The motivation is to automatically fulfill the relevant balance equations at the infinitesimal small connection point.
+
+A basic model component is defined by a model and contains equations that describe the relationship between the connector variables in a declarative form (i.e., without specifying the calculation order):
+The goal is that a connected set of model components leads to a set of differential, algebraic and discrete equations where the number of unknowns and the number of equations is identical. In Modelica this is achieved by requiring so called balanced models. This means that when "using" a model (making a model instance), all missing equations must be provided. From this requirement and the possibilities to provide missing equations for a model instance, e.g., by connecting connectors, Modelica requires in its simplest form that:
+Number of model equations = Number of unknowns - number of flow variables - number of inputs
+The Capacitor model above is balanced, since
+
+A hierarchical model is built-up from basic models, by instantiating basic models, provide suitable values for the model parameters, and by connecting model connectors. A typical example is the following electrical circuit:
+Via the language element annotation(...) definitions can be added to a model that do not have an influence on a simulation. Annotations are used to defined graphical layout, documentation, version information. A basic set of graphical annotations is standardized in order that the graphical appearance and layout of models in different Modelica tools is the same.
+
+Modelica is designed to be domain neutral and, as a result, is used in a wide variety of applications, such as fluid systems (e.g. steam power generation, hydraulics, etc), automotive applications (especially powertrain) and mechanical systems (e.g. multi-body systems, mechatronics, etc).
+In the automotive sector, many of the major automotive OEMs are using Modelica. These include Ford [10] [11] [12], General Motors [13], Toyota [14] and BMW [15]. Modelica is also been increasingly used for the simulation of thermo-fluid and energy systems [16].
+
+
+

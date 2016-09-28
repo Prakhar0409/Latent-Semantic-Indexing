@@ -1,0 +1,21 @@
+Liberation fonts
+Liberation is the collective name of three TrueType font families: Liberation Sans, Liberation Serif and Liberation Mono. These fonts are metric-compatible with Monotype Corporation's Arial, Times New Roman, and Courier New (respectively), the most commonly used fonts on Microsoft's Windows operating system and Office suite.[1] Liberation Sans and Liberation Serif were derived from Ascender Sans and Ascender Serif respectively; Liberation Mono uses base designs from Ascender Sans and Ascender Uni Duo.
+They are available under the GNU General Public License with a font embedding exception, which states that documents embedding these fonts do not automatically fall under the GNU GPL. Thus, these fonts permit FLOSS systems to have high-quality fonts that are metric-compatible with Microsoft software.
+
+The fonts were developed by Steve Matteson of Ascender Corp. as Ascender Sans and Ascender Serif. A variant of this font family, with the addition of a monospaced font and open-source license, was licensed by Red Hat, Inc. as the Liberation font family.[2]
+The fonts were developed in two stages. The first release was a set of fully usable fonts, but they lacked the full hinting capability. The second release, made available in the beginning of 2008, provides full hinting of the fonts.
+The Fedora Project, as of version 9, features slightly revised versions of the Liberation fonts contributed by Ascender. These include a slashed zero and various changes made for the benefit of internationalization.[3]
+
+Liberation Sans and Liberation Serif closely match the metrics of Monotype Corporation fonts Arial and Times New Roman, respectively.
+Liberation Mono is styled closer to Liberation Sans than Monotype's Courier New, though its metrics match with Courier New.
+The Liberation fonts are intended as free, open-source replacements of the aforementioned encumbered fonts.
+Comparison of Liberation Sans to Arial
+Comparison of Liberation Serif to Times New Roman
+Comparison of Liberation Mono to Courier New
+All three fonts support code pages 437, 737, 775, 850, 852, 855, 857, 860, 861, 863, 865, 866, 869, 1250, 1251, 1252, 1253, 1254, 1257, the Macintosh Character Set (US Roman), and the Windows OEM character set,
+
+This license for the Liberation fonts adds several clauses to the base GPL. The debian-legal mailing list, a list for discussing legal issues in Debian software, has discussed the impact of a clause requiring physical products including the fonts to make it possible for users to access, modify, and reinstall the fonts on the product. Concerns about this clause making the fonts non-redistributable or perhaps violating the copyright of Free Software Foundation on the GPL were raised. However, the concern seems to be only limited to Debian distributions. There is also a claim that the extra clause only serves to confuse unqualified readers, not to contradict GPL.[4]
+The licensing issues though appear to have been resolved since Liberation fonts were accepted on Debian on 21 June 2008.[5][6][7]
+
+
+

@@ -1,0 +1,47 @@
+DVB-H
+DVB-H (Digital Video Broadcasting - Handheld) is one of three prevalent mobile TV formats. It is a technical specification for bringing broadcast services to mobile handsets. DVB-H was formally adopted as ETSI standard EN 302 304 in November 2004. The DVB-H specification (EN 302 304) can be downloaded from the official DVB-H website.[1] From March 2008, DVB-H is officially endorsed by the European Union as the "preferred technology for terrestrial mobile broadcasting".[2][3][4][5] The major competitor of this technology is Digital Multimedia Broadcasting (DMB). DVB-SH (Satellite services to Handhelds) now and DVB-H2 in the future are possible enhancements to this technology, providing improved spectral efficiency and better modulation flexibility.
+
+DVB-H technology is a superset of the very successful DVB-T (Digital Video Broadcasting - Terrestrial) system for digital terrestrial television, with additional features to meet the specific requirements of handheld, battery-powered receivers.
+DVB-H can offer a downstream channel at high data rates which can be used as standalone or as an enhancement of mobile telecommunication networks which many typical handheld terminals are able to access anyway.
+Time slicing technology is employed to reduce power consumption for small handheld terminals. IP datagrams are transmitted as data bursts in small time slots. Each burst may contain up to two megabits of data (including parity bits). There are 64 parity bits for each 191 data bits, protected by Reed-Solomon codes. The front end of the receiver switches on only for the time interval when the data burst of a selected service is on air. Within this short period of time a high data rate is received which can be stored in a buffer. This buffer can either store the downloaded applications or playout live streams.
+The achievable power saving depends on the relation of the on/off-time. If there are approximately ten or more bursted services in a DVB-H stream, the rate of the power saving for the front end could be up to 90%. DVB-H is a technical system which was carefully tested by the DVB-H Validation Task Force in the course of 2004 (see ETSI Technical Report TR 102 401). DVB-SH recently improved radio performances and can be seen as an evolution of DVB-H.
+DVB-H is designed to work in the following bands:
+DVB-SH now and DVB-H2 in the near future are expected to expand the supported bands.
+DVB-H can coexist with DVB-T in the same multiplex.
+
+The set of DVB specifications for IP Datacasting (DVB-IPDC) can most simply be described as the essential components required to deploy a commercial mobile TV service based on Internet Protocol. DVB-IPDC is a set of systems layer specifications originally designed for use with the DVB-H physical layer, but that will ultimately be used as a higher layer for all DVB mobile TV systems, including DVB-SH, and indeed as a higher layer for any other IP capable system.
+In short, with regard to mobile TV, these specifications define what is delivered, how it is delivered, how it is described, and how it is protected. They cover system architecture, use cases, DVB PSI/SI signalling, electronic service guide (ESG), content delivery protocols (CDP), and service purchase and protection (SPP). Almost all of these have now been published as formal ETSI standards. The full set of DVB-IPDC specifications is available from dvb-h.org.
+
+A study mission on a possible DVB-H2 system is due to commence in 2007 which could produce a finalized specification in 2008. It is not unthinkable that DVB-H2 and DVB-T2 specifications will be interrelated systems.
+
+
+A comprehensive list of DVB-H trials and service launches is available from dvb-h.org.
+In Finland, the license to operate a DVB-H network was awarded to Digita in March 2006. In May 2006 they announced that they had signed a contract with Nokia to use its DVB-H platform for the service. The network was supposed to be launched on the 1 December 2006, but disagreements regarding copyrights of the broadcasted material have stalled the launch. Among the services available will be Voice TV and Kiss digital radio. Initially the network should cover 25% of the population with coverage area Helsinki, Oulu and Turku. Mobiili-TV started commercial services on May 10 2007.[citation needed]
+In India, Indian public broadcaster Prasar Bharti (also known as DD for Doordarshan) started DVB-H trials in various metropolitan areas to test the reception quality of the broadcast coverage. Moreover, DD is currently broadcasting 8 channels in the New Delhi[6].
+In Italy, 3 Italia and Reti Radiotelevisive Digitali[7] launched nationwide services in May 2006 (technology used [8]), both Telecom Italia Mobile (TIM) and Mediaset in June 2006, Vodafone in December 2006. DVB OSF was the adopted security standard in this country. Since June 2008, 3 Italia has made some channels free on Dvb-h for all the users.
+In Singapore, M1, StarHub, Singtel and Mediacorp launches for Beijing Olympics a nationwide DVB-H pilot adopting OMA BCAST SmartCard profile.
+In the Philippines, SMART had launched its Mobile TV services, called MyTV. It is only available on the Nokia N92 and N77 mobile phone due to incompatibility of the current system with other security technologies such as DVB OSF, the one supported by all other handset manufacturers. However, with transition to OMA SmartCard Profile, it is yet to be available on other mobile phones models. This transition is not foreseen by end of 2008.[9] [10]
+In the United States, Crown Castle had rolled out a DVB-H offering through a company they created called Modeo in 2006. It was initially offered in New York, but it was eventually*Turned Off in 2007. Modeo was attempting to compete head-to-head with MediaFLO; which is both a Mobile TV company and Mobile TV Standard created by Qualcomm.
+At the NAB trade show in April 2006, a second service launch was announced by SES Americom, Aloha Partners and Reti Radiotelevisive Digitali. Titled Hiwire Mobile Television, the service is set to begin trials in Las Vegas in Q4 2006. Hiwire owns two 6 MHz channels of spectrum at 700 MHz covering most of the country.
+In Albania, DigitAlb and GrassValley launched the service on December 20, 2006 with free access up to the end of 2008. The package consists of 16 channels and covers 65% of the territory as of August 2007.
+In Vietnam, VTC launched nationwide service on 21 December 2006. Similar issue to Smart in Philippines, the system was supporting only few Nokia handsets that limited the take-off of the service.
+O2 Ireland commenced a trial in March 2007 with a single high site 1.2 kW transmitter at Three Rock covering the greater Dublin area.
+In France, Spain and South Africa nationwide service launch is planned for 2008 or 2009, However, the unavailability of the UHF frequencies keeps on delaying services launches.
+In Austria DVB-H is available since the start of UEFA Euro 2008 as result of a joint effort between Media Broad and the mobile operators Three and one[11]
+In Morocco, the service has been launched in May 2008.
+In Switzerland DVB-H is available since the start of UEFA Euro 2008 thanks to Swisscom.
+In Germany the future of DVB-H is still unknown due to continues issues with the license and open questions about the business model, in particular which role operators play in it and if they are willing to do so.[12]
+In China, two companies have been issued licenses by the government, Shanghai Media Group and China Central Television. Trials are currently underway, with service launch expected before the 2008 Beijing Olympics. However, in this country, S-timi seems to be the standard the most deployed in 2008.[citation needed]
+In Malaysia, U Mobile, the fourth telecom operator and the country's newest 3G service provider announced commercial availability of a mobile broadcast TV service based on DVB-H technology before the end of 2007. The service will be called Mobile LiveTV.[13]
+Kenya has a DVB-H service, DStv Mobile, which was launched in Nairobi by South African company Digital Mobile TV. Consumers will receive a package of ten DStv channels through their mobile phones at a cost of Sh1,000 per month. The channels will include SuperSport Update, SuperSport 2, SuperSport 3, CNN International, Big Brother Africa and Africa Magic.
+In Iran, DVB-H services began in Tehran in March 2008. The service brings ten television and four radio channels to mobile phones.[14]
+In Estonia, DVB-H service started testing phase in May 2008 with Levira and EMT. Currently offering 15 TV-stations, the service should go into commercial use later next year.
+In The Netherlands, KPN launched a DVB-H service on the 29th of May 2008. The service offers 10 channels, 1 channel specially made for the service and 9 channels which are converted regular broadcasts. [15]
+
+
+
+
+
+
+
+Advanced Wireless Services  Â· Amateur television  Â· Analog television  Â· Digital radio  Â· Digital television  Â· 

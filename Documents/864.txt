@@ -1,0 +1,16 @@
+Elk Cloner
+Elk Cloner is one of the first known microcomputer viruses that spread "in the wild," i.e., outside the computer system or lab in which it was written. It was written around 1982 by a 15-year-old high school student named Rich Skrenta for Apple II systems.
+
+Elk Cloner spread by infecting the Apple II operating system using a technique now known as a "boot sector" virus. If a computer booted from an infected floppy disk, a copy of the virus was placed in the computer's memory. When an uninfected disk was inserted into the computer, Elk Cloner would be copied to the disk, thus allowing it to spread from disk to disk.
+An infected computer would display a short poem on every 50th boot. Elk Cloner did not cause deliberate harm, but Apple DOS disks without a standard image had their reserved tracks overwritten.[1] The aforementioned poem follows:
+It will get on all your disks
+It will infiltrate your chips
+Yes, it's Cloner!
+It will stick to you like glue
+It will modify RAM too
+
+Elk Cloner was created in 1982 by Rich Skrenta, a 15-year-old high school student. Skrenta was already distrusted by his friends because, in illegally sharing computer games and software, he would often alter the floppy disks to shut down or display taunting on-screen messages. Because his friends no longer trusted his disks, Skrenta thought of methods to alter floppy disks without physically touching them. During a winter break from the Mt. Lebanon High School in Pennsylvania, United States, Skrenta discovered how to launch the messages automatically on his Apple II computer. He developed what is now known as a boot sector virus, and began circulating it in early 1982 among high school friends and a local computer club. 25 years later in 2007, Skrenta called it "some dumb little practical joke."[2][3][4]
+
+According to contemporary reports, the virus was rather contagious, successfully infecting the floppies of most people Skrenta knew, and upsetting many of them. Part of the "success," of course, was that people were not at all wary of the potential problem (virus infection could have been avoided by not inserting floppies into computers without hard-booting them first), nor were virus scanners or cleaners available. The virus could still be removed, but it required an elaborate manual effort.
+
+

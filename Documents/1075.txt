@@ -1,0 +1,11 @@
+ID3 algorithm
+ID3 (Iterative Dichotomiser 3) is an algorithm used to generate a decision tree invented by Ross Quinlan.[1]
+The algorithm is based on Occam's razor: it prefers smaller decision trees (simpler theories) over larger ones. However, it does not always produce the smallest tree, and is therefore a heuristic. Occam's razor is formalized using the concept of information entropy:
+The ID3 algorithm can be summarized as follows:
+An explanation of the implementation of ID3 can be found at C4.5 algorithm, which is an extended version of ID3.
+
+The actual algorithm is as follows:
+ID3 (Examples, Target_Attribute, Attributes)
+
+
+

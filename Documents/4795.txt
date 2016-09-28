@@ -1,0 +1,9 @@
+Schedule (project management)
+In project management, a schedule consists of a list of a project's terminal elements with intended start and finish dates.
+
+Before a project schedule can be created, a project manager should typically have a work breakdown structure (WBS), an effort estimate for each task, and a resource list with availability for each resource. If these are not yet available, it may be possible to create something that looks like a schedule, but it will essentially be a work of fiction. They can be created using a consensus-driven estimation method like Wideband Delphi. The reason for this is that a schedule itself is an estimate: each date in the schedule is estimated, and if those dates do not have the buy-in of the people who are going to do the work, the schedule will be inaccurate.
+In many industries, such as engineering and construction, the development and maintenance of the project schedule is the responsibility of a full time scheduler or team of schedulers, depending on the size of the project. And though the techniques of scheduling are well developed, they are inconsistently applied throughout industry. Standardization and promotion of scheduling best practices are being pursued by the Association for the Advancement of Cost Engineering (AACE), the Project Management Institute (PMI). In some large corporations, scheduling, as well as cost, estimating, and risk management are organized under the department of project controls.[citation needed]
+Many project scheduling software products exist which can do much of the tedious work of calculating the schedule automatically, and plenty of books and tutorials dedicated to teaching people how to use them. However, before a project manager can use these tools, he or she should understand the concepts behind the WBS, dependencies, resource allocation, critical paths, Gantt charts and earned value. These are the real keys to planning a successful project.[citation needed]
+
+
+

@@ -1,0 +1,25 @@
+data URI scheme
+The data URI scheme is a URI scheme that provides the ability to include data items in-line in a web page as if they were being referenced as external resources. They tend to be simpler than alternative inclusion methods, such as MIME with cid or mid URIs. Data URIs are a form of Uniform Resource Locators, although they do not actually remotely locate anything. The data URI scheme is defined in RFC 2397 of the Internet Engineering Task Force.
+Although the IETF published the data URI specification in 1998,[1] they never formally adopted it as a standard.[2] Nonetheless, the HTML 4.01 specification references the data URI scheme[3] and data URIs have now been implemented in most browsers.
+
+Data URIs are currently supported by the following web browsers:
+
+
+
+The encoding is indicated by ;base64. If it's present the data is encoded as base64. Without it the data (as a sequence of octets) is represented using ASCII encoding for octets inside the range of safe URL characters and using the standard %xx hex encoding of URLs for octets outside that range. If <MIME-type> is omitted, it defaults to text/plain;charset=US-ASCII. (As a shorthand, the type can be omitted but the charset parameter supplied.)
+
+
+An HTML fragment embedding a picture of a small red dot:
+As demonstrated above, data URIs may contain whitespace for readability.
+
+A CSS rule that includes a background image:
+
+A JavaScript statement that opens an embedded subwindow, as for a footnote link:
+This example does not work with Internet Explorer 8 due to its security restrictions that prevent navigable file types from being used.[4]
+
+Because base64-encoded data URIs are not human readable, a website author might prefer the encoded data be included in the page via a scripting language such as PHP. This has the advantage that if the included file changes, no modifications need to be made to the HTML file, and also of keeping a separation between binary data and text based formats. Disadvantages include greater server CPU use unless a server-side cache is used.
+Similarly, if CSS is processed by PHP, the above function may also be used:
+In either case, client or server side features/UA detection/discrimination systems, (like conditional comments) may be used to provide a standard http: URL for Internet Explorer and other older browsers.
+
+
+

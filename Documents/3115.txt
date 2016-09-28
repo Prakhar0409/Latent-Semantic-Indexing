@@ -1,0 +1,19 @@
+Live USB
+A live USB is a USB flash drive or a USB external hard disk drive containing a full operating system which can be booted. Live USBs are closely related to live CDs, but typically have the ability to save settings and permanently install software packages back onto the USB device. Like live CDs, live USBs can be used in embedded systems for system administration, data recovery, or the testing of operating system distributions without committing to a permanent installation on the local hard disk drive. Many operating systems including Microsoft Windows XP Embedded and many of the Linux distributions and BSDs can also be used from a USB flash drive.
+
+Proposed by IBM in 2004, in the papers "Reincarnating PCs with Portable SoulPads" (PDF & Summary) and Boot Linux from a FireWire device.
+
+Live USBs share many of the benefits and limitations of live CDs.
+
+Various applications exist to create live USBs; examples include the Fedora Live USB Creator and UNetbootin, which works with a variety of distributions. A few Linux distribution and live CDs have ready-made scripts which perform the steps below automatically. In addition on some, extra applications can be installed, and a persistent file system can be used to store changes.
+To install a live USB system on a memory stick the following steps need to be done:
+
+
+The first type of live USB is created by simply taking the ISO image file from a live CD distribution and placing it on USB storage device and then making it bootable.
+
+The second type of live USB is closely related to a traditional operating system hard drive install with minor modifications like the elimination of swap partitions and files.
+
+
+Sh (for linux) & bat (for windows) are scripts that make a usb storage device bootable (they are often used after extracting files to the formatted media)
+
+

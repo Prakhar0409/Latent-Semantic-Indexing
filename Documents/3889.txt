@@ -1,0 +1,19 @@
+ETAOIN SHRDLU
+ETAOIN SHRDLU is the approximate order of frequency of the twelve most commonly used letters in the English language, best known as a nonsense phrase that sometimes appeared in print in the days of "hot type" publishing due to a custom of Linotype machine operators.
+
+The letters on Linotype keyboards were arranged by letter frequency, so ETAOIN SHRDLU were the first two vertical columns on the left side of the keyboard. Linotype operators who had made a typing error could not easily go back to delete it, and had to finish the line before they could eject the slug and re-key a new one. Since the line with the error would be discarded and hence its contents didn't matter, the quickest way to finish the line was to run a finger down the keys, creating this nonsense phrase.
+If the slug with the error made it as far as the compositors, the distinctive set of letters served to quickly identify it for removal. Occasionally, however, the phrase would be overlooked and get printed erroneously. This happened often enough that the ETAOIN SHRDLU is listed in the Oxford English Dictionary and in the Random House Webster's Unabridged Dictionary.
+It also became part of the lore of newspapers. A documentary about the last issue of The New York Times to be composed in the hot-metal printing process (2 July 1978) was entitled Farewell, Etaoin Shrdlu.[1]
+Operators could correct an assembled line of matrices in the assembler by rearranging them by hand, or by picking out individual matrices ("mats") to "delete" a character, temporarily placing the rejected mats in a tray attached to the machine for this purpose. In the example on this page, the operator wanted to return an "m," a spaceband and an "e" to the machine, so after casting the final line of the story he placed the rejects in the empty assembler, filled the line by running a finger down the keys (with a spaceband between each line), added a few em spaces, and sent the line of mats through.
+
+
+
+
+The writer Denys Parsons wrote several books compiling misprints from publications (It Must be True, Can It Be True?, etc.) in which a character called Gobfrey Shrdlu (with a Welsh wife called Cmfwyp and a son called Etaoin) was supposedly responsible for all such occurrences.
+
+
+
+Letter frequency studies of European languages have indicated the French frequency as 'esait nrulo'; the German version as 'enis ratulo'; the Spanish version as 'eaosr niltu'; the Italian as 'aeion lrtsu', the Swedish as 'eantr sildo' and the Esperanto as 'aieon lsrtu'. These all being European languages with the similar basic 25+ character alphabet.
+
+
+

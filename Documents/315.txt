@@ -1,0 +1,21 @@
+Features removed from Windows Vista
+Overview
+Technical and core system
+Security and safety
+Networking technologies
+I/O technologies
+Management and administration
+Removed features
+Editions
+Development history
+Criticism
+Mojave Experiment
+While Windows Vista contains many new features, a number of capabilities and certain programs that were a part of Windows XP are no longer present or changed, resulting in the removal of certain functionality. The following is a list of features which were present in Windows XP but which have been removed in Windows Vista.
+
+
+
+
+
+
+
+

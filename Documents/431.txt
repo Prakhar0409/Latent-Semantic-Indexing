@@ -1,0 +1,15 @@
+Audio and video connector
+Audio connectors and video connectors are electrical connectors for carrying an audio signal or video signal, either in an analog or digital format. Analog A/V connectors often use Shielded cable to inhibit RF interference and noise.
+
+Audio connectors are electrical connectors designed and used for audio frequencies. They can be analogue or digital. Common audio connectors include:
+
+For computers:
+There are exceptions to the above:
+
+Video connectors carry only video signals. Common video-only connectors include:
+
+Newer connectors are identified by their shape and not their colour.
+
+Some connectors can carry both audio and video signals simultaneously:
+Other composite connectors carry video, power, and USB:
+

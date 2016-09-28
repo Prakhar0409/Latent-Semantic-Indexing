@@ -1,0 +1,13 @@
+TOP500
+The TOP500 project ranks and details the 500 most powerful known computer systems in the world. The project was started in 1993 and publishes an updated list of the supercomputers twice a year. The project aims to provide a reliable basis for tracking and detecting trends in high-performance computing and bases rankings on HPL, a portable implementation of the High-Performance LINPACK benchmark for distributed-memory computers.
+The TOP500 list is compiled by Hans Meuer of the University of Mannheim, Germany, Jack Dongarra of the University of Tennessee, Knoxville, Erich Strohmaier and Horst Simon of NERSC/Lawrence Berkeley National Laboratory.
+The list is updated twice a year. The first of these updates always coincides with the International Supercomputer Conference in June, the second one is presented in November at the IEEE Super Computer Conference in the USA.
+
+In the early 1990s, a new definition of supercomputer was needed to produce meaningful statistics. After experimenting with metrics based on processor count in 1992, the idea was born at the University of Mannheim to use a detailed listing of installed systems as the basis. Early 1993 Jack Dongarra was convinced to join the project with his Linpack benchmark. A first test version was produced in May 1993, partially based on data available on the Internet, including the following sources:[1][2]
+The information from those sources was used for the first two lists. Since June 1993 the TOP500 is produced bi-annually based on site and vendor submissions only.
+
+
+The following table gives the Top 10 positions of the 32nd TOP500 List released during the ISC08 conference, November 14, 2008 in Austin, Texas.[3]
+
+
+

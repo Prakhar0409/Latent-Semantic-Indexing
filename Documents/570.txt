@@ -1,0 +1,18 @@
+Generic Security Services Application Program Interface
+The Generic Security Services Application Program Interface (GSSAPI, also GSS-API) is an application programming interface for programs to access security services.
+The GSSAPI is an IETF standard that addresses the problem of many similar but incompatible security services in use today.
+
+The GSSAPI, by itself, does not provide any security. Instead, security service vendors provide GSSAPI implementations usually in the form of libraries installed with their security software. These libraries present a GSSAPI-compatible interface to application writers who can write their application to use only the vendor-independent GSSAPI. If the security implementation ever needs replacing, the application need not be rewritten.
+The definitive feature of GSSAPI applications is the exchange of opaque messages (tokens) that hide the implementation detail from the higher level application. The client and server sides of the application are written to convey the tokens given to them by their respective GSSAPI implementations. GSSAPI tokens can usually be sent over an insecure network as the mechanisms provide inherent message security. After some number of tokens have been exchanged, the GSSAPI implementations at both ends inform their local application that a security context has been established.
+Once a security context is established, sensitive application messages can be wrapped (encrypted) by the GSSAPI for secure communication between client and server. Typical protections guaranteed by GSSAPI wrapping include confidentiality (secrecy) and integrity (authenticity). The GSSAPI can also provide local guarantees about the identity of the remote user or remote host.
+The GSSAPI describes about 45 procedure calls. Significant ones include:
+The GSSAPI has been standardised for the C and Java languages.
+Limitations of the GSSAPI include that it standardizes only authentication, and not authorization, and that it assumes a client-server architecture.
+Anticipating new security mechanisms, the GSSAPI includes a negotiating pseudo mechanism, SPNEGO, that can discover and use new mechanisms not present when the original application was built.
+
+The dominant GSSAPI mechanism implementation in use is Kerberos. Unlike the GSSAPI, the Kerberos API has not been standardized and various existing implementations use incompatible APIs. The GSSAPI allows Kerberos implementations to be API compatible.
+
+
+
+
+

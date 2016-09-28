@@ -1,0 +1,12 @@
+Fink
+In computing, the Fink project is an effort to port Unix programs to Mac OS X. Fink uses dpkg and APT (Debian's package management system), as well as its own frontend program, fink (which is implemented as a set of Perl modules).
+
+Fink features a binary distribution for quick and easy installation, as well as a source distribution for users preferring more flexibility. In addition to command-line tools for handling packages, FinkCommander provides a GUI. The user can configure Fink to utilize the stable or unstable tree for packages. The unstable tree typically has newer releases, but has not stood the test of time.
+Fink can be used to install newer versions of packages installed by Mac OS X or to install packages not included in Mac OS X. Fink stores all its data in the directory "/sw" by default (though this can be changed if initially compiling fink itself from source code). This goes against the Filesystem Hierarchy Standard's recommendation to use "/usr/local"; the reasons given in the Fink FAQ are that other installers might overwrite Fink's files under "/usr/local", and that having an entirely separate directory makes it easier to disable the binaries and libraries that Fink installs.[1] Within Fink's directory, a FHS-like layout (/sw/bin, /sw/include, /sw/lib, etc.) is used.
+
+The Fink project was started in December 2000 by German hacker Christoph Pfisterer. The name "Fink" is German for finch and is related to the Darwin operating system (that lies at the core of Mac OS X), through Charles Darwin's study of diversity among finches.
+Christoph Pfisterer left the project[2] out of frustration in November of 2001. Since then, several people have stepped in and picked up support for Fink and as of March 2008, the project is managed by 6 administrators, 89 developers, and a very active community.
+The Fink community released support for Mac OS X v10.4 on 18 Feb. 2006 and for Mac OS X Leopard on the day it was released (26 October 2007).
+
+
+

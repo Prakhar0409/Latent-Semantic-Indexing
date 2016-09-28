@@ -1,0 +1,52 @@
+Interval (music)
+In music theory, the term interval describes the relationship between the pitches of two notes.
+Intervals may be described as:
+Interval class is a system of labelling intervals when the order of the notes is left unspecified, therefore describing an interval in terms of the shortest distance possible between its two pitch classes.[2]
+
+Intervals may be labelled according to the ratio of frequencies of the two pitches. Important intervals are those using the lowest integers, such as 1:1 (unison or prime), 2:1 (octave), 3:2 (perfect fifth), 4:3 (perfect fourth), etc. This system is frequently used to describe intervals in both Western and non-Western music. This method is also often used in just intonation, and in theoretical explanations of equal-tempered intervals used in European tonal music, to explain them through their approximation of just intervals.
+
+In Western harmonic theory, intervals are labeled according to the number of scale steps or staff positions they encompass, as shown at right.
+Intervals larger than an octave are called compound intervals; for example, a tenth is known as a compound third.[3] The quality of the compound interval is determined by the quality of the interval on which it is based. For example, a perfect eleventh is the same as a compound perfect fourth.
+Intervals larger than a thirteenth are rarely spoken of, since going above this by stacking thirds would result in a double octave (but see 8va for use of 15ma).[citation needed]
+The name or the label of an interval is determined by counting the number of degrees between the two notes beginning with one for the lower note. The number of degrees between F and B for example is 4, therefore the interval is a fourth.
+The name of any interval is further qualified using the terms perfect, major, minor, augmented, and diminished. This is called its interval quality.
+It is possible to have doubly-diminished and doubly-augmented intervals, but these are quite rare.
+The name of an interval cannot, in general, be determined by counting semitones alone. For example, there are four semitones between B and E♭, however this interval is a diminished fourth rather than a major third; a relatively rare interval and one which does not appear naturally as part of the harmonic minor scale. In equal-tempered tuning, as on a piano, these intervals are indistinguishable by sound, but the diatonic function of the notes incorporated might be very different.
+
+A diatonic interval is an interval formed by two notes of a diatonic scale. The table on the right depicts all diatonic intervals for C major. As the diatonic functions are similarly common to each and every major key, the contents of the table can be summarised as follows:
+
+Intervals are often abbreviated with a P for perfect, m for minor, M for major, d for diminished, A for augmented, followed by the diatonic interval number. The indication M and P are often omitted. The octave is P8, and a unison is usually referred to simply as "a unison" but can be labeled P1. The tritone, an augmented fourth or diminished fifth is often π or TT. Examples:
+For use in describing chords, the sign + is used for augmented and ° for diminished. Furthermore the 3 for the third is often omitted, and for the seventh, the plain form stands for the minor interval, while the major is indicated by maj. So for example:
+
+Two intervals are considered to be enharmonic, or enharmonically equivalent, if they both contain the same pitches spelled in different ways; that is, if the notes in the two intervals are themselves enharmonically equivalent. Enharmonic intervals span the same number of semitones. For example, as shown in the matrix below, F♯–A♯ (a major third), G♭–B♭ (also a major third), F♯–B♭ (a diminished fourth), and G♭–A♯ (a double augmented second) are all enharmonically equivalent — and they all span four semitones.
+
+Linear (melodic) intervals may be described as steps or skips in a diatonic context. Steps are linear intervals between consecutive scale degrees while skips are not, although if one of the notes is chromatically altered so that the resulting interval is three semitones or more (e.g. C to D♯), that may also be considered a skip. However, the reverse is not true: a diminished third, an interval comprising two semitones, is still considered a skip.
+The words conjunct and disjunct refer to melodies composed of steps and skips, respectively.
+
+Post-tonal or atonal theory, originally developed for equal tempered European classical music written using the twelve tone technique or serialism, integer notation is often used, most prominently in musical set theory. In this system intervals are named according to the number of half steps, from 0 to 11, the largest interval class being 6.
+
+In atonal or musical set theory there are numerous types of intervals, the first being ordered pitch interval, the distance between two pitches upward or downward. For instance, the interval from C to G upward is 7, but the interval from G to C downward is −7. One can also measure the distance between two pitches without taking into account direction with the unordered pitch interval, somewhat similar to the interval of tonal theory.
+The interval between pitch classes may be measured with ordered and unordered pitch class intervals. The ordered one, also called directed interval, may be considered the measure upwards, which, since we are dealing with pitch classes, depends on whichever pitch is chosen as 0. For unordered pitch class interval see interval class.
+
+In diatonic set theory, specific and generic intervals are distinguished. Specific intervals are the interval class or number of semitones between scale degrees or collection members, and generic intervals are the number of scale steps between notes of a collection or scale.
+
+The standard system for comparing intervals of different sizes is with cents. This is a logarithmic scale in which the octave is divided into 1200 equal parts. In equal temperament, each semitone is exactly 100 cents. The value in cents for the interval f1 to f2 is 1200×log2(f2/f1).
+
+It is possible to construct just intervals which are closer to the equal-tempered equivalents, but most of the ones listed above have been used historically in equivalent contexts. In particular the tritone (augmented fourth or diminished fifth), could have other ratios; 17:12 (603 cents) is fairly common. The 7:4 interval (the harmonic seventh) has been a contentious issue throughout the history of music theory; it is 31 cents flatter than an equal-tempered minor seventh. Some[who?] assert the 7:4 is one of the blue notes used in jazz.
+In the diatonic system, every interval has one or more enharmonic equivalents, such as augmented second for minor third.
+
+Consonance and dissonance are relative terms referring to the stability, or state of repose, of particular musical effects. Dissonant intervals would be those which cause tension and desire to be resolved to consonant intervals.
+These terms are relative to the usage of different compositional styles.
+All of the above analyses refer to vertical (simultaneous) intervals.
+
+An interval may be inverted, by raising the lower pitch an octave, or lowering the upper pitch an octave (though it is less usual to speak of inverting unisons or octaves). For example, the fourth between a lower C and a higher F may be inverted to make a fifth, with a lower F and a higher C. Here are the ways to identify interval inversions:
+
+Although intervals are usually designated in relation to their lower note, David Cope[4] and Hindemith[6] both suggest the concept of interval root. To determine an interval's root, one locates its nearest approximation in the harmonic series. The root of a perfect fourth, then, is its top note because it is an octave of the fundamental in the hypothetical harmonic series. The bottom note of every odd diatonically numbered intervals are the roots, as are the tops of all even numbered intervals. The root of a collection of intervals or a chord is thus determined by the interval root of its strongest interval.
+As to its usefulness, Cope[4] provides the example of the final tonic chord of some popular music being traditionally analyzable as a "submediant six-five chord" (added sixth chords by popular terminology), or a first inversion seventh chord (possibly the dominant of the mediant V/iii). According the interval root of the strongest interval of the chord (in first inversion, CEGA), the perfect fifth (C–G), is the bottom C, the tonic.
+
+Interval cycles, "unfold a single recurrent interval in a series that closes with a return to the initial pitch class", and are notated by George Perle using the letter "C", for cycle, with an interval class integer to distinguish the interval. Thus the diminished seventh chord would be C3 and the augmented triad would be C4. A superscript may be added to distinguish between transpositions, using 0–11 to indicate the lowest pitch class in the cycle. [7]
+
+There are also a number of intervals not found in the chromatic scale or labeled with a diatonic function which have names of their own. Many of these intervals describe small discrepancies between notes tuned according to the tuning systems used. Most of the following intervals may be described as microtones.
+See List of Musical Intervals for more.
+See Musical interval mnemonics at Wikibooks for popular musical fragments that feature common intervals
+

@@ -1,0 +1,18 @@
+Cantenna
+A cantenna is a directional waveguide antenna for long-range Wi-Fi used to increase the range of (or snoop on) a wireless network.
+
+The term 'Cantenna' originally referred to a product sold by Heathkit Co. in Benton Harbor, MI, USA. It was a 50-ohm resistive load used by radio amateurs.[1] However, in the more casual vernacular of the Do-It-Yourself community, it has functionally become a portmanteau of can (i.e. an empty Pringles can, see below) and antenna, since they're used to broadcast (and receive) signals, and not just terminate them.
+
+Although the original design was based on a Pringles potato chip can, a cantenna can be made from various cans/bottles. These include antennas on both the ground and antennas heightened by means of a pole. [2]
+
+A commonly used construction - which is quick, easy, and inexpensive due to use of readily obtained materials - is as follows:
+
+A cantenna may be optimized by using a can with the right measurements. Effective sizes include:
+The addition of a pole or other method of elevation can also increase the range tremendously.
+Other antenna-designs using WiFi dongles may also be created, for instance omnidirectional, sectoral, yagi-antennas, quad-antennas and biquad-antennas[5], and parabolic dishes or grids. At present, the most potent antenna for its size is a waveguide, but they have a relatively narrow signal path.
+Several documents have been open-sourced to create these different types of antenna yourself, with one of the most popular[citation needed] (open-source) books now being the Wireless Hacks by Rob Flickenger [6] For extra references and pictures, the Instructables websites may also be used. [7]
+
+While cantennas are useful for extending a wireless local area network (WLAN), the tiny design makes them ideal for mobile applications such as wardriving. The design of the cantenna is so simple that it is often the first antenna WiFi experimenters learn to build. Cantennas can even be used to increase cell phone range,[8] improving reception and decreasing noise.
+
+
+

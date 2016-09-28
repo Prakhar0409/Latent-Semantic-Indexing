@@ -1,0 +1,10 @@
+WikidPad
+WikidPad is an open source, Python-based wiki-like outliner for storing thoughts, ideas, todo lists, contacts, and other notes with Wiki-like linking between pages.
+WikidPad is a note taking application that incorporates wiki links between pages. The system uses a database to tie together individual text documents that the user creates into a Wiki-like notepad. Wiki-links can be created by writing a word in CamelCase or enclosing a word or words with single brackets. This creates an easy way to create a mini-wiki on a certain subject easily. Single Wiki pages and complete Wikis can be exported to HTML.
+WikidPad was invented by Jason Horman who released it under his own open source license, similar to BSD license, in June 2005. Since October 2005 Michael Butscher has been the main developer of WikidPad.
+
+
+WikidPad can store notes in plain text or a SQLite database. When storing notes as text, the program can use SQLite or Gadfly to index the text files.
+
+
+

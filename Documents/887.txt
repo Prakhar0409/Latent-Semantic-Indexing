@@ -1,0 +1,12 @@
+Reverse Ajax
+Reverse Ajax refers to an Ajax design pattern that uses long-lived HTTP connections to enable low-latency communication between a web server and a browser. Basically it is a way of sending data from client to server and a mechanism for pushing server data back to the browser.[1][2]
+This server–client communication takes one of two forms:
+Reverse Ajax describes the implementation of any of these models, including a combination of both. The design pattern is also known as Ajax Push, Full Duplex Ajax and Streaming Ajax.
+
+The following is a simple example. Imagine we have 2 clients and 1 server, and client1 wants to send the message "hello" to every other client.
+With traditional Ajax (polling):
+With reverse Ajax (pushing):
+Note that with reverse Ajax less traffic is generated and the message has been transferred with less delay (low-latency).
+
+
+

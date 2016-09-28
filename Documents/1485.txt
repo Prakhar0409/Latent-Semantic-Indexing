@@ -1,0 +1,24 @@
+Logarithmic spiral
+A logarithmic spiral, equiangular spiral or growth spiral is a special kind of spiral curve which often appears in nature. The logarithmic spiral was first described by Descartes and later extensively investigated by Jakob Bernoulli, who called it Spira mirabilis, "the marvelous spiral".
+
+In polar coordinates (r,θ) the curve can be written as[1]
+or
+with e being the base of natural logarithms, and a and b being arbitrary positive real constants.
+In parametric form, the curve is
+with real numbers a and b.
+The spiral has the property that the angle ɸ between the tangent and radial line at the point (r,θ) is constant. This property can be expressed in differential geometric terms as
+The derivative  is proportional to the parameter b. In other words, it controls how "tightly" and in which direction the spiral spirals. In the extreme case that b = 0 () the spiral becomes a circle of radius a. Conversely, in the limit that b approaches infinity (ɸ → 0) the spiral tends toward a straight line. The complement of ɸ is called the pitch.
+
+Spira mirabilis, Latin for "miraculous spiral", is another name for the logarithmic spiral. Although this curve had already been named by other mathematicians, the specific name ("miraculous" or "marvelous" spiral) was given to this curve by Jakob Bernoulli, because he was fascinated by one of its unique mathematical properties: the size of the spiral increases but its shape is unaltered with each successive curve. Possibly as a result of this unique property, the spira mirabilis has evolved in nature, appearing in certain growing forms such as nautilus shells and sunflower heads. Jakob Bernoulli wanted such a spiral engraved on his headstone, but, by error, an Archimedean spiral was placed there instead.
+
+The logarithmic spiral can be distinguished from the Archimedean spiral by the fact that the distances between the turnings of a logarithmic spiral increase in geometric progression, while in an Archimedean spiral these distances are constant.
+Logarithmic spirals are self-similar in that they are self-congruent under all similarity transformations (scaling them gives the same result as rotating them). Scaling by a factor e2πb gives the same as the original, without rotation. They are also congruent to their own involutes, evolutes, and the pedal curves based on their centers.
+Starting at a point P and moving inward along the spiral, one can circle the origin an unbounded number of times without reaching it; yet, the total distance covered on this path is finite; that is, the limit as θ goes toward  is finite. This property was first realized by Evangelista Torricelli even before calculus had been invented. The total distance covered is , where r is the straight-line distance from P to the origin.
+The exponential function exactly maps all lines not parallel with the real or imaginary axis in the complex plane, to all logarithmic spirals in the complex plane with centre at 0. (Up to adding integer multiples of 2πi to the lines, the mapping of all lines to all logarithmic spirals is onto.) The pitch angle of the logarithmic spiral is the angle between the line and the imaginary axis.
+The function , where the constant k is a complex number with non-zero imaginary part, maps the real line to a logarithmic spiral in the complex plane.
+One can construct a golden spiral, a logarithmic spiral that grows outward by a factor of the golden ratio for every 90 degrees of rotation (pitch about 17.03239 degrees), or approximate it using Fibonacci numbers.
+
+In several natural phenomena one may find curves that are close to being logarithmic spirals. Here follows some examples and reasons:
+
+
+

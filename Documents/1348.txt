@@ -1,0 +1,47 @@
+Retail forex
+Exchange rates
+Currency band
+Exchange rate
+Exchange rate regime
+Fixed exchange rate
+Floating exchange rate
+Linked exchange rate
+Markets
+Foreign exchange market
+Futures exchange
+Retail forex
+Products
+Currency
+Currency future
+Non-deliverable forward
+Forex swap
+Currency swap
+Foreign exchange option
+See also
+Bureau de change
+In financial markets, the retail forex (retail off-exchange currency trading or retail FX) market is a subset of the larger foreign exchange market. This "market has long been plagued by swindlers preying on the gullible," according to The New York Times[1]. Whilst there may be a number of fully regulated, reputable international companies that provide a highly transparent and honest service, it's commonly thought that about 90% of all retail FX traders lose money. [2] [3]
+It is now possible to trade cash FX, or forex (short for Foreign Exchange (FX)) or currencies around the clock with hundreds of foreign exchange brokers through trading platforms. The reason that the business is so profitable is because in many cases brokers are taking the opposite side of the trade, and therefore turning client capital directly into broker profit as the average account loses money. Some brokers provide a matching service, charging a commission instead of taking the opposite site of the trade and "netting the spread", as it is referred to within the forex "industry."
+Recently forex brokers have become increasingly regulated. Minimum capital requirements of US$20m now apply in the US, as well as stringent requirements now in Germany and the United Kingdom. Switzerland now requires forex brokers to become a bank before conducting FX brokerage business from Switzerland.[citation needed]
+Algorythmic or machine based formula trading has become increasingly popular in the FX market,with a number of popular packages allowing the customer to program his own studies.
+The most traded of the "major" currencies is the pair known as the EUR/USD, due to its size, median volatility and relatively low "spread", referring to the difference between the bid and the ask price. This is usually measured in "pips", normally 1/100 of a full point.[citation needed]
+According to the October 2008 issue of e-Forex Magazine, the retail FX market is seeing continued explosive growth despite, and perhaps because of, losses in other markets like global equities in 2008.
+
+While forex has been traded since the beginning of financial markets, on-line retail trading has only been active since about 1996 . From the 1970s, larger retail traders could trade FX contracts at the Chicago Mercantile Exchange.[1]
+By 1996 on-line retail forex trading became practical. Internet-based market makers would take the opposite side of retail trader’s trades. These companies also created retail forex platform that provided a quick way for individuals to buy and sell on the forex spot market.[citation needed]
+In online currency exchange, few or no transactions actually lead to physical delivery to the client; all positions will eventually be closed. The market makers offer high amounts of leverage. While up to 4:1 leverage is available in equities and 20:1 in Futures, it is common to have 100:1 leverage in currencies.[1] In the typical 100:1 scenario, the client absorbs all risks associated with controlling a position worth 100 times his capital.
+Currencies are quoted in pairs, for example EUR/USD (euro versus United States dollar). The first currency is the base currency and the second currency is the quote currency. A person who is short the EUR/USD will have a loss if the USD loses value and make a profit if the EUR loses value. A person who is long the EUR/USD will make a profit if the USD loses value and have a loss if the EUR loses value.
+
+
+Currency prices can only fluctuate relative to another currency, so they are traded in pairs. Two of the most common currency pairs are the EUR/USD (the price of US dollars quoted in euros) and the GBP/USD (the price of US dollars quoted in British pounds).
+
+The idea of margin (leverage) and floating loss is another important trading concept and is perhaps best understood using an example. Most retail Forex market makers permit 100:1 leverage, but also, crucially, require you to have a certain amount of money in your account to protect against a critical loss point. For example, if a $100,000 position is held in EUR/USD on 100:1 leverage, the trader has to put up $1,000 to control the position. However, in the event of a declining value of your positions, Forex market makers, mindful of the fast nature of forex price swings and the amplifying effect of leverage, typically do not allow their traders to go negative and make up the difference at a later date. In order to make sure the trader does not lose more money than is held in the account, forex market makers typically employ automatic systems to close out positions when clients run out of margin (the amount of money in their account not tied to a position). If the trader has $2,000 in his account, and he is buying a $100,000 lot of EUR/USD, he has $1,000 of his $2,000 tied up in margin, with $1,000 left to allow his position to fluctuate downward without being closed out.
+Typically a trader's retail forex platform will show him three important numbers associated with his account: his balance, his equity, and his margin remaining. If trader X has two positions: $100,000 long (buy) in EUR/USD, and $100,000 short (sell) in GBP/USD, and he has $10,000 in his account, his positions would look as follows: Because of the 100:1 leverage, it took him $1,000 to control each position. This means that he has used up $2,000 in his margin, out of a $10,000 account, and thus he has $8,000 of margin still available. With this margin, he can either take more positions or keep the margin relatively high to allow his current positions to be maintained in the event of downturns. If the client chooses to open a new position of $100,000, this will again take another $1,000 of his margin, leaving $7,000. He will have used up $3,000 in margin among the three positions. The other way margin will decrease is if the positions he currently has open lose money. If one of his 3 positions of $100,000 decrease by $5,000 in value (which is fairly common), he now has, of his original $7,000 in margin, only $2,000 left.[original research?]
+If you have a $10,000 account and only open one $100,000 position, this has committed only $1,000 of your money plus you must maintain $1,000 in margin. While this leaves $9,000 free in your account, it is possible to lose almost all of it if the speculation loses money.[original research?]
+
+Market makers are compensated for allowing clients to enter the market. They take part or all of the spread in all currency pairs traded. In a common example, EUR/USD, the spread is typically 3 pips (percentage in point) or 3/100 of a cent in this example. Thus prices are quoted with both bid and offer prices (e.g., Buy EUR/USD 1.4900, Sell EUR/USD 1.4903).[citation needed]
+That difference of 3 pips is the spread and can amount to a significant amount of money. Because the typical standard lot is 100,000 units of the base currency, those 3 pips on EUR/USD translate to $30 paid by the client to the market maker. However, a pip is not always $10. A pip is 1/100th of a cent (or whatever), and the currency pairs are always purchased by buying 100,000 of the base currency.
+For the pair EUR/USD, the quote currency is USD; thus, 1/100th of a cent on a pair with USD as the quote currency will always have a pip of $10. If, on the other hand, your currency pair has Swiss francs (CHF) as a quote instead of USD, then 1/100th of a cent is now worth around $9, because you are buying 100,000 of whatever in Swiss francs.
+
+There are several types of financial instruments commonly used.
+
+

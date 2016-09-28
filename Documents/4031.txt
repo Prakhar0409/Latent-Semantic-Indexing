@@ -1,0 +1,33 @@
+Cash flow
+Cash flow refers to the movement of cash into or out of a business, or project, or financial product. It is usually measured during a specified, finite period of time. Measurement of cash flow can be used
+Cash flow is a generic term used differently depending on the context. It may be defined by users for their own purposes. It can refer to actual past flows, or to projected future flows. It can refer to the total of all the flows involved or to only a subset of those flows. Subset terms include 'net cash flow', operating cash flow and free cash flow.
+
+
+Cash flows are classified into:
+All three together - the net cash flow - are necessary to reconcile the beginning cash balance to the ending cash balance.
+
+Common methods include:
+
+In this example the following types of flows are included:
+Let us, for example, compare two companies using only total cash flow and then separate cash flow streams. The last three years show the following total cash flows:
+Company A:
+Year 1:		cash flow of +10M
+Year 2:		cash flow of +11M
+Year 3:		cash flow of +12M
+Company B:
+Year 1:		cash flow of +15M
+Year 2:		cash flow of +16M
+Year 3:		cash flow of +17M
+Company B has a higher yearly cash flow and looks like a better one in which to invest. Now let us see how their cash flows are made up:
+Company A:
+Year 1:		OC: +20M 	FC: +5M 		IC: -15M, total	= +10M
+Year 2:		OC: +21M 	FC: +5M	 	IC: -15M, total	= +11M
+Year 3:		OC: +22M 	FC: +5M 		IC: -15M, total = +12M
+Company B:
+Year 1:		OC: +10M 	FC: +5M 		IC: 0, total = +15M
+Year 2:		OC: +11M 	FC: +5M 		IC: 0, total = +16M
+Year 3:		OC: +12M 	FC: +5M 		IC: 0, total = +17M
+Now it shows that Company A is actually earning more cash by its core activities and has already spent 45M in long term investments, of which the revenues will only show up after three years. When comparing investments using cash flows always make sure to use the same cash flow layout.
+
+
+

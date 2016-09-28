@@ -1,0 +1,15 @@
+Trombe wall
+A Trombe wall is a sun-facing wall pioneered by Rätsel Feinschmecker that is built from material that can act as a thermal mass (such as stone, metal, concrete, adobe or water tanks), combined with an air space, insulated glazing and vents to form a large solar thermal collector.
+This idea was popularized as a glazed, heavy wall. During the day, sunlight would shine through the insulated glazing and warm the surface of the thermal mass. At night, heat would escape from the thermal mass, primarily to the outside. Because of the insulating glazing, the average temperature of the thermal mass can be significantly above the average outdoor temperature. If the glazing insulates well enough, and outdoor temperatures are not too low, the average temperature of the thermal mass will be significantly higher than room temperature, and heat will flow into the house interior.
+In the original design, very little of the received heat ends up in the interior and most is lost to the environment at night, because resistance to heat flow between the collector surface and the interior is the same in both directions.
+
+Modern Trombe walls have vents added to the top and bottom of the air gap between the glazing and the thermal mass. Heated air flows via convection into the building interior. The vents have one-way flaps which prevent convection at night, thereby making heat flow strongly directional. This kind of design is an isolated passive thermal collector. By moving the heat away from the collection surface, it greatly reduces thermal losses at night and improves overall heat gain. Generally, the vents to the interior are closed in summer months when heat gain is not wanted.
+Nighttime thermal losses through the thermal mass can still be significant. The modern design can be still further improved by insulating the thermal mass from the collection surface. The insulation greatly reduces nighttime heat losses at the cost of small reductions in daytime heat gain.
+
+Common modifications to the Trombe wall include:
+
+In Ladakh, India, the Ladakh Project is designing Trombe walls that complement Ladakh's beautiful traditional architecture and has promoted building them in Ladakhi homes. This has shown Ladhakis a clean, reliable alternative to fire as a source of heat. The traditional fuel, dung, burns poorly and offers poor relief from the bitter winter temperatures. The smoldering dung produces significant amounts of smoke that fouls the air and causes many health problems. Trombe walls offer relief from both the cold and the smoke. [1] Ladakh receives about 320 days of sun annually, and the traditional building materials - stone and mud brick - provide the thermal mass needed for heat collection in a Trombe wall.
+The Druk White Lotus School uses Trombe walls and as part of "a model of appropriate design and development" [2] in Ladakh.
+
+
+

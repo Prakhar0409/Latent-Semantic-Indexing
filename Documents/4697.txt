@@ -1,0 +1,34 @@
+Sexagesimal
+Sexagesimal (base-sixty) is a numeral system with sixty as the base. It originated with the ancient Sumerians in the 2000s BC, was transmitted to the Babylonians, and is still used—in modified form—for measuring time, angles, and geographic coordinates.
+The number 60 has twelve factors, 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60, of which 2, 3, and 5 are prime. With so many factors, many fractions of sexagesimal numbers are simple. For example, an hour can be divided evenly into segments of 30 minutes, 20 minutes, 15 minutes, etc. 60 is the smallest number divisible by every number from 1 to 6.
+In this article sexagesimal digits are represented as decimal numbers, except where otherwise noted (for example, "10" means ten and "60" means sixty).
+
+
+Sexagesimal as used in ancient Mesopotamia was not a pure base 60 system, in the sense that it didn't use 60 distinct symbols for its digits. Instead, the cuneiform digits used ten as a sub-base in the fashion of a sign-value notation: a sexagesimal digit was composed of a group of narrow wedge-shaped marks representing units up to nine (Y, YY, YYY, YYYY, ... YYYYYYYYY) and a group of wide wedge-shaped marks representing up to five tens (<, <<, <<<, <<<<, <<<<<); the value of the digit was the sum of the values of its component parts:
+Numbers larger than 59 were indicated by multiple symbol blocks of this form in place value notation.
+Because there was no symbol for zero with either the Sumerians or the early Babylonians, it is not always immediately obvious how a number should be interpreted, and the true value must sometimes be determined by the context; later Babylonian texts used a dot to represent zero, but only in medial positions.
+
+In the Chinese calendar, a sexagenary cycle is commonly used, in which days or years are named by positions in a sequence of ten stems and in another sequence of 12 branches; the same stem and branch repeat every 60 steps through this cycle.
+Base-60 number systems have also been used in some other cultures, for instance the Ekagi of Western New Guinea.[1][2]
+
+Unlike most other numeral systems, sexagesimal is not used so much in modern times as a means of general computation or logic, but is used in measuring angles, geographic coordinates, and time.
+One hour of time is divided into 60 minutes, and one minute is divided into 60 seconds. Thus, a measurement of time such as "3:23:17" (three hours, 23 minutes, and 17 seconds) can be interpreted as a sexagesimal number, meaning 3×602+23×601+17×600 seconds or equivalently 3×600+23×60−1+17×60−2 hours. As with the ancient Babylonian sexagesimal system, however, each of the three sexagesimal digits in this number (3, 23, and 17) are written using the decimal system.
+Similarly, the practical unit of angular measure is the degree, of which there are 360 in a circle. There are 60 minutes of arc in a degree, and 60 seconds of arc in a minute.
+In some usage systems, each position past the sexagesimal point was numbered, using Latin or French roots: prime or primus, seconde or secundus, tierce, quatre, quinte, etc. To this day we call the second-order part of an hour or of a degree a "second". In the 1700s, at least, 1/60 of a second was called a "tierce" or "third".[3][4]
+
+Robert Heinlein's novel Methuselahs Children describes a group of super-intelligent humans who use a base-60 number system (as well as an alphabet of sixty ideographs).
+In Stel Pavlou's novel Decipher, this number system is the center of focus, as the bucky ball carbon element is used in the book to store data, and only base 60 proved able to be successfully understood by the computer used. At least one popular book[5] uses the spelling "sexigesimal" instead of "sexagesimal," with the latter being the more common spelling of the word.
+Book VIII of Plato's Republic involves an allegory of marriage centered on the number 604 = 12,960,000 and its divisors. This number has the particularly simple sexagesimal representation 1:0:0:0:0. Later scholars have invoked both Babylonian mathematics and music theory in an attempt to explain this passage.[6]
+
+In the sexagesimal system, any fraction in which the denominator is a regular number (having only 2, 3, and 5 in its prime factorization) may be expressed exactly.[7] The table below shows the sexagesimal representation of all fractions of this type in which the denominator is less than 60. The sexagesimal values in this table may be interpreted, for instance, as giving the number of minutes and seconds in a given fraction of an hour, although the representation of these fractions as sexagesimal numbers does not depend on such an interpretation.
+However numbers that are not regular form more complicated repeating fractions. For example:
+The fact that the adjacent numbers to 60, 59 and 61, are both prime implies that simple repeating fractions that repeat with a period of one or two sexagesimal digits can only have 59 or 61 as denominators, and that other non-regular primes have fractions that repeat with a longer period.
+
+The square root of 2, the length of the diagonal of a unit square, was approximated by the Babylonians of the Old Babylonian Period (1900 BC - 1650 BC) as[8]
+Because √2 is an irrational number, it cannot be expressed precisely in sexagesimal, but its sexagesimal expansion begins 1:24:51:10:7:46:6:4:44...
+The length of the tropical year in Neo-Babylonian astronomy (see Hipparchus), 365.24579... days, can be expressed in sexagesimal as 6:5:14:44:51 (6×60 ＋ 5 + 14/60 + 44/602 + 51/603) days. The average length of a year in the Gregorian calendar is exactly 6:5:14:33 in the same notation because the values 14 and 33 were the first two values for the tropical year from the Alfonsine Tables, which were in sexagesimal notation.
+The value of π as used by Ptolemy was 3.141666... ≈ 377/120 = 3:8:30 = 3 + 8/60 + 30/602.
+
+
+
+

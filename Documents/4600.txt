@@ -1,0 +1,93 @@
+Traffic Message Channel
+Traffic Message Channel (TMC) is a technology for delivering traffic and travel information to drivers. It is typically digitally coded using the FM-RDS system on conventional FM radio broadcasts. It can also be transmitted on DAB or satellite radio. It allows silent delivery of high quality accurate, timely and relevant information, in the language chosen by the user and without interrupting normal services. Services, both public and commercial, are now operational in many European countries. When data is integrated directly into a navigation system, this gives the driver the option to take alternative routes to avoid traffic incidents.
+
+Each traffic incident is sent as a TMC message. One message consists of an event code and a location code in addition to time details.
+The message is coded according to the Alert C standard. It contains a list of max 2048 events (1402 pr 01.02.2007) which can be translated by a TMC receiver into the language of the user.
+Location code tables are maintained on a national level and assign numbers to locations on the road network. Those location tables are integrated in the maps provided by NAVTEQ and Tele Atlas.
+The source of traffic information is typically police, traffic cameras, loops, floating car data and others.
+
+TMC-Forum is a non-profit organization. The members are service providers, receiver manufactures, car manufactures, map vendors, broadcasters (public and private), automobile clubs, public authorities and others. It is a forum to discuss traffic information related aspects. Furthermore it maintains the TMC-Standard (ISO 14819). On 11 November 2007 the TMC-Forum and the TPEG-Forum has merged into TISA (Traveller Information Services Association). TISA has taken over all TMC-Forum activities.
+
+In April 2007 research about RDS-TMC was presented at the CanSecWest security conference by two Italian security researchers.
+The presentation, titled Unusual Car Navigation Tricks, raised the point that RDS-TMC is a wireless cleartext protocol and showed how to build a receiver and transmitter with cheap electronics, capable of injecting false and potentially dangerous messages.
+The TMC Forum responded to this claim by stating that the effects of any 'pirate' TMC broadcasts would be very little or even non existant, due to the fact that TMC equipped recievers filter out information that does not lie on the planned route. Also, it was stated that such broadcasts would directly interfere with that country's TMC carrier station, which would contravene the respective laws of that county and make that person liable to criminal prosecution. It was therefore concluded that such a motive is unlikely, given the legal risks and minimal disruptions that could occur if the perpretrator was even successful in broadbasting a TMC signal. The full detailed response can be found here: http://www.tmcforum.com/en/about_tmc/tmc_news/hacking_tmc_-_unsuccessfully.htm
+Detailed instructions and schematics have also been posted on Issue #64 of Phrack hacking magazine.
+
+The following countries provide a TMC service:
+
+Intelematics Australia has commenced broadcasting a national RDS-TMC service focused initially on urban Australia, under the consumer brand 'SUNA Traffic Channel'. The service, which reaches around 75% of urban Australia is transmitted by a national commercial FM broadcaster, as well as via XML for online and smartphone applications. The service is available on GPS systems including TomTom, Navman, Garmin, Uniden, iPhone, Mio, Ford, and Eclipse navigtion systems. SUNA is currently the only source of comprehensive, metropolitan congestion monitoring content in Australia - this is achieved using proprietary technology interfacing to traffic light control systems.
+Sentinel Content Pty Limited provides a TMC Service service for Sydney, Melbourne and Brisbane and is delivered using webservices and GPRS rather than RDS. While it does not broadcast an RDS service it does provide navigation vendors with web based traffic services.
+
+In Austria, ORF is broadcasting the free service on the radio channels Ö1, Ö2 (9 regional channels), Ö3, Radio Salzburg and FM4 and is supported by the Federal Ministry for Traffic, Innovation and Technology (BMVIT). ASFINAG is responsible for the location table, currently in version 2.1, in which a lot of new codes have been added for the Euro2008 championship. In total, around 8.000 location codes are present in this table.
+
+Destia Traffic starts broadcasting traffic information in the Baltic region soon.
+
+In Belgium there are 4 TMC services: TIC-VL, BEL TMC and 4FMTMC in Flanders and RTBF in Wallonia. All of them are currently open services.
+The service TIC-VL is broadcast by VRT on Radio 2 and is using content from the Vlaams Verkeerscentrum[1]. Coverage of content and transmissions is limited to the Flanders region.
+In the southern part of Belgium, Wallonia, the service CLASS.21 is broadcast by RTBF on Classic 21. The service is from the Centre PEREX of the Ministère de l’Équipement et des Transports (MET) in collaboration with TMC4U. Both coverage of transmissions and content is limited to Wallonia.
+A third TMC service is 4FMTMC provided by Vialis, which is also operating TMC services in the Netherlands. It is broadcast by 4FM in Flanders, but the content contains both the content from the Vlaams Verkeerscentrum and PEREX and so covers Belgium in total. In future they plan to add information on speed cameras.
+The commercial PAYTMC service TMOBILIS provided by Be-Mobile in collaboration with Proximus and Touring Mobilis is mainly based on Floating Car Data. It is broadcast by VRT on Studio Brussel.
+Tritel creates the location tables by order of the regional communities. Since December 2004 the broadcast messages are according to location table version 1.4b, in which N-roads are added. The latest, currently used, version is 2.3 (from July 2008).
+
+In the Czech Republic, two services are available. They are in full operation from 1/2006.
+A first service, called DIC PRAHA, is available in Prague. It is broadcast on Český Rozhlas – Regina (92.6 MHz). The service provider is TSK-PRAHA (Communication Technical Administration). The content comes from the traffic centre in Prague (TIC Praha) and consists of closures and restrictions and levels of service in Prague.
+A second service, provided by Teleasist together with Global Assistance is available countrywide, however is not as detailed as DIC Praha in specific areas. It is broadcasted by CRo1 Radiozurnal
+TMC developments are coordinated by CEDA. They are responsible for the location table (current version is 2.41, containing around 6.600 codes).
+
+The free TMC service DK-TMC in Denmark is operated by Vejdirektoratet or DRD (Danish Road Directorate). It is broadcasted on DR P1, P2, P3 and P4.
+They are also responsible for the location tables. Since October 2003 version 6.0 of the location database is transmitted, but already a backwards compatible version 7.0 has been certified by the TMC Forum in June 2004. In case of changes they will transmit both the old and the new location code. Nowadays, version 9.0 is used in Denmark which contains around 2.450 problem locations.
+
+The commercial serivce in Finland is provided by Destia. The service covers biggest cities and roads 1-999. These areas cover the whole country. TMC messages are broadcasted nationally on YLE Radio Suomi channel. Destia uses several information sources to validate traffic data including induction loops, traffic cameras, radio stations, road users and several other partnership companies. The service is encrypted, based on the encryption specifications made by the TMC Forum.
+The location table is provided by FINNRA, the Finnish Road Administration. The newest location table is version number 1.42 and it is used by Destia’s TMC service. This version of the table contains around 8.100 problem locations.
+
+Both a free public service and a commercial service are available in France.
+The free service is provided by the motorway operators and provides information on their toll-roads. The toll-road operators are AREA, ASF, ATMB, Cofiroute, ESCOTA, SANEF, SAPN, SAPRR, SFTRF and SMTPC. The TMC data is on the 107.7 traffic channel so it can only be received along the motorways.
+The commercial service V-Trafic is provided by Mediamobile. It is a partnership between TDF, Renault, Trafficmaster and Cofiroute. The service, which replaces the previous Visionaute service, is transmitted on the frequencies of France Inter and can be received nationally. It includes the information from the motorways but also on Paris congestion. The service was first open but it is now a pay-service, but it is not encrypted: by using a different location table number they can restrict the use. This method is TMC Forum 's Interim encryption method. They have about 60000 customers.
+Next to that a service from ViaMichelin and Carte Blanche is provided, transmitted by the Towercast network (NRJ group). In September 2005 PSA Peugeot Citroën signed a partnership with ViaMichelin for the use of this info in their navigation systems.
+Location tables are released by the government agency SETRA and includes about 20000 locations. Since version 0.4 it includes both inside Paris and outside Paris. The latest certified version is 8.0 for France (the last release contained around 13.500 problem locations) and 0.0 for Andorra (containing 62 problem locations).
+
+In Germany both a public and a commercial service are available. The public service is an open, free service that can be received by the public radio stations.
+The other service TMCpro is a pay service provided by T-Systems Traffic, a wholly owned subsidiary of T-Systems. The service went live at the beginning of 2005 across Germany. The content is provided by ddg Gesellschaft für Verkehrsdaten mbh, a wholly owned subsidiary of T-Systems Traffic GmbH. It is an encrypted service, based on the conditional access specifications made by the TMC Forum.
+BAST, the German Federal Highway Research Institute, is releasing location tables. In version 5.1 all major access roads leading to the football arenas which were used in the World Championship in 2006 were added. The current version is 8.0, which contains around 40.100 location codes.
+
+A public TMC-service is available from 2008-08-01 in Budapest and from 2008-08-20 in the rest of the country. The current version of the location table is 1.0.
+
+The service has not been available yet, although the infrastructure are ready from National Broadcasting Company (IRIB). However they have stated an intention for the service become publicly available before 2010.
+
+A public RDS-TMC service free of charge is available in Italy from 1 July 1998. CCISS (National Traffic Information Centre) is providing the service. It is broadcast on the RAI FM network, on Radio 1; this service covers only the Northern Italy, from Turin to Venice.
+Another TMC service is provided by the commercial radio station RTL in cooperation with InfoBlu, transmitted on the national radio station RTL 102.5. This service is available as Premium Service so you have to use a software enabled receiver. The service covers 90% of the population of Italy, and is still increasing.
+The Italian location table, provided by RAI-CCISS, is in its version 2.1 with around 12.500 codes.
+
+The service provider TMC4U is delivering a TMC service in The Netherlands. Currently it is free, but they plan a pay-service including local information. TMC4U is a collaboration between Siemens and ANWB. The transmissions are on the radio channels of SkyRadio, Radio Veronica, Radio 1 and Radio 3.
+A second TMC service ViaTMC is provided by Vialis. They are transmitting on the FM channels of Q-music (previously Radio Noordzee), BNR Nieuwsradio and Radio 538. Information of traffic jams, road works and so on is the same on both channels, but they add information on speed traps to it independent of each other.
+Radio 2 is also sending out TMC-messages, working with data from Vialis.
+Location tables come from AVV Transport Research Centre and are supplied by TIC Nederland. The current version is 6.1 which has additions for parking areas / parking lots compared to the 'old' 2003.a version.
+
+As of 2009, NRK has an open TMC service in a testing phase.[2] The national radio station P4 is working with Destia Traffic [3] to provide TMC info in Norway. This service is encrypted but free (according to Destia Traffic) for all private users, and some GPS manufactureres, such as TomTom, Garmin, mio and Navigon provide Destia Traffic' service for free.[4]
+In 2003 there was an experiment with distributing TMC-messages in a limited area (Østfold, Akershus and Oslo). A private actor might start a commercial service during 2008. In June Destia starts to broadcast the TMC service in Norway.
+Statens vegvesen, the Norwegian Public Roads Administration (NPRA), is releasing location tables. The current version is V3.1 [5]
+
+A TMC service is available in Spain on RNE 3. It is provided by
+The road network coverage is the motorways, national roads and first level roads that belong to the Autonomous Communities. Next to that, RACC [6] is working on urban TMC services, starting with Seville and Barcelona. This will broadcast on RNE 2.
+Location tables are coming from DGT, Dirección General de Tráfico. The current version is 2.1 and contains about 7.750 problem locations.
+
+A free service is available in Sweden. SRA, the Swedish Road Administration or Vägverket, is responsible for the free service and for making the location tables. The previous version 1.2003 contained about 9800 locations. Since October 2004 version 1.1.2004 is transmitted. After that version 1.2005 and 2.0.2006 were used. Nowadays version 2.1 is in use for broadcasting TMC messages, which contains more than 5000 changes / additions to version 2.0. Version 2.1 adds a lot of new location codes for more 'secondary' roads. New versions are always backward compatible.
+Regarding the transmission, Sweden is divided into 8 broadcasting zones in order not to transmit traffic information that is not useful at that location. They cover the European, national and major county highways and contain information about traffic accidents, road works and road weather. The service is broadcasted on Sveriges Radio P3 radio station and covers 98 percent of Sweden.
+The free service will be canceled before 2012, depending on how updates of old devices will be solved. Destia starts to broadcast a pay TMC service in Sweden after the 1 of oct 2008 which will be encrypted, together with the free TMC service.
+
+A TMC service is available in Switzerland. The broadcaster is SRG SSR idée suisse or Swiss Broadcasting Corporation who transmits TMC on FM chain 1 (general, services) and FM chain 3 (pop/rock) all over Switzerland.
+It is Viasuisse, a daughter company of it, that operates the service.
+Location codes are the responsibility of the Swiss Federal Roads Authority FEDRO but B+S Ingenieur (Bundesamt fuer Strassen) makes the location tables. Version 5.5 is the latest version, containing around 10.000 codes, and is backwards compatible.
+
+The private company iTIS Holdings provides a commercial TMC service iTMC in the United Kingdom. It is broadcast nationally on Classic FM. The price of the service can be included in the price of the car or of the navigation system. This system uses traffic data collected from sensors installed on fleet vehicles known as a Floating Vehicle Data system consisting of approximately 50,000 vehicles. Eddie Stobart haulage have this system installed within 750 vehicles, AA Patrol 3,800, and National Express 530.
+RAC Live operated by RAC Trafficmaster Telematics (RTT) a 50-50 joint venture between RAC Motoring Services and Trafficmaster also operates a national service. It uses the local and regional radio broadcaster Global Radio to ensure reception across mainland Britain. This system uses a road side infrastructure to measures a vehicle's travel time between sensors placed a few miles apart, and uses number plate recognition technology.
+Both providers are responsible for their own location tables. The current location table version of ITIS is 5.1. The current location table version of Trafficmaster is 3.1 .
+Within the United Kingdom TMC services are only offered as pay services. As such they are currently always carried by commercial radio stations rather than by the BBC, a public service broadcaster. The BBC is required by its charter to be free from both political and commercial influence and is therefore unable to carry a pay service unavailable to all.
+
+In the United States of America, XM Satellite Radio started transmitting TMC messages all over the US already whereas Sirius Satellite Radio announced it. NAVTEQ Traffic, formerly Traffic.com, delivers traffic information and related advertising via RDS and HD signals to navigation devices nationwide, and also provide the traffic information used by XM Radio. Also Clear Channel and Tele Atlas have a TMC service, using FM-RDS in 77 US cities and three Canadian metropolitan areas.[1]
+
+It is also planned in Portugal and Hungary (test broadcast to be expected for the second-half of 2008). In Romania, Ireland and Luxembourg no service is currently planned. In Poland a private radio station did some tests but General Directorate for National Roads and Motorways (GDDKIA) didn't decide yet on a real implementation. In Dubai the location table version 1.2 has been certified. In Turkey it is planned but not in usage yet.
+In China they are currently investigating on which technology their traffic information system will be based. The main choice is between the Japanese system VICS and the European TMC. A TMC Location table version 1.0 has been certified already.
+
+
+

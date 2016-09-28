@@ -1,0 +1,22 @@
+Symfony
+Symfony is a web application framework written in PHP which follows the model-view-controller (MVC) paradigm. Released under the MIT license, Symfony is free software. The symfony-project.com website launched on October 18, 2005.[1]
+
+Symfony aims to speed up the creation and maintenance of web applications and to replace repetitive coding tasks. It requires a few prerequisites for installation: Unix, Linux, Mac OS or Microsoft Windows with a web server and PHP 5 installed. It is currently compatible with the following Object-relational mappings: Propel and Doctrine.[citation needed]
+Symfony has low performance overheads when dealing with an environment that supports a PHP accelerator. It should be noted however, that in typical shared hosting environments where a PHP accelerator is not available, Symfony suffers from a relatively high performance overhead.[citation needed]
+Symfony is aimed at building robust applications in an enterprise context, and aims to give developers full control over the configuration: from the directory structure to the foreign libraries, almost everything can be customized. To match enterprise development guidelines, Symfony is bundled with additional tools to help developers test, debug and document projects.[citation needed]
+
+Symfony makes use of many common and well understood enterprise design patterns, such as Model-View-Controller. Symfony was heavily inspired by other Web Application Frameworks such as Ruby On Rails.
+Symfony makes heavy use of existing PHP open source projects as part of the framework, such as:
+It also includes a number of Open Source Javascript frameworks and libraries:
+As of Symfony release 1.2, no Javascript framework is selected as the default, leaving inclusion and implementation of a Javascript library to the developer.
+
+Symfony is sponsored by Sensio, a French web agency.[2] The first name was Sensio Framework[3], and all classes were prefixed with sf. Later on when it was decided to launch it as open source framework, the brainstorming resulted in the name Symfony, the name which depicts the theme and class name prefixes.[4]
+
+Symfony is used by the open-source Q&A service Askeet and many more applications, including Delicious and the 20 million users of Yahoo Bookmarks. As of February 2009, Dailymotion has ported part of its code to use Symfony, and is continuing the transition.
+
+The upcoming new release version of Symfony will include new features such as:
+
+
+
+
+

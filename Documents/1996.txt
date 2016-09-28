@@ -1,0 +1,6 @@
+QuickCheck
+QuickCheck is a combinator library written in Haskell, designed to assist in software testing by generating test cases for test suites. It is compatible with the GHC compiler and the Hugs interpreter. The author of the program being tested makes certain assertions about logical properties that a function should fulfill; these tests are specifically generated to test and attempt to falsify these assertions. The project was started in 2000. Besides being used to test regular programs, QuickCheck is also useful for building up a functional specification, for documenting what functions should be doing, and for testing compiler implementations[1].
+Re-implementations (clones) of QuickCheck exist for Erlang[2], Scheme[3], Common Lisp[4], Perl[5], Python[4], Ruby[6], Java[7] [8], Scala[9], F#[10], and Standard ML[11].
+
+
+

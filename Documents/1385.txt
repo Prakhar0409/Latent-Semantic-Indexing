@@ -1,0 +1,11 @@
+Scunthorpe problem
+The Scunthorpe problem occurs when a spam filter or search engine blocks e-mails or search results because their text contains a string of letters that are shared by an obscene word. While computers can easily identify strings of text within a document, broad blocking rules will result in a false positive, causing innocent phrases to be blocked.
+
+The problem was named after an incident in 1996 in which America Online's dirty-word filter prevented residents from the town of Scunthorpe, North Lincolnshire, England from creating accounts with AOL, because the town's name contains the substring cunt. Years later, Google's filters apparently made the same mistake, preventing residents from searching for local businesses that included Scunthorpe in their names. Residents of Penistone, South Yorkshire, experienced problems because the town's name includes the substring penis, while Lightwater in Surrey suffered similarly because its name contains the substring twat. Gareth Roelofse, the designer of the website RomansInSussex.co.uk, noted: "We found many library Net stations, school networks and Internet cafes block sites with the word 'sex' in" the domain name. This was a challenge for RomansInSussex.co.uk because its target audience is school children." [1]
+Problems can also occur with the words socialism or socialist because they contain the substring Cialis, the brand name for an erectile dysfunction medication commonly advertised in spam e-mails. A similar problem can occur with the word specialist, typically blocking mailed résumés and other material including job descriptions.[2]
+
+Mistaken decisions by obscenity filters include:
+Additionally there can be cases of whole word filtering, showing that computer obscenity filters may fail to take into account the context in which a word appears:
+
+
+

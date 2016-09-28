@@ -1,0 +1,35 @@
+ISO 639
+ISO 639 is the set of international standards that lists short codes for language names. It was also the name of the original standard, approved in 1967 and withdrawn in 2002.
+ISO 639 consists of different parts, of which four parts have been approved (parts 1, 2, 3 and 5). The other parts are works in progress.[1]
+
+Each part of the standard is maintained by a maintenance agency, which adds codes and changes the status of codes when needed.
+
+Scopes:
+Types (for individual languages):
+Bibliographic and terminology codes
+
+The first four columns contain codes for a representative of a specific type of relation between the parts of ISO 639. E.g. there are four elements that have a code in part 1, have a B/T code, and are macrolanguages per part 3. One representative of these four elements is "Persian" [fas].
+
+The language codes defined in the several sections of ISO 639 are used for bibliographic purposes and, in computing and internet environments, as a key element of locale data. The codes also find use in various applications, such as Wikipedia URLs for its different language editions.
+
+
+"Alpha-2" codes (for codes composed of 2 letters of the basic Latin alphabet) are used in ISO 639-1. When codes for a wider range of languages were desired, more than 2 letter combinations could cover (a maximum of 262 = 676), ISO 639-2 was developed using Alpha-3 codes (though the latter was formally published first).[citation needed]
+
+"Alpha-3" codes (for codes composed of 3 letters of the basic Latin alphabet) are used in ISO 639-2, ISO 639-3, and ISO 639-5. Mathematically, the upper limit for the number of languages and language collections that can be so represented is 263 = 17,576.
+The common use of Alpha-3 codes by three parts of ISO 639 requires some coordination within a larger system.
+Part 2 defines four special codes mul, und, mis, zxx, a reserved range qaa-qtz (20 × 26 = 520 codes) and has 23 double entries (the B/T codes). This sums up to 520 + 23 + 4 = 547 codes that cannot be used in part 3 to represent languages or in part 5 to represent language families or groups. The remainder is 17,576 – 547 = 17,029.
+There are somewhere around six or seven thousand languages on Earth today[9]. So those 17,029 codes are adequate to assign a unique code to each language, although some languages may end up with arbitrary codes that sound nothing like traditional name(s) of that language.
+
+"Alpha-4" codes (for codes composed of 4 letters of the basic Latin alphabet) is proposed to be used in ISO 639-6. The upper limit for the number of languages and dialects that can be represented is 264 = 456,976.
+
+
+
+ISO 639-1
+list
+ISO 639-2
+list
+ISO 639-3
+list
+ISO 639-4
+ISO 639-5
+list

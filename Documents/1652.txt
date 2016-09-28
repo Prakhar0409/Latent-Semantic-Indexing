@@ -1,0 +1,33 @@
+Explosively pumped flux compression generator
+An explosively pumped flux compression generator (EPFCG) is a device used to generate a high-power electromagnetic pulse by compressing magnetic flux using high explosive.
+An EPFCG can be used only once as a pulsed power supply since the device is physically destroyed during operation. An EPFCG package that could be easily carried by a person can produce pulses in the millions of amperes and tens of terawatts, exceeding the power of a lightning strike by orders of magnitude.[citation needed] They require a starting current pulse to operate, usually supplied by capacitors.
+Explosively pumped flux compression generators are popular as power sources for electronic warfare devices known as transient electromagnetic devices that generate an electromagnetic pulse without the costs and side effects of a nuclear weapon. They also can be used to accelerate objects to extreme velocities, and compress objects to very high pressures and densities; this gives them a role as a physics research tool.
+The first work on these generators was conducted by the VNIIEF centre for nuclear research in Sarov at the beginning of the 1950s, and then, independently, by Los Alamos National Laboratory in the United States.
+
+At the start of the 1950s, the need for very short and powerful electrical pulses became evident to Soviet scientists conducting nuclear fusion research. The Marx generator, which stores energy in capacitors, was the only device capable at the time of producing such high power pulses. The prohibitive cost of the capacitors required to obtain the desired power motivated the search for a more economical device. The first magneto-explosive generators, which followed from the ideas of Andrei Sakharov, were designed to fill this role.
+
+In the following text, we will use terms like 'compression' or 'confinement' of the magnetic field. Because of the similarity between certain properties of gases and magnetic fields, the conventional use of these terms can be extended by analogy to magnetic fields.[1]
+Magneto-explosive generators use a technique called "magnetic flux compression", which will be described in detail later. The technique is made possible when the time scales over which the device operates are sufficiently brief that resistive current loss is negligible, and the magnetic flux on any surface surrounded by a conductor (copper wire, for example) remains constant, even though the size and shape of the surface may change.
+This flux conservation can be demonstrated from Maxwell's equations. The most intuitive explanation of this conservation of enclosed flux follows from the principle that any change in an electromagnetic system provokes an effect in order to oppose the change. For this reason, reducing the area of the surface enclosed by a conductor, which would reduce the magnetic flux, results in the induction of current in the electrical conductor, which tends to return the enclosed flux to its original value. In magneto-explosive generators, this phenomenon is obtained by various techniques which depend on powerful explosives.[2] The compression process allows the chemical energy of the explosives to be (partially) transformed into the energy of an intense magnetic field surrounded by a correspondingly large electric current.
+
+An external magnetic field (blue lines) threads a closed ring made of a perfect conductor (with zero resistance). The nine field lines represent the magnetic flux threading the ring.
+After the ring's diameter is reduced, the magnetic flux threading the ring, represented by five field lines, is reduced by the same ratio as the area of the ring. The variation of the magnetic flux induces a current in the ring (red arrows), which in turn creates a new magnetic field, so that the total flux in the interior of the ring is maintained (four green field lines added to the five blue lines give the original nine field lines).
+By adding together the external magnetic field and the induced field, the final configuration after compression can be obtained; the total magnetic flux through the ring has been conserved (even though the distribution of the magnetic flux has been modified), and a current has been created in the conductive ring.
+
+The simple basic principle of flux compression can be applied in a variety of different ways. Soviet scientists at VNIIEF, pioneers in this domain, conceived of three different types of generators[3]
+Such generators can, if necessary, be utilised independently, or even assembled in a chain of successive stages: the energy produced by each generator is transferred to the next, which amplifies the pulse, and so on. For example, it is foreseen that the DEMG generator will be supplied by a MK-2 type generator.
+
+In the spring of 1952, R.Z. Lyudaev, E.A. Feoktistova, G.A. Tsyrkov, and A.A. Chvileva undertook the first experiment with this type of generator, with the goal of obtaining a very high magnetic field.
+The MK-1 generator functions as follows :
+The first experiments were able to attain magnetic fields of millions of gauss (hundreds of teslas, given an initial field of 30 kG (3 T).
+
+Helical generators were principally conceived to deliver an intense current to a load situated at a safe distance. They are frequently used as the first stage of a multi-stage generator, with the exit current used to generate a very intense magnetic field in a second generator.
+The MK-2 generators function as follows:
+The MK-2 generator is particularly interesting for the production of intense currents, up to 108 A (100 MA), as well as a very high energy magnetic field, as up to 20 % of the explosive energy can be converted to magnetic energy, and the field strength can attain 2 Ã— 106 gauss (200 T).
+The practical realization of high performance MK-2 systems required the pursuit of fundamental studies by a large team of researchers; this was effectively achieved by 1956, following the production of the first MK-2 generator in 1952, and the achievement of currents over 100 megaamperes from 1953.
+
+A DEMG generator functions as follows:
+Systems using up to 25 modules have been developed at VNIIEF. Output of 100 MJ at 256 MA have been produced by a generator a metre in diameter composed of 3 modules.
+
+
+

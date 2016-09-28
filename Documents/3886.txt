@@ -1,0 +1,38 @@
+Robocode
+Robocode is an Open Source educational game started by Mathew Nelson (originally provided by IBM). Currently contributions are being made by various people; officially Flemming N. Larsen is working on Robocode to keep it current and fix the bugs. The game is designed to help people learn to program in Java and enjoy the experience. It is very easy to start - a simple robot can be written in just a few minutes - but perfecting a bot can take months or more.
+
+Competitors write software that controls a miniature tank that fights other identically-built (but differently programmed) tanks in a playing field. Robots move, shoot at each other, scan for each other, and hit the walls (or other robots) if they aren't careful. Though the idea of this "game" may seem simple, the actual strategy needed to win is not. Good robots can have thousands of lines in their code dedicated to strategy. Some of the more successful robots use techniques such as statistical analysis and attempts at neural networks in their designs.
+
+One can test a robot against many other competitors by downloading their bytecode, so design competition is fierce. Robocode provides a security sandbox (bots are restricted in what they can do on the machine they run on), which makes internet redistribution safe.
+
+Robocode competition is all about two things:
+Many sophisticated techniques have emerged. In particular, many top bots utilize:
+
+Several sample robots are included in Robocode to help the beginners get started. They demonstrate various basic techniques used in coding robots, from event-driven programming to writing out data to files for use later.
+
+Check the RoboWiki's open source bots listing:
+It isn't complete, but there are lots of bots there.
+
+To force the competitors to prioritize what features to include in a bot there are four codesize categories (codesize is measured in bytes by a tool):
+
+There exist (and have existed) several leagues for Robocode.
+
+The main active competition is the RoboRumble@Home, a continuous league based on distributed computation in a similar way to SETI@Home. The RR@H features leagues for 1-on-1, melee (free for all with more than two bots) and teams. 1-on-1 and melee competitions are carried out for the four main code size categories.
+The RR@H uses an ELO like rating system. But since all bots get to meet all other bots this is mainly a measure on how well you perform against all others. There is also a ranking where only winning or losing counts.
+
+Check the current rankings here:
+
+While no longer active, the Robocode Little League (a weekly competition specifically for codesize-constrained bots) still provides tables on the past tournaments run.
+
+Many bots are worth mentioning, of course, but some are more spectacular in their performance than others, and some have influenced Robocode bot development more than others.
+
+The current (April 2009) champions of the RR@H are:
+
+Once deemed impossible to beat, SandboxDT continues to be a strong competitor, drawing in new coders and bots.
+Noted for spurring development are such bots as Shadow, which introduced WaveSurfing, and FloodMini, an open source minibot featuring StatisticalTargeting.
+An open source top bot, CassiusClay has helped coders grasp advanced movement and targeting techniques.
+Phoenix, the current #3 bot, has helped to demonstrate the power of graphical debugging. The code used to draw debugging information onto the screen is open-source, released as DrawingBot.
+
+The main site for Robocode knowledge and discussions is the RoboWiki. Here you can read about techniques and strategies, browse info on many bots, find source code (both code snippets and complete competitive bots), ask for help and more. The Robowiki also hosts the RoboRumble@Home.
+Beginners in Robocode might want to start with The Robocode Beginners FAQ.
+

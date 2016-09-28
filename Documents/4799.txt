@@ -1,0 +1,25 @@
+Kana
+Kana are the syllabic Japanese scripts, as opposed to the logographic Chinese characters known in Japan as kanji (Japanese: 漢字) and the Roman alphabet known as rōmaji. There are three kana scripts: modern cursive hiragana (ひらがな), modern angular katakana (カタカナ), and the old syllabic use of kanji known as man'yōgana that was ancestral to both.
+Katakana with a few additions is used to write Ainu. Kana was used in Taiwanese as a gloss (furigana) for Chinese characters during the Japanese administration of Taiwan. See Taiwanese kana.
+Kanji
+Kana
+Uses
+
+The difference in usage between hiragana and katakana is stylistic. Usually, hiragana is the default syllabary, and katakana is used for foreign borrowings, Onomatopoeia and interjections, and transcriptions of the Sino-Japanese readings of kanji.
+
+Hiragana is mostly used to indicate prefixes, particles, and grammatical word endings (okurigana). It is also used to represent entire words (usually of Japanese, rather than Chinese, origin) in place of kanji. See the article hiragana for details.
+Today katakana is most commonly used to write words of foreign origin that do not have kanji representations. For example, "Barack Obama" can be expressed as バラク・オバマ. Katakana is also used to represent onomatopoeia, technical and scientific terms, and some corporate branding. See the article katakana for details.
+Kana can be written in small form above or next to lesser-known kanji in order to show pronunciation; this is called furigana. Furigana is used most widely in children's books. Literature for young children who do not yet know kanji may dispense with it altogether and instead use hiragana combined with spaces.
+
+The first kana was a system called man'yōgana, a set of kanji used for their phonetic values, much as Chinese uses characters for their phonetic values in foreign loanwords today. Man'yōshū, a poetry anthology assembled in 759, is written in this early script. Hiragana developed as a distinct script from cursive man'yōgana, whereas katakana developed from abbreviated parts of regular script man'yōgana as a glossing system to add readings or explanations to Buddhist sutras. Hiragana was developed for speed, whereas katakana developed to be small.
+Kana is traditionally said to have been invented by the Buddhist priest Kūkai in the 9th century. Kūkai certainly brought the Siddham script home on his return from China in 806; his interest in the sacred aspects of speech and writing led him to the conclusion that Japanese would be better represented by a phonetic alphabet than by the kanji which had been used up to that point.[How did this affect anything?] The modern arrangement of kana reflects that of Siddham, but the traditional iroha arrangement follows a poem which uses each kana once.
+The present set of kana was codified in 1900, and rules for their usage in 1946.
+
+Kana are the basis for collation in Japanese. They are taken in the order given by the gojūon (あ い う え お … わ を ん), though iroha ordering is used for enumeration in some circumstances. Dictionaries differ in the sequence order for long/short vowel distinction, small tsu and diacritics. As the Japanese do not use word spaces (except for children), there can be no word-by-word collation; all collation is kana-by-kana.
+
+The Hiragana range in Unicode is U+3040 ... U+309F, and the Katakana range is U+30A0 ... U+30FF. The obsolete characters (WI and WE) also have their proper codepoints, except for hentaigana, as hentaigana are considered glyph variants of more common kana.
+Code points U+3040, U+3097, and U+3098 are unassigned as of Unicode 4.1. Characters U+3095 and U+3096 are hiragana small ka and small ke, respectively. U+30F5 and U+30F6 are their katakana equivalents. Characters U+3099 and U+309A are combining dakuten and handakuten, which correspond to the spacing characters U+309B and U+309C. U+309D is the hiragana iteration mark, used to repeat a previous hiragana. U+309E is the voiced hiragana iteration mark, which stands in for the previous hiragana but with the consonant voiced (k becomes g, h becomes b, etc.). U+30FD and U+30FE are the katakana iteration marks. U+309F is a ligature of "yori" (より) sometimes used in vertical writing. U+30FF is a ligature of "koto" (コト), also found in vertical writing.
+Additionally, there are halfwidth equivalents to the standard fullwidth katakana. These are encoded within the Halfwidth and Fullwidth Forms block (U+FF00–U+FFEF), starting at U+FF65 and ending at U+FF9F (characters U+FF61–U+FF64 are halfwidth punctuation marks):
+There is also a small "Katakana Phonetic Extensions" range (U+31F0 ... U+31FF), which includes some extra characters for writing the Ainu language.
+
+

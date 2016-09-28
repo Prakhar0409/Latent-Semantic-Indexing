@@ -1,0 +1,30 @@
+Domain hack
+A domain hack is an unconventional domain name that combines domain levels, especially the top-level domain (TLD), to spell out the full "name" or title of the domain, making a kind of pun.[1] Well-known examples include ma.tt, blo.gs, del.icio.us, cr.yp.to, and rome.ro.
+In this context, the "hack" represents a trick (as in programming), not an exploit or break-in (as in security).[2]
+Domains such .as .it, .me, or .us are easy to use as domain hacks because they correspond to short, simple dictionary words. Alternately, a name is chosen so that the last few characters match an existing top-level domain, such as "inter.net", so that every character is used in forming the common name.
+Domain hacks offer the ability to produce extremely short domain names. For example, blo.gs has a total of only five letters (versus blogs.com, at eight letters), as every letter is taken into account as the site's title.[3]
+This makes them potentially valuable as redirectors (like i.am, which redirects to FortuneCity's V3 service) and as base domains from which to delegate subdomains.
+
+In many cases, registration of these short domain names relies on the availability of second-level domains from countries around the world, each of which has a unique two-letter identifier.
+For example, blo.gs makes use of the TLD .gs (South Georgia and the South Sandwich Islands) to spell "blogs", chronolo.gy uses the TLD .gy (Guyana) to spell "chronology", and tel.ly uses the TLD .ly (Libya) to spell "telly" (a popular British slang term for television).
+The third-level domains del.icio.us and cr.yp.to make use of the SLDs icio.us and yp.to from the TLDs .us (United States) and .to (Tonga) to spell "delicious" and "crypto" respectively.
+In some cases, an entire country code domain has been re-purposed in its international marketing, such as .am, .fm, .cd, .dj, and .tv for sites delivering various forms of audiovisual content.
+
+On November 23, 1992, inter.net was registered.[4] In the 1990s, several domain names ending in "pla.net" were registered. On Friday, May 3, 2002, icio.us was registered to create del.icio.us.
+Who.is is a whois server, indicating the registered ownership information of a domain. It was established June 12, 2002 and registered to an address in ReykjavÃ­k, Iceland.
+On January 14, 2004, the Christmas Island Internet Administration revoked .cx domain registration for shock site Goatse.cx, a domain which used "se.cx" to form the word "sex".[5] Similar names had been used for parody sites such as oralse.cx or analse.cx; in some cases, .cz (Czech Republic) or .kz (Kazakhstan) are substituted for .cx.
+The term domain hack was coined by Matthew Doucette on November 3, 2004, with the launch of the first domain hack search, to mean "an unconventional domain name that uses parts other than the SLD (second level domain) or third level domain to create the title of the domain name."[6] He anticipated this coinage at least by October 31, 2004 according to the registration date of domainhacks.com.[7]
+Yahoo! acquired blo.gs[8] on June 14, 2005, and del.icio.us[9] on December 9, 2005.
+Whocalled.us, a consumer-complaint site listing telephone numbers of known telemarketers, was first registered on October 24, 2005.[10]
+On 11 September 2007, name servers for .me were delegated by IANA to the Government of Montenegro, with a two-year transition period for existing .yu names to be transferred to .me. One of the first steps taken in deploying .me online was to create .its.me as a domain space for personal sites.[11] Many desirable domain hacks, such as love.me or leave.me,[12] were held back by the registry as premium names for later auction.
+In January 2008, Matt Mullenweg (of WordPress fame) changed his popular photomatt.net domain to ma.tt.[13]
+
+A fad amongst French-speakers was to register their names in the Niue TLD .nu, which in French and Portuguese means "nude" or "naked"; however, as of 2007[update], Niue authorities have revoked many of these domain names. The handful that remain are joke domains without actual nudity. Likewise, Dutch, Swedish, and Danish speakers sometimes use .nu, because it means "now" in these languages.
+Some organisations situated in Switzerland use TLDs to specifically refer to their canton (like the Belgian TLD .be for the Canton of Berne).
+The American Samoa domain .as is popular in the handful of countries where A/S is the legal suffix for corporations. Likewise, Hungarian domains sometimes use the Moroccan top level domain .ma (meaning "today").
+In Russian, net (as Â«nyetÂ») means "no", so there are many domains in the format "something.net". A similar use of .info (in many languages where the term signifies "information") is to use a negatory term and .info to yield local equivalents to "there is no information". In Czech, Polish and Slovak, to means "it", so there are many domains using Tonga's .to in the format "do-something.to" (e.g., zrobie.to, meaning "I will do it").
+In French, Italian and Portuguese, Â« lÃ  Â» or Â« lÃ¡ Â» mean "there". As the .la domain (Laos) is available for second-level registration worldwide, this can be an easy way to get a short, catchy name like "go there". The Canadian domain .ca is also trivial to use as Â« cÃ¡ Â» ("here") in Portuguese or Â« Ã§a Â» ("that") in Canadian French; local Canadian presence is required.[14]
+Since the introduction of .eu domains (eu meaning "me" in Romanian), these domains have become popular in Romania, with people registering their names with the .eu extension.[citation needed]
+Many domain hacks are plays on words specific to one local language:
+
+

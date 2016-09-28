@@ -1,0 +1,16 @@
+MindManager
+MindManager, called MindMan until version 3.5, is a commercial mind mapping software application developed by Mindjet Corporation. Mind maps created in MindManager are based on the mind mapping method by Tony Buzan. The latest version, MindManager 8, is available for Microsoft Windows only, though previous versions supported Mac OS X and files created in the most recent versions are compatible with both platforms. In 2008 Mindjet introduced Mindjet Connect, an online collaboration service with centralized storage, Instant Meeting, and communications features. Connect is accessible with MindManager 8 on Windows and via MindManager Web, a Flash-based client.
+Features include support for manual and automatic task management, filters, an open API, and RSS support. Maps can pull data from Microsoft Excel and Outlook, and can be exported to Word, PowerPoint, Visio and Project, as HTML web pages, as an embeddable Player, and as PDF documents.[1]
+MindManager supports Ecma International's Office Open XML format[2] and has adopted Microsoft's Fluent user interface, commonly known as the Ribbon.
+
+Current product line in bold.
+
+The MindManager file format is a ZIP archive with XML and binary data inside:
+The MindManager file format is backwards and forwards compatible with versions 5 through 8. The MindManager file format XSD schemas are also publicly available.
+
+MindManager also integrates into many other applications through its published API. The availability of this has made it accessible so that third party add-ins can be created to extend the functionality of MindManager. These add-ins cover applications such as Lotus Notes & Salesforce.com. Further examples of extensibility for MindManager can be found on the Mindjet Solutions Website.
+
+MindManager has received numerous awards over its lifetime, including "Collaboration Product of the Year" for 2008 by Intranet Journal,[3] a Jolt Productivity award for Design and Modeling tools from Dr. Dobb's Journal[4], and "Best of CeBIT" in the Personal Software category in 2004[5].
+
+
+

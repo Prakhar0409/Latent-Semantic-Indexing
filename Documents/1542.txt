@@ -1,0 +1,11 @@
+sudo
+The sudo (super user do, pronounced /ˈsuːduː/, though /ˈsuːdoʊ/ is also common, as is /ˈess:yuːdu/) command is a program for Unix-like computer operating systems that allows users to run programs with the security privileges of another user (normally the superuser, a.k.a. root). By default, sudo will prompt for a user password but it may be configured to require the root password, or require it only once per pseudo terminal, or no password at all.[2] Sudo is able to log each command run and in some cases has completely supplanted the superuser login for administrative tasks, most notably in Ubuntu Linux and Apple's Mac OS X.[3][4]
+The program was originally written by Bob Coggeshall and Cliff Spencer "around 1980" at the Department of Computer Science at SUNY/Buffalo. The current version is under active development and is maintained by OpenBSD developer Todd C. Miller and distributed under a BSD-style license.[5]
+
+Before running a command with sudo, users typically supply their password. Once authenticated, and if the /etc/sudoers configuration file permits the user access, then the command is run. There exist several graphical frontends for use in a GUI environment, notably kdesu, kdesudo and gksudo; Mac OS X also has the "authorization services", a GUI equivalent to sudo. By default, the user's password will be retained for fifteen minutes[6], allowing the user to execute several successive commands as root without having to provide his or her password multiple times.
+The following is an example where the user is denied access:
+Below is the log of this failed attempt, then a later successful one, after snorri has been added to /etc/sudoers:
+
+
+
+

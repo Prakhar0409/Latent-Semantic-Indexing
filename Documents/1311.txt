@@ -1,0 +1,21 @@
+Unsolved problems in physics
+This is a list of some of the major unsolved problems in physics. Some of these problems are theoretical, meaning that existing theories seem incapable of explaining a certain observed phenomenon or experimental result. The others are experimental, meaning that there is a difficulty in creating an experiment to test a proposed theory or investigate a phenomenon in greater detail.
+
+Some problems are not considered significant enough by some physicists. If so, they are marked as follows:
+** Problems marked with two stars are considered by a significant number of physicists to be resolved, though there is still significant debate about them.
+*** Problems marked with three stars are considered by some physicists to be outside the purview of physics, more properly philosophical in nature.
+**** The existence of problems marked with four stars is disputed.
+
+
+The following problems are either fundamental theoretical problems, or theoretical ideas which lack experimental evidence and are in search of one, or both, as most of them are. Some of these problems are strongly interrelated. For example, extra dimensions or supersymmetry may solve the hierarchy problem. It is thought that a full theory of quantum gravity should be capable of answering most of these problems (other than the Island of stability problem).
+
+
+
+
+
+
+
+
+These fields of research normally belong to biology, and traditionally were not included in physics but are included here because increasingly it is physicists who are researching them using methods and tools more popular in physics research than biology.[16][17]
+
+

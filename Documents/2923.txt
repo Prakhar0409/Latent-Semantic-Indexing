@@ -1,0 +1,11 @@
+BootVis
+BootVis is a computer application that allows PC manufacturers to check how long a Windows XP machine takes to boot, and then to optimize the boot process, sometimes considerably reducing the time required. It was formerly a Microsoft product[1], but it is no longer available from the company's website.
+
+Microsoft's design goals for Windows XP on a typical consumer PC are:
+Microsoft states: "Bootvis.exe is a performance tracing and visualization tool that Microsoft designed to help PC system designers and software developers identify performance issues for boot/resume timing while developing new PC products or supporting software.
+Please note that Bootvis.exe is not a tool that will improve boot/resume performance for end users. Contrary to some published reports, Bootvis.exe cannot reduce or alter a system's boot or resume performance. The boot optimization routines invoked by Bootvis.exe are built into Windows XP and only XP. It will NOT work on other OS's. These routines run automatically at pre-determined times as part of the normal operation of the operating system."[1]
+
+BootVis defines boot and resume times as the time from when the power switch is pressed to the time at which the user is able to start a program from a desktop shortcut. The application measures time taken during Windows XP's boot or resume period. BootVis can also defragment the files accessed during boot to improve startup performance (however a similar optimization is already done in the background by Windows XP every three days).[2]
+The Bootvis.exe tool is no longer available from Microsoft.[3]
+
+

@@ -1,0 +1,18 @@
+bzip2
+bzip2 is a free and open source lossless data compression algorithm and program developed by Julian Seward. Seward made the first public release of bzip2, version 0.15, in July 1996. The compressor's stability and popularity grew over the next several years, and Seward released version 1.0 in late 2000.
+
+bzip2 compresses most files more effectively than the older LZW (.Z), and Deflate (.zip and .gz) compression algorithms, but is considerably slower (~12 times vs Deflate on typical data).[2]
+Like gzip, bzip2 is only a data compressor. It is not an archiver like RAR or ZIP; the program itself has no facilities for multiple files, encryption or archive-splitting, but, in the UNIX tradition, relies instead on separate external utilities such as tar and GnuPG for these tasks.
+In most cases, bzip2's absolute compression efficiency is surpassed by PPM algorithms. bzip2 gets within ten to fifteen percent of PPM, while being roughly twice as fast at compression and six times faster at decompression.[3] LZMA is generally more efficient than bzip2, while having generally 4x faster decompression.[2] However, LZMA when in "ultra" mode or not in fast mode takes significantly longer and much more ram for compression.[2]
+bzip2 uses the Burrows-Wheeler transform to convert frequently-recurring character sequences into strings of identical letters, applies a move-to-front transform, and finally uses Huffman coding. The plaintext input blocks are generally all the same size, which can be selected between 100 and 900 kB using a command-line argument. Compression blocks are delimited by a 48-bit magic number derived from the binary-coded decimal representation of Ï€, 0x314159265359, with the end-of-stream similarly delimited by a value representing sqrt(Ï€), 0x177245385090.
+bzip2's ancestor bzip used arithmetic coding after the block sort. This was discontinued because of a software patent restriction and was replaced by the Huffman coding currently used in bzip2.[4]
+bzip2 is known to be quite slow at compressing, leading users to opt for alternatives such as gzip when time is an issue. This problem is asymmetric, as decompression is relatively fast. Motivated by the large CPU time required for compression, a modified version was created in 2003 that supported multi-threading, giving significant speed improvements on multi-CPU and multi-core computers[citation needed]. As of January 2008[update], this functionality has not been incorporated into the main project.
+
+Bzip2 uses several layers of compression techniques stacked on top of each other, which occur in the following order during compression and the reverse order during decompression:
+
+A .bz2 stream consists of a 4-byte header, followed by zero or more compressed blocks, immediately followed by an end-of-stream marker containing a 32-bit CRC for the plaintext whole stream processed. The compressed blocks are bit-aligned and no padding occurs.
+Note for implementors: Because of the first-stage RLE compression (see above), the maximum length of plaintext that a single 900 kB bzip2 block can contain is around 46 MB (45,899,235 bytes). This can occur if the whole plaintext consists entirely of repeated values (the resulting .bz2 file in this case is 46 bytes long).[6]
+
+
+
+

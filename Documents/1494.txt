@@ -1,0 +1,30 @@
+Compiz
+Compiz is one of the first compositing window managers for the X Window System that uses 3D graphics hardware to create fast compositing desktop effects for window management. The effects, such as a minimization effect and a cube workspace are implemented as loadable plugins. Because it conforms to the Inter-Client Communication Conventions Manual standard, Compiz can substitute for the default Metacity in GNOME or KWin in KDE.
+Some of its features mimic those of competitors, such as Exposé in Apple's Mac OS X and an Alt-Tab application-switcher that uses live previews, instead of just icons. The Composite extension to X is used, as is the OpenGL extension GLX_EXT_texture_from_pixmap [2]. The first version of Compiz was released as free software by Novell (SUSE) in January 2006 in the wake of the also new Xgl.
+
+Initially, Compiz only worked with 3D hardware which was supported by Xgl. Most NVIDIA and ATI graphics cards are known to work with Compiz on Xgl. Since May 22, 2006 Compiz works on the standard X.Org Server, by using AIGLX. Besides the Intel GMA graphics cards, AIGLX also supports using the ATI graphics cards (including R300,R400 and R500 cards) using the open-source radeon driver which supports GLX_EXT_texture_from_pixmap since fall 2006.
+NVIDIA's binary drivers (since Version 1.0-9629) support GLX_EXT_texture_from_pixmap on standard X.Org server.
+ATI/AMD's binary drivers do since version 8.42.[3]
+
+
+On March 30, 2007 the discussions between the Beryl (a fork of Compiz) and Compiz communities led to a merge of the two communities which results in two new software packages:
+It has been also agreed to fund a code review panel consisting of the best developers from each community who will see that any code included in a release package meets the highest standards and is suitable for distribution in an officially supported package.[4][5][6]
+
+In the fourth quarter of 2008, two separate branches of Compiz were created: compiz++ and NOMAD; while compiz++ was geared toward the separation of compositing and OpenGL layers for the rendering of the window manager without compositing effects, and the port from C to C++ programming language.[7] NOMAD was geared towards the improvement of remote desktop performance for Compiz installations.[8]
+
+On February 2nd, 2009 a conference call was held between developers of Compiz, Compiz++, NOMAD and Compiz Fusion where it was decided to merge the projects together into a unified project, simply named Compiz, with a unified roadmap.[9][10][11]
+
+
+
+
+
+Compiz uses small programs called decorators which draw the window borders with the usual minimize, maximize and close buttons. Compiz provides two window decorators.
+In addition, Emerald, Beryl's custom decorator with its own theme format, has been ported to Compiz as part of the Compiz Fusion project (see below) and is available in unofficial packages.[12]
+
+Along with plugins, the Compiz community developers often release code patches for existing plugins when the feature does not warrant a plugin of its own; or when it utilizes many of the portions of an existing plugin. Code patches can then be sent to the mailing list for eventual inclusion in the main Compiz distribution. The community provides a valuable testing ground for new ideas.
+
+Compiz is currently available in OpenSolaris and the following Linux distributions (either officially or through a third party):
+Compiz (Aiglx and XGL) can also be set up on almost any other GNU/Linux-based distribution if the code is compiled correctly; however, there is no support available for this and it is not always a straight-forward procedure. In addition to these Linux distributions, PC-BSD also provides out of the box support for Compiz. However, this option is not enabled by default. FreeBSD is also capable, and the required sources are found in the ports tree[14].
+
+
+

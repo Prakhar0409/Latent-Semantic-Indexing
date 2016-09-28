@@ -1,0 +1,11 @@
+List of statistical packages
+A statistical package is a suite of computer programs that are specialised for statistical analysis. It enables people to obtain the results of standard statistical procedures and statistical significance tests, without requiring low-level numerical programming. Most statistical packages also provide facilities for data management.
+
+
+
+
+
+Many of these are now also the titles of the software companies that produce them (and usually other software as well).
+
+
+

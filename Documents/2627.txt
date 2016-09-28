@@ -1,0 +1,23 @@
+Hosts file
+The hosts file is a computer file used to store information on where to find a node on a computer network. This file maps hostnames to IP addresses. The hosts file is used as a supplement to (or a replacement of) the Domain Name System (DNS) on networks of varying sizes. Unlike DNS, the hosts file is under the control of the local computer's administrator.
+The hosts file has no extension and can be edited using most text editors.
+
+The ARPANET (predecessor to the Internet) had no domain name system for giving network nodes their own addresses. Because there was no centralized system for this purpose, each network node contained its own "map" of the network nodes that it needed to know about and assigned them names that were memorable to the user. There was no method for ensuring that all references to a given node on a network were called by the same name, nor was there a way to read some other user's hosts file to automatically obtain their copy.
+The small size of the ARPANET permitted hosts files to be used with some convenience for some time. Network nodes typically had one address and could have potentially many names. As individual TCP/IP computer networks started becoming popular, however, the hosts file became a large burden on system administrators—networks and network nodes were being added all the time—making maintenance of the hosts file a task which grew significantly.
+Standards (e.g. standardization of HOSTS.TXT in RFC 952) and distribution protocols (e.g. the Hostname Server in RFC 953) helped with these problems, but the centralized and monolothic nature of host files eventually necessitated the creation of the distributed Domain Name System.
+
+The hosts file is located in different locations in different operating systems and even in different Windows versions:
+
+In Windows, the default hosts file is often blank or it contains (inactive) comment lines followed by IPv4 or IPv6 localhost entries.
+
+
+The hosts file has alternate uses, including filtering online advertising (ads) by having entries for known ad servers redirect to machines without the advertising on them, or more typically by redirecting references to ad servers to the local address 127.0.0.1. This can save network bandwidth as well by eliminating requests to the DNS server used to obtain address information. The user's experience may be further enhanced by running a minimal web server locally that only returns a blank page for every request. In this way the ads from the web pages will never actually be requested over the Internet and will fail to appear in the user's browser instead of throwing "not found" errors. However, if the hosts file is to be used for this purpose, it must be kept up to date with lists of Internet servers known to host such content. Also, on some Windows machines, the "DNS Client" service may need to be stopped in order for changes to the hosts file to have effect.
+Blocking ads in this way can result in quicker browser operation and performance improvement for several reasons. The first reason is that rather than having to contact a DNS server to resolve multiple IP addresses, the system quickly parses a small text file (the hosts file) located locally on the computer. Second, when the hosts file returns an invalid or local IP address (e.g., 0.0.0.0), the browser is unable to load the requested ad, saving time and bandwidth. For example, adding an entry like 0.0.0.0 www.example.com to the hosts file would cause requests for ads to the domain of www.example.com to be forwarded to the invalid IP address 0.0.0.0, so the browser would not load them.
+Another use of the host file is to block known malicious or criminal domains and servers which may contain spyware, adware, and other malware. The free utility Spybot - Search & Destroy, for example, includes a feature called "Immunize" that populates the hosts file with thousands of URLs of such websites redirected to 127.0.0.1 to block them.
+
+A useful and time-saving tip for website programmers, intranet developers, and IT managers is to enable non-standard TLDs on a LAN for various purposes, such as .local to access the company's intranet or .new to test websites.
+
+The hosts file can also be "hijacked," or used for malicious purposes. For example, adware, computer viruses, trojan horses, and other malware can edit the hosts file to redirect traffic from a "safe" site (such as Google or Wikipedia) to sites hosting content that may be offensive or intrusive to the user or the user’s computer system.[2] The widespread worm Mydoom.B blocked users from visiting sites regarding computer security and antivirus software and also affected users' ability to access the Windows Update website.
+
+
+

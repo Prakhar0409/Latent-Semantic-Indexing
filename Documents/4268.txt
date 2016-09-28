@@ -1,0 +1,30 @@
+Design research
+Design research investigates the process of designing in all its many fields. It is thus related to Design methods in general or for particular disciplines. A primary interpretation of design research is that it is concerned with undertaking research into the design process. Secondary interpretations would refer to undertaking research within the process of design. The overall intention is to better understand and to improve the design process.
+
+Design Research emerged as a recognisable field of study in the 1960s, initially marked by a conference on Design methods at Imperial College, London, in 1962. It led to the founding of the Design Research Society (DRS) in 1966. John Christopher Jones (who initiated the 1962 conference) founded a postgraduate Design Research Laboratory at the University of Manchester Institute of Science and Technology, and L. Bruce Archer founded the postgraduate Department of Design Research at the Royal College of Art, London, becoming the first Professor of Design Research.
+The Design Research Society has always stated its aim as: ‘to promote the study of and research into the process of designing in all its many fields’. Its purpose therefore is to act as a form of learned society, taking a scholarly and domain independent view of the process of designing.
+Some of the origins of design methods and design research lay in the emergence after the 2nd World War of operational research methods and management decision-making techniques, the development of creativity techniques in the 1950s, and the beginnings of computer programs for problem solving in the 1960s. A statement by Bruce Archer (1965) encapsulated what was going on: ‘The most fundamental challenge to conventional ideas on design has been the growing advocacy of systematic methods of problem solving, borrowed from computer techniques and management theory, for the assessment of design problems and the development of design solutions.’ Herbert Simon (1969) established the foundations for ‘a science of design’, which would be ‘a body of intellectually tough, analytic, partly formalizable, partly empirical, teachable doctrine about the design process.’
+
+Early work was mainly within the domains of architecture and industrial design, but research in engineering design developed strongly in the 1980s; for example, through ICED – the series of International Conferences on Engineering Design. These developments were especially strong in Germany and Japan. In the USA there were also some important developments in design theory and methodology, including the publications of the Design Methods Group and the series of conferences of the Environmental Design Research Association. The National Science Foundation initiative on design theory and methods led to substantial growth in engineering design research in the late-1980s. A particularly significant development was the emergence of the first journals of design research. DRS initiated Design Studies in 1979, Design Issues appeared in 1984, and Research in Engineering Design in 1989.
+
+The development of design research has led to the establishment of design as a coherent discipline of study in its own right, based on the view that design has its own things to know and its own ways of knowing them. Bruce Archer again encapsulated the view in stating his new belief that ‘there exists a designerly way of thinking and communicating that is both different from scientific and scholarly ways of thinking and communicating, and as powerful as scientific and scholarly methods of enquiry when applied to its own kinds of problems’ (Archer, 1979). This view was developed further in a series of papers by Nigel Cross, collected as a book on 'Designerly Ways of Knowing' (Cross, 2006; 2007). Significantly, Donald Schön (1983) promoted the new view within his book The Reflective Practitioner, in which he challenged the technical rationality of Simon and sought to establish ‘an epistemology of practice implicit in the artistic, intuitive processes which [design and other] practitioners bring to situations of uncertainty, instability, uniqueness and value conflict’.
+It might be said that design research ‘came of age’ in the 1980s, since when we have seen a continuing period of expansion. More new journals have appeared, such as The Design Journal, the Journal of Design Research, and CoDesign. There has also been a major growth in conferences, with not only a continuing series by DRS, but also series such as Design Thinking, Doctoral Education in Design, Design Computing and Cognition, Design and Emotion, the European Academy, the Asian Design Conferences, etc., etc. Design research now operates on an international scale, acknowledged in the cooperation of DRS with the Asian design research societies in the founding in 2005 of the International Association of Societies of Design Research.
+
+ Textbooks from Wikibooks
+ Quotations from Wikiquote
+ Source texts from Wikisource
+ Images and media from Commons
+ News stories from Wikinews
+Archer, L B (1965) Systematic Method for Designers, London: The Design Council
+Archer, L B (1979) Whatever Became of Design Methodology?, Design Studies, Vol 1(1): 17-20
+Cross, N (2006) Designerly Ways of Knowing, London: Springer
+Cross, N (2007) Designerly Ways of Knowing, Basel: Birkhauser
+Jones, J C and D G Thornley (eds) (1963) Conference on Design Methods, Oxford, UK: Pergamon Press
+Schön, D (1983) The Reflective Practitioner: How Professionals Think in Action, London: Temple Smith
+Simon, H A (1969) The Sciences of the Artificial, Cambridge, MA: MIT Press
+
+Cross, N (ed.) (1984) Developments in Design Methodology, Chichester, UK: John Wiley & Sons Ltd.
+Höger, H (ed.) (2008) Design Research: Strategy Setting to Face the Future, Milan, I: Abitare Segesta.
+Krippendorff, K (2006) The Semantic Turn, Boca Raton, FA: CRC Press, Taylor & Francis Group.
+Laurel, B. (2003) Design Research: Methods and Perspectives, Cambridge: M.I.T. Press.
+

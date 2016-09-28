@@ -1,0 +1,22 @@
+Open Source Initiative
+The Open Source Initiative is an organization dedicated to promoting open-source software.
+The organization was founded in February 1998, by Bruce Perens and Eric S. Raymond, prompted by Netscape Communications Corporation publishing the source code for its flagship Netscape Communicator product. Later, in August 1998 the organization added a board of directors.
+Raymond was president from its founding until February 2005. The current president is Michael Tiemann.
+
+Although born from the same history of Unix, Internet free software, and the hacker culture as the "Free Software" movement as defined by Richard Stallman, the formation of the Open Source Initiative, and the choice of the term "open source" was explicitly chosen to:
+Richard Stallman of the Free Software Foundation criticized this motivation, saying that pragmatic focus of the initiative distracts users from the central moral issues and the freedoms offered by free software, blurring the distinction with semi-free or wholly proprietary software. However, he describes the free software and the Open Source Initiative as separate political camps within the same free software community and says:
+
+The movement was launched in 1998 by Jon "maddog" Hall, Larry Augustin, Eric S. Raymond, Bruce Perens, and others[3][4]. Raymond is probably the single person most identified with the OSI and the "open source" movement; he was and remains its self-described principal theorist, but does not claim to lead it in any exclusive sense. The open source movement is steered by a loose collegium of elders that includes Raymond, its other co-founders, and such notables as Linus Torvalds, Larry Wall, and Guido van Rossum.
+The founders were dissatisfied with what they saw as the confrontational attitude of the free software movement, and favored advocating free software exclusively on the grounds of technical superiority (a claim previously made by Raymond in his essay The Cathedral and the Bazaar). It was hoped that open source and the associated propaganda would become a more persuasive argument to businesses. Raymond's comment was "If you want to change the world, you have to co-opt the people who write the big checks." (Cygnus Support had been pursuing exactly this approach for a number of years already, but not advertising it widely.)
+The group adopted the Open Source Definition for open-source software, based on the Debian Free Software Guidelines, which in turn was based on The Free Software Definition. They also established the Open Source Initiative (OSI) as a steward organization for the movement. However, they were unsuccessful in their attempt to secure a trademark for 'open source', to act as an imprimatur and to prevent misuse of the term. Despite this, the OSI developed considerable influence in the corporate sphere and has been able to hold abuse of the term to a tolerable minimum.[citation needed] With the Free Software Foundation (FSF), it has become one of the hacker community's two principal advocacy organizations.
+The early period of the open-source movement coincided with and partly drove the dot-com boom of 1998─2000, and saw a large growth in the popularity of Linux and the formation of many open-source-friendly companies. The movement also caught the attention of the mainstream software industry, leading to open-source software offerings by established software companies such as Corel (Corel Linux), Sun Microsystems (OpenOffice.org), and IBM (OpenAFS). By the time the dot-com boom busted in 2001, many of the early hopes of open-source advocates had already borne fruit, and the movement continued from strength to strength in the cost-cutting climate of the 2001─2003 recession.
+
+The Open Source Initiative board is:
+OSI board alumni include[clarification needed]:
+
+
+
+
+
+
+

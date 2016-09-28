@@ -1,0 +1,15 @@
+ISO 3166-1
+ISO 3166-1 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for the names of countries, dependent territories, and special areas of geographical interest. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 1: Country codes. It defines three sets of country codes:[1]
+ISO 3166 has included alphabetic country codes since its first edition in 1974, and numeric country codes since its second edition in 1981. The country codes were first published as ISO 3166-1 in 1997 in the fifth edition of ISO 3166, when ISO 3166 were divided into three separate parts.[2]
+As a widely used international standard, ISO 3166-1 is implemented in other standards and used by international organizations,[3] to allow facilitation of the exchange of goods and information.[4] However, it is not the only standard for country codes. Many international organizations use their own country codes, which are partly or totally incompatible with ISO 3166-1,[5] although some of them closely correspond to the ISO 3166-1 codes. For examples, see the section Other country codes in Country code.
+
+Currently 246 countries, territories, or areas of geographical interest are assigned official codes in ISO 3166-1. According to the ISO 3166 Maintenance Agency (ISO 3166/MA), the only way to enter a new country name into ISO 3166-1 is to have it registered in one of the following two sources:[6]
+To be listed in the bulletin Country Names, a country must either be:
+The list of names in Country and Region Codes for Statistical Use of the UN Statistics Division is based on the bulletin Country Names and other UN sources.
+Once a country name or territory name appears in either of these two sources, it will be added to ISO 3166-1 by default.
+
+ISO 3166-1 is published officially in both English and French. Since the second edition of ISO 3166-1, the following columns are included for each entry:
+
+
+The following is a complete ISO 3166-1 encoding list of the countries which are assigned official codes, in alphabetical order by the English short country names officially used by the ISO 3166/MA, which are all from United Nations sources:[7]
+Columns can be sorted by clicking on their respective buttons. The last column contains the link to each country's ISO 3166-2 codes.

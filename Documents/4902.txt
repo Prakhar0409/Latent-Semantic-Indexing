@@ -1,0 +1,13 @@
+A Pattern Language
+A Pattern Language: Towns, Buildings, Construction is a 1977 book on architecture. It was authored by Christopher Alexander, Sara Ishikawa and Murray Silverstein of the Center for Environmental Structure of Berkeley, California, with writing credits also to Max Jacobson, Ingrid Fiksdahl-King and Shlomo Angel. Twenty five years after its publication, it is still one of the best-selling books on architecture.[1]
+The book is a substantive, illustrated discussion of a pattern language derived from traditional architecture, with 253 unitary patterns such as Main Gateways given a treatment over several pages. It is written as a set of rules that are invoked by circumstances. This is a form that a theoretical mathematician or computer scientist might call a generative grammar.
+The work originated from an observation that many medieval cities are attractive and harmonious. The authors said that this occurs because they were built to local regulations that required specific features, but freed the architect to adapt them to particular situations.
+The book provides rules and pictures, and leaves decisions to be taken from the precise environment of the project. It describes exact methods for constructing practical, safe, and attractive designs at every scale, from entire regions, through cities, neighborhoods, gardens, buildings, rooms, built-in furniture, and fixtures down to the level of doorknobs.
+A notable value is that the architectural system consists only of classic patterns tested in the real world and reviewed by multiple architects for beauty and practicality.
+The book includes all needed surveying and structural calculations, and a novel simplified building system that copes with regional shortages of wood and steel, uses easily-stored inexpensive materials, and produces long-lasting classic buildings with small amounts of materials, design, and labor. It first has users prototype a structure on-site in temporary materials. Once accepted, these are finished by filling them with very-low-density concrete. It uses vaulted construction to build as high as three stories, permitting very high densities.
+This book's method was adopted by the University of Oregon, as described in The Oregon Experiment, and remains the official planning instrument. It has also been adopted in part by some cities as a building code.
+The idea of a pattern language appears to apply to any complex engineering task, and has been applied to some of them. It has been especially influential in software engineering where design patterns have been used to document collective knowledge in the field.
+A summary of the patterns in the book is available online.
+The three books in the series are:
+
+

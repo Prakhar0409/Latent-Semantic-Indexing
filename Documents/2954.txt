@@ -1,0 +1,31 @@
+Unified Thread Standard
+The Unified Thread Standard (UTS) defines a standard thread form and series—along with allowances, tolerances, and designations—for screw threads commonly used in the United States and Canada. It has the same 60° profile as the ISO metric screw thread used in the rest of the world, but the characteristic dimensions of each UTS thread (outer diameter and pitch) were chosen as an inch fraction rather than a round millimeter value. The UTS is currently controlled by ASME/ANSI in the United States.
+
+
+Each thread in the series is characterized by its major diameter Dmaj and its pitch P. UTS threads consist of a symmetric V-shaped thread. In the plane of the thread axis, the flanks of the V have an angle of 60° to each other. The outermost 1/8 and the innermost 1/4 of the height H of the V-shape are cut off from the profile.
+The pitch P is the distance a screw advances during a 360° rotation. It is related to a TPI (teeth per inch or threads per inch) figure by:
+The height H and the pitch P are related through the 60° angle via
+In an external (male) thread (e.g., on a bolt), the major diameter Dmaj and the minor diameter Dmin define maximum dimensions of the thread. This means that the external thread must end flat at Dmaj, but can be rounded out below the minor diameter Dmin. Conversely, in an internal (female) thread (e.g., in a nut), the major and minor diameters are minimum dimensions, therefore the thread profile must end flat at Dmin but may be rounded out beyond Dmaj.
+The minor diameter Dmin and effective pitch diameter Dp are derived from the major diameter and pitch as
+
+The standard designation for a UTS thread is a number indicating the nominal (major) diameter of the thread, followed by the pitch measured in threads per inch. For diameters smaller than ¼ inch, the diameter is indicated by an integer number defined in the standard, for all other diameters, the inch figure is given.
+This number pair is optionally followed by the letters UNC, UNF or UNEF if the diameter-pitch combination is from the “coarse”, “fine” or “extra fine” series, and may also be followed by a tolerance class.
+Example:
+
+Formula for number screw sizes: Diameter = Screw Size # × 0.013" + 0.060"
+Example: #10 × 0.013" + 0.060" = 0.190" diameter
+Sometimes "special" thread profiles (UNS) are used, for example a 0.619 inch (15.723�mm) major diameter with 20 teeth per inch. This gives a stronger assembly fit of external and internal threads. These may be design considerations in aerospace, defense and automobile applications.
+
+A screw thread gauging system comprises a list of screw thread characteristics that must be inspected to establish the dimensional acceptability of the screw threads on a threaded product and the gauge(s) which shall be used when inspecting those characteristics.
+Currently this gauging UTS is controlled by:
+These Standards provide essential specifications and dimensions for the gauges used on Unified inch screw threads (UN, UNR, UNJ thread form)on externally and internally threaded products. It also covers the specifications and dimensions for the thread gauges and measuring equipment. The basic purpose and use of each gauge are also described. It also establishes the criteria for screw thread acceptance when a gauging system is used.
+
+A classification system exists for ease of manufacture and interchangeability of fabricated threaded items. Most (but certainly not all) threaded items are made to a classification standard called the Unified Screw Thread Standard Series. This system is analogous to the fits used with assembled parts.
+Classes 1A, 2A, 3A apply to external threads; Classes 1B, 2B, 3B apply to internal threads.
+Class 1 threads are loosely fitting threads intended for ease of assembly or use in a dirty environment.
+Class 2 threads are the most common. They are designed to maximize strength considering typical machine shop capability and machine practice.
+Class 3 threads are used for closer tolerances.
+Thread class refers to the acceptable range of pitch diameter for any given thread. The pitch diameter is indicated as Dp in the figure shown above. There are several methods that are used to measure the pitch diameter. The most common method used in production is by way of a Go-NoGo gauge.
+
+
+

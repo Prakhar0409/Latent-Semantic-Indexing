@@ -1,0 +1,14 @@
+Systems analysis
+Systems analysis is the interdisciplinary part of Science, dealing with analysis of sets of interacting entities, the systems, often prior to their automation as computer systems, and the interactions within those systems. This field is closely related to operations research. It is also "an explicit formal inquiry carried out to help someone, referred to as the decision maker, identify a better course of action and make a better decision than he might otherwise have made."[1]
+
+The terms analysis and synthesis come from classical Greek where they mean respectively "to take apart" and "to put together" . These terms are used in scientific disciplines from mathematics and logic to economy and psychology to denote similar investigative procedures. In general, analysis is defined as the procedure by which we break down an intellectual or substantial whole into parts or components. Synthesis is defined as the opposite procedure: to combine separate elements or components in order to form a coherent whole.[2]
+The systems discussed within systems analysis can be within any field such as: industrial processes, management, decision making processes, environmental protection processes, etc. The brothers Howard T. Odum and Eugene Odum began applying a systems view to ecology in 1953, building on the work of Raymond Lindeman (1942) and Arthur Tansley (1935).
+Systems analysis researchers apply mathematical methodology to the analysis of the systems involved trying to form a detailed overall picture.
+
+Practitioners of systems analysis are often called up to dissect systems that have grown haphazardly to determine the current components of the system. This was shown during the year 2000 re-engineering effort as business and manufacturing processes were examined and simplified as part of the Y2K automation upgrades. Current employment titles utilizing systems analysis include, but are not limited to, Systems Analyst, Business Analyst, Manufacturing Engineer, Enterprise Architect, etc.
+While practitioners of systems analysis can be called upon to create entirely new systems their skills are more often used to modify, expand or document existing systems (processes, procedures and methods).
+
+
+
+
+

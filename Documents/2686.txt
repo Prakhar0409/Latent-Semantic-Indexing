@@ -1,0 +1,10 @@
+Autoconf
+GNU Autoconf is a tool for producing shell scripts that automatically configure software source code packages to adapt to many kinds of UNIX-like systems. The configuration scripts produced by Autoconf are independent of it when they are run.
+Together with Automake and Libtool, Autoconf forms the GNU build system. It comprises several tools like Autoheader, etc.
+Autoconf makes use of GNU m4 to transform a user-written 'configure.ac' (formerly, and on older projects, called 'configure.in') file to a portable shell script called 'configure'. The 'configure' script runs non-interactively, and generates customized headers and makefiles derived from pre-written templates. You could say that Autoconf compiles the M4 program in 'configure.ac' into a shell script.
+Autoconf was begun in the summer of 1991 by David Mackenzie to support his work at the Free Software Foundation. In the subsequent years it grew to include enhancements from a variety of authors and became the most widely used build configuration system for writing portable free or open source software.
+
+Autoconf is similar to the Metaconfig package used by Perl. The imake system formerly used by the X Window System (up to X11R6.9) is closely related, but has a different philosophy.
+The Autoconf approach to portability is to test for features, not for versions. For example, the native C compiler on SunOS 4 did not support ISO C. However, it is possible for the user or administrator to have installed an ISO C compliant compiler. A pure version-based approach would not detect the presence of the ISO C compiler, but a feature testing approach would be able to discover the ISO C compiler the user had installed. The rationale of this approach is to gain the following advantages:
+
+

@@ -1,0 +1,66 @@
+Sustainable agriculture
+Agribusiness · Agriculture
+Agricultural science · Agronomy
+Animal husbandry
+Extensive farming
+Factory farming · Free range
+Industrial agriculture
+Intensive farming
+Organic farming · Permaculture
+Sustainable agriculture
+Urban agriculture
+History of agriculture
+Neolithic Revolution
+Muslim Agricultural Revolution
+British Agricultural Revolution
+Green Revolution
+Aquaculture · Dairy farming
+Grazing · Hydroponics · IMTA
+Intensive pig farming · Lumber
+Maize · Orchard
+Poultry farming · Ranching · Rice
+Sheep husbandry · Soybean
+System of Rice Intensification
+Wheat
+Agriculture by country
+Agriculture companies
+Agriculture companies, U.S.
+Biotechnology
+Farming history
+Livestock
+Meat processing
+Poultry farming
+Sustainable agriculture integrates three main goals: environmental stewardship, farm profitability, and prosperous farming communities. These goals have been defined by a variety of disciplines and may be looked at from the vantage point of the farmer or the consumer.
+
+Sustainable agriculture refers to the ability of a farm to produce food indefinitely, without causing severe or irreversible damage to ecosystem health. Two key issues are biophysical (the long-term effects of various practices on soil properties and processes essential for crop productivity) and socio-economic (the long-term ability of farmers to obtain inputs and manage resources such as labor).
+The physical aspects of sustainability are partly understood.[1] Practices that can cause long-term damage to soil include excessive tillage (leading to erosion) and irrigation without adequate drainage (leading to salinization). Long-term experiments have provided some of the best data on how various practices affect soil properties essential to sustainability.
+Although air and sunlight are available everywhere on Earth, crops also depend on soil nutrients and the availability of water. When farmers grow and harvest crops, they remove some of these nutrients from the soil. Without replenishment, land suffers from nutrient depletion and becomes either unusable or suffers from reduced yields. Sustainable agriculture depends on replenishing the soil while minimizing the use of non-renewable resources, such as natural gas (used in converting atmospheric nitrogen into synthetic fertilizer), or mineral ores (e.g., phosphate). Possible sources of nitrogen that would, in principle, be available indefinitely, include:
+The last option was proposed in the 1970s, but would be well beyond the capability of early 21st century technology, even if various concerns about biotechnology were addressed. Sustainable options for replacing other nutrient inputs (phosphorus, potassium, etc.) are more limited. An often overlooked option is landraces that are adapted to less than ideal conditions such as drought or lack of nutrients.
+In some areas, sufficient rainfall is available for crop growth, but many other areas require irrigation. For irrigation systems to be sustainable they require proper management (to avoid salinisation) and musn't use more water from their source than is naturally replenished, otherwise the water source becomes, in effect, a non-renewable resource. Improvements in water well drilling technology and the development of submersible pumps have made it possible for large crops to be regularly grown where reliance on rainfall alone previously made this level of success unpredictable. However, this progress has come at a price, in that in many areas where this has occurred, such as the Ogallala Aquifer, the water is being used at a greater rate than its rate of recharge.
+Socioeconomic aspects of sustainability are also partly understood. Regarding less concentrated farming, the best known analysis is Netting's study on smallholder systems through history.[2]
+Sustainable agriculture was also addressed by the 1990 farm bill [3].
+It was defined as follows:
+Stated by: “the term sustainable agriculture means an integrated system of plant and animal production practices having a site-specific application that will, over the long term:
+
+Given the finite supply of natural resources at any specific cost and location, agriculture that is inefficient or damaging to needed resources may eventually exhaust the available resources or the ability to afford and acquire them. It may also generate negative externality, such as pollution as well as financial and production costs.
+The way that crops are sold must be accounted for in the sustainability equation. Food sold locally requires little additional energy, aside from that necessary for cultivation, harvest, and transportation (including consumers). Food sold at a remote location, whether at a farmers' market or the supermarket, incurs a different set of energy cost for materials, labour, and transport.
+The most important factors for an individual site are sun, air, soil and water. Of the four, water and soil quality and quantity are most amenable to human intervention through time and labour.
+What grows and how and where it is grown are a matter of choice. Two of the many possible practices of sustainable agriculture are crop rotation and soil amendment, both designed to ensure that crops being cultivated can obtain the necessary nutrients for healthy growth.
+
+Many scientists, farmers, and businesses have debated how to make agriculture sustainable. One of the many practices includes growing a diverse number of perennial crops in a single field, each of which would grow in separate season so as not to compete with each other for natural resources.[5] This system would result in increased resistance to diseases and decreased effects of erosion and loss of nutrients in soil. Nitrogen fixation from legumes, for example, used in conjunction with plants that rely on nitrate from soil for growth, helps to allow the land to be reused annually. Legumes will grow for a season and replenish the soil with ammonium and nitrate, and the next season other plants can be seeded and grown in the field in preparation for harvest.
+Monoculture, a method of growing only one crop at a time in a given field, is a very widespread practice, but there are questions about its sustainability, especially if the same crop is grown every year. Growing a mixture of crops (polyculture) sometimes reduces disease or pest problems [6] but polyculture has rarely, if ever, been compared to the more widespread practice of growing different crops in successive years (crop rotation) with the same overall crop diversity; how does growing a corn-bean mixture every year compare with growing corn and bean in alternate years for example? Cropping systems that include a variety of crops (polyculture and/or rotation) may also replenish nitrogen (if legumes are included) and may also use resources such as sunlight, water, or nutrients more efficiently (Field Crops Res. 34:239).
+Replacing a natural ecosystem with a few specifically chosen plant varieties reduces the genetic diversity found in wildlife and makes the organisms susceptible to widespread disease. The Great Irish Famine (1845-1849) is a well-known example of the dangers of monoculture. In practice, there is no single approach to sustainable agriculture, as the precise goals and methods must be adapted to each individual case. There may be some techniques of farming that are inherently in conflict with the concept of sustainability, but there is widespread misunderstanding on impacts of some practices. For example, the slash-and-burn techniques that are the characteristic feature of shifting cultivators are often cited as inherently destructive, yet slash-and-burn cultivation has been practiced in the Amazon for at least 6000 years[7]; serious deforestation did not begin until the 1970s, largely as the result of Brazilian government programs and policies.[8] To note that it may not have been slash-and-burn so much as slash-and-char, which with the addition of organic matter produces terra preta, one of the richest soils on Earth and the only one that regenerates itself
+There are also many ways to practice sustainable animal husbandry. Some of the key tools to grazing management include fencing off the grazing area into smaller areas called paddocks, lowering stock density, and moving the stock between paddocks frequently.[9]
+Several attempts have been made to produce an artificial meat, using isolated tissues to produce it in vitro; Jason Matheny's work on this topic, whichin the New Harvest project, is one of the most commented.[10]
+
+A farm that is able to "produce perpetually", yet has negative effects on environmental quality elsewhere is not sustainable agriculture. An example of a case in which a global view may be warranted is over-application of synthetic fertilizer or animal manures, which can improve productivity of a farm but can pollute nearby rivers and coastal waters (eutrophication). The other extreme can also be undesirable, as the problem of low crop yields due to exhaustion of nutrients in the soil has been related to rainforest destruction, as in the case of slash and burn farming for livestock feed.
+Sustainability affects overall production, which must increase to meet the increasing food and fiber requirements as the world's human population expands to a projected 9.3 billion people by 2050. Increased production may come from creating new farmland, which may ameliorate carbon dioxide emissions if done through reclamation of desert as in Israel, or may worsen emissions if done through slash and burn farming, as in Brazil. Additionally, Genetically modified organism crops show promise for radically increasing crop yields, although many people and governments are apprehensive of this new farming method.
+Some advocates of sustainable agriculture favour organic farming as the only system which can be sustained over the long-term. However, organic production methods, especially in transition, yield less than their conventional counterparts and raise the same problems of sustaining populations globally[11] While evidence supports organic farming during periods of drought[12], these figures must be interpreted with care, and modern food storage technology reduces risks associated with transient droughts. If periods of prolonged drought occur due to global warming, organic production methods can be considered as a way to adapt to a changing climate.
+
+There has been considerable debate about which form of human residential habitat may be a better social form for sustainable agriculture.
+Many environmentalists pushing for increased population density to preserve agricultural land point out that urban sprawl is less sustainable and more damaging to the environment than living in the cities where cars are not needed because food and other necessities are within walking distance[citation needed]. However, others have theorized that sustainable ecocities, or ecovillages which combine habitation and farming with close proximity between producers and consumers, may provide greater sustainability[citation needed].
+The use of available city space (e.g., rooftop gardens and community gardens) for cooperative food production is another way to achieve greater sustainability[citation needed].
+One of the latest ideas in achieving sustainable agricultural involves shifting the production of food plants from major factory farming operations to large, urban, technical facilities called vertical farms. The advantages of vertical farming include year-round production, isolation from pests and diseases, controllable resource recycling, and on-site production that reduces transportation costs[citation needed]. While a vertical farm has yet to become a reality, the idea is gaining momentum among those who believe that current sustainable farming methods will be insufficient to provide for a growing global population[citation needed]. For vertical farming to become a reality, billions of dollars in tax credits and subsidies will need to be made available to the operation.[13] It may be difficult to justify spending billions of dollars on a vertical farm that will only feed 50,000 people when agriculture land remains abundant.
+
+
+

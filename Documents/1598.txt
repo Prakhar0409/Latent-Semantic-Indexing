@@ -1,0 +1,34 @@
+Globally Unique Identifier
+A globally unique identifier or GUID (pronounced /ˈguːɪd/ or /ˈgwɪd/) is a special type of identifier used in software applications in order to provide a reference number which is unique in any context (hence, "globally"), for example, in defining the internal reference for a type of access point in a software application, or for creating unique keys in a database. While each generated GUID is not guaranteed to be unique, the total number of unique keys (2128 or 3.4×1038) is so large that the probability of the same number being generated twice is infinitesimally small. For example, consider the observable universe, which contains about 5×1022 stars; every star could then have 6.8×1015 unique GUIDs.
+The term GUID usually refers to Microsoft's implementation of the Universally Unique Identifier (UUID) standard, however the term is common in applications not written by Microsoft, or for their operating systems. The GUID is also the basis of the GUID Partition Table, Intel's replacement for Master Boot Records under EFI, and of Preboot Execution Environment, Intel's environment to boot computers using a network interface.
+
+The GUID is a 16-byte (128-bit) number. The most commonly used structure of the data type is:
+Data4 stores the bytes in the same order as displayed in the GUID text encoding (see below), but other three fields are reversed on little-endian systems (e.g. Intel CPUs).
+One to three of the most significant bits of the second byte in Data 4 define the type variant of the GUID:
+The most significant four bits of Data3 define the version number, and the algorithm used.
+
+Guids are most commonly written in text as a sequence of hexadecimal digits such as:
+This text notation contains the following fields, separated by hyphens:
+For the first three fields, the most significant digit is on the left. The last two fields are treated as eight separate bytes, each having their most significant digit on the left, and they follow each other from left to right. Note that the digit order of the fourth field may be unexpected, since it's treated differently than in the structure.
+Often braces are added to enclose the above format, as such:
+When printing fewer characters is desired, GUIDs are sometimes encoded into a base64 or Ascii85 string. Base64-encoded GUID consists of 22 to 24 characters (depending on padding), for instance:
+and Ascii85 encoding gives 20 characters, e. g.:
+
+The OSF-specified algorithm for generating new GUIDs has been widely criticized. In these (V1) GUIDs, the user's network card MAC address is used as a base for the last group of GUID digits, which means, for example, that a document can be tracked back to the computer that created it. This privacy hole was used when locating the creator of the Melissa worm. Most of the other digits are based on the time while generating the GUID.
+V1 GUIDs which contain a MAC address and time can be identified by the digit "1" in the first position of the third group of digits, for example {2f1e4fc0-81fd-11da-9156-00036a0f876a}.
+V4 GUIDs use the later algorithm, which is a pseudo-random number. These have a "4" in the same position, for example {38a52be4-9352-453e-af97-5c3b448652f0}. More specifically, the 'data3' bit pattern would be 0001xxxxxxxxxxxx in the first case, and 0100xxxxxxxxxxxx in the second. Cryptanalysis of the WinAPI GUID generator shows that, since the sequence of V4 GUIDs is pseudo-random, given the initial state one can predict up to next 250 000 GUIDs returned by the function UuidCreate[1]. This is why GUIDs should not be used in cryptography, e. g., as random keys.
+
+Depending on the context, groups of GUIDs may be used to represent similar but not quite identical things. For example, in the Windows registry, in the key sequence "My Computer\HKEY_Classes_Root\CLSID", the DAO database management system identifies the particular version and type of accessing module of DAO to be used by a group of about a dozen GUIDs which begin with 5 zeros, a three-digit identifier for that particular version and type, and the remainder of the guid, which ends with the same value for every case, 0000-0010-8000-00AA006D2EA4, so that the set of GUIDs used by this database system runs from {00000010-0000-0010-8000-00AA006D2EA4} through {00000109-0000-0010-8000-00AA006D2EA4} although not all GUIDs in that range are used.
+In the Microsoft Component Object Model (COM), GUIDs are used to uniquely distinguish different software component interfaces. This means that two (possibly incompatible) versions of a component can have exactly the same name but still be distinguishable by their GUIDs.
+The use of GUIDs permits certain types of object orientation to be used in a consistent manner. For example, in the creation of components for Microsoft Windows using COM, all components must implement the IUnknown interface in order to allow client code to find all other interfaces and features of that component, and they do this by creating a GUID which may be called upon to provide an entry point. The IUnknown interface is defined as a GUID with the value of {00000000-0000-0000-C000-000000000046}, and rather than having a named entry point called "IUnknown", the preceding GUID is used, thus every component that provides an IUnknown entry point gives the same GUID, and every program that looks for an IUnknown interface in a component always uses that GUID to find the entry point, knowing that an application using that particular GUID must always consistently implement IUnknown in the same manner and the same way.
+GUIDs are also inserted into documents from Microsoft Office programs, as these are regarded as objects as well. Even audio or video streams in the Advanced Systems Format (ASF) are identified by their GUIDs.
+GUIDs representation can be little endian or big endian, so all APIs need to ensure that the correct data structure is used.
+
+There are several flavors of GUIDs used in COM:
+DCOM introduces many additional GUID subtypes:
+These GUID subspaces may overlap, as the context of GUID usage defines its subtype. For example, there might be a class using same GUID for its CLSID as another class is using for its IID – all without a problem. On the other hand, two classes using same CLSID couldn't co-exist.
+
+There is also a guid element in some versions of the RSS specification, and mandatory id element in Atom, which should contain a unique identifier for each individual article or weblog post. In RSS the contents of the guid can be any text, and in practice is typically a copy of the article URL. Atom's IDs need to be valid URIs (usually URLs pointing to the entry, or URNs containing any other unique identifier).
+
+
+

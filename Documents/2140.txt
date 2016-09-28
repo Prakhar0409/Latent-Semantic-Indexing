@@ -1,0 +1,19 @@
+GNU Project
+The GNU Project is a free software, mass collaboration project, announced on September 27, 1983, by Richard Stallman. It initiated the GNU operating system, software development for which began in January 1984. The founding goal of the project was, in the words of its initial announcement, to develop "a sufficient body of free software [...] to get along without any software that is not free."[1]
+To make this happen, the GNU Project began working on an operating system called GNU. GNU is a recursive acronym that stands for "GNU's Not Unix". This goal of making a free software operating system was achieved in 1992 when the last gap in the GNU system, a kernel, was filled by a third-party Unix-style kernel called "Linux" being released as Free Software, under a GNU GPL v2 license.
+Current work of the GNU Project includes software development, awareness building, and political campaigning.
+The 25th year of the project was globally celebrated by people from the community of Free Software. People downloaded the video of Stephen Fry and uploaded copies to YouTube and other video hosting websites.
+
+Although most of the GNU Project's output is technical in nature, it was launched as a social, ethical, and political initiative. As well as producing software and licenses, the GNU Project has published a large number of philosophical writings, the majority of which were authored by Richard Stallman.
+
+The first goal of the GNU project was to create a whole free-software operating system. By 1992, the GNU project had completed all of the major operating system components except for their kernel, GNU Hurd. The Linux kernel, started independently by Linus Torvalds in 1991 filled the last gap, and Linux version 0.12 was released under the GPL in 1992. Together, Linux and GNU formed the first completely free-software operating system. Though the Linux kernel is not part of the GNU project, it was developed using GCC and other gnu programming tools.[2]
+
+From the mid-1990s onward, with many companies investing in free software development, the Free Software Foundation redirected its funds toward the legal and political support of free software development. Software development from that point on focused on maintaining existing projects, and starting new projects only when there was an acute threat to the free software community; see High Priority Free Software Projects.
+
+One example is the GNOME desktop. This development effort was launched by the GNU Project because another desktop system, KDE, was becoming popular but required users to install certain proprietary software. To prevent people from being tempted to install that proprietary software, the GNU Project simultaneously launched two projects. One was the Harmony toolkit. This was an attempt to make a free software replacement for the proprietary software that KDE depended on. Had this project been successful, the problem with KDE would have been solved. The second project was GNOME, which tackled the same issue from a different angle. It aimed to make a replacement for KDE, one which didn't have any dependencies on proprietary software. The Harmony project didn't make much progress, but GNOME developed very well. Eventually, the proprietary component that KDE depended on (Qt) was released as free software.[3]
+
+Another example is Gnash. Gnash is software to play content distributed in the Adobe Flash format. This has been marked as a priority project by GNU because it was seen that many people were installing a free software operating system and using a free software web-browser, but were then also installing the proprietary software plug-in from Adobe.
+
+
+
+

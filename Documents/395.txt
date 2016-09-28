@@ -1,0 +1,44 @@
+Median
+In probability theory and statistics, a median is described as the number separating the higher half of a sample, a population, or a probability distribution, from the lower half. The median of a finite list of numbers can be found by arranging all the observations from lowest value to highest value and picking the middle one. If there is an even number of observations, the median is not unique, so one often takes the mean of the two middle values. At most half the population have values less than the median and at most half have values greater than the median. If both groups contain less than half the population, then some of the population is exactly equal to the median. For example, if a < b < c, then the median of the list {a, b, c} is b, and if a < b < c < d, then the median of the list {a, b, c, d} is the mean of b and c, i.e. it is (b + c)/2.
+The median can be used when a distribution is skewed or when end values are not known. A disadvantage is the difficulty of handling it theoretically.[citation needed]
+
+The median of some variable  is denoted either as  or as [1]
+
+When the median is used as a location parameter in descriptive statistics, there are several choices for a measure of variability: the range, the interquartile range, the mean absolute deviation, and the median absolute deviation. Since the median is the same as the second quartile, its calculation is illustrated in the article on quartiles.
+Working with computers, a population of integers should have an integer median. Thus, for an integer population with an even number of elements, there are two medians known as lower median and upper median[citation needed]. For floating point population, the median lies somewhere between the two middle elements, depending on the distribution[citation needed]. Median is the middle value after arranging data by any order[citation needed].
+
+For any probability distribution on the real line with cumulative distribution function F, regardless of whether it is any kind of continuous probability distribution, in particular an absolutely continuous distribution (and therefore has a probability density function), or a discrete probability distribution, a median m satisfies the inequalities
+or
+in which a Riemann-Stieltjes integral is used. For an absolutely continuous probability distribution with probability density function Æ’, we have
+Medians of particular distributions: The medians of certain types of distributions can be easily calculated from their parameters: The median of a normal distribution with mean Î¼ and variance Ïƒ2 is Î¼. In fact, for a normal distribution, mean = median = mode. The median of a uniform distribution in the interval [a, b] is (a + b) / 2, which is also the mean. The median of a Cauchy distribution with location parameter x0 and scale parameter y is x0, the location parameter. The median of an exponential distribution with rate parameter Î» is the natural logarithm of 2 divided by the rate parameter: ln 2/Î». The median of a Weibull distribution with shape parameter k and scale parameter Î» is Î»(ln 2)1/k.
+
+The median is primarily used for skewed distributions, which it summarizes differently than the arithmetic mean. Consider the multiset { 1, 2, 2, 2, 3, 9 }. The median is 2 in this case, as is the mode, and it might be seen as a better indication of central tendency than the arithmetic mean of 3.166.
+Calculation of medians is a popular technique in summary statistics and summarizing statistical data, since it is simple to understand and easy to calculate, while also giving a measure that is more robust in the presence of outlier values than is the mean.
+
+
+The median is also the central point which minimizes the average of the absolute deviations; in the example above this would be (1 + 0 + 0 + 0 + 1 + 7) / 6 = 1.5 using the median, while it would be 1.944 using the mean. In the language of probability theory, the value of c that minimizes
+is the median of the probability distribution of the random variable X. Note, however, that c is not always unique, and therefore not well defined in general.
+
+For continuous probability distributions, the difference between the median and the mean is less than or equal to one standard deviation. See an inequality on location and scale parameters.
+
+
+Even though sorting n items takes in general O(n log n) operations, by using a "divide and conquer" algorithm the median of n items can be computed with only O(n) operations (in fact, you can always find the k-th element of a list of values with this method; this is called the selection problem).
+
+As an example, we will calculate the median of the following population of numbers: 1, 5, 2, 8, 7.
+Start by sorting the numbers: 1, 2, 5, 7, 8.
+In this case, 5 is the median, because when the numbers are sorted, it is the middle number.
+For a set of even numbers:
+As an example of this scenario, we will calculate the median of the following population of numbers: 1, 5, 2, 10, 8, 7.
+Again, start by sorting the numbers: 1, 2, 5, 7, 8, 10.
+In this case, both 5 and 7, and all numbers between 5 and 7 are medians of the data points.
+Sometimes one takes the average of the two median numbers to get a unique value ((5 + 7)/2 = 12/2 = 6).
+
+If data are represented by a statistical model specifying a particular family of probability distributions, then estimates of the median can be obtained by fitting that family of probability distributions to the data and calculating the theoretical median of the fitted distribution. See, for example Pareto interpolation.
+
+In computer science, a median calculation is often performed to determine the middle index of a sorted array. The middle index is computed as (A + B)/2, where A is the index of the smallest value, and B is the index of the largest value. Joshua Bloch, a Google software engineer, posited that if (A + B) is larger than the maximum allowed integer size, then a arithmetic overflow would occur. He suggested that an alternative median calculation: A + ((B âˆ’ A)/2) would avoid this problem. Note that the aforementioned calculations are for binary search and similar algorithms, and do not represent a true mathematical median.[2]
+
+Gustav Fechner introduced the median into the formal analysis of data.[3]
+
+
+
+This article incorporates material from Median of a distribution on PlanetMath, which is licensed under the GFDL.

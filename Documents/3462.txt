@@ -1,0 +1,73 @@
+ColdFusion
+ColdFusion is an application server and software language used for Internet application development[1] such as for dynamically-generated web sites. In this regard, ColdFusion is a similar product to Microsoft Active Server Pages, JavaServer Pages or PHP. ColdFusion was the first amongst these technologies to provide the developer the capability of creating dynamic websites that were attached to a backend database.
+
+The primary distinguishing feature of ColdFusion is its associated scripting language, ColdFusion Markup Language (CFML), which compares to Active Server Pages, JSP, or PHP and resembles HTML in syntax. "ColdFusion" is often used synonymously with "CFML", but there are additional CFML application servers besides ColdFusion, and ColdFusion supports programming languages other than CFML, such as server-side Actionscript and embedded scripts that can be written in a JavaScript-like language known as CFScript.
+Originally a product of Allaire, and released in July 1995, ColdFusion was originally developed by brothers JJ and Jeremy Allaire. In 2001 Allaire was acquired by Macromedia, which in turn was acquired by Adobe Systems in 2005.
+ColdFusion is most often used for data-driven web sites or intranets, but can also be used to generate remote services such as SOAP web services or Flash remoting. It is especially well-suited as the server-side technology to the client-side Flex.
+ColdFusion can also handle asynchronous events such as SMS and instant messaging via its gateway interface, available in ColdFusion MX 7 Enterprise Edition.
+
+ColdFusion provides a number of additional features out of the box. Among them:
+Other implementations of CFML offer similar or enhanced functionality, such as running in a .NET environment or image manipulation.
+
+
+The first version of ColdFusion (then called Cold Fusion) was released on July 10, 1995. This first version was written almost entirely by one person, JJ Allaire. Primitive by modern standards, early versions of ColdFusion did little more than database access.[2]
+All versions of ColdFusion prior to 6.0 were written using Microsoft Visual C++. This meant that ColdFusion was largely limited to running on Microsoft Windows, although Allaire did successfully port ColdFusion to Sun Solaris starting with version 3.1.
+
+1995 : Allaire Cold Fusion version 1.0
+1996 : Allaire Cold Fusion version 1.5
+1996 : Allaire Cold Fusion version 2.0
+1997-Jun : Allaire Cold Fusion version 3.0
+1998-Jan : Allaire Cold Fusion version 3.1
+1998-Nov : Allaire ColdFusion version 4.0 (space eliminated between Cold and Fusion to make it ColdFusion)
+1999-Nov : Allaire ColdFusion version 4.5
+2001-Jun : Macromedia ColdFusion version 5.0
+2002-May : Macromedia ColdFusion MX version 6.0 (build 6,0,0,48097), Updater 1 (build 6,0,0,52311), Updater 2 (build 6,0,0,55693), Updater 3 (build 6,0,0,58500)
+2003-Jul : Macromedia ColdFusion MX version 6.1 (build 6,1,0,63958), Updater 1 (build 6,1,0,83762)
+2005 : Macromedia ColdFusion MX 7 (build 7,0,0,91690), 7.0.1 (build 7,0,1,116466), 7.0.2 (build 7,0,2,142559)
+2007-Jul-30 : Adobe ColdFusion 8 (build 8,0,0,176276)
+2008-Apr-04 : Adobe ColdFusion 8.0.1 (build 8,0,1,195765)
+
+Prior to 2000, Allaire began a project codenamed "Neo", that would rewrite the basis of ColdFusion using Java, which would allow for greater portability among different platforms.
+On January 16, 2001, Allaire announced that it would be merging with Macromedia. Shortly after the merger, Macromedia continued with the incremental release of ColdFusion 5.00 and in June 2002, Macromedia released Macromedia ColdFusion MX (6.0), extending the naming convention of Macromedia's line of products. ColdFusion MX was completely rebuilt from the ground up and was based on the Java 2 Enterprise Edition (J2EE) platform. ColdFusion MX was also designed to integrate well with Macromedia Flash using Flash Remoting.
+Starting from the MX (6.0) release, ColdFusion is compiled to bytecode, like JSP and ASP.NET. The compiled .class files are readily accessible, and are cached until their source changes, like JSPs.
+With the release of ColdFusion MX, the CFML language was also extended to support basic OOP.
+
+With the release of ColdFusion 7.0, the naming convention was amended, rendering the product name "Macromedia ColdFusion MX 7". CFMX 7 added Flash-based, and XForms-based, web forms and a report builder that output in Adobe PDF as well as FlashPaper, RTF and Excel. The Adobe PDF output is also available as a wrapper to any HTML page, converting that page to a quality printable document. The enterprise edition also added Gateways. These provide interaction with non-HTTP request services such as IM Services, SMS, Directory Watchers, and an asynchronous execution. XML support was boosted in this version to include native schema checking.
+ColdFusion MX 7.0.2, codenamed "Mystic" includes advanced features for working with Adobe Flex 2.
+
+On July 30, 2007, Adobe Systems released ColdFusion 8, dropping "MX" from its name. During beta testing the codename used was "Scorpio". More than 14,000 developers worldwide were active in the beta process - many more testers than the 5,000 Adobe Systems originally expected. The ColdFusion development team consisted of developers based in Newton/Boston, Massachusetts and Bangalore, India.
+Some of the new features are the CFPDFFORM tag, which enables integration with Adobe Acrobat forms, some image manipulation functions, Microsoft .NET integration, and the CFPRESENTATION tag, which allows the creation of dynamic presentations using Adobe Acrobat Connect, the Web-based collaboration solution formerly known as Macromedia Breeze. In addition, the ColdFusion Administrator for the Enterprise version ships with built-in server monitoring. ColdFusion 8 is available on several operating systems including Linux, Mac OS X and Windows Server 2003.
+Other additions to ColdFusion 8 are built-in AJAX widgets, file archive manipulation (CFZIP), Microsoft Exchange server integration (CFEXCHANGE), image manipulation including automatic captcha generation (CFIMAGE), multi-threading, per-application settings, Atom and RSS feeds, reporting enhancements, stronger encryption libraries, array and structure improvements, improved database interaction, extensive performance improvements, PDF manipulation and merging capabilities (CFPDF), interactive debugging, embedded database support with Apache Derby, and a more ECMAScript compliant CFSCRIPT.
+For development of ColdFusion applications, several tools are available: Adobe Dreamweaver CS3, Macromedia HomeSite, CFEclipse, Eclipse and others. "Tag updates" are available for these applications to update their support for the new ColdFusion 8 features.
+
+Adobe is currently working on ColdFusion 9 (Codename: Centaur). There is no release date set, but the list of potential new features include [3]:
+
+"Bolt" is the codename for Adobeâ€™s new Eclipse based development IDE that can be used to build applications for ColdFusion. The codename is a reference to the original lightning icon for the product from the Allaire days.
+Although still in development, some of the intended features for the tool include:
+Adobe is currently targeting the commercial release for some time in 2009.
+
+
+ColdFusion Server includes a subset of its Macromedia Flex 1.5 technology. Its stated purpose is to allow for rich forms in HTML pages using CFML to generate Flash movies. These Flash forms can be used to implement rich internet applications, but with limited efficiency due to the ActionScript restrictions in place on Flash forms by Macromedia.
+Flash forms also provide additional widgets for data input, such as date pickers and data grids.
+In previous versions of ColdFusion, some form validation and additional widgets were available using a combination of Java applets and JavaScript. This option persists for those who do not wish to use Flash, however not all features are supported.
+An example:
+ColdFusion also includes some XForms capability, and the ability to "skin" forms using XSLT.
+
+ColdFusion can generate PDF or FlashPaper documents using standard HTML (i.e. no additional coding is needed to generate documents for print). CFML authors simply place HTML and CSS within a pair of cfdocument tags and specify the desired format (FlashPaper or PDF). The generated document can then either be saved to disk or sent to the client's browser. ColdFusion 8 has now introduced the cfpdf tag which allows for unprecedented control over PDF documents including PDF forms, and merging of PDFs.
+
+ColdFusion was originally not an object-oriented programming language, and even today lacks some OO features. ColdFusion falls into the category of OO languages that do not support multiple inheritance (along with Java, Smalltalk etc.)[4]. With the MX release (6+), ColdFusion introduced the component language construct which resembles classes in OO languages. Each component may contain any number of properties and methods. One component may also extend another (Inheritance). Components only support single inheritance. With the release of ColdFusion 8, Java-style interfaces are supported. ColdFusion components use the file extension cfc to differentiate them from ColdFusion templates (.cfm).
+
+Component methods may be made available as web services with no additional coding and configuration. All that is required is for a method's access to be declared 'remote'. ColdFusion automatically generates a WSDL at the URL for the component thusly: http://path/to/components/Component.cfc?wsdl. Aside from SOAP, the services are offered in Flash Remoting binary format.
+Methods which are declared remote may also be invoked via an HTTP GET or POST request. Consider the GET request as shown.
+This will invoke the component's search function, passing "your query" and "strict" as arguments.
+This type of invocation is well-suited for AJAX-enabled applications. ColdFusion 8 introduced the ability to serialize ColdFusion data structures to JSON for consumption on the client.
+The ColdFusion server will automatically generate documentation for a component if you navigate to its URL and insert the appropriate code within the component's declarations. This is an application of component introspection, available to developers of ColdFusion components. Access to a component's documentation requires a password. A developer can view the documentation for all components known to the ColdFusion server by navigating to the ColdFusion URL. This interface resembles the Javadoc HTML documentation for Java classes.
+
+ColdFusion provides several ways to implement custom tags, i.e. those not included in the core ColdFusion language. The traditional and most common way is using CFML. A standard CFML page can be interpreted as a tag, with the tag name corresponding to the file name prefixed with "cf_". For example, the file IMAP.cfm can be used as the tag "cf_imap". Attributes used within the tag are available in the ATTRIBUTES scope of the tag implementation page. CFML pages are accessible in the same directory as the calling page, via a special directory in the ColdFusion web application, or via a CFIMPORT tag in the calling page. The latter method does not necessarily require the "cf_" prefix for the tag name.
+A second way is the development of CFX tags using Java or C++. CFX tags are prefixed with "cfx_", for example "cfx_imap". Tags are added to the ColdFusion runtime environment using the ColdFusion administrator, where JAR or DLL files are registered as custom tags.
+Finally, ColdFusion supports JSP tag libraries from the JSP 2.0 language specification. JSP tags are included in CFML pages using the CFIMPORT tag.
+
+ColdFusion originated as proprietary technology based on Web technology industry standards. However, it is becoming a less closed technology through the availability of competing products. Products include Railo, BlueDragon, IgniteFusion, SmithProject and Coral Web Builder.
+The argument can be made that ColdFusion is even less platform-bound than raw J2EE or .NET, simply because ColdFusion will run on top of a .NET app server (New Atlanta), or on top of any servlet container or J2EE application server (JRun, WebSphere, JBoss, Geronimo, Tomcat, Resin Server, Jetty (web server), etc.). In theory, a ColdFusion application could be moved unchanged from a J2EE application server to a .NET application server.
+Currently, alternative server platforms generally support ColdFusion MX 6.1 functionality, with minor changes or feature enhancements.
+

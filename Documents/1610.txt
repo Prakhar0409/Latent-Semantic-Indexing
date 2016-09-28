@@ -1,0 +1,17 @@
+Parkinson's Law
+Parkinson's Law is the adage first articulated by Cyril Northcote Parkinson as the first sentence of a humorous essay published in The Economist in 1955:[1]
+It was later reprinted together with other essays in the book Parkinson's Law: The Pursuit of Progress (London, John Murray, 1958). He derived the dictum from his extensive experience in the British Civil Service.
+The current form of the law is not that which Parkinson refers to by that name in the article. Rather, he assigns to the term a mathematical equation describing the rate at which bureaucracies expand over time. Much of the essay is dedicated to a summary of purportedly scientific observations supporting his law, such as the increase in the number of employees at the Colonial Office while Great Britain's overseas empire declined (indeed, he shows that the Colonial Office had its greatest number of staff at the point when it was folded into the Foreign Office because of a lack of colonies to administer). He explains this growth by two forces: (1) "An official wants to multiply subordinates, not rivals" and (2) "Officials make work for each other." He notes in particular that the total of those employed inside a bureaucracy rose by 5-7% per year "irrespective of any variation in the amount of work (if any) to be done."
+
+In time, however, the first-referenced meaning of the phrase has dominated, and sprouted several corollaries: for example, the derivative relating to computers:
+And a similar, in terms of computer executable code filling CPU resource (see software bloat), a similar law is Wirth's law.
+A second aphorism, attributed to Parkinson and sometimes called "Parkinson's second law", is "expenditures rise to meet income".
+
+"Parkinson's Law" could be generalized further still as:
+An extension is often added to this, stating that:
+This generalization has become very similar to the economic law of demand; that the lower the price of a service or commodity, the greater the quantity demanded.
+
+Parkinson also proposed a rule about the efficiency of administrative councils. He defined a coefficient of inefficiency with the number of members as the main determining variable.
+
+
+

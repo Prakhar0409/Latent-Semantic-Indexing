@@ -1,0 +1,25 @@
+E-procurement
+Part of a series on
+Electronic commerce
+Online goods and services
+Streaming media
+Electronic books
+Software
+Retail services
+Banking Â· Food ordering
+Online flower delivery Â· DVD or Blu-ray Disc rental
+Travel
+Marketplace services
+Trading communities
+Auctions Â· Online wallet
+Advertising
+Price comparison service
+E-procurement
+E-procurement (electronic procurement, sometimes also known as supplier exchange) is the business-to-business or business-to-consumer or Business-to-government purchase and sale of supplies, Work and services through the Internet as well as other information and networking systems, such as Electronic Data Interchange and Enterprise Resource Planning. Typically, e-procurement Web sites allow qualified and registered users to look for buyers or sellers of goods and services. Depending on the approach, buyers or sellers may specify costs or invite bids. Transactions can be initiated and completed. Ongoing purchases may qualify customers for volume discounts or special offers. E-procurement software may make it possible to automate some buying and selling. Companies participating expect to be able to control parts inventories more effectively, reduce purchasing agent overhead, and improve manufacturing cycles. E-procurement is expected to be integrated with the trend toward computerized supply chain management.
+E-procurement is done with a software application that includes features for supplier management and complex auctions. The new generation of E-Procurement is now on-demand or a software-as-a-service.
+There are seven main types of e-procurement:
+The e-procurement value chain consists of Indent Management, eTendering, eAuctioning, Vendor Management, Catalogue Management, and Contract Management. Indent Management is the workflow involved in the preparation of tenders. This part of the value chain is optional, with individual procuring departments defining their indenting process. In works procurement, administrative approval and technical sanction are obtained in electronic format. In goods procurement, indent generation activity is done online. The end result of the stage is taken as inputs for issuing the NIT.
+Elements of e-procurement include Request For Information, Request For Proposal, Request for Quotation, RFx (the previous three together), and eRFx (software for managing RFx projects).
+
+In reality e-procurement has the advantage of taking supply chain management to the next level, providing real time information to the vendor as to the status of a customer's needs. For example, a vendor may have an agreement with a customer to automatically ship materials when the customer's stock level reaches a low point, thus bypassing the need for the customer to ask for it.
+

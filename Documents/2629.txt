@@ -1,0 +1,4 @@
+Narcissus (JavaScript engine)
+Narcissus is an open source JavaScript engine. It was written by Brendan Eich, who also wrote the first JavaScript engine, SpiderMonkey. Its name is based on the mythical figure of Narcissus, who fell in love with himself. This relates to the fact that this JavaScript engine is a metacircular interpreter, because the engine itself is also written in JavaScript, albeit using a lot of non-standard extensions that are specific to SpiderMonkey, one of them specially added for Narcissus and currently only available in a development branch of SpiderMonkey.
+
+

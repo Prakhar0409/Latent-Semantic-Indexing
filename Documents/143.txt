@@ -1,0 +1,17 @@
+Chemical reaction
+A chemical reaction is a process that always results in the interconversion of chemical substances.[1] The substance or substances initially involved in a chemical reaction are called reactants. Chemical reactions are usually characterized by a chemical change, and they yield one or more products, which usually have properties different from the reactants. Classically, chemical reactions encompass changes that strictly involve the motion of electrons in the forming and breaking of chemical bonds, although the general concept of a chemical reaction, in particular the notion of a chemical equation, is applicable to transformations of elementary particles, as well as nuclear reactions.
+Different chemical reactions are used in combination in chemical synthesis in order to get a desired product. In biochemistry, series of chemical reactions catalyzed by enzymes form metabolic pathways, by which syntheses and decompositions ordinarily impossible in conditions within a cell are performed.
+
+The large diversity of chemical reactions and approaches to their study results in the existence of several concurring, often overlapping, ways of classifying them. Below are examples of widely used terms for describing common kinds of reactions.
+Organic reactions encompass a wide assortment of reactions involving compounds which have carbon as the main element in their molecular structure. The reactions in which an organic compound may take part are largely defined by its functional groups.
+
+The rate of a chemical reaction is a measure of how the concentration or pressure of the involved substances changes with time. Analysis of reaction rates is important for several applications, such as in chemical engineering or in chemical equilibrium study. Rates of reaction depends basically on:
+Reaction rates are related to the concentrations of substances involved in reactions, as quantified by the rate law of each reaction. Note that some reactions have rates that are independent of reactant concentrations. These are called zero order reactions.
+Reactions and Energy
+Chemical energy is part of all chemical reactions. Energy is needed to break chemical bonds in the starting substances. As new bonds form in the final substances, energy is released. By comparing the chemical energy of the original substances with the chemical energy of the final substances, you can decide if energy is released or absorbed in the overall reaction.
+Exothermic Reactions
+A chemical reaction in which energy is released is called an exothermic reaction. Exo means "go out" or "exit." Thermic means "heat" or "energy." Exothermic reactions can give off energy in several forms. If heat is released in an exothermic reaction, the nearby matter will become warmer. The nearby matter absorbs the heat released by the reaction. The reaction between gasoline and oxygen in a car's engine is an exothermic reaction
+
+
+
+

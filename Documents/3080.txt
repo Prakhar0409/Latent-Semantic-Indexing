@@ -1,0 +1,8 @@
+SheepShaver
+SheepShaver is an open source PowerPC Apple Macintosh emulator originally designed for BeOS and Linux. The name is a play on ShapeShifter, a Macintosh II emulator for AmigaOS (made obsolete by Basilisk II), which is in turn not to be confused with a third-party preference pane for Mac OS X with the same name. The ShapeShifter and SheepShaver projects were originally conceived and programmed by Christian Bauer. However, the main developer behind SheepShaver, of late, has been Gwenolé Beauchesne.
+SheepShaver was originally commercial software when first released in 1998, but after the demise of Be Inc., the maker of BeOS, it became open source in 2002. It can be run on both PowerPC and x86 systems; however, it runs more slowly on an x86 system than on a PowerPC system, due to instruction conversion.
+It has also been ported to Microsoft Windows. Ports to the Mac OS X PowerPC and Intel versions have also been released. A complete install for Intel Macs can be found here.
+It is capable of running Mac OS 7.5.2 through 9.0.4 (though it needs the image of an Old World ROM to run Mac OS 8.1 or below), and can be run inside a window so that the user can run classic Mac OS applications and BeOS or Linux or Windows applications at the same time.
+Although SheepShaver does have Ethernet support and CD-quality sound output, SheepShaver does not emulate a memory management unit, as is the case with Basilisk II, and thus cannot run later versions of Mac OS 9 or any version of Mac OS X, which is best emulated by PearPC. While adding MMU emulation has been discussed, the feature has not been added due to the effort required in implementing it and the lack of time on the part of the developers.
+
+

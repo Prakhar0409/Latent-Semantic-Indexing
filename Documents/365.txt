@@ -1,0 +1,15 @@
+Combined Community Codec Pack
+The Combined Community Codec Pack, more commonly referred to as the CCCP, is a collected archive of codecs (video compression filters) packed for Microsoft Windows, designed originally for the playback of anime fansubs.[1] The CCCP is developed and maintained by members of various fansubbing groups. The name is a pun on the Russian name for the USSR (Союз Советских Социалистических Республик, Soyuz Sovyetskikh Sotsialistichyeskikh Respublik); the Cyrillic name for the USSR is initialized CCCP, however it transliterates to SSSR.
+As of 2006[update], the CCCP is now the official Matroska playback solution on Windows, having superseded the Matroska Playback Pack.[2]
+
+According to its official website, CCCP was created to meet the following:
+The pack is small and compact, containing only what is needed for most videos; it intentionally disables support for many codecs it considers unnecessary. It thus can potentially avoid problems caused by inappropriate combinations of filters by providing an all-inclusive playback solution. To view a CCCP-approved video, one must simply theoretically uninstall all other codec packs and install the CCCP. This philosophy leads to some disadvantages; since many formats are not enabled by default, they have to be manually toggled by the user if needed. Additionally, unlike many competing packs, CCCP is designed around decoding rather than encoding, and as such doesn't include many video encoders that other packs do.
+The CCCP is made only for the Microsoft Windows operating system and works with 2000/XP/Vista.
+
+In 2006, On2 began recommending the CCCP as a simple decoding solution to feed video and audio to their Flix encoding application.[3] The CCCP staff recommends to not use On2's included registry patch, but rather turn on or off any necessary codecs within the CCCP settings menu. In addition, As of 2006, the CCCP is now the official Matroska playback solution on Windows, having superseded the Matroska Playback Pack.[2] In 2009, the renowned German C't magazine recommended CCCP as the only trustworthy Codec pack available today.[4]
+
+
+
+
+
+

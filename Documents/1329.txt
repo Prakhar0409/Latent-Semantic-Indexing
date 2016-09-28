@@ -1,0 +1,22 @@
+Multiple document interface
+Graphical computer applications with a multiple document interface (MDI) are those whose windows reside under a single parent window (usually with the exception of modal windows), as opposed to all windows being separate from each other (single document interface). The initialism MDI is usually not expanded. In the usability community, there has been much debate over which interface type is preferable. Generally SDI is seen as more useful in cases where users work with more than one application. Companies have used both interfaces with mixed responses. For example, Microsoft has changed its Office applications from SDI to MDI mode and then back to SDI, although the degree of implementation varies from one component to another.
+The disadvantage of MDI usually cited is the lack of information about the currently opened windows: In order to view a list of windows open in MDI applications, the user typically has to select a specific menu ("window list" or something similar), if this option is available at all. With an SDI application, the window manager's task bar or task manager displays the currently opened windows. In recent years, applications have increasingly added "task-bars" and "tabs" to show the currently opened windows in an MDI application, which has made this criticism somewhat obsolete. Some people use a different name for this interface, "tabbed document interface" (TDI). When tabs are used to manage windows, individual ones usually cannot be resized.
+Nearly all graphical user interface toolkits to date provide at least one solution for designing MDIs. The Java GUI toolkit, Swing, for instance, provides the class javax.swing.JDesktopPane which serves as a container for individual frames (class javax.swing.JInternalFrame). GTK+ lacks any standardized support for MDI.
+
+
+
+
+
+
+Graphical computer applications with an IDE-style interface (IDE) are those whose child windows reside under a single parent window (usually with the exception of modal windows). An IDE-style interface is distinguishable form of Multiple Document Interface (MDI), because all child windows in an IDE-style interface are enhanced with added functionality not ordinarily available in MDI applications. Because of this, IDE-style applications can be considered a functional superset and descendant of MDI applications.
+Examples of enhanced child-window functionality include:
+
+A common convention for child windows in IDE-style applications is the ability to collapse child windows, either when inactive, or when specified by the user. Child windows that are collapsed will conform to one of the four outer boundaries of the parent window, with some kind of label or indicator that allows them to be expanded again.
+
+In contrast to (MDI) applications, which ordinarily allow a single tabbed interface for the parent window, applications with an IDE-style interface allow tabs for organizing one or more subpanes of the parent window.
+
+
+An MDI saves screen real estate by eliminating redundant menu bars on Mac OS X, because the Mac OS X GUI is application-centric instead of window-centric. As opposed to Windows, all windows belonging to an application share the same menu. These windows can be hidden and manipulated as a group, and the Dock switches between applications (i.e., groups of windows) instead of between individual windows. (Switching between windows is possible by clicking, by Exposé, and by Command-`)
+However, TDIs and even some MDI-like implementations (such as Photoshop's) do eliminate UI redundancies and can lighten up the application's memory weight.
+
+

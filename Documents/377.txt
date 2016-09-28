@@ -1,0 +1,35 @@
+Dodecahedron
+A dodecahedron (Greek δωδεκάεδρον, from δώδεκα 'twelve' + εδρον 'base', 'seat' or 'face') is any polyhedron with twelve faces, but usually a regular dodecahedron is meant: a Platonic solid composed of twelve regular pentagonal faces, with three meeting at each vertex. It has twenty (20) vertices and thirty (30) edges. Its dual polyhedron is the icosahedron. If one were to make every one of the Platonic solids with edges of the same length, the dodecahedron would be the largest.
+
+The surface area A and the volume V of a regular dodecahedron of edge length a are:
+
+The following Cartesian coordinates define the vertices of a dodecahedron centered at the origin:
+where φ = (1+√5)/2 is the golden ratio (also written τ). The edge length is 2/φ = √5−1. The containing sphere has a radius of √3.
+The dihedral angle of a dodecahedron is 2arctan(φ) or approximately 116.565 degrees.
+
+The regular dodecahedron is the third in an infinite set of truncated trapezohedra which can be constructed by truncating the two axial vertices of a pentagonal trapezohedron.
+The stellations of the dodecahedron make up three of the four Kepler-Poinsot polyhedra.
+A rectified dodecahedron forms an icosidodecahedron.
+The regular dodecahedron has 120 symmetries, forming the group .
+
+The dodecahedron shares its vertex arrangement with four nonconvex uniform polyhedrons and three uniform compounds.
+Five cubes fit within, with their edges as diagonals of the dodecahedron's faces, and together these make up the regular polyhedral compound of five cubes. Since two tetrahedra can fit on alternate cube vertices, five and ten tetrahedra can also fit in a dodecahedron.
+
+When a dodecahedron is inscribed in a sphere, it occupies more of the sphere's volume (66.49%) than an icosahedron inscribed in the same sphere (60.54%).
+A regular dodecahedron with edge length 1 has more than three and a half times the volume of an icosahedron with the same length edges (7.663... compared with 2.181...).
+Also, as these are duals, it is possible to transform one into the other.(See below)
+
+The 3 stellations of the dodecahedron are all regular (nonconvex) polyhedra: (Kepler-Poinsot polyhedra)
+
+The term dodecahedron is also used for other polyhedra with twelve faces, most notably the rhombic dodecahedron which is dual to the cuboctahedron (an Archimedean solid) and occurs in nature as a crystal form. The Platonic solid dodecahedron can be called a pentagonal dodecahedron or a regular dodecahedron to distinguish it. The pyritohedron is an irregular pentagonal dodecahedron.
+Other dodecahedra include:
+In all there are 6,384,634 topologically distinct dodecahedra.[1]
+
+Dodecahedral objects have found some practical applications, and have also played a role in the visual arts and in philosophy.
+Plato's dialogue Timaeus (c.�360 B.C.) associates the other four platonic solids with the four classical elements; Aristotle postulated that the heavens were made of a fifth element, aithêr (aether in Latin, ether in American English), but he had no interest in matching it with Plato's fifth solid.
+A few centuries later, small, hollow bronze Roman dodecahedra were made and have been found in various Roman ruins in Europe. Their purpose is not certain.
+In twentieth century art, dodecahedra appear in the work of M. C. Escher, such as his lithograph Reptiles (1943), and in his Gravitation. In Salvador Dalí's painting The Sacrament of the Last Supper (1955), the room is a hollow dodecahedron.
+In modern role-playing games, the dodecahedron is often used as a twelve-sided die, one of the more common polyhedral dice.
+
+
+

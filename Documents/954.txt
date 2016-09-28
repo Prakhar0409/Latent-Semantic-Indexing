@@ -1,0 +1,79 @@
+Linear regression
+In statistics, linear regression is used for two things;
+In both cases, several sets of outcomes are available for the quantity of interest together with the related variables.
+Linear regression is a form of regression analysis in which the relationship between one or more independent variables and another variable, called the dependent variable, is modelled by a least squares function, called a linear regression equation. This function is a linear combination of one or more model parameters, called regression coefficients. A linear regression equation with one independent variable represents a straight line when the predicted value (i.e. the dependant variable from the regression equation) is plotted against the independent variable: this is called a simple linear regression. However, note that "linear" does not refer to this straight line, but rather to the way in which the regression coefficients occur in the regression equation. The results are subject to statistical analysis.
+
+
+A linear regression model assumes, given a random sample , a possibly imperfect relationship between Yi, the regressand, and regressors . A disturbance term , which is a random variable too, is added to this assumed relationship to capture the influence of everything else on Yi other than . Hence, the multiple linear regression model takes the following form:
+Note that the regressors are also called independent variables, exogenous variables, covariates, input variables or predictor variables. Similarly, regressands are also called dependent variables, response variables, measured variables, or predicted variables.
+Models which do not conform to this specification may be treated by nonlinear regression. A linear regression model need not be a linear function of the independent variable: linear in this context means that the conditional mean of Yi is linear in the parameters β. For example, the model  is linear in the parameters β1 and β2, but it is not linear in , a nonlinear function of Xi. An illustration of this model is shown in the example, below.
+
+It is important to distinguish the model formulated in terms of random variables and the observed values of these random variables. Typically, the observed values, or data, denoted by lower case letters, consist of n values .
+In general there are p + 1 parameters to be determined, . In order to estimate the parameters it is often useful to use the matrix notation
+where Y is a column vector that includes the observed values of ,  includes the unobserved stochastic components  and the matrix X the observed values of the regressors
+X includes, typically, a constant column, that is, a column which does not vary across observations, which is used to represent the intercept term β0.
+If there is any linear dependence among the columns of X, then the vector of parameters β cannot be estimated by least squares unless β is constrained, as, for example, by requiring the sum of some of its components to be 0. However, some linear combinations of the components of β may still be uniquely estimable in such cases. For example, the model  cannot be solved for β1 and β2 independently as the matrix of observations has the reduced rank 2. In this case the model can be rewritten as  and can be solved to give a value for the composite entity β1 + 2β2.
+Note that to only perform a least squares estimation of  it is not necessary to consider the sample as random variables. It may even be conceptually simpler to consider the sample as fixed, observed values, as we have done thus far. However in the context of hypothesis testing and confidence intervals, it will be necessary to interpret the sample as random variables  that will produce estimators which are themselves random variables. Then it will be possible to study the distribution of the estimators and draw inferences.
+
+Classical assumptions for linear regression include the assumptions that the sample is selected at random from the population of interest, that the dependent variable is continuous on the real line, and that the error terms follow identical and independent normal distributions, that is, that the errors are i.i.d. and Gaussian. Note that these assumptions imply that the error term does not statistically depend on the values of the independent variables, that is, that  is statistically independent of the predictor variables. This article adopts these assumptions unless otherwise stated. Note that all of these assumptions may be relaxed, depending on the nature of the true probabilistic model of the problem at hand. The issue of choosing which assumptions to relax, which functional form to adopt, and other choices related to the underlying probabilistic model are known as specification searches. In particular note that the assumption that the error terms are normally distributed is of no consequence unless the sample is very small because central limit theorems imply that, so long as the error terms have finite variance and are not too strongly correlated, the parameter estimates will be approximately normally distributed even when the underlying errors are not.
+Under these assumptions, an equivalent formulation of simple linear regression that explicitly shows the linear regression as a model of conditional expectation can be given as
+The conditional expected value of Yi given Xi is an affine function of Xi. Note that this expression follows from the assumption that the mean of  is zero conditional on Xi.
+
+
+The first objective of regression analysis is to best-fit the data by estimating the parameters of the model. Of the different criteria that can be used to define what constitutes a best fit, the least squares criterion is a very powerful one. This estimate (or estimator, if we are in the context of a random sample), is given by
+For a full derivation see Linear least squares.
+
+The estimates can be used to test various hypotheses.
+Denote by σ2 the variance of the error term  (recall we assume that  for every ). An unbiased estimate of σ2 is given by
+where  is the sum of square residuals. The relation between the estimate and the true value is:
+where  has Chi-square distribution with n�−�p degrees of freedom.
+The solution to the normal equations can be written as [1]
+This shows that the parameter estimators are linear combinations of the dependent variable. It follows that, if the observational errors are normally distributed, the parameter estimators will follow a joint normal distribution. Under the assumptions here, the estimated parameter vector is exactly distributed,
+where N denotes the multivariate normal distribution.
+The standard error of a parameter estimator is given by
+The 100(1�−�α)% confidence interval for the parameter, βj, is computed as follows:
+The residuals can be expressed as
+The matrix  is known as the hat matrix and has the useful property that it is idempotent. Using this property it can be shown that, if the errors are normally distributed, the residuals will follow a normal distribution with covariance matrix . Studentized residuals are useful in testing for outliers.
+The hat matrix is the matrix of the orthogonal projection onto the column space of the matrix X.
+Given a value of the independent variable, xd, the predicted response is calculated as
+Writing the elements  as , the 100(1�−�α)% mean response confidence interval for the prediction is given, using error propagation theory, by:
+The 100(1�−�α)% predicted response confidence intervals for the data are given by:
+
+We consider here the case of the simplest regression model, . In order to estimate α and β, we have a sample  of observations which are, here, not seen as random variables and denoted by lower case letters. As stated in the introduction, however, we might want to interpret the sample in terms of random variables in some other contexts than least squares estimation.
+The idea of least squares estimation is to minimize the following unknown quantity, the sum of squared errors:
+Taking the derivative of the preceding expression with respect to α and β yields the normal equations:
+This is a linear system of equations which can be solved using Cramer's rule:
+The covariance matrix is
+The mean response confidence interval is given by
+The predicted response confidence interval is given by
+The term  is a reference to the Student's t-distribution.  is standard error.
+
+In analysis of variance (ANOVA), the total sum of squares is split into two or more components.
+The "total (corrected) sum of squares" is
+where
+("corrected" means  has been subtracted from each y-value). Equivalently
+The total sum of squares is partitioned as the sum of the "regression sum of squares" SSReg (or RSS, also called the "explained sum of squares") and the "error sum of squares" SSE, which is the sum of squares of residuals.
+The regression sum of squares is
+where u is an n-by-1 vector in which each element is 1. Note that
+and
+The error (or "unexplained") sum of squares SSE, which is the sum of square of residuals, is given by
+The total sum of squares SST is
+Pearson's coefficient of regression, R�2 is then given as
+If the errors are independent and normally distributed with expected value 0 and they all have the same variance, then under the null hypothesis that all of the elements in β�=�0 except the constant, the statistic
+follows an F-distribution with (m-1) and (n-m) degrees of freedom. If that statistic is too large, then one rejects the null hypothesis. How large is too large depends on the level of the test, which is the tolerated probability of type I error; see [statistical significance]].
+
+To illustrate the various goals of regression, we give an example. The following data set gives the average heights and weights for American women aged 30-39 (source: The World Almanac and Book of Facts, 1975).
+A plot of weight against height (see below) shows that it cannot be modeled by a straight line, so a regression is performed by modeling the data by a parabola.
+where the dependent variable Yi is weight and the independent variable Xi is height.
+Place the observations , in the matrix X.
+The values of the parameters are found by solving the normal equations
+Element ij of the normal equation matrix,  is formed by summing the products of column i and column j of X.
+Element i of the right-hand side vector  is formed by summing the products of column i of X with the column of dependent variable values.
+Thus, the normal equations are
+The calculated values are given by
+The observed and calculated data are plotted together and the residuals, , are calculated and plotted. Standard deviations are calculated using the sum of squares, S = 0.76.
+The confidence intervals are computed using:
+with α=5%,  = 2.2. Therefore, we can say that the 95% confidence intervals are:
+
+
+Some of the model assumptions can be evaluated by calculating the residuals and plotting or otherwise analyzing them. The following plots can be constructed to test the validity of the assumptions:

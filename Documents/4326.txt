@@ -1,0 +1,12 @@
+Screenplay
+A screenplay or script is a written work especially for a film or television program. Screenplays can be original works or adaptations from existing works. A play for television is known as a teleplay.
+
+The format is structured as so one page usually equates to one minute of screen time. In a "shooting script", each scene is numbered, and technical direction may be given. In a "spec" or a "draft" in various stages of development, the scenes are not numbered, and technical direction is at a minimum. The standard font for a screenplay is 12-point Courier.
+The major components are action and dialogue. The "action" is written in the present tense. The "dialogue" are the lines the characters speak. Unique to the screenplay (as opposed to a stage play) is the use of slug lines.
+Format consists of two aspects:
+The style consists of a grammar that is specific to screenplays. This grammar also consists of two aspects:
+
+Detailed computer programs are designed specifically to format screenplays, teleplays and stage plays. Celtx, DreamaScript, Final Draft, Movie Outline 3.0, FiveSprockets, and Montage are several such programs. Software is also available as web applications, accessible from any computer, and on mobile devices.
+
+
+

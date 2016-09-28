@@ -1,0 +1,7 @@
+Strong authentication
+Strong authentication is a notion with several unofficial definitions; is not standardized in the security literature.
+Often, strong authentication is associated with two-factor authentication or more generally multi-factor authentication. This is the case with the definition found in the Committee of National Security Systems' glossary CNSSI-4009 [1].
+Another commonly found class of definitions relates to a cryptographic process, or more precisely authentication based on a challenge response protocol. This type of definition is found in the Handbook of applied cryptography.[2] This type of definition does not necessarily relate to two-factor authentication, since the secret key used in a challenge-response authentication scheme can be simply derived from a password (one factor).
+A third class of definitions says that strong authentication is any form of authentication in which the verification is accomplished without the transmission of a password. This is the case for example with the definition found in the Fermilab documentation.[3]
+Thus, the term strong authentication can be used as long as the notion strong is defined in the context of use.
+

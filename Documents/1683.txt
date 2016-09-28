@@ -1,0 +1,29 @@
+Google App Engine
+Google App Engine is a platform for building and hosting web applications on Google's infrastructure. It was first released as a beta version in April 2008.
+Based on cloud computing technology, Google App Engine uses multiple servers to run an application and store data, and automatically adjusts the number of servers to handle requests reliably.[1] Comparable cloud-based platforms include offerings such as Amazon Web Services and Microsoft's Azure Services Platform.
+Google App Engine is free up to a certain level of used resources, after which fees are charged for additional storage, bandwidth, or CPU cycles required by the application.[2]
+
+Currently, the supported programming languages are Python and Java. A limited version of the Django web framework is available, as well as a custom Google-written web app framework similar to JSP or ASP.NET. Google has said that it plans to support more languages in the future, and that the Google App Engine has been written to be language independent. Any Python framework that supports the WSGI using the CGI adapter can be used to create an application; the framework can be uploaded with the developed application. Third-party libraries written in pure Python may also be uploaded.[3][4]
+
+Compared to other scalable hosting services such as Amazon EC2, App Engine provides more infrastructure to make it easy to write scalable applications, but can only run a limited range of applications designed for that infrastructure.
+App Engine's infrastructure removes many of the system administration and development challenges of building applications to scale to millions of hits. Google handles deploying code to a cluster, database sharding, monitoring, failover, and launching application instances as necessary.
+While other services let users install and configure nearly any *NIX compatible software, AppEngine requires developers to use Python or Java as the programming language and a limited set of APIs. Current APIs allow storing and retrieving data from a BigTable non-relational database; making HTTP requests; sending e-mail; manipulating images; and caching. Most existing Web applications can't run on App Engine without modification, because they require a relational database.
+Per-day and per-minute quotas restrict bandwidth and CPU use, number of requests served, number of concurrent requests, and calls to the various APIs, and individual requests are terminated if they take more than 30 seconds or return more than 10MB of data.
+
+Google App Engine's datastore has a SQL-like syntax called "GQL". Select statements in GQL can be performed on one table only. GQL intentionally does not support the Join statement, because it is seen to be inefficient when queries span more than one machine.[5] Instead, one-to-many and many-to-many relationships can be accomplished using ReferenceProperty().[6] This shared-nothing approach allows disks to fail without the system failing.[7]
+The where clause of select statements can perform >, >=, <, <= operations on one column only. Therefore, only simple where clauses can be constructed. Switching from a relational database to the Datastore requires a paradigm shift for developers when modeling their data.
+App Engine limits the maximum rows returned from an entity get to 1000 rows per Datastore call. Most web database applications use paging and caching, and hence do not require this much data at once, so this is a non-issue in most scenarios.[citation needed] If an application needs more than 1,000 records per operation, it can use its own client-side software or an Ajax page to perform an operation on an unlimited number of rows.
+Unlike a relational database such as Oracle, Microsoft SQL Server, MySQL, or PostgreSQL, the Datastore API is not relational in the SQL sense.
+
+
+The open source project gawsh allows users to download App Engine data.[8]
+
+App Engine defines usage quotas for free applications. Extensions to this quotas can be requested, and application authors can pay for additional resources.[9]
+
+
+Application creators who enable billing pay only for CPU, bandwidth, storage, and e-mails used in excess of the free quotas. Limits marked with * are increased for application authors who enable billing, even if their application never uses enough resources to incur charges. Free quotas will be reduced on May 25, 2009.[10]
+
+The service competes with Amazon Web Services, a set of application services that enable web sites to host files and execute code on Amazon's servers. Many tech analysts have been predicting Google's entry into this field for years. "Google finally realizes it needs to be the web platform," Techdirt publisher Mike Masnick wrote. "The easier it is to develop and deploy highly scalable web applications, the more innovative and creative solutions we're going to start to see."[11]
+Other competitors include Microsoft's Azure Services Platform.
+
+

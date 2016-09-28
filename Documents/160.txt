@@ -1,0 +1,55 @@
+Electrolysis
+In chemistry and manufacturing, electrolysis is a method of separating chemically bonded compounds by passing an electric current through them. Electrolysis is commercially highly important as a stage in the separation of elements from naturally-occurring sources such as ores using an electrolytic cell.
+
+
+Electrolysis is the passage of an electric current through an ionic substance that is either molten or dissolved in a suitable solvent, resulting in chemical reactions at the electrodes and separation of materials.
+The main components required to achieve electrolysis are:
+The components perform the following roles in the electrolysis process:
+The electrodes must be able to conduct electricity. Electrodes of metal, graphite and semiconductor material are widely used. Choice of suitable electrode depends on:
+Ancillary practical components to achieve electrolysis include:
+
+The key process of electrolysis is the interchange of atoms and ions by the removal or addition of electrons from the external circuit. The required products of electrolysis are in some different physical state from the electrolyte and can be removed by some physical process. For example, in the electrolysis of brine to produce hydrogen and chlorine, the products are gaseous. These gaseous products bubble from the electrolyte and are collected.
+A liquid containing mobile ions (electrolyte) is produced by
+An electrical potential is applied across a pair of electrodes immersed in the electrolyte.
+Each electrode attracts ions that are of the opposite charge. Positively-charged ions (cations) move towards the electron-providing (negative) cathode, whereas negatively-charged ions (anions) move towards the positive anode.
+At the electrodes, electrons are absorbed or released by the atoms and ions. Those atoms that gain or lose electrons to become charged ions pass into the electrolyte. Those ions that gain or lose electrons to become uncharged atoms separate from the electrolyte. The formation of uncharged atoms from ions is called discharging.
+The energy required to cause the ions to migrate to the electrodes, and the energy to cause the change in ionic state, is provided by the external source of electrical potential.
+
+Oxidation of ions or neutral molecules occurs at the anode, and the reduction of ions or neutral molecules occurs at the cathode. For example, it is possible to oxidize ferrous ions to ferric ions at the anode:
+It is also possible to reduce ferricyanide ions to ferrocyanide ions at the cathode:
+Neutral molecules can also react at either electrode. For example: p-Benzoquinone can be reduced to hydroquinone at the cathode:
+  
+In the last example, H + ions (hydrogen ions) also take part in the reaction, and are provided by an acid in the solution, or the solvent itself (water, methanol etc). Electrolysis reactions involving H + ions are fairly common in acidic solutions. In alkaline solutions, reactions involving OH − (hydroxide ions) are common.
+The substances oxidised or reduced can also be the solvent (usually water) or the electrodes. It is possible to have electrolysis involving gases.
+
+The amount of electrical energy that must be added equals the change in Gibbs free energy of the reaction plus the losses in the system. The losses can (in theory) be arbitrarily close to zero, so the maximum thermodynamic efficiency equals the enthalpy change divided by the free energy change of the reaction. In most cases, the electric input is larger than the enthalpy change of the reaction, so some energy is released in the form of heat. In some cases, for instance, in the electrolysis of steam into hydrogen and oxygen at high temperature, the opposite is true. Heat is absorbed from the surroundings, and the heating value of the produced hydrogen is higher than the electric input.
+
+The following techniques are related to electrolysis:
+
+
+In 1832, Michael Faraday reported that the quantity of elements separated by passing an electrical current through a molten or dissolved salt is proportional to the quantity of electric charge passed through the circuit. This became the basis of the first law of electrolysis:
+
+
+Faraday also discovered that the mass of the resulting separated elements is directly proportional to the atomic masses of the elements when an appropriate integral divisor is applied. This provided strong evidence that discrete particles of matter exist as parts of the atoms of elements.
+
+Electrolysis has many other uses:
+Electrolysis is also used in the cleaning and preservation of old artifacts. Because the process separates the non-metallic particles from the metallic ones, it is very useful for cleaning old coins and even larger objects.
+
+Using a cell containing inert platinum electrodes, electrolysis of aqueous solutions of some salts leads to reduction of the cations (e.g. metal deposition with e.g. zinc salts) and oxidation of the anions (e.g. evolution of bromine with bromides). However with salts of some metals (e.g. sodium) hydrogen is evolved at the cathode and for salts containing some anions (e.g. sulfate (SO42−)) oxygen is evolved at the anode, and in both cases this is due to water being reduced to form hydrogen or oxidised to form oxygen. In principle the voltage required to electrolyse a salt solution can be derived from the standard electrode potential for the reactions at the anode and cathode. The standard electrode potential is directly related to the Gibb's free energy, ΔG, for the reactions at each electrode and refers to an electrode with no current flowing. An extract from the table of standard electrode potentials is shown below.
+In terms of electrolysis this table should be interpreted as follows
+Using the Nernst equation the electrode potential can be calculated for a specific concentration of ions, temperature and the number of electrons involved. For pure water (pH 7):
+Comparable figures calculated in a similar way, for 1M zinc bromide, ZnBr2, are −0.76 V for the reduction to Zn metal and +1.07 V for the oxidation producing bromine. The conclusion from these figures is that hydrogen should be produced at the cathode and oxygen at the anode from the electrolysis of water which is at variance with the experimental observation that zinc metal is deposited and bromine is produced.[5] The explanation is that these calculated potentials only indicate the thermodynamically preferred reaction. In practice many other factors have to be taken into account such as the kinetics of some of the reaction steps involved. These factors together mean that a higher potential is required for the reduction and oxidation of water than predicted, and these are termed overpotentials. Experimentally it is known that overpotentials depend on the design of the cell and the nature of the the electrodes.
+For the electrolysis of neutral (pH 7) sodium chloride, the reduction of sodium ion is thermodynamically very difficult and water is reduced evolving hydrogen leaving hydroxide ions in solution. At the anode the oxidation of chlorine is observed rather than the oxidation of water since the overpotential for the oxidation of chloride to chlorine is lower than the overpotential for the oxidation of water to oxygen. The hydroxide ions and dissolved chlorine gas react further to form hypochlorous acid. The aqueous solutions resulting from this process is called electrolyzed water and is used as a disinfectant and cleaning agent.
+
+One important use of electrolysis of water is to produce hydrogen.
+Hydrogen can be used as a fuel for powering internal combustion engines by combustion or electric motors via hydrogen fuel cells (see Hydrogen vehicle). This has been suggested as one approach to shift economies of the world from the current state of almost complete dependence upon hydrocarbons for energy (See hydrogen economy.)
+Electrolysis of water can be observed by passing direct current from a battery or other DC power supply through a cup of water (in practice a salt water solution increases the reaction intensity making it easier to observe). Using platinum electrodes, hydrogen gas will be seen to bubble up at the cathode, and oxygen will bubble at the anode. If other metals are used as the anode, there is a chance that the oxygen will react with the anode instead of being released as a gas, or that the anode will dissolve. For example, using iron electrodes in a sodium chloride solution electrolyte, iron oxides will be produced at the anode. With zinc electrodes in a sodium chloride electrolyte, the anode will dissolve, producing zinc ions (Zn2+) in the solution, and no oxygen will be formed. When producing large quantities of hydrogen, the use of reactive metal electrodes can significantly contaminate the electrolytic cell - which is why iron electrodes are not usually used for commercial electrolysis. Electrodes made of stainless steel can be used because they will not react with the oxygen.
+The energy efficiency of water electrolysis varies widely. The efficiency is a measure of what fraction of electrical energy used is actually contained within the hydrogen. Some of the electrical energy is converted to heat, a useless by-product. Some reports quote efficiencies between 50% and 70%[1] This efficiency is based on the Lower Heating Value of Hydrogen. The Lower Heating Value of Hydrogen is total thermal energy released when hydrogen is combusted minus the latent heat of vaporisation of the water. This does not represent the total amount of energy within the hydrogen, hence the efficiency is lower than a more strict definition. Other reports quote the theoretical maximum efficiency of electrolysis as being between 80% and 94%.[2]. The theoretical maximum considers the total amount of energy absorbed by both the hydrogen and oxygen. These values refer only to the efficiency of converting electrical energy into hydrogen's chemical energy. The energy lost in generating the electricity is not included. For instance, when considering a power plant that converts the heat of nuclear reactions into hydrogen via electrolysis, the total efficiency is more likely to be between 25% and 40%.[3]
+NREL found that a kilogram of hydrogen (roughly equivalent to a gallon of gasoline) could be produced by wind powered electrolysis for between $5.55 in the near term and $2.27 in the long term.[6]
+About four percent of hydrogen gas produced worldwide is created by electrolysis, and normally used onsite. Hydrogen is used for the creation of ammonia for fertilizer via the Haber process, and converting heavy petroleum sources to lighter fractions via hydrocracking.
+
+Scientific pioneers of electrolysis included:
+Pioneers of batteries:
+More recently, electrolysis of heavy water was performed by Fleischmann and Pons in their famous experiment, resulting in anomalous heat generation and the discredited claim of cold fusion.
+
+

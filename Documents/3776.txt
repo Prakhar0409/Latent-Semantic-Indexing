@@ -1,0 +1,15 @@
+Digital sundial
+A digital sundial is a clock that indicates the current time with numerals formed by the sunlight striking it. Like a classical sundial, the device is purely passive and contains no moving parts. It uses no electricity nor other artificial sources of energy. The digital display changes as the sun advances in its daily course.
+
+There are two basic types of digital sundials. One construction uses optical waveguides, while the other is inspired by fractal geometry.
+
+Sunlight enters into the device through a slit and moves as the sun advances. The sun's rays shine on ten linearly distributed sockets of optical waveguides that transport the light to a seven-segment display. Each socket fiber is connected to a few segments forming the digit corresponding to the position of the sun.[1]
+
+The theoretical basis for the other construction comes from fractal geometry.[2] For the sake of simplicity we describe a two-dimensional (planar) version. Let Lθ denote a straight line passing by the origin of a Cartesian coordinate system and making angle  with the x-axis. For any  define projθF to be the perpendicular projection of F on the line Lθ.
+
+Let ,  be a family of any sets such that  is a measurable set in the plane. Then there exists a set  such that
+Roughly speaking, there exists a set with prescribed projections in almost all directions. This theorem can be generalized to three-dimensional space. Typically, for a non-trivial choice of the family Gθ, the set F described above is a fractal.
+
+It follows that, theoretically, it is possible to build a set of masks that produce shadows in the form of digits such that the display changes as the sun moves. This is the fractal sundial.
+The theorem was proved in 1987 by Kenneth Falconer. Four years later it was described in Scientific American by Ian Stewart. The first prototype of the device was constructed in 1994. In 1998 for the first time a fractal sundial was installed in a public place (Genk, Belgium).[3] There exist window and tabletop versions as well.[4]
+

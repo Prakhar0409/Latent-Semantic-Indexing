@@ -1,0 +1,32 @@
+Key performance indicator
+Key Performance Indicators (KPI) are financial and non-financial measures or metrics used to help an organization define and evaluate how successful it is, typically in terms of making progress towards its long-term organizational goals[1]. KPIs can be specified by answering the question, "What is really important to different stakeholders?". KPIs may be monitored using Business Intelligence techniques to assess the present state of the business and to assist in prescribing a course of action. The act of monitoring KPIs in real-time is known as business activity monitoring (BAM). KPIs are frequently used to "value" difficult to measure activities such as the benefits of leadership development, engagement, service, and satisfaction. KPIs are typically tied to an organization's strategy using concepts or techniques such as the Balanced Scorecard).
+The KPIs differ depending on the nature of the organization and the organization's strategy. They help to evaluate the progress of an organization towards its vision and long-term goals, especially toward difficult to quantify knowledge-based goals.
+A KPI is a key part of a measurable objective, which is made up of a direction, KPI, benchmark, target, and time frame. For example: "Increase Average Revenue per Customer from £10 to £15 by EOY 2008". In this case, 'Average Revenue Per Customer' is the KPI.
+KPIs should not be confused with a Critical Success Factor. For the example above, a critical success factor would be something that needs to be in place to achieve that objective; for example, an attractive new product.
+
+Performance indicators differ from business drivers & aims (or goals). A school might consider the failure rate of its students as a Key Performance Indicator which might help the school understand its position in the educational community, whereas a business might consider the percentage of income from return customers as a potential KPI.
+But it is necessary for an organization to at least identify its KPIs. The key environments for identifying KPIs are:
+
+Among the marketing KPIs top management analyses are:
+Many of these aforementioned customer KPIs are developed and improved with customer relationship management (CRM).
+This is more an inclusive list than an exclusive one. The above more or less describe what a bank would do, but could also refer to a telephone company or similar service sector company.
+Faster availability of data is beginning to become a concern for more and more organizations. Delays of a month or two were commonplace. Of late, several banks have tried to move to availability of data at shorter intervals and less delays. For example, in businesses which have higher operational/credit risk loading (that involve credit cards, wealth management), Citibank has moved onto a weekly availability of KPI related data or sometimes a daily analysis of numbers. This means that data is usually available within 24 hours as a result of automation and the use of IT.
+
+Overall equipment effectiveness, or OEE, is a set of broadly accepted non-financial metrics which reflect manufacturing success.
+
+Businesses can utilize KPIs to establish and monitor progress toward a variety of goals, including lean manufacturing objectives, MBE (Minority Business Enterprise) and diversity spending, environmental "green" initiatives, cost avoidance (CA) programs and low-cost country sourcing (LCCS) targets.
+Any business, regardless of size, can better manage supplier performance with the help of KPIs robust capabilities, which include:
+
+Suppliers can implement KPIs to gain an advantage over the competition. Suppliers have instant access to a user-friendly portal for submitting standardized cost savings templates. Suppliers and their customers exchange vital supply chain performance data while gaining visibility to the exact status of cost improvement projects and cost savings documentation (CSD).
+
+Key Performance Indicators define a set of values used to measure against. These raw sets of values fed to systems to summarize information against are called indicators. Indicators identifiable as possible candidates for KPIs can be summarized into the following sub-categories:
+Key Performance Indicators in practical terms and strategy development means are objectives to be targeted that will add the value to the business most (most = KEY INDICATORS OF SUCCESS).
+
+In practice, monitoring some Key Performance Indicators can prove expensive or difficult for some organizations. For example, staff morale may be impossible to quantify with a number. Often, a business with a similar background is used as a benchmark to compare targets or standards for KPIs. The analyst must be aware, however, that a measurement may be a rough guide rather than a precise benchmark.
+Another serious issue in practice is that once a KPI is created, it becomes difficult to change them as yearly comparisons can be lost.
+Furthermore, it should be noted that if KPIs are based exclusively on in-house practices, it may be extremely difficult for an organization to use its KPIs to get comparisons with other similar organizations.
+
+Examples
+
+
+

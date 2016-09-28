@@ -1,0 +1,17 @@
+Morris worm
+The Morris worm or Internet worm was one of the first computer worms distributed via the Internet; it is considered the first worm and was certainly the first to gain significant mainstream media attention. It also resulted in the first conviction in the US under the 1986 Computer Fraud and Abuse Act.[1] It was written by a student at Cornell University, Robert Tappan Morris, and launched on November 2, 1988 from MIT.
+
+According to its creator, the Morris worm was not written to cause damage, but to gauge the size of the Internet. However, the worm was released from MIT to disguise the fact that the worm originally came from Cornell. (Incidentally, Morris is now an associate professor at MIT.) Additionally, the Morris worm worked by exploiting known vulnerabilities in Unix sendmail, Finger, rsh/rexec and weak passwords.
+A supposedly unintended consequence of the code, however, caused it to be more damaging: a computer could be infected multiple times and each additional process would slow the machine down, eventually to the point of being unusable. The main body of the worm could only infect DEC VAX machines running 4BSD, and Sun 3 systems. A portable C "grappling hook" component of the worm was used to pull over the main body, and the grappling hook could run on other systems, loading them down and making them peripheral victims.
+
+The critical error that transformed the worm from a potentially harmless intellectual exercise into a virulent denial of service attack was in the spreading mechanism. The worm could have determined whether or not to invade a new computer by asking if there was already a copy running. But just doing this would have made it trivially easy to kill; everyone could just run a process that would answer "yes" when asked if there was already a copy, and the worm would stay away. The defense against this was inspired by Michael Rabin's mantra, "Randomization." To compensate for this possibility, Morris directed the worm to copy itself even if the response is "yes", 1 out of 7 times [2]. This level of replication proved excessive and the worm spread rapidly, infecting some computers multiple times. Robert remarked when he heard of the mistake, that he "should have tried it on a simulator first."
+
+It is usually reported that around 6,000 major Unix machines were infected by the Morris worm. Paul Graham has claimed[3] that
+"I was there when this statistic was cooked up, and this was the recipe: someone guessed that there were about 60,000 computers attached to the Internet, and that the worm might have infected ten percent of them."
+The U.S. GAO put the cost of the damage at $10M–100M[citation needed].
+The Morris worm prompted DARPA to fund the establishment of the CERT/CC at Carnegie Mellon University to give experts a central point for coordinating responses to network emergencies.[4] Gene Spafford also created the Phage mailing list to coordinate a response to the emergency.
+Robert Morris was tried and convicted of violating the 1986 Computer Fraud and Abuse Act. After appeals he was sentenced to three years probation, 400 hours of community service, and a fine of $10,000.[5]
+The Morris worm has sometimes been referred to as the "Great Worm", because of the devastating effect it had upon the Internet at that time, both in overall system downtime and in psychological impact on the perception of security and reliability of the Internet. The name derives from the "Great Worms" of Tolkien: Scatha and Glaurung.[6]
+
+
+

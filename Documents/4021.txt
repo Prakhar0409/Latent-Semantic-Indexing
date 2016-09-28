@@ -1,0 +1,17 @@
+Commons-based peer production
+Commons-based peer production is a term coined by Harvard Law School professor Yochai Benkler to describe a new model of economic production in which the creative energy of large numbers of people is coordinated (usually with the aid of the internet) into large, meaningful projects mostly without traditional hierarchical organization (and often, but not always, without or with decentralized financial compensation). Often used interchangeably with the term social production, Benkler compares commons-based peer production to firm production (where a centralized decision process decides what has to be done and by whom) and market-based production (when tagging different prices to different jobs serves as an attractor to anyone interested in doing the job).
+The term was first introduced in Benkler's seminal paper Coase's Penguin.[1] His 2006 book, The Wealth of Networks expands significantly on these ideas.
+"People participate in peer production communitites for a wide range of intrinsic and self-interested reasons....basically, people who participate in peer production communities love it. They feel passionate about their particular area of expertise and revel in creating something new or better." [2]
+Another definition, by Aaron Krowne (Free Software Magazine): commons-based peer production
+refers to any coordinated, (chiefly) internet-based effort whereby volunteers contribute project components, and there exists some process to combine them to produce a unified intellectual work. CBPP covers many different types of intellectual output, from software to libraries of quantitative data to human-readable documents (manuals, books, encyclopedias, reviews, blogs, periodicals, and more)."[3]
+
+Examples of projects using commons-based peer production include:
+
+Several unexpected but foreseeable outgrowths have been:
+
+The ease in joining and leaving is a feature of adhocracies.
+The principle of commons-based peer production is similar to collective invention, a model of open innovation in economics coined by Robert Allen.[4]
+In 2006 Yochai Benkler also published The Wealth of Networks, a book that builds heavily on the concept of commons-based peer production.
+
+
+

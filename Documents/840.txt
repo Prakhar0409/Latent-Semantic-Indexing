@@ -1,0 +1,100 @@
+Geologic time scale
+The geologic time scale is a chronologic schema (or idealized model) relating stratigraphy to time that is used by geologists, paleontologists and other earth scientists to describe the timing and relationships between events that have occurred during the history of the Earth. The table of geologic time spans presented here agrees with the dates and nomenclature proposed by the International Commission on Stratigraphy, and uses the standard color codes of the United States Geological Survey.
+Evidence from radiometric dating indicates that the Earth is about 4.570 billion years old. The geological or deep time of Earth's past has been organized into various units according to events which took place in each period. Different spans of time on the time scale are usually delimited by major geological or paleontological events, such as mass extinctions. For example, the boundary between the Cretaceous period and the Paleogene period is defined by the Cretaceous–Tertiary extinction event, which marked the demise of the dinosaurs and of many marine species. Older periods which predate the reliable fossil record are defined by absolute age. Each era on the scale is separated by a major and/or changing event.
+
+The second and third timelines are each subsections of their preceding timeline as indicated by asterisks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Holocene (the latest epoch) is too short to be shown clearly on this timeline.
+
+The largest defined unit of time is the supereon, composed of eons. Eons are divided into eras, which are in turn divided into periods, epochs and ages. The terms eonothem, erathem, system, series, and stage are used to refer to the layers of rock that correspond to these periods of geologic time.
+Geologists tend to talk in terms of Upper/Late, Lower/Early and Middle parts of periods and other units, such as "Upper Jurassic", and "Middle Cambrian". Upper, Middle, and Lower are terms applied to the rocks themselves, as in "Upper Jurassic sandstone," while Late, Middle, and Early are applied to time, as in "Early Jurassic deposition" or "fossils of Early Jurassic age." The adjectives are capitalized when the subdivision is formally recognized, and lower case when not; thus "early Miocene" but "Early Jurassic." Because geologic units occurring at the same time but from different parts of the world can often look different and contain different fossils, there are many examples where the same period was historically given different names in different locales. For example, in North America the Lower Cambrian is referred to as the Waucoban series that is then subdivided into zones based on trilobites. The same timespan is split into Tommotian, Atdabanian and Botomian stages in East Asia and Siberia. A key aspect of the work of the International Commission on Stratigraphy is to reconcile this conflicting terminology and define universal horizons that can be used around the world.[citations needed]
+
+The first geologic time scale was proposed in 1913 by the British geologist Arthur Holmes.[3] He greatly furthered the newly created discipline of geochronology and published the world renowned book The Age of the Earth in 1913 in which he estimated the Earth's age to be at least 1.6 billion years.[4]
+Aristotle realized that fossil seashells from rocks were similar to those found on the beach, indicating the fossils were once living animals. He deduced that the positions of land and sea had changed and these changes occurred over long periods of time. Leonardo da Vinci concurred with Aristotle's view that fossils were the remains of ancient life.[5]
+One of the principles underlying geologic time scales was the law of superposition of strata, first proposed in the 11th century by the Persian geologist, Avicenna (Ibn Sina). However, he rejected the explanation of fossils as organic remains.[6] While discussing the origins of mountains in The Book of Healing in 1027, he outlined the principle as follows:[7][8]
+"It is also possible that the sea may have happened to flow little by little over the land consisting of both plain and mountain, and then have ebbed away from it. ... It is possible that each time the land was exposed by the ebbing of the sea a layer was left, since we see that some mountains appear to have been piled up layer by layer, and it is therefore likely that the clay from which they were formed was itself at one time arranged in layers. One layer was formed first, then at a different period, a further was formed and piled, upon the first, and so on. Over each layer there spread a substance of different material, which formed a partition between it and the next layer; but when petrification took place something occurred to the partition which caused it to break up and disintegrate from between the layers (possibly referring to unconformity). ... As to the beginning of the sea, its clay is either sedimentary or primeval, the latter not being sedimentary. It is probable that the sedimentary clay was formed by the disintegration of the strata of mountains. Such is the formation of mountains."
+His contemporary, Abū Rayhān Bīrūnī (973-1048), discovered the existence of shells and fossils in regions that once were seas and later became dry land, such as the Indian subcontinent. Based on this evidence, he realized that the Earth is constantly evolving and proposed that the Earth had an age, but that its origin was too distant to measure.[9] Later in the 11th century, the Chinese naturalist, Shen Kuo (1031-1095), also recognized the concept of 'deep time'.[10]
+The principles underlying geologic (geological) time scales were later laid down by Nicholas Steno in the late 17th century. Steno argued that rock layers (or strata) are laid down in succession, and that each represents a "slice" of time. He also formulated the law of superposition, which states that any given stratum is probably older than those above it and younger than those below it. While Steno's principles were simple, applying them to real rocks proved complex. Over the course of the 18th century geologists realized that:
+The first serious attempts to formulate a geological time scale that could be applied anywhere on Earth were made in the late 18th century. The most influential of those early attempts (championed by Abraham Werner, among others) divided the rocks of the Earth's crust into four types: Primary, Secondary, Tertiary, and Quaternary. Each type of rock, according to the theory, formed during a specific period in Earth history. It was thus possible to speak of a "Tertiary Period" as well as of "Tertiary Rocks." Indeed, "Tertiary" (now Paleocene-Pliocene) and "Quaternary" (now Pleistocene-Holocene) remained in use as names of geological periods well into the 20th century.
+The Neptunist theories popular at this time (expounded by Werner) proposed that all rocks had precipitated out of a single enormous flood. A major shift in thinking came when James Hutton presented his Theory of the Earth; or, an Investigation of the Laws Observable in the Composition, Dissolution, and Restoration of Land Upon the Globe before the Royal Society of Edinburgh in March and April 1785. It has been said that "as things appear from the perspective of the twentieth century, James Hutton in those reading became the founder of modern geology"[11] Hutton proposed that the interior of the Earth was hot, and that this heat was the engine which drove the creation of new rock: land was eroded by air and water and deposited as layers in the sea; heat then consolidated the sediment into stone, and uplifted it into new lands. This theory was dubbed "Plutonist" in contrast to the flood-oriented theory.
+The identification of strata by the fossils they contained, pioneered by William Smith, Georges Cuvier, Jean d'Omalius d'Halloy, and Alexandre Brogniart in the early 19th century, enabled geologists to divide Earth history more precisely. It also enabled them to correlate strata across national (or even continental) boundaries. If two strata (however distant in space or different in composition) contained the same fossils, chances were good that they had been laid down at the same time. Detailed studies between 1820 and 1850 of the strata and fossils of Europe produced the sequence of geological periods still used today.
+The process was dominated by British geologists, and the names of the periods reflect that dominance. The "Cambrian," (the Roman name for Wales) and the "Ordovician," and "Silurian", named after ancient Welsh tribes, were periods defined using stratigraphic sequences from Wales.[12] The "Devonian" was named for the English county of Devon, and the name "Carboniferous" was simply an adaptation of "the Coal Measures," the old British geologists' term for the same set of strata. The "Permian" was named after Perm, Russia, because it was defined using strata in that region by Scottish geologist Roderick Murchison. However, some periods were defined by geologists from other countries. The "Triassic" was named in 1834 by a German geologist Friedrich Von Alberti from the three distinct layers (Latin trias meaning triad) —red beds, capped by chalk, followed by black shales— that are found throughout Germany and Northwest Europe, called the 'Trias'. The "Jurassic" was named by a French geologist Alexandre Brogniart for the extensive marine limestone exposures of the Jura Mountains. The "Cretaceous" (from Latin creta meaning 'chalk') as a separate period was first defined by Belgian geologist Jean d'Omalius d'Halloy in 1822, using strata in the Paris basin[13] and named for the extensive beds of chalk (calcium carbonate deposited by the shells of marine invertebrates).
+British geologists were also responsible for the grouping of periods into Eras and the subdivision of the Tertiary and Quaternary periods into epochs.
+When William Smith and Sir Charles Lyell first recognized that rock strata represented successive time periods, time scales could be estimated only very imprecisely since various kinds of rates of change used in estimation were highly variable. While creationists had been proposing dates of around six or seven thousand years for the age of the Earth based on the Bible, early geologists were suggesting millions of years for geologic periods with some even suggesting a virtually infinite age for the Earth. Geologists and paleontologists constructed the geologic table based on the relative positions of different strata and fossils, and estimated the time scales based on studying rates of various kinds of weathering, erosion, sedimentation, and lithification. Until the discovery of radioactivity in 1896 and the development of its geological applications through radiometric dating during the first half of the 20th century (pioneered by such geologists as Arthur Holmes) which allowed for more precise absolute dating of rocks, the ages of various rock strata and the age of the Earth were the subject of considerable debate.
+In 1977, the Global Commission on Stratigraphy (now the International Commission on Stratigraphy) started an effort to define global references (Global Boundary Stratotype Sections and Points) for geologic periods and faunal stages. The commission's most recent work is described in the 2004 geologic time scale of Gradstein et al.[14]. A UML model for how the timescale is structured, relating it to the GSSP, is also available[15].
+
+The following table summarizes the major events and characteristics of the periods of time making up the geologic time scale. As above, this time scale is based on the International Commission on Stratigraphy. (See lunar geologic timescale for a discussion of the geologic subdivisions of Earth's moon.) This table is arranged with the most recent geologic periods at the top, and the most ancient at the bottom. The height of each table entry does not correspond to the duration of each subdivision of time.

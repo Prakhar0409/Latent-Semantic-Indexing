@@ -1,0 +1,34 @@
+Cost per action
+Display advertising
+E-mail marketing
+E-mail marketing software
+Interactive advertising
+Social media optimization
+Web analytics
+Cost per action
+Contextual advertising
+Revenue sharing
+Search engine optimization
+Pay per click advertising
+Paid inclusion
+Mobile advertising
+Cost Per Action or CPA (sometimes known as Pay Per Action or PPA) is an online advertising pricing model, where the advertiser pays for each specified action (a purchase, a form submission, and so on) linked to the advertisement.
+Direct response advertisers consider CPA the optimal way to buy online advertising, as an advertiser only pays for the ad when the desired action has occurred. An action can be a product being purchased, a form being filled, etc. (The desired action to be performed is determined by the advertiser.) Google incorporated this model into Google AdSense [1] but shut down the offering in June 2008[2]. eBay has recently announced a similar pricing called AdContext.
+The CPA can be determined by different factors, depending where the online advertising inventory is being purchased.
+
+CPA is sometimes referred to as "Cost Per Acquisition", which has to do with the fact that most CPA offers by advertisers are about acquiring something (typically new customers by making sales). Using the term "Cost Per Acquisition" instead of "Cost Per Action" is not incorrect. It is actually more specific. "Cost Per Acquisition" is included in "Cost Per Action", but not all "Cost Per Action" offers can be referred to as "Cost Per Acquisition".
+
+
+In CPL campaigns, advertisers pay for an interested lead (hence, Cost Per Lead) - i.e. the contact information of a person interested in the advertiser's product or service. CPL campaigns are suitable for brand marketers and direct response marketers looking to engage consumers at multiple touchpoints - by building a newsletter list, community site, reward program or member acquisition program.
+In CPA campaigns, the advertiser typically pays for a completed sale involving a credit card transaction. CPA is all about 'now' -- it focuses on driving consumers to buy at that exact moment. If a visitor to the website doesn't buy anything, there's no easy way to remarket to them.
+There are other important differentiators:
+1. CPL campaigns are advertiser-centric. The advertiser remains in control of their brand, selecting trusted and contextually relevant publishers to run their offers. On the other hand, CPA and affiliate marketing campaigns are publisher-centric. Advertisers cede control over where their brand will appear, as publishers browse offers and pick which to run on their websites. Advertisers generally do not know where their offer is running.
+2. CPL campaigns are usually high volume and light-weight.In CPL campaigns, consumers submit only basic contact information. The transaction can be as simple as an email address. On the other hand, CPA campaigns are usually low volume and complex. Typically, consumer has to submit credit card and other detailed information.
+
+A related term, eCPA or Effective Cost Per Action, is used to measure the effectiveness of advertising inventory purchased (by the advertiser) via a CPC, CPI, or CPT basis.
+eCPA is used to measure the effectiveness of advertising inventory purchased (by the advertiser) via a CPC, CPI, or CPT basis. In other words, the eCPA tells the advertiser what they would have paid if they purchased the advertising inventory on a Cost Per Action basis (instead of a Cost Per Click, Cost Per Impression, or Cost Per Time basis).
+
+
+
+
+The Online Lead Generation Glossary

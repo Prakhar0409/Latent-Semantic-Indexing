@@ -1,0 +1,37 @@
+Orbital elements
+In celestial mechanics, the elements of an orbit are the parameters needed to specify that orbit uniquely. Orbital elements are generally considered in classical two-body systems, where a Kepler orbit is used (derived from Newton's laws of motion and Newton's law of universal gravitation). There are many different ways to mathematically describe the same orbit, but certain schemes each consisting of a set of six parameters are commonly used in astronomy and orbital mechanics.
+A real orbit (and its elements) changes over time due to gravitational perturbations by other objects and the effects of relativity. A Keplerian orbit is merely a mathematical approximation at a particular time.
+
+Given an inertial frame of reference and an arbitrary epoch (a specified point in time), exactly six parameters are necessary to unambiguously define an arbitrary and unperturbed orbit.
+This is because the problem contains six degrees of freedom. These correspond to the three spatial dimensions which define position (the x, y, z in a Cartesian coordinate system), plus the velocity in each of these dimensions. These can be described as orbital state vectors, but this is often an inconvenient way to represent an orbit, which is why Keplerian elements (described below) are commonly used instead.
+Sometimes the epoch is considered a "seventh" orbital parameter, rather than part of the reference frame.
+If the epoch is defined to be at the moment when one of the elements is zero, the number of unspecified elements is reduced to five. (The sixth parameter is still necessary to define the orbit; it is merely numerically set to zero by convention or "moved" into the definition of the epoch with respect to real-world clock time.)
+
+The traditional orbital elements are the six Keplerian elements, after Johannes Kepler and his laws of planetary motion.
+Two elements define the shape and size of the ellipse:
+Two define the orientation of the orbital plane in which the ellipse is embedded:
+And finally:
+The mean anomaly is a mathematically convenient "angle" which varies linearly with time, but which does not correspond to a real geometric angle. It can be converted into the true anomaly , which does represent the real geometric angle in the plane of the ellipse, between periapsis (closest approach to the central body) and the position of the orbiting object at any given time. Thus, the true anomaly is shown as the red angle  in the diagram, and the mean anomaly is not shown.
+The angles of inclination, longitude of the ascending node, and argument of periapsis can also be described as the Euler angles defining the orientation of the orbit relative to the reference coordinate system.
+Note that non-elliptical orbits also exist; an orbit is a parabola if it has an eccentricity of 1, and it is a hyperbola if it has an eccentricity greater than 1.
+
+Keplerian elements can be obtained from orbital state vectors (x-y-z coordinates for position and velocity) by manual transformations or with computer software.[1]
+Other orbital parameters can be computed from the Keplerian elements such as the period, apoapsis and periapsis. (When orbiting the earth, the last two terms are known as the apogee and perigee.) It is common to specify the period instead of the semi-major axis in Keplerian element sets, as each can be computed from the other provided the standard gravitational parameter, GM, is given for the central body.
+Instead of the the mean anomaly at epoch, the mean anomaly , mean longitude, true anomaly , or (rarely) the eccentric anomaly might be used.
+Using, for example, the "mean anomaly" instead of "mean anomaly at epoch" means that time t must be specified as a "seventh" orbital element. Sometimes it is assumed that mean anomaly is zero at the epoch (by choosing the appropriate definition of the epoch), leaving only the five other orbital elements to be specified.
+
+The angles Ω,i,ω are the Euler angles (α,β,γ with the notations of that article) characterizing the orientation of the coordinate system
+with  in the orbital plane and with  in the direction to the pericenter.
+The transformation from the euler angles Ω,i,ω to  is:
+The transformation from  to Euler angles Ω,i,ω is:
+where  signifies the polar argument that can be computed with the standard function ATAN2(y,x) (or in double precision DATAN2(y,x)) available in for example the programming language FORTRAN.
+
+Unperturbed, two-body orbits are always conic sections, so the Keplerian elements define an ellipse, parabola, or hyperbola. Real orbits have perturbations, so a given set of Keplerian elements accurately describes an orbit only at the epoch. Evolution of the orbital elements takes place due to the gravitational pull of bodies other than the primary, the nonsphericity of the primary, atmospheric drag, relativistic effects, radiation pressure, electromagnetic forces, and so on.
+Keplerian elements can often be used to produce useful predictions at times near the epoch. Alternatively, real trajectories can be modeled as a sequence of Keplerian orbits that osculate ("kiss" or touch) the real trajectory. They can also be described by the so-called planetary equations, differential equations which come in different forms developed by Lagrange, Gauss, Delaunay, Poincaré, or Hill.
+
+Keplerian elements parameters can be encoded as text in a number of formats. The most common of them is the NASA/NORAD "two-line elements"(TLE) format[1] , originally designed for use with 80-column punched cards, but still in use because it is the most common format, and works as well as any other.
+Depending on the application and object orbit, the data derived from TLEs older than 30 days can become unreliable. Orbital positions can be calculated from TLEs through the SGP/SGP4/SDP4/SGP8/SDP8 algorithms.[2]
+Example of a two line element:[3]
+
+
+

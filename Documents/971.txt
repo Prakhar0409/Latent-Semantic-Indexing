@@ -1,0 +1,46 @@
+Cartesian product
+In mathematics, the Cartesian product (or product set) is a direct product of sets. The Cartesian product is named after René Descartes, whose formulation of analytic geometry gave rise to this concept.
+Specifically, the Cartesian product of two sets X (for example the points on an x-axis) and Y (for example the points on a y-axis), denoted X × Y, is the set of all possible ordered pairs whose first component is a member of X and whose second component is a member of Y (e.g. the whole of the x-y plane):
+For example, the Cartesian product of the 13-element set of standard playing card ranks {Ace, King, Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2} and the four-element set of card suits {♠, ♥, ♦, ♣} is the 52-element set of all possible playing cards {(Ace, ♠), (King, ♠), ..., (2, ♠), (Ace, ♥), ..., (3, ♣), (2, ♣)}. The corresponding Cartesian product has 52 = 13x4 elements.
+A Cartesian product of two finite sets can be represented by a table, with one set as the rows and the other as the columns, and forming the ordered pairs, the cells of the table, by choosing the element of the set from the row and the column.
+
+Let A,B,C and D be sets.
+In most cases, the Cartesian product is not commutative. Although the elements of each resulting set will be the same, their arrangement (order) within the set will differ.
+For example:
+{1,2} x {3,4} = {3,6,4,8}
+{3,4} x {1,2} = {3,4,6,8}
+One exception is with the empty set, which acts as a "zero".
+Strictly speaking, the Cartesian Product is not associative.
+The Cartesian Product acts nicely with respect to intersections.
+Notice that in most cases the above statement is not true if we replace intersection with union.
+
+The Cartesian product can be generalized to the n-ary Cartesian product over n sets X1, ..., Xn:
+Indeed, it can be identified to (X1 × ... × Xn-1) × Xn. It is a set of n-tuples.
+
+The Cartesian square (or binary Cartesian product) of a set X is the Cartesian product X2 = X × X. An example is the 2-dimensional plane R2 = R × R where R is the set of real numbers - all points (x,y) where x and y are real numbers (see the Cartesian coordinate system).
+The cartesian power of a set X can be defined as:
+An example of this is R3 = R × R × R, with R again the set of real numbers, and more generally Rn.
+See also:
+
+It is possible to define the Cartesian product of an arbitrary (possibly infinite) family of sets. If I is any index set, and {Xi | i ∈ I} is a collection of sets indexed by I, then the Cartesian product of the sets in X is defined to be
+that is, the set of all functions defined on the index set such that the value of the function at a particular index i is an element of Xi�.
+For each j in I, the function
+defined by πj(f) = f(j) is called the j�-th projection map.
+An important case is when the index set is N the natural numbers: this Cartesian product is the set of all infinite sequences with the i�-th term in its corresponding set Xi�. For example, each element of
+can be visualized as a vector with an infinite number of real-number components.
+The special case Cartesian exponentiation occurs when all the factors Xi involved in the product are the same set X. In this case,
+is the set of all functions from I to X. This case is important in the study of cardinal exponentiation.
+The definition of finite Cartesian products can be seen as a special case of the definition for infinite products. In this interpretation, an n-tuple can be viewed as a function on {1, 2, ..., n} that takes its value at i to be the i-th element of the tuple (in some settings, this is taken as the very definition of an n-tuple).
+Nothing in the definition of an infinite Cartesian product implies that the Cartesian product of nonempty sets must itself be nonempty. This assertion is equivalent to the axiom of choice.
+
+If several sets are being multiplied together, e.g. X1, X2, X3, …, then some authors[1] choose to abbreviate the Cartesian product as simply ×Xi.
+
+If f is a function from A to B and g is a function from X to Y, their cartesian product f×g is a function from A×X to B×Y with
+As above this can be extended to tuples and infinite collections of functions.
+
+Although the Cartesian product is traditionally applied to sets, category theory provides a more general interpretation of the product of mathematical structures. This is distinct from, although related to, the notion of a Cartesian square in category theory, which is a generalization of the fiber product.
+
+In graph theory the Cartesian product of two graphs G and H is the graph denoted by G×H whose vertex set is the (ordinary) Cartesian product V(G)×V(H) and such that two vertices (u,v) and (u′,v′) are adjacent in G×H if and only if u is adjacent to u′ and v is adjacent to v′. Unlike the ordinary Cartesian product, the Cartesian product of graphs is not a product in the sense of category theory. Instead it is more like a tensor product.
+
+
+

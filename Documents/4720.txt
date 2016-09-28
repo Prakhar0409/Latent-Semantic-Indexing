@@ -1,0 +1,18 @@
+Nexuiz
+Nexuiz is a first-person shooter by Alientrap Software. It is a free game: source code is free software and data is free content. It is distributed under the GNU General Public License (GPL). Version 1.0 was released on May 31, 2005. The current version, 2.5, was released on April 3, 2009.
+Nexuiz uses DarkPlaces, a significantly modified Quake engine.
+The logo is based on the Chinese character "力" (Li), meaning strength.
+
+Nexuiz is a FPS with nine weapons, 24 official maps and over 240 community created maps, as well as 15 player models.
+The graphics in Nexuiz use coronas, the bloom shader effect, Realtime World and Dynamic Lighting and shadowing,[clarification needed] shaders (with OpenGL 2.0), offset mapping, and High dynamic range rendering. All these effects can be turned off to make the game run on older hardware.
+Nexuiz is primarily multiplayer (though it includes a full single-player campaign, which allows one to play through the various multiplayer game types and maps with bots), and allows for hosting and joining of games. It can also support new gametypes, or whole conversions quickly applied to it (much like Quake). Nexuiz supports most Quake modifications (although with varying functionality). Currently there are a few custom mods and maps used.
+
+Nexuiz development started as a Quake modification in the summer of 2001 by Lee Vermeulen. Soon afterward the project moved to the DarkPlaces Quake engine created by Forest Hale, who later also joined the project.[1] The original design called for a simple deathmatch project with a few levels and one character model to be released the next summer. After four years of development with no budget, Nexuiz 1.0 was released on May 31, 2005, completely under the GNU GPL, and by the end of June had over a quarter million downloads. Development continued after the initial release, with 1.1 released soon after, 1.5 released February 14, 2006, 2.0 released June 14, 2006 and 2.1 September 9, 2006. On February 29, 2008, nearly three years after the initial release, version 2.4 was released and brought major improvements to both the GUI and the graphics engine. This includes all new GUI graphics elements, as well as reflective water and improved particles.
+In October 2008, a call was made for more developers for Nexuiz by the main (and only) QuakeC developer, who identified organisational issues associated with a many user, one developer model.[2] Responses to this call highlighted the need for better documentation of QuakeC and the Nexuiz code, while also acknowledging the difficulty that documentation of this placed on the small team of Nexuiz developers. From mid-November 2008, a number of people expressed interest in continuing development of Nexuiz.
+
+In the September 2006 issue of PC Gamer,[clarification needed] Nexuiz was included in an article on Internet developers and free games impacting the industry. It also featured on the March 2007 Maximum PC and (version 2.4) was released on the May 2008 PC User cover disks.
+
+GameStop locations across the US were holding a Nexuiz PC gaming challenge in their stores. Interactive kiosks were set up in 10 different stores in 8 US cities. The kiosks gave users 2 minutes to earn the high score by doing the most damage possible to their AI opponents. The highest monthly scorer in each location won a $100 GameStop gift card. There were new maps every month, and each player was allowed one game per day. Game play was open to GameStop customers ages 13 and up, and ages 17 and above were eligible to win the monthly gift card for the high score. Cities with the Challenge were Dallas, Miami, Chicago, Boston, Pittsburgh, Seattle, Los Angeles, San Francisco.[3]
+
+
+

@@ -1,0 +1,9 @@
+Tachistoscope
+A tachistoscope is a device that displays (usually by projecting) an image for a specific amount of time. It can be used to increase recognition speed, to show something too fast to be consciously recognized, or to test which elements of an image are memorable. Actual tachistoscopes use a slide or transparency projector equipped with the mechanical shutter system typical of a camera. The slide is loaded, the shutter locked open, and focusing and aligment are adjusted, then the shutter is closed. When ready for the test, a shutter speed is selected, and the shutter is tripped normally.
+The first tachistoscope was originally described by the German physiologist A.W. Volkmann in 1859 [1]. It was also used during World War II in the training of fighter pilots to help them identify aircraft silhouettes as friend or foe.
+Before computers became ubiquitous, tachistoscopes were used extensively in psychological research to present visual stimuli for controlled durations. Some experiments employed pairs of tachistoscopes so that an experimental participant could be given different stimulation in each visual field.
+Tachistoscopes continue to be used in market research, where they are typically used to compare the visual impact, or memorability of marketing materials or packaging designs. Tachistoscopes used for this purpose are typically still based around slide projectors rather than computer monitors, due to (1) the increased fidelity of the image which can be displayed in this way and (2) the opportunity to show large or life-size images.
+
+
+
+

@@ -1,0 +1,11 @@
+ZBrush
+ZBrush is a digital sculpting tool that combines 3D/2.5D modeling, texturing and painting. It uses a proprietary "pixol" technology (see below) which stores lighting, color, material, and depth information for all objects on the screen. The main difference between ZBrush and more traditional modeling packages is that it is more akin to sculpting.
+ZBrush is used as a digital sculpting tool to create high-resolution models (up to millions of polygons, and theoretically unlimited) for use in movies, games, and animations. It is used by companies ranging from ILM to Electronic Arts. ZBrush uses dynamic levels of resolution to allow sculptors to make global or local changes to their models. ZBrush is most known for being able to sculpt medium to high frequency details that were traditionally painted in bump maps. The resulting mesh details can then be exported as normal maps to be used on a low poly version of that same model. They can also be exported as a displacement map, although in that case the lower poly version generally requires more resolution. Or, once completed, the 3D model can be projected to the background, becoming a 2.5D image (upon which further effects can be applied). Work can then begin on another 3D model which can be used in the same scene. This feature lets users work with extremely complicated scenes without heavy processor overhead.
+Zbrush was created by the company Pixologic Inc, founded by Ofer Alon and Jack Rimokh. The software was presented in 1999 at SIGGRAPH. The demo version 1.55 was released in 2002 and the software is in 2008 arrived at version 3.1. Ofer Alon is also widely known by CG artists as "Pixolator".
+An accredit to the strength of the community surrounding ZBrush, several 'fan'sites have been created around the ZBrush. Sites like iZbrush.com focus on bringing free training materials and resources to all those interested.
+
+Like a pixel, each pixol contains information on X and Y position and color values. Unlike pixels, it also contains information on depth (or Z position), orientation and material. Only ZBrush related files can store pixol information,[citation needed] and exported files (to JPEG or PNG, for example) will not have pixol data, as those have been rendered into 2D.
+This technique is similar in concept to a voxel, another kind of 3D pixel.
+
+
+

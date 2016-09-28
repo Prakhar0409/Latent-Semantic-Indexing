@@ -1,0 +1,12 @@
+Orthographic projection
+Orthographic projection is a means of representing a three-dimensional object in two dimensions.
+It is a form of parallel projection, where the view direction is orthogonal to the projection plane, resulting in every plane of the scene appearing in affine transformation on the viewing surface. It is further divided into multiview orthographic projections and axonometric projections.
+Orthographic projection corresponds to a perspective projection with a hypothetical viewpoint—e.g., one where the camera lies an infinite distance away from the object and has an infinite focal length, or "zoom".
+
+With multiview orthographic projections, up to six pictures of an object are produced, with each projection plane parallel to one of the coordinate axes of the object. The views are positioned relative to each other according to either of two schemes: first-angle or third-angle projection. In each, the appearances of views may be thought of as being projected onto planes that form a 6-sided box around the object.
+
+Within orthographic projection there is an ancillary category known as Pictorials. Pictorials show an image of an object as viewed from a skew direction in order to reveal all three directions (axes) of space in one picture. Orthographic pictorial instrument drawings are often used to approximate graphical perspective projections, but there is attendant distortion in the approximation. Because pictorial projections innately have this distortion, in the instrument drawing of pictorials, great liberties may then be taken for economy of effort and best effect. Orthographic pictorials rely on the technique of axonometric projection ("to measure along axes").
+
+
+Orthographic Projection Video and mathematics
+

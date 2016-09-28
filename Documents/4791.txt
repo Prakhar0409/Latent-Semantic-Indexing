@@ -1,0 +1,15 @@
+Star schema
+The star schema (sometimes referenced as star join schema) is the simplest style of data warehouse schema. The star schema consists of a few fact tables (possibly only one, justifying the name) referencing any number of dimension tables. The star schema is considered an important special case of the snowflake schema.
+
+The facts that the data warehouse helps analyze are classified along different dimensions: the fact tables hold the main data, while the usually smaller dimension tables describe each value of a dimension and can be joined to fact tables as needed.
+Dimension tables have a simple primary key, while fact tables have a compound primary key consisting of the aggregate of relevant dimension keys.
+It is common for dimension tables to consolidate redundant data and be in second normal form, while fact tables are usually in third normal form because all data depend on either one dimension or all of them, not on combinations of a few dimensions.
+The star schema is a way to implement multi-dimensional database (MDDB) functionality using a mainstream relational database: given the typical commitment to relational databases of most organizations, a specialized multidimensional DBMS is likely to be both expensive and inconvenient.
+Another reason for using a star schema is its simplicity from the users' point of view: queries are never complex because the only joins and conditions involve a fact table and a single level of dimension tables, without the indirect dependencies to other tables that are possible in a better normalized snowflake schema.
+
+Consider a database of sales, perhaps from a store chain, classified by date, store and product. The image of the schema to the right is a star schema version of the sample schema provided in the snowflake schema article.
+Fact_Sales is the fact table and there are three dimension tables Dim_Date, Dim_Store and Dim_Product.
+Each dimension table has a primary key on its Id column, relating to one of the columns of the Fact_Sales table's three-column primary key (Date_Id, Store_Id, Product_Id). The non-primary key Units_Sold column of the fact table in this example represents a measure or metric that can be used in calculations and analysis. The non-primary key columns of the dimension tables represent additional attributes of the dimensions (such as the Year of the Dim_Date dimension).
+The following query extracts how many TV sets have been sold, for each brand and country, in 1997.
+
+

@@ -1,0 +1,18 @@
+Wii Balance Board
+The Wii Balance Board is a balance board accessory for Nintendo's Wii video game console.[1] It was introduced on July 11, 2007 at E3 2007, along with Wii Fit.[2]
+
+The Wii Balance Board is shaped like a household body scale, with a plain white top and light gray bottom. It runs on four AA batteries as a power source, which can power the board for about 60 hours.[3] The board is wireless and contains multiple pressure sensors that are used to measure the user's center of balanceâ€”the location of the intersection between an imaginary line drawn vertically through the center of mass and the surface of the Balance Boardâ€”and body mass index. In an interview conducted by gaming web site IGN, Shigeru Miyamoto stated that the Balance Board's ability to measure weight is probably more accurate than that of a typical bathroom scale.[4]
+Although the Japanese packaging states that it is designed to support people weighing up to 136 kilograms (300 pounds) and the "Western" Balance Board up to 150 kg (330 pounds), they are actually the same board. The packaging differs due to regulatory differences between Japan and the United States. The sensors on the board can accurately measure up to 150 kg (330 pounds). The actual physical structure of the board can withstand much greater force equivalent to around 300 kg (660 pounds).[5]
+Due to the similarities between the two products, the Wii Balance Board has been compared to the Joyboard, a peripheral released for the Atari VCS in 1982 by Amiga Corporation.[6] The technology in the Joyboard was less advanced than that in the Wii Balance Board,[6] however.
+It is noted in the manual that the Balance Board should only be used on a hard surface or thin carpet, as thicker or softer surfaces can cause the board to fail to behave correctly. A set of feet extensions is included to allow the board to be used on softer surfaces. The extension feet are not included in the European versions of the balance board but may be purchased by the consumer at a cost of GBPÂ£8.50.
+The balance board must be used barefooted for it to work. Socks do not properly grip the hard surface and can be dangerous. Members of Club Nintendo were able to receive novelty Wii Fit non-skid socks, which use small rubber pads which stick to surfaces.
+
+The balance board's development was tightly coupled with the development of the Wii Fit game. Nintendo initially contacted manufacturers of normal bathroom scales, but ended up building the board without their help in an effort to keep down costs. In early development models, the balance board was a simple scale with one pressure sensor. However, the developers realized that a simple scale was not useful as a game accessory and expanded the number of pressure sensors to two, then four. The idea to use multiple sensors was partly inspired by how sumo wrestlers weigh themselves (using two scales).[7] The shape of the balance board was initially a square, but it was decided that it was too hard to use for the exercises.
+For a long time, the board was an extension controller to a normal Wii remote.[7]
+
+Wii Fit was the first game to make use of the Wii Balance Board. Shigeru Miyamoto noted the potential for other uses, however, noting that "probably the simplest and most straightforward [idea] would be a snowboarding game".[8] Miyamoto has also stated that Nintendo has received "many inquiries" from third parties following the announcement of Wii Fit and the Wii Balance Board,[9] as well as receiving interest from the physical fitness industry.[9]
+We Ski by Namco Bandai Holdings was the first third-party game to make use of the Wii Balance Board, in conjunction with the Wii Remote and Nunchuk attachment.[10]
+
+
+
+

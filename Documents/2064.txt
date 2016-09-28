@@ -1,0 +1,54 @@
+Project Management Professional
+
+Project Management Professional is properly expressed as the credential PMP. The credentialing agency is the Project Management Institute ([1] PMI). This credential is obtained by gaining a certification in project management through the completion of PMI-certified solid project management working experience and examination. PMP training and examination material comes from the Guide to the Project Management Body of Knowledge (or PMBOK), the Fourth Edition of which was published in December 2008. Most exam questions relate to PMI's project quality standards, which are documented in the PMBOK. The PMP credential undergoes rigorous validation by ISO, and the PMBOK guide is widely regarded as the industry standard for Project Management. It has been adopted as the single standard for project management by agencies such as NASA.
+PMP (Project Management Professional) is one of five concentrations offered by PMI in the study of Project Management:
+1. CAPM Certified Associate in Project Management: This certification is obtained after passing the CAPM Exam
+2. PMP Project Management Professional: This certification is obtained after passing the PMP Exam
+3. PgMP Program Management Professional: This certification is obtained after passing the PgMP Exam
+4. PMI RMP PMI Risk Management Professional: This certification is obtained after passing the PMI-RMP Exam
+4. PMI SP PMI Scheduling Professional: This certification is obtained after passing the PMI-SP Exam
+
+1. Application Submission has a window of 90 days for completion once an application is opened
+2. Application Completeness Review takes 5 business days when submitted online to PMI
+3. Audit Process if application is selected for audit which can last 5 business days
+4. Multiple-Choice Examination which designates the PMP certification for 1 year from the date of the application approval
+5. Certification Cycle 3 years from the date the exam is passed to obtain and report PDUs toward credential maintenance
+6. Applicant Payment Process cannot schedule exam until you submit payment of credential fees
+
+1. High school diploma
+2. Associate’s degree or global equivalent
+3. Minimum five years/60 months unique nonoverlapping professional project management experience during which at least 7,500 hours were spent leading and directing project tasks
+4. 35 contact hours of formal PMI certified PMP Training
+OR
+1. Bachelor’s degree or global equivalent
+2. Minimum three years/36 months unique non-overlapping professional project management experience during which at least 4,500 hours were spent leading and directing project tasks
+3. 35 contact hours of formal PMI certified PMP Training
+
+Educational requirements can be satisfied by demonstrating the successful completion of courses work from:
+
+1. PMI Registered Education Providers?
+2. PMI certified Component organizations
+3. Employer or company-sponsored programs
+4. Training companies or consultants
+5. Distance-learning companies, including an end-of-course assessment
+6. University/college academic and continuing education programs
+
+NOTE: One hour of classroom instruction equals one contact hour. If you have completed a university or college course on project management that met for three hours per week for 15 weeks, you would document 45 contact hours. If only a portion of a course dealt with project management, only the hours spent on project management can be applied toward the total.
+
+The PMP examination is a 4 hour computer based training exam comprised of 200 multiple-choice questions. Of the 200 questions, 25 are considered pretest questions. The pretest questions are not identifed as such on the exam nor are they calculated as part of the final exam score.
+
+The test questions break down by percentage in these policy areas:
+1. Initiation 11%
+2. Planning 23%
+3. Executing 27%
+4. Monitoring and Controlling 21%
+5. Closing 9%
+6. Professional and Social Responsibility 9%
+
+Certification claims can be verified through the PMI's web site at PMI Online Credential Registry
+
+After certification, a Project Management Professional must also meet specific continuing education requirements referred to as a PDU or Professional Development Unit. The number of PDUs needed in three year cycle to maintian PMP credential is 60. For more details please refer the link Maintain Your Credential
+Additionally, a PMP must adhere to a code of professional conduct to maintain their PMP credentials.
+PMP certifications expire on the credential's third anniversary.
+
+

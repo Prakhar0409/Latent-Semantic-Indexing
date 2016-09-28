@@ -1,0 +1,50 @@
+LL parser
+An LL parser is a top-down parser for a subset of the context-free grammars. It parses the input from Left to right, and constructs a Leftmost derivation of the sentence (hence LL, compared with LR parser). The class of grammars which are parsable in this way is known as the LL grammars.
+The remainder of this article describes the table-based kind of parser, the alternative being a recursive descent parser which is usually coded by hand (although not always; see e.g. ANTLR for an LL(*) recursive-descent parser generator).
+An LL parser is called an LL(k) parser if it uses k tokens of lookahead when parsing a sentence. If such a parser exists for a certain grammar and it can parse sentences of this grammar without backtracking then it is called an LL(k) grammar. Of these grammars, LL(1) grammars, although fairly restrictive, are very popular because the corresponding LL parsers only need to look at the next token to make their parsing decisions. Languages based on grammars with a high value of k require considerable effort to parse.
+There is contention between the "European school" of language design, who prefer LL-based grammars, and the "US-school", who predominantly prefer LR-based grammars.[citation needed] This is largely due to teaching traditions and the detailed description of specific methods and tools in certain text books; another influence may be Niklaus Wirth at ETH Zürich in Switzerland, whose research has described a number of ways of optimising LL(1) languages and compilers.
+
+The parser works on strings from a particular context-free grammar.
+The parser consists of
+The parser applies the rule found in the table by matching the top-most symbol on the stack (row) with the current symbol in the input stream (column).
+When the parser starts, the stack already contains two symbols:
+where '$' is a special terminal to indicate the bottom of the stack and the end of the input stream, and 'S' is the start symbol of the grammar. The parser will attempt to rewrite the contents of this stack to what it sees on the input stream. However, it only keeps on the stack what still needs to be rewritten.
+
+
+To explain its workings we will consider the following small grammar:
+and parse the following input:
+The parsing table for this grammar looks as follows:
+(Note that there is also a column for the special terminal, represented here as $, that is used to indicate the end of the input stream.)
+
+The parser reads the first '(' from the input stream, and the 'S' from the stack. From the table it knows that it has to apply rule 2; it has to rewrite 'S' to '( S + F )' on the stack and write the number of this rule to the output. The stack then becomes:
+In the next step it removes the '(' from its input stream and from its stack:
+Now the parser sees an 'a' on its input stream so it knows that it has to apply rule (1) and then rule (3) from the grammar and write their number to the output stream. This results in the following stacks:
+In the next two steps the parser reads the 'a' and '+' from the input stream and, since they match the next two items on the stack, also removes them from the stack. This results in:
+In the next three steps the 'F' will be replaced on the stack with 'a', the number 3 will be written to the output stream and then the 'a' and ')' will be removed from the stack and the input stream. So the parser ends with both '$' on its stack and on its input stream.
+In this case it will report that it has accepted the input string and write to the output stream the list of numbers
+which is indeed a leftmost derivation of the input string. We see that a leftmost derivation of the input string is:
+
+As can be seen from the example the parser performs three types of steps depending on whether the top of the stack is a nonterminal, a terminal or the special symbol $:
+These steps are repeated until the parser stops, and then it will have either completely parsed the input and written a leftmost derivation to the output stream or it will have reported an error.
+
+In order to fill the parsing table, we have to establish what grammar rule the parser should choose if it sees a nonterminal A on the top of its stack and a symbol a on its input stream. It is easy to see that such a rule should be of the form A → w and that the language corresponding to w should have at least one string starting with a. For this purpose we define the First-set of w, written here as Fi(w), as the set of terminals that can be found at the start of any string in w, plus ε if the empty string also belongs to w. Given a grammar with the rules A1 → w1, ..., An → wn, we can compute the Fi(wi) and Fi(Ai) for every rule as follows:
+Unfortunately, the First-sets are not sufficient to compute the parsing table. This is because a right-hand side w of a rule might ultimately be rewritten to the empty string. So the parser should also use the a rule A → w if ε is in Fi(w) and it sees on the input stream a symbol that could follow A. Therefore we also need the Follow-set of A, written as Fo(A) here, which is defined as the set of terminals a such that there is a string of symbols αAaβ that can be derived from the start symbol. Computing the Follow-sets for the nonterminals in a grammar can be done as follows:
+Now we can define exactly which rules will be contained where in the parsing table. If T[A, a] denotes the entry in the table for nonterminal A and terminal a, then
+If the table contains at most one rule in every one of its cells, then the parser will always know which rule it has to use and can therefore parse strings without backtracking. It is in precisely this case that the grammar is called an LL(1) grammar.
+
+Until the mid 1990s, it was widely believed that LL(k) parsing (for k > 1) was impractical[citation needed], since the size of the parse table would (in general, in the worst case) have to have exponential complexity in k. This perception changed gradually after the release of the PCCTS around 1992, when it was demonstrated that many programming languages can be parsed efficiently by an LL(k) parser without triggering the worst-case behavior of the parser. Moreover, in certain cases LL parsing is feasible even with unlimited lookahead. By contrast, traditional parser generators, like yacc use LALR(1) parse tables to construct a restricted LR parser with a fixed one-token lookahead.
+
+
+There are 3 types of LL(1) conflicts:
+The FIRST sets of two different non-terminals are overlapping.
+The FIRST and FOLLOW set of a grammar rule overlap. With an epsilon in the FIRST set it is unknown which alternative to select. An example of an LL(1) conflict:
+The FIRST set of A now is { 'a' epsilon } and the FOLLOW set { 'a' }.
+Left recursion will cause a FIRST/FIRST conflict with all alternatives.
+
+A common left-factor is factored out like 3x + 3y = 3(x+y).
+becomes
+Can be applied when two alternatives start with the same symbol like a FIRST/FIRST conflict.
+Substituting a rule into another rule to remove indirect or FIRST/FOLLOW conflicts. Note that this may cause a FIRST/FIRST conflict.
+
+
+

@@ -1,0 +1,6 @@
+Payment gateway
+A payment gateway is an e-commerce application service provider service that authorizes payments for e-businesses, online retailers, bricks and clicks, or traditional brick and mortar. It is the equivalent of a physical point of sale terminal located in most retail outlets. Payment gateway protects credit cards details encrypting sensitive information, such as credit card numbers, to ensure that information passes securely between the customer and the merchant and also between merchant and payment processor.
+
+A payment gateway facilitates the transfer of information between a payment portal (such as a website, mobile phone or IVR service) and the Front End Processor or acquiring bank. When a customer orders a product from a payment gateway enabled merchant, the payment gateway performs a variety of tasks to process the transaction:
+Many payment gateways also provide tools to automatically screen orders for fraud and calculate tax in real time prior to the authorization request being sent to the processor. Tools to detect fraud include geolocation, velocity pattern analysis, delivery address verification, computer finger printing technology, identity morphing detection, and basic AVS checks.
+

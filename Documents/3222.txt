@@ -1,0 +1,12 @@
+.htaccess
+In several web servers (most commonly Apache), .htaccess (hypertext access) is the default name of directory-level configuration files that allow for decentralized management of configuration when placed inside the web tree. .htaccess files may contain any number of allowed configuration directives and follow the same syntax as the main configuration files[1]. Directives placed in .htaccess files apply to the directory where you place the file, and all sub-directories, unless disabled in the main configuration[2]. The file name starts with a dot because dot-files are by convention hidden files on Unix-like operating systems. A subset of Apache's .htaccess syntax is also supported by other web servers, such as Sun Java System Web Server and Zeus Web Server.
+
+
+
+.htaccess files are read on every request, therefore changes made in these files take immediate effect as opposed to the main configuration file which requires the server to be restarted for the new settings to take effect.
+For servers with multiple users, as is common in shared web hosting plans, it is often desirable to allow individual users the ability to alter their site configuration. In general, .htaccess files should be used by users who do not have access to the main server configuration files.[4]
+
+To control Apache, using the main server configuration file httpd.conf[5] is preferred for security and performance reasons:[6]
+
+
+

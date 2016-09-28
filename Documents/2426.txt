@@ -1,0 +1,20 @@
+Code review
+Code review is systematic examination (often as peer review) of computer source code intended to find and fix mistakes overlooked in the initial development phase, improving both the overall quality of software and the developers' skills.
+
+Code reviews can often find and remove common vulnerabilities such as format string exploits, race conditions, memory leaks and buffer overflows, thereby improving software security. Online software repositories based on Subversion with Trac, Mercurial, GIT or others allow groups of individuals to collaboratively review code. Additionally, specific tools for collaborative code review can facilitate the code review process.
+Automated code reviewing software lessens the task of reviewing large chunks of code on the developer by systematically checking source code for known vulnerabilities.
+There are many examples of where it is claimed that adopting code reviews improved a software development project. Capers Jones ongoing analysis of over 12,000 software development projects showed that the latent defect discovery rate of formal inspection is in the 60-65% range. For informal inspection, the figure is less than 50%. The latent defect discovery rate for most forms of testing is about 30%. Other examples include:
+These claims can be hard to evaluate because each project was implemented only once; it's not possible to know for sure how the project would have turned if it hadn't adopted code reviews, or if it had instead adopted other quality control measures.
+
+Code review practices fall into two main categories: formal code review and lightweight code review.[citation needed]
+Formal code review, such as a Fagan inspection, involves a careful and detailed process with multiple participants and multiple phases. Formal code reviews are the older, traditional method of review, in which software developers attend a series of meetings and review code line by line, usually using printed copies of the material. Formal inspections are extremely thorough and have been proven effective at finding defects in the code under review. However, some criticize formal reviews as taking too long to be practical.[citation needed]
+Lightweight code review typically requires less overhead than formal code inspections, though it can be equally effective when done properly.[citation needed] Lightweight reviews are often conducted as part of the normal development process:
+Some of these may also be labeled a "Walkthrough" (informal) or "Critique" (fast and informal).
+Many teams that eschew traditional, formal code review use one of the above forms of lightweight review as part of their normal development process. A code review case study published in the book Best Kept Secrets of Peer Code Review found that lightweight reviews uncovered as many bugs as formal reviews, but were faster and more cost-effective.
+
+Historically, formal code reviews have required a considerable investment in preparation for the review event and execution time, time during which reviewers cannot be employed in other productive activities.
+Some believe that skillful, disciplined use of a number of other development practices can result in similarly high latent defect discovery/avoidance rates. For example, the practice of pair programming mandated in Extreme Programming (XP) likely results in defect discovery rates of 50% noted generally for informal code reviews. Further, XP proponents might argue, layering additional XP practices, such as refactoring and test-driven development will result in latent defect levels rivaling those achievable with more traditional approaches, without the investment.
+
+
+
+

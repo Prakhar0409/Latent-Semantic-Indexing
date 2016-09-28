@@ -1,0 +1,64 @@
+Iroha
+The Iroha (伊呂波 ,commonly translated as "ABC's"?) is a Japanese poem most likely written sometime during the Heian era (AD 794–1179). Originally the poem was attributed to the founder of the Shingon sect of Buddhism, Kukai, but more modern research has found the date of composition to be later in the Heian Period.[1] The first record of its existence dates from 1079. It is famous because it is a perfect pangram, containing each character of the Japanese syllabary exactly once. Because of this, it is also used as an ordering for the syllabary.
+
+The first appearance of the Iroha, in 金光明最勝王経音義, was in seven lines: six with seven morae each, and one with five. It was also written in man'yogana.
+以呂波耳本へ止
+千利奴流乎和加
+餘多連曽津祢那
+良牟有為能於久
+耶万計不己衣天
+阿佐伎喩女美之
+恵比毛勢須
+Structurally, however, the poem follows the standard 7-5 pattern of Japanese poetry (with one hypometric line), and in modern times it is generally written that way in contexts where line breaks are used. The text of the poem in hiragana (with archaic ゐ and ゑ but without voiced consonant marks) is:
+いろはにほへと
+ちりぬるを
+わかよたれそ
+つねならむ
+うゐのおくやま
+けふこえて
+あさきゆめみし
+ゑひもせす
+i ro ha ni ho he to
+chi ri nu ru wo
+wa ka yo ta re so
+tsu ne na ra mu
+u wi no o ku ya ma
+ke fu ko e te
+a sa ki yu me mi shi
+we hi mo se su
+The text of the poem in kanji and kana, voiced where appropriate, is:
+色は匂へど
+散りぬるを
+我が世誰ぞ
+常ならむ
+有為の奥山
+今日越えて
+浅き夢見じ
+酔ひもせず
+An English translation:
+An alternative English translation by Professor Ryuichi Abe reads as:
+Research by Komatsu Hideo also revealed that the last syllable of each line of the Man'yōgana original (止加那久天之須), when put together, revealed another hidden sentence, toka [=toga] nakute shisu (咎懐死す), which means "die without sin". It is thought that this might be eulogy in praise of Kūkai, further supporting the notion that the Iroha was written after Kūkai passed away.[1]
+
+The iroha is used as an indicator of sound changes in the spoken Japanese language in the Heian era.
+Strictly transliterated the poem runs:
+To obtain the meaning indicated above, one must read the poem with some flexibility. These changes yield:
+
+The iroha contains every kana precisely once, with the exception of ん [-n], which was spelled just like む "mu" at the time. For this reason, the poem was frequently used as an ordering of the kana until the Meiji era reforms in the 19th century. Thereafter the gojūon (五十音, literally "fifty sounds") ordering system, which is based on Sanskrit, became more common. It begins with "a, i, u, e, o" then "ka, ki, ku..." and so on for each kana used in Japanese. Although the iroha is seen as more "old fashioned" than the gojūon, the earliest known copy of the gojūon predates the iroha.
+The iroha is still occasionally encountered in modern Japan. For example, it is used for seat numbering in theaters, and (from right to left) across the top of Go game diagrams (kifu), as in Yasunari Kawabata's Meijin. Western go game diagrams use either letters or letters and numbers. In music, the notes of an octave are named i ro ha ni ho he to, written in katakana.
+The word いろは (iroha) can also be used to mean "ABCs" or "the basics" in Japanese.
+Although the Japanese employ the heavenly stems for rank order besides both the Chinese and Arabic numerals as well as the Latin alphabet, the iroha sequence was used to note the rank of submarines of the Imperial Japanese Navy during the Second World War. All long-range submarines had designations beginning with "I" (e.g., the largest submarine had "I400" painted on its conning tower), coastal submarines began with "Ro", and training or marginally usable submarines had "Ha".
+Japanese weapons, made before 1945 were numbered in series with the original poem. Refer to "Japanese Rifles" by Honeycutt and Anthony for examples of this practice. It is not known today if this was done out of respect for custom, or for reasons of military security or secrecy. Beginning with the second production of the type 38 rifle, ie: after they produced the first 1,000,000 rifles, the Japanese Arsenal, Koishikawa, began with series "I" and continued until the type 38 was replaced by the improved type 99 (In 1939) The rifles were made in blocks of 100,000 each, before changing the Kana symbol to the next in order of the poem.
+This practice apparently started after the great Tokyo earthquake of the mid 1920's, when the Tokyo Arsenal was almost totally destroyed and production was moved to Kokura and Nagoya Arsenals
+The weapons affected by this, among others, were the type 38 rifle, the type 38 carbine, the type 44 carbine, and certain machine guns, all in Caliber 6,5mm. After 1939, when the caliber was increased to 7,7mm, the weapons numbered with this system include; The type 99 long rifle, the type 99 short rifle, the type 0, and the type 2 paratrooper rifles...(This is the take-down type rifle used by Lawrence Harvey in the film "The Manchurian Candidate")
+Handguns were made under a different system, involving sub contractors and private purchases by Japanese Officers.
+Iroha is also used in JNR(now JR) I is first class;Ro is second and Ha is third
+
+Authorship is traditionally ascribed to the Heian era Japanese Buddhist priest and scholar Kūkai (空海) (774–835). However, this is unlikely as it is believed that in his time there were separate e sounds in the a and ya columns of the kana table. The え (e) above would have been pronounced ye, making the pangram incomplete.[1]
+It is said that the iroha is a transformation of these verses in the Nirvana Sutra:
+which translates into
+The above in Japanese is read
+
+
+
+
+

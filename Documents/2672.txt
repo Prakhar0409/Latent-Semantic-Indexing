@@ -1,0 +1,47 @@
+Game design
+Game design is the process of designing the content and rules of a game. The term is also used to describe both the game design embodied in an actual game as well as documentation that describes such a design.
+
+
+Some types of game design involve integration of many varying disciplines. Video game design, for example, requires the co-ordination of:
+All of the above have designs elements to them, which makes the clear and concise definition of video game design difficult. The complex nature of video game development arises because of interdependencies between these design disciplines. Decisions made in one area tend to create constraints in others. For example, art specifications can conflict with technical constraints, or the design might appear coherent overall, but be impractical to build.
+These interdependencies, although typically less complex, are also applicable to more traditional game design, such as board games, where the designer might seek to make the game fun, but may also wish to make sure that it is possible to mass produce, market and sell it whilst turning a profit.
+
+A document which describes a game's design may be used during development (often called a design document), although this is not the only way to design a game. Many games have been developed primarily through iterative prototyping which, depending on the type of game, can be a more appropriate way of discovering new designs than theorizing on paper. This was particularly true of early video games where the programmer was often also the designer and designs were much more constrained by technology, while at the same time new and ingenious programming techniques were being devised in parallel with the game design itself. In practice, some combination of forward planning and iterative design is used in the development of a game.
+Iterative design tends to be more suitable for core game mechanics (or gameplay) where the emergent properties of the design can be very hard to predict. On the other hand, game elements such as story, setting, logical flow and level designs often lend themselves to being designed on paper, although almost invariably some unforeseen issues will arise that will need to be dealt with through a modification of the paper design. Thus, even a design document can and usually does undergo some kind of iterative process during the development of a game, either formally or informally.
+
+Numerous games have narrative elements which give a context to an event in a game, make the activity of playing it less abstract and enhance its entertainment value, although narrative elements are not always clearly present or present at all. Tetris is an example of a game apparently without narrative. It should be noted that some narratologists claim that all games have a narrative element. Some go further and claim that games are essentially a form of narrative. Narrative in practice can be the starting point for the development of a game, or alternatively can be added to a design that started as a set of game mechanics.
+Some narrative elements directly relevant to game design are:
+Narrative elements of a game are the primary aspect of games that are used in marketing, due to the ease with which they can be related in non-interactive media.
+
+Games invariably involve activities in which the game player engages, usually for the purpose of entertainment, education or training. Some examples are:
+Many games have multiple interrelated activities.
+Gameplay is a commonly used term used to describe the interactive aspects of video game design. In recent times it has also come to be used in the context of more traditional games. An alternative name for gameplay that is finding favor with academics is game mechanics, although there are arguments that gameplay and game mechanics are different concepts. Gameplay is what distinguishes a game from a non-interactive medium such as a book or film. Often the game designer seeks to provide challenges to a player through the design of game mechanics that it is hoped the player will find entertaining. Key concepts in gameplay design are:
+
+The design process varies from designer to designer and companies have different formal procedures and philosophies.
+The typical "textbook" approach is to start with a concept or a previously completed game and from there create a design document. This document is intended to map out the complete game design and acts as a central resource for the development team. This document should ideally be updated as the game evolves throughout the production process.
+Designers are frequently expected to adapt to multiple roles of widely varying nature: For example, concept prototyping can be assisted with the use of pre-existing engines and tools like Game Maker. Level designs might be done first on paper and again for the game engine using a 3d modelling tool. Scripting languages are used for many elements - AI, cutscenes, GUI, and many other behaviors and effects that designers would want to tune without a programmer's assistance. Setting, story and character concepts require a research and writing process. Designers may oversee focus testing, write up art and audio asset lists, and write game documentation. In addition to the skillset, designers are ideally clear communicators with attention to detail and ability to delegate responsibilities appropriately.
+Design approval in the commercial setting is a continuous process from the earliest stages until the game ships:
+When a new project is being discussed(either internally, or as a result of dialogue with potential publishers), the designer may be asked to write a sell-sheet of short concepts, followed by a one or two-page pitch of specific features, audience, platform, and other details. Designers will first meet with leads in other departments to establish agreement on the feasibility of the game given the available time, scope, and budget. If the pitch is approved, early milestones focus on the creation of a fleshed-out design document. Some developers advocate a prototyping phase before the design document is written to experiment with new ideas before they become part of the design.
+As production progresses, designers are asked to make frequent decisions about elements missing from the design. The consequences of these decisions are hard to predict and often can only be determined after creating the full implementation. These are referred to as the unknowns of the design, and the faster they are uncovered, the less risk the team faces later in the production process. Outside factors such as budget cuts or changes in milestone expectations also result in cuts to the design, and while overly large cuts can take the heart out of a project, cuts can also result in a streamlined design with only the essential features, polished well.
+Towards the end of production, designers take the brunt of responsibility for ensuring that the gameplay remains at a uniform standard throughout the game, even in very long games. This task is made more difficult under "crunch" conditions, as the entire team may begin to lose sight of the core gameplay once pressured to hit a date for a finished and bug-free game.
+
+
+
+Game design
+Game development
+Game programming
+Game testing
+Journalism
+Level design
+Game producer
+Game designer
+Game programmer
+Game artist
+Game tester
+Level designer
+Arcade game
+Personal computer game
+Console game
+Handheld game
+Mobile game
+Online game

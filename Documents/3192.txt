@@ -1,0 +1,22 @@
+SketchUp
+SketchUp is a 3D modeling program designed for architects, civil engineers, filmmakers, game developers, and related professions. It also includes features to facilitate the placement of models in Google Earth. It was designed to be more intuitive, flexible, and easier to use than other 3D CAD programs.[1]
+It is marketed as an easy-to-use conceptual tool with a simple interface. A well known feature in SketchUp is the 3D Warehouse. The 3D Warehouse is a small search for models made by other Sketch Up users. Users can use their Google Accounts to upload models, and then browse the 3D Warehouse for many components and models.
+
+SketchUp was developed by startup company @Last Software, Boulder, Colorado which was formed in 1999. SketchUp was first released in August 2000 as a general purpose 3D content creation tool. It won a Community Choice Award at its first tradeshow in 2000.[2] It quickly found a market in architecture and building design industries and was revised to suit the needs of working professionals. The key to its early success was in its fast learning curve, allowing for a shorter learning period than other commercially available 3D tools.
+As of SketchUp 6, features were added to allow the user to extrude and widen as well as the ability for a face to "follow" the cursor around an object.
+On March 14, 2006, Google acquired @Last Software,[3] attracted by their plugin for Google Earth.
+On January 9, 2007, SketchUp 6 was released, featuring a handful of new tools as well as a beta version of Google SketchUp LayOut. LayOut includes a handful of 2D vector tools, as well as page layout tools making it easier for professionals to create presentations without jumping to a third-party presentation program.
+On February 9, 2007, a maintenance update was released. It corrects a number of bugs, but brings no new features.
+On November 17, 2008, SketchUp 7 was released, featuring ease-of-use improvements, integration of SketchUp's Component Browser with Google 3D Warehouse, LayOut 2, dynamic components that respond appropriately to scaling and enhanced Ruby API performance.
+
+SketchUp holds a U.S. Patent 6,628,279  on its "Push/Pull" technology:[4]
+"System and method for three-dimensional modeling: A three-dimensional design and modeling environment allows users to draw the outlines, or perimeters, of objects in a two-dimensional manner, similar to pencil and paper, already familiar to them. The two-dimensional, planar faces created by a user can then be pushed and pulled by editing tools within the environment to easily and intuitively model three-dimensional volumes and geometries."
+The patent was applied for in November 2000, and awarded in September 2003.
+
+On April 27, 2006, Google announced Google SketchUp, a freely-downloadable version of SketchUp. The free version is not as capable as SketchUp Pro 6, but it includes integrated tools for uploading content to Google Earth and to the Google 3D Warehouse, a repository of models created in SketchUp. They have also added a new toolbox where you can walk, see things from a persons point of view, labels for models, a look around tool, and an "Any polygon" shape tool.
+While the free version of Google Sketchup can only export to Google Earth's .kmz 3D file format, the Pro version extends exporting support to include the .3ds, .dae, .dwg, .dxf, .fbx, .obj, .xsi, and .wrl file formats. Google SketchUp can also save "screenshots" of the model as .bmp, .png, .jpg, .tif, with the Pro version also supporting .pdf, .eps, .epx, .dwg, and .dxf. However, the free version of Sketchup does support Ruby scripts which has allowed many people to get around sketchup's importing and exporting disabilities.
+
+Ruby is a scripting language whose use in SketchUp was first introduced in SketchUp 4. Since its introduction SketchUp users have shown their creativity by creating hundreds of useful tools using SketchUp Ruby.
+
+
+

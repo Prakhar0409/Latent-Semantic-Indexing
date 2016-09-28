@@ -1,0 +1,21 @@
+Nucleus accumbens
+The nucleus accumbens (NAcc), also known as the accumbens nucleus or as the nucleus accumbens septi (Latin for nucleus leaning against the septum), is a collection of neurons within the forebrain. It is thought to play an important role in reward, laughter, pleasure, addiction, fear, and the placebo effect.[1][2]
+Each half of the brain has one nucleus accumbens. It is located where the head of the caudate and the anterior portion of the putamen meet just lateral to the septum pellucidum. The nucleus accumbens and the olfactory tubercle collectively form the ventral striatum, which is part of the basal ganglia.[3]
+The nucleus accumbens can be divided into two structures -- the nucleus accumbens core and the nucleus accumbens shell. These structures have different morphology and function.
+
+The principal neuronal cell type found in the nucleus accumbens is the medium spiny neuron. The neurotransmitter produced by these neurons is gamma-aminobutyric acid (GABA), one of the main inhibitory neurotransmitters of the central nervous system. These neurons are also the main projection or output neurons of the nucleus accumbens.
+While 95% of the neurons in the nucleus accumbens are medium spiny GABA-ergic projection neurons, other neuronal types are also found such as large aspiny cholinergic interneurons.
+
+The output neurons of the nucleus accumbens send axon projections to the ventral analog of the globus pallidus, known as the ventral pallidum (VP). The VP, in turn, projects to the mediodorsal (MD) nucleus of the dorsal thalamus, which projects to the prefrontal cortex as well as the striatum. Other efferents from the nucleus accumbens include connections with the substantia nigra and pontine reticular formation. Major inputs to the nucleus accumbens include prefrontal association cortices, basolateral amygdala, and dopaminergic neurons located in the ventral tegmental area (VTA), which connect via the mesolimbic pathway. Thus the nucleus accumbens is often described as one part of a cortico-striato-thalamo-cortical loop.
+Dopaminergic input from the VTA is thought to modulate the activity of neurons within the nucleus accumbens. These terminals are also the site of action of highly-addictive drugs such as cocaine and amphetamine, which cause a manifold increase in dopamine levels in the nucleus accumbens. In addition to cocaine and amphetamine, almost every recreational drug has been shown to increase dopamine levels in the nucleus accumbens.
+
+In the 1950s, Olds and Milner implanted electrodes into the septal area of the rat and found that the rat chose to press a lever which stimulated it. It continued to prefer this even over stopping to eat or drink. This suggests that the area is the 'pleasure center' of the brain. The septal nuclei are not directly connected to the nucleus accumbens, however.[4]
+Although the nucleus accumbens has traditionally been studied for its role in addiction, it plays an equal role in processing many rewards such as food and sex. A recent study found that it is involved in the regulation of emotions induced by music [5] , perhaps consequent to its role in mediating dopamine release. The Nucleus Accumbens plays a role in rhythmic timing and is considered to be of central importance to the limbic-motor interface (Mogensen).
+In April 2007, two research teams reported on having inserted electrodes into the nucleus accumbens in order to use deep brain stimulation to treat severe depression.[6]
+Additionally, in July 2007, researcher Jon-Kar Zubieta published findings that the nucleus accumbens is central to the machinery of the placebo effect. He and his colleagues found that people who showed greater activation of the NAcc during a reward-expectation task also showed a greater anticipation of effectiveness of a placebo.[7]
+
+Dopamine and serotonin
+
+
+
+indirect: Motor cortex → Striatum → GPe → Subthalamic nucleus → GPi → Subthalamic fasciculus → Thalamus → Motor cortex

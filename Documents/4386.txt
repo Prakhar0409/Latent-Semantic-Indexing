@@ -1,0 +1,14 @@
+Argument map
+An Argument map is a visual representation of the structure of an argument in informal logic. It includes the components of an argument such as a main contention, premises, co-premises, objections, rebuttals and lemmas.
+
+Argument Maps are often used in the teaching of reasoning and critical thinking, and can support the analysis of pros and cons when deliberating over wicked problems.
+This approach in argument mapping seeks to enable research and analysis of naturalistic human decision making in real life contexts of risk and uncertainty. The techniques involved were first presented by Facione and Facione in Thinking and Reasoning in Human Decision Making: The Method of Argument and Heuristic Analysis (The California Academic Press, 2007). The book described the theory, technique, and application of what appeared to be a new analytical methodology.
+The book outlined many argument mapping techniques. One of the techniques was how to construct decision maps from oral and textual expressions of individual or group decisions. A&H Method decision maps are meant to illustrate the combinination of reasons-claim argument strands as well as the influences of cognitive heuristics and psychological dominance structuring which emerge from those data.
+Two other examples:
+A Rationale map, based on a Bob Dylan song.
+A Rationale map arguing in favour of Condorcet voting methods
+
+
+
+[1]
+

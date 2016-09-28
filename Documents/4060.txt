@@ -1,0 +1,23 @@
+William Playfair
+William Playfair (Sept 22, 1759 – Feb 11, 1823) was a Scottish engineer and political economist, who is considered the founder of graphical methods of statistics.[1]
+William Playfair invented four types of diagrams: in 1786 the line graph and bar chart of economic data, and in 1801 the pie chart and circle graph, used to show part-whole relations.[2]
+
+William was born in 1759 in Scotland during the Enlightenment, a Golden Age in the arts, sciences, industry and commerce. He was the fourth son of the reverend James Playfair of the parish of Liff & Benvie near the city of Dundee in Scotland. His father died in 1772 when William was 13, leaving the eldest brother John to care for the family and his education. After his apprenticeship with Andrew Meikle, the inventor of the threshing machine. He became draftsman and personal assistant to James Watt in 1777 at 18.[3]
+William had a variety of careers. He was in turn a millwright, engineer, draftsman, accountant, inventor, silversmith, merchant, investment broker, economist, statistician, pamphleteer, translator, publicist, land speculator, convict, banker, ardent royalist, editor, blackmailer and journalist. On leaving James Watt's company in 1782, he set up a silversmithing business and shop in London, which failed. In 1787 he moved to Paris, taking part in the storming of the Bastille two years later. He returned to London in 1793, where he opened a "security bank", which failed. From 1775 he worked as a writer and pamphleteer and did some engineering work.[3]
+William's notable brothers were architect James Playfair and mathematician John Playfair.
+
+Spence & Wainer in 2001 describe Playfair as "engineer, political economist and scoundrel" while "Eminent Scotsmen" calls him an "ingenious mechanic and miscellaneous writer." It compares his career with the glorious one of his older brother John Playfair, the distinguished Edinburgh professor, and draws a moral about the importance of "steadiness and consistency of plan" as well as of "genius."[4]
+
+Joseph Priestley had made an early breakthrough in 1765 with the first timeline charts, which used individual bars to compare the life spans of persons. Priestley's timelines proved a commercial success and a popular sensation, and went through dozens of editions.[5]
+These timelines directly inspired Wiliam Playfair's invention of the bar chart, which first appeared in his Commercial and Political Atlas, published in 1786. Playfair was driven to this invention by a lack of data. In his Atlas he had collected a series of 34 plates about the import and export from different countries over the years, which he presented as line graphs or surface charts: line graphs shaded or tinted between abscissa and function. Because Playfair lacked the necessary series data for Scotland, he graphed its trade data for a single year as a series of 34 bars, on for each 17 trading partner.[5]
+The first bar chart, published in 1786, gave a representation of Scotland's imports and exports from and to 17 countries in 1781. This bar chart was the first quantitative graphical form that did not locate data either in space, as had coordinates and tables, or time, as had Priestley's timelines. It constitutes a pure solution to the problem of discrete quantitative comparison.[5]
+
+Playfair, who argued that charts communicated better than tables of data, has been credited with inventing the line, bar, and pie charts. His time-series plots are still presented as models of clarity.
+Playfair first published The Commercial and Political Atlas in London in 1786. It contained 43 time-series plots and one bar chart, a form apparently introduced in this work. It has been described as the first major work to contain statistical graphs.
+Playfair's Statistical Breviary, published in London in 1801, contains what is generally credited as the first pie chart.[6][7]
+
+The following quotation, known as the "Playfair cycle," has achieved notoriety as it pertains to the "Tytler cycle":
+
+
+
+

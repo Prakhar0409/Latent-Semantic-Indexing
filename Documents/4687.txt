@@ -1,0 +1,35 @@
+Mozilla Thunderbird
+Mozilla Thunderbird is a free, open source, cross-platform e-mail and news client developed by the Mozilla Foundation. The project strategy is modeled after Mozilla Firefox, a project aimed at creating a web browser. On December 7, 2004, version 1.0 was released, and received over 500,000 downloads in its first three days of release, and 1,000,000 in 10 days.[1][2]
+
+Originally launched as Minotaur shortly after Phoenix (the original name for Mozilla Firefox), the project failed to gain momentum. With the success of the latter, however, demand increased for a mail client to go with it, and the work on Minotaur was revived under the new name, and migrated to the new toolkit developed by the Firefox team.
+Significant work on Thunderbird restarted with the announcement that from version 1.5 onwards, the main Mozilla suite would be designed around separate applications using this new toolkit. This contrasts with the previous all-in-one approach, allowing users to mix and match the Mozilla applications with alternatives. The original Mozilla Suite continues to be developed as SeaMonkey.
+On December 23, 2004, the Project Lightning was announced for tightly integrating calendar functionality (scheduling, tasks, etc.) into Thunderbird, and is now available as an extension.
+On October 11, 2006, Qualcomm and the Mozilla Foundation announced that "future versions of Eudora will be based upon the same technology platform as the open source Mozilla Thunderbird email program."[3] The project is code-named Penelope.
+On July 26, 2007, the Mozilla Foundation announced that Thunderbird would be developed by an independent organization, because the Mozilla Corporation (a subsidiary of the foundation) was focusing on Mozilla Firefox development.[4]
+On September 17, 2007, the Mozilla Foundation announced the funding of a new internet communications initiative with Dr. David Ascher of ActiveState. The purpose of this initiative was "to develop Internet communications software based on the Thunderbird product, code and brand".[5]
+On February 19, 2008, Mozilla Messaging started operations as a subsidiary of the Mozilla Foundation responsible for the development of email and similar communications. Its initial focus is the upcoming version of Thunderbird 3. Alpha Preview releases of Thunderbird 3 are codenamed "Shredder"; as of 26 February 2009 (2009 -02-26)[update], the current version is Thunderbird 3 Beta 2.
+
+Thunderbird aims to be a simple e-mail, newsgroup and news feed client. The vanilla version is not a personal information manager, although the Mozilla Lightning extension added PIM functionality. Additional features, if needed, are often available via other extensions.
+
+Thunderbird can manage multiple e-mail, newsgroup and RSS accounts and supports multiple identities within accounts. Features like quick search, saved search folders ("virtual folders"), advanced message filtering, message grouping, and labels help manage and find messages. On Linux-based systems, system mail (movemail) accounts are supported.
+
+Thunderbird incorporates a Bayesian spam filter, a whitelist based on the included address book, and can also understand classifications by server-based filters such as SpamAssassin.[6]
+
+Extensions allow the addition of features through the installation of XPInstall modules (known as "XPI" or "zippy" installation). One example is Lightning, the calendar extension mentioned above.
+Extensions and themes (below) available on the Mozilla Update site may be upgraded through the client.
+
+Thunderbird supports a variety of themes for changing its overall look and feel. These packages of CSS and image files can be downloaded from Mozilla Add-ons.
+
+Thunderbird supports POP and IMAP. It also supports LDAP address completion. The built-in RSS/Atom reader can also be used as a simple news aggregator. Thunderbird supports the S/MIME standard and extensions like Enigmail add support for the OpenPGP standard.
+
+Thunderbird runs on a wide variety of platforms. Releases available on the primary distribution site support the following operating systems:[7]
+The source code is freely available and can be compiled and run on a variety of other architectures and operating systems.
+
+With contributors all over the world, the client is translated into at least 36 languages.[9]
+
+Thunderbird provides enterprise and government-grade security features such as SSL/TLS connections to IMAP and SMTP servers. It also offers native support for S/MIME secure email (digital signing and message encryption using certificates). Any of these security features can take advantage of smartcards with the installation of additional extensions.
+Other security features can be added through extensions. For instance, Enigmail offers PGP signing, encryption, and decryption.
+Optional security protections also include disabling loading of remote images within messages, enabling only specific media types (sanitizer), and disabling JavaScript.
+
+
+

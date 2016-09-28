@@ -1,0 +1,8 @@
+Everything as a service
+Everything as a service (EaaS,[1] XaaS[2], *aaS[3]) is a concept of being able to call up re-usable, fine-grained software components across a network.[4] It is a subset of cloud computing. The most common and successful example is software as a service (SaaS), but the as a service moniker has been associated with many other functions including communication, infrastructure and platforms, most of which are core components of cloud computing. With extremely low barriers to entry (often accessible for free or with a personal credit card), the offerings were adopted by consumers and small businesses before pushing into mid-sized and large enterprise space.[5] This is the primary differentiator from other Service Oriented Architecture offerings.
+A number of vendors including Google, Microsoft, Salesforce[5] and Hewlett Packard[6][7] have been associated with the "everything as a service" trend.[8]
+
+Offerings tagged with the as a service suffix have a number of common attributes, including:
+
+
+

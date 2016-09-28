@@ -1,0 +1,65 @@
+Petri net
+A Petri net (also known as a place/transition net or P/T net) is one of several mathematical modeling languages for the description of discrete distributed systems. A Petri net is a directed bipartite graph, in which the nodes represent transitions (i.e. discrete events that may occur), places (i.e. conditions), and directed arcs (that describe which places are pre- and/or postconditions for which transitions). Petri nets were invented in August 1939 by Carl Adam Petri – at the age of 13 – for the purpose of describing chemical processes.[1]
+Like industry standards such as UML activity diagrams, BPMN and EPCs, Petri nets offer a graphical notation for stepwise processes that include choice, iteration, and concurrent execution. Unlike these standards, Petri nets have an exact mathematical definition of their execution semantics, with a well-developed mathematical theory for process analysis.
+
+A Petri net consists of places, transitions, and directed arcs. Arcs run between places and transitions, never between places or between transitions. The places from which an arc runs to a transition are called the input places of the transition; the places to which arcs run from a transition are called the output places of the transition.
+Places may contain any non-negative number of tokens. A distribution of tokens over the places of a net is called a marking. A transition of a Petri net may fire whenever there is a token at the end of all input arcs; when it fires, it consumes these tokens, and places tokens at the end of all output arcs. A firing is atomic, i.e., a single non-interruptible step.
+Execution of Petri nets is nondeterministic: when multiple transitions are enabled at the same time, any one of them may fire. If a transition is enabled, it may fire, but it doesn't have to.
+Since firing is nondeterministic, and multiple tokens may be present anywhere in the net (even in the same place), Petri nets are well suited for modeling the concurrent behavior of distributed systems.
+
+The following formal definition is loosely based on (Peterson 1981). Many alternative definitions exist.
+
+A Petri net graph (called Petri net by some, but see below) is a 3-tuple , where
+The flow relation is the set of arcs: . In many textbooks, arcs can only have multiplicity 1, and they often define Petri nets using F instead of W.
+A Petri net graph is a bipartite multidigraph  with node partitions S and T.
+The preset of a transition t is the set of its input places: ; its postset is the set of its output places: 
+A marking of a Petri net (graph) is a multiset of its places, i.e., a mapping . We say the marking assigns to each place a number of tokens.
+A Petri net (called marked Petri net by some, see above) is a 4-tuple , where
+
+The behavior of a Petri net is defined as a relation on its markings, as follows.
+Note that markings can be added like any multiset: 
+The execution of a Petri net graph  can be defined as the transition relation  on its markings, as follows:
+In words:
+We are generally interested in what may happen when transitions may continually fire in arbitrary order.
+We say that a marking M' is reachable from a marking M in one step if ; we say that it is reachable from M if , where  is the transitive closure of ; that is, if it is reachable in 0 or more steps.
+For a (marked) Petri net , we are interested in the firings that can be performed starting with the initial marking M0. Its set of reachable markings is the set 
+The reachability graph of N is the transition relation  restricted to its reachable markings R(N). It is the state space of the net.
+A firing sequence for a Petri net with graph G and initial marking M0 is a sequence of transitions  such that . The set of firing sequences is denoted as L(N).
+
+As already remarked, a common variation is to disallow arc multiplicities and replace the bag of arcs W with a simple set, called the flow relation, . This limits expressive power, but not significantly: multi-arcs are rarely used in practice, while in theoretical considerations, allowing them rarely makes a significant difference.
+Another common variation, e.g. in , e.g. Desel and Juhás (2001)[2], is to allow capacities to be defined on places. This is discussed under extensions below.
+
+The markings of a Petri net  can be regarded as vectors of nonnegative integers of length | S | .
+Its transition relation can be described as a pair of | S | by | T | matrices:
+Then their difference
+can be used to describe the reachable markings in terms of matrix multiplication, as follows. For any sequence of transitions w, write o(w) for the vector that maps every transition to its number of occurrences in w. Then, we have
+Note that it must be required that w is a firing sequence; allowing arbitrary sequences of transitions will generally produce a larger set.
+
+
+
+
+
+One thing that makes Petri nets interesting is that they provide an interesting balance between modeling power and analyzability: many things one would like to know about concurrent systems can be automatically determined for Petri nets, although some of those things are very expensive to determine in the general case. Several subclasses of Petri nets have been studied that can still model interesting classes of concurrent systems, while these problems become easier.
+An overview of such decision problems, with decidability and complexity results for Petri nets and some subclasses, can be found in Esparza and Nielsen (1995)[3].
+
+The reachability problem for Petri nets is to decide, given a Petri net N and a marking M, whether .
+Clearly, this is a matter of walking the reachability graph defined above, until either we reach the requested marking or we know it can no longer be found. This is harder than it may seem at first: the reachability graph is generally infinite, and it is not easy to determine when it is safe to stop.
+In fact, this problem was shown to be EXPSPACE-hard[4] years before it was shown to be decidable at all (Mayr, 1981). Papers continue to be published on how to do it efficiently[5]
+While reachability seems to a be a good tool to find erroneous states, for practical problems the constructed graph usually has far too many states to calculate. To alleviate this problem, linear temporal logic is usually used in conjunction with the tableau method to prove that such states cannot be reached. LTL uses the semi-decision technique to find if indeed a state can be reached, by finding a set of necessary conditions for the state to be reached then proving that those conditions cannot be satisfied.
+
+Petri nets can be described as having different levels of liveness L0 − L4. While the levels of liveness are defined on transitions within the Petri net, the Petri net itself is considered Lk live if and only if every transition within it is Lk live.
+A Petri net (N,M0)'s transition t is
+Note that these are increasingly stringent requirements such that if a transition is L3 live for example, it is automatically L1 and L2 live as well. As an example, (b) Example Petri net is live with the given initial state, but with a different (e.g. totally empty) initial state, all of its transitions are dead.
+In computer programming and other applications, the property of liveness of a Petri net is used to model that the system can never lock up.
+
+A Petri net is inherently k-bounded if in no reachable state can at any place contain more than k tokens. A Petri net is safe if it is 1-bounded. Naturally, the initial M0 marking is also restricted by the boundedness. Note that a Petri net is inherently bounded if and only if all its reachability graphs (i.e reachability graphs with all possible starting states) all have a finite number of states.
+Formally,  is a set of capacity restrictions, which assigns to each place  some positive number  denoting the maximum number of tokens that can occupy that place. A net in which each of its places has some capacity k, is known as an 'inherently k-bounded' Petri net.
+Boundedness is decidable by looking at covering, by constructing the Karp-Miller Tree. In computer programming and other applications, the property of boundedness of a Petri net is used to model limits on available system resources such as CPUs and I/O buses.
+Boundedness of a certain place in an inherently bounded net can be mimicked in a non-inherently bounded net by doing a place-transformation, where a new place (called counter-place) is created, and all transitions that put x tokens to the original place take x tokens from the counter-place, and all transitions that take away x tokens from the original place put x tokens to the counter-place. The number of tokens in M0 must now satisfy the equation place+counter-place=boundedness. Thus, doing a place-transformation for all places in a bounded net, and restricting the starting state M0 to conform to the above noted equality, a bounded net can easily be transformed to a non-bounded net. Therefore any analysis that is used on inherently non-bounded nets can be used on bounded nets (but not the other way around).
+
+There are many extensions to Petri nets. Some of them are completely backwards-compatible (e.g. coloured Petri nets) with the original Petri net, some add properties that cannot be modelled in the original Petri net (e.g. timed Petri nets). If they can be modelled in the original Petri net, they are not real extensions, instead, they are convenient ways of showing the same thing, and can be transformed with mathematical formulas back to the original Petri net, without losing any meaning. Extensions that cannot be transformed are sometimes very powerful, but usually lack the full range of mathematical tools available to analyse normal Petri nets.
+The term high-level Petri net is used for many Petri net formalisms that extend the basic P/T net formalism; this includes coloured Petri nets, hierarchical Petri nets, and all other extensions sketched in this section. The term is also used specifically for the type of coloured nets supported by CPN Tools.
+A short list of possible extensions:
+There are many more extensions to Petri nets, however, it is important to keep in mind, that as the complexity of the net increases in terms of extended properties, the harder it is to use standard tools to evaluate certain properties of the net. For this reason, it is a good idea to use the most simple net type possible for a given modelling task.
+
+There are six main types of petri net:

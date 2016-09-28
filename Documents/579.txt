@@ -1,0 +1,24 @@
+Ascii85
+Ascii85 (also called "Base85") is a form of binary-to-text encoding developed by Paul E. Rutter for the btoa utility. By using five ASCII characters to represent four bytes of binary data (encoded size 25% larger), it is more efficient than uuencode or Base64, which use four characters to represent three bytes of data (33% increase).
+Its main modern use is in Adobe's PostScript and Portable Document Format file formats.
+
+The basic need for a binary-to-text encoding comes from a need to communicate arbitrary binary data over preexisting communications protocols that were designed to carry only human-readable text. They may support only 7-bit ASCII, and within that reserve certain of the ASCII control codes (0â€“31 and 127) for their own use, may require line breaks at certain maximum intervals, and may do careless things with whitespace. Thus, only the 94 printable ASCII characters are "safe" to use to convey data.
+4 bytes (32 bits) can represent 232 = 4,294,967,296 possible values. 5 radix-85 digits provide 855 = 4,437,053,125 possible values, enough to provide for a unique representation for each possible 32-bit value.
+32 bits is a popular computer word size, and 85 fits nicely into the 94 available ASCII characters.
+When encoding, each group of 4 bytes is taken as a 32-bit binary number, most significant byte first (Ascii85 uses a big-endian convention). This is converted, by repeatedly dividing by 85 and taking the remainder, into 5 radix-85 digits. Then the digits (again, most significant first) are encoded as printable characters by adding 33 to them, giving the ASCII characters 33 ("!") to 117 ("u").
+Because all-zero data is quite common, a special exception is made for the sake of data compression, and an all-zero group is encoded as a single character "z" instead of "!!!!!".
+Groups of characters that decode to a value greater than 232 âˆ’ 1 (encoded as "s8W-!") will cause a decoding error, as will "z" characters in the middle of a group. Whitespace between the characters is ignored and may occur anywhere to accommodate line-length limitations.
+
+The original btoa program always encoded full groups (padding the source as necessary), with a prefix line of "xbtoa Begin", and suffix line of "xbtoa End", followed by the original file length (in decimal and hexadecimal) and three 32-bit checksums. The decoder needs to use the file length to see how much of the group was padding. This program also introduced the special "z" short form for an all-zero group. Version 4.2 added a "y" exception for a group of all ASCII space characters (0x20202020).
+
+Adobe adopted the basic btoa encoding, but with slight changes, and gave it the name Ascii85. In particular, Adobe use the delimiters "<~" and "~>" to mark the beginning and end of an Ascii85-encoded string, and represent the length by truncating the final group.
+While it is simple to pad the final 1â€“3 bytes with zero bytes, and then output only the first 2â€“4 characters of the encoded output, decoding this requires some care. Truncating the encoded characters has a rounding-down effect. To decode the final block it is necessary to round up by padding it with "u" characters, then you can decode the block and truncate the unused trailing bytes.
+In this form, a group consisting of only one character is illegal. Adobe's specification does not support the "y" exception.
+
+Published on April 1, 1996, and thus presumably not meant to be taken completely seriously, RFC 1924: "A Compact Representation of IPv6 Addresses" by Robert Elz suggests a base-85 encoding of IPv6 addresses. This differs from the scheme used above in that he proposes a different set of 85 ASCII characters, and proposes to do all arithmetic on the 128-bit number, converting it to a single 20-digit base-85 number (internal whitespace not allowed), rather than breaking it into four 32-bit groups.
+The proposed character set is, in order, 0â€“9, Aâ€“Z, aâ€“z, and then the 23 characters !#$%&()*+-;<=>?@^_`{|}~. The highest possible representable address, 2128âˆ’1 = 74Ã—8519 + 53Ã—8518 + 5Ã—8517 + ..., would be encoded as =r54lj&NUUO~Hi%c2ym0.
+
+A quote from Thomas Hobbes's Leviathan:
+encoded in Ascii85 is as follows:
+
+

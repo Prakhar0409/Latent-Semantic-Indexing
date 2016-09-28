@@ -1,0 +1,11 @@
+Interactive Disassembler
+The Interactive Disassembler, more commonly known as simply IDA, is a commercial disassembler widely used for reverse engineering. It supports a variety of executable formats for different processors and operating systems. It also can be used as a debugger for Windows PE, Mac OS X Mach-O, and Linux ELF executables.
+Although IDA performs a large degree of automatic code analysis to a certain extent, leveraging cross-references between code sections, knowledge of parameters of API calls, and other information, it is focused on being interactive. A typical IDA user will begin with an automatically generated disassembly listing and then rename, annotate, or otherwise add information to the listing, until it becomes clear what it does, creating an effective reverse-engineering tool.
+Created as a shareware application by Ilfak Guilfanov, it was later turned into a commercial product by DataRescue, a Belgian company, who improved it and sold it under the name IDA Pro. In 2007, Guilfanov founded Hex-Rays to pursue the development of the Hex-Rays Decompiler IDA extension. In January 2008, Hex-Rays assumed the development and support of Datarescue's IDA Pro.
+Ilfak is the main author of IDA (Interactive Disassembler Pro).
+
+"IDC scripts" make it possible to extend the operation of the disassembler. Some helpful scripts are provided, which can serve as the basis for user written scripts. Most frequently scripts are used for extra modification of the generated code. For example, external symbol tables can be loaded thereby using the function names of the original source code. There are websites devoted to IDA scripts and offer assistance for frequently arising problems.
+Users have created plugins that allow other common scripting languages to be used instead of, or in addition to, IDC. IdaRUB supports Ruby and IDAPython adds support for Python. As of version 5.4, IDAPython (dependent on Python 2.4) comes preinstalled with IDA Pro.
+
+
+

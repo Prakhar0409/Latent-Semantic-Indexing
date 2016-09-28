@@ -1,0 +1,79 @@
+Aramaic of Jesus
+Jesus Christ and Christianity
+Chronology • Virgin Birth
+Ministry • Miracles • Parables
+Death • Resurrection
+Second Coming • Christology
+Names and titles • Relics • Active obedience
+Cultural and historical background
+Language spoken • Race
+Genealogy
+Perspectives on Jesus
+Jesus and history
+Biblical Jesus • Religious
+Christian • Lutheran
+Jewish • Islamic
+Ahmadi • Scientology
+Historicity • In myth
+Historical Jesus • Research
+Jesus in culture
+Depiction • Sexuality
+Most scholars claim that the historical Jesus primarily spoke Aramaic. Aramaic was a common language of the Eastern Mediterranean during and after the Neo-Assyrian, Neo-Babylonian, and Achaemenid Empires (722 BC - 330 BC). Despite the subsequent Greek (331 BC) and Roman (63 BC) invasions, it is generally agreed that Aramaic was still a common language of Israel in the first century A.D., but the situation is more complex than non-specialists realize. Jesus and his disciples spoke a Galilean dialect which was clearly distinguishable from that of Jerusalem.[1] In the same time period, the Mishnah was recorded in Hebrew, Josephus wrote in Aramaic, and Philo and Paul of Tarsus wrote in Greek. Jesus may have used three languages in different situations: Aramaic, Hebrew, and Greek, though there is debate in academia as to what degree and exactly where these three would have been used.[2] Generally, most scholars claim that the towns of Nazareth and Capernaum, where Jesus lived, were primarily Aramaic-speaking communities. In addition, if he was knowledgeable of the Hebrew Bible, the implication is knowledge of Biblical Hebrew unless he had access to Aramaic Targums in written or oral form, and if he was a carpenter, he may have known some Koine Greek through commerce because Greek was the lingua franca of the eastern part of the Mediterranean Basin, displacing Aramaic, since the conquests of Alexander the Great (336 BC - 323 BC) and the Seleucid and Ptolemaic Empires, see also Hellenistic Judaism and Septuagint.
+This article explores Aramaic reconstructions of phrases in the New Testament as attributed to Jesus and New Testament figures.
+
+It is generally accepted that Jesus was born a Jew, and grew up in a Jewish family in Galilee. For over a half-millennium, one language for Jews was Aramaic, stemming from the Neo-Assyrian Empire's invasion of the Northern Kingdom (722 BC) and the Babylonian captivity of the Kingdom of Judah (586 BC). This became a western-Aramaic dialect, a version of standard Aramaic (which had originally been the language of Damascus), and a number of Hebrew words and some Hebrew-inspired grammar were often mixed into Jewish usage. However, for some Jews, Hebrew remained a primary colloquial language, until the 3rd century AD.[3] Nearly all of the Hebrew Bible was written in Biblical Hebrew including books throughout the Second Temple Period, and non-canonical books like BenSira and First Maccabees as well, making it probable that most literate Jews knew the Jewish scriptures in Hebrew (especially as Hebrew and Aramaic are fairly cognate, even some parts of the Hebrew Bible are written in Biblical Aramaic and the square-script was originally Aramaic, artifacts of the classical period (during the period of the First Temple) such as the Siloam inscription and Lachish ostraca being written in the Paleo-Hebrew alphabet). There were also the Targums, Aramaic translations of the Hebrew Bible, though scholars debate how widely these were circulated in the first century in Israel, possibly only in specialized circumstances.[citation needed] Qumran may only know of the Targum to Job, an especially problematic book of the Hebrew Bible where the Greek translation also used the Targum (LXX Job 42:17ff.), though other Aramaic texts were found there. The use of Targums in the synagogue did not become customary until the end of the 2nd century CE, after the use of spoken Hebrew declined in the aftermath of the catastrophic Bar Kochba Revolt.[citation needed]
+Some people, notably George Lamsa, refer to the Syriac (Aramaic) Bible as 'the language of Jesus' but Syriac is a later, central-Aramaic dialect. Scholars are mostly agreed that Syriac could not have been a colloquial dialect for Jesus and his audiences, the few exceptions are related to advocates of Aramaic primacy.[citation needed]
+From the 2nd century BC, Judea had been heavily influenced by the Hellenistic civilization, and Koine Greek rapidly became the international language of the eastern Mediterranean, displacing Aramaic, and so became the language of travelling merchants. It is thus possible that Jesus knew at least market Greek. According to the theory of Greek primacy, the canonical New Testament of today was originally written in Koine Greek, including many quotations from the Septuagint, but see also Jewish-Christian Gospels. The Peshitta of the Syrian Orthodox Church is written in Aramaic using the Syriac script, but most Template:Weasle words scholars claim it is based on the Greek rather than being a source for the Greek text.[citation needed]
+When Jesus is described by the New Testament as quoting from the Hebrew Bible, the quotations that are given most closely correlate with the Septuagint. Most scholars
+suggest that the New Testament authors most likely used an edition of the Septuagint, rather than translate a Hebrew (or Aramaic) source. However, among the Dead Sea Scrolls, in addition to various Hebrew versions of the Bible that resemble the much later Masoretic text, there are also Hebrew versions that more closely resemble the Greek Septuagint version (in similar fashion to the Samaritan Pentateuch) and some maverick texts[4].
+Because of the influence of Greek in the east of the Mediterranean, even the officials of the Roman Empire did not really use Latin in the region, and so only a few words of Latin would have been known to most Jews, mostly confined to various symbols of Roman rule (such as the 'denarius' coin). See also Pontius Pilate for speculation on what language he spoke. See also INRI and Iudaea province.
+
+The Greek New Testament transliterates a few words and phrases, some Hebrew, some Aramaic and some either. These are mainly words attributed to Jesus by Mark, and perhaps had a special significance because of this.
+A very small minority believe that most or all of the New Testament was originally written in Aramaic. This position, called Aramaic primacy, has been rejected by most scholars. The consensus among scholarship is that the New Testament was compiled in the Greek language. However, many consider it probable that there was a Hebrew and/or Aramaic layer beneath the Greek sources to the gospels (see also Logia), parts of Acts and possibly in a few, limited other locations within the New Testament.
+
+Mark 5:41
+This verse gives an Aramaic phrase, attributed to Jesus bringing the girl back to life, with a transliteration into Greek, as ταλιθα κουμ.
+A few Greek manuscripts (Codex Sinaiticus, Codex Vaticanus) of Mark's Gospel have this form of the text, but others (Codex Alexandrinus, the Majority Text and the Vulgate) write κουμι (koumi) instead. The latter became the Textus Receptus, and is the version that appears in the Authorised Version.
+The Aramaic is ţlīthā qūm. The word ţlīthā is the feminine form of the word ţlē, meaning "young". Qūm is the Aramaic verb 'to rise, stand, get up'. In the feminine singular imperative, it was originally 'qūmī'. However, there is evidence that in speech the final -ī was dropped so that the imperative did not distinguish between masculine and feminine genders. The older manuscripts, therefore, used a Greek spelling that reflected pronunciation, whereas the addition of an 'ι' was perhaps due to a bookish copyist.
+In written Aramaic, it could be טליתא קומי or טלתא קומי(read right to left).
+
+Mark 7:34
+Once again, the Aramaic word is given with the transliteration, only this time the word to be transliterated is more complicated. In Greek, the Aramaic is written εφφαθα. This could be from the Aramaic 'ethpthaḥ', the passive imperative of the verb 'pthaḥ', 'to open', since the 'th' could assimilate in western Aramaic. The guttural 'ḥ' was often omitted in Greek transcriptions in the Septuagint and was also softened in Galilean speech,[5]. The form is closer to Hebrew nif`al הפתח, but because this is recorded by Mark, who uses Aramaic in another healing section, it is probable that this was intended to be colloquial Aramaic and so cited according to Mark's literary purposes.
+In Aramaic, it could be אתפתח or אפתח. In Hebrew הפתח.
+
+Mark 14:36
+Abba, an Aramaic Hebrew word (written Αββα in Greek, and 'abbā in Aramaic), is immediately followed by the Greek equivalent (Πατηρ) with no explicit mention of it being a translation. The phrase Abba, Father is repeated in Romans 8:15 and Galatians 4:6.
+In Aramaic, it would be אבא. This word was also used in colloquial Hebrew.
+Note, the name Barabbas is a Hellenization of the Aramaic Bar Abba (בר אבא), literally, "Son of the Father".
+
+Matthew 5:22
+Raca, or Raka, in the Aramaic of the Talmud means empty one, fool, empty head.
+In Aramaic, it could be ריקא or ריקה, which is also its form in Hebrew.
+
+Gospel of Matthew 6:24
+Luke 16:9-13
+2 Clement 6
+In Aramaic and Hebrew, it could be ממון.
+In the New Testament the word Μαμωνᾶς — Mamōnâs — is declined like a Greek word, whereas many of the other Aramaic and Hebrew words are treated as indeclinable foreign words.
+
+John 20:16
+Also in Mark 10:51. Hebrew form rabbi used as title of Jesus in Matthew 26:25,49; Mark 9:5, 11:21, 14:45; John 1:49, 4:31, 6:25, 9:2, 11:8.
+This word is correctly labeled as Hebrew in John 20:16. In Hebrew, it is רבוני, and attested in Codex Kaufman to the Mishnah.
+
+Didache 10 (Prayer after Communion)
+1 Corinthians 16:22
+In Aramaic (מרנא תא) it means Lord, come! or Our Lord, come!
+
+Matthew 27:46
+Mark 15:34
+This phrase, shouted by Jesus from the cross, is given to us in these two versions. The Matthean version of the phrase is transliterated in Greek as ηλει ηλει λεμα σαβαχθανει. The Markan version is similar, but begins ελωι ελωι (elōi rather than ēlei). Matthew is citing a probable Hebrew version, Mark a probable Aramaic version.
+The lines seems to be quoting the first line of Psalm 22. However, he is not quoting the canonical Hebrew version (êlî êlî lâmâ `azabtânî), but is using an Hebraic midrash (Matthew) or Aramaic translation of it (Mark).
+In the following verse, in both accounts, some who hear Jesus' cry imagine that he is calling for help from Elijah (Eliyyâ). This is perhaps to underline the incomprehension of the bystanders about what is happening.
+Almost all ancient Greek manuscripts show signs of trying to normalise this text. For instance, the peculiar Codex Bezae renders both versions with ηλι ηλι λαμα ζαφθανι (ēli ēli lama zaphthani). The Alexandrian, Western and Caesarean textual families all reflect harmonization of the texts between Matthew and Mark. Only the Byzantine textual tradition preserves a distinction.
+The Aramaic/mishnaic Hebrew word švaqtanî is based on the verb švaq, 'to allow, to permit, to forgive, and to forsake', with the perfect tense ending -t (2nd person singular: 'you'), and the object suffix -anî (1st person singular: 'me').
+This phrase is treated in more depth at Last sayings of Jesus.
+In Aramaic, it could be אלהי אלהי למא שבקתני. In Hebrew אלי אלי למה שבקתני
+
+Matthew 5:18
+The quotation uses them as an example of extremely minor details. In the Greek original translated as English jot and tittle is found iota and keraia. Iota is the smallest letter of the Greek alphabet (ι), but since only capitals were used at the time the Greek New Testament was written (Ι), it probably represents the Aramaic yodh (י) which is the smallest letter of the Aramaic alphabet. Keraia is a hook or serif, possibly accents in Greek but more likely hooks on Aramaic letters, (ב) versus (כ), or additional marks such as crowns (as Vulgate apex) found in Jewish Bibles. The standard reference for NT Greek is A Greek-English Lexicon of the New Testament and other Early Christian Literature, Bauer, Gingrich, Danker, et al. (commonly known as the Bauer lexicon. Liddell and Scott Greek-English Lexicon for keraia is here: [1]. See also the article on the antithesis of the Law. The English word "tittle" is a cognate of tilde and title and refers to the dot on top of a lowercase i.
+

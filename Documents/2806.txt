@@ -1,0 +1,17 @@
+WinDbg
+WinDbg is a multipurpose debugger for Microsoft Windows, distributed on the web by Microsoft. It can be used to debug user mode applications, drivers, and the operating system itself in kernel mode. It is a GUI application, but has little in common with the more well-known, but less powerful, Visual Studio Debugger.
+WinDbg can be used for debugging kernel-mode memory dumps, created after what is commonly called the Blue Screen of Death which occurs when a bug check is issued. It can also be used to debug user-mode crash dumps. This is known as Post-mortem debugging.
+WinDbg also has the ability to automatically load debugging symbol files (e.g., PDB files) from a server by matching various criteria (e.g., timestamp, CRC, single or multiprocessor version). This is a very helpful and time saving alternative to creating a symbol tree for a debugging target environment. If a private symbol server is configured, the symbols can be correlated with the source code for the binary. This eases the burden of debugging problems that have various versions of binaries installed on the debugging target by eliminating the need for finding and installing specific symbols version on the debug host. Microsoft has a public symbol server that has most of the public symbols for Windows 2000 and later versions of Windows (including service packs).
+Recent versions of WinDbg have been distributed as part of the free Debugging Tools for Windows suite, which shares a common debugging engine between WinDbg and command line debuggers like KD, CDB, and NTSD. This means that most commands will work in all alternative versions without modification, allowing users to use the style of interface with which they are most comfortable.
+
+WinDbg allows the loading of extension DLLs that can augment the debugger's supported commands and allow for help in debugging specific scenarios: for example, displaying an MSXML document given an IXMLDOMDocument, or debugging the Common Language Runtime (CLR). These extensions are a large part of what makes WinDbg such a powerful debugger. WinDbg is used by the Microsoft Windows product team to build Windows, and everything needed to debug Windows is included in these extension DLLs.
+Extension commands are always prefixed with !.
+While some extensions are used only inside Microsoft, most of them are part of the public Debugging Tools for Windows package.
+The extension model is documented in the help file included with the Debugging Tools for Windows.
+
+WinDbg allows debugging Microsoft Windows kernel running on a VMWare or VPC virtual machine using a Named pipe. This can be achieved by using a virtual COM port. In the case of VMWare, the KDVMWare extension adds native support for VMWare debugging to Windows kernel.
+
+The most commonly-used extension is !analyze -v, which analyzes the current state of the program being debugged and the machine/process state at the moment of crash or hang. This extension is often able to debug the current problem in a completely automated fashion.
+When used without any switches !analyze simply returns the results of its analysis. The -v and -vv give further details about that analysis.
+
+

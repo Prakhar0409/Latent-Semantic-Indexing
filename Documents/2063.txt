@@ -1,0 +1,16 @@
+OpenGL ES
+OpenGL ES (OpenGL for Embedded Systems) is a subset of the OpenGL 3D graphics API designed for embedded devices such as mobile phones, PDAs, and video game consoles. OpenGL ES is managed by the not-for-profit technology consortium, the Khronos Group, Inc.
+
+Several versions of the OpenGL ES specification now exist. OpenGL ES 1.0 is drawn up against the OpenGL 1.3 specification, OpenGL ES 1.1 is defined relative to the OpenGL 1.5 specification and OpenGL ES 2.0 is defined relative to the OpenGL 2.0 specification. Version 1.0 and 1.1 both have common and common lite profiles, the difference being that the common lite profile only supports fixed-point in lieu of floating point data type support, whereas common supports both.
+In creating OpenGL ES 1.0, much functionality has been stripped from the original OpenGL API and a little bit added. Two of the more significant differences between OpenGL ES and OpenGL are the removal of the glBegin–glEnd calling semantics for primitive rendering (in favor of vertex arrays) and the introduction of fixed-point data types for vertex coordinates and attributes to better support the computational abilities of embedded processors, which often lack an FPU. Many other areas of functionality have been removed in version 1.0 to produce a lightweight interface: for example, quad and polygon primitive rendering, texgen, line and polygon stipple, polygon mode, antialiased polygon rendering (with alpha border fragments, not multisample), ARB_Image class pixel operation functionality, bitmaps, 3D texture, drawing to the frontbuffer, accumulation buffer, copy pixels, evaluators, selection, feedback, display lists, push and pop state attributes, two-sided lighting, and user defined clip planes.
+OpenGL ES 1.1 adds to the OpenGL ES 1.0 functionality by introducing additional features such as mandatory support for multitexture, better multitexture support (with combiners and dot product texture operations), automatic mipmap generation, vertex buffer objects, state queries, user clip planes, and greater control over point rendering.
+OpenGL ES 2.0, publicly released in March 2007[1], eliminates most of the fixed-function rendering pipeline in favor of a programmable one. Almost all rendering features of the transform and lighting pipelines, such as the specification of materials and light parameters formerly specified by the fixed-function API, are replaced by shaders written by the graphics programmer. As a result, OpenGL ES 2.0 is not backwards compatible with OpenGL ES 1.1.
+OpenGL ES also defines an additional safety-critical profile that is intended to be a testable and demonstrably robust subset for safety-critical embedded applications such as glass cockpit avionics displays.
+
+OpenGL ES 1.0 has been chosen as the official 3D graphics API in Symbian OS[2] and the Android platform[3].
+OpenGL ES 1.0 plus some features of 2.0 and Cg are supported by the Playstation 3 as one of official graphics APIs [4] (the other one being low level libgcm library).
+OpenGL ES 1.1[5] is used as the 3D library for the iPhone SDK.[6]
+OpenGL ES 2.0 will be used as the 3D library for the Pandora console.
+
+
+

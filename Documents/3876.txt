@@ -1,0 +1,15 @@
+Digital Audio Access Protocol
+The Digital Audio Access Protocol (DAAP) is the proprietary protocol introduced by Apple in its iTunes software to share media across a local network.
+
+The DAAP protocol was originally introduced in iTunes version 4.0.[1] Initially, Apple did not officially release a protocol description, but it has been reverse-engineered to a sufficient degree that reimplementations of the protocol for non-iTunes platforms have been possible. Recently, however, Apple has begun to license the protocol specification for commercial implementations.[2]
+A DAAP server is a specialized HTTP server, which performs two functions. It sends a list of songs and it streams requested songs to clients. There are also provisions to notify the client of changes to the server.[1] Requests are sent to the server by the client in form of URLs and are responded to with data in application/x-dmap-tagged mime-type, which can be converted to XML by the client.[1] iTunes uses the ZeroConf (also known as Bonjour) service to announce and discover DAAP shares on a local subnet. The DAAP service utilizes TCP port 3689 by default.[3]
+DAAP is one of two media sharing schemes that Apple has currently released. The other, Digital Photo Access Protocol (DPAP), is used by iPhoto for sharing images. They both rely on an underlying protocol, Digital Media Access Protocol (DMAP).
+Early versions of iTunes allowed users to connect to shares across the Internet, however, in recent versions only computers on the same subnet can share music (workarounds such as port tunneling are possible). The Register speculates that Apple made this move in response to pressure from the record labels.[4] More recent versions of iTunes also limit the number of clients to 5 unique IP addresses within a 24 hour period.
+DAAP has also been implemented in other non-iTunes media applications such as Banshee, Amarok, Exaile (with a plugin), Songbird (with a plugin), Rhythmbox, and WiFiTunes.
+
+Beginning with iTunes 4.2, Apple introduced authentication to DAAP sharing, meaning that the only clients that could connect to iTunes servers were other instances of iTunes. This was further modified in iTunes 4.5 to use a custom hashing algorithm, rather than the standard MD5 function used previously. Both authentication methods were successfully reverse engineered[5] within months of release.
+With iTunes 7.0, a new 'Client-DAAP-Validation' header hash is needed when connecting to an iTunes 7.0 server. This does not affect 3rd party DAAP servers, but all current DAAP clients (including official iTunes before iTunes 7.0) will fail to connect to an iTunes 7.0 server, receiving a '403 Forbidden' HTTP error. The iTunes 7.0 authentication traffic analysis seem to indicate that a certificate exchange is performed to calculate the hash sent in the 'Client-DAAP-Validation' header.
+As of March 2009, the iTunes 7.0 DAAP authentication still hasn't been reverse engineered, so no third party application can stream from iTunes 7.0 or 8.0 servers.[6]
+
+
+

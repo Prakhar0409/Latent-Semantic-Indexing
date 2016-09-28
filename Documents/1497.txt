@@ -1,0 +1,18 @@
+FriendFeed
+FriendFeed is a feed aggregator that consolidates the updates from social media and social networking websites, social bookmarking websites, blogs and micro-blogging updates, as well as any other type of RSS/ Atom feed. Users can use this stream of information to create customized feeds to share (and comment) with friends.[1] The goal of FriendFeed according to their website is to make content on the Web more relevant and useful for you by using your existing social network as a tool for discovering interesting information. Users can be an individual, business or organization. Bloggers writing about FriendFeed have said that this service addresses the shortcomings of social media services which exclusively facilitate tracking of their own members' social media activities on that particular social media service, whereas FriendFeed provides the facility to track these activities (such as posting on blogs, Twitter and Flickr) across a broad range of different social networks.[2] Some (but not all) bloggers are concerned about readers commenting on their posts inside FriendFeed instead of on their blogs, resulting in fewer page views for the blogger[3].
+The founders are all former Google employees who were involved in the launch of such services as Gmail and Google Maps. They include Paul Buchheit, Jim Norris, Sanjeev Singh and Bret Taylor. Venture capital agency Benchmark Capital is involved with the investment funding.
+FriendFeed is based in Mountain View, California.
+
+A user can configure their FriendFeed account to aggregate content from the following services:
+Blogging
+Bookmarking
+Books
+News
+Photos
+Status
+Music
+Video
+Comments
+Miscellaneous
+
+

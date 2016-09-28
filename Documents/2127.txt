@@ -1,0 +1,23 @@
+1729 (number)
+List of numbers â€” Integers
+â† 1k 2k 3k 4k 5k 6k 7k 8k 9k â†’
+1729 is the natural number following 1728 and preceding 1730. 1729 is known as the Hardy-Ramanujan number after a famous anecdote of the British mathematician G. H. Hardy regarding a hospital visit to the Indian mathematician Srinivasa Ramanujan. In Hardy's words:[1]
+The quotation is sometimes expressed using the term "positive cubes", as the admission of negative perfect cubes (the cube of a negative integer) gives the smallest solution as 91 (which is a factor of 1729):
+Of course, equating "smallest" with "most negative", as opposed to "closest to zero" gives rise to solutions like âˆ’91, âˆ’189, âˆ’1729, and further negative numbers. This ambiguity is eliminated by the term "positive cubes".
+Numbers such as
+that are the smallest number that can be expressed as the sum of two cubes in n distinct ways have been dubbed taxicab numbers. 1729 is the second taxicab number (the first is 2 = 13 + 13). The number was also found in one of Ramanujan's notebooks dated years before the incident.
+The same expression defines 1729 as the first in the sequence of "Fermat near misses" (sequence A050794 in OEIS) defined as numbers of the form 1 + z3 which are also expressible as the sum of two other cubes.
+1729 is the third Carmichael number and the first absolute Euler pseudoprime.
+1729 is a Zeisel number. It is a centered cube number, as well as a dodecagonal number, a 24-gonal and 84-gonal number.
+Investigating pairs of distinct integer-valued quadratic forms that represent every integer the same number of times, Schiemann found that such quadratic forms must be in four or more variables, and the least possible discriminant of a four-variable pair is 1729 (Guy 2004).
+Because in base 10 the number 1729 is divisible by the sum of its digits, it is a Harshad number. It also has this property in octal (1729 = 33018, 3 + 3 + 0 + 1 = 7) and hexadecimal (1729 = 6C116, 6 + C + 1 = 1910), but not in binary.
+1729 has another interesting property: the 1729th decimal place is the beginning of the first occurrence of all ten digits consecutively in the decimal representation of the transcendental number e.[2]
+Masahiko Fujiwara showed that 1729 is one of four natural numbers (the others are 81 and 1458 and the trivial case 1) which, when its digits are added together, produces a sum which, when multiplied by its reversal, yields the original number:
+The proof is very easy, which is probably why Fujiwara has never shown his proof. It suffices only to check sums up to 36, since an n-digit sum, when multiplied by its reversal, results in a number with at most 2n digits whose digit sum is no greater than 18n. For n > 2, 18n has less than n digits, and for n = 2, 18n = 36. In addition, since reversals and digit sums do not affect mod 9 arithmetic, the square of the sum is congruent to the sum itself mod 9, so the sum must be congruent to 0 or 1 (mod 9)
+It has occasionally been suggested that Hardy's story is apocryphal, on the grounds that he almost certainly would have been familiar with some of these features of the number.
+
+
+
+
+
+

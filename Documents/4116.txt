@@ -1,0 +1,21 @@
+Markov algorithm
+A Markov algorithm is a string rewriting system that uses grammar-like rules to operate on strings of symbols. Markov algorithms have been shown to be Turing-complete, which means that they are suitable as a general model of computation and can represent any mathematical expression from its simple notation.
+Refal is a programming language based on Markov algorithm.
+
+
+The following example shows the basic operation of a Markov algorithm.
+
+
+"I bought a B of As from T S."
+
+If the algorithm is applied to the above example, the Symbol string will change in the following manner.
+The algorithm will then terminate.
+
+These rules give a more interesting example. They rewrite binary numbers to their unary counterparts. For example: 101 will be rewritten to a string of 5 consecutive bars.
+
+
+"101"
+
+If the algorithm is applied to the above example, it will terminate after the following steps.
+
+

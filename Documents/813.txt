@@ -1,0 +1,72 @@
+Paxos algorithm
+Paxos is a family of protocols for solving consensus in a network of unreliable processors. Consensus is the process of agreeing on one result among a group of participants. This problem becomes difficult when the participants or their communication medium may experience failures.[1]
+Consensus protocols are the basis for the state machine approach to distributed computing, as suggested by Leslie Lamport[2] and surveyed by Fred Schneider.[1]
+The Paxos protocol was described and named in 1990, though it was published only in 1998.[3] Earlier, Lynch, Dwork and Stockmeyer had demonstrated the solvability of consensus in a broad family of "partially synchronous" systems.
+The state machine approach is a technique for converting an algorithm into a fault-tolerant, distributed implementation. Ad-hoc techniques may leave important cases of failures unresolved. The principled approach proposed by Lamport et al. ensures all cases are handled safely.
+The Paxos family of protocols includes a spectrum of trade-offs between the number of processors, number of message delays before learning the agreed value, the activity level of individual participants, number of messages sent, and types of failures. The convergent property of the Paxos family is their safety from inconsistency.[3][4][5][6][7]
+
+In order to guarantee safety, Paxos defines three safety properties and ensures they are always held, regardless of the pattern of failures:
+
+In order to simplify the presentation of Paxos, the following assumptions and definitions are made explicit. Techniques to broaden the applicability are known in the literature, and are not covered in this article; please see references for further reading.
+
+
+
+In general, a consensus algorithm can make progress using 2F+1 processors despite the simultaneous failure of any F processors.[8] However, using reconfiguration, a protocol may be employed which survives more total failures if they do not occur too rapidly:
+
+Paxos describes the actions of the processes by their roles in the protocol: client, acceptor, proposer, learner, and leader. In typical implementations, a single processor may play one or more roles at the same time. This does not affect the correctness of the protocol—it is usual to coalesce roles to improve the latency and/or number of messages in the protocol.
+
+Quorums express the safety properties of Paxos by ensuring at least some surviving processor retains knowledge of the results.
+Typically, a Quorum is any majority of participating Acceptors. For example, given the set of Acceptors {A,B,C,D}, a majority Quorum would be any three Acceptors: {A,B,C}, {A,C,D}, {A,B,D}, {B,C,D}.
+
+In Paxos, the leader sometimes has to choose among a set of conflicting values. If a set of values is in conflict, the leader must choose one of the values from the most recent round. The protocol does not specify which value must be chosen, and correctness is guaranteed regardless of the choice. However, it is possible for the choice to impede progress.
+A typical Choice function is to select the majority value from the highest round.
+
+In most deployments of Paxos, each participating process acts in three roles; Proposer, Acceptor and Learner.[9] This reduces the message complexity significantly, without sacrificing correctness:
+By merging roles the protocol "collapses" into an efficient client-master-replica style deployment typical of the database community. The benefit of the Paxos family (including implementations with merged roles) is the guarantee of its Safety Properties.
+A typical implementation's message flow is covered in Typical Multi-Paxos Deployment.
+
+This protocol is the most basic of the Paxos family; it is not the protocol which is typically implemented in a deployment (see Multi-Paxos).
+Each instance of the Basic Paxos protocol decides on a single output value. The protocol proceeds over several rounds, a successful round has two phases:
+
+
+
+
+Rounds fail when multiple Proposers send conflicting Prepare messages, or when the Proposer does not receive a Quorum of responses (Promise or Accepted). In these cases, another round must be started with a higher proposal number.
+Here is a graphic representation of the Basic Paxos protocol. Note that the values returned in the Promise message (Va, Vb, Vc) are typically null for the first round of each instance, they are shown below for completeness.
+
+(one instance, one successful round)
+
+The simplest error cases are the failure of a redundant Learner, or failure of an Acceptor when a Quorum of Acceptors remains live. In these cases, the protocol requires no recovery. No additional rounds or messages are required, as shown below:
+
+(Quorum size = 2 Acceptors)
+
+The next failure case is when a Proposer fails after proposing a value, but before agreement is reached. Ignoring Leader election, an example message flow is as follows:
+
+(re-election not shown, one instance, two rounds)
+The most complex case is when multiple Proposers believe themselves to be Leaders. For instance the current leader may fail and later recover, but the other Proposers have already re-elected a new leader. The recovered leader has not learned this yet and attempts to begin a round in conflict with the current leader.
+
+(one instance, four unsuccessful rounds)
+
+A typical deployment of Paxos requires a continuous stream of agreed values acting as commands to a distributed state machine. If each command is the result of a single instance of the Basic Paxos protocol, a significant amount of overhead would result.
+If the leader is relatively stable, phase 1 becomes unnecessary. Thus, it is possible to skip phase 1 for future instances of the protocol with the same leader.
+To achieve this, the instance number is included along with each value. Multi-Paxos reduces the failure-free message delay (proposal to learning) from 4 delays to 2 delays.
+
+( first instance with new leader)
+
+(subsequent instances with same leader)
+
+The most common deployment of the Paxos family is Multi-Paxos,[9] specialized for participating processors to each be Proposers, Acceptors and Learners. The message flow may be optimized as depicted here:
+
+(first instance with new leader)
+
+(subsequent instances with same leader)
+
+A number of optimizations reduce message complexity and size. These optimizations are summarized below:
+
+Cheap Paxos extends Basic Paxos to tolerate F failures with F+1 main processors and F auxiliary processors by dynamically reconfiguring after each failure.
+This reduction in processor requirements comes at the expense of liveness; if too many main processors fail in a short time, the system must halt until the auxiliary processors can reconfigure the system. During stable periods, the auxiliary processors take no part in the protocol.
+
+3 main Acceptors, 1 Auxiliary Acceptor, Quorum size = 3, showing failure of one main processor and subsequent reconfiguration
+
+Fast Paxos generalizes Basic Paxos to reduce end-to-end message delays. In Basic Paxos, the message delay from client request to learning is 3 message delays. Fast Paxos allows 2 message delays, but requires the Client to send its request to multiple destinations.
+Intuitively, if the leader has no value to propose

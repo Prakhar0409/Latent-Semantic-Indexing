@@ -1,0 +1,33 @@
+Fiscal policy
+This article is part of the series:
+Finance and Taxation
+Australia â€¢ British Virgin Islands
+Canada â€¢ China â€¢ Colombia
+France â€¢ Germany â€¢ Hong Kong
+India â€¢ Indonesia â€¢ Ireland
+Netherlands â€¢ New Zealand
+Peru â€¢ Russia â€¢ Singapore
+Switzerland â€¢ Tanzania
+Thailand â€¢ United Kingdom
+United States â€¢ European Union
+Tax rates around the world
+Tax revenue as % of GDP
+In economics, fiscal policy is the use of government spending and revenue collection to influence the economy.[1]
+Fiscal policy can be contrasted with the other main type of economic policy, monetary policy, which attempts to stabilize the economy by controlling interest rates and the supply of money. The two main instruments of fiscal policy are government spending and taxation. Changes in the level and composition of taxation and government spending can impact on the following variables in the economy:
+Fiscal policy refers to the overall effect of the budget outcome on economic activity. The three possible stances of fiscal policy are neutral, expansionary and contractionary:
+Fiscal policy was invented by John Maynard Keynes in the 1930s.
+
+Governments spend money on a wide variety of things, from the military and police to services like education and healthcare, as well as transfer payments such as welfare benefits.
+This expenditure can be funded in a number of different ways:
+
+A fiscal deficit is often funded by issuing bonds, like treasury bills or consols. These pay interest, either for a fixed period or indefinitely. If the interest and capital repayments are too large, a nation may default on its debts, usually to foreign creditors.
+
+A fiscal surplus is often saved for future use, and may be invested in local (same currency) financial instruments, until needed. When income from taxation or other sources falls, as during an economic slump, reserves allow spending to continue at the same rate, without incurring a deficit.
+
+Fiscal policy is used by governments to influence the level of aggregate demand in the economy, in an effort to achieve economic objectives of price stability, full employment and economic growth. Keynesian economics suggests that adjusting government spending and tax rates are the best ways to stimulate aggregate demand. This can be used in times of recession or low economic activity as an essential tool in providing the framework for strong economic growth and working toward full employment. The government can implement these deficit-spending policies due to its size and prestige and stimulate trade. In theory, these deficits would be paid for by an expanded economy during the boom that would follow; this was the reasoning behind the New Deal.
+During periods of high economic growth, a budget surplus can be used to decrease activity in the economy. A budget surplus will be implemented in the economy if inflation is high, in order to achieve the objective of price stability. The removal of funds from the economy will, by Keynesian theory, reduce levels of aggregate demand in the economy and contract it, bringing about price stability.
+Some classical and neoclassical economists argue that fiscal policy can have no stimulus effect; this is known as the Treasury View, and categorically rejected by Keynesian economics. The Treasury View refers to the theoretical positions of classical economists in the British Treasury who opposed Keynes call for fiscal stimulus in the 1930s. The same general argument has been repeated by neoclassical economists up to the present day. From their point of view, when government runs a budget deficit, funds will need to come from public borrowing (the issue of government bonds), overseas borrowing or the printing of new money. When governments fund a deficit with the release of government bonds, an increase in interest rates across the market can occur. This is because government borrowing creates higher demand for credit in the financial markets, causing a lower aggregate demand (AD), contrary to the objective of a budget deficit. This concept is called crowding out.
+Other possible problems with fiscal stimulus include the time lag between the implementation of the policy and detectable effects in the economy and inflationary effects driven by increased demand. Fiscal stimulus does not cause inflation when it uses resources that would have otherwise been idle. For instance, if a fiscal stimulus employs a worker who otherwise would have been unemployed, there is no inflationary effect; however, if the stimulus employs a worker who otherwise would have had a job, the stimulus is increasing demand while labor supply remains fixed, leading to inflation.
+
+
+

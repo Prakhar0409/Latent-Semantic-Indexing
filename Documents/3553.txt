@@ -1,0 +1,56 @@
+iCalendar
+iCalendar is a computer file format which allows internet users to send meeting requests and tasks to other internet users, via email, or sharing files with an .ics extension. Recipients of the iCalendar data file (with supporting software, such as an email client or calendar application) can respond to the sender easily or counter propose another meeting date/time.[1]
+iCalendar is used and supported by a large number of products. iCalendar data is usually sent with traditional email.[2]
+
+iCalendar was created by the Internet Engineering Task Force Calendaring and Scheduling Working Group (chaired by Anik Ganguly of Open Text Corporation), and was authored by Frank Dawson of Lotus Development Corporation and Derik Stenerson of Microsoft Corporation. iCalendar is heavily based on the earlier vCalendar by the Internet Mail Consortium (IMC). iCalendar data files are plain text files.[3]
+
+The iCalendar format is designed to transmit calendar-based data, such as events, and intentionally does not describe what to do with that data. Thus, other programming may be needed to negotiate what to do with this data.[4]
+iCalendar is meant to "provide the definition of a common format for openly exchanging calendaring and scheduling information across the internet". While the features most often used by users are widely supported by iCalendar, some more advanced capabilities have problems. For example, most vendors do not support Journals (VJOURNAL). Recurring and repeating meetings still have a "bit of mystery and ambiguity associated with them", causing some conversion problems in some cases. VTODOs have had conversion problems as well.[5]
+iCalendar's calendar is also not compatible with some non-Gregorian calendars such as the lunar calendars used in Israel or Saudi Arabia.[6]
+The memo "Calendar Access Protocol" (RFC 4324) was an initial attempt at a universal system to create real-time calendars. This protocol was eventually abandoned possibly due to excessive complexity. Regardless, iCalendar-based code such as GroupDAV and CalDAV are now being used more frequently in both client and server software packages.
+The IETF Calendaring and Scheduling (calsify) Working Group is in the process of revising the iCalendar standards. Nearly all of the work focuses on clarifications to the previous standards, and is often based on work done by another group, the Calendaring and Scheduling Consortium, also known as Calconnect. Formed in 2004, Calconnect addresses interoperability issues through scheduled interoperability tests and through technical committees and surveys to determine actual use cases. Any organization or individual is eligible to join the consortium. iCalender now works on the iPhone 3.0.
+
+
+The top-level computer language in iCalendar is the Calendaring and Scheduling Core Object, a collection of calendar and scheduling information. Typically, this information will consist of a single iCalendar object. However, multiple iCalendar objects can be grouped together.
+The first line must be "BEGIN:VCALENDAR", and the last line must be "END:VCALENDAR"; the contents between these lines is called the "icalbody".
+The body of the iCalendar object (the icalbody) is made up of a list of calendar properties and one or more calendar components. The calendar properties apply to the entire calendar. The calendar components are several calendar properties which create a calendar schematic (design). For example, the calendar component can specify an event, a to-do list, a journal entry, time zone information, or free/busy time information, or an alarm.
+Here is a simple example[7] of an iCalendar object, "Bastille Day Party" event which occurs July 14, 1997 17:00 (UTC) through July 15, 1997 03:59:59 (UTC):
+There are many different types of components which can be used in iCalendar, as described below.[8]
+
+"VEVENT" describes an event, which has a scheduled amount of time on a calendar. Normally, when a user accepts the calendar event, this will cause that time to be considered busy.[9] A VEVENT may include a VALARM which allows an alarm. Such events have a DTSTART which sets a starting time, and a DTEND which sets an ending time. If the calendar event is recurring, DTSTART sets up the start of the first event.
+VEVENT also is used for calendar events without a specific time, such as anniversaries and daily reminders.[10] If you need to send in a cancellation for an event the UID should be same as the original event and the component properties should be set to cancel Ex.
+
+METHOD:CANCEL
+STATUS:CANCELLED
+For sending an UPDATE for an event the UID should match the original UID. the other component property to be set is:
+SEQUENCE:<Num of Update>
+i.e. for the first update
+SEQUENCE:1
+In Microsoft Outlook, the SUMMARY corresponds to the "Subject" entry in the "Appointment" form, and DESCRIPTION to the descriptive text below it. In addition, Outlook 2003 demands a UID and a DTSTAMP.</ref>
+
+VTODO explains a to-do item, i.e., an action-item or assignment.
+The following is an example of a to-do due on April 15, 1998.[11] An audio alarm has been specified to remind the calendar user at noon, the day before the to-do is expected to be completed and repeat hourly, four additional times. This to-do has been modified twice since it was initially created.
+
+VJOURNAL is a journal entry. They attach descriptive text to a particular calendar date, may be used to record a daily record of activities or accomplishments, or describe progress with a related to-do entry. A "VJOURNAL" calendar component does not take up time on a calendar, so it has no effect on free or busy time (just like TRANSPARENT entries). In practice, few programs support VJOURNAL entries, although examples exist: Plum Canary's Chirp software uses VTODO and VJOURNAL together. Also KOrganizer from the KDE desktop supports VJOURNAL.
+The following is an example of a journal entry[12]:
+
+VFREEBUSY is a request for free/busy time, is a response to a request, or is a published set of busy time.[clarification needed] [13]
+The following is an example of published busy time information.[14]:
+
+Other component types include VTIMEZONE (time zones) and VALARM (alarms). Some components can include other components (VALARM is often included in other components).[15]
+
+The UID field distributes updates when a scheduled event changes. When the event is first generated a globally unique identifier is created. If a later event is distributed with the same UID, it replaces the original one.[16]
+
+vCalendar and iCalendar support private extensions, with a "X-" prefix, a number of which are in common usage.
+Some of these include:
+
+iCalendar's design was based on the previous file format vCalendar created by the Internet Mail Consortium (IMC).
+Here is an example of information in vCalendar format:
+After iCalendar was released, the Internet Mail Consortium stated that it "hopes that all vCalendar developers take advantage of these new open standards and make their software compatible with both vCalendar 1.0 and iCalendar."[17]
+
+When used to request free/busy time information, the "ATTENDEE" property specifies the calendar users whose free/busy time is being requested; the "ORGANIZER" property specifies the calendar user who is requesting the free/busy time; the "DTSTART" and "DTEND" properties specify the window of time for which the free/busy time is being requested; the "UID" and "DTSTAMP" properties are specified to assist in proper sequencing of multiple free/busy time requests.
+When used to reply to a request for free/busy time, the "ATTENDEE" property specifies the calendar user responding to the free/busy time request; the "ORGANIZER" property specifies the calendar user that originally requested the free/busy time; the "FREEBUSY" property specifies the free/busy time information (if it exists); and the "UID" and "DTSTAMP" properties are specified to assist in proper sequencing of multiple free/busy time replies.
+When used to publish busy time, the "ORGANIZER" property specifies the calendar user associated with the published busy time; the "DTSTART" and "DTEND" properties specify an inclusive time window that surrounds the busy time information; the "FREEBUSY" property specifies the published busy time information; and the "DTSTAMP" property specifies the date/time that iCalendar object was created.
+
+
+Internet Mail Consortium (IMC). "Personal Data Interchange: vCard and vCalendar". This describes the relationship of vCard, vCalendar, and iCalendar, and includes IMC's request for implementors to support both vCalendar and iCalendar.

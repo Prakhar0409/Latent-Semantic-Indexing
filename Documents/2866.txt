@@ -1,0 +1,41 @@
+Technology forecasting
+Is forecasting the future characteristics of useful technological machines, procedures or techniques.
+
+Primarily, a technological forecast deals with the characteristics of technology, such as levels of technical performance, like speed of a military aircraft, the power in watts of a particular future engine, the accuracy or precision of a measuring instrument, the number of transistors in a chip in the year 2015, etc. The forecast does not have to state how these characteristics will be achieved.
+Secondly, technological forecasting usually deals with only useful machines, procedures or techniques. This is to exclude from the domain of technological forecasting those commodities, services or techniques intended for luxury or amusement.
+
+The whole purpose of the recitation of alternatives, is to show that there really is no alternative to forecasting. If a decisionmaker has several alternatives open to him, he will choose among them on the basis of which provides him with the most desirable outcome. Thus his decision is inevitably based on a forecast. His only choice is whether the forecast is obtained by rational and explicit methods, or by intuitive means.
+The virtues of the use of rational methods are as follows:
+The virtue of the use of explicit methods is that they can be reviewed by others, and can be checked for consistency. Furthermore, the forecast can be reviewed at any subsequent time.
+
+Commonly adopted methods of technology forecasting include the Delphi method, forecast by analogy, growth curves and extrapolation. Normative methods of technology forecasting — like the relevance trees, morphological models, and mission flow diagrams — are also commonly used.
+
+Studies of past forecasts have shown that one of the most frequent reasons why a forecast goes wrong is that the forecaster ignores related fields.
+A given technical approach may fail to achieve the level of capability forecast for it, because it is superseded by another technical approach which the forecaster ignored.
+Another problem is that of inconsistency between forecasts. Because of these problems, it is often necessary to combine forecasts of different technologies. Therefore rather than to try to select the one method which is most appropriate, it may be better to try to combine the forecasts obtained by different methods.
+If this is done, the strengths of one method may help compensate for the weaknesses of another.
+
+The primary reason for combining forecasts of the same technology is to attempt to offset the weaknesses of one forecasting method with the strengths of another. In addition, the use of more than one forecasting method often gives the forecaster more insight into the processes at work which are responsible for the growth of the technology being forecast.
+
+A frequently used combination is that of growth curves and a trend curve for some technology. Here we see a succession of growth curves, each describing the level of functional capability achieved by a specific technical approach.
+An overall trend curve is also shown, fitted to those items of historical data which represent the currently superior approach.
+The use of growth curves and a trend curve in combination allows the forecaster to draw some conclusions about the future growth of a technology which might not be possible, were either method used alone.
+With growth curves alone, the forecaster could not say anything about the time at which a given technical approach is likely to be supplanted by a successor approach.
+With the trend curve alone, the forecaster could not say anything about the ability of a specific technical approach to meet the projected trend, or about the need to look for a successor approach. Thus the need for combining forecasts.
+
+Another frequently used combination of forecasts is that of the trend curve and one or more analogies.
+We customarily consider the scatter of data points about a trend curve to be due to random influences which we can neither control nor even measure. However, consistent deviations may represent something other than just random influences.
+Where such consistent deviations are identified, we may have an opportunity to apply an analogy. Typical events which bring about deviations from a trend are wars and depressions. Thus the purpose of combining analogies with a trend forecast is to predict deviations from the trend deviations which are associated with or caused by external events or influences.
+As with other uses of analogy, it is important to determine the extent to which the analogy between the event used as the basis for the forecast, and the historical model event, satisfies the criteria for a valid analogy.
+
+Combining forecasts of different technologies may be even more important than combining the forecasts of the same technology.
+One reason for this is the fact that technologies may interact or be interrelated in some fashion. Another reason for this is that of consistency in an overall picture or scenario. One of the simplest examples of interacting trends is the projection to absurdity, i.e. simply projecting the given data indefinitely without getting any specific result. For instance, if one simply projects recent rates of growth of world population, one arrives at some fantastic conclusions about the density of population in a particular place by various dates in the next millennium.
+Some other trends which can confidently be expected to not continue indefinitely are:
+Another instance of interacting trends was in the case of the number of scientists in the U.S. growing faster than the overall population. Since 1940s through the 1960s, science as an activity in the United States grew exponentially. The number of dollars spent on R&D was growing faster than the GNP (in the 1960s).
+If projected indefinitely, these two curves would give the result that eventually every person in the U.S. would be working as a scientist and the entire GNP would be devoted to R&D alone, which are however absurd conclusions. Thus it is clear that the scientific discipline of technology forecasting is not mere trend extrapolation but also involves combining forecasts.
+
+Almost all modern manufacturing firms utilize the services of a technological forecaster. Nevertheless, there are a number of alternatives to the rational and explicit forecasting of technology, such as 'no forecast', 'anything can happen' (i.e. relying on pure chance), 'window-blind forecasting', 'genius forecasting' and boasting of a 'glorious past' (i.e. adopting the same old techniques).
+Thus technological forecasting is not mere astrology or palmistry, but a scientific and well defined procedure adopted by a technological forecaster or a consultancy for the forecasting of a particular technology. Even though technological forecasting is a scientific discipline, some experts are of the view that "the only certainty of a particular forecast is that it is wrong to some degree."
+
+
+

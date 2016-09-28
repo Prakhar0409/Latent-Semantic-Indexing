@@ -1,0 +1,66 @@
+Experimental economics
+Africa�· North America
+South America�· Asia
+Europe�· Oceania
+Microeconomics�· Macroeconomics
+History of economic thought
+Methodology�· Heterodox approaches
+Mathematical�· Econometrics
+Experimental�· National accounting
+Behavioral�· Cultural�· Evolutionary
+Growth�· Development�· History
+International�· Economic systems
+Monetary and financial
+Public and welfare economics
+Health�· Labour�· Managerial
+Business�· Information�· Game theory
+Industrial organization �· Law
+Agricultural�· Natural resource
+Environmental�· Ecological
+Urban�· Rural�· Regional
+Journals · Publications
+Categories · Topics · Economists
+Anarchism�· Capitalism
+Communism�· Corporatism
+Fascism�· Georgism
+Islamic�· Laissez-faire
+Market socialism�· Mercantilism
+Protectionism�· Socialism
+Syndicalism�· Third Way
+Anglo-Saxon�· Feudalism
+International�· Hunter-gatherer
+Newly industrialized country
+Palace�· Plantation
+Post-capitalism�· Post-industrial
+Social market�· Socialist market
+Token�· Traditional
+Information�· Transition
+Experimental economics is the application of experimental methods to study economic questions. Experiments are used to test the validity of economic theories and test-bed new market mechanisms. Using cash-motivated subjects, economic experiments create real-world incentives to help us better understand why markets and other exchange systems work the way they do. Experiments may be conducted in laboratory settings or in the field. Also see Simulations and games in economics education.
+
+Economics experiments can be loosely classified into the following topics: Markets, Games, Decision making, Bargaining, Auctions, Coordination, Social Preferences, Learning, Matching, and Field Experiments.
+
+Coordination games are games with multiple pure strategy nash equilibria. There are two general sets of questions that experimental economists typically ask when examining such games: (1) Can laboratory subjects coordinate, or learn to coordinate, on one of multiple equilibria, and if so are there general principles that can help predict which equilibrium is likely to be chosen? (2) Can laboratory subjects coordinate, or learn to coordinate, on the Pareto best equilibrium and if not, are there conditions or mechanisms which would help subjects coordinate on the Pareto best equilibrium? Deductive selection principles are those that allow predictions based on the properties of the game alone. Inductive selection principles are those that allow predictions based on characterizations of dynamics.
+
+In games of two players or more, the subjects often form beliefs about what actions the other subjects are taking and these beliefs are updated over time. This is known as belief learning. Subjects also tend to make the same decisions that have rewarded them with high payoffs in the past. This is known as reinforcement learning.
+Until the 1990s, simple adaptive models, such as Cournot best response or fictitious play, were generally used. In the mid-1990s, Alvin E. Roth and Ido Erev demonstrated that reinforcement learning can make useful predictions in experimental games. In 1999, Colin Camerer and Teck Ho introduced Experience Weighted Attraction (EWA), a general model that incorporated reinforcement and belief learning, and shows that fictitious play is mathematically equivalent to generalized reinforcement, provided weights are placed on past history.
+Criticisms of EWA include overfitting due to many parameters, lack of generality over games, and the possibility that the interpretation of EWA parameters may be difficult. Overfitting is addressed by estimating parameters on some of the experimental periods or experimental subjects and forecasting behavior in the remaining sample (if models are overfitting, these out-of-sample validation forecasts will be much less accurate than in-sample fits, which they generally are not). Generality in games is addressed by replacing fixed parameters with "self-tuning" functions of experience, allowing pseudo-parameters to change over the course of a game and to also vary systematically across games.
+Modern experimental economists have done much notable work recently. Roberto Weber has raised issues of learning without feedback. David Cooper and John Kagel have investigated types of learning over similar strategies. Ido Erev and Greg Barron have looked at learning in cognitive strategies. Dale Stahl has characterized learning over decision making rules. Charles A. Holt has studied logit learning in different kinds of games, including games with multiple equilibria. Wilfred Amaldoss has looked at interesting applications of EWA in marketing. Amnon Rapoport, Jim Parco and Ryan Murphy have investigated reinforcement-based adaptive learning models in one of the most celebrated paradoxes in game theory known as the centipede game.
+
+Vernon Smith conducted pioneering economics experiments on the convergence of prices and quantities to their theoretical competitive equilibrium values in experimental markets. Smith studied the behavior of "buyers" and "sellers", who are told how much they "value" a fictitious commodity, and then are asked to competitively "bid" or "ask" on these commodities following the rules of various real world market institutions, such as the Double auction (both sides can bid) used in many stock exchanges, as well the English auction and the Dutch auction (see Auctions). Smith found that in some forms of centralized trading, prices and quantities traded in such markets converge on the values that would be predicted by the economic theory of perfect competition, despite the conditions not meeting many of the assumptions of perfect competition (large numbers, perfect information).
+Over the years, Smith pioneered -along with other collaborators- the use of controlled laboratory experiments in economics, and established it as a legitimate tool in economics and other related fields. Charles Plott of the California Institute of Technology collaborated with Smith in the 1970s and pioneered experiments in political science, as well as using experiments to inform economic design or engineering to inform policies. In 2002, Smith was awarded (jointly with Daniel Kahneman) the Bank of Sweden Prize in Economic Sciences "for having established laboratory experiments as a tool in empirical economic analysis, especially in the study of alternative market mechanisms".
+
+Experimental finance studies financial markets with the goals of establishing different market settings and environments to observe experimentally and analyze agents' behavior and the resulting characteristics of trading flows, information diffusion and aggregation, price setting mechanism and returns processes. Presently, researchers use simulation software to conduct their research.
+For instance, experiments have manipulated information asymmetry about the holding value of a bond or a share on the pricing for those who don't have enough information, in order to study stock market bubbles.
+
+The term "social preferences" refers to the concern (or lack thereof) that people have for each other's well-being, and it encompasses altruism, spitefulness, tastes for equality, and tastes for reciprocity. Experiments on social preferences generally study economic games including the dictator game, the ultimatum game, the trust game, the public goods game, and modifications to these canonical settings. As one example of results, ultimatum game experiments have shown that people are generally willing to sacrifice monetary rewards when offered low allocations, thus behaving inconsistently with simple models of self-interest. Economic experiments have measured how this deviation varies across cultures. (More market-oriented societies tend to have higher inequity aversion.)
+
+
+Experimental economists generally adhere to the following methodological guidelines:
+
+The above guidelines have developed in large part to address two central critiques. Specifically, economics experiments are often challenged because of concerns about their "internal validity" and "external validity", for example, that they are not applicable models for many types of economic behavior, so the experiments simply aren't good enough to produce useful answers.
+
+
+
+
+
+

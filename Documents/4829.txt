@@ -1,0 +1,18 @@
+Token bucket
+A token bucket is a common algorithm used to control the amount of data that is injected into a network, allowing for bursts of data to be sent. Although it has several uses, it is best understood in the context of network traffic shaping or rate limiting.
+
+Two predominant methods for shaping traffic exist: a leaky bucket implementation and a token bucket implementation. Sometimes they are mistakenly lumped together under the same name. Both these schemes have distinct properties and are used for distinct purposes [1]. They differ principally in that the leaky bucket imposes a hard limit on the data transmission rate, whereas the token bucket allows a certain amount of burstiness while imposing a limit on the average data transmission rate.
+
+The token bucket is a control mechanism that dictates when traffic can be transmitted, based on the presence of tokens in the bucket--an abstract container that holds aggregate network traffic to be transmitted. The bucket contains tokens, each of which can represent a unit of bytes or a single packet of predetermined size. Tokens in the bucket are removed ("cashed in") for the ability to send a packet. The network administrator specifies how many tokens are needed to transmit how many bytes. When tokens are present, a flow is allowed to transmit traffic. If there are no tokens in the bucket, a flow cannot transmit its packets. Therefore, a flow can transmit traffic up to its peak burst rate if there are adequate tokens in the bucket and if the burst threshold is configured appropriately.
+
+The algorithm can be conceptually understood as follows:
+The algorithm allows bursts of up to b bytes, but over the long run the output of conformant packets is limited to the constant rate, r. Non-conformant packets can be treated in various ways:
+To calculate the time for which the Token Bucket Algorithm allows burst of maximum possible size, assume that the capacity of the Token Bucket is C bytes, the token arrival rate is R bytes/second and the maximum possible transmission rate is M bytes/second and S is the number of seconds for which it is possible to transmit at maximum rate. Then, the following equality holds C + R * S = M * S which gives S = C / (M − R) seconds
+Implementers of this algorithm on platforms lacking the clock resolution necessary to add a single token to the bucket every 1 / r seconds may want to consider an alternative formulation. Given the ability to update the token bucket every S milliseconds, the number of tokens to add every S milliseconds = (r * S) / 1000.
+
+This is a faster replacement for the Class Based Queueing qdisc (queuing discipline) in Linux.
+
+HTBs help in controlling the use of the outbound bandwidth on a given link. HTB allows using one single physical link to simulate multiple slower links and to send different kinds of traffic on different simulated links. In both cases, one has to specify how to divide the physical link into simulated links and how to decide which simulated link a given packet is to be sent across.
+In other words, HTB is very useful to limit a client's download/upload rate. Thus, the limited client cannot saturate the total bandwidth.
+
+

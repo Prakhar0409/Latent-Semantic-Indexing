@@ -1,0 +1,34 @@
+Simputer
+The Simputer is a self-contained, open hardware handheld computer, designed for use in environments where computing devices such as personal computers are deemed inappropriate. Due to the low cost, it was also deemed appropriate to bring computing power to the developing countries.
+
+The device was designed by the Simputer Trust, a non-profit organization formed in November 1999 by seven Indian scientists and engineers led by Dr. Swami Manohar. The word "Simputer" is an acronym for "simple, inexpensive and multilingual people's computer", and is a trademark of the Simputer Trust. It includes text-to-speech software and runs the GNU/Linux operating system. Similar in appearance to the Palm Pilot class of handheld computers, the touch sensitive screen is operated on with a stylus; simple handwriting recognition software is provided by the program Tapatap.
+
+The Simputer specifications are released under an open distribution license called the Simputer General Public License or the SGPL. Free software developers are being actively encouraged to port their applications to the Simputer.
+
+The Simputer Trust has licensed two manufacturers to create devices based on the Simputer specifications:
+
+In the year 2004, Simputers were extensively used by the government of Karnataka to automate the process of land records procurement. Prior to this large scale deployment, Simputers were also used in an ambitious project in Chattisgarh for the purpose of e-education. In 2005 they were used in a variety of innovative and interesting applications, such as automobile engine diagnostics (Mahindra & Mahindra in Mumbai), tracking of iron-ore movement from mine pithead to shipping point (Dempo, Goa), Microcredit (Sanghamitra, Mysore), Electronic Money Transfer between UK and Ghana (XK8 Systems, UK), and others. In recent times, the Simputer has seen deployment by the police force to track traffic offenders and issue traffic tickets.
+
+
+The Simputer uses the Linux kernel (2.4.18 Kernel as of July 2005), and the Alchemy Window Manager (only the Amida Simputer). Software packages included provide:
+In addition, both licensees developed custom vertical applications for microbanking, traffic police, medical applications, etc.
+Alchemy user interface used by the Amida Simputer has been released under the GPL with the name "OpenAlchemy".
+
+Pilot production of the Simputer started in September 2002. In 2004, the Amida Simputer became commercially available for Rs. 12450 and up. The prices for Amida Simputer vary depending on the screen type (monochrome or colour).
+
+By 2005, sales of Simputers failed to live up to the ambitious goal of selling 50,000 units: only 4000 Simputers were sold ([1]).
+
+A reason often stated is that the poor have no need of computers before their basic needs (such as electricity) are met. However, the Simputer was never designed to be a "poor man's computer" (a position often used by the media)- it was a device designed to help bridge the digital divide. While most people tended to look at the cost of the Simputer as a factor, they ignored the fact that the "cost of ownership" for the end-user of the device in villages was not the cost of the device, but the cost of the Smart card used to store the user's data. The device itself should be considered shared infrastructure for the village.
+
+Another reason may be that lack of purchasing by the Indian government and NGOs (as earlier committed) led to lack of adoption in the field.
+
+The SGPL, the license under which simputer is marketed, asks for a license fee of 1 Million Indian Rupees (US$1=INR 39[as on 14th Feb. 2008, roughly $24,155]) to commercially exploit the Simputer design. This was perceived to be a high entry point for small scale organizations wishing to license the Simputer design
+
+While the Simputer is not cheap when compared to PDAs available in the market at the time, this point is largely irrelevant, as it was not designed to be a PDA (which are used as PC companions) but as a standalone computer. The comparison with PDAs was a natural outcome because of the form-factor (and, to some degree, reports by the media).
+
+The decrease of prices of laptop computers may have reduced the Simputer's price competitiveness.
+
+Both licensees may seem to have stopped actively marketing their Simputer devices, though both are known to be developing newer devices based on Simputer technologies. While Encore has developed an XScale-based device for use by the Indian Military, PicoPeta has continued development of an as yet un-released device, and is actively encouraging Free software developers to port their applications to the Simputer platform, and to the Alchemy interface. PicoPeta was acquired by Geodesic Information Systems (a developer of communication and collaboration systems) in 2005.
+
+
+

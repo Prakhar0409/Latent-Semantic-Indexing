@@ -1,0 +1,52 @@
+List of trigonometric identities
+History
+Usage
+Functions
+Inverse functions
+Further reading
+List of identities
+Exact constants
+Generating trigonometric tables
+CORDIC
+Law of sines
+Law of cosines
+Law of tangents
+Pythagorean theorem
+The Trigonometric integral
+Trigonometric substitution
+Integrals of functions
+Derivatives of functions
+Integrals of inverses
+In mathematics, trigonometric identities are equalities that involve trigonometric functions that are true for every single value of the occurring variables.[citation needed] These identities are useful whenever expressions involving trigonometric functions need to be simplified. An important application is the integration of non-trigonometric functions: a common technique involves first using the substitution rule with a trigonometric function, and then simplifying the resulting integral with a trigonometric identity.
+
+To avoid the confusion caused by the ambiguity of sinâˆ’1(x), the reciprocals and inverses of trigonometric functions are often displayed as in this table. In representing the cosecant function, the longer form 'cosec' is sometimes used in place of 'csc'.
+Different angular measures can be appropriate in different situations. This table shows some of the more common systems. Radians is the default angular measure and is the one you use if you use the exponential definitions. All angular measures are unitless.
+
+From the two identities above, the following table can be extrapolated. Note however that these conversion equations may not provide the correct sign (+ or âˆ’). For example, if sin Î¸ = 1/2, the conversion in the table indicates that , though it is possible that . More information would be needed about which quadrant Î¸ lies in to determine a single, exact answer. This only applies to the transformations with the square root function.
+
+The versine, coversine, haversine, and exsecant were used in navigation. For example the haversine formula was used to calculate the distance between two points on a sphere. They are rarely used today.
+
+By examining the unit circle, the following properties of the trigonometric functions can be established.
+
+When the trigonometric functions are reflected from certain angles, the result is often one of the other trigonometric functions. This leads to the following identities:
+
+By shifting the function round by certain angles, it is often possible to find different trigonometric functions that express the result more simply. Some examples of this are shown by shifting functions round by Ï€/2, Ï€ and 2Ï€ radians. Because the periods of these functions are either Ï€ or 2Ï€, there are cases where the new function is exactly the same as the old function without the shift.
+
+These are also known as the addition and subtraction theorems or formulÃ¦. The quickest way to prove these is Euler's formula.
+
+
+
+
+The sum and difference formulÃ¦ for sine and cosine can be written in matrix form, thus:
+
+In these two identities an asymmetry appears that is not seen in the case of sums of finitely many terms: in each product, there are only finitely many sine factors and cofinitely many cosine factors.
+If only finitely many of the terms Î¸i are nonzero, then only finitely many of the terms on the right side will be nonzero because sine factors will vanish, and in each term, all but finitely many of the cosine factors will be unity.
+
+Let ek be the kth-degree elementary symmetric polynomial in the variables xi = tan(Î¸i ), for i = 1, ..., n, k = 0, ..., n. Then
+the number of terms depending on n.
+For example:
+and so on. The general case can be proved by mathematical induction.
+
+where ek is the kth-degree elementary symmetric polynomial in the n variables xi = tan Î¸i, i = 1, ..., n, and the number of terms in the denominator depends on n.
+For example,
+

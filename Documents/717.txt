@@ -1,0 +1,29 @@
+Acronis True Image
+Acronis True Image is a disk imaging and disaster recovery application for computers, produced by Acronis. True Image can create an image of a disk while it is running Microsoft Windows or Linux, or offline by booting from CD/DVD, USB flash drives, PXE, or other bootable media. As a disk imaging solution, True Image can restore the previously captured image to another disk, effectively replicating the structure and contents to the new disk, also allowing partition resizing if the new disk is of different capacity.
+
+As a live imaging application, True Image offers functionality such as restoring data or creating a backup image without rebooting the system. In case of operating system corruption or hard disk failure, the machine can be booted to the Acronis Recovery Manager, which offers bare-metal restore capability, and can return the system to a previous point in time.
+The Workstation and Enterprise Server versions allow a software agent to be installed which can be controlled remotely from another machine, enabling centralized management of all operations.
+True Image is known for its simple, wizard driven interface,[4] and receives positive reviews from both editors and users alike.[5]
+The program can back up a Windows system disk while the OS is running but must boot separately to perform a restoration of a system disk. The BootCD used to run the program to perform a restoration of a system disk uses a version of Linux, and therefore relies on different hardware drivers than Windows. It is not uncommon for a user to have made backups and then find that the BootCD cannot see one of the drives needed to perform a restore. This issue also affects many other backup/imaging programs as most rely on Linux to perform restores. Some users avoid these driver issues by using a plug-in of TrueImage on a BartPE disk (Acronis provides the Bart plug-in along with the TrueImage program) or a VistaPE disk.
+Acronis offers free trials of the software.
+
+True Image offers several different options for system recovery, including the retrieval of lost files or other chunks of data, as well as entire system recovery due to corruption or failure. The following is a quick list of methods:
+
+Images of computers running Microsoft Windows cannot simply be restored to different hardware as Windows will typically fail at boot time with a STOP: 0x0000007B error screen if the proper Microsoft Hardware Abstraction Layer (HAL) and/or storage drivers are not installed in the operating system at boot time. Acronis Universal Restore is designed to overcome this problem.
+Universal Restore[7] is an add-on utility for True Image Echo versions running under Windows, and is designed to replace the HAL and inject updated storage drivers embedded within the image during the recovery process, allowing an image of a machine to be restored to different hardware.
+
+The Echo Server for Windows and Linux products are standalone applications only, while the Workstation and Enterprise Server versions include the Acronis Management Console for centralized remote operations. While the Workstation version supports Windows desktop operating systems only, the Enterprise server contains remote agents for both Windows Servers and many varieties of the Linux operating systems.[8]
+The Home version, while costing less than Echo Workstation, is not merely a cut-down version of it: Home has some facilities, such as excluding specified files from an image backup, not supported by Echo editions.[9]
+
+As of May 2007, Seagate/Maxtor include a rebadged version of True Image V10 under the name of the DiscWizard and MaxBlast hard drive utilities.[10] These versions are distributed free of charge for use on computers that have at least one Seagate/Maxtor drive.
+
+Acronis states that True Image provides backward compatibility for image files (in .tib format) created with a single previous version, that is, images created with an immediate previous version can be successfully restored. Backups are compatible between different editions of True Image; e.g., between True Image Echo Workstation and True Image Echo Enterprise Server, or between Linux and Windows versions.[11]
+Software by VMware, such as VMware Converter, can convert .tib files into files to use in a Virtual Machine. [12][13]
+
+File systems supported by software:[3]
+In addition to the officially supported filesystems, Acronis True Image also provides raw sector backup and restore options for all other filesystems. 'Raw' mode provides support for a file system that is corrupt, or that isn't officially supported, by capturing a complete image of all sectors on the disk. This method results in a larger image file as it isn't able to compress, resize, or selectively restore files on the unrecognized filesystem.
+
+True Image does not support the newer GUID Partition Table method of partitioning a hard drive, and therefore will not back up a Boot Camp Windows partition on an Apple Macintosh computer. "Information about latest original installation files available for re-download for registered users". Acronis Inc.. http://www.acronis.com/homecomputing/support/updates/release-notes/trueimage.html. Retrieved on 2009-01-16. 
+
+
+

@@ -1,0 +1,16 @@
+God's algorithm
+God's algorithm is a notion originating in discussions of ways to solve the Rubik's Cube puzzle, but which can also be applied to other combinatorial puzzles and mathematical games. It stands for any practical algorithm that produces a solution having the least possible number of moves, the idea being that an omniscient being would know an optimal step from any given configuration.
+
+The notion applies to puzzles that can assume a finite number of "configurations", with a relatively small, well-defined arsenal of "moves" that may be applicable to configurations and then lead to a new configuration. Solving the puzzle means to reach a specific designated "final configuration" (or one of a collection of final configurations) by applying a sequence of moves, starting from some arbitrary initial configuration.
+Some well-known puzzles fitting this description are mechanical puzzles like Rubik's Cube, Towers of Hanoi, and the 15 puzzle. The one-person game of peg solitaire is also covered, as well as many logic puzzles, such as the missionaries and cannibals problem. These have in common that they can be modelled mathematically as a directed graph, in which the configurations are the vertices, and the moves the arcs.
+An algorithm can be considered to solve such a puzzle if it takes as input an arbitrary initial configuration and produces as output a sequence of moves leading to a final configuration, if the puzzle is solvable from that initial position, otherwise signals the impossibility (of a solution). A solution is optimal if the sequence of moves is as short as possible. God's algorithm, then, for a given puzzle, is an algorithm that solves the puzzle and produces only optimal solutions.
+For an algorithm to be properly referred to as "God's algorithm", it should also be practical, meaning that the algorithm does not require extraordinary amounts of memory or time. For example, using a giant lookup table indexed by initial configurations would allow solutions to be found very quickly, but would require an extraordinary amount of memory.
+Instead of asking for a full solution, one can equivalently ask for a single move from an initial but not final configuration, where the move is the first of some optimal solution. An algorithm for the single-move version of the problem can be turned into an algorithm for the original problem by invoking it repeatedly while applying each move reported to the present configuration, until a final one is reached. Conversely, any algorithm for the original problem can be turned into an algorithm for the single-move version by truncating its output to its first move.
+
+For the N-puzzle, a generalized 15-puzzle, the problem of finding a solution is known to be NP-hard. However, whether a practical God's algorithm for this problem exists remains unknown.[1]
+For the Towers of Hanoi puzzle, a God's algorithm exists for any given number of disks.[2]
+An endgame tablebase in chess can find a God's algorithm for the shortest path to checkmate.
+It is unknown whether a practical God's algorithm exists for Rubik's Cube; see optimal solutions for Rubik's Cube.
+
+
+

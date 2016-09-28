@@ -1,0 +1,14 @@
+Split-flap display
+A split-flap display, sometimes simply flap display, is a display device that presents alphanumeric text, and possibly fixed graphics.
+
+Each character position or graphic position has a collection of flaps on which the characters or graphics are painted or silkscreened. These flaps are precisely rotated to show the desired character or graphic. Today, these displays are often found in train stations and airports, where they typically display departure and/or arrival information, although digital equivalents are far more common now.
+Such displays are often called 'Solari boards', named after Solari & C. Udine, a large manufacturer of such boards continuing to the present day.
+Sometimes the flaps are large and display whole words, and in other installations there are several smaller flaps, each displaying a single character. The former method is of course limited on the words it can display by what is on the flaps, whereas the latter system is not and output messages can be changed without the need for the addition or replacement of flaps, although images cannot. In the example image on the right, we can see that the destinations in the centre of the picture of split up into characters, whereas the messages left and right of these occupy entire flaps.
+Flip-dot displays and LED display boards may be used instead of split-flap displays in most applications. Their output can be varied more easily (by reprogramming instead of replacement of physical parts in the case of graphics) but they suffer from lower readability. They also can refresh more quickly, as most split-flap displays only rotate in one direction.
+Many game shows of the 1970s used this type of display for the contestant podium scoreboards. Usually, the flip was left-to-right on a vertical axis, although up/down on a horizontal axis was not completely unknown.
+Advantages to these displays include:
+In the case of the latter the Massachusetts Bay Transportation Authority has specifically designed the new LCD replacements for its aging Solari boards at North Station and South Station to emit an electronically generated flapping noise to cue passengers to train boarding updates.
+
+
+
+

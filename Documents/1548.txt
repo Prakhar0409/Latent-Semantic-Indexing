@@ -1,0 +1,17 @@
+Object Constraint Language
+The Object Constraint Language (OCL) is a declarative language for describing rules that apply to Unified Modeling Language (UML) models developed at IBM and now part of the UML standard. Initially, OCL was only a formal specification language extension to UML. OCL may now be used with any Meta-Object Facility (MOF) Object Management Group (OMG) meta-model, including UML. The Object Constraint Language is a precise text language that provides constraint and object query expressions on any MOF model or meta-model that cannot otherwise be expressed by diagrammatic notation. OCL is a key component of the new OMG standard recommendation for transforming models, the Queries/Views/Transformations (QVT) specification.
+
+OCL is a descendant of Syntropy, a second-generation object-oriented analysis and design method. The OCL 1.4 definition specified a constraint language. In OCL 2.0, the definition has been extended to include general object query language definitions.
+OCL language statements are constructed in four parts:
+
+OCL supplements UML by providing expressions that have neither the ambiguities of natural language nor the inherent difficulty of using complex mathematics. OCL is also a navigation language for graph-based models.
+
+OCL makes a Meta-Object Facility model more precise by associating assertions with its meta-elements.
+
+Of particular importance to Model Driven Engineering (MDE) or model-driven architecture is the notion of Model transformation. The OMG has defined a specific standard for model transformation called MOF/QVT or in short QVT. Several model transformation languages like GReAT, VIATRA, or Tefkat are presently available, with different levels of compliance with the QVT standard. Many of these languages are built on top of OCL, which is the main part of the QVT-compliance.
+
+As a rule-based validation language, Schematron may be considered as an alternative to OCL. However Schematron works for Extensible Markup Language (XML) trees while OCL makes it possible to navigate MOF-based models and meta-models (i.e. XML Metadata Interchange (XMI) trees). In other words, OCL has a similar relation to UML or MOF as Schematron has to XML. (Note that Schematron uses XPath to navigate inside the XML trees.)
+As a model specification language permitting designers to decorate a model or a meta-model with side-effect-free annotations, OCL could be replaced by languages like Alloy.
+
+
+This article was originally based on material from the Free On-line Dictionary of Computing, which is licensed under the GFDL.

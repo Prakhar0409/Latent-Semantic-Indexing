@@ -1,0 +1,8 @@
+HBase
+HBase is an open-source, column-oriented, distributed database modeled after Google's BigTable and written in Java. It is developed as part of Apache Software Foundation's Hadoop project and runs on top of HDFS (Hadoop Distributed File System), providing BigTable-like capabilities for Hadoop.
+HBase features compression, in-memory operation, and Bloom filters on a per-column basis as outlined in the original BigTable paper [1]. Tables in HBase can serve as the input and output for MapReduce jobs run in Hadoop, and may be accessed through the Java API.
+
+HBase began as a project by the company Powerset out of a need to process massive amounts of data for the purposes of natural language search. It is now a top-level Apache project and has generated considerable interest. [2]
+
+
+

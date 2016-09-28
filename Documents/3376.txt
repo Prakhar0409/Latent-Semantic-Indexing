@@ -1,0 +1,46 @@
+Stainless steel
+Ferrite (α-iron, δ-iron; soft)
+Austenite (γ-iron; harder)
+Spheroidite
+Pearlite (88% ferrite, 12% cementite)
+Bainite
+Martensite
+Ledeburite (ferrite-cementite eutectic, 4.3% carbon)
+Cementite (iron carbide, Fe3C; hardest)
+Carbon steel (≤2.1% carbon; low alloy)
+Stainless steel (+chromium)
+Maraging steel (+nickel)
+Alloy steel (hard)
+Tool steel (harder)
+Cast iron (>2.1% carbon)
+Ductile iron
+Wrought iron (contains slag)
+In metallurgy, stainless steel is defined as a steel alloy with a minimum of 10% chromium content by mass.[1] Stainless steel does not stain, corrode, or rust as easily as ordinary steel (it stains less), but it is not stain-proof.[2] It is also called corrosion-resistant steel or CRES when the alloy type and grade are not detailed, particularly in the aviation industry. There are different grades and surface finishes of stainless steel to suit the environment to which the material will be subjected in its lifetime. Common uses of stainless steel are cutlery and watch straps.
+Stainless steel differs from carbon steel by amount of chromium present. Carbon steel rusts when exposed to air and moisture. This iron oxide film is active and accelerates corrosion by forming more iron oxide. Stainless steels have sufficient amount of chromium present so that a passive film of chromium oxide forms which prevents further surface corrosion and blocks corrosion spreading in the metal's internal structure.
+
+A few corrosion-resistant iron artifacts survive from antiquity. A famous (and very large) example is the Iron Pillar of Delhi, erected by order of Kumara Gupta I around the year AD 400. Unlike stainless steel, however, these artifacts owe their durability not to chromium, but to their high phosphorus content, which, together with favorable local weather conditions, promotes the formation of a solid protective passivation layer of iron oxides and phosphates, rather than the non-protective, cracked rust layer that develops on most ironwork.
+The corrosion resistance of iron-chromium alloys was first recognized in 1821 by the French metallurgist Pierre Berthier, who noted their resistance against attack by some acids and suggested their use in cutlery. Metallurgists of the 19th century, however, were unable to produce the combination of low carbon and high chromium found in most modern stainless steels, and the high-chromium alloys they could produce were too brittle to be practical.
+In the late 1890s, Hans Goldschmidt of Germany developed an aluminothermic (thermite) process for producing carbon-free chromium. In the years 1904–1911 several researchers, particularly Leon Guillet of France, prepared alloys that would today be considered stainless steel.
+Friedrich Krupp Germaniawerft built the 366-ton sailing yacht Germania featuring a chrome-nickel steel hull in Germany in 1908.[4] In 1911, Philip Monnartz reported on the relationship between the chromium content and corrosion resistance. On October 17, 1912, Krupp engineers Benno Strauss and Eduard Maurer patented austenitic stainless steel.[5]
+Similar developments were taking place contemporaneously in the United States, where Christian Dantsizen and Frederick Becket were industrializing ferritic stainless.
+In 1912, Elwood Haynes applied for a U.S. patent on a martensitic stainless steel alloy. This patent was not granted until 1919.[6] Also in 1912, Harry Brearley of the Brown-Firth research laboratory in Sheffield, England, while seeking an erosion-resistant alloy for gun barrels, discovered and subsequently industrialized a martensitic stainless steel alloy. The discovery was announced two years later in a January 1915 newspaper article in The New York Times.[3] Brearly applied for a U.S. patent during 1915. This was later marketed under the "Staybrite" brand by Firth Vickers in England and was used for the new entrance canopy for the Savoy Hotel in 1929 in London.[7]
+
+High oxidation-resistance in air at ambient temperature are normally achieved with additions of a minimum of 13% (by weight) chromium, and up to 26% is used for harsh environments.[8] The chromium forms a passivation layer of chromium(III) oxide (Cr2O3) when exposed to oxygen. The layer is too thin to be visible, and the metal remains lustrous. It is impervious to water and air, protecting the metal beneath. Also, this layer quickly reforms when the surface is scratched. This phenomenon is called passivation and is seen in other metals, such as aluminium and titanium. Corrosion resistance can however be adversely affected if the component is used in a non-oxygenated environment, a typical example being underwater keel-bolts buried in timber.
+When stainless steel parts such as nuts and bolts are forced together, the oxide layer can be scraped off causing the parts to weld together. When disassembled, the welded material may be torn and pitted, an effect that is known as galling. This destructive galling can be best avoided by the use of dissimilar materials, e.g. bronze to stainless steel, or even different types of stainless steels (martensitic against austenitic, etc.), when metal-to-metal wear is a concern. In addition, Nitronic alloys (trademark of Armco, Inc.) reduce the tendency to gall through selective alloying with manganese and nitrogen.
+Nickel also contributes to passivation, as do other less commonly used ingredients such as molybdenum and vanadium.
+
+Stainless steel’s resistance to corrosion and staining, low maintenance, relatively low cost, and familiar luster make it an ideal base material for a host of commercial applications. There are over 150 grades of stainless steel, of which fifteen are most common. The alloy is milled into coils, sheets, plates, bars, wire, and tubing to be used in cookware, cutlery, hardware, surgical instruments, major appliances, industrial equipment, and as an automotive and aerospace structural alloy and construction material in large buildings. Storage tanks and tankers used to transport orange juice and other food are often made of stainless steel, due to its corrosion resistance and antibacterial properties. This also influences its use in commercial kitchens and food processing plants, as it can be steam cleaned, sterilized, and does not need painting or application of other surface finishes.
+Stainless steel is also used for jewellery and watches. The most common stainless steel alloy used for this is 316L. It can be re-finished by any jeweller and will not oxidize or turn black.
+Some firearms incorporate stainless steel components as an alternative to blued or parkerized steel. A few, more expensive revolvers (like the Smith and Wesson Model 60) and pistols (like versions of the Colt M1911) are milled entirely from stainless steel. This gives a high-luster finish similar in appearance to nickel plating; but, unlike plating, the finish is not subject to flaking, peeling, wear-off due to rubbing (as when repeatedly removed from a holster over the course of time), or rust when scratched.
+
+
+Stainless steel is 100% recyclable. In fact, an average stainless steel object is composed of about 60% recycled material, 25% originating from end-of-life products and 35% coming from manufacturing processes.[10]
+
+There are different types of stainless steels: when nickel is added, for instance, the austenite structure of iron is stabilized. This crystal structure makes such steels non-magnetic and less brittle at low temperatures. For greater hardness and strength, carbon is added. When subjected to adequate heat treatment, these steels are used as razor blades, cutlery, tools, etc.
+Significant quantities of manganese have been used in many stainless steel compositions. Manganese preserves an austenitic structure in the steel as does nickel, but at a lower cost.
+Stainless steels are also classified by their crystalline structure:
+The low carbon version of the Austenitic Stainless Steel, for example 316L or 304L, are used to avoid corrosion problem caused by welding. The "L" means that the carbon content of the Stainless Steel is below 0.03%, this will reduce the sensitization effect, precipitation of Chromium Carbides at grain boundaries, due to the high temperature produced by welding operation.
+
+Steel no. k.h.s DIN
+Steel name
+

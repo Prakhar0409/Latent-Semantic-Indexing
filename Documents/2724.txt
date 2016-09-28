@@ -1,0 +1,8 @@
+List of relational database management systems
+See DBMS for a shorter list of “typical”, representative database management systems.
+
+
+
+
+
+

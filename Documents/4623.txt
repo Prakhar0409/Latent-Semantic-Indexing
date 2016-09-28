@@ -1,0 +1,7 @@
+PKCS
+In cryptography, PKCS refers to a group of Public Key Cryptography Standards devised and published by RSA Security.
+RSA Data Security Inc was assigned the licensing rights for the patent (which expired in 2000) on the RSA asymmetric key algorithm and acquired the licensing rights to several other key patents as well (e.g., the Schnorr patent). As such, RSA Security, and its research division, RSA Labs, were interested in promoting and facilitating the use of public-key techniques. To that end, they developed the PKCS standards. They retained control over them, announcing that they would make changes/improvements as they deemed necessary, and so the PKCS standards were not, in a significant sense, actual industry standards, despite the name. Some, but not all, have in recent years begun to move into 'standards track' processes with one or more of the standards organizations (notably, the IETF PKIX working group).
+This is a container format that can contain multiple embedded objects, e.g. multiple certificates. Usually protected/encrypted with a password. Can be used as a format for the Java key store. Can be used by Tomcat, but NOT by Apache.
+
+
+

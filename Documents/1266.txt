@@ -1,0 +1,50 @@
+OpenStreetMap
+OpenStreetMap (OSM) is a collaborative project to create a free editable map of the world. The maps are created using data from portable GPS devices, aerial photography and other free sources. Both rendered images and the vector dataset are available for download under a Creative Commons Attribution-ShareAlike 2.0 licence.[1] Registered users can upload GPS track logs and edit the vector data using the given editing tools. OpenStreetMap was inspired by sites such as Wikipedia — the map display features a prominent 'Edit' tab and a full revision history is maintained.
+
+OpenStreetMap (OSM) was founded in July 2004 by Steve Coast. In April 2006, a foundation was established with the aim of encouraging the growth, development and distribution of free geospatial data and providing geospatial data for anybody to use and share. In December 2006 Yahoo confirmed that OpenStreetMap could use their aerial photography as a backdrop for map production.[2]
+In April 2007 Automotive Navigation Data donated a complete road dataset for the Netherlands and trunk road data for India and China to the project[3] and by July 2007, when the first OSM international The State of the Map conference was held there were 9,000 registered users. Sponsors of the event included Google, Yahoo and Multimap. In August 2007 an independent project, OpenAerialMap, was launched, to hold a database of aerial photography available on open licensing[4] and in October 2007 OpenStreetMap completed the import of a US Census TIGER road dataset.[5] In December Oxford University became the first major organisation to use OpenStreetMap data on their main website.[6]
+In January 2008 functionality was made available to download map data into a GPS unit for use by cyclists.[7] In February 2008 a series of workshops were held in India.[8] In March two founders of OpenStreetMap announced that they have received venture capital funding of 2.4m euros for Cloud Made, a commercial company that will use OpenStreetMap data.[9]
+By August 2008, shortly after the second The State of the Map conference was held, there were over 50,000 registered users with over 5,000 active contributors.[10] In March 2009, 100,000 users were surpassed.[11]
+
+
+The initial map data was all built from scratch by volunteers performing systematic ground surveys using a handheld GPS unit and a notebook or a voice recorder, data which was then entered into the OpenStreetMap database from a computer.
+More recently the availability of aerial photography and other data sources from commercial and government sources has greatly increased the speed of this work and has allowed land-use data to be collected more accurately.
+When large datasets are available a technical team will manage the conversion and import of the data.
+
+Ground surveys are performed by a volunteer, on foot, bicycle or in a car, although a bicycle is the mode of choice for many volunteers mapping urban areas, using a GPS unit, and some combination of notebook, voice recorder and digital camera and questioning of passers-by. This data is then entered into the database. Some committed contributors are systematically mapping whole towns over a period of time. Mapping Parties are organised to bring a number of mappers together to map a particular area for an evening or a weekend to intensively map an area.
+In addition to structured surveys, a large number of smaller edits are made by contributors to correct errors or add features.
+
+Some government agencies have released official data on appropriate licences, much of this data has come from the United States, where the federal government cannot copyright such data.
+Various authorities have also made more local detailed aerial photography available on suitable licences through OpenAerialMap.
+The UK Ordnance Survey is legally a Trading Fund and as such is required to earn money from selling its data and is not open to contributing data to the project.[12] Consideration is however currently being given to changing the structure of the organisation to make its data more available.[13] In 2006 The Guardian launched a campaign 'Free our data' to argue to free up government data including mapping data[14]. The Government's Shareholder Executive will report on its latest review of the Trading Funds in the 2008 Pre-Budget Report, due in the autumn.
+Out-of-copyright maps can be good source of information about features which don't change frequently. Copyright periods vary, but in the UK 'Crown copyright' expires after 50 years and hence Ordnance Survey maps until the 1950s can legally be used. A complete set of UK 1 inch/mile maps from the late 1940s and early 1950s have been collected, scanned and are available online as a resource for contributors.
+
+Some commercial companies have donated data to the project on suitable licenses. Notably, Automotive Navigation Data (AND) who provided a complete road dataset for Netherlands and details of trunk roads in China and India.
+Yahoo! confirmed that OpenStreetMap was able to make use of their vertical aerial imagery and this photography is now available within the editing software as an overlay. Contributors can create their vector based maps as a derived work, released with a free and open license.[15]
+
+
+OpenStreetMap data is published using a Creative Commons Attribution-Share Alike 2.0 licence. A new licence is being prepared which is more suitable for a map dataset.[1]
+
+All data added to the project needs to have a license compatible with the Creative Commons Attribution-Share Alike license. This can include out of copyright information, public domain or other licenses. All contributors must register with the project and agree to provide data on a Creative Commons BY-SA 2.0 licence or determine that the licencing of the source data is suitable. Increasingly this involves examining licences for government data to establish if it they are compatible. Use of unfree data is an especially severe problem for a map, as the only way to prove that no data came from unfree sources would be to revert the whole area in question to before the addition of the questionable data.
+A subset of contributors have made their contributions available as public domain.[16]
+
+Software used in the production and presentation of OpenStreetMap data is available from many different projects and each may have their own licencing. The core software to manage the databases, user interaction and the API are available under a GNU General Public License.[17]
+
+OpenStreetMap data is available through an increasing number of sites and in different formats:
+
+Mapping is available online both on general mapping sites:
+
+Yahoo has started using OpenStreetMap data within its Flickr service for various cities around the world, including Baghdad, Beijing, Kabul, Sydney and Tokyo.[19][20][21].
+
+Map data is available for download in a variety of formats and for different geographical areas:
+
+
+
+
+
+
+OpenStreetMap uses a topological data structure.
+Up to version 0.4 of its protocol, an intermediate element between nodes and ways (segments) was also used.
+The ontology of map features (the meaning of tags) is maintained on a wiki.
+
+

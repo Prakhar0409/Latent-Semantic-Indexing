@@ -1,0 +1,19 @@
+Ludic fallacy
+The ludic fallacy is a term coined by Nassim Nicholas Taleb in his 2007 book The Black Swan. 'Ludic' is from the Latin ludus, meaning 'play'. It is summarized as "the misuse of games to model real-life situations".[1] Taleb characterizes the fallacy as mistaking the map (model) for the reality (see map-territory relation), an inductive side-effect of human cognition.
+It is a central argument in the book and a rebuttal of the predictive mathematical models used to predict the future – as well as an attack on the idea of applying naïve and simplified statistical models in complex domains. According to Taleb, statistics only work in some domains like casinos in which the odds are visible and defined. Nassim’s argument centres on the idea that predictive models are based on platonified forms, gravitating towards mathematical purity and failing to take some key ideas into account:
+
+
+One example given in the book is the following thought experiment. There are two people:
+A third party shows them a coin and explains that there is a 50/50 chance of the coin coming up heads or tails when it is flipped.
+The ludic fallacy here is to assume that in real life the rules from the purely hypothetical model (where Dr John is correct) apply. Would a reasonable person bet on black on a roulette table that has come up red 99 times in a row (especially as the reward for a correct guess are so low when compared with the probable odds that the game is fixed)?
+In classical terms, highly statistically significant (unlikely) events should make one question one's model assumptions. In Bayesian statistics, this can be modelled by using a prior distribution for one's assumptions on the fairness of the coin, then Bayesian inference to update this distribution.
+
+A man considers going to a job interview. The interviewee has already learned statistics and utility theory in college and performed well in the exams. Considering whether to take the interview, he tries to calculate the probability he will get the job versus the cost of the time spent.
+The young job seeker here forgets that real life is more complex than the theory of statistics. Even with a low probability of success, a really good job may be worth the effort of taking the interview. Will he enjoy the process of the interview? Will his interview technique improve regardless of whether he gets the job or not? What strategic value might he win or lose in the process? Even the statistics of the job business are non-linear. What other jobs could come the man's way by meeting the interviewer? Might there be a possibility of a very high pay-off in this company that he has not thought of?
+
+Any decision theory based on a fixed universe or model of possible outcomes ignores and minimizes the impact of events which are "outside model". For instance, a simple model of daily stock market returns may include extreme moves such as Black Monday (1987) but might not model the market breakdowns following the September 11 attacks. A fixed model considers the "known unknowns", but ignores the "unknown unknowns".
+
+The ludic fallacy is a specific case of the more general problem of Platonicity defined by Taleb as:
+
+
+

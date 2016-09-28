@@ -1,0 +1,14 @@
+DICT
+DICT is a dictionary network protocol created by the DICT Development Group. It is described by RFC 2229. Its goal is to surpass the Webster protocol and to allow clients to access more dictionaries during use. Dict servers and clients use TCP port 2628.
+
+
+Combined, they make up the Free Internet Lexicon and Encyclopedia.
+
+
+purchased, can easily be converted into DICT format
+
+
+StarDict is a desktop dictionary. It doesn't support the DICT protocol directly. Instead, it provides a converter, which would imply that you need to store data twice if you want to use it both with the DICT protocol and with StarDict.
+There are also programs that read the DICT file format directly. For example, S60Dict is a dictionary program for Symbian Series 60 that uses DICT dictionaries.
+
+

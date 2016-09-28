@@ -1,0 +1,16 @@
+Dataflow
+Dataflow is a term used in computing, and may have various shades of meaning. It is closely related to message passing.[citation needed]
+
+Dataflow is a software architecture based on the idea that changing the value of a variable should automatically force recalculation of the values of other variables.
+Dataflow programming embodies these principles, with spreadsheets perhaps the most widespread embodiment of dataflow. For example, in a spreadsheet you can specify a cell formula which depends on other cells; then when any of those cells is updated the first cell's value is automatically recalculated. It's possible for one change to initiate a whole sequence of changes, if one cell depends on another cell which depends on yet another cell, and so on.
+The dataflow technique is not restricted to recalculating numeric values, as done in spreadsheets. For example, dataflow can be used to redraw a picture in response to mouse movements, or to make a robot turn in response to a change in light level.
+One benefit of dataflow is that it can reduce the amount of coupling-related code in a program. For example, without dataflow, if a variable X depends on a variable Y, then whenever Y is changed X must be explicitly recalculated. This means that Y is coupled to X. Since X is also coupled to Y (because X's value depends on the Y's value), the program ends up with a cyclic dependency between the two variables. Programs can avoid this cycle by using an observer pattern, but only at the cost of introducing a non-trivial amount of code. Dataflow improves this situation by making the recalculation of X automatic, thereby eliminating the coupling from Y to X. Dataflow makes implicit a significant amount of computation that must be expressed explicitly in other programming paradigms.
+Dataflow is also sometimes referred to as reactive programming.
+There have been a few programming languages created specifically to support dataflow. In particular, many (if not most) visual programming languages have been based on the idea of dataflow.
+
+Hardware architectures for dataflow was a major topic in Computer architecture research in the 1970s and early 1980s. Jack Dennis of MIT pioneered the field of static dataflow architectures. Designs that use conventional memory addresses as data dependency tags are called static dataflow machines. These machines did not allow multiple instances of the same routines to be executed simultaneously because the simple tags could not differentiate between them. Designs that use Content-addressable memory are called dynamic dataflow machines by Arvind. They use tags in memory to facilitate parallelism.
+
+A dataflow network is a network of concurrently executing processes or automata that can communicate by sending data over channels (see message passing.)
+In Kahn process networks, named after Dr. Gilles Kahn, the processes are determinate. This implies that each determinate process computes a continuous function from input streams to output streams, and that a network of determinate processes is itself determinate, thus computing a continuous function. This implies that the behaviour of such networks can be described by a set of recursive equations, which can be solved using fixpoint theory. The movement and transformation of the data is represented by a series of shapes and lines.
+
+

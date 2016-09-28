@@ -1,0 +1,2 @@
+Jimi Hendrix;	Richard Pryor;	Oscar Peterson;	Hank Williams;	Ray Charles;	Tupac Shakur;	Serge Gainsbourg;	C. S. Lewis;	Thomas Merton;	
+Linear programming;	Cutting stock problem;	Knapsack problem;	Linear discriminant analysis;	Genetic algorithm;	Statistics;	Monte Carlo methods in finance;	Bellman equation;	Molecular dynamics;	

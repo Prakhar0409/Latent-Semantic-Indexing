@@ -1,0 +1,46 @@
+Battery electric vehicle
+The battery electric vehicle, or BEV, is a type of electric vehicle (EV) that uses chemical energy stored in rechargeable battery packs.
+As with other electric vehicles, BEVs use electric motors and motor controllers instead of internal combustion engines (ICEs) for propulsion.
+
+Vehicles using both electric motors and ICEs are examples of hybrid electric vehicles, and are not considered pure (or all) EVs because they operate in a charge-sustaining mode.
+All-electric and plug-in hybrids are off-vehicle charge capable (‚ÄúOVCC‚Äù or pluginable), which means having the capability to charge a battery from an off-vehicle electric energy source that cannot be connected or coupled to the vehicle in any manner while the vehicle is being driven [1].
+
+The concept of battery electric vehicles is to charge batteries on board vehicles for propulsion using the electric grid.
+The main advantages of battery electric vehicles are that:
+Battery electric cars are becoming more and more attractive with the advancement of new battery technology (Lithium Ion) that have higher power and energy density (i.e. greater possible acceleration and more range with less batteries) and higher oil prices.[2]
+BEVs include automobiles, light trucks, and neighborhood electric vehicles.
+
+At 2008 fuel prices, battery powered buses are more economical than diesel or gasoline powered buses. The additional cost of the batteries is made up for[citation needed] by the low operating cost in the first half of the typical million to two million mile (three million kilometer) life of the bus.
+Chattanooga, Tennessee operates nine free (no fares) electric buses, which have been in operation since 1992 and have carried 11.3 million passengers and covered a distance of 1.9 million miles. They were made locally by Advanced Vehicle Systems. Two of these buses were used for the 1996 Atlanta Olympics.[3][4]
+Wrightbus has a new a hybrid-electric driveline for the StreetCar RTV which has been developed in conjunction with the ISE Corporation of California and incorporates Siemens ELFA traction components and a Cummins ISL engine. The chassis is built to Wright Group specifications by Swiss trolleybus specialists Carosserie Hess and is powered by Valence Technology lithium phosphate batteries .
+Beginning in the summer of 2000, Hong Kong airport began operating a 16-passenger Mitsubishi Rosa electric shuttle bus, and in the fall of 2000, New York City began testing a 66 passenger battery powered school bus, an all electric version of the Blue-Bird TC2000.[5] A similar bus was operated in Napa Valley, California for 14 months ending in April, 2004.[6]
+The 2008 Beijing Olympics used a fleet of 50 electric buses, which have a range of 130†km (81†mi) with the air conditioning on. They use Lithium-ion batteries, and consume about 1†kWh/mile. The buses were designed by the Beijing Institute of Technology and built by the Jinghua Coach Co. Ltd.[7] The batteries are replaced with fully charged ones at the recharging station to allow 24 hour operation of the buses.[8]
+
+Thunder Sky Energy Group of Shenzhen, China (near Hong Kong) builds lithium-ion batteries used in submarines and has four models of electric buses, the ten passenger EV-6700 with a range of 260†km (160†mi), the TS-6100EV and TS-6110EV city buses, and the 43 passenger EV-2008 highway bus, which has a range of 300†km (190†mi). The batteries can be recharged in 1 hour or replaced in 5 minutes. The buses are also to be built in the United States and Finland.[9]
+
+Valence Technology has entered into a contract with The Tanfield Group Plc [10] to manufacture and supply Lithium Phosphate energy storage systems to power Tanfield‚Äôs all-electric commercial delivery vehicles. The Valence battery systems will be installed in vans and trucks produced by Tanfield‚Äôs UK-based trading division, Smith Electric Vehicles, the world‚Äôs largest manufacturer of electric vans and trucks.
+
+Tindo is an all-electric bus from Adelaide, Australia. The Tindo (aboriginal word for sun) is made by Designline International[11] in New Zealand and gets its electricity from a solar PV system on Adelaide's central bus station. Rides are free as part of Adelaide's public transport system.[12]
+
+The Port of Los Angeles and South Coast Air Quality Management District have demonstrated a short-range heavy-duty all electric truck capable of hauling a fully loaded 40-foot (12†m) cargo container. The current design is capable of pulling a 60,000†lb (27,000†kg) cargo container at speeds up to 40†mph (64†km/h) and has a range of between 30 and 60†miles (97†km). It gets 2 kWh per mile, compared to 5 miles per gallon for the hostler semi tractors it replaces. [13]
+
+A common example of the battery electric vehicle is the milk float. Since it makes many stops in delivering milk it is more practical to use an electric vehicle than an ICE, which would be idling much of the time; it also reduced noise in residential areas. For most of the 20th century, the majority of the world's battery electric road vehicles were British milk floats.[14]
+
+With a similar driving pattern of a delivery vehicle like the milk float above, garbage trucks are excellent candidates for electric drive. Most of their time is spent stopping, starting or idling. These activities are where internal combustion engines are their least efficient. In preparation for the 2008 Olympic Games, 3,000 of the internal combustion engine garbage trucks in Beijing were replaced with lithium ion polymer battery pack electric drive trucks.[15] The batteries were procured for about $3,300 each.[16]
+
+In early 2009, Phoenix Motorcars will be shipping a test fleet of their all-electric SUT (Sports Utility Truck) to Maui. One of the surviving electric vehicles from the late 1990s is the Chevy S-10 electric pickup truck. Many other vehicles from this era, such as the General Motors EV1 were recalled and destroyed. A newcomer is the Miles Electric Vehicles ZX40ST electric truck now available in the United States. Miles Electric Vehicles is based in Santa Monica, California.[17]
+
+
+
+
+
+
+
+Electric cars have traditionally used series wound DC motors, a form of brushed DC electric motor. More recent electric vehicles have made use of a variety of AC motor types, as these are simpler to build and have no brushes that can wear out. These are usually induction motors or brushless AC electric motors which use permanent magnets. There are several variations of the permanent magnet motor which offer simpler drive schemes and/or lower cost including the brushless DC electric motor.
+
+The motor controller regulates the power to the motor, supplying either variable pulse width DC or variable frequency variable amplitude AC, depending on the motor type, DC or AC.
+
+
+
+
+

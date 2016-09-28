@@ -1,0 +1,11 @@
+Document classification
+Document classification/categorization is a problem in information science. The task is to assign an electronic document to one or more categories, based on its contents. Document classification tasks can be divided into two sorts: supervised document classification where some external mechanism (such as human feedback) provides information on the correct classification for documents, and unsupervised document classification, where the classification must be done entirely without reference to external information. There is also a semi-supervised document classification, where parts of the documents are labeled by the external mechanism.
+
+Document classification techniques include:
+and approaches based on natural language processing.
+
+Classification techniques have been applied to spam filtering, a process which tries to discern E-mail spam messages from legitimate emails.
+
+
+Publications:
+Data sets:

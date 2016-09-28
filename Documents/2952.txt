@@ -1,0 +1,16 @@
+Wi-Fi Protected Setup
+Wi-Fi Protected Setup (WPS) is a standard for easy and secure establishment of a wireless home network, created by the Wi-Fi Alliance and officially launched on January 8, 2007.
+The goal of the WPS protocol is to simplify the process of configuring security on wireless networks, and so it was first named 'Wi-Fi Simple Config'. The protocol is meant to allow home users who know little of wireless security and may be intimidated by the available security options to configure Wi-Fi Protected Access, which is supported by all Wi-Fi certified devices.
+The standard achieves its goal by putting much emphasis into usability and security, and the concept is implemented through four usage models that enable a user to establish a home network. So, to add a new device to the Network the user can have up to the following four choices:
+The last two models are usually referred as Out-of-band methods as there is a transfer of information by another channel than the Wi-Fi channel itself.
+Note that only the first three models (PIN/PBC/NFC) are currently covered by the Wi-Fi Protected Setup Certification and there is so far no intention to certify the USB method.
+This page addresses the common scenario involving an Infrastructure Network. The support of ad hoc networks (IBSS) are not supported by WPS.
+
+The WPS protocol defines three types of devices in a network:
+The WPS standard defines three basic scenarios that involve these components:
+It should be noted that UPnP is regarded to only apply to a wired medium, while actually it applies to any interface that an IP connection can be set up on. Meaning that after manually setting up a wireless connection, the UPnP can be used over the wireless medium in the same manner as with the wired.
+
+The WPS protocol itself consists as a series of EAP message exchanges that is triggered by a user action and relies on an exchange of descriptive information that should precede that user's action.
+The descriptive information is transferred through a new IE that's added to the Beacon, Probe Response and optionally to the Probe Request and Association Request/Response messages. Other than purely informative TLVs, those IEs will also hold the possible, and the currently deployed, configuration methods of the device. The WPS IE, has a type field with a value of '221', and OUI of 00-50-F2-04. The Data part of the IE is constructed out of TLVs that describe the device and its capabilities.
+After the identification of the device's capabilities on both ends, a human trigger is to initiate the actual session of the protocol. The session consists of 8 messages, that are followed in the case of a successful session by a message to indicate the protocol is done. The exact stream of messages may change when configuring different kinds of devices (AP or STA) or using different physical media (wired or wireless).
+

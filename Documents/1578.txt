@@ -1,0 +1,5 @@
+Standard Industrial Classification
+The Standard Industrial Classification (abbreviated SIC) is a United States government system for classifying industries by a four-digit code. Established in 1937, it is being supplanted by the six-digit North American Industry Classification System, which was released in 1997; however certain government departments and agencies, such as the U.S. Securities and Exchange Commission (SEC), still use the SIC codes.
+The following table is from the SEC's site, which allows searching for companies by SIC code in its database of filings.[1] The acronym NEC stands for "not elsewhere classified."
+
+

@@ -1,0 +1,26 @@
+FCAPS
+FCAPS is the ISO Telecommunications Management Network model and framework for network management. FCAPS is an acronym for Fault, Configuration, Accounting, Performance, Security which are the management categories into which the ISO model defines network management tasks. In non-billing organizations Accounting is sometimes replaced with Administration.
+The comprehensive management of an organization's information technology (IT) infrastructure is a fundamental requirement. Employees and customers rely on IT services where availability and performance are mandated, and problems can be quickly identified and resolved. Mean time to repair (MTTR) must be as short as possible to avoid system downtimes where a loss of revenue or lives is possible.
+
+In the early 1980's the term FCAPS was introduced within the first Working Drafts (N1719) of ISO 10040, the Open Systems Interconnection (OSI) Systems Management Overview (SMO) standard. At that time the intention was to define five separate protocol standards, one for each functional area. Since initial experiences showed that these protocols would become very similar, the ISO working group responsible for the development of these protocols (ISO/TC97/SC16/WG4, later renamed into ISO-IEC/JTC1/SC21/WG4) decided to create a single protocol for all five areas instead. This protocol is called Common management information protocol (CMIP). In the 1990's the ITU-T, as part of their work on Telecommunications Management Network (TMN), further refined the FCAPS as part of the TMN recommendation on Management Functions (M.3400). The idea of FCAPS turned out to be very useful for teaching network management functions; most text books therefore start with a section that explains the FCAPS.
+
+A fault is an event which has a negative significance. The goal of fault management is to recognize, isolate, correct and log faults that occur in the network. Furthermore, it uses trend analysis to predict errors so that the network is always available. This can be established by monitoring different things for abnormal behavior.
+When a fault or event occurs, a network component will often send a notification to the network operator using a proprietary or open protocol such as SNMP, or at least write a message to its console for a console server to catch and log/page. This notification is supposed to trigger automatic, or manual activities. For example, the gathering of more data to identify the nature and severity of the problem or to bring backup equipment on-line.
+Fault logs are one input used to compile statistics to determine the provided service level of individual network elements, as well as sub-networks or the whole network. They are also used to determine apparently fragile network components which require further attention.
+The leading Fault Management systems are HP OpenView, IBM Tivoli Netcool, TTI Telecom Netrac, Clarity, Objective Systems Integrators NETeXPERT etc.. Fault Isolation tools like Delphi are also available which are basically used to isolate the fault in any telcom network.
+
+The goals of configuration management include:
+
+Accounting is often referred to as billing management. The goal is to gather usage statistics for users.
+Using the statistics the users can be billed and usage quota can be enforced.
+Examples:
+RADIUS, TACACS and Diameter are examples of protocols commonly used for accounting.
+For non-billed networks, "administration" replaces "accounting". The goals of administration are to administer the set of authorized users by establishing users, passwords, and permissions, and to administer the operations of the equipment such as by performing software backup and synchronization.
+
+Performance management enables the manager to prepare the network for the future, as well as to determine the efficiency of the current network, for example, in relation to the investments done to set it up. The network performance addresses the throughput, percentage utilization, error rates and response times areas.
+By collecting and analysing performance data, the network health can be monitored. Trends can indicate capacity or reliability issues before they become service affecting.
+Performance thresholds can be set in order to trigger an alarm. The alarm would be handled by the normal fault management process (see above). Alarms vary depending upon the severity.
+
+Security management is the process of controlling access to assets in the network. Data security can be achieved mainly with authentication and encryption. Authorization to it configured with OS and DBMS access control settings.
+
+

@@ -1,0 +1,20 @@
+Remote Desktop Protocol
+Remote Desktop Protocol (RDP) is a multi-channel protocol that allows a user to connect to a networked computer. Clients exist for most versions of Windows (including handheld versions), Linux/Unix, Mac OS X and other modern operating systems. The server listens by default on TCP port 3389.[1] Microsoft refers to the official RDP server software as Terminal Services or Remote Desktop Services. The official client software is referred to as either Remote Desktop Connection (RDC) or Terminal Services Client (TSC). Mac OS X's client is simply called Remote Desktop.
+
+The following features were introduced with the release of RDP 6.0 in 2006:
+
+By default, all Windows XP and Windows Vista editions include the Remote Desktop Connection (RDC) / Terminal Services client pre-installed, with RDC client version determined by the version of Windows release or service pack. The Terminal Services server is supported as an official feature on Windows Server 2008, Windows Server 2003, Windows Home Server, Windows XP Professional, Media Center, and Tablet PC editions, on Windows Fundamentals for Legacy PCs, and in Windows Vista Ultimate, Enterprise and Business editions. The latest version, 6.1, of the client is available in Windows Vista Service Pack 1, Windows XP Service Pack 3 and KB952155 for Windows XP SP2. [4]. Older versions of the client are also available for free download for Windows XP (pre-SP3), Windows 2000, Windows 9x, Windows NT 4.0 and Mac OS X.
+Aqua Connect became the first company to license and implement RDP server for the Mac OS X platform, thus allowing users to connect to the Mac OS X server with Microsoft's Remote Desktop Protocol.[5]
+xrdp is an open source implementation of the RDP server available for Unix-like operating systems.[6]
+rdesktop is an open source RDP client implementation for Unix-like operating systems. [7]
+uttsc is another RDP client and is a part of the Sun Ray Windows Connector package. [8]
+
+Based on the ITU T.share protocol (also known as T.128), the first version of RDP (called version 4.0) was introduced with Terminal Services in Windows NT 4.0 Server, Terminal Server Edition.
+Version 5.0, introduced with Windows 2000 Server, added support for a number of features, including printing to local printers, and aimed to improve network bandwidth usage.
+Version 5.1, introduced with Windows XP Professional, included support for 24-bit color and sound.
+Version 5.2, introduced with Windows Server 2003, included support for console mode connections, a session directory, and local resource mapping. It also introduces Transport Layer Security (TLS) 1.0 for server authentication, and to encrypt terminal server communications.[9]
+Version 6.0 was introduced with Windows Vista and incorporated support for connecting remotely to individual programs, Windows Presentation Foundation applications, multi-monitor and large desktop support, and support for TLS 1.0 connections. [10]
+Version 6.1 was released in February 2008 and is included with Windows Server 2008, as well as with Windows Vista Service Pack 1 and Windows XP Service Pack 3. In addition to changes related to how a remote administrator connects to the "console",[11] this version incorporates new functionality introduced in Windows Server 2008, such as a new Terminal Services Easy Print driver, a new client-side printer redirection system that makes the client's full print capabilities available to applications running on the server, without having to install print drivers on the server.[12]
+
+
+

@@ -1,0 +1,51 @@
+Quartz Composer
+Mac OS X v10.5 (Version 3.0)
+Quartz Composer is a node-based visual programming language provided as part of the Xcode development environment in Mac OS X v10.4 "Tiger" and Mac OS X v10.5 "Leopard" for processing and rendering graphical data.
+Quartz Composer uses OpenGL (including GLSL), Core Image, Core Video, JavaScript, and other technologies to build an API and a developer tool around a simple visual programming paradigm. Apple has embedded Quartz technologies deeply into the operating system. Compositions created in Quartz Composer can be played standalone in any QuickTime-aware application[1] (although only on Mac OS X 10.4 and later), as a system Screen Saver[2], from inside the Quartz Composer application, or can be embedded into a Cocoa or Carbon application via supplied user interface widgets. Because Quartz Composer makes extensive use of hardware acceleration and pixel shaders, it is recommended to have a recent graphics card with at least 32MB of VRAM[3].
+
+Quartz programming through Quartz Composer works by implementing and connecting patches[4]. Similar to routines in traditional programming languages, patches are base processing units. They execute and produce a result. For better performance, patch execution follows a lazy evaluation approach, meaning that patches are only executed when their output is needed. There are three color-coded types of patches, the pink renderers, green data processors, and blue external input patches that can receive and output mouse clicks, scrolls, and movements; MIDI and audio; keyboard; or other movements. A collection of patches can be melded into one, called a macro. Macros can be nested and their subroutines also edited.
+To control the order of rendering, each pink renderer is assigned a layer, indicated in its upper-right corner. Layers are rendered sequentially, lowest to highest. Renderers can be enabled or disabled, essentially turning on or off that particular layer. Turning off unused layers often results in better performance, since fewer upstream patches need to be evaluated.
+Some patches can have subpatches, which allows for global parameter changes to just the included subpatches. This is useful for lighting, 3D transformation, and GLSL shaders, among other things. Subpatch support is indicated by square corners on a patch, rather than the typical rounded corners.
+With Version 3.0, it became possible to turn compositions into Virtual Patches. These allow the user to reuse functionality without having to store duplicate copies in each composition. The Quartz Composer Editor allows the user to save a "flattened" copy (with the virtual patches fully expanded inside), for easy distribution.
+Network functionality was greatly improved with the release of Leopard. It became possible to transmit data and synchronize over a network interface, and it also added support for OSC transmission and reception.
+
+Also new in Version 3.0 was the possibility to write custom patch plugins, using an Xcode template, and the notion of a "safe-mode", where plugins and other unsafe patches fail to load. This prevents malicious compositions from performing dangerous or insecure operations. Custom patches using Apple's Xcode template are always considered unsafe.
+It was possible to develop custom patch plugins for Version 2.0, but the API was undocumented and private, and was never supported by Apple. Eventually templates were released to simplify this procedure[5].
+
+In the Quartz Composer editor, holding the option key while selecting "Preferences..." from the menu adds 3 additional tabs of options for the user to configure. These options include System settings, Editor settings, and QuickTime integration settings. Notable options include expanded tooltips, software rendering, and uncapped framerate rendering.
+
+Data inside QC can be one of the following types:
+
+Data can usually be converted to other types transparently. In Quartz Composer 3.0, the connections between patches change color to indicate conversions that are taking place. Yellow connections mean no conversion is taking place, Orange indicates a possible loss of data from conversion (Number to Index), and Red indicates a severe conversion; Image to Boolean, for example.
+
+Quartz Composer documents are called Compositions. Compositions are Binary Property Lists (Though XML versions are also supported) with a filename extension .qtz, and a com.apple.quartz-​composer-composition UTI[6]. Patches, their connections, and their input port states are saved in the composition file. Images can be stored inside a composition as well, making for self-contained compositions with embedded graphics. Movies, however, cannot be stored inside a composition.
+Compositions also store metadata such as composition author, copyright, and description. The user can also add arbitrary metadata items, if desired.
+A wide variety of image formats are supported, including JPEG, JPEG2000, GIF, PNG, TIFF, TGA, OpenEXR, BMP, ICO, PDF, PICT, ICNS, and some raw digital camera types[7].
+Version 3.0 added the ability to add annotations to areas of the composition, called notes. These notes parallel comments in other programming languages. Notes can be yellow, red, green, blue, or gray, and can overlap other notes.
+
+In Version 3.0, the concept of Composition Protocols was introduced. Protocols provide a template of required and optional inputs and outputs to qualify conforming compositions for various purposes. The following protocols are available by default:
+There is no officially supported way to add additional protocols to Quartz Composer. However, there are some undocumented methods that may make this possible in the future[8].
+
+In addition to protocols, compositions can also conform to different runtimes where Quartz Composer is available. In Leopard, there are runtimes for Tiger (32-bit), as well as 32-bit and 64-bit versions of the Leopard Quartz Composer runtime. The editor can also indicate used patches that are unsafe, or unavailable in Tiger to aid in making compatible compositions.
+
+A System-wide Composition Repository is available as of Version 3.0[9]. This allows applications to share and make use of common compositions for effects and processing. It is also possible for applications to query the repository for compositions that match certain criteria, such as protocol conformance.
+The Repository is spread across 3 file system locations:
+Adding compositions to the repository is as simple as adding the composition file to one of these locations.
+
+It became possible to compare compositions in Quartz Composer 3.0. This feature allows the user to compare inputs, rendered output, and graph appearance of any two compositions.
+
+Quartz Composer has many similarities to Max/MSP or Vvvv although its primary usage is for graphical rather than audio processing. The ability to construct interactive video compositions that react to audio or MIDI signals but which can be played from any QuickTime-aware application has caused a great deal of interest in Quartz Composer from VJs.
+
+A developer tool called Quartz Composer Visualizer was released with Quartz Composer 3.0 that allows compositions to be rendered across multiple screens on a single machine, or even spanned across several machines and displays.
+
+Support for some automator actions were added with the release of Leopard.
+
+Pierre-Olivier Latour originally developed the predecessor to Quartz Composer under the name PixelShox Studio[10].
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+List of integrals of trigonometric functions
+History
+Usage
+Functions
+Inverse functions
+Further reading
+List of identities
+Exact constants
+Generating trigonometric tables
+CORDIC
+Law of sines
+Law of cosines
+Law of tangents
+Pythagorean theorem
+The Trigonometric integral
+Trigonometric substitution
+Integrals of functions
+Derivatives of functions
+Integrals of inverses
+The following is a list of integrals (antiderivative functions) of trigonometric functions. For antiderivatives involving both exponential and trigonometric functions, see List of integrals of exponential functions. For a complete list of antiderivative functions, see lists of integrals. See also trigonometric integral.
+In all formulas the constant a is assumed to be nonzero, and C denotes the constant of integration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

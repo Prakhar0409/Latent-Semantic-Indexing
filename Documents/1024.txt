@@ -1,0 +1,29 @@
+Digital Multimedia Broadcasting
+Digital Multimedia Broadcasting (DMB) is a South Korean technology used in digital radio transmission system for sending multimedia (radio, TV, and datacasting) to mobile devices such as mobile phones. This technology, sometimes known as "mobile TV", is an offshoot of Digital Audio Broadcasting which was originally developed as a research project for the European Union (Eureka project number EU147). DMB was developed in South Korea under the national IT project, originally as the next generation digital technology to replace the FM radio.[1] The world's first official mobile TV service started in South Korea in May 2005, although trials were available much earlier. It can operate via satellite (S-DMB) or terrestrial (T-DMB) transmission. DMB is based on the Eureka 147 Digital Audio Broadcasting (DAB) standard, and has some similarities with the main competing mobile TV standard, DVB-H.[2]
+
+Like DAB, T-DMB is made for transmissions on radio frequency bands band III (VHF) and L (UHF), for terrestrial. Because the United States and Canada still allocate the first band for television broadcasting (VHF channels 7 to 13) and the United States reserves the L band for military applications, DMB is still unavailable in North America. Qualcomm's MediaFLO is a proprietary system used there instead. In Japan, 1seg is the standard, using ISDB.
+T-DMB uses MPEG-4 Part 10 (H.264) for the video and MPEG-4 Part 3 BSAC or HE-AAC V2 for the audio. The audio and video is encapsulated in MPEG-2 TS. The stream is RS encoding and the parity word is 16 bytes length. There is convolutional interleaving made on this stream, then the stream is broadcast in data stream mode on DAB. In order to diminish the channel effects such as fading and shadowing, DMB modem uses OFDM-DQPSK modulation. A single-chip T-DMB receiver is also provided by an MPEG-2 transport stream demultiplexer. DMB has several applicable devices such as mobile phone, portable TV, PDA and telematics devices for automobiles.
+T-DMB is an ETSI standard (TS 102 427 and TS 102 428). As of December 14, 2007, ITU formally approved T-DMB as the global standard, along with three other standards, like DVB-H, OneSeg, and MediaFLO.[3]
+
+Currently, DMB is being put into use in a number of countries, although mainly used in South Korea.
+
+In 2005, South Korea started S-DMB and T-DMB service on May 1 and December 1, respectively.[4][5]
+As of December 2006[update], T-DMB service in South Korea consists of, 7 TV channels, 12 radio channels, and 8 data channels. These are broadcast on six multiplexes in the VHF band on TV channels 8 and 12 (6MHz faster).
+As of April 2007, S-DMB service in South Korea consists of 15 TV channels and 19 radio channels and 3 data channels.
+S-DMB service in South Korea is provided on a subscription basis through TU Media and is accessible throughout the country. T-DMB service is provided free of charge, but access is limited in selected regions.
+Around one million receivers have been sold as of June 2006[update]. Receivers are integrated in car navigation systems, mobile phones, portable media players, laptop computers and digital cameras.
+South Korea has had Full T-DMB services including JSS (Jpeg Slide Show), DLS (Dynamic Label Segment), BWS, and TPEG since 2006.
+In Mid August 2007, Iriver, a multimedia and micro-technology company released their "NV", which utilizes South Korea's DMB service.
+In October 2007, South Korea added broadcasting channels "MBCNET" to the DMB channel. There are now eight DMB video channels in Seoul and six in other metropolitan cities.
+14 million DMB receivers were sold including T-DMB and S-DMB in South Korea, and 40% of the new cell phones have the capability to see DMB.[6]
+
+T-DMB works flawlessly in vehicles traveling up to 120 km/h. In tunnels or underground areas, both TV and Radio broadcast is still available, though DMB may skip occasionally. Fortunately, the broadcast recovers quickly.
+
+Some T-DMB trials are currently planned or available around Europe and other countries:
+
+
+
+
+
+Related websites
+

@@ -1,0 +1,8 @@
+Faceted classification
+A faceted classification system allows the assignment of multiple classifications to an object, enabling the classifications to be ordered in multiple ways, rather than in a single, pre-determined, taxonomic order. A facet comprises "clearly defined, mutually exclusive, and collectively exhaustive aspects, properties or characteristics of a class or specific subject". [1] For example, a collection of books might be classified using an author facet, a subject facet, a date facet, etc.
+Faceted classification is used in faceted search systems that enable a user to navigate information along multiple paths corresponding to different orderings of the facets. This contrasts with traditional taxonomies in which the hierarchy of categories is fixed and unchanging.
+The Colon classification developed by S. R. Ranganathan is an example of faceted classification applied to the physical world, specifically for the purpose of organizing library materials. In the Colon classification system, a book is assigned a set of values from independent facets. It differs from traditional library classification schemas like the Dewey Decimal System and Library of Congress classification system, in which each document has a unique assignment in a single, hierarchically organized classification system. [2]
+Faceted classification systems are also distinct from folksonomies or other tagging systems that do not break out the tags into independent facets.
+
+
+

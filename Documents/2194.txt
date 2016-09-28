@@ -1,0 +1,25 @@
+6LoWPAN
+6lowpan is an acronym of IPv6 over Low power Wireless Personal Area Networks. 6lowpan is the name of the working group in the internet area of IETF. The 6lowpan group aimed at defining header compression mechanisms that allow IPv6 packets to be sent to and received from over IEEE 802.15-based networks. IPv4 and IPv6 are the work horses for data delivery for local-area networks, metropolitan area networks, and wide-area networks such as the Internet. Likewise, IEEE 802.15.4 devices provide sensing communication-ability in the wireless domain. The inherent natures of the two networks though, is different.
+The base specification developed by the 6lowpan IETF group is RFC 4944. The problem statement document is RFC 4919.
+
+The target for IP networking for low-power radio communication are the applications that need wireless internet connectivity at lower data rates for devices with very limited form factor. Examples could include, but are not limited to: automation and entertainment applications in home, office and factory environments. Although such applications can be rendered in an autonomous fashion, providing internet connectivity can let the designers offer the same services with untethered value-addition. The header compression mechanisms standardized in RFC4944 can be used to provide header compression of IPv6 packets over such networks.
+
+As with all link-layer mappings of IP, RFC4944 provide a number of functions. Beyond the usual differences between L2 and L3 networks, mapping from the IPv6 network to the IEEE802.15.4 network poses additional design challenges (see RFC 4919 for an overview).
+
+IPv6 requires the maximum transmission unit (MTU) to be at least 1280 Bytes. In contrast, IEEE802.15.4's standard packet size is 127 octets. A maximum frame overhead of 25 octets spares 102 octets at the media access control layer. An optional but highly recommended security feature at the link layer poses an additional overhead. For example, 21 octets are consumed for AES-CCM-128 leaving only 81 octets for upper layers.
+
+IPv6 nodes are assigned 128 bit IP addresses in a hierarchical manner, through an arbitrary length network prefix. IEEE 802.15.4 devices may use either of IEEE 64 bit extended addresses or (after an association event), 16 bit addresses that are unique within a PAN. There is also a PAN-ID for a group of physically collocated IEEE802.15.4 devices.
+
+IEEE802.15.4 devices are intentionally constrained in form factor to reduce costs. On the other hand, wired nodes in the IP domain are usually connected to sources of infinite power supply.
+
+IPv6 nodes are geared towards attaining high speeds. Algorithms and protocols implemented at the higher layers such as TCP kernel of the TCP/IP are optimized to handle typical network problems such as congestion. In IEEE802.15.4-compliant devices, energy conservation and code-size optimization remain at the top of the agenda.
+
+An adaptation mechanism to allow interoperability between IPv6 domain and the IEEE 802.15.4 can best be viewed as a layer problem. Identifying the functionality of this layer and defining newer packet formats, if needed, is an enticing research area. RFC 4944 proposes an adaptation layer to allow the transmission of IPv6 datagrams over IEEE 802.15.4 networks.
+
+The management of addresses for devices that communicate across the two dissimilar domains of IPv6 and IEEE802.15.4 is cumbersome, if not exhaustingly complex.
+
+Routing per se is a two phased problem that is being considered for low-power IP networking:
+
+Since IP-enabled devices may require the formation of ad hoc networks, the current state of neighboring devices and the services hosted by such devices will need to be known. IPv6 neighbour discovery extensions is an internet draft proposed as a contribution in this area.
+
+

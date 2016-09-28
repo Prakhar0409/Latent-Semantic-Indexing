@@ -1,0 +1,6 @@
+Estimation in software engineering
+The ability to accurately estimate the time and/or cost taken for a project to come in to its successful conclusion is a serious problem for software engineers. The use of a repeatable, clearly defined and well understood software development process has, in recent years, shown itself to be the most effective method of gaining useful historical data that can be used for statistical estimation. In particular, the act of sampling more frequently, coupled with the loosening of constraints between parts of a project, has allowed more accurate estimation and more rapid development times.
+
+Popular methods for estimation in software engineering include:
+
+

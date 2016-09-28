@@ -1,0 +1,23 @@
+Thesaurus
+A thesaurus is a work that contains synonyms and sometimes antonyms, in contrast to a dictionary, which contains definitions and pronunciations.
+In antiquity, Philo of Byblos authored the first text we would now call a thesaurus. In Sanskrit, the Amarakosha is a thesaurus in verse form, written in the 4th century. The first example of the modern genre, Roget's Thesaurus, was compiled in 1805 by Peter Mark Roget, and published in 1852. Entries in Roget's Thesaurus are listed conceptually rather than alphabetically.
+Although including synonyms, a thesaurus should not be taken as a complete list of all the synonyms for a particular word. The entries are also designed for drawing distinctions between similar words and assisting in choosing exactly the right word. Unlike a dictionary, a thesaurus entry does not define words.
+In Information Science, Library Science, and Information Technology, specialized thesauri are designed for information retrieval. They are a type of controlled vocabulary, for indexing or tagging purposes. Such a thesaurus can be used as the basis of an index for online material. The Art and Architecture Thesaurus, for example, is used to index the Canadian national database of museums, Artifacts Canada, held by the Canadian Heritage Information Network (CHIN).
+Information retrieval thesauri are formally organized so that existing relationships between concepts are made explicit. As a result, they are more complex than simpler controlled vocabularies such as authority lists and synonym rings. Each term is placed in context, allowing a user to distinguish between "bureau" the office and "bureau" the furniture. Following international standards, they are generally arranged hierarchically by themes, topics or facets. Unlike a literary thesaurus, these specialized thesauri typically focus on one discipline, subject or field of study.
+In information technology, a thesaurus represents a database or list of semantically orthogonal topical search keys. In the field of Artificial Intelligence, a thesaurus may sometimes be referred to as an ontology.
+
+The word "thesaurus" is derived from 16th-century New Latin, in turn from Latin thesaurus, from ancient Greek θησαυρός thesauros, meaning "storehouse" or "treasury" (and thus the medieval rank of thesaurer was a synonym for treasurer). This meaning has been largely supplanted by Roget's usage of the term.
+
+Thesauri for information retrieval are typically constructed by information specialists, and have their own unique vocabulary defining different kinds of terms and relationships:
+Terms are the basic semantic units for conveying concepts. They are usually single-word nouns, since nouns are the most concrete part of speech. Verbs can be converted to nouns – "cleans" to "cleaning", "reads" to "reading", and so on. Adjectives and adverbs, however, seldom convey any meaning useful for indexing. When a term is ambiguous, a “scope note” can be added to ensure consistency, and give direction on how to interpret the term. Not every term needs a scope note, but their presence is of considerable help in using a thesaurus correctly and reaching a correct understanding of the given field of knowledge.
+"Term relationships" are links between terms. These relationships can be divided into three types: hierarchical, equivalency or associative.
+
+
+
+The ANSI/NISO Z39.19 Standard of 2005 defines guidelines and conventions for the format, construction, testing, maintenance, and management of monolingual controlled vocabularies including lists, synonym rings, taxonomies, and thesauri.[1]
+For multilingual vocabularies, the ISO 5964 Guidelines for the establishment and development of multilingual thesauri can be applied.
+Thesaurus Construction and Use: a practical manual. Jean Aitchison, Allan Gilchrist and David Bawden. London and New York: Europa Publications (2000).
+
+
+
+

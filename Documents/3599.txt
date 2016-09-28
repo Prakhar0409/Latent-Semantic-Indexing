@@ -1,0 +1,31 @@
+XUL
+In computer programming, XUL (pronounced zool ([zu:l])), the XML User Interface Language, is an XML user interface markup language developed by the Mozilla project which operates in Mozilla cross-platform applications such as Firefox and Flock. The Mozilla Gecko layout engine provides a feature rich implementation of XUL used in the Firefox Browser.[1]
+
+XUL relies on multiple existing web standards and technologies, including CSS, JavaScript, and DOM. Such reliance makes XUL relatively easy to learn for people with a background in web-programming and design.
+XUL has no formal specification and does not inter-operate with non-Gecko implementations. However, it uses an open source implementation of Gecko, tri-licensed under the GPL, LGPL, and MPL.[2]
+Mozilla provides experimental XULRunner builds to let developers build their applications on top of the Mozilla application framework and XUL in particular.
+XUL provides a portable definition for common widgets allowing them to be moved easily to any platform on which Mozilla applications run.[3]
+
+Programmers typically define a XUL interface as three discrete sets of components:
+
+XUL defines a wide range of elements, which roughly belong to the following types:
+One can use elements from other applications of XML within XUL documents, such as XHTML, SVG, and MathML.
+Mozilla added some common widgets — <scale/> (sometimes called "slider"), <textbox type="number"/> (spinbox), time and date pickers — during the Gecko 1.9 development-cycle.[4]
+
+While XUL serves primarily for creating the Mozilla applications and their extensions, it may also feature in web-applications transferred over HTTP. The Mozilla Amazon Browser, a former XUL application of this type and well-known in its day[5], provided a rich interface for searching books at Amazon.com.
+However, many of the powerful features of Mozilla such as privileged XPCOM objects remain unavailable to unprivileged XUL documents unless the script has a digital signature, and unless the user obtains grants of certain privileges to the application. Such documents also suffer from various limitations of the browser, including the inability to load remote XUL, DTD, and RDF documents.
+As Gecko provides the only full implementation of XUL, such applications remain inaccessible to users of browsers not based on Mozilla.
+The ActiveState Komodo IDE uses XUL as well as the recently[update]-announced Open Komodo Project.
+The Songbird music-player and Miro video-player both use built-in XUL.
+The Cyclone3 CMS use XUL as Mozilla Firefox addon.
+The developers of the Celtx media pre-production application used XUL.
+Mozilla-programmers sometimes refer to XUL applications running locally as "chrome".[6]
+
+The XUL name references the film Ghostbusters (1984), in which the ghost of an ancient Sumerian deity called Zuul possesses the character Dana Barrett (played by Sigourney Weaver) and declares, "There is no Dana, only Zuul". Since XUL, unusually, uses XML to define an interface rather than a document, its developers adopted the slogan: "There is no data, there is only XUL". Hence the XML namespace URI at the beginning of every XUL document:
+When viewed with a XUL-capable application, the document pointed-to displays the slogan in large letters in the center of the screen (similar to the image here).
+"Keymaster" and "gatekeeper" also refer to the same film plot-line. Other references to Ghostbusters also occur within Mozilla products: for instance, the JavaScript has a debugger component called Venkman, after one of the main characters in the film.
+
+This example shows 3 buttons stacked on top of each other in a vertical box container:[7]
+
+
+

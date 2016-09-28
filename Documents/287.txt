@@ -1,0 +1,32 @@
+Social cognition
+History of psychology
+Branches of psychology
+Abnormal Â· Biological
+Cognitive Â· Developmental
+Experimental Â· Evolutionary
+Mathematical Â· Neuropsychology
+Personality Â· Positive
+Psychophysics Â· Social
+Transpersonal
+Clinical Â· Educational
+Forensic Â· Health
+Industrial and organizational
+School Â· Sport
+Outline Â· Publications
+Topics Â· Therapies
+Social cognition is the study of how people process social information, especially its encoding, storage, retrieval, and application to social situations. Social cognitionâ€™s focus on information processing has many affinities with its sister discipline, cognitive psychology. Social cognitive neuroscience is the investigation of the biological basis of social cognition, that is to say, processes which involve interaction with members of the same species.[1][2][3]
+
+
+Social cognition came to prominence with the rise of cognitive psychology in the late 1960s and early 1970s and is now the dominant model and approach in mainstream social psychology. It is very likely that social psychology was always a lot more cognitive than mainstream psychology to begin with, as it traditionally discussed internal mental states such as beliefs and desires when mainstream psychology was dominated by behaviorism and rejected them as illusory.[4] A parallel paradigm has arisen in the study of action understanding, termed motor cognition. Motor cognition is concerned with understanding the representation of actions and intentions and the associated process.[5]
+
+Cognitive representations of social objects are referred to as schemas. These schemas are a mental structure that represents some aspect of the world. They are organized in memory in an associative network. In these associative networks, similar schemas are clustered together. When a particular schema is activated related schemas may be activated as well. Schema activation may also increase the accessibility of related schemas in the associative network. When a schema is more accessible this means it can more quickly be activated and used in a particular situation. When related schemas are activated, inferences beyond the information given in a particular social situation may influence thinking and social behavior, regardless of whether those inferences are accurate or not. Lastly, when a schema is activated a person may or may not be aware of it.
+Two processes that increase the accessibility of schemas are salience and priming. Salience is the degree to which a particular social object stands out relative to other social objects in a situation. The higher the salience of an object the more likely that schemas for that object will be made accessible. For example, if there is one female in a group of seven males, female gender schemas may be more accessible and influence the groupâ€™s thinking and behavior toward the female group member. Priming refers to any experiences immediately prior to a situation that caused a schema to be more accessible. For example watching a scary movie at a theatre late at night might increase the accessibility of frightening schemas that affect a personâ€™s perception of shadows and background noises as potential threats.
+Social cognition researchers are also interested in how new information is integrated into pre-established schemas, especially when that information is contrary with those pre-established schemas. Pre-established schemas tend to guide attention to new information. People selectively attend to information that is consistent with the schema and ignore information that is inconsistent. This is referred to as a confirmation bias. Sometimes inconsistent information is sub-categorized and stored away as a special case, leaving the original schema intact without any alterations. This is referred to as subtyping.
+Social cognition researchers are also interested in studying the regulation of activated schemas. It is believed that the situational activation of schemas is automatic, meaning that it is outside the control of the individual. In many situations however, the schematic information that has been activated may be in conflict with the social norms of situation, in which case an individual is motivated to inhibit the influence of the schematic information on their thinking and social behavior. Whether a person will successfully regulate the application of the activated schemas is dependent on individual differences in self-regulatory ability and the presence of situational impairments to executive control. High self-regulatory ability and the lack of situational impairments on executive functioning increase the likelihood that individuals will successfully inhibit the influence of automatically activated schemas on their thinking and social behavior. However, when people stop suppressing the influence of the unwanted thoughts, a rebound effect can occur where the thought becomes hyper-accessible.
+
+Early interest in the relationship between brain function and social cognition includes the case of Phineas Gage, whose social behavior was reported to have changed radically after a mining accident which damaged his frontal lobes. More recent neuropsychological studies have shown that brain injury disrupts social cognitive processes. For example, damage to the frontal lobes can affect emotional responses to social stimuli[6] [7] [8] , performance on social reasoning tasks [9] and performance on Theory of Mind tasks [10][11]. In the temporal lobe damage to the fusiform gyrus can lead to the inability to recognize faces.
+People with psychological disorders such as autism, Williams syndrome, Antisocial Personality Disorder, Fragile X and Turner's syndrome[12] show differences in social behavior compared to their unaffected peers. However, whether social cognition is underpinned by domain specific neural mechanisms is still an open issue.[13]
+There is now an expanding research field examining how such conditions may bias cognitive processes involved in social interaction, or conversely, how such biases may lead to the symptoms associated with the condition. It is also becoming clear that some aspects of psychological processes that promote social behavior (such as face recognition) may be innate. Studies have shown that newborn babies, younger than one hour old can selectively recognize and respond to faces.
+
+
+

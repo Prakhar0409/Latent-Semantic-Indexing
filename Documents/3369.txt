@@ -1,0 +1,90 @@
+iBook
+The iBook is a line of laptop computers that was developed and sold by Apple Inc. between 1999 and 2006. It was targeted at the consumer and education markets, with fewer features and lower prices than the PowerBook. Three distinct designs of the iBook were introduced during its lifetime. The first design, known as the "Clamshell", was a significant departure from portable computer designs at the time, due to its shape, bright colors, inclusion of a handle, and support for wireless networking. A second line which followed two years later abandoned the original form-factor in favor of a more traditional rectangular design, and employing translucent and white polycarbonate. The third design, the iBook G4, was introduced in October 2003 and moved away from translucent elements and adopted a slot-loading drive.
+Apple replaced the iBook line with the MacBook in May 2006 after replacing the PowerBook line with the MacBook Pro in January of the same year.
+
+In the late 1990s Apple was in the midst of trimming its product line from the sometimes-bewildering variety of intersecting Performa, Quadra, LC, Power Macintosh and Centris models to a simplified "four box" strategy: desktop and portable computers, each in both consumer and professional models. Three boxes of this strategy were already in place: The newly-introduced iMac was the consumer desktop, the Blue and White G3 filled the professional desktop box, and the PowerBook line served as the professional portable line. This left only the consumer portable space to be filled in, leading to much rumor on the Internet as to its likely design and features. Putting an end to the speculation, Steve Jobs placed the last piece of the puzzle, and the iBook G3 was unveiled during the keynote presentation of Macworld Conference & Expo, New York City on July 21, 1999. The design was influenced by Apple's consumer desktop, the iMac, with a large distinctive shape, translucent clear and colored plastics. Its marketing slogan was "iMac to go".[1]
+The iBook G3 design catered to children and students. A carrying handle was built into the hinge. Apple demonstrated Phil Schiller, Apple's VP of Marketing, holding the iBook G3 while jumping off a height (onto cushions) to demonstrate its wireless capabilities. Like the iMac, the iBook G3 used a PowerPC G3 CPU, and included no legacy Apple interfaces. USB, Ethernet, modem ports and an optical drive were standard. The ports were placed uncovered along the side, as a cover was thought to be fragile. Similarly, there were no latches. The bottom surface had additional power connectors that allowed multiple iBook G3s to be easily charged on a custom-made rack. The iBook G3 was the first Mac to use Apple's new "Unified Motherboard Architecture", which reduced the parts count (condensing all of the machine's core features into two chips) and added AGP and Ultra DMA support.
+The first iBook G3 was the first mainstream computer ever designed and sold with integrated wireless networking. The display bezel contained the wireless antenna, which attached to an optional internal wireless card. Lucent helped in creating this wireless capability and in establishing the industry standard. Apple released the AirPort Wireless Base Station at the same time.
+There was heated debate over many things such as the aesthetics, features, weight, performance, and pricing. The iBook G3 was heftier than the PowerBook of the time, with lower specifications as suited its consumer role. Its rounded case design provided good impact protection, but made the computer bulkier at a time when other laptops such as the original PowerBook G4 were getting drastically more compact. Standard features like PC card slots were absent, as were long rumoured features like touch-screens, and an ultra-long battery life. The iBook was labelled "toilet seat", among other things, due to the distinctive design. Nevertheless, this same distinctive design made the iBook G3 visible in movies and television shows.
+The iBook G3 was a commercial success. The line continually received processor, memory, hard disk upgrades, and new colors. FireWire and video out were later added. It is not recommended to do so but has been upgraded to 1.0 GB of RAM.
+
+The original iBook G3 design was discontinued in May 2001, in favor of the new "Dual USB" iBooks.
+
+The original iBook's only customer-serviceable parts were the memory (RAM) and AirPort card, accessed via two slots under the easily-removable keyboard. No other modifications could be performed in warranty, and no PCMCIA port existed to provide additional expansion capabilities. Complicated procedures are required (such as removing nearly 40 screws) in order to access any internal components such as the hard disk or the optical drive. Some die-hard fanatics have even transplanted a 1024Ã—768 LCD from a more recent white iBook into a clamshell iBook.[2]
+Most iBooks shipped with Mac OS 8.6 or 9.0. Support for these iBooks is built into Mac OS X v10.0 through v10.3.9. Mac OS X v10.4 "Tiger" requires a Firewire port, essentially restricting it to the late-model iBook G3 FireWire/SE (366/466 MHz), although using third-party software such as XPostFacto, one could potentially install version 10.4 on the clamshell iBook.
+
+The next-generation iBook G3 debuted at a press conference in Cupertino, California on May 1, 2001. The machine had been totally redesigned from scratch, also halting the use of rubber on the case. This won the coveted award of most reliable computer in 2002. Bold colors and the radical form-factor were abandoned for a white and slim-line polycarbonate shell, a design which earned Apple accolades from the computing industry. This design of iBook G3 became known colloquially as "Snow". The handle was removed, as was the latchless design. An L-shaped hinge reduced screen height, a feature Apple adopted in all its future portables.
+With the iBook G3, Apple began its use of translucent and white polycarbonate in most of its consumer machines such as the iMac and the eMac. In contrast, most of its professional products used an anodized aluminum finish. (The Mac mini uses both.)
+The headphone jack on the iBook G3 with dual USB functions as an audio/video output when connected via the Apple AV Cable for iBook.
+
+
+A PowerPC G4 chip, slot-loading optical drives and a solid white case and keyboard were added on October 23, 2003â€”finally ending Appleâ€™s use of the PowerPC G3 chip. The iBook G4 is notable for lacking the translucent case finish (although later revisions of the G3-based iBook also lacked this), translucent keyboard, magnesium chassis and palm rests, and magnesium display hinge (replaced with a plastic part) of most models of the former iBook G3. A slot-loading drive was also introduced.The Loading Drive allowed you to slide in a CD or a DVD without opening a Disk tray
+
+
+The iBook keyboard lifts up allowing installation of the AirPort (wireless) card and additional memory. This gives the keyboard a "spongy" effect, especially in PowerPC G3 models with the translucent keyboard. The "sponginess" was reduced in the later PowerPC G4 models.
+However, accessing the hard disk drive is a complex and time-consuming procedure involving partial disassembly of the unit and the removal of over 20 screws, of many different types and length.
+Installing memory in the iBook G4 involves removing the keyboard, Airport card and opening the RAM shield with a Phillips 00 screwdriver. While some of the earlier models (e.g., 800 MHz and 933 MHz) have a specified 640 MB RAM limit, it may be possible to have a total of 1.5 GB of RAM installed (512 MB built-in, plus a 1 GB SO-DIMM ) or 1.25 GB in the earlier models with 256 Mb of ram soldered to the logic board.
+
+As part of Apple's transition to Intel hardware, the consumer-targeted iBook line was replaced by the MacBook. New features include Intel dual-core processors and an iSight camera. The MacBook was also the first consumer portable from Apple to come in both white and black models. The models introduced in October 2008 were completely redesigned, featuring an aluminum unibody enclosure, much like the MacBook Air introduced in January.
+
+In late November 2003, a number of iBook G3 users started to report a display problem with their laptops. In December 2003, a group of users headed by Michael Johnson at blackcider.com, and Bill Owen at eyestir.com sought to file a class action suit against Apple. In January 2004, in a response to the widely publicised display defect, Apple initiated the "iBook Logic Board Repair Extension Program", which covers any expense of repairing affected iBooks for three years.[3][4]
+Not more than a year after the introduction of the iBook G4 model, it appeared that the iBook G4 suffered from a similar display problem as the iBook G3. However, the Apple "iBook Logic Board Repair Extension Program" did not apply to these iBook G4 models, thereby abandoning a considerable amount of customers with costly repairs, or written-off iBooks. New class action lawsuits have been submitted December 2006.[5] One discussion forum, guessing that some of the iBook problem was caused by the GPU losing contact, found that placing a shim between the plastic casing and the GPU solved the problemâ€”and that Apple was using this solution also (the video can actually even be reactivated temporarily by squeezing the machine midway between the trackpad and the left of case). For a detailed explanation of the technique for iBook G4 models, see this guide; for the iBook G3, see this guide. The best fix for this problem on the iBook G3 is to place a 50 cent euro coin on top of the thermal pad of the GPU. The coin is made from a copper alloy which will keep the thermal pad conducting heat to the metallic bottom cover while pressing the GPU against the motherboard. See this post for pictures using a different coin.
+On May 2, 2007, the Danish Consumer Board published an extensive report[6][7] made by an external party concerning the Apple iBook G4 logic board issue. Also a press release[8] was made, referring to the global consequences this might or will have for possible guarantee claims.
+The pre-1 GHz G4 models also suffered from the dead video problem, however it was not caused by the GPU separating from the motherboard, but rather a sub-processor chip found on the underside of the iBook G4, that separates after usage (heat expansion and contraction).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

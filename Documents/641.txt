@@ -1,0 +1,22 @@
+Intel APIC Architecture
+The Intel APIC Architecture is a system of Advanced Programmable Interrupt Controllers (APICs) designed by Intel for use in Symmetric Multi-Processor (SMP) computer systems. It was originally implemented by the Intel 82093AA and 82489DX, and is found in most x86 SMP motherboards. It is one of several attempts to solve interrupt routing efficiency issues in multiprocessor computer systems.
+
+There are two components in the Intel APIC system, the Local APIC (LAPIC) and the I/O APIC. The LAPIC is integrated into each CPU in the system, and the I/O APIC is used throughout the system's peripheral buses. There is typically one I/O APIC for each peripheral bus in the system. In original system designs, LAPICs and I/O APICs were connected by a dedicated APIC bus. Newer systems use the system bus for communication between all APIC components.
+In systems containing an 8259 PIC, the 8259 may physically be connected to the LAPIC in the system's bootstrap processor (BSP), or to one of the system's I/O APICs, or both. Logically, however, the 8259 is only connected once at any given time.
+
+LAPICs manage all external interrupts for the processor that it is part of. In addition, it is able to accept and generate inter-processor interrupts (IPIs) between LAPICs. LAPICs may support up to 224 usable IRQ vectors from an I/O APIC. Vectors numbers 0 to 31, out of 0 to 255, are reserved for exception handling by x86 processors.
+
+I/O APICs contain a redirection table, which is used to route the interrupts it receives from peripheral buses to one or more Local APICs.
+
+
+There are a number of known bugs in implementations of APIC systems, especially with concern to how the 8259 is connected.
+There are defective BIOSes which do not set up interrupt routing properly. This includes the errors in the implementation of ACPI tables and Intel Multiprocessor Specification tables.
+
+It can be a cause of system failure, as some versions of some operating systems do not support it properly. If this is the case, disabling I/O APIC may cure the problem. For Linux, try the 'noapic nolapic' kernel parameters; for FreeBSD, the 'hint.apic.0.disabled' kernel environment variable; For NetBSD, drop into userconf ("boot -c" from the boot prompt), then use "disable ioapic" and "exit" to continue the boot process.
+In NetBSD with nforce chipsets from Nvidia, having IOAPIC support enabled in the kernel can cause "nfe0: watchdog timeout" errors.[1]
+In Linux, problems with I/O APIC are one of several causes of error messages concerning "spurious 8259A interrupt: IRQ7.". It is also possible that I/O APIC causes problems with network interfaces based on via-rhine driver, causing a transmission time out. Uniprocessor kernels with APIC enabled can cause spurious interrupts to be generated.
+
+More information on the Intel APIC Architecture can be found in the IA-32 Intel Architecture Software Developer’s Manual, Volume 3A: System Programming Guide, Part 1, freely available on the Intel website.
+
+
+

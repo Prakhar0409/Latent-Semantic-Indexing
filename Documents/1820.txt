@@ -1,0 +1,56 @@
+O'Reilly Media
+O'Reilly Media (formerly O'Reilly & Associates) is an American media company established by Tim O'Reilly that publishes books and web sites and produces conferences on computer technology topics. Their distinctive brand features a woodcut of an animal on many of their book covers.
+
+The company began in 1978 as a private consulting firm doing technical writing, based in the Cambridge, Massachusetts area. In 1984, it began to retain publishing rights on manuals created for Unix vendors. A few 70-page "Nutshell Handbooks" were well-received, but the focus remained on the consulting business until in 1988, when the company was practically mobbed at a conference for its preliminary Xlib manuals, an event which indicated there was an under-served audience for their kind of books[citation needed].
+In 1992, when there were only 200 web sites, O'Reilly Media published the first book about the web[citation needed], devoting a whole chapter to it, in Ed Krol's groundbreaking Whole Internet User's Guide and Catalog (1992). O'Reilly Media also created the first web portal (and the first Internet site to do advertising), the Global Network Navigator, or GNN, in 1993. GNN was sold to AOL in 1995 in one of the first big transactions of the dot com boom.
+In 1997, Programming Perl was one of the top 100 books in any category[citation needed] at Borders during all of 1996 despite a lack of mainstream computer industry recognition. O'Reilly launched a Perl Conference to raise the profile of Perl. Many of the company's other software bestsellers were also on topics that were off the radar of the commercial software industry. So in 1998, O'Reilly invited many of the leaders of these software projects to a meeting. Originally called the freeware summit, the meeting became known as the Open Source Summit because it was at this gathering that the group formally got behind a new term to tell their combined story. The O'Reilly Open Source Convention (which includes the Perl conference) is now one of O'Reilly's flagship events. Other key events include the Emerging Technology Conference and FOO Camp.
+The company describes itself as "thought by many to be the best computer book publisher in the world," and on many topics, computer programmers consider an O'Reilly title to be the definitive book on the topic[citation needed]. While many think of O'Reilly in terms of their popular guides that feature an animal woodcut design on the cover, this is only one of several lines that they publish.
+Besides publishing, the company hosts many annual conferences, and provides online services for the open source community. Among such conferences are O'Reilly Emerging Technology Conference in California and O'Reilly Open Source Convention in San Jose, California. Overall, O'Reilly describes its business not as publishing or conferences, but as "changing the world by spreading the knowledge of innovators."
+O'Reilly has also adopted Creative Commons's Founders Copyright, which limits the maximum term of copyright protection to 28 years; it is much shorter than the current default duration of the copyright monopoly in copyright law.
+Dale Dougherty, O'Reilly Media VP, created the phrase 'Web 2.0' during a brainstorming session during 2003. This then became the name for the influential Web 2.0 Summit run by O'Reilly Media and TechWeb (formerly CMP Media). They then registered Web 2.0 as a Service Mark "for arranging and conducting live events, namely trade shows, expositions, business conferences and educational conferences in various fields of computers and information technology."
+In May 2006 CMP Media learned of an impending event called the 'Web 2.0 Half day conference.' Concerned over their obligation to take reasonable means to enforce their trade and service marks CMP sent a cease and desist letter to the non-profit Irish organizers of the event. This attempt to restrict through legal mechanisms the use of the term was criticized by some.
+The legal issue was resolved by O'Reilly's apologizing for the early and aggressive involvement of attorneys, rather than simply calling the organizers, and allowing them to use the service mark for this single event.[1]
+
+
+For many years the most typical O'Reilly books, the "animal books," have been meant as thorough guides to working with given technologies. The original animal design was developed by Edie Freedman because she thought that Unix program names sounded like "weird animals."
+There are also subdivisions within the line of "animal" books; for example, O'Reilly recently released a series of Cookbooks that provide prescriptive "recipes" for accomplishing specific tasks with a heavy emphasis on automation and scripting. Examples include the Perl Cookbook (ISBN 1-56592-243-3) and the Exchange Server Cookbook (ISBN 0-596-00717-5).
+
+The Head First series stresses a reader-involving combination of puzzles, jokes, nonstandard design and layout, and an engaging, conversational style to immerse the reader in a given topic.
+Head First Labs is the official web site for the Head First series, with a forum for each book as well as code downloads and sample chapters.
+
+The "Hacks" series says it "reclaims the term 'hacking' for the good guys--innovators who explore and experiment, unearth shortcuts, create useful tools, and come up with fun things to try on their own."[citation needed]
+
+Ed Krol's 1992 text, Whole Internet User's Guide and Catalog, was one of the first popular user guides to the Internet.[1][2]
+
+The "In a Nutshell" series offers compact reference coverage of a technology. Often, a Nutshell book will contain all the commands available for a given technology, or a complete listing of an API of some language or framework, and compress the description of the topics to a more high-level overview.
+
+The "Pocket" series are small form factor books, typically less than a hundred pages, covering the very bare essentials of various subjects. Topics include podcasting, Linux, and several programming languages. The series aims to be portable and allow the reader to find what they are looking for quickly. They are not meant as learning aids, or as complete references.
+
+The "Developer's Notebook" series aims to mimic the lab notebooks of high school and college science classes, complete with scribbled marginal notes of important thoughts, points, and "gotchas". Describing itself as "all lab, no lecture", books in this series usually show specific tasks in detail, illuminating how they work, but not attempting to provide a complete overview of design, theory, and implementation of a given technology.
+
+The "Missing Manual" series, produced with David Pogue's Pogue Press, claims to be "the book that should have been in the box", providing a broad overview of the functionality of consumer technology.
+
+The "Cookbook" series aims to produce books that contain a general set of recipes for a particular technology. Each recipe contains a specific problem, a specific solution, and a discussion about how to apply the solution in a general sense. The Perl Cookbook set the standard and format for this series.[2]
+
+The Annoyances series offers "tips, secrets, and solutions" covering advanced topics for a geek audience, mostly relating to Microsoft operating systems.
+There's also a related "Fixing" Annoyances series of shorter books that offer simple solutions to everyday problems.
+
+O'Reilly sometimes produces books that are not in any particular series, especially when the title is of a manifesto nature.
+The company also launched a travel book series, "Traveler's Tales," and spun it out into a separate company. They also published books on health care under the "Patient-Centered Guides" brand, but this series is currently inactive.
+
+O'Reilly began its conference division in 1997. Today, the company offers over a dozen conferences:
+
+Since 2005, O'Reilly has published a quarterly magazine known as Make: technology on your time. The magazine contains articles on hardware hacking, as well as several technology-related do-it-yourself (DIY) instructions for hobbyists.
+In the fall of 2006, O'Reilly added a second magazine, Craft:, with the tagline "Transforming Traditional Crafts." Craft magazine folded during the great magazine purge of 2009.
+
+Over the years O'Reilly tried many other types of products. In 1993, they launched one of the first web-based resources, Global Network Navigator, which was later sold to AOL. Around that time, they started two short-lived book lines: one of travel books (including Travelers' Tales Mexico) and one of general business books (including Love Your Job! and Building a Successful Software Business). They produced a line of audio tapes version of the interview show Geek of the Week by Internet Talk Radio. They sold Windows based software for six years, including the first commercially available web server, Web Site.
+O'Reilly AlphaTech Ventures is a renewable energy company[3].
+
+O'Reilly formed a partnership with Pearson Publishing to offer "Safari Books Online." This service makes the complete text of over 7,000 technical books available for online reading through a subscription. Safari Books Online includes books and video from Adobe Press, Alpha Books, Cisco Press, FT Press, Microsoft Press, New Riders Publishing, O'Reilly, Peachpit Press, Prentice Hall, Prentice Hall PTR, Que and Sams Publishing.
+O'Reilly formerly offered "SafariU" to educators to compile custom textbooks from individual chapters of books and from their own uploaded materials.
+In the late '90s, O'Reilly founded the O'Reilly Network, which grew to include sites such as:
+However, in 2008 the company revised its online publishing and stopped publishing on several of its sites (including Codezoo and O'Reilly Connection)[4].
+The company also produces dev2dev (a WebLogic-oriented site) in association with BEA and java.net (an open-source community for Java programmers) in association with Sun Microsystems and CollabNet.
+
+
+

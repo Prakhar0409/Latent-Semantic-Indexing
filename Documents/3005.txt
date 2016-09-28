@@ -1,0 +1,10 @@
+List of common resolutions
+This is a list of image resolutions sorted by the horizontal pixel dimension in ascending numerical order.
+It is important to realize that the use of the word "resolution" in this context is misleading and inaccurate. The sizes given are pixel dimensions, and do not imply anything about the resolution of the display, which would be expressed in PPI (pixels per inch) or PPCM (pixels per centimeter). This explains why larger pixel dimensions do not necessarily imply that the final image will be physically larger; indeed, fitting more pixels onto the same display will produce an image the same physical size but with a higher image density and hence text and images will appear smaller.
+
+
+For the table below, DAR is the display aspect ratio, based solely on pixel count. It does not take into account pixel aspect ratio.[1]
+
+
+
+

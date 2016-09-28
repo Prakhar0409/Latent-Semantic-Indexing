@@ -1,0 +1,20 @@
+Logical volume management
+In computer storage, logical volume management or LVM is a method of allocating space on mass storage devices that is more flexible than conventional partitioning schemes. In particular, a volume manager can concatenate, stripe together or otherwise combine partitions into larger virtual ones that can be resized or moved, possibly while it is being used.
+Volume management is one of many forms of storage virtualization, the one implemented as a layer in the OS disk driver stack.
+
+
+Most volume manager implementations share the same basic design and start with physical volumes (PVs), which can be hard disk partitions, RAID devices or a SAN. PVs are split into chunks called physical extents (PEs). Some volume managers (such as that in HP-UX and Linux) will have PEs of a uniform size; others (such as that in Veritas) will have variably-sized PEs that can be split and merged at will.
+Normally, PEs are simply mapped one-to-one to logical extents (LEs). With mirroring, multiple PEs are mapped onto each LE. These PEs are drawn from a physical volume group (PVG), a set of same-sized PVs which act similarly to hard disks in a RAID1 array. PVGs are usually laid out so that they reside on different disks and/or data buses for maximum redundancy.
+The LEs are pooled into a volume group (VG). The pooled LEs can then be concatenated together into virtual disk partitions called logical volumes or LVs. LVs are usable as raw block devices just as disk partitions are: mountable file systems can be created on them, or they can be used as swap storage.
+On striped LVs, each successive LE is allocated from a different PV; depending on the size of the LE, this can improve performance on large sequential reads by bringing to bear the combined read throughput of multiple PVs.
+The LVs can be grown or shrunk by concatenating more LEs from or returning them to the pool. The concatenated LEs do not have to be contiguous. This allows LVs to be grown without having to move already-allocated LEs. Some volume managers allow LVs to be resized in either direction while online. Changing the size of the LV does not necessarily change the size of a filesystem on it; it merely changes the size of its containing space. A file system that can be resized online is recommended because it allows the system to adjust its storage on-the-fly without interrupting applications.
+PVs and LVs cannot be shared between or span different VGs (although some volume managers may allow them to be moved at will between VGs on the same host). This allows VGs to be conveniently brought online, taken offline or moved between host systems as a single administrative unit.
+VGs can grow their storage pool by absorbing new PVs or shrink by retracting from PVs. This may involve moving already-allocated LEs out of the PV. Most volume managers can perform this movement online; this allows storage (if the underlying hardware is hot-pluggable) to be upgraded or replaced without system downtime.
+
+Some volume managers also implement snapshots by applying copy-on-write to each LE. In this scheme, the volume manager will copy the LE to a copy-on-write table just before it is written to. This preserves an old version of the LV—the snapshot—which can later be reconstructed by overlaying the copy-on-write table atop the current LV. Snapshots which are read-write are branching snapshots because they implicitly allow diverging versions of an LV.
+Snapshots can be useful for backing up self-consistent versions of volatile data like table files from a busy database, or for rolling back large changes in one swoop, such as an operating system upgrade. Some Linux-based Live CD systems also use snapshots to simulate read-write access on a read-only compact disc.
+
+
+
+
+

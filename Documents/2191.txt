@@ -1,0 +1,19 @@
+Suffix array
+In computer science, a suffix array is an array of integers giving the starting positions of suffixes of a string in lexicographical order.
+
+Consider the string
+of length 12, that ends with a sentinel letter $, appearing only once and less than any other letter in the string.
+It has twelve suffixes: "abracadabra$", "bracadabra$", "racadabra$", and so on down to "a$" and "$" that can be sorted into lexicographical order to obtain:
+
+If the original string is available, each suffix can be completely specified by the index of its first character. The suffix array is the array of the indices of suffixes sorted in lexicographical order. For the string "abracadabra$", using one-based indexing, the suffix array is {12,11,8,1,4,6,9,2,5,7,10,3}, because the suffix "$" begins at position 12, "a$" begins at position 11, "abra$" begins at position 8, and so forth.
+
+The easiest way to construct a suffix array is to use an efficient comparison sort algorithm. This requires O(nlogn) suffix comparisons, but a suffix comparison requires O(n) time, so the overall runtime of this approach is O(n2logn). More sophisticated algorithms improve this to O(nlogn) by exploiting the results of partial sorts to avoid redundant comparisons. Several Θ(n) algorithms (of Pang Ko and Srinivas AluruJuha, Petuha Kärkkäinen and Peter Sanders, etc) have also been developed which provide faster construction and have space usage of O(n) with low constants.
+A recent work by Salson et al proposes an algorithm for updating the suffix array of a text that has been edited instead of rebuilding a new suffix array from scratch. Even if the theoretical worst-case time complexity is O(nlogn), it appears to perform much better in practice than the quickest methods.
+
+The suffix array of a string can be used as an index to quickly locate every occurrence of a substring within the string. Finding every occurrence of the substring is equivalent to finding every suffix that begins with the substring. Thanks to the lexicographical ordering, these suffixes will be grouped together in the suffix array, and can be found efficiently with a binary search. If implemented straightforwardly, this binary search takes O(mlogn) time, where m is the length of the substring. To avoid redoing comparisons, extra data structures giving information about the longest common prefixes (LCPs) of suffixes are constructed, giving O(m + logn) search time.
+Suffix sorting algorithms can be used to perform the Burrows-Wheeler transform (BWT). Technically the BWT requires sorting cyclic permutations of a string, not suffixes. We can fix this by appending to the string a special end-of-string character which sorts lexicographically before every other character. Sorting cyclic permutations is then equivalent to sorting suffixes.
+
+Suffix arrays were originally developed by Gene Myers and Udi Manber to reduce memory consumption compared to a suffix tree. This began the trend towards compressed suffix arrays and BWT-based compressed full-text indices.
+
+
+

@@ -1,0 +1,7 @@
+Monolithic kernel
+A monolithic kernel is a kernel architecture where the entire operating system is run in kernel space as supervisor mode. In difference with other architectures (microkernel, hybrid kernels), the monolithic kernel defines alone a high-level virtual interface over computer hardware, with a set of primitives or system calls to implement all operating system services such as process management, concurrency, and memory management in one or more modules.[citation needed]
+
+
+Most modern monolithic kernels such as OpenVMS, Linux, BSD variants such as FreeBSD and NetBSD, and Solaris can dynamically load (and unload) executable modules at runtime. This modularity of the kernel is at the binary (image) level and is not at the kernel architecture level. Modular monolithic kernels are not to be confused with the architectural level of modularity inherent in microkernels or hybrid kernels. Practically, dynamically loading modules is simply a more flexible way of handling the kernel image at runtime — as opposed to rebooting with a different kernel image. The modules allow easy extension of the kernel's capabilities as required. Dynamically loadable modules incur a small overhead when compared to building the module into the kernel image. However in some cases loading modules dynamically (as-needed) helps to keep the amount of code running in kernel space to a minimum for example to minimize kernel footprint for embedded devices with limited hardware resources. Namely, an unloaded module need not be stored in the scarce random access memory.
+
+

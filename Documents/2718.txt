@@ -1,0 +1,14 @@
+Common Language Infrastructure
+The Common Language Infrastructure (CLI) is an open specification (published under ECMA-335 and ISO/IEC 23271) developed by Microsoft that describes the executable code and runtime environment that form the core of a number of runtimes including the Microsoft .NET Framework, Mono, and Portable.NET. The specification defines an environment that allows multiple high-level languages to be used on different computer platforms without being rewritten for specific architectures.
+
+Among other things, the CLI specification describes the following four aspects:-
+All compatible languages compile to Common Intermediate Language (CIL), which is an intermediate language that is abstracted from the platform hardware. When the code is executed, the platform-specific VES will compile the CIL to the machine language according to the specific hardware.
+
+In August 2000, Microsoft, Hewlett-Packard, Intel, and others worked to standardize CLI. By December 2001, it was ratified by the ECMA, with ISO standardization following in April 2003.
+While Microsoft and their partners hold patents for CLI, ECMA and ISO require that all patents essential to implementation be made available under "reasonable and non-discriminatory (RAND) terms."
+
+The Common Language Infrastructure has currently no built-in support for Dynamically typed languages, because the existing Common Intermediate Language is statically typed[1].
+The Dynamic Language Runtime is an ongoing effort to bring this support to the CLR.
+
+
+

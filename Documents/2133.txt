@@ -1,0 +1,10 @@
+Dogcow
+The dogcow, also known as Clarus the Dogcow, is a bitmapped image first introduced by Apple. It is the shape of a dog with nose and spots that look like a Holstein cow, originally created in 1983 as part of the Cairo font by Susan Kare as the glyph for 'z'. The original dogcow was named Clarus by Apple employees. The sound she makes is "Moof!"
+The name Clarus is similar to that of Apple's former office-software unit, Claris.
+The image of the dogcow was used to show the orientation and color of the paper in Mac OS page setup dialog boxes. HCI engineer Annette Wagner made the decision to use the dog from the Cairo font as a starting point for the page graphic. Annette edited the original font and created a larger version with spots more suitable for demonstrating various printing options. The new dog graphic had a more bovine look, making it arguably less clear as to what animal it was intended to be, and after the print dialog was released the name "dogcow" came into use.
+When the dogcow was removed from the print dialog in Mac OS X, many people[who?] requested that Apple bring it back. The dogcow image had virtually reached cult status. It is an Apple Developer Tech Support group mascot.
+
+Apple Technote 31 includes a description of the dogcow.[1]
+
+
+

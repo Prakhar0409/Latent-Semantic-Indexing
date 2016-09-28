@@ -1,0 +1,78 @@
+Dirac delta function
+The Dirac delta or Dirac's delta is a mathematical construct introduced by theoretical physicist Paul Dirac. Informally, it is a function representing an infinitely sharp peak bounding unit area: a function δ(x) that has the value zero everywhere except at x = 0 where its value is infinitely large in such a way that its total integral is 1. It is a continuous analogue of the discrete Kronecker delta. In the context of signal processing it is often referred to as the unit impulse function. Note that the Dirac delta is not strictly a function. While for many purposes it can be manipulated as such, formally it can be defined as a distribution that is also a measure.
+
+A Dirac function can be of any size in which case its 'strength' A is defined by duration multiplied by amplitude. The graph of the delta function is usually thought of as following the whole x-axis and the positive y-axis. (This informal picture can sometimes be misleading, for example in the limiting case of the sinc function.)
+Despite its name, the delta function is not truly a function, at least not a usual one with domain in reals. For example, the objects f(x) = δ(x) and g(x) = 0 are equal everywhere except at x = 0 yet have integrals that are different. According to Lebesgue integration theory, if f and g are functions such that f = g almost everywhere, then f is integrable if and only if g is integrable and the integrals of f and g are identical. Rigorous treatment of the Dirac delta requires measure theory or the theory of distributions.
+The Dirac delta is very useful as an approximation for a tall narrow spike function (an impulse). It is the same type of abstraction as a point charge, point mass or electron point. For example, in calculating the dynamics of a baseball being hit by a bat, approximating the force of the bat hitting the baseball by a delta function is a helpful trick. In doing so, one not only simplifies the equations, but one also is able to calculate the motion of the baseball by only considering the total impulse of the bat against the ball rather than requiring knowledge of the details of how the bat transferred energy to the ball.
+The Dirac delta function was named after the Kronecker delta[citation needed], since it can be used as a continuous analogue of the discrete Kronecker delta.
+
+The Dirac delta can be loosely thought of as a function on the real line which is zero everywhere except at the origin, where it is infinite,
+and which is also constrained to satisfy the identity
+This is merely a heuristic definition. The Dirac delta is not a real function, as no real function has the above properties. Moreover there exist descriptions of the delta function which differ from the above conceptualization. For example, sinc(x / a) / a (where sinc is the sinc function) behaves as a delta function in the limit as , yet this function does not approach zero for values of x� outside the origin, rather it oscillates between 1/x� and −1/x� more and more rapidly as a�approaches zero.
+The Dirac delta function can be rigorously defined either as a distribution or as a measure.
+
+As a measure, δ(A)�=�1 if 0�∈�A, and δ(A)�=�0 otherwise. Then,
+for all functions ƒ.
+
+As a distribution, the Dirac delta is a linear functional on the space of test functions and is defined by
+for every test function . It is a distribution with compact support (the support being {0}). Because of this definition, and the absence of a true function with the delta function's properties, it is important to realize the above integral notation is simply a notational convenience, and not a garden-variety (Riemann or Lebesgue) integral.
+Thus, the Dirac delta function may be interpreted as a probability distribution. Its characteristic function is then just unity, as is the moment generating function, so that all moments are zero. The cumulative distribution function is the Heaviside step function.
+Equivalently, one may define  as a distribution δ(ξ) whose indefinite integral is the function
+usually called the Heaviside step function or commonly the unit step function. That is, it satisfies the integral equation
+for all real numbers x. It is important to realize this "density" interpretation is a notational convenience; if dt is Lebesgue measure, then no such density δ exists. However, by choosing to interpret δ as a singular measure giving point mass to 0, one can move beyond mere notational convenience and state something both logically coherent and actually true, namely,
+
+A helpful identity is the scaling property (α is non-zero),
+and so
+
+
+�
+�
+�
+�
+(Eq.1)
+Using series expansions, the scaling property may be generalized to:
+where xi are the real roots of g(x) (assumed simple roots). Thus, for example
+In the integral form the generalized scaling property may be written as
+In an n-dimensional space with position vector , this is generalized to:
+where the integral on the right is over , the n-1� dimensional surface defined by .
+The integral of the time-delayed Dirac delta is given by:
+(the sifting property). The delta function is said to "sift out" the value at .
+It follows that the convolution:
+means that the effect of convolving with the time-delayed Dirac delta is to time-delay  by the same amount.
+
+Using Fourier transforms, one finds that
+and therefore:
+which is a statement of the orthogonality property for the Fourier kernel. Equating these non-converging improper integrals to δ(x) is not mathematically rigorous. However, they behave in the same way under a definite integral. That is,
+according to the definition of the Fourier transform. Therefore, the bracketed term is considered equivalent to the Dirac delta function.
+
+The direct Laplace transform of the delta function is:
+a curious identity using Euler's formula 2cos(as) = e − ias + eias allows us to find the Laplace inverse transform for the cosine
+
+As a tempered distribution, the Dirac delta distribution is infinitely differentiable. Let U be an open subset of Euclidean space Rn and let S(U) denote the Schwartz space of smooth, rapidly decaying real-valued functions on U. Let a be a point of U and let δa be the Dirac delta distribution centred at a. If α = (α1, ..., αn) is any multi-index and ∂α denotes the associated mixed partial derivative operator, then the αth derivative ∂αδa of δa is given by
+That is, the αth derivative of δa is the distribution whose value on any test function φ is the αth derivative of φ at a (with the appropriate positive or negative sign). This is rather convenient, since the Dirac delta distribution δa applied to φ is just φ(a). For the α=1 case this means
+The first derivative of the delta function is referred to as a doublet (or the doublet function). [1] Its schematic representation looks like that of δa(t) and -δa(t) superposed.
+
+The delta function can be viewed as the limit of a sequence of functions
+where δa(x) is sometimes called a nascent delta function (and should not be confused with the Dirac's delta centered at a, denoted by the same symbol in the previous section). This is also called an approximation to the identity, though that term is used for other concepts as well. This limit is in the sense that
+for all continuous bounded f. These are generally taken to have integral 1 (and must have, in the limit), and otherwise can be normalized to have integral 1 (assuming the integral is not 0).
+One may also ask for the nascent delta functions to be compactly supported (vanishing outside an interval), in which case the sequence is called a mollifier, or for the functions to be symmetric or positive. Positivity is important because, if a function has integral 1 and is non-negative (i.e., is a probability distribution), then convolving with it does not result in overshoot or undershoot, as the output is a convex combination of the input values, and thus falls between the maximum and minimum of the input function.
+The term approximate identity has a particular meaning in harmonic analysis, in relation to a limiting sequence to an identity element for the convolution operation (also on groups more general than the real numbers, e.g. the unit circle). There the condition is made that the limiting sequence should be of positive functions.
+Some nascent delta functions are:
+
+Note: If δ(a,�x) is a nascent delta function which is a probability distribution over the whole real line (i.e. is always non-negative between -∞ and +∞) then another nascent delta function δφ(a,�x) can be built from its characteristic function as follows:
+where
+is the characteristic function of the nascent delta function δ(a,�x). This result is related to the localization property of the continuous Fourier transform.
+There are also series and integral representations of the Dirac delta function in terms of special functions, such as integrals of products of Airy functions, of Bessel functions, of Coulomb wave functions and of parabolic cylinder functions, and also series of products of orthogonal polynomials.[2]
+
+A so-called uniform "pulse train" of Dirac delta measures, which is known as a Dirac comb, or as the Shah distribution, creates a sampling function, often used in digital signal processing (DSP) and discrete time signal analysis.
+
+We give an example of how the delta function is expedient in quantum mechanics. Suppose a set { φn } of orthonormal wave functions is complete, so that for any wave function ψ we have
+with . Generalizing to the continuous spectrum, we expect relations of the form
+and
+Substituting the first of these relations into the second and using the property of linearity of the scalar product gives us
+From this it is apparent that 
+
+The Dirac delta function may be seen as a continuous analog of the Kronecker delta. To see this let (ai)i∈Z be any doubly infinite sequence. The Kronecker delta, δik, then satisfies:
+Similarly, for any real or complex valued continuous function ƒ on R, the Dirac delta satisfies:
+
+

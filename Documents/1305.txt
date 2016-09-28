@@ -1,0 +1,14 @@
+Mozilla Public License
+The Mozilla Public License (MPL) is a free and open source software license. Version 1.0 was developed by Mitchell Baker when she worked as a lawyer at Netscape Communications Corporation and version 1.1 at the Mozilla Foundation.[4] The MPL is characterized as a hybridization of the modified BSD license and GNU General Public License.[5]
+The MPL is the license for the Mozilla Application Suite, Mozilla Firefox, Mozilla Thunderbird and other Mozilla software. The MPL has been adapted by others as a license for their software, most notably Sun Microsystems, as the Common Development and Distribution License for OpenSolaris, the open source version of the Solaris 10 operating system, and by Adobe, as the license for its Flex product line.
+
+The license is regarded as a weak copyleft. Specifically, source code copied or changed under the MPL must stay under the MPL.
+The MPL was approved both as an Open Source software license by the Open Source Initiative and as a Free Software license by the Free Software Foundation.
+
+Unlike strong copyleft licenses, the code under the MPL may be combined with proprietary files in one program ("Larger Work"). For example, Netscape 6 and later releases were proprietary versions of the Mozilla Application Suite, by adding the proprietary AIM and other parts. The MPL treats the source code file as the boundary between MPL code and proprietary parts, meaning that a certain source file (e.g., C++, JavaScript or XUL file) is either fully MPL or fully proprietary. The GPL, in contrast, uses the process boundary of the executable as the license boundary (for details, see the GPL article).
+
+The Free Software Foundation (FSF) considers the license a free software license, but "not a strong copyleft" one. However, "unlike the X11 license" the license has "some complex restrictions" making it incompatible with the GNU GPL. They urge people not to use the license because of this incompatibility unless the provision in section 13 of the MPL is exercised to provide the work under either the GPL or any other GPL-compatible license.[6]
+For these reasons, the Mozilla Suite and Firefox have been relicensed under multiple licenses, including the MPL, GPL and LGPL.[7]
+
+
+

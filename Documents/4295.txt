@@ -1,0 +1,53 @@
+Limit (mathematics)
+In mathematics, the concept of a "limit" is used to describe the behavior of a function as its argument or input either "gets close" to some point, or as the argument becomes arbitrarily large; or the behavior of a sequence's elements as their index increases indefinitely. Limits are used in calculus and other branches of mathematical analysis to define derivatives and continuity.
+In formulas, limit is usually abbreviated as lim (see below).
+The concept of the "limit of a function" is further generalized to the concept of topological net, while the limit of a sequence is closely related to limit and direct limit in category theory.
+
+Suppose ƒ(x) is a real-valued function and c is a real number. The expression:
+means that ƒ(x) can be made to be as close to L as desired by making x sufficiently close to c. In that case, we say that "the limit of ƒ of x, as x approaches c, is L". Note that this statement can be true even if . Indeed, the function ƒ(x) need not even be defined at c. Two examples help illustrate this.
+Consider  as x approaches 2. In this case, f(x) is defined at 2 and equals its limit of 0.4:
+As x approaches 2, ƒ(x) approaches 0.4 and hence we have . In the case where , ƒ is said to be continuous at x = c. But it is not always the case. Consider
+The limit of g(x) as x approaches 2 is 0.4 (just as in ƒ(x)), but ; g is not continuous at x = 2.
+Or, consider the case where ƒ(x) is undefined at x = c.
+In this case, as x approaches 1, f(x) is undefined (0/0) at x = 1 but the limit equals 2:
+Thus, f(x) can be made arbitrarily close to the limit of 2 just by making x sufficiently close to 1.
+
+Karl Weierstrass formally defined a limit as follows:
+Let f be a real-valued function defined on an open interval of real numbers containing c (except possibly at c) and let L be a real number. Then
+means that
+or, symbolically,
+Compared to the informal discussion above, the fact that ε can be any arbitrarily small positive number corresponds to being able to bring f(x) as close to L as desired. The δ marks some "sufficiently close" distance for values of x from c such that f(x) stays within a distance less than ε from the limit L.
+This formal definition of the limit of a function is sometimes called the epsilon-delta form because it uses the Greek letters delta (δ) and epsilon (ε). The use of the particular Greek letters δ and ε is merely traditional; the definition would, of course, be unchanged if different letters or symbols were used. An alternative definition without quantifiers can be found at non-standard calculus.
+Caution: It should be noted that this definition provides a way to recognize a limit without providing a way to calculate it. One often needs to find a limit using informal methods, especially when f(x) is discontinuous at c, for example, when f is a ratio with a denominator that becomes 0 at c. One should check that the result actually meets the Weierstrass definition in such cases.
+
+A related concept to limits as x approaches some finite number is the limit as x approaches positive or negative infinity. This does not literally mean that the difference between x and infinity becomes small, since infinity is not a real number; rather, it means that x either grows without bound positively (positive infinity) or grows without bound negatively (negative infinity).
+For example, consider 
+As x becomes extremely large, the value of f(x) approaches 2, and the value of f(x) can be made as close to 2 as one could wish just by picking x sufficiently large. In this case, we say that the limit of f(x) as x approaches infinity is 2. In mathematical notation,
+Formally, we have the definition
+Note that the S in the definition will generally depend on ε. A similar definition applies for 
+If one considers the domain of f to be the extended real number line, then the limit of a function at infinity can be considered as a special case of limit of a function at a point.
+
+Consider the following sequence: 1.79, 1.799, 1.7999,... We could observe that the numbers are "approaching" 1.8, the limit of the sequence.
+Formally, suppose x1, x2, ... is a sequence of real numbers. We say that the real number L is the limit of this sequence and we write
+to mean
+Intuitively, this means that eventually all elements of the sequence get as close as we want to the limit, since the absolute value |xn�−�L| is the distance between xn and L. Not every sequence has a limit; if it does, we call it convergent, otherwise divergent. One can show that a convergent sequence has only one limit.
+The limit of a sequence and the limit of a function are closely related. On one hand, the limit of a sequence is simply the limit at infinity of a function defined on natural numbers. On the other hand, a limit of a function f at x, if it exists, is the same as the limit of the sequence xn = f(x�+�1/n).
+
+The following rules are only valid if the limits on the righthand side exist and are finite.
+If any of the limits in the righthand side is undefined or infinite, these rules do not necessarily work.
+For example,  but  is undefined.
+
+
+This rule uses derivatives and has a conditional usage. (It can only be directly used on limits that "equal" 0/0 or ±∞/±∞. Other indeterminate forms require some algebraic manipulation usually involving setting the limit equal to y, taking the natural logarithm of both sides, and then using l'Hôpital's rule.)
+For example: 
+
+A short way to write the limit  is .
+A short way to write the limit  is .
+A short way to write the limit  is .
+
+All of the above notions of limit can be unified and generalized to arbitrary topological spaces by introducing topological nets and defining their limits. The article on nets elaborates on this.
+An alternative is the concept of limit for filters on topological spaces.
+
+
+
+

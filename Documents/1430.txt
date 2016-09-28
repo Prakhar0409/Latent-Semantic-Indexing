@@ -1,0 +1,11 @@
+Alice (software)
+Alice is a free and open source[1] object-oriented educational programming language with an integrated development environment (IDE). It is implemented in Java. Alice uses a drag and drop environment to create computer animations using 3D models. The software is developed by researchers at Carnegie Mellon, including the late Randy Pausch. Alice was developed to address three core problems in educational programming:[2]
+In controlled studies at Ithaca College and Saint Joseph's University looking at students with no prior programming experience taking their first computer science course, the average grade went from a C to a B and the retention increased from 47% to 88%.[3]
+A variant of Alice 2.0 called Storytelling Alice was created by Caitlin Kelleher for her PhD dissertation. It includes 3 main differences:[4]
+It appeared to increase interest (42% increase in programming time and over 3x as many students doing additional work as Generic Alice) without any drop off in basic programming tasks acquired.[5]
+Alice 2.2 has been updated but is still in beta status. Although many bugs have been fixed, performance of the video export feature is still somewhat variant with different graphics adapters and different versions of QuickTime.[6]
+Alice 3.0 is being underwritten by Electronic Arts and will utilize character models from The Sims 2.[7] In fall 2008, there was an alpha test, which is to be followed by the beta test in spring 2009.[8] The full release is planned in Summer 2009 (assuming that the beta testing goes according to expectations: the backup plan would be to run an unlimited, public beta in the Fall semester, 2009).[9] Further Sun Microsystems will assist in globalizing Alice.[10]
+The current release of Alice, version 2.0, runs on Microsoft Windows, Mac OS X, and Linux platforms.
+
+
+

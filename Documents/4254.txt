@@ -1,0 +1,34 @@
+Fuzz testing
+Fuzz testing, fuzzing, or Negative Testing is a software testing technique that provides invalid, unexpected or random data ("fuzz") to the inputs of a program. If the program fails (for example, by crashing, by suffering reduced performance or by failing built-in code assertions), the defects can be noted.
+The great advantage of fuzz testing is that the test design is extremely simple, and free of preconceptions about system behavior.
+
+Fuzz testing is often used in large software development projects that employ black box testing. These projects usually have a budget to develop test tools, and fuzz testing is one of the techniques which offers a high benefit to cost ratio. Network Strategy Partners studied fuzzing usage at global vendors and service providers. The study[1], conducted during 2007, of global providers who are using fuzzing engines to uncover the often hidden metrics of revenue loss due to customer churn, network (un)reliability issues and downtime.[2]
+Fuzz testing is also used as a gross measurement of a large software system's reliability, availability and security.
+Fuzz testing is thought to enhance software security and software safety because it often finds odd oversights and defects which human testers would fail to find, and even careful human test designers would fail to create tests for.
+However, fuzz testing is not a substitute for exhaustive testing or formal methods: It can only provide a random sample of the system's behavior, and in many cases passing a fuzz test may only demonstrate that a piece of software handles exceptions without crashing, rather than behaving correctly. Thus, fuzz testing can only be regarded as a bug-finding tool rather than an assurance of quality. In fact, fuzz testing is almost always going to be testing error-handling routines, not "main-line" code. Despite this, testing using abnormal traffic is useful since many types of software cannot control their inputs so behavior of error-handling routines actually becomes important.
+
+As a practical matter, developers need to reproduce errors in order to fix them. For this reason, almost all fuzz testing makes a record of the data it manufactures, usually before applying it to the software, so that if the computer fails dramatically, the test data is preserved. If the fuzz stream is pseudo-random number generated it may be easier to store the seed value to reproduce the fuzz attempt.
+Modern software has several different types of inputs:
+There are at least two different forms of fuzz testing:
+By using all of these techniques in combination, fuzz-generated randomness can test the un-designed behavior surrounding a wider range of designed system states.
+Fuzz testing may use tools to simulate all of these domains.
+
+The main problem with fuzzing to find program faults is that it generally only finds very simple faults. The problem itself is exponential and every fuzzer takes shortcuts to find something interesting in a timeframe that a human cares about. A primitive fuzzer may have poor code coverage; for example, if the input includes a checksum which is not properly updated to match other random changes, only the checksum validation code will be verified. Code coverage tools are often used to estimate how "well" a fuzzer works, but these are only guidelines to fuzzer quality. Every fuzzer can be expected to find a different set of bugs.
+On the other hand, bugs found using fuzz testing are sometimes severe, exploitable bugs that could be used by a real attacker. This has become even more true as fuzz testing has become more widely known, as the same techniques and tools are now used by attackers to exploit deployed software. This is a major advantage over binary or source auditing, or even fuzzing's close cousin, fault injection, which often relies on artificial fault conditions that are difficult or impossible to exploit.
+The randomness of inputs used in fuzzing is often seen as a disadvantage, as catching a boundary value condition with random inputs is highly unlikely.
+
+Normally this is provided as a queue of data structures. The queue is filled with data structures that have random values.
+The most common problem with an event-driven program is that it will often simply use the data in the queue, without even crude validation. To succeed in a fuzz-tested environment, software must validate all fields of every queue entry, decode every possible binary value, and then ignore impossible requests.
+One of the more interesting issues with real-time event handling is that if error reporting is too verbose, simply providing error status can cause resource problems or a crash. Robust error detection systems will report only the most significant, or most recent error over a period of time.
+
+Normally this is provided as a stream of random data. The classic source in UNIX is the random data generator.
+One common problem with a character driven program is a buffer overrun, when the character data exceeds the available buffer space. This problem tends to recur in every instance in which a string or number is parsed from the data stream and placed in a limited-size area.
+Another is that decode tables or logic may be incomplete, not handling every possible binary value.
+
+The standard database scheme is usually filled with fuzz that is random data of random sizes. Some IT shops use software tools to migrate and manipulate such databases. Often the same schema descriptions can be used to automatically generate fuzz databases.
+Database fuzz is controversial, because input and comparison constraints reduce the invalid data in a database. However, often the database is more tolerant of odd data than its client software, and a general-purpose interface is available to users. Since major customer and enterprise management software is starting to be open-source, database-based security attacks are becoming more credible[citation needed].
+A common problem with fuzz databases is buffer overflow. A common data dictionary, with some form of automated enforcement is quite helpful and entirely possible. To enforce this, normally all the database clients need to be recompiled and retested at the same time. Another common problem is that database clients may not understand the binary possibilities of the database field type, or, legacy software might have been ported to a new database system with different possible binary values. A normal, inexpensive solution is to have each program validate database inputs in the same fashion as user inputs. The normal way to achieve this is to periodically "clean" production databases with automated verifiers.
+
+
+
+

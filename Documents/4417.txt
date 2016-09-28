@@ -1,0 +1,15 @@
+Protein-coated disc
+Protein-Coated Disc (PCD) is a theoretical optical disc technology currently being developed by Professor Venkatesan Renugopalakrishnan, formerly of Harvard Medical School and Florida International University. PCD would greatly increase storage over Holographic Versatile Disc optical disc systems. It involves coating a normal DVD with a special light-sensitive protein made from a genetically altered microbe, which would in principle allow storage of up to 50 Terabytes on one disc. Working with the Japanese NEC Corporation, Renugopalakrishnan's team created a prototype device and estimated in July, 2006 that a USB disk would be commercialised in 12 months and a DVD in 18 to 24 months.[1] However, no further information has been forthcoming since that time.
+The technology uses the photosynthetic pigment bacteriorhodopsin created from bacteria.
+
+The information in such discs would be highly dense, due to being stored in proteins that are only a few nanometres across. However, a method to address individual protein molecules to read and write information to and from them would have to be developed in order to achieve the theoretical 50 TB capacity. Practically, capacity would probably be limited by the size that addressing light can be focused to, so a DVD-sized disc might be able to hold ~50 GB, or perhaps ~240 GB if nearfield optics were used.
+
+
+
+Quadruplex (1956) Â· VERA (1958) Â· Type A (1965) Â· CV-2000 (1965) Â· Akai (1967) Â· U-matic (1969) Â· EIAJ-1 (1969) Â· Cartrivision (1972) Â· Philips VCR (1972) Â· V-Cord (1974) Â· VX (1974) Â· Betamax (1975) Â· IVC (1975) Â· Type B (1976) Â· Type C (1976) Â· VHS (1976) Â· VK (1977) Â· SVR (1979) Â· Video 2000 (1980) Â· CVC (1980) Â· VHS-C (1982) Â· M (1982) Â· Betacam (1982) Â· Video8 (1985) Â· MII (1986) Â· S-VHS (1987) Â· Hi8 (1989) Â· S-VHS-C (1987) Â· W-VHS (1994)
+D1 (1986) Â· D2 (1988) Â· D3 (1991) Â· DCT (1992) Â· D5 (1994) Â· Digital Betacam (1993) Â· DV (1995) Â· Digital-S (D9) (1995) Â· DVCPRO (1995) Â· Betacam SX (1996) Â· DVCAM (1996) Â· HDCAM (1997) Â· DVCPRO50 (1998) Â· D-VHS (1998) Â· Digital8 (1999) Â· DVCPRO HD (2000) Â· D6 HDTV VTR (2000) Â· MicroMV (2001) Â· HDV (2003) Â· HDCAM SR (2003)
+Phonovision (1927) Â· TeD (1975) Â· Laserdisc (1978) Â· CED (1981) Â· VHD (1983) Â· Laserfilm (1984) Â· CD Video (1987)
+VCD (1993) Â· MovieCD (c.1995) Â· DVD/DVD-Video (1995) Â· MiniDVD (c.1995) Â· CVD (1998) Â· SVCD (1998) Â· EVD (2003) Â· XDCAM (2003) Â· HVD (2004) Â· FVD (2005) Â· UMD (2005) Â· VMD (2006) Â· HD DVD (2006) Â· Blu-ray Disc (2006) Â· CBHD (2008)
+DVCPRO P2 (2004) Â· AVC-Intra (2006) Â· XDCAM EX (2007)
+MOD (2005) Â· AVCHD (2006) Â· TOD (2007)
+Kinescope (1947) Â· Electronicam kinescope (1950s) Â· Electronic Video Recording (1967)

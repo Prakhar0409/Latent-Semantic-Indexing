@@ -1,0 +1,18 @@
+Voxel
+A voxel (a portmanteau of the words volumetric and pixel) is a volume element, representing a value on a regular grid in three dimensional space. This is analogous to a pixel, which represents 2D image data. Voxels are frequently used in the visualization and analysis of medical and scientific data. Some volumetric displays use voxels to describe their resolution. For example, a display might be able to show 512×512×512 voxels.
+As with pixels, voxels themselves typically do not contain their position in space (their coordinates) - but rather, it is inferred based on their position relative to other voxels (i.e., their position in the data structure that makes up a single volume image).
+
+A voxel represents the sub-volume box with constant scalar/vector value inside which is equal to scalar/vector value of the corresponding grid/pixel of the original discrete representation of the volumetric data. The boundaries of a voxel are exactly in the middle between neighboring grids. Voxel data sets have a limited resolution, as precise data is only available at the center of each cell. Under the assumption that the voxel data is sampling a suitably band-limited signal, accurate reconstructions of data points in between the sampled voxels can be attained by low-pass filtering the data set. Visually acceptable approximations to this low pass filter can be attained by polynomial interpolation such as tri-linear or tri-cubic interpolation.
+The value of a voxel may represent various properties. In CT scans, the values are Hounsfield units, giving the opacity of material to X-rays.[1]:29 Different types of value are acquired from MRI or ultrasound.
+Voxels can contain multiple scalar values - essentially vector data; in the case of ultrasound scans with B-mode and Doppler data, density, and volumetric flow rate are captured as separate channels of data relating to the same voxel positions.
+Other values may be useful for immediate 3D rendering, such as a surface normal vector and color.
+There are different kind of voxels, one is to see a voxel as a way to represent volumetric objects as 3D bitmaps instead of vectors (by opposition, polygonal objects are made of vectors). Another popular one is voxel terrain which is generally used in games and simulations. Most commonly, voxel terrain is used instead of a heightmap because of its ability to represent overhangs, caves, arches, and other 3D terrain features. These concave features would not be possible in a heightmap due to only the top 'layer' of data being rendered, leaving the bottom layer (making up the inside of said caves, or the underside of arches or overhangs) not to be displayed.
+
+
+A volume containing voxels can be visualized either by direct volume rendering or by the extraction of polygon iso-surfaces which follow the contours of given threshold values. The marching cubes algorithm is often used for iso-surface extraction, however other methods exist as well.
+
+
+A generalization of a voxel is the doxel, or dynamic voxel. This is used in the case of a 4D dataset, for example, an image sequence that represents 3D space together with another dimension such as time. In this way, an image could contain 100×100×100×100 doxels, which could be seen as a series of 100 frames of a 100×100×100 volume image. Although storage and manipulation of such data uses a lot of computer memory, this allows the study of spacetime systems.
+
+
+

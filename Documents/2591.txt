@@ -1,0 +1,23 @@
+XRX (web application architecture)
+In software development XRX is a web application architecture based on XForms, REST and XQuery. XRX applications store data on both the web client and on the web server in XML format and do not require a translation between data formats. XRX is considered a simple and elegant application architecture due to the minimal number of translations needed to transport data between client and server systems. The XRX architecture is also tightly coupled to W3C standards (CSS, XHTML 2.0, XPath, XML Schema) to ensure XRX applications will be robust in the future. Because XRX applications leverage modern declarative languages on the client and functional languages on the server they are designed to empower non-developers who are not familiar with traditional procedural languages such as JavaScript, Java or .Net.
+
+XRX is a "zero translation" application architecture that uses XML to store data in the client web browser, on the application server and in the database server. It is because each of these layers use XML as the same structural data model that XRX applications do not have to translate data structures to and from both object and relational data structures. Because of the lack of need for translation, XRX is considered to have a clean and elegant design. The XRX web application architecture allows developers to focus on the business problem and not the translation problem. XRX benefits from several advances in software technology:
+
+
+
+
+One of the principal benefits of the XRX architecture is that it avoids the requirement to "shred" complex data structures into relational structures and then reconstitute the data back into structures when a record is edited on the client.
+Another benefits of the XRX Web application architecture is that it avoids most of the problems around the object-relational impedance mismatch.
+Another advantage is that the client developer does not have to learn JavaScript on the client.
+
+Many traditional web application architectures created in the late 1990 were based on middle object tiers and persistence layers that used tabular data streams and relational database systems. Because each of these layers used different structures to store the models the systems required much additional complexity to translate between layers.
+
+Early examples of using a zero-translation architecture in multi-tier systems can be traced back to the rise of object-oriented databases in the 1990s. See OODBMS History
+Mark Birbeck suggested that the combination of XForms, XQuery with REST interfaces between the two had many advantages in a meeting to the UK XML User Group in September of 2006 [1] . His presentation was one of the first to specifically suggest that the combination of three technologies: XForms and XQuery with REST interfaces would have surprisingly beneficial effects. Mark termed this process "Skimming" but that term did not seem to be contagious.
+Erik Bruchez of Orbeon spoke at the XML 2007 conference on Boston in December of 2007. [2]. His presentation titled: XForms and the eXist XML database: a perfect couple, Erik showed that many people were discovering synergistic benefits of XForms on the client and XQuery on the server.
+The label for XRX was suggested by a blog posting by Dan McCreary on December 14th of 2007 [3] . It was in this article that Dan suggested the need for a contagious meme for the ideas behind the XRX architecture.
+
+Although XRX was originally intended to connote the use of XForms on the client, REST as an interface and XQuery on the server, other proponents of the symmetrical use of XML on the client and server have generalized the term to encompass any XML-centric web client and any server that can store and query XML documents. This use of XRX is generally referred to as "shallow XRX". These generalizations do benefit from a simplified zero-translation architecture but many do not benefit from REST interfaces, XPath for consistent data selection, declarative systems in the client, and functional languages on the server (one of the key aspects of XRX). Use of all three technologies (XForms, REST and XQuery) is referred to as "deep XRX".
+
+
+

@@ -1,0 +1,12 @@
+Service Modeling Language
+Service Modeling Language (SML) is a pair of XML-based specifications by leading information technology companies that define a set of XML instance document extensions for expressing links between elements, a set of XML Schema extensions for constraining those links, and a way to associate Schematron rules with global element declarations, global complex type definitions, and/or model documents. The SML[1] specification defines model concepts, and the SML-IF[2] specification describes a packaging format for exchanging SML models.
+SML is currently being standardized in a W3C working group chartered to produce W3C Recommendations for the Service Modeling Language by refining the “Service Modeling Language” (SML) Member Submission [3], addressing implementation experience and feedback on the specifications. The submission was from an industry group consisting of representatives from BEA Systems, BMC, CA, Cisco, Dell, EMC, HP, IBM, Intel, Microsoft, and Sun Microsystems.
+
+The Service Modeling Language (SML) is a language for building a rich set of constructs for creating and constraining models of complex IT services and systems. SML-based models could include information about configuration, deployment, monitoring, policy, health, capacity planning, target operating range, service level agreements, and so on.
+An SML model is a set of interrelated XML documents. An SML model could contain information about the parts of an IT service, as well as the constraints that each part must satisfy for the IT service to function properly. Constraints are captured in two ways:
+Once a model is defined, one of the important operations on the model is to establish its validity. This involves checking whether all model documents satisfy the XML Schema and rule document constraints.
+
+One anticipated use for SML is to define a consistent way to express how computer networks, applications, servers and other IT resources are described or modeled so businesses can more easily manage the services that are built on these resources [4]. This enables a hierarchy of IT resource models to be created from reusable building blocks rather than requiring custom descriptions of every service, thus reducing costs and system complexity for customers.
+Models provide value in several important ways:
+
+

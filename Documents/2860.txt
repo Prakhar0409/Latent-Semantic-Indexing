@@ -1,0 +1,15 @@
+The Core Pocket Media Player
+The Core Pocket Media Player (TCPMP) is a software media player. Supported operating systems include Windows, Windows CE, Windows Mobile, Palm OS and Symbian OS. It is not to be confused with The Core Media Player, a different media player. TCPMP also has hardware accelerated playback for ATI and Intel 2700g mobiles, such as the Tapwave Zodiac and Dell Axim X50v/X51V.
+Although development of the free version of the software has been discontinued by CoreCodec in favour of the commercially-licensed CorePlayer, TCPMP is still regarded as one of the more versatile media player for PocketPC and Palm OS mobile devices. It has been described as "the best, free multimedia player for both the Pocket PC and the Palm OS platform" by a reviewer for Smartphone & Pocket PC magazine.[1]
+
+In 2007, CoreCodec discontinued TCPMP and plans on renaming it to BetaPlayer and will expand on the supported platforms by releasing COM, .NET, Linux (GTK+), Linux (Qt), Linux (QTopia), and Apple Computer's Mac OS X versions.[citation needed] As of April 2009, the Web site at http://betaplayer.com/ is not yet functional and lists a copyright date of 2005-2008.
+
+TCPMP supports many audio, video, and image formats, including AC3, HE-AAC, AMR, DivX, FLAC, H.263, H.264, JPEG, Monkey's Audio, MJPEG, MPEG-1, MP2, MP3, Musepack, MS-MPEG4-v3, PNG, Speex, TIFF, TTA, Vorbis, WAV, WavPack and XviD. It supports many container formats, including 3GP, ASF, AVI, Matroska, MPEG, OGG, OGM and QuickTime. Some formats, such as H.264, require a plugin, which may hamper performance.
+With a third-party plugin, TCPMP can support youtube videos and other flash video formats. [2]
+
+TCPMP began as an open source player for Windows CE and Windows Mobile called Betaplayer. In 2005 the development team ported it to the Palm OS, Windows and Symbian operating systems.
+
+CorePlayerX is the name of a web browser plug-in for Internet Explorer, Firefox, Netscape, Mozilla and Opera 9 for Windows. Support for Apple Mac OS X/Safari and Linux/Firefox was to be introduced in 2006.[citation needed]
+
+
+

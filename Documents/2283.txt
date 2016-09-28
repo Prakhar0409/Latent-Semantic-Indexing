@@ -1,0 +1,28 @@
+Personally identifiable information
+Personally Identifiable Information (PII), as used in information security, refers to information that can be used to uniquely identify, contact, or locate a single person or can be used with other sources to uniquely identify a single individual. The abbreviation (PII) is widely accepted, but the phrase it abbreviates has four common variants based on personal, personally, identifiable, and identifying. All are equivalent. The US government used personally identifiable in 2007 in a memorandum from the Office of the President [1], and that usage now appears in US standards such as the NIST Guide to Protecting the Confidentiality of Personally Identifiable Information[2] and is defined as:
+PII is defined in EU directive 95/46/EC:[3]
+Although the concept of PII is ancient, it has become much more important as information technology and the Internet have made it easier to collect PII, leading to a profitable market in collecting and reselling PII. PII can also be exploited by criminals to stalk or steal the identity of a person, or to plan a person's murder or robbery, among other crimes. As a response to these threats, many web site privacy policies specifically address the collection of PII, and lawmakers have enacted a series of legislation to limit the distribution and accessibility of PII.
+
+Items which might be considered PII include, but are not limited to, a person's:
+Information that is not generally considered personally identifiable, because they are traits shared by many people, include:
+When a person wishes to remain anonymous, descriptions of them will often employ several of the above, such as "a 34-year-old white man who works at Target". Note that information can still be private, in the sense that a person may not wish for it to become publicly known, without being personally identifiable. Moreover, sometimes multiple pieces of information, none of which are PII, may uniquely identify a person when brought together; this is one reason that multiple pieces of evidence are usually presented at criminal trials. It has been shown that 87% of the population in the United States is likely to be uniquely identified by only gender, date of birth and ZIP code.[4]
+
+Below are examples of legal frameworks affecting data privacy in several jurisdictions.
+
+
+Recently lawmakers have paid a great deal of attention to protecting a person's PII. One of the primary focuses of the Health Insurance Portability and Accountability Act (HIPAA), is to protect a patient's PII. The U.S. Senate has recently proposed the Privacy Act of 2005, which attempts to strictly limit the display, purchase, or sale of PII without the person's consent. Similarly, the Anti-phishing Act of 2005 attempts to prevent the acquiring of PII through phishing.
+U.S. lawmakers have paid special attention to the social security number because it can be easily used to commit identity theft. The Social Security Number Protection Act of 2005 and Identity Theft Prevention Act of 2005 each seek to limit the distribution of an individual's social security number.
+On the other hand, many businesses see this increasing load of legislation as excessive, an unnecessary expense, and a barrier to progress. The increasing complexity of the laws might force companies to consult a lawyer just to engage in simple business practices such as server logging, user registration, and credit checks. Some have predicted such measures may inhibit the industry as a whole, lowering wages and creating a barrier to entry. For this reason, a number of privacy laws stress the "acceptable uses" of PII, such as Massachusetts' Public Records Law and Fair Information Practices Act.
+State Laws
+Proposed Federal Bills
+Federal Law
+
+Further examples can be found on the EU privacy website.
+
+
+In forensics, the tracking down of the identity of a criminal, personally identifiable information is critical in zeroing in on the subject. Criminals will go to great trouble to avoid leaving any PII; they wear masks (faces and hair are PII), gloves (fingerprints are PII), clothing that covers personal marks (tattoos and scars are PII) and avoid writing anything in their own handwriting (handwriting can be PII). Also, more modern 'masks' may be used, such as using a proxy IP address to avoid being tracked online as easily.
+
+In some professions, it is dangerous for a person's identity to become known, because this information might be exploited violently by their enemies; for example, their enemies might hunt them down or kidnap loved ones to force them to cooperate. For this reason, the United States Department of Defense (DoD) has strict policies controlling release of PII of DoD personnel.[6] This is also the reason usually given in fiction for superheros and secret agents to disguise their faces and withhold their true identity.
+
+
+

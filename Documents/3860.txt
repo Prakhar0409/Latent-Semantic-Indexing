@@ -1,0 +1,22 @@
+Nominal Pipe Size
+Nominal Pipe Size (NPS) is a North American set of standard sizes for pipes used for high or low pressures and temperatures.[1] Pipe size is specified with two non-dimensional numbers: a nominal pipe size (NPS) based on inches, and a schedule (Sched. or Sch.). NPS is often incorrectly called National Pipe Size, due to confusion with national pipe thread (NPT). For other pipe size standards, see pipe (material) - sizes. The European designation equivalent to NPS is DN (diamètre nominal/nominal diameter), in which sizes are measured in millimetres.[2] The term NB (nominal bore) is also frequently used interchangeably with NPS.
+
+In March 1927, the American Standards Association authorized a committee to standardize the dimensions of wrought steel and wrought iron pipe and tubing. At that time only a small selection of wall thicknesses were in use: standard weight (STD), extra-strong (XS), and double extra-strong (XXS), based on the iron pipe size (IPS) system of the day. However these three sizes did not fit all applications. The committee surveyed the industry and created a system of schedule numbers that designated wall thicknesses based on smaller steps between sizes,[3] although IPS and NPS numbers remain equivalent.
+The original intent was that each schedule would relate to a given pressure rating, however the numbers deviated so far from wall thicknesses in common use that this original intent could not be accomplished.[3][4] Also, in 1939, it was hoped that the designations of STD, XS, and XXS would be phased out by schedule numbers, however those original terms are still in common use today (although sometimes referred to as standard, extra-heavy (XH), and double extra-heavy (XXH), respectively). Since the original schedules were created, there have been many revisions and additions to the tables of pipe sizes based on industry use and on standards from API, ASTM, and others.[3]
+Stainless steel pipes, which were coming into more common use in the mid 20th century, permitted the use of thinner pipe walls with much less risk of failure due to corrosion. By 1949 thinner schedules 5S and 10S, which were based on the pressure requirements modified to the nearest BWG number, had been created, and other "S" sizes followed later. Due to their thin walls, the smaller "S" sizes can not be threaded together according to ASME code, but must be fusion welded.[5]
+
+Based on the NPS and schedule of a pipe, the pipe outside diameter (OD) and wall thickness can be obtained from reference tables such as those below, which are based on ASME standards B36.10M and B36.19M. For example, NPS 14 Sch 40 has an OD of 14 inches and a wall thickness of 0.437 inches. However the NPS and OD values are not always equal, which can create confusion.
+The reason for the discrepancy for NPS ⅛ to 12 inches is that these NPS values were originally set to give the same inside diameter (ID) based on wall thicknesses standard at the time. However, as the set of available wall thicknesses evolved, the ID changed and NPS became only indirectly related to ID and OD.
+For a given NPS, the OD stays fixed and the wall thickness increases with schedule. For a given schedule, the OD increases with NPS while the wall thickness stays constant or increases. Using equations and rules in ASME B31.3 Process Piping, it can be shown that pressure rating decreases with increasing NPS and constant schedule.[4]
+Some specifications use pipe schedules called standard wall (STD), extra strong (XS), and double extra strong (XXS), although these actually belong to an older system called iron pipe size (IPS). The IPS number is the same as the NPS number. STD is identical to SCH 40S, and 40S is identical to 40 for NPS 1/8 to NPS 10, inclusive. XS is identical to SCH 80S, and 80S is identical to 80 for NPS 1/8 to NPS 8, inclusive. Different definitions exist for XXS, but it is generally thicker than schedule 160.
+The "S" designation, for example "NPS Sch 10S", most often indicates stainless steel pipes. However some stainless steel pipes are available in steel designations, so strictly speaking the "S" designation only differentiates B36.19M pipe from B36.10M pipe.[1]
+Both polyvinyl chloride pipe (PVC) and chlorinated polyvinyl chloride pipe (CPVC) are made in NPS sizes.
+
+
+
+
+
+Note: --- = size not designated.
+
+
+

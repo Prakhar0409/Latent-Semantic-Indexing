@@ -1,0 +1,20 @@
+Base 36
+Base 36 is a positional numeral system using 36 as the radix. The choice of 36 is convenient in that the digits can be represented using the Arabic numerals 0-9 and the Latin letters A-Z.[1] Base 36 is therefore the most compact case-insensitive alphanumeric numeral system using ASCII characters, although its radix economy is poor. (Compare with base 16 and base 64.)
+From a mathematical viewpoint, 36 is a convenient choice for a base in that it is divisible by both 2 and 3, and by their multiples 4, 6, 9, 12 and 18. Each base 36 digit can be represented as two base 6 digits.
+The most common latinate name for base 36 seems to be hexatridecimal, although sexatrigesimal would arguably be more correct. The intermediate form hexatrigesimal is also sometimes used. For more background on this naming confusion, see the entry for hexadecimal. Another name occasionally seen for base 36 is alphadecimal, a neologism coined based on the fact that the system uses the decimal digits and the letters of the Latin alphabet.
+
+Conversion table:
+
+Some numbers in decimal and base 36:
+
+
+32- and 64-bit integers will only hold up to 6 or 12 base-36 digits, respectively. For numbers with more digits, one can use the functions mpz_set_str and mpz_get_str in the GMP arbitrary-precision math library. For floating-point numbers the corresponding functions are called mpf_set_str and mpf_get_str.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Superformula
+The superformula is a generalization of the superellipse and was first proposed by Johan Gielis.
+Gielis suggested that the formula can be used to describe many complex shapes and curves that are found in nature. Others point out that the same can be said about many formulas with a sufficient number of parameters.
+In polar coordinates, with r the radius and φ the angle, the superformula is:
+
+The formula appeared in a work by Gielis. It was obtained generalizing the superellipse, named and popularized by Piet Hein, a Danish mathematician.
+
+
+
+
+A GNU_Octave program for generating these figures:
+
+It is possible to extend the formula to 3, 4, or n dimensions, by means of spherical product of superformulas. For example, the 3D parametric surface is obtained multiplying two superformulas S1 and S2. The coordinates are defined by the relations:
+where φ varies between -π/2 and π/2 (latitude) and θ between -π and π (longitude).
+
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+3D superformula: a=b=1; m, n1, n2 and n3 are shown in picture.
+
+A GNU_Octave program for generating these figures:
+
+

@@ -1,0 +1,25 @@
+Intel Active Management Technology
+Intel Active Management Technology (AMT) is hardware-based technology for remotely managing and securing PCs out-of-band.[1][2][3][4][5] Currently, Intel AMT is available in desktop PCs with Intel Core 2 processor with vPro technology and available in laptop PCs with Centrino or Centrino 2 platform with vPro technology.[1][6]
+
+Intel AMT is hardware and firmware technology that builds certain functionalities into business PCs in order to make the PCs easier and less expensive for businesses to monitor, maintain, update, upgrade, and repair.[1] Intel AMT is part of the Intel Management Engine, which is built into PCs with Intel vPro technology.[2] Intel AMT is designed into a secondary processor located on the motherboard.
+AMT is not intended to be used by itself; it is intended to be used with a software management application.[1] It gives a management application (and thus, the sys-admin who uses it) better access to the PC down the wire, in order to remotely and securely do tasks that are difficult or sometimes impossible when working on a PC that does not have remote functionalities built into it.[1][3][7][8]
+
+Hardware-based management is different from software-based management and software management agents.[1][2] Hardware-based management works at a different level than software applications, uses a communication channel (through the TCP/IP stack) that is different from software-based communication (which is through the software stack in the OS). Hardware-based management does not depend on the presence of an OS or locally installed management agent.
+
+Hardware-based management has been available in the past, but it has been limited to auto-configuration using DHCP or BOOTP for dynamic IP allocation and diskless workstations, as well as Wake On LAN (WOL) for remotely powering on systems.[9]
+The Intel AMT features give sys-admins access to remote-management and security features in a more secure environment (TLS-secured communication, for example, and strong encryption).[2]
+
+Intel AMT includes hardware-based remote management features, security features, power-management features, and remote-configuration features.[1][10] The features allow an IT tech to access an AMT PC when traditional techniques and methods to manage the PC are not available.[7]
+Access to the Intel AMT features relies on a hardware-based OOB communication channel.[1] Because the channel operates below the OS level, the channel is independent of the state of the OS (present, missing, corrupted, down). The communication channel is also independent of the PC’s power state, the presence of a management agent, and the state of many hardware components (such as hard disk drives and memory).
+Along with the communication channel, most AMT features are available OOB, regardless of PC power state.[1] Other features are available after the PC is powered up (such as console redirection via serial over LAN (SOL), agent presence checking, and network traffic filtering).[1] Because AMT has a remote power-up feature, a sys-admin can combine the OOB communication with the remote power-up feature and access PCs that were powered off at the start of the maintenance or service cycle.
+Hardware-based features can be combined with scripting to automate maintenance and service.[1]
+
+Hardware-based AMT features include:
+
+Laptops with AMT also include wireless technologies:
+
+Intel AMT is security and management technology that is built into PCs with Intel vPro technology.[1][9] PCs with Intel vPro include many other “platform” (general PC features) technologies and features:
+
+Almost all AMT features are available even if PC power is off, the OS is crashed, the software agent is missing, or hardware (such as a hard drive or memory) has failed.[1][2] The console-redirection feature (SOL), agent presence checking, and network traffic filters are available after the PC is powered up.[1][2]
+Intel AMT supports these management tasks:
+

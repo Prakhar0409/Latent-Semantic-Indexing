@@ -1,0 +1,38 @@
+Directory traversal
+A directory traversal (or path traversal) is to exploit insufficient security validation / sanitization of user-supplied input file names, so that characters representing "traverse to parent directory" are passed through to the file APIs.
+The goal of this attack is to order an application to access a computer file that is not intended to be accessible. This attack exploits a lack of security (the software is acting exactly as it is supposed to) as opposed to exploiting a bug in the code.
+Directory traversal is also known as the ../ (dot dot slash) attack, directory climbing, and backtracking. Some forms of this attack are also canonicalization attacks.
+
+A typical example of vulnerable application code is:
+An attack against this system could be to send the following HTTP request:
+Generating a server response such as:
+The repeated ../ characters after /home/users/phpguru/templates/ has caused include() to traverse to the root directory, and then include the UNIX password file /etc/passwd.
+UNIX /etc/passwd is a common file used to demonstrate directory traversal, as it is often used by crackers to try cracking the passwords.
+
+Directory traversal is trickier to prevent than it might seem. A "filter out known bad characters" protection strategy is likely to fail.
+There are many other factors involved that would determine whether a directory traversal would actually work. However, if the application does not validate the legitimacy of such parameters, it is quite likely that attackers may have some wiggle room to exploit this functionality for malicious purposes.
+Listed below are some known directory traversal attack strings:
+
+Common Unix-like directory traversal uses the ../ characters.
+
+Microsoft Windows or DOS directory traversal uses the ..\ characters.
+Today, many Windows programs or APIs also accept UNIX-like directory traversal characters.
+Each partition has a separate root directory (labeled C:\ for a particular partition C) and there is no common root directory above that. This means that for most directory vulnerabilities on Windows, the attack is limited to a single partition.
+
+Canonicalization problem.
+Some web applications scan query string for dangerous characters such as:
+to prevent directory traversal. However, the query string is usually URI decoded before use. Therefore these applications are vulnerable to percent encoded directory traversal such as:
+etc.
+
+Canonicalization problem.
+UTF-8 was noted as a source of vulnerabilities and attack vectors in Cryptogram Newsletter July 2000 by Bruce Schneier and Jeffrey Streifling.
+When Microsoft added unicode support to their Web server, a new way of encoding ../ was introduced into their code, causing their attempts at directory traversal prevention to be circumvented.
+Multiple percent encodings, such as
+translated into / or \ characters.
+Why? Percent encodings were decoded into the corresponding 8-bit characters by Microsoft webserver. This has historically been correct behavior as Windows and DOS traditionally used canonical 8-bit characters sets based upon ASCII.
+However, the original UTF-8 was not canonical, and several strings were now string encodings translatable into the same string. Microsoft performed the anti-traversal checks without UTF-8 canonicalization, and therefore not noticing that (HEX) C0AF and (HEX) 2F were the same character when doing string comparisons.
+
+A possible algorithm for preventing directory traversal would be to:
+
+
+

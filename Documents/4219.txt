@@ -1,0 +1,25 @@
+Open Database Connectivity
+In computing, Open Database Connectivity (ODBC) provides a standard software API method for using database management systems (DBMS). The designers of ODBC aimed to make it independent of programming languages, database systems, and operating systems.
+
+ODBC uses as its basis the various Call Level Interface (CLI) specifications from the SQL Access Group, X/Open (now part of The Open Group), and the ISO/IEC. Microsoft, in partnership with Simba Technologies, created ODBC by adapting the SQL Access Group CLI. It released ODBC 1.0 in September 1992. After ODBC 2.0, Microsoft decided to align ODBC 3.0 with the CLI specification making its way through X/Open and ISO. In 1995, SQL/CLI became part of the international SQL standard (ISO/IEC 9075-3 -- Information technology -- Database languages -- SQL -- Part 3: Call-Level Interface (SQL/CLI)).
+
+
+A JDBC-ODBC bridge consists of a JDBC driver which employs an ODBC driver to connect to a target database. This driver translates JDBC method calls into ODBC function calls. Programmers usually use such a bridge when a particular database lacks a JDBC driver. Sun Microsystems included one such bridge in the JVM, but viewed it as a stop-gap measure while few JDBC drivers existed. Sun never intended its bridge for production environments, and generally recommends against its use. Independent data-access vendors now[update] deliver JDBC-ODBC bridges which support current standards for both mechanisms, and which far outperform the JVM built-in.[citation needed]
+
+An ODBC-JDBC bridge consists of an ODBC driver which uses the services of a JDBC driver to connect to a database. This driver translates ODBC function calls into JDBC method calls. Programmers usually use such a bridge when they lack an ODBC driver for a particular database but have access to a JDBC driver.
+
+ODBC implementations run on many operating systems, including Microsoft Windows, Unix, Linux, OS/2, OS/400, IBM i5/OS, and Mac OS X. Hundreds of ODBC drivers exist, including drivers for Oracle, DB2, Microsoft SQL Server, Sybase, Pervasive SQL, IBM Lotus Domino, MySQL, PostgreSQL, and desktop database products such as FileMaker, and Microsoft Access.
+
+Microsoft released the first ODBC product as a set of DLLs for Microsoft Windows. As of 2006[update], Microsoft ships its own ODBC with every supported version of Windows: compare Microsoft Data Access Components.
+
+iODBC (Independent Open DataBase Connectivity) offers an open source, platform-independent implementation of both the ODBC and X/Open specifications, generally used on platforms other than Microsoft Windows. OpenLink Software maintains and supports the iODBC project and distributes its software under the LGPL and/or BSD License. Apple chose to bundle iODBC into Mac OS X and Darwin, starting with Darwin 6.0 and Mac OS X v10.2. Programmers have ported iODBC to several other operating systems and hardware platforms, including Mac OS 9, Linux (x86, x86-64, IA-64, Alpha, MIPS, and ARM), Solaris (SPARC and x86), AIX, HP-UX (PA-RISC and Itanium), Compaq Tru64, Digital UNIX, Dynix, Generic UNIX 5.4, FreeBSD, DG-UX, and OpenVMS.
+
+In the IBM i5/OS (formerly OS/400), IBM's DB2 implementation supports ODBC. The vendor provides ODBC Drivers for Windows and JDBC as part of the Server and Client Packages.
+
+The unixODBC project — headed, maintained and supported by Easysoft Director Nick Gorham — has become[update] the most common driver-manager for non-Microsoft Windows platforms (and for one Microsoft platform, Interix). It offered full ODBC3 support and Unicode in advance of its competitors. Most Linux distributions as of 2006[update] ship it, including Red Hat, Mandriva and Gentoo. Several vendors of commercial databases, including IBM (DB2, Informix), Oracle and SAP (Ingres) use it for their own drivers. It includes GUI support for both KDE and GNOME. Many open source projects — including OpenOffice.org and Glade — also make use of it. It builds on any platform that supports the GNU autoconf tools (in other words, most of them). For licensing, UnixODBC uses the LGPL and the GPL.
+
+UDBC, a cross-platform fusion of ODBC and the SAG CLI, enabled non-Windows-based DBMS-independent application development at a time when shared-library implementations on Unix occurred only sporadically. This effort laid the foundation for the iODBC open source project.
+
+
+
+

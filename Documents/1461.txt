@@ -1,0 +1,52 @@
+Antipodes
+The antipodes refer to lands and peoples located on the opposite side of the world compared to the speaker.[1] This has a general, linguistic meaning and a technical, geographical meaning.
+In geography, the antipodes (from Greek αντίποδες,[2] from anti- "opposed" and pous "foot"; pronounced /ænˈtɪpəˌdiːz/) of any place on Earth is its antipodal point; that is, the region on the Earth's surface which is diametrically opposite to it. Two points which are antipodal [ænˈtɪpədəl] to one another are connected by a straight line through the centre of the Earth.
+In the British Isles, "The Antipodes" is often used to refer to Australia and New Zealand, and occasionally South Africa and Zimbabwe, and "Antipodeans" to their inhabitants.[3] By contrast, under the geographical definition, the antipodes of the British Isles are in the Pacific Ocean, south of New Zealand. The antipodes of Australia are in the North Atlantic Ocean, while parts of Spain, Portugal, and Morocco are antipodal to New Zealand. The antipodes of South Africa and Zimbabwe are in the North Pacific Ocean, though as Southern Hemisphere ex-British Colonies, they are sometimes included as antipodeans in colloquial English.
+
+The antipodes of any place on the Earth is the place which is diametrically opposite it — so situated that a line drawn from the one to the other passes through the centre of the Earth and forms a true diameter. For example, the antipodes of New Zealand's lower North Island lies in Spain. Most of the earth's land surfaces have ocean at its antipodes, this being a consequence of most land being in the land hemisphere.
+An antipodal point is sometimes called an antipode, a back-formation from the plural antipodes, which in Greek is the plural of the singular antipous.
+The antipodes of any place on Earth must be distant from it by 180° of longitude, and must be as many degrees to the north of the equator as the original is to the south; in other words, the latitudes are numerically equal, but one is north and the other south. The map shown above is based on this relationship; it shows a Lambert azimuthal equal-area projection map of the Earth, in pink, overlaid on which is another map, in blue, shifted horizontally by 180° of longitude and inverted about the equator with respect to latitude. This map allows the antipodes of any point on the Earth to be easily located.
+Noon at the one place is midnight at the other (although daylight saving and irregularly-shaped time zones affect this in most places); seasonally, the longest day at one point corresponds to the shortest day at the other, and midwinter at one point is contemporaneous with midsummer at the other.
+In the calculation of days and nights, midnight on the one side may be regarded as corresponding to the noon either of the previous or of the following day. If a voyager sails eastward, and thus anticipates the sun, his dating will be twelve hours in advance, while the reckoning of another who has been sailing westward will be as much in arrears. There will thus be a difference of twenty-four hours between the two when they meet. To avoid the confusion of dates which would thus arise, it is necessary to determine a meridian at which dates should be brought into agreement, known as the International Date Line.
+
+If the coordinates (longitude and latitude) of a point on the Earth’s surface are (θ, φ), then the coordinates of the antipodal point can be written as (θ ± 180°,−φ). This relation holds true whether the Earth is approximated as a perfect sphere or as a reference ellipsoid.
+
+The Greek word is attested in Plato's dialogue Timaeus, already referring to a spherical Earth, explaining the relativity of the terms "above" and "below":
+For if there were any solid body in equipoise at the centre of the universe, there would be nothing to draw it to this extreme rather than to that, for they are all perfectly similar; and if a person were to go round the world in a circle, he would often, when standing at the antipodes of his former position, speak of the same point as above and below; for, as I was saying just now, to speak of the whole which is in the form of a globe as having one part above and another below is not like a sensible man.
+– Plato[4]
+The term is taken up by Aristotle (De caelo 308a.20), Strabo, Plutarch and Diogenes Laertius, and was adopted into Latin as antipodes. The Latin word changed its sense from the original "under the feet, opposite side" to "those with the feet opposite", i.e. a bahuvrihi referring to hypothetical people living on the opposite side of the Earth. Medieval illustrations imagine them in some way "inverted", with their feet growing out of their heads, pointing upward.
+In this sense, Antipodes first entered English in 1398 in a translation of the 13th century De Proprietatibus Rerum by Bartholomeus Anglicus, translated by John of Trevisa:
+Yonde in Ethiopia ben the Antipodes, men that haue theyr fete ayenst our fete.
+(Translation: Yonder in Ethiopia are the Antipodes, men that have their feet against our feet.) 
+The term plays a certain role in the discussion about the shape of the Earth. The antipodes being an attribute of a spherical Earth, some authors used their perceived absurdity as an argument for a flat Earth. However, knowledge of the spherical Earth being widespread even during the Dark Ages, only occasionally disputed on theological grounds, the medieval dispute surrounding the antipodes mainly concerned the question whether they were inhabited: since the torrid clime was considered impassable, it would have been impossible to evangelize them, posing a dilemma between two equally unacceptable possibilities that either Christ had appeared a second time in the antipodes, or that the inhabitants of the antipodes were irredeemably damned. Such an argument was forwarded by the Spanish theologian Tostatus as late as the 15th century. Saint Augustine (354–430) argued that since these people would have to be descended from Adam, and the equator had presumably always been impassable, no people could have come into the area.[5]
+The author of the Norwegian book Konungs Skuggsjá, from around 1250, discusses the existence of antipodes. He notes that they (if they exist) will see the Sun in the north in the middle of the day - and that they will have opposite seasons of the people living in the Northern Hemisphere.
+The earliest surviving account by a European who had visited the Southern Hemisphere is that of Marco Polo (who, on his way home in 1292, sailed south of the Malay Peninsula). He noted that it was impossible to see the star Polaris from there.
+The idea of dry land, inhabited or not, in the Southern climes, the Terra Australis was introduced by Ptolemy, and appears on European maps as an imaginary continent from the 15th century. In spite of having been discovered relatively late by European explorers, Australia was inhabited very early in human history, the ancestors of the Indigenous Australians having reached it at least 50,000 years ago.
+
+
+Around 71% of the earth's surface is covered by oceans, and seven eights of the earth's land is confined to the land hemisphere; thus the majority of locations on land do not have land-based antipodes.
+
+Exact or almost exact antipodes:
+
+To within 100 km, with at least one major city (pop ≥ 1 million):
+Taiwan (formerly called Formosa) is partly antipodal to the province of Formosa in Argentina.
+Other major cities or capitals close to being antipodes:
+
+Gibraltar is antipodal to a land location on Great Barrier Island about 130 km from Auckland, New Zealand. This illustrates the old bromide that the sun never set on the British Empire; the sun still does not set on the British Commonwealth.
+The northern part of New Caledonia, still an overseas territory of France, is antipodal to some thinly-populated desert in Mauritania, a part of the former French West Africa. Portions of Suriname, a former Dutch colony, are antipodal to Sulawesi, an Indonesian island known as Celebes when it was part of the Netherlands East Indies. As with the British Empire, the sun never set on either the French Empire nor the Dutch Empire at their peaks, either.
+Santa Vitória do Palmar, the most southerly town of more than 10,000 people in Brazil, is antipodal to Jeju Island, the southernmost territory of the Republic of Korea.
+The Big Island of Hawaii is antipodal to the Okavango Delta in Botswana.
+Desolate Kerguelen Island is antipodal to an area of thinly-inhabited plains on the border between the US state of Montana and the Canadian province of Saskatchewan.
+St. Paul Island and Amsterdam Island are antipodal to thinly-populated parts of the eastern part of the US state of Colorado.
+South Georgia Island is antipodal to the northernmost part of Sakhalin Island.
+Lake Baikal is partially antipodal to the Straits of Magellan.
+The Russian Antarctic research base Bellingshausen Station is antipodal to a land location in Russian Siberia.
+Rottnest Island, off the coast of Western Australia, is approximately antipodal to the island of Bermuda.
+Flores Island, the westernmost island of the Azores, is nearly antipodal to Flinders Island between Tasmania and the Australian mainland.
+Quito, Ecuador is antipodal to Pekanbaru, Indonesia.
+By definition, the North Pole and the South Pole are antipodes.
+
+
+
+
+

@@ -1,0 +1,14 @@
+Memento pattern
+The memento pattern is a software design pattern that provides the ability to restore an object to its previous state (undo via rollback).
+The memento pattern is used by two objects: the originator and a caretaker. The originator is some object that has an internal state. The caretaker is going to do something to the originator, but wants to be able to undo the change. The caretaker first asks the originator for a memento object. Then it does whatever operation (or sequence of operations) it was going to do. To roll back to the state before the operations, it returns the memento object to the originator. The memento object itself is an opaque object (one which the caretaker can not, or should not, change). When using this pattern, care should be taken if the originator may change other objects or resources - the memento pattern operates on a single object.
+Classic examples of the memento pattern include the seed of a pseudorandom number generator[clarification needed] and the state in a finite state machine.
+
+
+The following Actionscript 3 program illustrates the Memento Pattern.
+
+The following Java program illustrates the "undo" usage of the Memento Pattern.
+The output is:
+
+The following Ruby program illustrates the same pattern.
+
+

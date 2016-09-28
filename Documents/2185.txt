@@ -1,0 +1,15 @@
+PvPGN
+PvPGN (Player vs Player Gaming Network) is a free and open source software project offering emulation of various gaming network servers. It is published under the GPL and based upon bnetd. PvPGN was a recommended project of the month in the August 2005 issue of Linux+ magazine.
+It currently supports most features of all Battle.net clients (Diablo, Diablo II, Diablo II: Lord of Destruction, StarCraft, StarCraft: Brood War, Warcraft II: Battle.net Edition, Warcraft III: Reign of Chaos, Warcraft III: The Frozen Throne). It also offers basic support for Westwood Online clients (Command & Conquer: Tiberian Sun, Command & Conquer: Red Alert 2, Command & Conquer: Yuri's Revenge). Westwood Online support is still very experimental.
+A PvPGN Server can be used:
+
+The list of supported clients and their minimum version required is:
+
+
+PvPGN is written in C, and it currently is a highly scalable, mature piece of software, with records broken of over 21,000 real-time connections on the Ender server.
+
+Starting with PvPGN 1.99, PvPGN has been recoded in C++. This is an evolutionary not revolutionary process, thus the C code base is being converted to C++ one section at a time. This is not a fresh re-write. Also the new C++ branch is stored in an SVN repository as opposed to CVS.
+
+
+Many users of PvPGN seem to believe that click lag issues with PvPGN are relevant to the server, this is incorrect. Most Battle.Net games use a Peer-to-peer protocol which relies on independent hosting systems instead of a server like Counter-Strike Steam, which means the slowest peer on the network is the overall speed of every player.
+

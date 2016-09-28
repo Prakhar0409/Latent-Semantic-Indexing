@@ -1,0 +1,54 @@
+Feynman diagram
+In quantum field theory a Feynman diagram is an intuitive graphical representation of a contribution to the transition amplitude or correlation function of a quantum mechanical or statistical field theory.
+Within the canonical formulation of quantum field theory a Feynman diagram represents a term in the Wick's expansion of the perturbative S-matrix. The transition amplitude is the matrix element of the S-matrix between the initial and the final states of the quantum system.
+Alternatively, the path integral formulation of quantum field theory represents the transition amplitude as a weighted sum of all possible histories of the system from the initial to the final state, in terms of either particles or fields. A Feynman diagram is then a contribution of a particular class of particle paths, which join and split as described by the diagram.
+Feynman diagrams were developed by Richard Feynman, and are named after him.
+
+When calculating scattering cross sections in particle physics, the interaction between particles can be described by starting from a free field which describes the incoming and outgoing particles, and including an interaction Hamiltonian to describe how the particles deflect one another. The amplitude for scattering is the sum of each possible interaction history over all possible intermediate particle states. The number of times the interaction Hamiltonian acts is the order of the perturbation expansion, and the time-dependent perturbation theory for fields is known as the Dyson series. When the intermediate states at intermediate times are energy eigenstates, collections of particles with a definite momentum, the series is called old-fashioned perturbation theory.
+The Dyson series can be alternately rewritten as a sum over Feynman diagrams, where at each interaction vertex both the energy and momentum are conserved, but where the length of the energy momentum four vector is not equal to the mass. The Feynman diagrams are much easier to keep track of than old-fashioned terms, because the old-fashioned way treats the particle and antiparticle contributions as separate. Each Feynman diagram is the sum of exponentially many old fashioned terms, because each internal line can separately represent either a particle or an antiparticle. In a non-relativistic theory, there are no antiparticles and there is no doubling, so each Feynman diagram includes only one term.
+Feynman gave a prescription for calculating the amplitude for any given diagram from a field theory Lagrangian, the Feynman rules. Each internal line corresponds to a factor of the corresponding virtual particle's propagator; each vertex where lines meet gives a factor derived from an interaction term in the Lagrangian, and incoming and outgoing lines carry an energy, momentum, and spin.
+In addition to their value as a mathematical tool, Feynman diagrams provide deep physical insight into the nature of particle interactions. Particles interact in every way available; in fact, intermediate virtual particles are allowed to propagate faster than light. The probability of each final state is then obtained by summing over all such possibilities. This is closely tied to the functional integral formulation of quantum mechanics, also invented by Feynman–see path integral formulation.
+The naïve application of such calculations often produces diagrams whose amplitudes are infinite, because the short-distance particle interactions require a careful limiting procedure, to include particle self-interactions. The technique of renormalization, suggested by Ernst Stueckelberg and Hans Bethe and implemented by Feynman, Schwinger, and Tomonaga compensates for this effect and eliminates the troublesome infinities. After renormalization, calculations using Feynman diagrams match experimental results with very good accuracy.
+Feynman diagram and path integral methods are also used in statistical mechanics.
+
+Murray Gell-Mann always referred to Feynman diagrams as Stueckelberg diagrams, after a Swiss physicist, Ernst Stueckelberg, who devised a similar notation many years earlier. Stueckelberg was motivated by the need for a manifestly covariant formalism for quantum field theory, but did not provide as automated a way to handle symmetry factors and loops, although he was first to find the correct physical interpretation in terms of forward and backward in time particle paths, all without the path-integral.[1] Historically they were sometimes called Feynman-Dyson diagrams or Dyson graphs,[2] because when they were introduced the path integral was unfamiliar, and Freeman Dyson's derivation from old-fashioned perturbation theory was easier to follow for physicists trained in earlier methods.
+
+A Feynman diagram is a representation of quantum field theory processes in terms of particle paths. The particle trajectories are represented by the lines of the diagram, which can be squiggly or straight, with an arrow or without, depending on the type of particle. A point where lines connect to other lines is an interaction vertex, and this is where the particles meet and interact--- by emitting or absorbing new particles, deflecting one another, or changing type.
+There are three different types of lines: internal lines connect two vertices, incoming lines extend from "the past" to a vertex and represent an initial state, and outgoing lines extend from a vertex to "the future" and represent the final state. Sometimes, the bottom of the diagram is the past and the top the future; other times, the past is to the left and the future to the right. When calculating correlation functions instead of scattering amplitudes, there is no past and future and all the lines are internal. The particles then begin and end on little x's, which represent the positions of the operators whose correlation is being calculated.
+Feynman diagrams are a pictorial representation of a contribution to the total amplitude for a process which can happen in several different ways. When a group of incoming particles are to scatter off each other, the process can be thought of as one where the particles travel over all possible paths, including paths that go backward in time.
+Feynman diagrams are often confused with spacetime diagrams and bubble chamber images because they all describe particle scattering. Feynman diagrams are graphs that represent the trajectories of particles in intermediate stages of a scattering process. Unlike a bubble chamber picture, only the sum of all the Feynman diagrams represent any given particle interaction; particles do not choose a particular diagram each time they interact. The law of summation is in accord with the principle of superposition--- every diagram contributes a factor to the total amplitude for the process.
+
+A Feynman diagram represents a perturbative contribution to the amplitude of a quantum transition from some initial quantum state to some final quantum state.
+For example, in the process of electron-positron annihilation the initial state is one electron and one positron, the final state — two photons.
+The initial state is often assumed to be at the right of the diagram and the final state — at the left (although other conventions are also used quite often).
+A Feynman diagram consists of points, called vertexes, and lines attached to the vertexes.
+The particles in the initial state are depicted by lines sticking out in the direction of the initial state (e.g. to the right), the particles in the final state are represented by lines sticking out in the direction of the final state (e.g. to the left).
+In QED there are two types of particles: electrons/positrons (called fermions) and photons (called gauge bosons). They are represented in Feynman diagrams as follows:
+In a gauge theory (of which QED is a fine example) a vertex always has three lines attached to it: one bosonic line, one fermionic line with arrow toward the vertex, and one fermionic line with arrow away from the vertex.
+The vertexes might be connected by a bosonic or fermionic propagator. A bosonic propagator is represented by a wavy line connecting two vertexes (•~•). A fermionic propagator is represented by a solid line (with an arrow in one or another direction) connecting two vertexes, (•←•).
+The number of vertexes gives the order of the term in the perturbation series expansion of the transition amplitude.
+For example, this second order Feynman diagram contributes to a process (called electron-positron annihilation) where in the initial state (at the right) there is one electron (•←) and one positron (•→) and in the final state (at the left) there are two photons (~•).
+
+
+The probability amplitude for a transition of a quantum system from the initial state  to the final state  is given by the matrix element
+where S is the S-matrix.
+In the canonical quantum field theory the S-matrix is represented within the interaction picture by the perturbation series in the powers of the interaction Lagrangian,
+where Lv is the interaction Lagrangian and T signifies the time-product of operators.
+A Feynman diagram is a graphical representation of a term in the Wick's expansion of the time product in the n-th order term S(n) of the S-matrix,
+where N signifies the normal-product of the operators and  takes care of the possible sign change when commuting the fermionic operators to bring them together for a contraction (a propagator).
+
+The diagrams are drawn according to the Feynman rules which depend upon the interaction Lagrangian. For the QED interaction lagrangian, , describing the interaction of a fermionic field ψ with a bosonic gauge field Aμ, the Feynman rules can be formulated in coordinate space as follows:
+
+The second order perturbation term in the S-matrix is
+
+The Wick's expansion of the integrand gives (among others) the following term
+
+where
+
+is the electromagnetic contraction (propagator) in the Feynman gauge. This term is represented by the Feynman diagram at the right. This diagram gives contributions to the following processes:
+
+Another interesting term in the expansion is
+where
+is the fermionic contraction (propagator).
+
+In a path-integral, the field Lagrangian, integrated over all possible field histories, defines the probability amplitude to go from one field configuration to another. In order to make sense, the field theory should have a good ground 

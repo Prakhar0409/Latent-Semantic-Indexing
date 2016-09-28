@@ -1,0 +1,21 @@
+CPU socket
+A CPU socket or CPU slot is a connector on a motherboard that accepts a CPU and forms an electrical interface with it. As of 2007, most desktop and server computers, particularly those based on the Intel x86 architecture, include socketed processors.
+Most CPU-sockets interfaces are based on the pin grid array (PGA) architecture, in which short, stiff pins on the underside of the processor package mate with holes in the socket. To minimize the risk of bent pins, zero insertion force (ZIF) sockets allow the processor to be inserted without any resistance, then grip the pins firmly to ensure a reliable contact after a lever is flipped.
+As of 2007[update], land grid array (LGA) sockets are becoming increasingly popular, with several current and upcoming socket designs using this scheme. With LGA sockets, the socket contains pins that make contact with pads or lands on the bottom of the processor package. While not popular for many years, LGAs are not new; the Intel 80286 (introduced ca. 1983) was offered in a ceramic LGA version.
+In the late 1990s, many x86 processors fit into slots, rather than sockets. CPU slots are single-edged connectors similar to expansion slots, into which a PCB holding a processor is inserted. Slotted CPU packages offered two advantages: L2 cache memory could be upgraded by installing an additional chip onto the processor PCB, and processor insertion and removal was often easier.
+
+Many socket names containing three-digit numbers represent the number of pins on the processor or socket.
+
+Prior to Intel's introduction of the proprietary Slot 1 in 1997, CPU sockets were de facto open standards and were often used by multiple manufacturers.[1]
+
+
+
+
+
+
+
+
+
+
+
+

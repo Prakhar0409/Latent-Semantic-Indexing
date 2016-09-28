@@ -1,0 +1,15 @@
+Counting sort
+Counting sort (sometimes referred to as ultra sort or math sort[1]) is a sorting algorithm which (like bucket sort) takes advantage of knowing the range of the numbers in the array to be sorted (array A). It uses this range to create an array C of this length. Each index i in array C is then used to count how many elements in A have the value i. The counts stored in C can then be used to put the elements in A into their right position in the resulting sorted array. The algorithm was created by Harold H. Seward in 1954.
+
+Counting sort is a stable sort and has a running time of Θ(n+k), where n and k are the lengths of the arrays A (the input array) and C (the counting array), respectively. In order for this algorithm to be efficient, k must not be much larger than n.
+The indices of C must run from the minimum to the maximum value in A to be able to index C directly with the values of A. Otherwise, the values of A will need to be translated (shifted), so that the minimum value of A matches the smallest index of C. (Translation by subtracting the minimum value of A from each element to get an index into C therefore gives a counting sort. If a more complex function is used to relate values in A to indices into C, it is a bucket sort.) If the minimum and maximum values of A are not known, an initial pass of the data will be necessary to find these (this pass will take time Θ(n); see selection algorithm).
+The length of the counting array C must be at least equal to the range of the numbers to be sorted (that is, the maximum value minus the minimum value plus 1). This makes counting sort impractical for large ranges in terms of time and memory needed. Counting sort may for example be the best algorithm for sorting numbers whose range is between 0 and 100, but it is probably unsuitable for sorting a list of names alphabetically. However counting sort can be used in radix sort to sort a list of numbers whose range is too large for counting sort to be suitable alone.
+Because counting sort uses key values as indexes into an array, it is not a comparison sort, and the Ω(n log n) lower-bound for sorting is inapplicable.
+
+A well-known variant of counting sort is tally sort, where the input is known to contain no duplicate elements, or where we wish to eliminate duplicates during sorting. In this case the count array can be represented as a bit array; a bit is set if that key value was observed in the input array. Tally sort is widely familiar because of its use in the book Programming Pearls as an example of an unconventional solution to a particular set of limitations.[2]
+
+A summary of the algorithm is as follows.
+
+
+
+

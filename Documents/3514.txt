@@ -1,0 +1,40 @@
+Java Message Service
+The Java Message Service (JMS) API is a Java Message Oriented Middleware (MOM) API for sending messages between two or more clients. JMS is a part of the Java Platform, Enterprise Edition, and is defined by a specification developed under the Java Community Process as JSR 914.
+
+Messaging is a form of loosely coupled distributed communication, where in this context the term 'communication' can be understood as an exchange of messages between software components. Message-oriented technologies attempt to relax tightly coupled communication (such as TCP network sockets, CORBA or RMI) by the introduction of an intermediary component, which in this case would be a queue. The latter approach allows software components to communicate 'indirectly' with each other. Benefits of this include message senders not needing to have precise knowledge of their receivers, since communication is performed using the queue.
+
+
+The following are JMS elements: [1]
+
+The JMS API supports two models:
+In the point-to-point or queuing model, a sender posts messages to a particular queue and a receiver reads messages from the queue. Here, the sender knows the destination of the message and posts the message directly to the receiver's queue. It is characterized by the following:
+The publish/subscribe model supports publishing messages to a particular message topic. Subscribers may register interest in receiving messages on a particular message topic. In this model, neither the publisher nor the subscriber know about each other. A good metaphor for it is anonymous bulletin board. The following are characteristics of this model:
+Using Java, JMS provides a way of separating the application from the transport layer of providing data. The same Java classes can be used to communicate with different JMS providers by using the JNDI information for the desired provider. The classes first use a connection factory to connect to the queue or topic, and then use populate and send or publish the messages. On the receiving side, the clients then receive or subscribe to the messages.
+
+The JMS API is provided in the Java package javax.jms.
+
+An administered object that a client uses to create a connection to the JMS provider. JMS clients access the connection factory through portable interfaces so the code does not need to be changed if the underlying implementation changes. Administrators configure the connection factory in the Java Naming and Directory Interface (JNDI) namespace so that JMS clients can look them up. In version 1.0, Depending on the type of message, users will use either a queue connection factory or topic connection factory. In JMS version 1.1 these factories are merged into a single factory.
+
+Once a connection factory is obtained, a connection to a JMS provider can be created. A connection represents a communication link between the application and the messaging server. Depending on the connection type, connections allow users to create sessions for sending and receiving messages from a queue or topic.
+
+An administered object that encapsulates the identity of a message destination, which is where messages are delivered and consumed. It is either a queue or a topic. The JMS administrator creates these objects, and users discover them using JNDI. Like the connection factory, the administrator can create two types of destinations: queues for Point-to-Point and topics for Publish/Subscribe.
+
+An object created by a session. It receives messages sent from a destination. The consumer can receive messages synchronously (blocking) or asynchronously (non-blocking) for both queue and topic-type messaging.
+
+An object created by a session that sends messages to a destination. The user can create a sender to a specific destination or create a generic sender that specifies the destination at the time the message is sent.
+
+An object that is sent between consumers and producers; that is, from one application to another. A message has three main parts:
+The message interface is extremely flexible and provides numerous ways to customize the contents of a message..
+
+Represents a single-threaded context for sending and receiving messages. A session is single-threaded so that messages are serialized, meaning that messages are received one-by-one in the order sent. The benefit of a session is that it supports transactions. If the user selects transaction support, the session context holds a group of messages until the transaction is committed, then delivers the messages. Before committing the transaction, the user can cancel the messages using a rollback operation. A session allows users to create message producers to send messages, and message consumers to receive messages. [2]
+
+In order to use JMS, one must have a JMS provider that can manage the sessions and queues. There are free, open source and proprietary providers.
+
+Articles about open source providers:
+
+Articles about proprietary providers:
+An exhaustive comparison matrix of JMS providers is available at: http://www.theserverside.com/reviews/matrix.tss (out of date)
+All Java EE application servers from version 1.4 and later are required to contain a JMS provider. This can be implemented using the message inflow management of the Java EE Connector Architecture, which was first made available in version 1.4.
+
+
+Other types of messaging technologies, which do not implement the JMS API:

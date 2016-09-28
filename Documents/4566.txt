@@ -1,0 +1,23 @@
+VY Canis Majoris
+VY Canis Majoris (VY CMa) is a red hypergiant star located in the constellation Canis Major. With a size of up to about 2,100 solar radii, it is possibly the largest known star and also one of the most luminous known. It is located about 1.5 kiloparsecs (4.6×1019 m) or about 4,900 light years away from Earth. Unlike most stars, which occur in either binary or multiple star systems, VY CMa is a single star and does not have any stellar companions. It is categorized as a semiregular variable and has an estimated period of 2,000 days.[4]
+
+The first known record of VY Canis Majoris is in the star catalogue of Jérôme Lalande, on March 7, 1801. The catalogue listed VY CMa as a 7th magnitude star. Further studies on its apparent magnitude during the 19th century showed that the star has been fading since 1850.[11]
+Since 1847, VY CMa has been known to be a red star.[11]
+During the 19th century, observers measured at least six discrete components to VY CMa, suggesting the possibility that it is a multiple star. These discrete components are now known to be bright areas in the surrounding nebula. Visual observations in 1957 and high-resolution imaging in 1998 showed that VY CMa does not have a companion star.[11][6]
+VY CMa is a high-luminosity M star with an effective temperature of about 3,000 K, placing it at the upper-right hand corner of the Hertzsprung–Russell diagram and suggesting that it is a highly evolved star. During its main sequence, it would have been an O star[10] with a mass of about 30 to 40 M☉.[6]
+
+Stellar distances can be calculated by measuring parallaxes as the Earth orbits around the Sun. However, VY CMa has a tiny parallax with a high margin of error, which makes it unreliable to calculate its distance using this method.[12]
+In 1976, Charles J. Lada and Mark J. Reid published the discovery of a bright-rimmed molecular cloud 15 minutes of arc east of VY CMa. At the edge of the cloud bordered by the bright rim, an abrupt decrease in the CO emission and an increase in brightness of the 12CO emission were observed, indicating possible destruction of molecular material and enhanced heating at the cloud-rim interface, respectively. Lada and Reid assumed the distance of the molecular cloud is approximately equal to that of the stars, which are members of open cluster NGC 2362, that ionize the rim. NGC 2362 has a distance of 1.5 ± 0.5 kpc as determined from its color-magnitude diagram.[10]
+VY CMa is projected onto the tip of the rim, suggesting its association with the molecular cloud. In addition to that, the velocity of the molecular cloud is very close to the velocity of the star. This further indicates the association of the star with the molecular cloud, and consequently with NGC 2362, which means VY CMa is also at a distance of 1.5 kpc.[5]
+
+University of Minnesota professor Roberta M. Humphreys[13] estimates the radius of VY CMa at 1,800 to 2,100 solar radii.[8] To illustrate, if our Sun were replaced by VY Canis Majoris, its surface might extend to the orbit of Saturn. Assuming the upper size limit of 2100 solar radii, light would take more than 8 hours to travel around the star's circumference, as opposed to 14.5 seconds for the sun. It would take over 7,000,000,000,000,000 (7 Quadrillion) earths to fill VY Canis Majoris. The diameter of VY Canis majoris is Est. 3,063,500,000 km.
+
+In 2006, Humphreys used the spectral energy distribution and distance of VY CMa to calculate its luminosity. Since most of the radiation coming from the star is reprocessed by the dust in the surrounding cloud, she integrated the total fluxes over the entire nebula and showed that VY CMa has a luminosity of 4.3×105 L☉[8].
+
+There are two controversial opinions of the properties of VY CMa. In one view (such as Roberta M. Humphreys' study[8]), the star is a very large and very luminous red hypergiant. In another opinion (such as Massey, Levesque, & Plez's study[15]), the star is a normal red supergiant, with a radius around 600 solar radii. In this case, its surface would extend well past the orbit of Mars.
+Like its size, the luminosity of VY CMa is also the subject of doubt. Humphreys contests that visual photometry is not sufficient for stars with enough circumstellar dust to reprocess the visual and red fluxes into the thermal infrared.[8]
+
+
+
+
+Coordinates:  

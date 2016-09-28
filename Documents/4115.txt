@@ -1,0 +1,20 @@
+Medical Subject Headings
+Medical Subject Headings (MeSH) is a comprehensive controlled vocabulary for the purpose of indexing journal articles and books in the life sciences; it can also serve as a thesaurus that facilitates searching. Created and updated by the United States National Library of Medicine (NLM), it is used by the MEDLINE/PubMed article database and by NLM's catalog of book holdings.
+MeSH can be browsed and downloaded free of charge on the Internet. The yearly printed version was discontinued in 2007. Originally in English, MeSH has been translated into numerous other languages and allows retrieval of documents from different languages.
+
+The 2008 version of MeSH contains a total of 24,767 subject headings, also known as descriptors. Most of these are accompanied by a short description or definition, links to related descriptors, and a list of synonyms or very similar terms (known as entry terms). Because of these synonym lists, MeSH can also be viewed as a thesaurus.
+
+The descriptors or subject headings are arranged in a hierarchy. A given descriptor may appear at several places in the hierarchical tree. The tree locations carry systematic labels known as tree numbers, and consequently one descriptor can carry several tree numbers. For example, following the graphic at the right, C stands for Diseases, C06 for Digestive System Diseases and C06.301 for Digestive System Neoplasms; C04 for Neoplasms, C04.588 for Neoplasms By Site, and C04.588.274 is a second tree number for Digestive System Neoplasms. As seen from the graphic, Stomach Neoplasms appears in four locations in the hierarchy and therefore carries four different tree numbers. The tree numbers of a given descriptor are subject to change as MeSH is updated. Every descriptor also carries a unique alphanumerical ID that will not change.
+
+Most entries come with a short description or definition. See the MeSH description for diabetes type 2 as an example. The explanatory text is written by the MeSH team based on their standard sources [1] if not otherwise stated. References are mostly encyclopaedias and standard textbooks of the subject areas. References for specific statements in the descriptions are not given, instead readers are referred to the bibliography.
+
+In addition to the descriptor hierarchy, MeSH contains a small number of standard qualifiers (also known as subheadings), which can be added to descriptors to narrow down the topic. For example, "Measles" is a descriptor and "epidemiology" is a qualifier; "Measles/epidemiology" describes the subheading of epidemiological articles about Measles. The "epidemiology" qualifier can be added to all other disease descriptors. Not all descriptor/qualifier combinations are allowed since some of them may be meaningless. In all there are 83 different qualifiers.
+
+In addition to the descriptors, MeSH also contains some 139,000 Supplementary Concept Records. These do not belong to the controlled vocabulary as such and are not used for indexing MEDLINE articles; instead they enlarge the thesaurus and contain links to the closest fitting descriptor to be used in a MEDLINE search. Many of these records describe chemical substances.
+
+In MEDLINE/PubMed, every journal article is indexed with some 10-15 headings or subheadings, with one or two of them designated as major and marked with an asterisk. When performing a MEDLINE search via PubMed, entry terms are automatically translated into the corresponding descriptors (see Details tab in PubMed). Furthermore, by default a search will include all the descriptors that are located below the given one in the hierarchy.
+
+The top level categories in the MeSH descriptor hierarchy are:
+The full hierarchy can be found at Wikipedia:MeSH
+
+

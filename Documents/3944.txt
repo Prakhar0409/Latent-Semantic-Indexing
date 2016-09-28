@@ -1,0 +1,39 @@
+Okurigana
+Okurigana (送り仮名 ,accompanying letters?) are kana suffixes following kanji stems in Japanese written words. Generally used to inflect an adjective or verb, okurigana can indicate aspect (perfective versus imperfective), affirmative or negative meaning, or grammatical politeness, among many other functions. In modern usage, okurigana are almost invariably written with hiragana; katakana were also commonly used in the past.
+Kanji
+Kana
+Uses
+
+Adjectives in Japanese use okurigana to indicate aspect and affirmation-negation, with all adjectives using the same pattern of suffixes for each case. A simple example uses the character 高 (high) to express the four basic cases of a Japanese adjective. The root meaning of the word is expressed via the kanji (高, read taka and meaning "high" in each of these cases), but crucial information (aspect and negation) can only be understood by reading the okurigana following the kanji stem.
+Japanese verbs follow a similar pattern; the root meaning is generally expressed by using one or more kanji at the start of the word, with aspect, negation, grammatical politeness, and other language features expressed by following okurigana.
+Compare the direct polite verb forms to their distant forms, which follow a similar pattern, but whose meaning indicates more distance between the speaker and the listener:
+
+
+The okurigana for group I verbs (五段動詞 godan dōshi, also known as u-verbs) usually begin with the final mora of the dictionary form of the verb. 飲む no-mu to drink, 頂く itada-ku to receive, 養う yashina-u to cultivate, 練る ne-ru to twist.
+For group II verbs (一段動詞 ichidan dōshi, also known as ru-verbs) the okurigana begin at the mora preceding the last, unless the word is only two morae long. 妨げる samata-geru to prevent, 食べる ta-beru to eat, 占める shi-meru to comprise, 寝る ne-ru to sleep, 着る ki-ru to wear
+If the verb has different variations, such as transitive and intransitive forms, then the shortest reading of the kanji is used for all related words. 閉める shi-meru to close (transitive), 閉まる shi-maru to close (intransitive), 落ちる o-chiru to fall, 落とす o-tosu to drop
+Distinctions are also made to differentiate between readings. 脅かす obiya-kasu to threaten (mentally), 脅す odo-su to threaten (physically)
+
+Most adjectives ending in -i (true adjectives) have okurigana starting from the -i. 安い yasu-i, 高い　taka-i, 赤い aka-i
+Okurigana starts from shi for adjectives ending in -shii. 楽しい tano-shii, 著しい ichijiru-shii, 貧しい mazu-shii
+Exceptions occur when the adjective also has a verbal form. In this case, as above, the reading of the character is kept constant. 暖める atata-meru (verb), 暖かい atata-kai (adjective), 頼む tano-mu, 頼もしい tano-moshii
+As with verbs, okurigana is used to distinguish between readings. 細い hoso-i, 細かい koma-kai, 大いに　oo-ini, 大きい oo-kii
+Na-adjectives (adjectival verbs) that end in -ka have okurigana from the ka. 静か shizu-ka, 豊か yuta-ka, 愚か oro-ka
+
+The last mora of an adverb is usually written as okurigana. 既に sude-ni, 必ず kanara-zu, 少し suko-shi
+
+Nouns do not normally have okurigana. 月 tsuki, 魚 sakana, 米 kome.
+However, if the noun is derived from a verb or adjective, it may take the same okurigana, although some may be omitted in certain cases. 当たり a-tari, 怒り ika-ri, 釣り tsu-ri
+For some nouns it is obligatory to omit the okurigana, despite having a verbal origin. 話 hanashi, 氷 koori, 畳 tatami
+The noun form of the corresponding verb does take okurigana.
+話し hana-shi is the nominal form of the verb 話す hana-su, and not the noun 話 hanashi.
+Some nouns have okurigana by convention. 兆し kiza-shi, 幸い saiwa-i, 勢い ikio-i
+
+Okurigana may be omitted if there is no ambiguity in meaning or reading. 受け付け u-ke tsu-ke, 受付 uke tsuke, 行き先 i-ki saki, 行先 iki saki
+
+There are however exceptions to these rules that must be learnt: okurigana that has become standard by convention rather than logic. 明るい aka-rui, 恥ずかしい ha-zukashii
+
+Okurigana are also used to disambiguate kanji that have multiple readings. Since kanji, especially the most common ones, can be used for words with many (usually similar) meanings — but different pronunciations — key okurigana placed after the kanji help the reader to know which meaning and reading were intended.
+Disambiguation examples include common verbs which use the characters 上 (up) and 下 (down):
+Another example includes a common verb with different meanings based on the okurigana:
+While the Japanese Ministry of Education prescribes rules on how to use okurigana, in practice there is much variation, particularly in older texts and online. As an example, the standard spelling of the word kuregata is 暮れ方, but it will sometimes be seen as 暮方.

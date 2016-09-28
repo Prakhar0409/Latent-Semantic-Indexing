@@ -1,0 +1,25 @@
+Boustrophedon
+Boustrophedon (pronounced /ˌbaʊstroʊˈfiːdən/ or IPA: /ˌbuːstroʊˈfiːdən/; from Greek βουστροφηδόν "ox-turning"—that is, turning like oxen in ploughing), is an ancient way of writing manuscripts and other inscriptions.
+Rather than going from left to right as in modern English, or right to left as in Hebrew and Arabic, alternate lines must be read in opposite directions.
+The name is borrowed from the Greek language. Its etymology is from βούς - bous, "ox" + στρέφειν - strefein, "to turn" (cf. strophe), because the hand of the writer goes back and forth like an ox drawing a plow across a field and turning at the end of each row to return in the opposite direction (i.e., "as the ox ploughs").
+
+Many ancient scripts, such as Safaitic, were frequently or typically written boustrophedon, but in Greek it is found most commonly on pre-historic and archaic inscriptions, becoming less and less popular throughout the Hellenic period.
+By analogy, the term may be used in other areas to describe this kind of alternation of motion or writing. For example, it is occasionally used to describe the print head motion of certain dot matrix computer printers. In that case, while the print head moves in opposite directions on alternate lines, the printed text is not in boustrophedon format.[1].
+
+
+
+The wooden boards and other incised artifacts of Rapa Nui also bear a boustrophedonic script called Rongorongo, which remains undeciphered. In Rongorongo the text in alternate lines was rotated 180 degrees rather than mirrored; this is termed reverse boustrophedon.
+
+
+
+The Egyptian language represented with hieroglyph texts and wall reliefs, is the major hieroglyphic language from antiquity; the only other language that also had a hieroglyph version, was the Luwian language and its hieroglyphic Luwian, read boustrophedon; (most of the language was in cuneiform). Other languages that appear to have 'hieroglyphs' are explained as glyphs that make up a language with "script characters" or sets, (with some characters that are virtually identical to varieties of hieroglyphs).
+The Hieroglyphic Luwian is read boustrophedon into the front of animals, or body parts. However unlike Egyptian hieroglyphs with their numerous ideograms and logograms which show an easy directionality, the lineal direction of the text in hieroglyphic Luwian is harder to see.
+
+The constructed language Ithkuil uses a boustrophedon script.
+A modern example of boustrophedonics is the numbering scheme of sections within survey townships in the United States and Canada. In both countries, survey townships are divided into a 6-by-6 grid of 36 sections. In the U.S. Public Land Survey System, Section 1 of a township is in the northeast corner, and the numbering proceeds boustrophedonically until Section 36 is reached in the southeast corner. Canada's Dominion Land Survey also uses boustrophedonic numbering, but starts at the southeast corner.
+The term is used by postmen in the United Kingdom to describe street numbering which proceeds serially in one direction then turns back in the other. This is in contrast to the more common method of odd and even numbers on opposite sides of the street.
+Another example is the boustrophedon transform, known in mathematics.
+Yet another example is the antiparallel structure of DNA. Sense and antisense strands of DNA are commonly written in boustrophedon.
+
+
+

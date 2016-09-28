@@ -1,0 +1,10 @@
+Kano model
+The Kano model is a theory of product development and customer satisfaction developed in the 80's by Professor Noriaki Kano which classifies customer preferences into five categories:
+These categories have been translated into English using various different names (delighters/exciters, satisfiers, dissatisfiers, etc.), but all refer to the original articles written by Kano.
+
+The Kano model offers some insight into the product attributes which are perceived to be important to customers. The purpose of the tool is to support product specification and discussion through better development team understanding. Kano's model focuses on differentiating product features, as opposed to focusing initially on customer needs. Kano also produced a methodology for mapping consumer responses to questionnaires onto his model.
+
+Quality Function Deployment (QFD) makes use of the Kano model in terms of the structuring of the Comprehensive QFD matrices. Mixing Kano types in QFD matrices can lead to distortions in the customer weighting of product characteristics. For instance, mixing Must-Be product characteristics --such as cost, reliability, workmanship, safety, and technologies used in the product--in the initial House of Quality will usually result in completely filled rows and columns with high correlation values. Other Comprehensive QFD techniques using additional matrices are used to avoid such issues. Kano's model provides the insights into the dynamics of customer preferences to understand these methodology dynamics.
+
+
+

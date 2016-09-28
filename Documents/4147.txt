@@ -1,0 +1,20 @@
+PulseAudio
+PulseAudio (formerly PolypAudio) is a cross-platform, networked sound server project. It is intended to be an improved drop-in replacement for the Enlightened Sound Daemon (ESD).
+PulseAudio runs under Microsoft Windows and POSIX-compliant systems like Linux. PulseAudio is free software released under the terms of the GNU Lesser General Public License (for the software library portion) and the GNU General Public License (for the sound server itself).
+
+PulseAudio is a sound server, a background process accepting sound input from one or more sources (processes or capture devices) and redirecting it to one or more sinks (sound cards, remote network PulseAudio servers, or other processes).
+One of the goals of PulseAudio is to reroute all sound streams through it, including those from processes that attempt to directly access the hardware (like legacy OSS applications). PulseAudio achieves this by providing adapters to applications using other audio systems, like aRts and ESD.
+In a typical installation scenario under Linux, the user configures ALSA to use a virtual device provided by PulseAudio. Thus, applications using ALSA will output sound to PulseAudio, which then uses ALSA itself to access the real sound card. PulseAudio also provides its own native interface to applications that want to support PulseAudio directly, as well as a legacy interface for ESD applications, making it suitable as a drop-in replacement for ESD.
+For OSS applications, PulseAudio provides the padsp utility, which replaces device files such as /dev/dsp, tricking the applications into believing that they have exclusive control over the sound card. In reality, their output is rerouted through PulseAudio.
+
+The main PulseAudio features include:
+
+PulseAudio is used in recent versions of several major linux distributions such as Fedora, Ubuntu and openSUSE. There is also growing support for PulseAudio in the GNOME project.
+When first adopted by the distributions PulseAudio developer Lennart Poettering described it as "the software that currently breaks your audio". [2] Poettering later claimed that "Ubuntu didn't exactly do a stellar job---they didn't do their homework" in adopting PulseAudio[3] for Ubuntu 8.04.
+
+ALSA provides a software mixer called dmix, which was developed prior to PulseAudio. This is enabled by default on many Linux distributions and requires less resource overhead, although it does not provide the advanced features (resampling, device aggregation and network audio) of PulseAudio.
+The modern implementations of the Open Sound System such as that by 4Front also provide software mixing, resampling and changing the volume on a per-application basis. These have a lower overhead than PulseAudio, but lack some advanced features.
+PulseAudio can also interoperate with existing legacy sound systems, including those that were designed to exclusively lock the sound card.
+
+
+

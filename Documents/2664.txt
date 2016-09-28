@@ -1,0 +1,30 @@
+Adder (electronics)
+
+In electronics, an adder or summer is a digital circuit that performs addition of numbers. In modern computers adders reside in the arithmetic logic unit (ALU) where other operations are performed. Although adders can be constructed for many numerical representations, such as Binary-coded decimal or excess-3, the most common adders operate on binary numbers. In cases where twos complement or ones complement is being used to represent negative numbers, it is trivial to modify an adder into an adder-subtracter. Other signed number representations require a more complex adder.
+
+For single bit adders, there are two general types.
+A half adder has two inputs, generally labelled A and B, and two outputs, the sum S and carry C. S is the two-bit XOR of A and B, and C is the AND of A and B. Essentially the output of a half adder is the sum of two one-bit numbers, with C being the most significant of these two outputs.
+A full adder has three inputs - A, B, and a carry in C, such that multiple adders can be used to add larger numbers. To remove ambiguity between the input and output carry lines, the carry in is labelled Ci or Cin while the carry out is labelled Co or Cout.
+
+A half adder is a logical circuit that performs an addition operation on two binary digits. The half adder produces a sum and a carry value which are both binary digits.
+The drawback of this circuit is that in case of a multibit addition, it cannot include a carry.
+Following is the logic table for a half adder:
+
+A full adder is a logical circuit that performs an addition operation on three binary digits. The full adder produces a sum and carry value, which are both binary digits. It can be combined with other full adders (see below) or work on its own.
+Note that the final OR gate before the carry-out output may be replaced by an XOR gate without altering the resulting logic. This is because the only discrepancy between OR and XOR gates occurs when both inputs are 1; for the adder shown here, this is never possible. Using only two types of gates is convenient if one desires to implement the adder directly using common IC chips.
+A full adder can be constructed from two half adders by connecting A and B to the input of one half adder, connecting the sum from that to an input to the second adder, connecting Ci to the other input and OR the two carry outputs. Equivalently, S could be made the three-bit xor of A, B, and Ci and Co could be made the three-bit majority function of A, B, and Ci. The output of the full adder is the two-bit arithmetic sum of three one-bit numbers.
+
+
+It is possible to create a logical circuit using multiple full adders to add N-bit numbers. Each full adder inputs a Cin, which is the Cout of the previous adder. This kind of adder is a ripple carry adder, since each carry bit "ripples" to the next full adder. Note that the first (and only the first) full adder may be replaced by a half adder.
+The layout of ripple carry adder is simple, which allows for fast design time; however, the ripple carry adder is relatively slow, since each full adder must wait for the carry bit to be calculated from the previous full adder. The gate delay can easily be calculated by inspection of the full adder circuit. Following the path from Cin to Cout shows 2 gates that must be passed through. Therefore, a 32-bit adder requires 31 carry computations and the final sum calculation for a total of 31 * 2 + 1 = 63 gate delays.
+
+To reduce the computation time, engineers devised faster ways to add two binary numbers by using carry lookahead adders. They work by creating two signals (P and G) for each bit position, based on whether a carry is propagated through from a less significant bit position (at least one input is a '1'), a carry is generated in that bit position (both inputs are '1'), or if a carry is killed in that bit position (both inputs are '0'). In most cases, P is simply the sum output of a half-adder and G is the carry output of the same adder. After P and G are generated the carries for every bit position are created. Some advanced carry lookahead architectures are the Manchester carry chain and the Brent-Kung adder.
+Some other multi-bit adder architectures break the adder into blocks. It is possible to vary the length of these blocks based on the propagation delay of the circuits to optimize computation time. These block based adders include the carry bypass adder which will determine P and G values for each block rather than each bit, and the carry select adder which pre-generates sum and carry values for either possible carry input to the block.
+Other adder designs include the conditional sum adder, carry skip adder, and carry complete adder.
+
+By combining multiple carry look-ahead adders even larger adders can be created. This can be used at multiple levels to make even larger adders. For example, the following adder is a 64-bit adder that uses 4 16-bit CLAs with two levels of LCUs.
+
+We can view a full adder as a 3:2 compressor: it sums three one-bit inputs, and returns the result as a single two-bit number. Thus, for example, an input of 101 results in an output of 1+0+1=10 (2). The carry-out represents bit one of the result, while the sum represents bit zero. Likewise, a half adder can be used as a 2:2 compressor.
+3:2 compressors can be used to speed up the summation of three or more addends. If the addends are exactly three, the layout is known as the carry-save adder. If the addends are four or more, more than one layer of compressors is necessary and there are various possible design for the circuit: the most common are Dadda and Wallace trees. This kind of circuit is most notably used in multipliers, which is why these circuits are also known as Dadda and Wallace multipliers.
+
+

@@ -1,0 +1,9 @@
+Cygwin/X
+Cygwin/X is an implementation of the X Window System that runs under Microsoft Windows. It is part of the Cygwin project, and is installed using Cygwin's standard setup system. As with the rest of Cygwin, Cygwin/X is free software, licensed under the X11 License.
+Cygwin/X originally used XFree86, but now uses the X.Org Server, owing to concerns over XFree86's new software license not being compatible with the GPL.
+After a long pause after a release on 8 July 2005, the project appears to have been revitalised and the developers have released a version based on the X.org modular 7.4 release on 12 November 2008.
+
+Cygwin/X can run "rootless" - meaning it allows X applications to draw their windows directly onto the normal Windows desktop, rather than into an enclosing root window.
+Cygwin/X can either execute local applications of UNIX type on the local machine, or connect to a remote computer where a Unix-like operating system is running.
+
+

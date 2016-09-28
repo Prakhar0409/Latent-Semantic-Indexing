@@ -1,0 +1,12 @@
+KISS principle
+The KISS principle. KISS is originally an acronym for "Keep it Simple, Stupid"[1], or the more polite "Keep it Short and Simple". KISS states that design simplicity should be a key goal and that unnecessary complexity should be avoided.
+
+The principle is somewhat similar to Occam's razor, and Albert Einstein's maxim that "everything should be made as simple as possible, but no simpler."[2], Leonardo Da Vinci's "Simplicity is the ultimate sophistication", or Antoine de Saint Exupéry's "It seems that perfection is reached not when there is nothing left to add, but when there is nothing left to take away".
+Colin Chapman, as Lotus founder, urged his designers to "Simplify, and add lightness".
+Rube Goldberg machines illustrate the sorts of problems that may arise with "non-KISS," overly-complex solutions.
+Instruction creep and function creep are examples of failure to follow the KISS principle in software development. This is known as "Creeping Featurism".
+Keep it short and sweet, an advice to copy editors, is not normally abbreviated.[3]
+
+Master animator Richard Williams explains the KISS Principle in his book The Animator's Survival Kit, and Disney's Nine Old Men write about it in Disney Animation: The Illusion of Life, which is considered "the animation bible" by CG, traditional and stop motion animators. Inexperienced animators may "overanimate", or make their character move too much and do too much, such as carrying every accent over into body language, facial expression, and lipsync. Williams urges animators to "KISS".
+
+

@@ -1,0 +1,9 @@
+International Bitterness Units scale
+The International Bitterness Units scale, or simply IBU scale, provides a measure of the bitterness of beer, which is provided by the hops used during brewing. Bittering units are measured through the use of a spectrophotometer and solvent extraction. [1]
+This technique was adopted at the same time as another method based on measuring the concentration (in milligrams per liter; parts per million w/v) of isomerized α acids in a beer, causing some confusion among small-scale brewers. [2] The American Society of Brewing Chemists, in the introduction to its methods on measuring bitterness, points out some differences between the results of the two methods:
+While the results of the IAA [isomerized α acids] methods are practically identical to those obtained by the [I]BU method for beer brewed with fresh hops, the IAAs of beer brewed with old or poorly stored hops, and with certain special hop extracts, can be significantly lower than the [I]BU figure. [1]
+The bittering effect is less noticeable in beers with a high quantity of malt, so a higher IBU is needed in heavier beers to balance the flavor. For example, an Imperial Stout may have an IBU of 50, but will taste less bitter than an English Bitter with an IBU of 30, because the latter beer uses much less malt than the former. The technical limit for IBU's is around 100; some have tried to surpass this number, but there is no real gauge after 100 IBUs when it comes to taste threshold.
+A light American lager might be as low as 5 on the scale, while barley wines, India pale ales, or imperial stouts can range up to 100 or higher. Measures for other beverages include:
+A formula craft brewers use to estimate IBU is:
+There are several different methods for finding Uaa, which can yield very different results. Generally, Uaa increases with longer boiling times and decreases with higher boil density.
+

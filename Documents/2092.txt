@@ -1,0 +1,12 @@
+List of information graphics software
+This is a list of software to create any kind of information graphics:
+
+
+
+
+
+Graphing functionality is included in almost all spreadsheet programs. Some well-known examples are:
+Some online spreadsheets also support charting:
+
+Vector graphics software can be used for manual graphing or for editing the output of another program. Please see:
+

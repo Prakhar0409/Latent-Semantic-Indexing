@@ -1,0 +1,17 @@
+Java Business Integration
+Java Business Integration (JBI) is a specification developed under the Java Community Process (JCP) for an approach to implementing a service-oriented architecture (SOA). The JCP reference is JSR 208 for JBI 1.0 and JSR 312 for JBI 2.0.
+JBI is built on a Web Services model and provides a pluggable architecture for a container that hosts service producer and consumer components. Services connect to the container via binding components (BC) or can be hosted inside the container as part of a service engine (SE). The services model used is Web Services Description Language 2.0. The central message delivery mechanism, the normalized message router (NMR), delivers normalized messages via one of four Message Exchange Patterns (MEPs), taken from WSDL 2.0:
+To handle functionality that deals with installation, deployment, monitoring and lifecycle concerns amongst BCs and SEs, Java Management Extensions (JMX) is used. JBI defines standardized packaging for BCs and SEs, allowing components to be portable to any JBI implementation without modification.
+JBI defines standard packaging for composite applications: applications that are composed of service consumers and providers. Individual service units are deployable to components; groups of service units are gathered together into a service assembly. The service assembly includes metadata for "wiring" the service units together (associating service providers and consumers), as well as wiring service units to external services. This provides a simple mechanism for performing composite application assembly using services.
+
+The following are open-source software JBI based ESB implementations available:
+Open-source JBI implementations certified by the TCK are Sun/Open ESB and OW2/PEtALS.
+In addition, the Project GlassFish open-source Java EE application server comes with the JBI runtime from the Open ESB project.
+Java EE SDK also includes the JBI runtime and a BPEL orchestration engine.
+Oracle claims its Fusion Middleware comes with JBI implementation.
+TIBCO ActiveMatrix Service Grid is a service virtualization product that provides a service container framework, based on the JSR 208 and SCA specifications, allowing service containers (Java, Java EE, .net, BPEL) to be added as needed, as composite applications on a common foundation..
+
+The Open JBI Components project on java.net is an incubator project started to foster community-based development of JBI components that conform to the Java Business Integration specification (JSR 208).
+
+
+

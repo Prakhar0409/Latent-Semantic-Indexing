@@ -1,0 +1,22 @@
+CiteULike
+CiteULike is based on the principle of social bookmarking and is aimed to promote and to develop the sharing of scientific references amongst researchers. In the same way that it is possible to catalog web pages (with Furl and del.icio.us) or photographs (with Flickr), scientists can share information on academic papers with specific tools developed for that purpose.
+When browsing issues of research journals, small scripts stored in bookmarks (bookmarklets) allow to import articles from repositories like PubMed. Then, the system attempts to determine the article metadata (title, authors, journal name, etc) automatically. Users can organize their libraries with freely chosen tags which produces a folksonomy of academic interests. [1]
+
+In a first step, one adds a reference to CiteULike directly from within the web browser, without needing a separate programme. For common online database like PubMed, author names, title, and other details are imported automatically. One can manually add tags for grouping of references. The web site can be used to search public references by all users or only one's own references. References can later be exported via BibTeX or EndNote to be used on local computers.
+
+CiteULike provides bookmarklets [1] to quickly add references from the web pages of the most common sites [2]. These small scripts read the citation information from the web page and import into the CiteULike database for the currently logged in user.
+Sites supported for semi-automatic import include Amazon.com, arXiv.org, JSTOR, PLoS, PubMed, SpringerLink, and ScienceDirect. It is also possible although more time consuming to add entries manually.
+Entries can be tagged for easier retrieval and organisation. More frequent tags are displayed in a proportionally larger font. Tags can be clicked to call up articles containing this tag.
+
+New entries are added as public by default, which makes them accessible to everyone. Entries can be added as private and are then only available to the specific user. Users of CiteULike thus automatically share all their public entries with other users. The tags assigned to public entries contribute to the site-wide tag network. All public references can also be searched and filtered by tag.
+In addition, the site provides groups that users can join themselves or by invitation. Groups are typically labs, institutions, professions, or research areas.
+On line CiteULike entries can be downloaded to a local computer by means of export functions. A first export format is BibTeX, the referencing system used in TeX and LaTeX. The RIS file format is also available for commercial bibliography programs such as EndNote or Reference Manager. It also allows to import into the free Zotero bibliography extension of Firefox. Export is possible for individual entries or the entire library.
+CiteULike gives access to personal or shared bibliographies directly from the web. It allows to see what other people posted publicly, which tags they added, and how they commented and rated a paper. It is also possible to browse the public libraries of people with similar interest to discover interesting papers. Groups allow individual users to collaborate with other users to build a library of references. The data are backed up daily from the central server.
+
+The code behind CiteULike is a mix of Tcl, Common Lisp, Perl, and Erlang; data is stored using PostgreSQL [2] There is no API but plugins can be contributed using Subversion . The software behind the service is closed source, but the dataset collected by the users is in the public domain.
+
+The site stemmed from personal scientific requirements. The initial author found existing bibliography software cumbersome [3].
+CiteULike was created in November 2004 and further developed in December 2006. The site is based in the UK. The service is free and is run independently of any particular publisher with a liberal privacy policy.
+
+
+

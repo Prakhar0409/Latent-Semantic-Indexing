@@ -1,0 +1,12 @@
+Assisted GPS
+Assisted GPS, generally abbreviated as A-GPS, enhances the startup performance of a GPS satellite-based positioning system. It is used extensively with GPS-capable cellular phones as its development was accelerated by the U.S. FCC's 911 mandate making the location of a cell phone available to emergency call dispatchers.[1]
+
+Conventional standalone GPS has difficulties providing a reliable positioning - for example, when surrounded by tall buildings (resulting in multipath), or when the satellite signals are weakened when a GPS device is used indoors or under trees. Some newer receivers are better at handling these situations.[citation needed] In addition, when first turned on in these conditions, some non-assisted GPS units may not be able to download the almanac and ephemeris information from the GPS satellites, rendering them unable to function until a clear signal can be received continuously for up to 40 seconds.
+An A-GPS receiver can address these problems in several ways, using network elements such as either an assistance server or other data from a network. That assistance generally falls into two categories: a) information used to more quickly acquire satellites, or b) calculations done remotely:
+As an additional benefit, in certain types of A-GPS, both the amount of CPU and programming required for a GPS phone is reduced by offloading most of the work onto the assistance server. (This is not a large amount for a basic GPS – many early GPSs utilized Intel 80386-class 16MHz CPUs or similar hardware.)
+A typical A-GPS-enabled cell phone will use a data connection (internet, or other) to contact the assistance server or a standard network connection for A-GPS information. If it also has functioning autonomous or standalone GPS, it may use standard GPS, which is sometimes slower on Time To First Fix, but does not lead to network dependent downsides, such as failure to work outside of network range, or charges for data traffic.[3] Some A-GPS solutions do not have the option of falling back to standalone or autonomous GPS.
+High Sensitivity GPS is an allied technology that addresses some of the same issues in a way that does not require additional infrastructure. However, unlike some forms of A-GPS, high sensitivity GPS cannot provide instant fixes when the phone has been off for some time.
+
+Various vendors are developing next-generation GPS solutions, which may have improved performance over existing solutions.
+
+

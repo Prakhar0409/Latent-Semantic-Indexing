@@ -1,0 +1,44 @@
+PHPDoc
+PHPDoc is an adaptation of Javadoc for the PHP programming language. It is a formal standard for commenting PHP code. It offers three main advantages to generic or random commenting styles: First, it makes comments readable in a standard method encouraging programmers to define and comment on aspects of the code that normally would be ignored. Second, it allows external document generators like PHPDocumentor to create well formatted and easy to understand documentation of the API. Third, it allows some IDEs such as Zend Studio, PHPEd, and NetBeans to interpret variable types and other ambiguities in the loosely typed language.
+PHPDoc supports documentation of both object-oriented and procedural code.
+
+
+A DocBlock is an extended C++-style PHP comment that begins with "/**" and has an "*" at the beginning of every line. DocBlocks precede the element they are documenting. Any line within a DocBlock that doesn't begin with a * will be ignored.
+To document function "foo()", place the DocBlock immediately before the function declaration:
+This example will apply the DocBlock to "define('me',2);" instead of to "function foo()":
+define() statements, functions, classes, class methods, and class vars, include() statements, and global variables can all be documented, see Elements of the source code that can be documented
+A DocBlock contains three basic segments in this order:
+The Short Description starts on the first line, and can be terminated with a blank line or a period. A period inside a word (like example.com or 0.1 %) is ignored. If the Short Description would become more than three lines long, only the first line is taken. The Long Description continues for as many lines as desired and may contain html markup for display formatting. Here is a sample DocBlock with a Short and a Long Description:
+Optionally, you may enclose all paragraphs in a <p></p> tag. Be careful, if the first paragraph does not begin with <p>, phpDocumentor will assume that the DocBlock is using the simple double linebreak to define paragraph breaks as in:
+Here is an example of using <p>
+phpDocumentor also supports JavaDoc's DocBlock format through the command-line option -j, --javadocdesc. Due to the non-xhtml compliant unmatched p tag, we highly recommend you avoid this syntax whenever possible
+phpDocumentor will convert all whitespace into a single space in the long description, use paragraph breaks to define newlines, or <pre>, as discussed in the next section.
+
+In some parsers the long and short description of a DocBlock is parsed for a few select html tags that determine additional formatting. Because not all HTML is allowed, they will generally be converted into plain text or more content specific tags. For example, a <b> tag may be converted into <emphasis> in DocBook.
+Here is a list of tags supported by PHPDocumentor:
+For the rare case when the text "<b>" is needed in a DocBlock, use a double delimiter as in <<b>>. phpDocumentor will automatically translate that to the physical text "<b>".
+
+Both <code> and <pre> ignore any html listed above except for their closing tags </code> for <code> and </pre> for <pre>
+
+The purpose of a DocBlock template is to reduce redundant typing. For instance, if a large number of class variables are private, one would use a DocBlock template to mark them as private. DocBlock templates simply augment any normal DocBlocks found in the template block.
+A DocBlock template is distinguished from a normal DocBlock by its header. Here is the most basic DocBlock template:
+The text that marks this as a DocBlock template is "/**#@+" - all 6 characters must be present. DocBlock templates are applied to all documentable elements until the ending template marker:
+Note that all 8 characters must appear as "/**#@-*/" in order for phpDocumentor to recognize them as a template.
+
+A page-level DocBlock is the only DocBlock that cannot precede the element that it is documenting, as there is no way to precede a file. To solve this issue, the way phpDocumentor finds a page-level DocBlock is to parse the first DocBlock in a file as the page-level DocBlock, with certain conditions.
+This last example has one DocBlock, and it is the first DocBlock in a file, but it is not a Page-level DocBlock. How can phpDocumentor tell the difference between a Page-level DocBlock and any other DocBlock? Simple:
+In phpDocumentor version 1.2.2, a Page-level DocBlock is the first DocBlock in a file if it contains a @package tag. However, this example will raise a warning like WARNING in test.php on line 8: Page-level DocBlock precedes "define almost", use another DocBlock to document the source element. You can eliminate the warning by adding documentation to the define as follows:
+Now, the page has its documentation, and the define has its own documentation.
+So, a DocBlock is a page-level DocBlock IF AND ONLY IF it is both:
+A Page-level DocBlock may have any of the standard phpDocumentor Tags (see Standard phpDocumentor Tags) plus the following tags:
+phpDocumentor will not document a file like the first example, there must be at least one documentable PHP element in the file.
+
+Tags are single words prefixed by a "@" symbol. Tags inform parsers how to present information and modify display of documentation as well as allow the IDE to define variable types. All tags are optional, but if you use a tag, they do have specific requirements to parse properly.
+In addition, some parsers allow two addition inline tags: {@id}, used to allow direct linking to sections in a tutorial, and {@toc}, used to generate a table of contents from {@id}s in the file. Think of {@id} like an <a name="idname"> HTML tag as it serves the same function.
+For more in depth discussion of PHPDoc tags, see http://manual.phpdoc.org/HTMLSmartyConverter/PHP/phpDocumentor/tutorial_tags.pkg.html
+
+To understand the role of packages and how to use @package, it is important to know the logic behind packaging in PHP. The quest for structured programming led to the invention of functions, then classes, and finally packages. Traditionally, a re-usable software module was a collection of variables, constants and functions that could be used by another software package. PHP is an example of this model, as there are many extensions that consist of constants and functions like the tokenizer extension. One can think of the tokenizer extension as a package: it is a complete set of data, variables and functions that can be used in other programs. A more structured format of this model is of course objects, or classes. A class contains variables and functions. A single class packages together related functions and variables to be re-used.
+phpDocumentor defines package in two ways:
+These two definitions of package are exclusive. In other words, it is possible to have classes of a different package of the file that contains it.
+
+

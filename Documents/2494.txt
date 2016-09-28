@@ -1,0 +1,8 @@
+Zotero
+Zotero is a free, open source extension for the Firefox browser, that enables users to collect, manage, and cite research from all types of sources from the browser. It is partly a piece of reference management software, used to manage bibliographies and references when writing essays and articles. On many major research websites such as digital libraries, Google Scholar, Google Books, Amazon.com, and even Wikipedia, Zotero detects when a book, article, or other resource is being viewed and with a mouse click finds and saves the full reference information to a local file. If the source is an online article or web page, Zotero can optionally store a local copy of the source. Users can then add notes, tags, and their own metadata through the in-browser interface. Selections of the local reference library data can later be exported as formatted bibliographies.
+The program is produced by the Center for History and New Media of George Mason University (GMU). It is open and extensible, allowing other users to contribute citation styles and site translators, and more generally for others who are building digital tools for researchers to expand the platform.[1] The name is loosely derived from an Albanian verb meaning "to master".[2]
+It is aimed at replacing the more cumbersome traditional reference management software, originally designed to meet the demands of offline research.
+The Commonwealth of Virginia has been sued by Thomson Reuters, who claim that Zotero's developers reverse-engineered EndNote and that Zotero hosts citation style language files that were converted from EndNote's proprietary style format, in violation of the EndNote EULA.[3]
+
+
+

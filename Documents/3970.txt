@@ -1,0 +1,31 @@
+Automata-based programming
+Automata-based programming is a programming paradigm in which the program or its part is thought of as a model of a finite state machine or any other (often more complicated) formal automata (see automata theory). Sometimes a potentially-infinite set of possible states is introduced, and such a set can have a complicated structure, not just an enumeration.
+FSM-based programming is generally the same, but, formally speaking, doesn't cover all possible variants as FSM stands for finite state machine and automata-based programming doesn't necessarily employ FSMs in the strict sense.
+The following properties are key indicators for automata-based programming:
+The whole execution of the automata-based code is a (possibly explicit) cycle of the automaton's steps.
+Another reason to use the notion of automata-based programming is that the programmer's style of thinking about the program in this technique is very similar to the style of thinking used to solve maths-related tasks using Turing machine, Markov algorithm etc.
+
+Consider we need a program in C that reads a text from standard input stream, line by line, and prints the first word of each line. It is clear we need first to read and skip the leading spaces, if any, then read characters of the first word and print them until the word ends, and then read and skip all the remaining characters until the end-of-line character is encountered. Upon the end of line character (regardless of the stage) we restart the algorithm from the beginning, and in case the end of file condition (regardless of the stage) we terminate the program.
+
+The program which solves the example task in traditional (imperative) style can look something like this:
+
+The same task can be solved thinking in terms of finite state machines. Please note that line parsing has three stages: skipping the leading spaces, printing the word and skipping the trailing characters. Let's call them states before, inside and after. The program may now look like this:
+Although the code now looks longer, it has at least one significant advantage: there's only one reading (that is, call to the getchar() function) instruction in the program. Besides that, there's only one while loop instead of the four the previous version had.
+In this program, the body of the while loop is the automaton step, and the loop itself is the cycle of the automaton's work.
+The program implements (models) the work of a finite state machine shown on the picture. The N denotes the end of line character, the S denotes spaces, and the A stands for all the other characters. The automaton follows exactly one arrow on each step depending on the current state and the encountered character. Some state switches are accompanied with printing the character; such arrows are marked with asterisks.
+It is not absolutely necessary to divide the code down to separate handlers for each unique state. Furthermore, in some cases the very notion of the state can be composed of several variables' values, so that it could be impossible to handle each possible state explicitly. In the discussed program it is possible to reduce the code length noticing that the actions taken in response to the end of line character are the same for all the possible states. The following program is equal to the previous one but is a bit shorter:
+
+The most important property of the previous program is that the automaton step code section is clearly localized. It is possible to demonstrate this property even better if we provide a separate function for it:
+This example clearly demonstrates the basic properties of automata-based code:
+
+A finite automaton can be defined by an explicit state transition table. Generally speaking, an automata-based program code can naturally reflect this approach. In the program below there's an array named the_table, which defines the table. The rows of the table stand for three states, while columns reflect the input characters (first for spaces, second for the end of line character, and the last is for all the other characters).
+For every possible combination, the table contains the new state number and the flag, which determines whether the automaton must print the symbol. In a real life task, this could be more complicated; e.g., the table could contain pointers to functions to be called on every possible combination of conditions.
+
+If the implementation language supports object-oriented programming, it is reasonable to encapsulate the automaton into an object, thus hiding implementation details from the outer program. for example, the same program in C++ can look like this:
+Note: To minimize changes not directly related to the subject of the article, the input/output functions from the standard library of C are being used.
+
+Automata-based programming is widely used in lexical and syntactic analyses.[1]
+Besides that, thinking in terms of automata (that is, breaking the execution process down to automaton steps and passing information from step to step through the explicit state) is necessary for event-driven programming as the only alternative to using parallel processes or threads.
+The notions of states and state machines are often used in the field of formal specification. For instance, UML-based software architecture development uses state diagrams to specify the behaviour of the program. Also various communication protocols are often specified using the explicit notion of state (see, e.g., RFC 793[2]).
+Thinking in terms of automata (steps and states) can also be used to describe semantics of some programming languages. For example, the execution of a programm written in the Refal language is described as a sequence of steps of a so-called abstract Refal machine; the state of the machine is a view (an arbitrary Refal expression without variables).
+Continuations in the Scheme language require thinking in terms of steps and states, although Scheme itself is in no way automata-related (it is recursive). To make it 

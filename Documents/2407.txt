@@ -1,0 +1,22 @@
+Case-Shiller index
+The Case-Shiller Home Price Indices are quarterly nominal house price indices for the United States.
+
+The indices are calculated from data on repeat sales of single family homes, an approach, developed by economists Karl Case, Robert Shiller and Allan Weiss. The indices are normalized to have a value of 100 in the first quarter of 2000.
+A popular and widely used subset of the Case Shiller Index is the 20 Metropolitan Statistical Areas (MSA) view used by Standard and Poors in the S&P/Case Shiller Home Price Index.[1][2]
+The indices are calculated monthly by Fiserv, Inc.- the company that owns and maintains the index and is published with a two month lag on the last Tuesday of every month. Fiserv can provide a deeper view of home prices, at the zip code level beyond the 10 or 20 MSA view used by S&P.
+This index family includes 20 regional indices and two composite indices as aggregates of the regions. The MSA indices are three month moving averages. Consequently, so are the composite indices.
+The S&P/Case-Shiller U.S. National Home Price Index is a composite of single-family home price indices for the nine U.S. Census divisions, calculated quarterly.
+Options and futures based on Case-Shiller index are traded on Chicago Mercantile Exchange[1]
+
+Macromarkets.com reports[3] the US index has a slightly negative correlation with stocks and bonds, but slightly positive correlation with commodities and Real Estate Investment Trusts (REIT). The correlation with REITs is surprisingly low.
+
+One way to evaluate property on the basis of cash flow, rather than as a speculative asset, is to determine the price-to-rent ratio, akin to P/E for stocks, which is the inverse of the cap rate (annual return on capital).
+For example, in Atlanta the cap rate is 6% (2006 data), giving a price-to-rent ratio of 100/6 = 16.7. On the other hand, in San Francisco, the cap rate is 3%, giving a price-to-rent ratio of 100/3 = 33, which suggests that real estate may be overvalued in San Francisco.[citation needed]
+
+The national index attained its all-time high of 189.93 in 2006 Q2, and has declined in every subsequent quarter to date.
+Selected Quarterly S&P/Case-Shiller Index Values (1987-2008)
+Comparison the percentage change for the housing correction beginning in 2006 (red) and the correction (blue) beginning in 1989
+
+On December 30, 2008, the index recorded its largest year over year drop. [2]
+
+

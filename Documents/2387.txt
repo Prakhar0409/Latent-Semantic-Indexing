@@ -1,0 +1,69 @@
+Geometric algebra
+In mathematical physics, a geometric algebra is a multilinear algebra described technically as a Clifford algebra over a real vector space equipped with a non-degenerate quadratic form. Informally, a geometric algebra is a Clifford algebra that includes a geometric product. This allows the theory and properties of the algebra to be built up in an intuitive, geometric way. The term is also used in a more general sense to describe the study and application of these algebras: so Geometric algebra is the study of geometric algebras.
+Geometric algebra is useful in physics problems that involve rotations, phases or imaginary numbers. Proponents of geometric algebra argue it provides a more compact and intuitive description of classical and quantum mechanics, electromagnetic theory and relativity. Current applications of geometric algebra include computer vision, biomechanics and robotics, and spaceflight dynamics.
+
+A geometric algebra  is an algebra constructed over a vector space  in which a geometric product is defined. The elements of geometric algebra are multivectors. The original vector space  is constructed over the real numbers as scalars. From now on, a vector is something in  itself. Vectors will be represented by boldface, small case letters (e.g. ), and multivectors by boldface, upper case letters (e.g. ).
+The geometric product has the following properties, for all multivectors :
+Properties (1) and (2) are among those needed for an algebra over a field. (3) and (4) mean that a geometric algebra is an associative, unital algebra.
+The distinctive point of this formulation is the natural correspondence between geometric entities and the elements of the associative algebra. This comes from the fact that the geometric product is defined in terms of the dot product and the wedge product of vectors as
+The definition and the associativity of geometric product entails the concept of the inverse of a vector (or division by vector). Thus, one can easily set and solve vector algebra equations that otherwise would be cumbersome to handle. In addition, one gains a geometric meaning that would be difficult to retrieve, for instance, by using matrices. Although not all the elements of the algebra are invertible, the inversion concept can be extended to multivectors. Geometric algebra allows one to deal with subspaces directly, and manipulate them too. Furthermore, geometric algebra is a coordinate-free formalism.
+Geometric objects like  are called bivectors. A bivector can be pictured as a plane segment (a parallelogram, a circle etc.) endowed with orientation. One bivector represents all planar segments with the same magnitude and direction, no matter where they are in the space that contains them. However, once either the vector  or  is meant to depart from some preferred point (e.g. in problems of Physics), the oriented plane  is determined unambiguously.
+The exterior product (or the wedge product; sometimes called the "outer product", although that nomenclature also refers to the tensor product), "" is defined such that the graded algebra (exterior algebra of Hermann Grassmann)  of multivectors is generated. Multivectors are thus the direct sum of grade k elements (k-vectors), where k ranges from 0 (scalars) to n, the dimension of the original vector space . Multivectors are represented here by boldface caps. Note that scalars and vectors become special cases of multivectors ("0-vectors" and "1-vectors", respectively).
+
+Here are some comparisons between standard  vector relations and their corresponding wedge and geometric product equivalents. All the wedge and geometric product equivalents here are good for more than three dimensions, and some also for two. In two dimensions the cross product is undefined even if what it describes (like torque) is perfectly well defined in a plane without introducing an arbitrary normal vector outside of the space.
+Many of these relationships only require the introduction of the wedge product to generalize, but since that may not be familiar to somebody with only a traditional background in vector algebra and calculus, some examples are given.
+
+Cross and wedge products are both antisymmetric:
+They are both linear in the first operand
+and in the second operand
+In general, the cross product is not associative, while the wedge product is
+Both the cross and wedge products of two identical vectors are zero:
+ is perpendicular to the plane containing  and .
+ is an oriented representation of the same plane.
+
+The norm (length) of a vector is defined in terms of the dot product
+Using the geometric product this is also true, but this can be also be expressed more compactly as
+This follows from the definition of the geometric product and the fact that a vector wedge product with itself is zero
+
+In three dimensions the product of two vector lengths can be expressed in terms of the dot and cross products
+The corresponding generalization expressed using the geometric product is
+This follows from by expanding the geometric product of a pair of vectors with its reverse
+
+Without justification or historical context, traditional linear algebra texts will often define the determinant as the first step of an elaborate sequence of definitions and theorems leading up to the solution of linear systems, Cramer's rule and matrix inversion.
+An alternative treatment is to axiomatically introduce the wedge product, and then demonstrate that this can be used directly to solve linear systems. This is shown below, and does not require sophisticated math skills to understand.
+It is then possible to define determinants as nothing more than the coefficients of the wedge product in terms of "unit k-vectors" ( terms) expansions as above.
+When linear system solution is introduced via the wedge product, Cramer's rule follows as a side effect, and there is no need to lead up to the end results with definitions of minors, matrices, matrix invertibility, adjoints, cofactors, Laplace expansions, theorems on determinant multiplication and row column exchanges, and so forth.
+
+For the plane of all points  through the plane passing through three independent points , , and , the normal form of the equation is
+The equivalent wedge product equation is
+
+For three dimensions the projective and rejective components of a vector with respect to an arbitrary non-zero unit vector, can be expressed in terms of the dot and cross product
+For the general case the same result can be written in terms of the dot and wedge product and the geometric product of that and the unit vector
+It's also worthwhile to point out that this result can also be expressed using right or left vector division as defined by the geometric product
+
+If A is the area of the parallelogram defined by u and v, then
+and
+Note that this squared bivector is a geometric product.
+
+
+
+
+It can be shown that a unit vector derivative can be expressed using the cross product
+The equivalent geometric product generalization is
+Thus this derivative is the component of  in the direction perpendicular to . In other words this is  minus the projection of that vector onto .
+This intuitively make sense (but a picture would help) since a unit vector is constrained to circular motion, and any change to a unit vector due to a change in its generating vector has to be in the direction of the rejection of  from . That rejection has to be scaled by 1/|r| to get the final result.
+When the objective isn't comparing to the cross product, it's also notable that this unit vector derivative can be written
+
+Some fundamental geometric algebra manipulations will be provided below, showing how this vector product can be used in calculation of projections, area, and rotations. How some of these tie together and correlate concepts from other branches of mathematics, such as complex numbers, will also be shown.
+In some cases these examples provide details used above in the cross product and geometric product comparisons.
+
+One of the powerful properties of the Geometric product is that it provides the capability to express the inverse of a non-zero vector. This is expressed by:
+
+Given a definition of the geometric product in terms of the dot and wedge products, adding and subtracting  and  demonstrates that the dot and wedge product of two vectors can also be defined in terms of the geometric product
+
+This is the symmetric component of the geometric product. When two vectors are colinear the geometric and dot products of those vectors are equal.
+As a motivation for the dot product it is normal to show that this quantity occurs in the solution of the length of a general triangle where the third side is the vector sum of the first and second sides .
+The last sum is then given the name the dot product and other properties of this quantity are then shown (projection, angle between vectors, ...).
+This can also be expressed using the geometric product
+By comparison, the following equality exists
+Without requiring expansion by components one can define the dot product exclusively in terms of the geometric product due to its properties of contraction, distribution and associativity. This is
