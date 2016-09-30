@@ -1,0 +1,38 @@
+E-mail marketing
+Display advertising
+E-mail marketing
+E-mail marketing software
+Interactive advertising
+Social media optimization
+Web analytics
+Cost per action
+Contextual advertising
+Revenue sharing
+Search engine optimization
+Pay per click advertising
+Paid inclusion
+Mobile advertising
+E-mail marketing is a form of direct marketing which uses electronic mail as a means of communicating commercial or fundraising messages to an audience. In its broadest sense, every e-mail sent to a potential or current customer could be considered e-mail marketing. However, the term is usually used to refer to:
+Researchers estimate that United States firms alone spent US$400 million on e-mail marketing in 2006.[1]
+
+E-mail marketing (on the Internet) is popular with companies for several reasons:
+
+Many companies use e-mail marketing to communicate with existing customers, but many other companies send unsolicited bulk e-mail, also known as spam.
+Internet system administrators have always considered themselves responsible for dealing with "abuse of the net", but not "abuse on the net". That is, they will act quite vigorously against spam, but will leave issues such as libel or trademark infringement to the legal system. Most administrators possess a passionate dislike for spam, which they define as any unsolicited e-mail. Draconian measures—such as taking down a corporate website, with or without warning—are entirely normal responses to spamming. Typically, the terms of service in Internet companies' contracts permit such actions; therefore, the spammer often has no recourse.
+Illicit e-mail marketing predates legitimate e-mail marketing. On the early Internet (i.e., Arpanet), it was not permitted to use the medium for commercial purposes. As a result, marketers attempting to establish themselves as legitimate businesses in e-mail marketing have had an uphill battle, hampered also by criminal spam operations billing themselves as legitimate ones.
+It is frequently difficult for observers to distinguish between legitimate and spam e-mail marketing. First, spammers attempt to represent themselves as legitimate operators. Second, direct-marketing political groups such as the United States Direct Marketing Association (DMA) have pressured legislatures to legalize activities that some Internet operators consider to be spamming, such as the sending of "opt-out" unsolicited commercial e-mail. Third, the sheer volume of spam has led some users to mistake legitimate commercial e-mail for spam. This situation arises when a user receives e-mail from a mailing list to which he/she subscribes. Additional confusion arises when both legitimate and spam messages have a similar appearance, as when messages include HTML and graphics.
+One effective technique used by established email marketing companies is to require what is known as the "double opt-in" method of requiring a potential recipient to manually confirm their request for information by clicking a unique link and entering a unique code identifier to confirm that the owner of the recipient email address has indeed requested the information. Responsible e-mail marketing and autoresponder companies use this double opt-in method to confirm each request before any information is sent out.
+A report issued by the e-mail services company Return Path, as of mid-2008 e-mail deliverability is still an issue for legitimate marketers. According to the report, legitimate e-mail servers averaged a delivery rate of 56%; twenty percent of the messages were rejected, and eight percent were filtered.[4]
+Due to the volume of spam e-mail on the Internet, spam filters are essential to most users. Some marketers report that legitimate commercial e-mail messages frequently get caught and hidden by filters; however, it is somewhat less common for e-mail users to complain that spam filters block legitimate mail.
+Companies considering the use of an e-mail marketing program must make sure that their program does not violate spam laws such as the United States' Controlling the Assault of Non-Solicited Pornography and Marketing Act (CAN-SPAM),[5] the European Privacy and Electronic Communications Regulations 2003, or their Internet service provider's acceptable use policy. Even if a company adheres to the applicable laws, it can be blacklisted (e.g., on SPEWS) if Internet e-mail administrators determine that the company is sending spam.
+
+The CAN-SPAM Act of 2003 authorizes a US$11,000 penalty per violation for spamming each individual recipient. Therefore, many commercial e-mail marketers within the United States utilize a service or special software to ensure compliance with the Act. A variety of older systems exist that do not ensure compliance with the Act. To comply with the Act's regulation of commercial e-mail, services typically require users to authenticate their return address and include a valid physical address, provide a one-click unsubscribe feature, and prohibit importing lists of purchased addresses that may not have given valid permission.
+In addition to satisfying legal requirements, e-mail service providers began to help customers establish and manage their own e-mail marketing campaigns. The service providers supply e-mail templates and general best practices, as well as methods for handling subscriptions and cancellations automatically. They also provide statistics pertaining to the number of messages received and opened, and whether the recipients clicked on any links within the messages.
+The CAN-SPAM Act was recently updated with some new regulations that went into effect on July 7, 2008.
+
+Opt-in e-mail advertising, or permission marketing, is a method of advertising via e-mail whereby the recipient of the advertisement has consented to receive it. This method is one of several developed by marketers to eliminate the disadvantages of e-mail marketing.[6]
+Opt-in e-mail marketing may evolve into a technology that uses a handshake protocol between the sender and receiver.[6] This system is intended to eventually result in a high degree of satisfaction between consumers and marketers. If opt-in e-mail advertising is used, the material that is e-mailed to consumers will be "anticipated". It is assumed that the consumer wants to receive it, which makes it unlike unsolicited advertisements sent to the consumer. Ideally, opt-in e-mail advertisements will be more personal and relevant to the consumer than untargeted advertisements.
+A common example of permission marketing is a newsletter sent to an advertising firm's customers. Such newsletters inform customers of upcoming events or promotions, or new products.[7] In this type of advertising, a company that wants to send a newsletter to their customers may ask them at the point of purchase if they would like to receive the newsletter.
+With a foundation of opted-in contact information stored in their database, marketers can send out promotional materials automatically. They can also segment their promotions to specific market segments.[8]
+
+

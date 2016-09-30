@@ -1,0 +1,10 @@
+Jingle (protocol)
+Jingle is an extension to the Jabber/XMPP protocol, to allow for peer-to-peer (p2p) signalling for multimedia interactions such as voice or video. It was designed by Google and the XMPP Standards Foundation. The multimedia content itself can be delivered using the Real-time Transport Protocol, with Interactive Connectivity Establishment (ICE) for NAT traversal.
+As of March 2008[update], the Jingle standards are marked as being 'proposed', meaning that it has not yet been approved by the XMPP Standards Foundation but is considered for advancement to the next stage of the standards process.
+The libjingle library, used by Google Talk to implement Jingle, has been released to the public under a Berkeley-style license. However, the version of the protocol that libjingle (and by extension Google Talk) implements differs from that published by the XMPP Software Foundation. Currently, most software which advertises support for Jingle is limited to Google Talk compatibility. See the Jabber wiki's page on Jingle for more details.
+
+
+
+A Jingle based IVR can be found at: 1234@bot.jabber.null.ro or txt@bot.jabber.null.ro .
+
+

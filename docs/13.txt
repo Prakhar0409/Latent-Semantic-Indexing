@@ -1,0 +1,18 @@
+Xinerama
+Xinerama is an extension to the X Window System which enables multi-headed X applications and window managers to use two or more physical displays as one large virtual display.
+It was originally developed by DEC (under the name PanoramiX), who contributed it to The Open Group for X11 Release 6.4 (X11R6.4), where it was renamed Xinerama. From there it was incorporated into XFree86 for the XFree86 4.0 release, and Solaris in the Solaris 7 11/99 release. The name Xinerama may have been inspired from the Cinerama widescreen theatre process.
+As of 2008[update], Xinerama is planned to be deprecated in the future by X.org in favor of XRandR [1]. X.Org had convened a standards committee to document the protocol and API as formal standards, but that effort has now ended. [2]. Development of the Xinerama code is now hosted on freedesktop.org and managed by X.Org.
+The physical displays do not need to be the same resolution. Some window managers assume that the virtual display area is rectangular, but this isn't necessarily the case if the component physical displays are not the same size. The excess space, which is needed to make the area rectangular, is called "dead space". The window manager needs to be aware of Xinerama to recognize dead space, and avoid placing new windows there.
+It is also an advantage if the window manager, via Xinerama awareness, can pop up new windows on the active physical display. Another advantage of Xinerama awareness is to only maximize windows to the dimensions of the active physical display.
+
+Xinerama requires that the physical screens have the same bit depth—an 8-bit screen cannot be combined with a 16-bit screen, for example.
+In most implementations, OpenGL (3D) direct-rendering only works on one of the screens. Windows that should show 3D graphics on other screens tend to just appear black. This is most commonly seen with 3D screen savers, which show on one of the screens and black on the others. (The Solaris SPARC OpenGL implementation allows direct rendering to all screens in Xinerama mode, as does the nvidia driver when both monitors are on the same video card.[citation needed])
+There is currently no way to add or remove physical screens, and there is no way to change the resolution of a screen. (The XRandR feature is disabled when Xinerama is used). This is a particular difficulty for laptop and tablet PC users (or any mobile computer), where you commonly want to sit at a desk and use an external physical display in addition to the computer's built-in screen, but only when at the desk.
+Because Xinerama does not support adding or removing screens (at the time of writing)[when?], it causes several problems:
+Xinerama implementations can be quite CPU intensive, especially on slower single-core processors. <~--ie P4, K7-->
+These are all problems with the Xinerama implementation rather than the design, and they could be fixed with sufficient work.
+Some[which?] window managers and desktop environments have limited awareness of the separate physical screens in Xinerama. They work, but the desktop is simply stretched over the physical screens. When a window opens, the window manager may place it on an unexpected screen, which is confusing and annoying if the displays are not arranged like a single large desktop.
+Despite these problems, Xinerama offers two overwhelming advantages over separate X screens. First, you can move windows between Xinerama screens. Second, a single application can have windows open on the different Xinerama screens at the same time.
+
+
+
