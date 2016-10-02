@@ -1,2 +1,2 @@
-Iditarod Trail Sled Dog Race;	Computus;	List of Death Note episodes
-Iditarod Trail Sled Dog Race;	Principal-agent problem;	Gerald Bull
+List of Death Note episodes;	Gerald Bull;	Primo Levi;	Iditarod Trail Sled Dog Race;	Alfred Stieglitz;	Principal-agent problem;	Business process management;	Pol Pot;	Computus
+Principal-agent problem;	Iditarod Trail Sled Dog Race;	Computus;	CPU cache;	List of Death Note episodes;	Peloponnesian War;	Gerald Bull;	Pol Pot;	Preimplantation genetic diagnosis

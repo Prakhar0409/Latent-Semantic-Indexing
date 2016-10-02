@@ -73,7 +73,9 @@ print t1diff;
 
 
 number = 0 
-def tf(doc):
+row = []
+col = []
+def tf(doc,idx):
 	with open(base_dir+'/'+doc,'rt') as f:
 		t = f.readline()
 		con = t+f.read()
@@ -88,11 +90,12 @@ def tf(doc):
 
 
 print "Calculating term doc matrix"
+
 tdm = []
 n = len(doc_list)
 for i in range(1,n+1):		#iterate over all documents
 	d = str(i)+'.txt'
-	tf_vector = tf(d)
+	tf_vector = tf(d,i)
 	#print "doc no: %s " % d , tf_vector
 	tdm.append(tf_vector)
 
