@@ -5,8 +5,10 @@ from scipy.sparse.linalg import svds
 
 pattern = re.compile(r'\W+')
 
-
 t1 = datetime.datetime.now()
+
+
+
 # running command below
 # python3 lsi.py -z 1000 -k 100 --dir sampleio --doc_in doc_in.txt --doc_out doc_out.txt --term_in term_in.txt --term_out term_out.txt --query_in query_in.txt --query_out query_out.txt
 def readCommandLine():
@@ -71,7 +73,9 @@ t2 = datetime.datetime.now()
 t1diff = t2-t1
 print t1diff;
 
-
+# rows = []
+# cols = []
+# freq = []
 number = 0 
 def tf(doc):
 	with open(base_dir+'/'+doc,'rt') as f:
@@ -84,7 +88,7 @@ def tf(doc):
 			tf_vector[lex_dict[w]] +=1
 			global number 
 			number += 1
-		return tf_vector
+		return sp.csr_matrix(tf_vector)
 
 
 print "Calculating term doc matrix"
@@ -94,27 +98,16 @@ for i in range(1,n+1):		#iterate over all documents
 	d = str(i)+'.txt'
 	tf_vector = tf(d)
 	#print "doc no: %s " % d , tf_vector
-	tdm.append(tf_vector)
+	tdm = sp.vstack([tdm,tf_vector])
 
-
-print "tdm shape: %d , %d" % (len(tdm),len(tdm[0]))
+print "tdm shape: " , tdm.shape
 print "number: %d" % number
 t3 = datetime.datetime.now()
 t2diff = t3-t2
-print t2diff;
+print t2diff
 print "Converting to sparse representation"
-stdm = sp.csr_matrix(tdm)
-stdm = stdm.transpose(copy=False)
-t4 = datetime.datetime.now()
-t3diff = t4-t3
-print t3diff;
-print "Converted to sparse representation"
 
-
-def normalise(sparse_td):
-	cop = sparse_td
-	cop.data **=2
-	cop = cop.sum(axis=1)
+#print np.matrix(tdm)
 
 def l2_normalizer(vec):
 	# tmp = np.matrix(tdm)
@@ -123,13 +116,13 @@ def l2_normalizer(vec):
 	denom = np.sum([el**2 for el in vec])
 	return [(el / math.sqrt(denom)) for el in vec]
 
-# print "Calculating l2 normalised td matrix"
-# tdm_l2 = tdm
+print "Calculating l2 normalised td matrix"
+tdm_l2 = tdm
 
-# for vec in tdm:
-# 	tdm_l2.append(l2_normalizer(vec))
+for vec in tdm:
+	tdm_l2.append(l2_normalizer(vec))
 
-# # print np.matrix(tdm_l2)
+# print np.matrix(tdm_l2)
 
 def numDocsContaining(idx,word):
 	doccount = 0
@@ -171,19 +164,14 @@ print len(lexicon)
 
 
 # tdm = np.matrix(tdm_tfidf_l2)
-# tdm = np.matrix()
+tdm = np.matrix()
 
-# a = sp.csc_matrix(tdm.T)						# converting to a sparse matrix
-stdm = stdm.asfptype()								# converting matrix to matrix of floats
-[u, s, vt] = svds(stdm, k = 8, which = 'LM')		# u -> terms x k | s -> k x k | vt -> k x documents
+a = sp.csc_matrix(tdm.T)						# converting to a sparse matrix
+a = a.asfptype()								# converting matrix to matrix of floats
+[u, s, vt] = svds(a, k = 8, which = 'LM')		# u -> terms x k | s -> k x k | vt -> k x documents
 v = vt.T
-# print v
-print type(u)
-print type(s)
-print type(vt)
-s1 = np.diag(s)
-us = np.dot(u,s1)
-vs = np.dot(v,s1)
+print v
+
 
 ## DOCUMENT SIMILARITY
 ### READING INPUT FILE
@@ -203,8 +191,51 @@ for t in file_names:
 	print "----------------------------++++++"
 	similarity = []
 	# print v.shape
-	d1 = vs[idx-1,:]
-	for i,r in enumerate(vs):
+	d1 = v[idx-1,:]
+	for i,r in enumerate(v):
+		val = np.dot(d1,r)
+		if (d1 == r).all():
+			print "voila: ", r
+			print (i+1, val)
+		print (i+1,val)
+		similarity.append((val,i+1))
+		similarity.sort(key=lambda x: -x[0])
+	#dec_simi = sorted(similarity,key=lambda x:(float(x[1]),float(x[0])))	
+	# dec_simi = sorted(similarity)
+	print "wwwwwwwwww Documents similar to Doc%d wwwwwwwwwwww" % (idx)
+	print similarity[:k]
+	first = True
+	for i,outp in similarity[:k]:
+		if first == True:
+			first = False
+			fout.write(rev_titles[outp])
+			continue
+		fout.write(';\t'+rev_titles[outp])
+	fout.write('\n')
+
+fout.close()
+
+
+## TERM SIMILARITY
+### READING INPUT FILE
+file_names = open(args['dir']+'/'+args['term_in'],'r').read().splitlines()
+print "######### Document similarity ###########"
+print(file_names)
+
+
+
+### COMPUTING SIMILARITY and writing results
+fout = open(args['dir']+'/'+args['term_out'],'w')
+doc_sim = []
+for t in file_names:
+	idx = titles[t]
+	print "----------------------------"
+	print idx
+	print "----------------------------++++++"
+	similarity = []
+	# print v.shape
+	d1 = v[idx-1,:]
+	for i,r in enumerate(v):
 		val = np.dot(d1,r)
 		if (d1 == r).all():
 			print "voila: ", r
@@ -223,54 +254,6 @@ for t in file_names:
 			fout.write(rev_titles[outp])
 			continue
 		fout.write(';\t'+rev_titles[outp])
-	fout.write('\n')
-
-fout.close()
-
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
-
-## TERM SIMILARITY
-### READING INPUT FILE
-term_names = open(args['dir']+'/'+args['term_in'],'r').read().splitlines()
-print "######### Document similarity ###########"
-print(term_names)
-
-
-
-### COMPUTING SIMILARITY and writing results
-fout = open(args['dir']+'/'+args['term_out'],'w')
-term_sim = []
-for t in term_names:
-	idx = lex_dict[t]
-	print "----------------------------"
-	print idx
-	print "----------------------------++++++"
-	similarity = []
-	# print v.shape
-	d1 = us[idx-1,:]
-	for i,r in enumerate(us):
-		val = np.dot(d1,r)
-		if (d1 == r).all():
-			print "voila: ", r
-			print (i+1, val)
-		#print (i+1,val)
-		similarity.append((val,i+1))
-		similarity.sort(key=lambda x: -x[0])
-	#dec_simi = sorted(similarity,key=lambda x:(float(x[1]),float(x[0])))	
-	# dec_simi = sorted(similarity)
-	print "wwwwwwwwww Documents similar to Doc%d wwwwwwwwwwww" % (idx)
-	print similarity[:k]
-	first = True
-	for i,outp in similarity[:k]:
-		if first == True:
-			first = False
-			fout.write(lexicon[outp])
-			continue
-		fout.write(';\t'+lexicon[outp])
 	fout.write('\n')
 
 fout.close()
