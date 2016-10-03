@@ -1,2 +1,0 @@
-PyStemmer==1.3.0
-textmining==1.0

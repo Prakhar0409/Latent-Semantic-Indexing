@@ -1,2 +1,4 @@
 microsoft
 doctor
+jimi
+linkin

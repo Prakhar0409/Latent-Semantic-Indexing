@@ -8,7 +8,11 @@ pattern = re.compile(r'\W+')
 
 t1 = datetime.datetime.now()
 # running command below
-# python3 lsi.py -z 1000 -k 100 --dir sampleio --doc_in doc_in.txt --doc_out doc_out.txt --term_in term_in.txt --term_out term_out.txt --query_in query_in.txt --query_out query_out.txt
+# python try3.py -z 4 -k 4 --dir test --doc_in doc_in.txt --doc_out doc_out.txt --query_in query_in.txt --query_out query_out.txt --term_in term_in.txt --term_out term_out.txt
+# python try3.py -z 100 -k 9 --dir Documents --doc_in doc_in.txt --doc_out doc_out.txt --query_in query_in.txt --query_out query_out.txt --term_in term_in.txt --term_out term_out.txt
+num_terms = 1
+num_docs = 5000
+
 def readCommandLine():
 	parser = argparse.ArgumentParser(description='Process input and output file names.')
 	parser.add_argument('-z',action = 'store',
@@ -33,191 +37,161 @@ def readCommandLine():
 	return vars(args)
 
 args = readCommandLine()
-print(args)
-print('###################')
 z = args['z']
 k = args['k']
-#reading arguments done
+
+# print(args)
+print('############################')
+############################################################reading arguments done
 
 
 
-
-base_dir='Documents'
-doc_list = os.listdir(base_dir)
+base_dir= args['dir']
 
 #MAKING VOCABULARY
-lexicon = set()
+lexicon = dict()
 titles = dict()
 rev_titles = dict()
-#print "##############"
-#print doc_list
-# print "##############"
+
 print "Making lexicon"
-for d in doc_list:
+for idx in range(1,num_docs+1):
+	d = str(idx)+".txt"
 	with open(base_dir+'/'+d,'rt') as f:
 		t = f.readline()
 		con = t+f.read()
-		# con= con.lower()
 		con = pattern.split(con)
 		titles[t[:-1]] = int(d[:-4])
 		rev_titles[int(d[:-4])] = t[:-1]
-		lexicon.update([word.lower() for word in con])
+		
+		for word in con:
+			w = word.lower()
+			if w == '':
+				continue
+			elif w in lexicon:
+				a = 1
+			else:
+				lexicon[w] = num_terms
+				num_terms +=1
 
-lexicon = list(lexicon)
-lex_dict = {x:i for i,x in enumerate(lexicon)}
-#print titles
-print "Number of distinct words: %d" % len(lexicon)
+
+# print lexicon
+# print titles
+lex_dict = {v:k for k,v in lexicon.items()}
+print "lexicon dict formed"
+vocab_size = len(lexicon)
+
+print "Number of distinct words: %d" % vocab_size
 t2 = datetime.datetime.now()
 t1diff = t2-t1
 print t1diff;
 
 
-number = 0 
+
 row = []
 col = []
-def tf(doc,idx):
+freq = []
+def tf(idx):
+	doc = str(idx)+'.txt'
 	with open(base_dir+'/'+doc,'rt') as f:
 		t = f.readline()
 		con = t+f.read()
 		con = con.lower()
 		con = pattern.split(con)
-		tf_vector = [0]*len(lexicon)
+		# print con
+		tf_dict = dict()
 		for w in con:
-			tf_vector[lex_dict[w]] +=1
-			global number 
-			number += 1
-		return tf_vector
-
+			if w == '':
+				continue
+			elif w in tf_dict:
+				tf_dict[w] += 1.0
+			else:
+				tf_dict[w] = 1.0
+		
+		for (k,v) in tf_dict.items():
+			row.append(lexicon[k] - 1)
+			col.append(idx-1)
+			freq.append(v)
 
 print "Calculating term doc matrix"
 
-tdm = []
-n = len(doc_list)
-for i in range(1,n+1):		#iterate over all documents
-	d = str(i)+'.txt'
-	tf_vector = tf(d,i)
-	#print "doc no: %s " % d , tf_vector
-	tdm.append(tf_vector)
 
+for i in range(1,num_docs+1):		#iterate over all documents
+	tf(i)
 
-print "tdm shape: %d , %d" % (len(tdm),len(tdm[0]))
-print "number: %d" % number
+print "read in row and col form"
 t3 = datetime.datetime.now()
 t2diff = t3-t2
 print t2diff;
+
+
 print "Converting to sparse representation"
-stdm = sp.csr_matrix(tdm)
-stdm = stdm.transpose(copy=False)
+stdm = sp.csc_matrix( (freq, (row , col)), shape=(vocab_size, num_docs))
 t4 = datetime.datetime.now()
 t3diff = t4-t3
 print t3diff;
 print "Converted to sparse representation"
 
+# print stdm.todense()
 
-def normalise(sparse_td):
-	cop = sparse_td
-	cop.data **=2
-	cop = cop.sum(axis=1)
-
-def l2_normalizer(vec):
-	# tmp = np.matrix(tdm)
-	# denom = np.dot(tmp,tmp.T)
-	# print denom
-	denom = np.sum([el**2 for el in vec])
-	return [(el / math.sqrt(denom)) for el in vec]
-
-# print "Calculating l2 normalised td matrix"
-# tdm_l2 = tdm
-
-# for vec in tdm:
-# 	tdm_l2.append(l2_normalizer(vec))
-
-# # print np.matrix(tdm_l2)
-
-def numDocsContaining(idx,word):
-	doccount = 0
-	n= len(doc_list)
-	for i in range(0,n):
-		if tdm_l2[i][idx] > 0 :
-			doccount +=1
-	return doccount 
-
-
-def idf(idx,word):
-	n_samples = len(doc_list)
-	df = numDocsContaining(idx,word)
-	return np.log(n_samples / 1+df)
-	# return df
-
-
-# print "Calculating IDF matrix"
-# idf_vector = [idf(idx, word) for idx,word in enumerate(lexicon)]
-# #print np.matrix(idf_vector)
-# idf_mat = np.zeros((len(idf_vector),len(idf_vector)))
-# np.fill_diagonal(idf_mat,idf_vector)
-# print "IDF MAT CALCULATED"
-# # print idf_mat
-
-# print "Calculating tdm x idf"
-# tdm_tfidf = np.dot(tdm_l2,idf_mat)
-# print "TDM TFIDF"
-# #print tdm_tfidf
-
-# print "Calculating l2 normalised idf mat"
-# tdm_tfidf_l2 = []
-# for tf_vector in tdm_tfidf:
-# 	tdm_tfidf_l2.append(l2_normalizer(tf_vector))
-
-#print "tdm_tfidf_l2"
-#print np.matrix(tdm_tfidf_l2)
-print len(lexicon)
-
-
-# tdm = np.matrix(tdm_tfidf_l2)
-# tdm = np.matrix()
-
-stdm = stdm.asfptype()								# converting matrix to matrix of floats
-[u, s, vt] = svds(stdm, k = 8, which = 'LM')		# u -> terms x k | s -> k x k | vt -> k x documents
+print "Calculating svds"
+# u, s, vt = svds(stdm, z, which = 'LM')			# u - nxk; v - kxm
+u, s, vt = svds(stdm, k = z, which = 'LM')			# u - nxk; v - kxm
 v = vt.T
-# print v
-print type(u)
-print type(s)
-print type(vt)
+
+threshold = 0.000000000000001
+sinv = []
+for t in s:
+	if t < threshold:
+		sinv.append(0.0)
+	else:
+		sinv.append(1.0/t)
+
+# print s
+# print sinv
+sinv = np.array(sinv)
+sinv1 = np.diag(sinv)
+
 s1 = np.diag(s)
 us = np.dot(u,s1)
 vs = np.dot(v,s1)
 
-## DOCUMENT SIMILARITY
-### READING INPUT FILE
-file_names = open(args['dir']+'/'+args['doc_in'],'r').read().splitlines()
-print "######### Document similarity ###########"
-print(file_names)
+t5 = datetime.datetime.now()
+t4diff = t5-t4
+print t4diff;
+print "Calculated svds"
 
 
 
-### COMPUTING SIMILARITY and writing results
-fout = open(args['dir']+'/'+args['doc_out'],'w')
-doc_sim = []
-for t in file_names:
-	idx = titles[t]
-	print "----------------------------"
-	print idx
-	print "----------------------------++++++"
+def simiCalc(t,word_dict,mat):
+	idx = word_dict[t]	
 	similarity = []
 	# print v.shape
-	d1 = vs[idx-1,:]
-	for i,r in enumerate(vs):
-		val = np.dot(d1,r)
-		if (d1 == r).all():
-			print "voila: ", r
-			print (i+1, val)
-		#print (i+1,val)
+	d1 = mat[idx-1,:]
+	n1 = np.linalg.norm(d1)
+	for i,r in enumerate(mat):
+		val = np.dot(d1,r)/ (np.linalg.norm(r) * n1)
 		similarity.append((val,i+1))
-		similarity.sort(key=lambda x: -x[0])
-	#dec_simi = sorted(similarity,key=lambda x:(float(x[1]),float(x[0])))	
-	# dec_simi = sorted(similarity)
-	print "wwwwwwwwww Documents similar to Doc%d wwwwwwwwwwww" % (idx)
-	print similarity[:k]
+	similarity.sort(key=lambda x: -x[0])
+	# print similarity[:k]
+	return similarity
+
+sample_dir = "sampleio/"
+# sample_dir = "tp/"
+# sample_dir = ""
+
+
+### DOCUMENT SIMILARITY ###
+## READING INPUT FILE ##
+print "######### Document similarity ###########"
+file_names = open(sample_dir+args['doc_in'],'r').read().splitlines()
+# print(file_names)
+
+
+## COMPUTING SIMILARITY and writing results
+fout = open(sample_dir+args['doc_out'],'w')
+
+for t in file_names:
+	similarity = simiCalc(t,titles,vs)
 	first = True
 	for i,outp in similarity[:k]:
 		if first == True:
@@ -226,53 +200,82 @@ for t in file_names:
 			continue
 		fout.write(';\t'+rev_titles[outp])
 	fout.write('\n')
-
 fout.close()
 
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
-print "-------------------------------------------------------"
+print "Document similarity done"
+t6 = datetime.datetime.now()
+t5diff = t6-t5
+print t5diff;
+
 
 ## TERM SIMILARITY
 ### READING INPUT FILE
-term_names = open(args['dir']+'/'+args['term_in'],'r').read().splitlines()
-print "######### Document similarity ###########"
-print(term_names)
+print "######### Term similarity ###########"
+term_names = open(sample_dir+args['term_in'],'r').read().splitlines()
+# print(term_names)
 
 
+## COMPUTING SIMILARITY and writing results
+fout = open(sample_dir+args['term_out'],'w')
 
-### COMPUTING SIMILARITY and writing results
-fout = open(args['dir']+'/'+args['term_out'],'w')
-term_sim = []
 for t in term_names:
-	idx = lex_dict[t]
-	print "----------------------------"
-	print idx
-	print "----------------------------++++++"
-	similarity = []
-	# print v.shape
-	d1 = us[idx-1,:]
-	for i,r in enumerate(us):
-		val = np.dot(d1,r)
-		if (d1 == r).all():
-			print "voila: ", r
-			print (i+1, val)
-		#print (i+1,val)
-		similarity.append((val,i+1))
-		similarity.sort(key=lambda x: -x[0])
-	#dec_simi = sorted(similarity,key=lambda x:(float(x[1]),float(x[0])))	
-	# dec_simi = sorted(similarity)
-	print "wwwwwwwwww Documents similar to Doc%d wwwwwwwwwwww" % (idx)
-	print similarity[:k]
+	similarity = simiCalc(t.lower(),lexicon,us)
 	first = True
 	for i,outp in similarity[:k]:
 		if first == True:
 			first = False
-			fout.write(lexicon[outp])
+			fout.write(lex_dict[outp])
 			continue
-		fout.write(';\t'+lexicon[outp])
+		fout.write(';\t'+lex_dict[outp])
 	fout.write('\n')
-
 fout.close()
+
+print "Terms similarity done"
+t7 = datetime.datetime.now()
+t6diff = t7-t6
+print t6diff;
+
+
+## QUERY SIMILARITY
+### READING INPUT FILE
+print "######### Query similarity ###########"
+queries = open(sample_dir+args['query_in'],'r').read().splitlines()
+# print(queries)
+
+fout = open(sample_dir+args['query_out'],'w')
+
+tmp = np.dot(u,sinv1)					# u*sigmainv
+for query in queries:
+	tf_vector = [0]*len(lexicon)
+	query = query.lower()
+	terms = pattern.split(query)
+	for t in terms:
+		t = t.lower()
+		if t in lexicon:
+			tf_vector[lexicon[t]-1] += 1
+
+	d1 = np.dot(tf_vector,tmp)
+	n1 = np.linalg.norm(d1)
+	similarity = []
+
+	for i,r in enumerate(vs):
+		val = np.dot(r,d1) / (np.linalg.norm(r)*n1)
+		similarity.append((val,i+1))
+	similarity.sort(key=lambda x: -x[0])
+	# print similarity[:k]
+
+	first = True
+	for val,idx in similarity[:k]:
+		if first == True:
+			first = False
+			fout.write(rev_titles[idx])
+			continue
+		fout.write(';\t'+rev_titles[idx])
+	fout.write('\n')
+fout.close()
+
+print "Queries done"
+t8 = datetime.datetime.now()
+t7diff = t8-t7
+print t7diff;
+
