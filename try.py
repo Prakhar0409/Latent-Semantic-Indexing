@@ -176,7 +176,6 @@ print len(lexicon)
 # tdm = np.matrix(tdm_tfidf_l2)
 # tdm = np.matrix()
 
-# a = sp.csc_matrix(tdm.T)						# converting to a sparse matrix
 stdm = stdm.asfptype()								# converting matrix to matrix of floats
 [u, s, vt] = svds(stdm, k = 8, which = 'LM')		# u -> terms x k | s -> k x k | vt -> k x documents
 v = vt.T

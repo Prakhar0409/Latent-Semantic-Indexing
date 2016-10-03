@@ -5,6 +5,7 @@ from scipy.sparse.linalg import svds
 
 pattern = re.compile(r'\W+')
 
+stop_words = {'','1','2','3','4','5','6','7','8','9','0','a','about','above','across','after','again','against','all','almost','alone','along','already','also','although','always','among','an','and','another','any','anybody','anyone','anything','anywhere','are','area','areas','around','as','ask','asked','asking','asks','at','away','b','back','backed','backing','backs','be','became','because','become','becomes','been','before','began','behind','being','beings','best','better','between','big','both','but','by','c','came','can','cannot','case','cases','certain','certainly','clear','clearly','come','could','d','did','differ','different','differently','do','does','done','down','down','downed','downing','downs','during','e','each','early','either','end','ended','ending','ends','enough','even','evenly','ever','every','everybody','everyone','everything','everywhere','f','face','faces','fact','facts','far','felt','few','find','finds','first','for','four','from','full','fully','further','furthered','furthering','furthers','g','gave','general','generally','get','gets','give','given','gives','go','going','good','goods','got','great','greater','greatest','group','grouped','grouping','groups','h','had','has','have','having','he','her','here','herself','high','high','high','higher','highest','him','himself','his','how','however','i','if','important','in','interest','interested','interesting','interests','into','is','it','its','itself','j','just','k','keep','keeps','kind','knew','know','known','knows','l','large','largely','last','later','latest','least','less','let','lets','like','likely','long','longer','longest','m','made','make','making','man','many','may','me','member','members','men','might','more','most','mostly','mr','mrs','much','must','my','myself','n','necessary','need','needed','needing','needs','never','new','new','newer','newest','next','no','nobody','non','noone','not','nothing','now','nowhere','number','numbers','o','of','off','often','old','older','oldest','on','once','one','only','open','opened','opening','opens','or','order','ordered','ordering','orders','other','others','our','out','over','p','part','parted','parting','parts','per','perhaps','place','places','point','pointed','pointing','points','possible','present','presented','presenting','presents','problem','problems','put','puts','q','quite','r','rather','really','right','right','room','rooms','s','said','same','saw','say','says','second','seconds','see','seem','seemed','seeming','seems','sees','several','shall','she','should','show','showed','showing','shows','side','sides','since','small','smaller','smallest','so','some','somebody','someone','something','somewhere','state','states','still','still','such','sure','t','take','taken','than','that','the','their','them','then','there','therefore','these','they','thing','things','think','thinks','this','those','though','thought','thoughts','three','through','thus','to','today','together','too','took','toward','turn','turned','turning','turns','two','u','under','until','up','upon','us','use','used','uses','v','very','w','want','wanted','wanting','wants','was','way','ways','we','well','wells','went','were','what','when','where','whether','which','while','who','whole','whose','why','will','with','within','without','work','worked','working','works','would','x','y','year','years','yet','you','young','younger','youngest','your','yours','z'}
 
 t1 = datetime.datetime.now()
 # running command below
@@ -46,33 +47,42 @@ print('############################')
 
 
 
-base_dir= args['dir']
+base_dir = args['dir']
+# doc_list = os.listdir(base_dir)
 
 #MAKING VOCABULARY
+# lexicon = set()
 lexicon = dict()
 titles = dict()
 rev_titles = dict()
+tdf = dict()
 
 print "Making lexicon"
 for idx in range(1,num_docs+1):
 	d = str(idx)+".txt"
 	with open(base_dir+'/'+d,'rt') as f:
+		flag = False
 		t = f.readline()
 		con = t+f.read()
+		# print con[:-1]
+		# con= con.lower()
 		con = pattern.split(con)
 		titles[t[:-1]] = int(d[:-4])
 		rev_titles[int(d[:-4])] = t[:-1]
 		
 		for word in con:
 			w = word.lower()
-			if w == '':
+			if w in stop_words:
 				continue
 			elif w in lexicon:
-				a = 1
+				if flag==False:
+					flag = True
+					tdf[w] += 1.0 
+				continue
 			else:
+				tdf[w] = 1.0
 				lexicon[w] = num_terms
 				num_terms +=1
-
 
 # print lexicon
 # print titles
@@ -100,17 +110,21 @@ def tf(idx):
 		# print con
 		tf_dict = dict()
 		for w in con:
-			if w == '':
+			if w in stop_words:
 				continue
 			elif w in tf_dict:
 				tf_dict[w] += 1.0
 			else:
 				tf_dict[w] = 1.0
 		
+		denom = 0.0
+		for (k,v) in tf_dict.items():
+			denom += v**2
+		denom = math.sqrt(denom)
 		for (k,v) in tf_dict.items():
 			row.append(lexicon[k] - 1)
 			col.append(idx-1)
-			freq.append(v)
+			freq.append(v/denom)
 
 print "Calculating term doc matrix"
 
@@ -138,22 +152,18 @@ print "Calculating svds"
 u, s, vt = svds(stdm, k = z, which = 'LM')			# u - nxk; v - kxm
 v = vt.T
 
-threshold = 0.000000000000001
-sinv = []
-for t in s:
-	if t < threshold:
-		sinv.append(0.0)
-	else:
-		sinv.append(1.0/t)
-
-# print s
-# print sinv
-sinv = np.array(sinv)
-sinv1 = np.diag(sinv)
-
 s1 = np.diag(s)
 us = np.dot(u,s1)
 vs = np.dot(v,s1)
+
+# print u
+# print vt
+# print "v::::"
+# print v
+#print s
+#print len(s)
+
+
 
 t5 = datetime.datetime.now()
 t4diff = t5-t4
@@ -163,32 +173,42 @@ print "Calculated svds"
 
 
 def simiCalc(t,word_dict,mat):
-	idx = word_dict[t]	
+	idx = word_dict[t]
+	print "----------------------------"
+	print idx
+	print "----------------------------"
 	similarity = []
 	# print v.shape
 	d1 = mat[idx-1,:]
-	n1 = np.linalg.norm(d1)
 	for i,r in enumerate(mat):
-		val = np.dot(d1,r)/ (np.linalg.norm(r) * n1)
+		val = np.dot(d1,r)
+		if (d1 == r).all():
+			print (i+1, val)
+		if (idx - i == 1):
+			print "voila: "	
+			print (i+1, val)
 		similarity.append((val,i+1))
+	print "wwwwwwwwww Similar objects to obj%d: %s wwwwwwwwwwww" % (idx,t)
 	similarity.sort(key=lambda x: -x[0])
-	# print similarity[:k]
+	print similarity[:k]
 	return similarity
 
 sample_dir = "sampleio/"
 # sample_dir = "tp/"
 # sample_dir = ""
-
-
 ### DOCUMENT SIMILARITY ###
+
 ## READING INPUT FILE ##
-print "######### Document similarity ###########"
 file_names = open(sample_dir+args['doc_in'],'r').read().splitlines()
-# print(file_names)
+print "######### Document similarity ###########"
+print(file_names)
 
 
 ## COMPUTING SIMILARITY and writing results
+
+
 fout = open(sample_dir+args['doc_out'],'w')
+# print similarity
 
 for t in file_names:
 	similarity = simiCalc(t,titles,vs)
@@ -207,19 +227,24 @@ t6 = datetime.datetime.now()
 t5diff = t6-t5
 print t5diff;
 
+print "-------------------------------------------------------"
+print "-------------------------------------------------------"
+print "-------------------------------------------------------"
+print "-------------------------------------------------------"
+print "-------------------------------------------------------"
 
 ## TERM SIMILARITY
 ### READING INPUT FILE
-print "######### Term similarity ###########"
 term_names = open(sample_dir+args['term_in'],'r').read().splitlines()
-# print(term_names)
+print "######### TERM similarity ###########"
+print(term_names)
 
-
-## COMPUTING SIMILARITY and writing results
+### COMPUTING SIMILARITY and writing results
 fout = open(sample_dir+args['term_out'],'w')
 
+
 for t in term_names:
-	similarity = simiCalc(t.lower(),lexicon,us)
+	similarity = simiCalc(t,lexicon,us)
 	first = True
 	for i,outp in similarity[:k]:
 		if first == True:
@@ -236,34 +261,38 @@ t6diff = t7-t6
 print t6diff;
 
 
+
+
 ## QUERY SIMILARITY
 ### READING INPUT FILE
-print "######### Query similarity ###########"
+# X1 = np.dot(us,vt)
 queries = open(sample_dir+args['query_in'],'r').read().splitlines()
-# print(queries)
+print "######### Query similarity ###########"
+print(queries)
 
 fout = open(sample_dir+args['query_out'],'w')
 
-tmp = np.dot(u,sinv1)					# u*sigmainv
+
 for query in queries:
-	tf_vector = [0]*len(lexicon)
-	query = query.lower()
-	terms = pattern.split(query)
+	similarity = [(0,0)]* num_docs 
+	terms = query.split()
 	for t in terms:
-		t = t.lower()
-		if t in lexicon:
-			tf_vector[lexicon[t]-1] += 1
+		idx = lexicon[t.lower()]
+		r = u[idx - 1,:]
+		tmp = []
+		for i,c in enumerate(vs):
+			x,y = similarity[i] 
+			x += np.dot(c,r)
+			y = i+1
+			similarity[i]=(x,y)
+		
+		# similarity += tmp
 
-	d1 = np.dot(tf_vector,tmp)
-	n1 = np.linalg.norm(d1)
-	similarity = []
+		# similarity += [(np.dot(c,r),i+1) for i,c in enumerate(vs)]
 
-	for i,r in enumerate(vs):
-		val = np.dot(r,d1) / (np.linalg.norm(r)*n1)
-		similarity.append((val,i+1))
-	similarity.sort(key=lambda x: -x[0])
-	# print similarity[:k]
-
+	# print similarity
+	similarity.sort(key=lambda x: -x[0])	
+	print similarity[:k]
 	first = True
 	for val,idx in similarity[:k]:
 		if first == True:
@@ -273,9 +302,4 @@ for query in queries:
 		fout.write(';\t'+rev_titles[idx])
 	fout.write('\n')
 fout.close()
-
-print "Queries done"
-t8 = datetime.datetime.now()
-t7diff = t8-t7
-print t7diff;
 

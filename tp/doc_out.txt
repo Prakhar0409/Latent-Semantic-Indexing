@@ -1,1 +1,2 @@
 I have a pen;	I have a pineapple;	I have another pen;	I have an apple
+apple-pen;	I have a pen;	I have an apple;	I have another pen

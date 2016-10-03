@@ -1,2 +1,2 @@
-an;	have;	a;	another
-have;	a;	an;	another
+apple;	an;	i;	have
+a;	i;	have;	pineapple
