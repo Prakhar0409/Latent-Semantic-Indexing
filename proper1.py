@@ -9,8 +9,10 @@ stop_words = {''} #,'1','2','3','4','5','6','7','8','9','0','a','about','above',
 
 t1 = datetime.datetime.now()
 # running command below
-# python lsi.py -z 100 -k 9 --dir Documents --doc_in doc_in.txt --doc_out doc_out.txt --query_in query_in.txt --query_out query_out.txt --term_in term_in.txt --term_out term_out.txt
-
+# python try3.py -z 4 -k 4 --dir test --doc_in doc_in.txt --doc_out doc_out.txt --query_in query_in.txt --query_out query_out.txt --term_in term_in.txt --term_out term_out.txt
+# python try3.py -z 100 -k 9 --dir Documents --doc_in doc_in.txt --doc_out doc_out.txt --query_in query_in.txt --query_out query_out.txt --term_in term_in.txt --term_out term_out.txt
+num_terms = 1
+num_docs = 5000
 
 def readCommandLine():
 	parser = argparse.ArgumentParser(description='Process input and output file names.')
@@ -41,8 +43,6 @@ k = args['k']
 
 # print(args)
 print('############################')
-num_terms = 1
-num_docs = len(os.listdir(args['dir']))
 ############################################################reading arguments done
 
 
@@ -174,7 +174,7 @@ def simiCalc(t,word_dict,mat):
 	# print similarity[:k]
 	return similarity
 
-# sample_dir = "sampleIO/"
+# sample_dir = "sampleio/"
 # sample_dir = "tp/"
 sample_dir = ""
 
